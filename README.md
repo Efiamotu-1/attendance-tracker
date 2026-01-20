@@ -1,184 +1,229 @@
-<a name="readme-top"></a>
-
 <div align="center">
+  <h1>📚 AttendanceTracker</h1>
+  <p><strong>Never fall below 75% attendance again.</strong></p>
+  
+  <p>A modern, intelligent attendance tracking application built for university students who need to monitor their class attendance to meet mandatory requirements.</p>
 
+  ![React](https://img.shields.io/badge/React-18.x-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+  ![Supabase](https://img.shields.io/badge/Supabase-Backend-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+  ![TailwindCSS](https://img.shields.io/badge/Tailwind-CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+  ![Vite](https://img.shields.io/badge/Vite-Build-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+
+  [Live Demo](#) · [Report Bug](https://github.com/Efiamotu-1/attendance-tracker/issues) · [Request Feature](https://github.com/Efiamotu-1/attendance-tracker/issues)
 </div>
 
-<!-- TABLE OF CONTENTS -->
+---
 
-# 📗 Table of Contents
+## 🎯 The Problem
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-    <!-- - [🚀 Live Demo](#live-demo) -->
-- [💻 Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Setup](#setup)
-  - [Install](#install)
-  - [Usage](#usage)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](#license)
+In many universities worldwide, **75% attendance is mandatory** to be eligible for exams. Students often:
+- Lose track of their attendance across multiple courses
+- Realize too late that they're at risk of being barred from exams
+- Struggle with manual tracking in spreadsheets or notebooks
 
-<!-- PROJECT DESCRIPTION -->
+**AttendanceTracker solves this** by providing real-time analytics, risk alerts, and intelligent predictions.
 
-# 📖 Attendance Tracker <a name="about-project"></a>
+---
 
-**[Attendance Tracker]** is an application built for students in a university setting trying to track their attendance for compulsory and elective course, it comes in handy and also with an aesthetically pleasing user interface.
+## ✨ Features
 
-## 🛠 Built With <a name="built-with"></a>
+### 📊 Smart Dashboard
+- Real-time attendance percentage for all courses
+- Visual progress bars with color-coded status (green ≥75%, red <75%)
+- "Courses at Risk" alert showing courses below threshold
+- Interactive line graph for attendance trends
 
-### Tech Stack <a name="tech-stack"></a>
+### 📚 Course Management
+- Add unlimited courses (compulsory & elective)
+- Department categorization
+- Edit and delete with confirmation modals
+- Per-course attendance history
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-    <li><a href="https://tanstack.com/query/latest">React Query</a></li>
-    <li><a href="https://tailwindcss.com/docs/installation">TailwindCss</a></li>
-     <li><a href="https://www.styled-components.com/">Styled Components</a></li>
-  </ul>
-   <summary>Server</summary>
-  <ul>
-    <li><a href="https://supabase.com/">Ruby on Rails</a></li>
-  </ul>
-  <summary>Render</summary>
-   <ul>
-    <li><a href="https://dashboard.render.com/">Postgresql</a></li>
-  </ul> -->
-</details>
+### 🧮 Classes-I-Can-Miss Calculator
+- Know exactly how many classes you can skip
+- Real-time calculation based on current attendance
+- Prevents accidental drops below 75%
 
-<!-- Features -->
+### 📝 Attendance Logging
+- Quick one-click attendance logging
+- Track whether class was held vs attended
+- Date picker for backdated entries
+- Immutable records for accuracy
 
-### Key Features <a name="key-features"></a>
+### 🎨 Modern UI/UX
+- Light & Dark mode toggle
+- Fully responsive design
+- Smooth animations and transitions
+- Custom dropdown and date picker components
 
-- **State Management**
-- **Admin Dashboard**
-- **efficient styling**
-- **Dark mode**
-- **Rails API Authentication & Authorization**
-- **Fetching data using react query to keep it in sync at all times**
+### 🔐 Secure Authentication
+- Email/password authentication via Supabase
+- Row-level security (RLS) for data isolation
+- Each user's data is completely private
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+---
 
-<!-- LIVE DEMO -->
+## 🖼️ Screenshots
 
-## 🚀 Live Demo <a name="live-demo"></a>
+<div align="center">
+  <p><em>Dashboard with course performance cards and attendance trends</em></p>
+</div>
 
-> Add a link to your deployed project.
+---
 
-- [Live Demo Link]()
+## 🛠️ Tech Stack
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+| Category | Technology |
+|----------|------------|
+| **Frontend** | React 18, React Router v6 |
+| **Styling** | Tailwind CSS, Custom Components |
+| **State Management** | TanStack Query (React Query) |
+| **Backend** | Supabase (PostgreSQL, Auth, RLS) |
+| **Build Tool** | Vite |
+| **Icons** | Heroicons (react-icons/hi2) |
 
-<!-- GETTING STARTED -->
+---
 
-## 💻 Getting Started <a name="getting-started"></a>
-
-To get a local copy up and running, follow these steps.
+## 🚀 Getting Started
 
 ### Prerequisites
 
-In order to run this project you need:
+- Node.js 18+ 
+- npm or yarn
+- Supabase account (free tier works)
 
-- A Good code editor such as `VS Code [Most recommended]`, `Sublime text` etc
-- A Web browser such as `Chrome [Most recommended], Firefox` etc
+### Installation
 
-### Setup
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Efiamotu-1/attendance-tracker.git
+   cd attendance-tracker
+   ```
 
-Clone this repository to your desired folder e.g `my-folder`:
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-Example commands:
+3. **Set up Supabase**
+   
+   Create a new Supabase project and run the following SQL:
 
-```sh
-  cd my-folder
-  git clone https://github.com/Efiamotu-1/attendance-tracker.git
+   ```sql
+   -- Courses table
+   CREATE TABLE courses (
+     id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
+     user_id UUID REFERENCES auth.users(id) ON DELETE CASCADE,
+     course_title TEXT NOT NULL,
+     course_description TEXT,
+     course_priority BOOLEAN DEFAULT true,
+     department TEXT,
+     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+   );
+
+   -- Attendance table
+   CREATE TABLE attendance (
+     id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
+     course_id UUID REFERENCES courses(id) ON DELETE CASCADE,
+     class_date DATE NOT NULL,
+     class_held INTEGER DEFAULT 0,
+     class_attended INTEGER DEFAULT 0,
+     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+   );
+
+   -- Enable RLS
+   ALTER TABLE courses ENABLE ROW LEVEL SECURITY;
+   ALTER TABLE attendance ENABLE ROW LEVEL SECURITY;
+
+   -- RLS Policies
+   CREATE POLICY "Users can manage own courses" ON courses
+     FOR ALL USING (auth.uid() = user_id);
+
+   CREATE POLICY "Users can manage attendance for own courses" ON attendance
+     FOR ALL USING (
+       course_id IN (SELECT id FROM courses WHERE user_id = auth.uid())
+     );
+   ```
+
+4. **Configure environment**
+   
+   Update `src/services/supabase.js` with your Supabase URL and anon key.
+
+5. **Start development server**
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+├── context/          # Theme context provider
+├── features/         # Feature-based modules
+│   ├── authentication/
+│   ├── courses/
+│   └── reports/
+├── hooks/            # Custom React hooks
+├── pages/            # Route components
+├── services/         # API layer (Supabase)
+└── ui/               # Reusable UI components
 ```
 
-### Install
+---
 
-Install this project with:
+## 🔮 Roadmap
 
-Example command:
+- [x] Core attendance tracking
+- [x] Dark/Light mode
+- [x] Course performance analytics
+- [x] Line graph visualization
+- [x] Classes-I-Can-Miss calculator
+- [ ] Push notifications for low attendance
+- [ ] Calendar integration
+- [ ] PDF report export
+- [ ] PWA support (offline mode)
+- [ ] Semester archiving
 
-```sh
-  cd attendance-tracker
-  npm install
-```
+---
 
-### Usage
+## 🤝 Contributing
 
-To run the project, execute the following command:
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-Example command:
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-```sh
-  npm run dev
-```
+---
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 👨‍💻 Author
 
-<!-- AUTHORS -->
+**Habeeb Efiamotu Musa Owolewa**
 
-## 👥 Author <a name="authors"></a>
+[![GitHub](https://img.shields.io/badge/GitHub-@Efiamotu--1-181717?style=flat-square&logo=github)](https://github.com/Efiamotu-1)
+[![Twitter](https://img.shields.io/badge/Twitter-@EFYAMOTU-1DA1F2?style=flat-square&logo=twitter)](https://twitter.com/EFYAMOTU)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Musa--habeeb-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/Musa-habeeb/)
 
-👤 **Habeeb Efiamotu Musa Owolewa**
+---
 
-| 👤 Name                      | Github                                       | Twitter                                   | LinkedIn                                             |
-| ---------------------------- | -------------------------------------------- | ----------------------------------------- | ---------------------------------------------------- |
-| Habeeb Efiamotu Musa Owolewa | [@Efiamotu-1](https://github.com/Efiamotu-1) | [@EFYAMOTU](https://twitter.com/EFYAMOTU) | [LinkedIn](https://www.linkedin.com/in/Musa-habeeb/) |
+## 📄 License
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
-<!-- FUTURE FEATURES -->
+---
 
-## 🔭 Future Features <a name="future-features"></a>
+## 🙏 Acknowledgments
 
-- [ ] **Connect app with a traditional database built with a backend tool**
+- Design inspiration from Jonas Schmedtmann's Ultimate React Course
+- Icons by [Heroicons](https://heroicons.com/)
+- Backend powered by [Supabase](https://supabase.com/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+---
 
-<!-- CONTRIBUTING -->
-
-## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/Efiamotu-1/attendance-tracker/issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
-
-## ⭐️ Show your support <a name="support"></a>
-
-If you like this project show your support by giving it a star ⭐️
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-I would like to thank Jonas Schmedtmann for his `Ultimate React Udemy course` which was the building block for this project's design
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./LICENSE) licensed.
-
-[MIT license available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<div align="center">
+  <p>If this project helped you, please consider giving it a ⭐️</p>
+</div>

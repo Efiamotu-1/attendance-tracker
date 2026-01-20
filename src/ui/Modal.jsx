@@ -1,57 +1,8 @@
 import { cloneElement, createContext, useContext, useState } from "react";
 import { createPortal } from "react-dom";
 import { HiXMark } from "react-icons/hi2";
-import styled from "styled-components";
 import { useOutsideClick } from "../hooks/useOutsideClick";
-
-const StyledModal = styled.div`
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #18212f;
-  border-radius: 9px;
-  box-shadow: 9px;
-  padding: 1.6rem 2rem;
-  transition: all 0.5s;
-`;
-
-const Overlay = styled.div`
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(4px);
-  z-index: 1000;
-  transition: all 0.5s;
-`;
-
-const Button = styled.button`
-  background: none;
-  border: none;
-  padding: 0.4rem;
-  border-radius: 5px;
-  transform: translateX(0.8rem);
-  transition: all 0.2s;
-  position: absolute;
-  top: 1.2rem;
-  right: 1.9rem;
-
-  &:hover {
-    background-color: #1f2937;
-  }
-
-  & svg {
-    width: 1.2rem;
-    height: 1.2rem;
-    /* Sometimes we need both */
-    /* fill: var(--color-grey-500);
-    stroke: var(--color-grey-500); */
-    color:  #9ca3af;
-  }
-`;
+import { useTheme } from "../context/ThemeContext";
 
 const ModalContext = createContext();
 
@@ -77,19 +28,42 @@ function Open({ children, opens: opensWindowName }) {
 function Window({ children, name }) {
   const { openName, close } = useContext(ModalContext);
   const ref = useOutsideClick(close);
+  const { isDarkMode } = useTheme();
 
   if (name !== openName) return null;
 
   return createPortal(
-    <Overlay>
-      <StyledModal ref={ref}>
-        <Button onClick={close}>
-          <HiXMark />
-        </Button>
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black/70 backdrop-blur-sm animate-fade-in" />
+      
+      {/* Modal */}
+      <div 
+        ref={ref}
+        className={`relative w-full max-w-md border rounded-2xl shadow-2xl animate-slide-up transition-colors ${
+          isDarkMode 
+            ? 'bg-dark-800 border-dark-700' 
+            : 'bg-white border-gray-200'
+        }`}
+      >
+        {/* Close Button */}
+        <button
+          onClick={close}
+          className={`absolute top-4 right-4 p-2 rounded-lg transition-colors ${
+            isDarkMode 
+              ? 'hover:bg-dark-700 text-dark-400 hover:text-white' 
+              : 'hover:bg-gray-100 text-gray-500 hover:text-gray-900'
+          }`}
+        >
+          <HiXMark className="w-5 h-5" />
+        </button>
 
-        <div>{cloneElement(children, { onCloseModal: close })}</div>
-      </StyledModal>
-    </Overlay>,
+        {/* Content */}
+        <div className="p-6">
+          {cloneElement(children, { onCloseModal: close })}
+        </div>
+      </div>
+    </div>,
     document.body
   );
 }

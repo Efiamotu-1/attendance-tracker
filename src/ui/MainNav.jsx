@@ -1,73 +1,52 @@
 import { NavLink } from "react-router-dom";
-import styled from "styled-components";
 import {
-  HiNewspaper,
   HiOutlineHome,
-  HiOutlinePencilSquare,
+  HiOutlineBookOpen,
+  HiOutlineClipboardDocumentList,
 } from "react-icons/hi2";
+import { useTheme } from "../context/ThemeContext";
 
+const navItems = [
+  { to: "/dashboard", icon: HiOutlineHome, label: "Dashboard" },
+  { to: "/courses", icon: HiOutlineBookOpen, label: "Courses" },
+  { to: "/reports", icon: HiOutlineClipboardDocumentList, label: "Reports" },
+];
 
-const StyledNavLink = styled(NavLink)`
-  &:link,
-  &:visited {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-
-    color: #d1d5db;
-    font-size: 1rem;
-    font-weight: 500;
-    padding: .8rem 1.6rem;
-    transition: all 0.3s;
-  }
-
-  /* This works because react-router places the active class on the active NavLink */
-  &:hover,
-  &:active,
-  &.active:link,
-  &.active:visited {
-    color: #f3f4f6;
-    background-color: #111827;
-    border-radius: 5px;
-  }
-
-  & svg {
-    width: 2rem;
-    height: 2rem;
-    color: #6b7280;
-    transition: all 0.3s;
-  }
-
-  &:hover svg,
-  &:active svg,
-  &.active:link svg,
-  &.active:visited svg {
-    color: #4f46e5;
-  }
-`;
-
-function MainNav({setShowSideBar}) {
+function MainNav({ setShowSideBar }) {
+  const { isDarkMode } = useTheme();
+  
   return (
     <nav>
-      <ul className="flex flex-col gap-1">
-        <li onClick={() => {setShowSideBar(false)}}>
-          <StyledNavLink to="/dashboard">
-            <HiOutlineHome />
-            <span>Home</span>
-          </StyledNavLink>
-        </li>
-        <li onClick={() => {setShowSideBar(false)}}>
-          <StyledNavLink to="/courses">
-            <HiNewspaper />
-            <span>Courses</span>
-          </StyledNavLink>
-        </li>
-        <li onClick={() => {setShowSideBar(false)}}>
-          <StyledNavLink to="/reports">
-            <HiOutlinePencilSquare />
-            <span>Attendance Reports</span>
-          </StyledNavLink>
-        </li>
+      <ul className="space-y-1">
+        {navItems.map(({ to, icon: Icon, label }) => (
+          <li key={to}>
+            <NavLink
+              to={to}
+              onClick={() => setShowSideBar(false)}
+              className={({ isActive }) =>
+                `flex items-center gap-3 px-4 py-3 rounded-xl font-medium transition-all duration-200 group ${
+                  isActive
+                    ? "bg-primary-500/20 text-primary-500"
+                    : isDarkMode 
+                      ? "text-dark-400 hover:bg-dark-800 hover:text-dark-200"
+                      : "text-gray-600 hover:bg-gray-100 hover:text-gray-900"
+                }`
+              }
+            >
+              {({ isActive }) => (
+                <>
+                  <Icon className={`w-5 h-5 transition-transform group-hover:scale-110 ${
+                    isActive ? "text-primary-500" : ""
+                  }`} />
+                  <span>{label}</span>
+                  {isActive && (
+                    <div className="ml-auto w-1.5 h-1.5 bg-primary-500 rounded-full" />
+                  )}
+                </>
+              )}
+            </NavLink>
+          </li>
+        ))}
       </ul>
     </nav>
   );

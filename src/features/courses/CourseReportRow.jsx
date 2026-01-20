@@ -1,40 +1,60 @@
-import styled from "styled-components";
-
-import { HiCheck,HiXMark } from "react-icons/hi2";
-
-const TableRow = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  column-gap: 1.2rem;
-  align-items: center;
-  justify-items: center;
-  padding: 0.7rem 1.2rem;
-
-  &:not(:last-child) {
-    border-bottom: 1px solid #1f2937;
-  }
-`;
-
+import { HiCheck, HiXMark } from "react-icons/hi2";
+import { useTheme } from "../../context/ThemeContext";
 
 function CourseReportRow({ report, course }) {
+  const { class_held, class_attended, class_date } = report;
+  const { isDarkMode } = useTheme();
 
-
-  const {class_held, class_attended, class_date} = report
-
-  
+  const formatDate = (dateStr) => {
+    const date = new Date(dateStr);
+    return date.toLocaleDateString('en-US', { 
+      month: 'short', 
+      day: 'numeric',
+      year: 'numeric'
+    });
+  };
 
   return (
-    <>
-      <TableRow role="row" >
-        <div>{course}</div>
-        <div>{class_date}</div>
-      {class_held === 1 ?  <div className="bg-green-500 p-1.5 rounded-lg"><HiCheck /></div> :
-        <div className="bg-red-500 p-1.5 rounded-lg"><HiXMark /></div> }
-
-{class_attended === 1 ?  <div className="bg-green-500 p-1.5 rounded-lg"><HiCheck /></div> :
-        <div className="bg-red-500 p-1.5 rounded-lg"><HiXMark /></div> }
-      </TableRow>
-    </>
+    <div role="row" className={`grid grid-cols-4 gap-4 px-6 py-4 items-center transition-colors ${
+      isDarkMode ? 'hover:bg-dark-700/30' : 'hover:bg-gray-50'
+    }`}>
+      <div className="flex items-center gap-3">
+        <div className="w-10 h-10 bg-primary-500/20 rounded-xl flex items-center justify-center">
+          <span className="text-sm font-bold text-primary-500">
+            {course.charAt(0).toUpperCase()}
+          </span>
+        </div>
+        <span className={`font-medium truncate ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>{course}</span>
+      </div>
+      
+      <div className={`text-center text-sm ${isDarkMode ? 'text-dark-300' : 'text-gray-600'}`}>
+        {formatDate(class_date)}
+      </div>
+      
+      <div className="flex justify-center">
+        {class_held === 1 ? (
+          <div className="p-1.5 bg-emerald-500/20 rounded-lg">
+            <HiCheck className="w-4 h-4 text-emerald-500" />
+          </div>
+        ) : (
+          <div className="p-1.5 bg-red-500/20 rounded-lg">
+            <HiXMark className="w-4 h-4 text-red-500" />
+          </div>
+        )}
+      </div>
+      
+      <div className="flex justify-center">
+        {class_attended === 1 ? (
+          <div className="p-1.5 bg-emerald-500/20 rounded-lg">
+            <HiCheck className="w-4 h-4 text-emerald-500" />
+          </div>
+        ) : (
+          <div className="p-1.5 bg-red-500/20 rounded-lg">
+            <HiXMark className="w-4 h-4 text-red-500" />
+          </div>
+        )}
+      </div>
+    </div>
   );
 }
 

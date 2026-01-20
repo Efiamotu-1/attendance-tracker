@@ -1,23 +1,53 @@
 import { useNavigate } from "react-router-dom";
-import { useEffect } from "react";
-
+import { useEffect, useState } from "react";
+import { supabase } from "../services/supabase";
+import Spinner from "./Spinner";
 
 function ProtectedRoute({ children }) {
   const navigate = useNavigate();
+  const [isLoading, setIsLoading] = useState(true);
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
 
-  // 1. Load the authenticated user
-  const user = JSON.parse(localStorage.getItem("user")) 
-  const isAuthenticated = user ? true : false
+  useEffect(() => {
+    async function checkAuth() {
+      const {
+        data: { session },
+      } = await supabase.auth.getSession();
 
-  // 2. If there is NO authenticated user, redirect to the /login
-  useEffect(
-    function () {
-      if (!isAuthenticated ) navigate("/login");
-    },
-    [isAuthenticated, navigate]
-  );
+      if (!session) {
+        setIsAuthenticated(false);
+        navigate("/login");
+      } else {
+        setIsAuthenticated(true);
+      }
+      setIsLoading(false);
+    }
 
-  // 4. If there IS a user, render the app
+    checkAuth();
+
+    // Listen for auth state changes
+    const {
+      data: { subscription },
+    } = supabase.auth.onAuthStateChange((event, session) => {
+      if (event === "SIGNED_OUT" || !session) {
+        setIsAuthenticated(false);
+        navigate("/login");
+      } else {
+        setIsAuthenticated(true);
+      }
+    });
+
+    return () => subscription.unsubscribe();
+  }, [navigate]);
+
+  if (isLoading) {
+    return (
+      <div className="h-screen flex items-center justify-center bg-[#111827]">
+        <Spinner />
+      </div>
+    );
+  }
+
   if (isAuthenticated) return children;
 }
 

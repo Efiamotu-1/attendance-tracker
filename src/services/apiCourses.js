@@ -1,113 +1,189 @@
-import { baseUrl} from "./railsUrl";
+import { supabase } from "./supabase";
 
 export async function getCourses() {
-    const {token} = JSON.parse(localStorage.getItem('user'))
+  // Get current user
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
 
-    const res = await fetch(`${baseUrl}/courses`, {
-        headers: {
-            Authorization: token
-        }
-    })
-    if (!res.ok) {
-        const {error} = await res.json()
-        throw new Error(error)
+  if (!user) throw new Error("User not authenticated");
 
+  // Get all courses for the user
+  const { data: courses, error: coursesError } = await supabase
+    .from("courses")
+    .select("*")
+    .eq("user_id", user.id);
+
+  if (coursesError) {
+    throw new Error(coursesError.message);
+  }
+
+  // Get attendance stats for each course
+  const coursesWithStats = await Promise.all(
+    courses.map(async (course) => {
+      const { data: attendance, error: attendanceError } = await supabase
+        .from("attendance")
+        .select("*")
+        .eq("course_id", course.id);
+
+      if (attendanceError) {
+        console.error("Attendance fetch error:", attendanceError);
+        return {
+          ...course,
+          num_of_classes_held: 0,
+          num_of_classes_attended: 0,
+          percentage: 0,
+        };
       }
-      const result = await res.json()
-      return result  
+
+      const num_of_classes_held = attendance.filter(
+        (a) => a.class_held === 1
+      ).length;
+      const num_of_classes_attended = attendance.filter(
+        (a) => a.class_attended === 1
+      ).length;
+      const percentage =
+        num_of_classes_held > 0
+          ? Math.round((num_of_classes_attended / num_of_classes_held) * 100)
+          : 0;
+
+      return {
+        ...course,
+        num_of_classes_held,
+        num_of_classes_attended,
+        percentage,
+      };
+    })
+  );
+
+  return coursesWithStats;
 }
 
 export async function getCourse(id) {
-    const {token} = JSON.parse(localStorage.getItem('user'))
-    const res = await fetch(`${baseUrl}/courses/${id}`, {
-        headers: {
-            Authorization: token
-        }
-    })
-    if (!res.ok) {
-        const {error} = await res.json()
-        throw new Error(error)
+  // Get the course
+  const { data: course, error: courseError } = await supabase
+    .from("courses")
+    .select("*")
+    .eq("id", id)
+    .single();
 
-      }
-      const result = await res.json()
-      return result  
+  if (courseError) {
+    throw new Error(courseError.message);
+  }
+
+  // Get attendance stats for this course
+  const { data: attendance, error: attendanceError } = await supabase
+    .from("attendance")
+    .select("*")
+    .eq("course_id", id);
+
+  if (attendanceError) {
+    console.error("Attendance fetch error:", attendanceError);
+    return {
+      ...course,
+      num_of_classes_held: 0,
+      num_of_classes_attended: 0,
+      percentage: 0,
+    };
+  }
+
+  const num_of_classes_held = attendance.filter(
+    (a) => a.class_held === 1
+  ).length;
+  const num_of_classes_attended = attendance.filter(
+    (a) => a.class_attended === 1
+  ).length;
+  const percentage =
+    num_of_classes_held > 0
+      ? Math.round((num_of_classes_attended / num_of_classes_held) * 100)
+      : 0;
+
+  return {
+    ...course,
+    num_of_classes_held,
+    num_of_classes_attended,
+    percentage,
+  };
 }
 
 export async function getCourseAttendance(id) {
-    const {token} = JSON.parse(localStorage.getItem('user'))
-    
-    const res = await fetch(`${baseUrl}/${id}/course-reports`, {
-        headers: {
-            Authorization: token
-        }
-    })
+  const { data, error } = await supabase
+    .from("attendance")
+    .select("*")
+    .eq("course_id", id)
+    .order("class_date", { ascending: false });
 
-    if (!res.ok) {
-        const {error} = await res.json()
-        throw new Error(error)
+  if (error) {
+    throw new Error(error.message);
+  }
 
-      }
-      const result = await res.json()
-      return result  
+  return data;
 }
 
-export async function createCourse({courseDescription, courseTitle, coursePriority, department}) {
-    const data = {course: {course_title: courseTitle, course_priority: coursePriority, course_description: courseDescription, department}}
-    const {token} = JSON.parse(localStorage.getItem('user')) || '' 
+export async function createCourse({
+  courseDescription,
+  courseTitle,
+  coursePriority,
+  department,
+}) {
+  // Get current user
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
 
-    const res = await fetch(`${baseUrl}/courses`, {
-        method: 'POST',
-        headers: {
-            Authorization: `${token}`,
-            'Content-Type': 'application/json', 
-         },
-        body: JSON.stringify(data)
+  if (!user) throw new Error("User not authenticated");
+
+  const { data, error } = await supabase
+    .from("courses")
+    .insert({
+      course_title: courseTitle,
+      course_description: courseDescription,
+      course_priority: coursePriority,
+      department,
+      user_id: user.id,
     })
+    .select()
+    .single();
 
-    if (!res.ok) {
-        const {error} = await res.json()
-        throw new Error(error)
-      }
-      const result = await res.json()
-      return result 
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  return data;
 }
 
-export async function editCourse({courseDescription, courseTitle, coursePriority, department, courseId}) {
-    const data = {course: {course_title: courseTitle, course_priority: coursePriority, course_description: courseDescription, department}}
-    const {token} = JSON.parse(localStorage.getItem('user')) || '' 
-
-    const res = await fetch(`${baseUrl}/courses/${courseId}`, {
-        method: 'PUT',
-        headers: {
-            Authorization: `${token}`,
-            'Content-Type': 'application/json', 
-         },
-        body: JSON.stringify(data)
+export async function editCourse({
+  courseDescription,
+  courseTitle,
+  coursePriority,
+  department,
+  courseId,
+}) {
+  const { data, error } = await supabase
+    .from("courses")
+    .update({
+      course_title: courseTitle,
+      course_description: courseDescription,
+      course_priority: coursePriority,
+      department,
     })
+    .eq("id", courseId)
+    .select()
+    .single();
 
-    if (!res.ok) {
-        const {error} = await res.json()
-        throw new Error(error)
-      }
-      const result = await res.json()
-      return result 
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  return data;
 }
 
 export async function deleteCourse(id) {
-    const {token} = JSON.parse(localStorage.getItem('user')) || '' 
+  const { error } = await supabase.from("courses").delete().eq("id", id);
 
-    const res = await fetch(`${baseUrl}/courses/${id}`, {
-        method: 'DELETE',
-        headers: {
-            Authorization: `${token}`,
-            'Content-Type': 'application/json', 
-         }
-    })
-    if (!res.ok) {
-        const {error} = await res.json()
-        throw new Error(error)
+  if (error) {
+    throw new Error(error.message);
+  }
 
-      }
-      const result = await res.json()
-      return result
+  return { message: "Course deleted successfully" };
 }

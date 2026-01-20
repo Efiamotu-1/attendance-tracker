@@ -1,52 +1,51 @@
-import styled from "styled-components";
-
 import Spinner from "../../ui/Spinner";
 import CourseRow from "./CourseRow";
 import { useCourses } from "./useCourses";
 import Empty from "../../ui/Empty";
-
-const Table = styled.div`
-  border: 1px solid #374151;
-  font-size: 0.7rem;
-  background-color: #18212f;
-  border-radius: 7px;
-  overflow: hidden;
-`;
-
-const TableHeader = styled.header`
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  column-gap: .6rem;
-  align-items: center;
-  justify-items: center;
-  background-color: #111827;
-  border-bottom: 1px solid #1f2937;
-  text-transform: uppercase;
-  letter-spacing: 0.2px;
-  font-weight: 600;
-  color: #d1d5db;
-  padding: .8rem 1.2rem;
-`;
+import { useTheme } from "../../context/ThemeContext";
 
 function CourseTable() {
-
-  const {isLoading, courses} = useCourses()
-  if (isLoading) return <Spinner />;
-  if(courses.length < 1) return <Empty resourceName="Course" extra="Kindly add a new course."/>
-
+  const { isLoading, courses } = useCourses();
+  const { isDarkMode } = useTheme();
+  
+  if (isLoading) return (
+    <div className='flex items-center justify-center py-20'>
+      <Spinner />
+    </div>
+  );
+  
+  if (courses.length < 1) return <Empty resourceName="Course" extra="Kindly add a new course." />;
 
   return (
-    <Table role="table">
-      <TableHeader role="row">
-        <div>Course</div>
-        <div>Dept</div>
-        <div>Classes</div>
-        <div>Percentage</div>
-      </TableHeader>
-      {courses.map((course) => (
-        <CourseRow course={course} key={course.id} />
-      ))}
-    </Table>
+    <div className={`backdrop-blur border rounded-2xl overflow-hidden ${
+      isDarkMode 
+        ? 'bg-dark-800/50 border-dark-700' 
+        : 'bg-white border-gray-200 shadow-sm'
+    }`}>
+      {/* Scrollable wrapper for mobile */}
+      <div className="overflow-x-auto">
+        <div style={{ minWidth: '600px' }}>
+          {/* Table Header */}
+          <div className={`grid grid-cols-4 gap-4 px-6 py-4 border-b ${
+            isDarkMode 
+              ? 'bg-dark-800 border-dark-700' 
+              : 'bg-gray-50 border-gray-200'
+          }`}>
+            <div className={`text-xs font-semibold uppercase tracking-wider ${isDarkMode ? 'text-dark-400' : 'text-gray-500'}`}>Course</div>
+            <div className={`text-xs font-semibold uppercase tracking-wider text-center ${isDarkMode ? 'text-dark-400' : 'text-gray-500'}`}>Dept</div>
+            <div className={`text-xs font-semibold uppercase tracking-wider text-center ${isDarkMode ? 'text-dark-400' : 'text-gray-500'}`}>Classes</div>
+            <div className={`text-xs font-semibold uppercase tracking-wider text-center ${isDarkMode ? 'text-dark-400' : 'text-gray-500'}`}>Attendance</div>
+          </div>
+          
+          {/* Table Body */}
+          <div className={`divide-y ${isDarkMode ? 'divide-dark-700/50' : 'divide-gray-100'}`}>
+            {courses.map((course) => (
+              <CourseRow course={course} key={course.id} />
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }
 

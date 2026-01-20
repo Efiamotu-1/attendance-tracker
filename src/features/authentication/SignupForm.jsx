@@ -1,87 +1,135 @@
 import { useState } from "react";
-import SpinnerMini from "../../ui/SpinnerMini";
-import Button from "../../ui/Button";
 import { useSignup } from "./useSignup";
-import {HiEye,HiEyeSlash } from 'react-icons/hi2'
+import { HiEye, HiEyeSlash, HiEnvelope, HiLockClosed, HiUser } from 'react-icons/hi2';
 
 function SignupForm() {
-  const [name, setName] = useState("")
+  const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [showPassword, setShowPassword] = useState(false)
-
-  const {signup, isLoading} = useSignup()
+  const [showPassword, setShowPassword] = useState(false);
+  const { signup, isLoading } = useSignup();
 
   function handleSubmit(e) {
-    e.preventDefault()
+    e.preventDefault();
     if (!name || !email || !password) return;
-    signup({name, email, password},{
+    signup({ name, email, password }, {
       onError: () => {
-        setEmail('')
-        setPassword('')
+        setEmail('');
+        setPassword('');
       }
-    })  
+    });
   }
 
-  function handleShowClick() {
-    setShowPassword(prev => !prev)
-  }
+  // Input styles to override browser autofill
+  const inputStyle = {
+    backgroundColor: '#1e293b',
+    color: '#ffffff',
+    WebkitTextFillColor: '#ffffff',
+  };
 
   return (
-    <form onSubmit={handleSubmit} className="px-5 py-7 mx-5 md:px-10 border border-solid border-[#1f2937] bg-[#18212f] rounded-lg text-base text-white">
-      <div className="flex flex-col gap-1">
-        <label className="font-medium">Username</label>
-        <input
-          className="border border-solid border-[#4b5563] bg-[#18212f] py-2 px-4 shadow-sm rounded-lg"
-          type="text"
-          id="name"
-          // This makes this form better for password managers
-          autoComplete="username"
-          value={name}
-          placeholder="choose your username"
-          onChange={(e) => setName(e.target.value)}
-          disabled={isLoading}
-        />
-      </div>
-      <div className="flex flex-col gap-1 py-5">
-        <label className="font-medium">Email address</label>
-        <input
-          className="border border-solid border-[#4b5563] bg-[#18212f] py-2 px-4 shadow-sm rounded-lg"
-          type="email"
-          id="email"
-          // This makes this form better for password managers
-          autoComplete="username"
-          value={email}
-          placeholder="Email must be unique"
-          onChange={(e) => setEmail(e.target.value)}
-          disabled={isLoading}
-        />
-      </div>
-
-      <div className="flex flex-col gap-1">
-        <label className="font-medium">Password</label>
-        <div className="flex items-center border border-solid border-[#4b5563] bg-[#18212f] py-2 px-4 shadow-sm rounded-lg">
-        <input
-          className="bg-[#18212f] border-0 outline-0"
-          type={showPassword ? "text" : "password"}
-          id="password"
-          autoComplete="current-password"
-          value={password}
-          placeholder="must be minimum of 8"
-          onChange={(e) => setPassword(e.target.value)}
-          disabled={isLoading}
+    <form onSubmit={handleSubmit} className="space-y-5">
+      {/* Name Field */}
+      <div className="space-y-2">
+        <label className="block text-sm font-medium text-dark-300">
+          Full name
+        </label>
+        <div className="relative">
+          <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+            <HiUser className="h-5 w-5 text-dark-500" />
+          </div>
+          <input
+            className="w-full pl-11 pr-4 py-3 border border-dark-600 rounded-xl placeholder-dark-500 focus:border-primary-500 focus:ring-2 focus:ring-primary-500/20 transition-all"
+            style={inputStyle}
+            type="text"
+            id="name"
+            placeholder="John Doe"
+            autoComplete="name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            disabled={isLoading}
           />
-        {showPassword ? <div onClick={handleShowClick}><HiEye /></div> : <HiEyeSlash onClick={handleShowClick}/>}
         </div>
       </div>
-      <div className="flex flex-col items-center gap-3.5 pt-5">
-        <Button size="large" disabled={isLoading}>
-          {!isLoading ? "Sign Up" : <SpinnerMini />}
-        </Button >
+
+      {/* Email Field */}
+      <div className="space-y-2">
+        <label className="block text-sm font-medium text-dark-300">
+          Email address
+        </label>
+        <div className="relative">
+          <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+            <HiEnvelope className="h-5 w-5 text-dark-500" />
+          </div>
+          <input
+            className="w-full pl-11 pr-4 py-3 border border-dark-600 rounded-xl placeholder-dark-500 focus:border-primary-500 focus:ring-2 focus:ring-primary-500/20 transition-all"
+            style={inputStyle}
+            type="email"
+            id="email"
+            placeholder="you@example.com"
+            autoComplete="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            disabled={isLoading}
+          />
+        </div>
       </div>
+
+      {/* Password Field */}
+      <div className="space-y-2">
+        <label className="block text-sm font-medium text-dark-300">
+          Password
+        </label>
+        <div className="relative">
+          <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+            <HiLockClosed className="h-5 w-5 text-dark-500" />
+          </div>
+          <input
+            className="w-full pl-11 pr-12 py-3 border border-dark-600 rounded-xl placeholder-dark-500 focus:border-primary-500 focus:ring-2 focus:ring-primary-500/20 transition-all"
+            style={inputStyle}
+            type={showPassword ? "text" : "password"}
+            id="password"
+            placeholder="Minimum 8 characters"
+            autoComplete="new-password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            disabled={isLoading}
+          />
+          <button
+            type="button"
+            onClick={() => setShowPassword(prev => !prev)}
+            className="absolute inset-y-0 right-0 pr-4 flex items-center text-dark-500 hover:text-dark-300 transition-colors"
+          >
+            {showPassword ? <HiEye className="h-5 w-5" /> : <HiEyeSlash className="h-5 w-5" />}
+          </button>
+        </div>
+        <p className="text-xs text-dark-500">Must be at least 8 characters</p>
+      </div>
+
+      {/* Submit Button */}
+      <button
+        type="submit"
+        disabled={isLoading}
+        className="w-full py-3.5 px-4 text-white font-semibold rounded-xl shadow-lg transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+        style={{ 
+          backgroundColor: '#059669',
+          color: '#ffffff'
+        }}
+      >
+        {isLoading ? (
+          <>
+            <svg className="animate-spin h-5 w-5" viewBox="0 0 24 24">
+              <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" />
+              <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+            </svg>
+            <span>Creating account...</span>
+          </>
+        ) : (
+          "Create account"
+        )}
+      </button>
     </form>
   );
 }
 
 export default SignupForm;
-

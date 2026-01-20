@@ -1,22 +1,18 @@
-import styled, { keyframes } from "styled-components";
+import { useTheme } from "../context/ThemeContext";
 
-const rotate = keyframes`
-  to {
-    transform: rotate(1turn)
-  }
-`;
-
-const Spinner = styled.div`
-  margin: 2.4rem auto;
-
-  width: 3.2rem;
-  aspect-ratio: 1;
-  border-radius: 50%;
-  background: radial-gradient(farthest-side, #4f46e5 94%, #0000)
-      top/10px 10px no-repeat,
-    conic-gradient(#0000 30%, #4f46e5 100%);
-  -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 10px), #000 0);
-  animation: ${rotate} 1.5s infinite linear;
-`;
+function Spinner() {
+  const { isDarkMode } = useTheme();
+  
+  return (
+    <div className="flex items-center justify-center">
+      <div className="relative">
+        <div className={`w-12 h-12 rounded-full border-4 ${
+          isDarkMode ? 'border-dark-700' : 'border-gray-200'
+        }`}></div>
+        <div className="w-12 h-12 rounded-full border-4 border-primary-500 border-t-transparent animate-spin absolute top-0 left-0"></div>
+      </div>
+    </div>
+  );
+}
 
 export default Spinner;

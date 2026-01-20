@@ -1,39 +1,49 @@
-import { baseUrl} from "./railsUrl"
+import { supabase } from "./supabase";
 
 export async function getReports() {
-    const {token} = JSON.parse(localStorage.getItem('user'))
+  // Get current user
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
 
-    const res = await fetch(`${baseUrl}/attendance`, {
-        headers: {
-            Authorization: token
-        }
-    })
-    if (!res.ok) {
-        const {error} = await res.json()
-        throw new Error(error)
+  if (!user) throw new Error("User not authenticated");
 
-      }
-      const result = await res.json()
-      return result  
+  const { data, error } = await supabase
+    .from("attendance")
+    .select("*")
+    .eq("user_id", user.id)
+    .order("class_date", { ascending: false });
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  return data;
 }
 
-export async function addReport({courseId, classDate, held, attended}) {
-    const data = {attendance: {course_id: courseId, class_date: classDate, class_held: held === true ? 1 : 0, class_attended: attended === true ? 1 : 0}}
-    const {token} = JSON.parse(localStorage.getItem('user'))
+export async function addReport({ courseId, classDate, held, attended }) {
+  // Get current user
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
 
-    const res = await fetch(`${baseUrl}/attendance`, {
-        method: 'POST',
-        headers: {
-            Authorization: `${token}`,
-            'Content-Type': 'application/json', 
-         },
-        body: JSON.stringify(data)
+  if (!user) throw new Error("User not authenticated");
+
+  const { data, error } = await supabase
+    .from("attendance")
+    .insert({
+      course_id: courseId,
+      class_date: classDate,
+      class_held: held === true ? 1 : 0,
+      class_attended: attended === true ? 1 : 0,
+      user_id: user.id,
     })
-    if (!res.ok) {
-        const {error} = await res.json()
-        throw new Error(error)
+    .select()
+    .single();
 
-      }
-      const result = await res.json()
-      return result 
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  return data;
 }

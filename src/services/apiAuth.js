@@ -1,53 +1,85 @@
-import { baseUrl } from "./railsUrl";
+import { supabase } from "./supabase";
 
-export async function signup({name, email, password}) {
-    const data = {user: {name, email, password}}
-    const res = await fetch(`${baseUrl}/signup`, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json', 
+export async function signup({ name, email, password }) {
+  // 1. Sign up the user with Supabase Auth
+  const { data, error } = await supabase.auth.signUp({
+    email,
+    password,
+    options: {
+      data: {
+        name,
           },
-        body: JSON.stringify(data)
-    })
+    },
+  });
 
-    if (!res.ok) {
-        const {error} = await res.json()
-        throw new Error(error)
-      }
-      const result = await res.json()
-      return result   
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  // 2. Create a profile record for the user
+  if (data?.user) {
+    const { error: profileError } = await supabase.from("profiles").insert({
+      id: data.user.id,
+      name,
+      email,
+    });
+
+    if (profileError) {
+      console.error("Profile creation error:", profileError);
+    }
+  }
+
+  return {
+    user: data.user,
+    session: data.session,
+  };
 }
 
-export async function login({email, password}) {
-    const data = {user: {email, password}}
-    const res = await fetch(`${baseUrl}/login`, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json', 
-          },
-        body: JSON.stringify(data)  
-    })
-    if (!res.ok) {
-        const {error} = await res.json()
-        throw new Error(error)
-      }
-      const result = await res.json()
-      return result   
+export async function login({ email, password }) {
+  const { data, error } = await supabase.auth.signInWithPassword({
+    email,
+    password,
+  });
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  return {
+    user: data.user,
+    session: data.session,
+  };
+}
+
+export async function logout() {
+  const { error } = await supabase.auth.signOut();
+
+  if (error) {
+    throw new Error(error.message);
+  }
+}
+
+export async function getCurrentUser() {
+  const { data: session } = await supabase.auth.getSession();
+
+  if (!session.session) return null;
+
+  const { data, error } = await supabase.auth.getUser();
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  return data?.user;
 }
 
 export async function getUsersCount() {
-  const {token} = JSON.parse(localStorage.getItem('user'))
+  const { data, error } = await supabase.rpc("get_users_count");
 
-  const res = await fetch(`${baseUrl}/users-count`, {
-    headers: {
-      Authorization: token
+  if (error) {
+    console.error("Error getting users count:", error);
+    return { count: 0 };
   }
-})
-if (!res.ok) {
-  const {error} = await res.json()
-  throw new Error(error)
 
-}
-const result = await res.json()
-return result  
+  return { count: data };
 }
