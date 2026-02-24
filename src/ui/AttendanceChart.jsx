@@ -19,7 +19,7 @@ function AttendanceChart({ courses }) {
 
   // Get color based on percentage
   function getBarColor(percentage) {
-    if (percentage >= 75) return { bg: '#059669', gradient: 'from-emerald-500 to-emerald-400' };
+    if (percentage >= 70) return { bg: '#059669', gradient: 'from-emerald-500 to-emerald-400' };
     if (percentage >= 50) return { bg: '#f59e0b', gradient: 'from-amber-500 to-yellow-400' };
     return { bg: '#ef4444', gradient: 'from-red-500 to-rose-400' };
   }
@@ -47,7 +47,7 @@ function AttendanceChart({ courses }) {
         <div className="hidden sm:flex items-center gap-4 text-xs">
           <div className="flex items-center gap-1.5">
             <div className="w-3 h-3 rounded-full bg-emerald-500" />
-            <span className={isDarkMode ? 'text-dark-400' : 'text-gray-500'}>≥75%</span>
+            <span className={isDarkMode ? 'text-dark-400' : 'text-gray-500'}>≥70%</span>
           </div>
           <div className="flex items-center gap-1.5">
             <div className="w-3 h-3 rounded-full bg-amber-500" />
@@ -137,7 +137,7 @@ function AttendanceChart({ courses }) {
         </div>
         <div className="text-center">
           <p className="text-2xl font-bold text-emerald-500">
-            {courses.filter(c => (c.percentage || 0) >= 75).length}
+            {courses.filter(c => (c.percentage || 0) >= 70).length}
           </p>
           <p className={`text-xs ${isDarkMode ? 'text-dark-400' : 'text-gray-500'}`}>
             On Track
@@ -145,7 +145,7 @@ function AttendanceChart({ courses }) {
         </div>
         <div className="text-center">
           <p className="text-2xl font-bold text-red-500">
-            {courses.filter(c => (c.percentage || 0) < 75).length}
+            {courses.filter(c => (c.percentage || 0) < 70).length}
           </p>
           <p className={`text-xs ${isDarkMode ? 'text-dark-400' : 'text-gray-500'}`}>
             Need Attention

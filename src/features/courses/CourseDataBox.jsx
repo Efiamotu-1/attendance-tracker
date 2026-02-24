@@ -13,12 +13,12 @@ function CourseDataBox({ course }) {
   const { isDarkMode } = useTheme()
   
   const getPercentageColor = (pct) => {
-    if (pct >= 75) return 'from-emerald-500 to-emerald-400';
+    if (pct >= 70) return 'from-emerald-500 to-emerald-400';
     return 'from-red-500 to-red-400';
   };
 
   const getPercentageBg = (pct) => {
-    if (pct >= 75) return 'bg-emerald-500/20';
+    if (pct >= 70) return 'bg-emerald-500/20';
     return 'bg-red-500/20';
   };
 

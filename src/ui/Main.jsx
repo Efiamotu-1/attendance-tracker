@@ -33,7 +33,8 @@ function Main() {
           : 'bg-white border-gray-200'
       }`}>
         <p className={`text-sm ${isDarkMode ? 'text-dark-500' : 'text-gray-500'}`}>
-          © {new Date().getFullYear()} AttendanceTracker. Built with ❤️ by Habeeb Efiamotu Musa 
+          © {new Date().getFullYear()} AttendanceTracker 
+          {/* Built by Habeeb Efiamotu Musa  */}
         </p>
       </footer>
     </main>

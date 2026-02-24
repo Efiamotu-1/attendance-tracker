@@ -19,20 +19,20 @@ function ClassesMissableCard({ course }) {
       };
     }
     
-    // Calculate how many more classes can be missed while staying ≥75%
-    // Formula: attended / (held + x) >= 0.75
-    // Solving for x: x <= (attended / 0.75) - held
+    // Calculate how many more classes can be missed while staying 70%
+    // Formula: attended / (held + x) >= 0.70
+    // Solving for x: x <= (attended / 0.70) - held
     // Simplified: x <= (4 * attended - 3 * held) / 3
     
     const maxMissable = Math.floor((4 * attended - 3 * held) / 3);
     const canMiss = Math.max(0, maxMissable);
     
-    // Calculate how many classes needed to attend to get back to 75%
-    // If currently below 75%: (attended + x) / (held + x) >= 0.75
+    // Calculate how many classes needed to attend to get back to 70%
+    // If currently below 70%: (attended + x) / (held + x) >= 0.70
     // Solving: x >= 3 * held - 4 * attended
     const classesNeeded = Math.max(0, Math.ceil(3 * held - 4 * attended));
     
-    if (percentage >= 75) {
+    if (percentage >= 70) {
       return {
         canMiss,
         status: 'safe',
@@ -45,7 +45,7 @@ function ClassesMissableCard({ course }) {
         canMiss: 0,
         classesNeeded,
         status: 'danger',
-        message: `Attend ${classesNeeded} consecutive class${classesNeeded > 1 ? 'es' : ''} to reach 75%`
+        message: `Attend ${classesNeeded} consecutive class${classesNeeded > 1 ? 'es' : ''} to reach 70%`
       };
     }
   }, [course]);
@@ -77,7 +77,7 @@ function ClassesMissableCard({ course }) {
             Classes I Can Miss
           </h3>
           <p className={`text-xs ${isDarkMode ? 'text-dark-500' : 'text-gray-500'}`}>
-            While staying ≥75%
+            While staying 70%
           </p>
         </div>
       </div>
@@ -108,7 +108,7 @@ function ClassesMissableCard({ course }) {
           <div className={`text-xs p-2 rounded-lg ${
             isDarkMode ? 'bg-red-500/10 text-red-400' : 'bg-red-50 text-red-600'
           }`}>
-            ⚠️ You're currently below 75%
+            ⚠️ You're currently below 70%
           </div>
         </div>
       ) : (
