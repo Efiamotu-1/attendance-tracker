@@ -21,8 +21,8 @@ function Reports() {
       {/* Header */}
       <div className='flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4'>
         <div className='flex items-center gap-3'>
-          <div className='p-2 bg-emerald-500/20 rounded-xl'>
-            <HiOutlineClipboardDocumentList className='w-6 h-6 text-emerald-500' />
+          <div className='p-2 bg-primary-500/20 rounded-xl'>
+            <HiOutlineClipboardDocumentList className='w-6 h-6 text-primary-500' />
           </div>
           <div>
             <h1 className={`text-2xl font-bold ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>Attendance Reports</h1>

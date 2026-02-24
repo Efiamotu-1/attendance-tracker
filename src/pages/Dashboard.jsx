@@ -32,18 +32,21 @@ function Dashboard() {
 
   const totalCourses = courses?.length || 0
   const totalReports = reports?.length || 0
-  const coursesAtRisk = courses?.filter(c => (c.percentage || 0) < 75).length || 0
+  const coursesAtRisk = courses?.filter(c => (c.percentage || 0) < 70).length || 0
+
+  // Consider user 'new' when there is no data to show in the primary cards
+  const isNewUser = !coursesLoading && !reportsLoading && totalCourses === 0 && totalReports === 0 && coursesAtRisk === 0
 
   const tips = [
     "Create a course for each subject you're enrolled in",
     "Log attendance after each class for accurate tracking",
-    "Aim for at least 75% attendance in each course",
+    "Aim for at least 70% attendance in each course",
     "Review your stats weekly to stay on track"
   ]
 
-  // Get attendance color based on percentage (green for ≥75%, red for <75%)
+  // Get attendance color based on percentage (green for ≥70%, red for <70%)
   const getAttendanceColor = (pct) => {
-    if (pct >= 75) return 'text-emerald-500';
+    if (pct >= 70) return 'text-emerald-500';
     return 'text-red-500';
   };
 
@@ -77,8 +80,74 @@ function Dashboard() {
         </div>
       </div>
 
+      {/* Stats Cards - Side by Side (hide cards with zero value; hide all when user is new) */}
+      {!isNewUser && (
+        <div className='grid grid-cols-1 sm:grid-cols-3 gap-4'>
+          {/* Total Courses */}
+          {(coursesLoading || totalCourses > 0) && (
+            <div className={`backdrop-blur border rounded-2xl p-6 transition-colors ${
+              isDarkMode 
+                ? 'bg-dark-800/50 border-dark-700 hover:border-dark-600' 
+                : 'bg-white border-gray-200 hover:border-gray-300 shadow-sm'
+            }`}>
+              <div className='flex items-center justify-between mb-4'>
+                <div className='p-3 bg-primary-500/20 rounded-xl'>
+                  <HiOutlineBookOpen className='w-6 h-6 text-primary-500' />
+                </div>
+                <span className={`text-xs uppercase tracking-wide ${isDarkMode ? 'text-dark-500' : 'text-gray-500'}`}>Courses</span>
+              </div>
+              <p className={`text-3xl font-bold mb-1 ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>
+                {coursesLoading ? '...' : totalCourses}
+              </p>
+              <p className={`text-sm ${isDarkMode ? 'text-dark-400' : 'text-gray-500'}`}>Total enrolled</p>
+            </div>
+          )}
+
+          {/* Total Reports */}
+          {(reportsLoading || totalReports > 0) && (
+            <div className={`backdrop-blur border rounded-2xl p-6 transition-colors ${
+              isDarkMode 
+                ? 'bg-dark-800/50 border-dark-700 hover:border-dark-600' 
+                : 'bg-white border-gray-200 hover:border-gray-300 shadow-sm'
+            }`}>
+              <div className='flex items-center justify-between mb-4'>
+                <div className='p-3 bg-emerald-500/20 rounded-xl'>
+                  <HiOutlineClipboardDocumentList className='w-6 h-6 text-emerald-500' />
+                </div>
+                <span className={`text-xs uppercase tracking-wide ${isDarkMode ? 'text-dark-500' : 'text-gray-500'}`}>Reports</span>
+              </div>
+              <p className={`text-3xl font-bold mb-1 ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>
+                {reportsLoading ? '...' : totalReports}
+              </p>
+              <p className={`text-sm ${isDarkMode ? 'text-dark-400' : 'text-gray-500'}`}>Attendance logs</p>
+            </div>
+          )}
+
+          {/* Courses at Risk */}
+          {(coursesLoading || coursesAtRisk > 0) && (
+            <div className={`backdrop-blur border rounded-2xl p-6 transition-colors ${
+              isDarkMode 
+                ? 'bg-dark-800/50 border-dark-700 hover:border-dark-600' 
+                : 'bg-white border-gray-200 hover:border-gray-300 shadow-sm'
+            }`}>
+              <div className='flex items-center justify-between mb-4'>
+                <div className={`p-3 rounded-xl ${coursesAtRisk > 0 ? 'bg-red-500/20' : 'bg-emerald-500/20'}`}>
+                  <HiOutlineExclamationTriangle className={`w-6 h-6 ${coursesAtRisk > 0 ? 'text-red-500' : 'text-emerald-500'}`} />
+                </div>
+                <span className={`text-xs uppercase tracking-wide ${isDarkMode ? 'text-dark-500' : 'text-gray-500'}`}>At Risk</span>
+              </div>
+              <p className={`text-3xl font-bold mb-1 ${coursesAtRisk > 0 ? 'text-red-500' : 'text-emerald-500'}`}>
+                {coursesLoading ? '...' : coursesAtRisk}
+              </p>
+              <p className={`text-sm ${isDarkMode ? 'text-dark-400' : 'text-gray-500'}`}>Courses below 70%</p>
+            </div>
+          )}
+        </div>
+      )}
+
       {/* Course Performance Cards */}
-      <div>
+      {!isNewUser && (
+        <div>
         <div className='flex items-center justify-between mb-4'>
           <h2 className={`text-lg font-semibold ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>
             Course Performance
@@ -86,11 +155,11 @@ function Dashboard() {
           <div className='flex items-center gap-4 text-xs'>
             <div className='flex items-center gap-1.5'>
               <div className='w-2 h-2 rounded-full bg-emerald-500' />
-              <span className={isDarkMode ? 'text-dark-400' : 'text-gray-500'}>≥75%</span>
+              <span className={isDarkMode ? 'text-dark-400' : 'text-gray-500'}>≥70%</span>
             </div>
             <div className='flex items-center gap-1.5'>
               <div className='w-2 h-2 rounded-full bg-red-500' />
-              <span className={isDarkMode ? 'text-dark-400' : 'text-gray-500'}>{'<75%'}</span>
+              <span className={isDarkMode ? 'text-dark-400' : 'text-gray-500'}>{'<70%'}</span>
             </div>
           </div>
         </div>
@@ -134,7 +203,7 @@ function Dashboard() {
                   <div className={`mt-3 h-1.5 rounded-full overflow-hidden ${isDarkMode ? 'bg-dark-700' : 'bg-gray-200'}`}>
                     <div 
                       className={`h-full rounded-full transition-all duration-500 ${
-                        percentage >= 75 ? 'bg-emerald-500' : 'bg-red-500'
+                        percentage >= 70 ? 'bg-emerald-500' : 'bg-red-500'
                       }`}
                       style={{ width: `${percentage}%` }}
                     />
@@ -151,91 +220,47 @@ function Dashboard() {
             <p className='text-center'>No courses yet.<br />Add your first course to start tracking!</p>
           </div>
         )}
-      </div>
+        </div>
+      )}
 
       {/* Line Graph */}
-      <LineGraph courses={courses || []} height={320} />
+      {!isNewUser && <LineGraph courses={courses || []} height={320} />}
 
-      {/* Stats Cards - Side by Side */}
-      <div className='grid grid-cols-1 sm:grid-cols-3 gap-4'>
-        {/* Total Courses */}
-        <div className={`backdrop-blur border rounded-2xl p-6 transition-colors ${
+     
+
+      {/* Tips Section (only show for new users) */}
+      {isNewUser && (
+        <div className={`border rounded-2xl p-6 ${
           isDarkMode 
-            ? 'bg-dark-800/50 border-dark-700 hover:border-dark-600' 
-            : 'bg-white border-gray-200 hover:border-gray-300 shadow-sm'
+            ? 'bg-dark-800/30 border-dark-700' 
+            : 'bg-gray-50 border-gray-200'
         }`}>
-          <div className='flex items-center justify-between mb-4'>
-            <div className='p-3 bg-primary-500/20 rounded-xl'>
-              <HiOutlineBookOpen className='w-6 h-6 text-primary-500' />
-            </div>
-            <span className={`text-xs uppercase tracking-wide ${isDarkMode ? 'text-dark-500' : 'text-gray-500'}`}>Courses</span>
+          <div className='flex items-center gap-2 mb-4'>
+            <HiOutlineLightBulb className='w-5 h-5 text-amber-500' />
+            <h2 className={`text-lg font-semibold ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>Getting Started Tips</h2>
           </div>
-          <p className={`text-3xl font-bold mb-1 ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>
-            {coursesLoading ? '...' : totalCourses}
-          </p>
-          <p className={`text-sm ${isDarkMode ? 'text-dark-400' : 'text-gray-500'}`}>Total enrolled</p>
-        </div>
-
-        {/* Total Reports */}
-        <div className={`backdrop-blur border rounded-2xl p-6 transition-colors ${
-          isDarkMode 
-            ? 'bg-dark-800/50 border-dark-700 hover:border-dark-600' 
-            : 'bg-white border-gray-200 hover:border-gray-300 shadow-sm'
-        }`}>
-          <div className='flex items-center justify-between mb-4'>
-            <div className='p-3 bg-emerald-500/20 rounded-xl'>
-              <HiOutlineClipboardDocumentList className='w-6 h-6 text-emerald-500' />
-            </div>
-            <span className={`text-xs uppercase tracking-wide ${isDarkMode ? 'text-dark-500' : 'text-gray-500'}`}>Reports</span>
+          <div className='grid grid-cols-1 md:grid-cols-2 gap-3'>
+            {tips.map((tip, index) => (
+              <div key={index} className={`flex items-start gap-3 p-3 rounded-xl ${
+                isDarkMode ? 'bg-dark-800/50' : 'bg-white'
+              }`}>
+                <span className='flex-shrink-0 w-6 h-6 bg-primary-500/20 text-primary-500 rounded-full flex items-center justify-center text-sm font-medium'>
+                  {index + 1}
+                </span>
+                <p className={`text-sm ${isDarkMode ? 'text-dark-300' : 'text-gray-600'}`}>{tip}</p>
+              </div>
+            ))}
           </div>
-          <p className={`text-3xl font-bold mb-1 ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>
-            {reportsLoading ? '...' : totalReports}
-          </p>
-          <p className={`text-sm ${isDarkMode ? 'text-dark-400' : 'text-gray-500'}`}>Attendance logs</p>
-        </div>
-
-        {/* Courses at Risk */}
-        <div className={`backdrop-blur border rounded-2xl p-6 transition-colors ${
-          isDarkMode 
-            ? 'bg-dark-800/50 border-dark-700 hover:border-dark-600' 
-            : 'bg-white border-gray-200 hover:border-gray-300 shadow-sm'
-        }`}>
-          <div className='flex items-center justify-between mb-4'>
-            <div className={`p-3 rounded-xl ${coursesAtRisk > 0 ? 'bg-red-500/20' : 'bg-emerald-500/20'}`}>
-              <HiOutlineExclamationTriangle className={`w-6 h-6 ${coursesAtRisk > 0 ? 'text-red-500' : 'text-emerald-500'}`} />
-            </div>
-            <span className={`text-xs uppercase tracking-wide ${isDarkMode ? 'text-dark-500' : 'text-gray-500'}`}>At Risk</span>
+          <div className='mt-6 flex justify-center'>
+            <button
+              onClick={() => navigate('/courses')}
+              className='px-6 py-3 rounded-lg bg-primary-500 text-white hover:bg-primary-600 transition'
+            >
+              Create your first course
+            </button>
           </div>
-          <p className={`text-3xl font-bold mb-1 ${coursesAtRisk > 0 ? 'text-red-500' : 'text-emerald-500'}`}>
-            {coursesLoading ? '...' : coursesAtRisk}
-          </p>
-          <p className={`text-sm ${isDarkMode ? 'text-dark-400' : 'text-gray-500'}`}>Courses below 75%</p>
         </div>
-      </div>
-
-      {/* Tips Section */}
-      <div className={`border rounded-2xl p-6 ${
-        isDarkMode 
-          ? 'bg-dark-800/30 border-dark-700' 
-          : 'bg-gray-50 border-gray-200'
-      }`}>
-        <div className='flex items-center gap-2 mb-4'>
-          <HiOutlineLightBulb className='w-5 h-5 text-amber-500' />
-          <h2 className={`text-lg font-semibold ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>Getting Started Tips</h2>
-        </div>
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-3'>
-          {tips.map((tip, index) => (
-            <div key={index} className={`flex items-start gap-3 p-3 rounded-xl ${
-              isDarkMode ? 'bg-dark-800/50' : 'bg-white'
-            }`}>
-              <span className='flex-shrink-0 w-6 h-6 bg-primary-500/20 text-primary-500 rounded-full flex items-center justify-center text-sm font-medium'>
-                {index + 1}
-              </span>
-              <p className={`text-sm ${isDarkMode ? 'text-dark-300' : 'text-gray-600'}`}>{tip}</p>
-            </div>
-          ))}
-        </div>
-      </div>
+      )}
     </div>
   )
 }

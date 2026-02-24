@@ -1,6 +1,6 @@
 <div align="center">
   <h1>📚 AttendanceTracker</h1>
-  <p><strong>Never fall below 75% attendance again.</strong></p>
+  <p><strong>Never fall below 70% attendance again.</strong></p>
   
   <p>A modern, intelligent attendance tracking application built for university students who need to monitor their class attendance to meet mandatory requirements.</p>
 
@@ -16,7 +16,7 @@
 
 ## 🎯 The Problem
 
-In many universities worldwide, **75% attendance is mandatory** to be eligible for exams. Students often:
+In many universities worldwide, **70% attendance is mandatory** to be eligible for exams. Students often:
 - Lose track of their attendance across multiple courses
 - Realize too late that they're at risk of being barred from exams
 - Struggle with manual tracking in spreadsheets or notebooks
@@ -29,7 +29,7 @@ In many universities worldwide, **75% attendance is mandatory** to be eligible f
 
 ### 📊 Smart Dashboard
 - Real-time attendance percentage for all courses
-- Visual progress bars with color-coded status (green ≥75%, red <75%)
+- Visual progress bars with color-coded status (green ≥70%, red <70%)
 - "Courses at Risk" alert showing courses below threshold
 - Interactive line graph for attendance trends
 
@@ -42,7 +42,7 @@ In many universities worldwide, **75% attendance is mandatory** to be eligible f
 ### 🧮 Classes-I-Can-Miss Calculator
 - Know exactly how many classes you can skip
 - Real-time calculation based on current attendance
-- Prevents accidental drops below 75%
+- Prevents accidental drops below 70%
 
 ### 📝 Attendance Logging
 - Quick one-click attendance logging
