@@ -154,6 +154,19 @@ const tipsData = {
         ]
       }
     ]
+  },
+  "nls-abuja-cab-numbers": {
+    title: "NLS Abuja Cab Numbers",
+    type: "contacts",
+    description: "Active cab numbers from the last set. These drivers are familiar with the NLS Abuja campus and surrounding areas.",
+    contacts: [
+      { name: "Mr. Cletus", phone: "08035971197" },
+      { name: "Mr. Ralph", phone: "08108460125" },
+      { name: "Mr. Gbenga", phone: "0803 452 3567" },
+      { name: "Mr. Chris", phone: "08069833362" },
+      { name: "Mr. Felix", phone: "07037448081" },
+      { name: "Mr. Abdul", phone: "+234 905 566 5805" },
+    ]
   }
 };
 
@@ -178,81 +191,127 @@ function TipDetail() {
         <span>These tips were sourced from an external resource.</span>
       </div>
       <TipsCard title={tip.title}>
-        <div className="space-y-8 sm:space-y-10">
-          {/* NB Section */}
-          <section className="rounded-xl bg-primary-100/70 dark:bg-dark-800/80 p-3 xs:p-4 border border-primary-200 dark:border-dark-700 shadow-sm flex flex-col sm:flex-row items-start gap-2 sm:gap-3">
-            <span className="mt-1 text-primary-500">
-              <svg width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M13 16h-1v-4h-1m1-4h.01M12 20a8 8 0 100-16 8 8 0 000 16z"/></svg>
-            </span>
-            <div>
-              <h2 className="text-base xs:text-lg font-bold text-primary-600 dark:text-primary-400 mb-1">Important Notes</h2>
-              <ul className="list-disc pl-4 xs:pl-5 space-y-1 text-gray-800 dark:text-gray-200 text-sm xs:text-base">
-                {tip.details[0].content.map((item, idx) => (
+        {tip.type === "contacts" ? (
+          /* ======== Contacts / Cab Numbers Layout ======== */
+          <div className="space-y-6">
+            {/* Description */}
+            <section className="rounded-xl bg-primary-100/70 dark:bg-dark-800/80 p-3 xs:p-4 border border-primary-200 dark:border-dark-700 shadow-sm flex flex-col sm:flex-row items-start gap-2 sm:gap-3">
+              <span className="mt-1 text-primary-500">
+                <svg width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M13 16h-1v-4h-1m1-4h.01M12 20a8 8 0 100-16 8 8 0 000 16z"/></svg>
+              </span>
+              <p className="text-gray-800 dark:text-gray-200 text-sm xs:text-base">{tip.description}</p>
+            </section>
+
+            {/* Contacts Grid */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 xs:gap-4">
+              {tip.contacts.map((contact, idx) => (
+                <div
+                  key={idx}
+                  className="bg-primary-50 dark:bg-dark-900 border border-primary-200 dark:border-dark-700 rounded-xl p-3 xs:p-4 shadow-sm flex items-center gap-3 xs:gap-4 transition-colors hover:border-primary-400 dark:hover:border-primary-500"
+                >
+                  {/* Avatar */}
+                  <div className="flex-shrink-0 w-10 h-10 xs:w-12 xs:h-12 rounded-full flex items-center justify-center text-white font-bold text-sm xs:text-base" style={{ background: 'linear-gradient(135deg, #059669 0%, #10b981 100%)' }}>
+                    {contact.name.split(" ").pop().charAt(0)}
+                  </div>
+                  <div className="min-w-0 flex-1">
+                    <p className="font-bold text-gray-900 dark:text-white text-sm xs:text-base truncate">{contact.name}</p>
+                    <a
+                      href={`tel:${contact.phone.replace(/\s/g, "")}`}
+                      className="text-primary-500 hover:text-primary-600 dark:text-primary-400 dark:hover:text-primary-300 font-medium text-sm xs:text-base underline underline-offset-2 transition-colors"
+                    >
+                      {contact.phone}
+                    </a>
+                  </div>
+                  {/* Call icon */}
+                  <a
+                    href={`tel:${contact.phone.replace(/\s/g, "")}`}
+                    className="flex-shrink-0 p-2 rounded-lg bg-green-500 hover:bg-green-600 active:bg-green-700 text-white transition-colors"
+                    title={`Call ${contact.name}`}
+                  >
+                    <svg width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+                  </a>
+                </div>
+              ))}
+            </div>
+          </div>
+        ) : (
+          /* ======== Food Tips Layout (original) ======== */
+          <div className="space-y-8 sm:space-y-10">
+            {/* NB Section */}
+            <section className="rounded-xl bg-primary-100/70 dark:bg-dark-800/80 p-3 xs:p-4 border border-primary-200 dark:border-dark-700 shadow-sm flex flex-col sm:flex-row items-start gap-2 sm:gap-3">
+              <span className="mt-1 text-primary-500">
+                <svg width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M13 16h-1v-4h-1m1-4h.01M12 20a8 8 0 100-16 8 8 0 000 16z"/></svg>
+              </span>
+              <div>
+                <h2 className="text-base xs:text-lg font-bold text-primary-600 dark:text-primary-400 mb-1">Important Notes</h2>
+                <ul className="list-disc pl-4 xs:pl-5 space-y-1 text-gray-800 dark:text-gray-200 text-sm xs:text-base">
+                  {tip.details[0].content.map((item, idx) => (
+                    <li key={idx}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+            </section>
+
+            {/* Vendors Section */}
+            <section>
+              <h2 className="text-base xs:text-lg font-bold text-primary-600 dark:text-primary-400 mb-3 xs:mb-4 flex items-center gap-2">
+                <svg width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 10h16M4 14h16M4 18h16"/></svg>
+                Food Vendors and Their Prices
+              </h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 xs:gap-6">
+                {tip.details[1].vendors.map((vendor, idx) => (
+                  <div key={idx} className="bg-primary-50 dark:bg-dark-900 border border-primary-200 dark:border-dark-700 rounded-xl p-3 xs:p-4 shadow-sm">
+                    <h3 className="font-bold text-primary-500 dark:text-primary-400 mb-2 text-sm xs:text-base flex items-center gap-2">
+                      <svg width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 12l2 2 4-4"/></svg>
+                      {vendor.name}
+                    </h3>
+                    <ul className="list-disc pl-4 xs:pl-5 space-y-1 text-gray-700 dark:text-gray-200 text-sm xs:text-base">
+                      {vendor.items.map((item, i) => (
+                        <li key={i}>{item}</li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            </section>
+
+            {/* Others Section */}
+            <section className="rounded-xl bg-yellow-50 dark:bg-yellow-900/30 p-3 xs:p-4 border border-yellow-200 dark:border-yellow-700 shadow-sm">
+              <h2 className="text-base xs:text-lg font-bold text-yellow-700 dark:text-yellow-300 mb-2 flex items-center gap-2">
+                <svg width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 12l2 2 4-4"/></svg>
+                Others
+              </h2>
+              <ul className="list-disc pl-4 xs:pl-5 space-y-1 text-gray-800 dark:text-gray-100 text-sm xs:text-base">
+                {tip.details[2].content.map((item, idx) => (
                   <li key={idx}>{item}</li>
                 ))}
               </ul>
-            </div>
-          </section>
+            </section>
 
-          {/* Vendors Section */}
-          <section>
-            <h2 className="text-base xs:text-lg font-bold text-primary-600 dark:text-primary-400 mb-3 xs:mb-4 flex items-center gap-2">
-              <svg width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 10h16M4 14h16M4 18h16"/></svg>
-              Food Vendors and Their Prices
-            </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 xs:gap-6">
-              {tip.details[1].vendors.map((vendor, idx) => (
-                <div key={idx} className="bg-primary-50 dark:bg-dark-900 border border-primary-200 dark:border-dark-700 rounded-xl p-3 xs:p-4 shadow-sm">
-                  <h3 className="font-bold text-primary-500 dark:text-primary-400 mb-2 text-sm xs:text-base flex items-center gap-2">
-                    <svg width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 12l2 2 4-4"/></svg>
-                    {vendor.name}
-                  </h3>
-                  <ul className="list-disc pl-4 xs:pl-5 space-y-1 text-gray-700 dark:text-gray-200 text-sm xs:text-base">
-                    {vendor.items.map((item, i) => (
-                      <li key={i}>{item}</li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </div>
-          </section>
-
-          {/* Others Section */}
-          <section className="rounded-xl bg-yellow-50 dark:bg-yellow-900/30 p-3 xs:p-4 border border-yellow-200 dark:border-yellow-700 shadow-sm">
-            <h2 className="text-base xs:text-lg font-bold text-yellow-700 dark:text-yellow-300 mb-2 flex items-center gap-2">
-              <svg width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 12l2 2 4-4"/></svg>
-              Others
-            </h2>
-            <ul className="list-disc pl-4 xs:pl-5 space-y-1 text-gray-800 dark:text-gray-100 text-sm xs:text-base">
-              {tip.details[2].content.map((item, idx) => (
-                <li key={idx}>{item}</li>
-              ))}
-            </ul>
-          </section>
-
-          {/* Routine Section */}
-          <section>
-            <h2 className="text-base xs:text-lg font-bold text-violet-700 dark:text-violet-300 mb-3 xs:mb-4 flex items-center gap-2">
-              <svg width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3"/><circle cx="12" cy="12" r="10"/></svg>
-              Daily Food Routine
-            </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 xs:gap-6">
-              {tip.details[3].routine.map((routine, idx) => (
-                <div key={idx} className="bg-violet-50 dark:bg-violet-900/30 border border-violet-200 dark:border-violet-700 rounded-xl p-3 xs:p-4 shadow-sm">
-                  <h3 className="font-bold text-violet-700 dark:text-violet-200 mb-2 flex items-center gap-2 text-sm xs:text-base">
-                    <svg width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 12l2 2 4-4"/></svg>
-                    {routine.title}
-                  </h3>
-                  <ul className="list-disc pl-4 xs:pl-5 space-y-1 text-gray-800 dark:text-gray-100 text-sm xs:text-base">
-                    {routine.items.map((item, i) => (
-                      <li key={i}>{item}</li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </div>
-          </section>
-        </div>
+            {/* Routine Section */}
+            <section>
+              <h2 className="text-base xs:text-lg font-bold text-violet-700 dark:text-violet-300 mb-3 xs:mb-4 flex items-center gap-2">
+                <svg width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3"/><circle cx="12" cy="12" r="10"/></svg>
+                Daily Food Routine
+              </h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 xs:gap-6">
+                {tip.details[3].routine.map((routine, idx) => (
+                  <div key={idx} className="bg-violet-50 dark:bg-violet-900/30 border border-violet-200 dark:border-violet-700 rounded-xl p-3 xs:p-4 shadow-sm">
+                    <h3 className="font-bold text-violet-700 dark:text-violet-200 mb-2 flex items-center gap-2 text-sm xs:text-base">
+                      <svg width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 12l2 2 4-4"/></svg>
+                      {routine.title}
+                    </h3>
+                    <ul className="list-disc pl-4 xs:pl-5 space-y-1 text-gray-800 dark:text-gray-100 text-sm xs:text-base">
+                      {routine.items.map((item, i) => (
+                        <li key={i}>{item}</li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            </section>
+          </div>
+        )}
       </TipsCard>
       <button onClick={() => navigate(-1)} className="mt-6 px-4 xs:px-6 py-2 bg-primary-500 hover:bg-primary-600 text-white rounded-lg font-semibold shadow transition-colors w-full sm:w-auto">Back to Tips</button>
     </div>
