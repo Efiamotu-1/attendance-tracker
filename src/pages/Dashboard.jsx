@@ -51,9 +51,9 @@ function Dashboard() {
   };
 
   return (
-    <div className='space-y-8 animate-fade-in'>
+    <div className='space-y-6 md:space-y-8 animate-fade-in px-2 xs:px-3 md:px-6 py-2 md:py-4'>
       {/* Welcome Section */}
-      <div className={`relative overflow-hidden rounded-2xl p-8 border ${
+      <div className={`relative overflow-hidden rounded-2xl p-4 xs:p-6 md:p-8 border ${
         isDarkMode 
           ? 'bg-gradient-to-br from-primary-600/20 via-dark-800 to-dark-900 border-dark-700' 
           : 'bg-gradient-to-br from-primary-100 via-white to-gray-50 border-gray-200'

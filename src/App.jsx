@@ -12,6 +12,12 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query"
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools"
 import { Toaster } from "react-hot-toast"
 import { ThemeProvider } from "./context/ThemeContext"
+import Tips from "./pages/Tips"
+import TipDetail from "./pages/TipDetail"
+import McqPastQuestions from "./pages/McqPastQuestions"
+import McqQuiz from "./pages/McqQuiz"
+import McqPerformance from "./pages/McqPerformance"
+import Feedback from "./pages/Feedback"
 
 
 const queryClient = new QueryClient({
@@ -42,6 +48,12 @@ function App() {
               <Route path="courses" element={<Courses />} />
               <Route path="courses/:courseId" element={<Course />} />
               <Route path="reports" element={<Reports />} />
+              <Route path="tips" element={<Tips />} />
+              <Route path="tips/:tipId" element={<TipDetail />} />
+              <Route path="mcq-past-questions" element={<McqPastQuestions />} />
+              <Route path="mcq-past-questions/:sessionId/:courseId" element={<McqQuiz />} />
+              <Route path="mcq-performance" element={<McqPerformance />} />
+              <Route path="feedback" element={<Feedback />} />
             </Route>
 
             <Route path="login" element={<Login />} />

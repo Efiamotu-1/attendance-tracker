@@ -91,6 +91,44 @@ function Header({ setShowSideBar }) {
           >
             Reports
           </NavLink>
+          <NavLink 
+            to="/tips"
+            className={({ isActive }) => `px-4 py-2 rounded-lg font-medium transition-colors ${
+              isActive 
+                ? 'bg-primary-500/20 text-primary-500' 
+                : isDarkMode 
+                  ? 'text-dark-400 hover:text-white hover:bg-dark-800' 
+                  : 'text-gray-600 hover:text-gray-600 hover:bg-gray-100'
+            }`}
+          >
+            Tips
+          </NavLink>
+          <NavLink 
+            to="/mcq-past-questions"
+            title="MCQ Past Questions"
+            className={({ isActive }) => `px-4 py-2 rounded-lg font-medium transition-colors ${
+              isActive 
+                ? 'bg-primary-500/20 text-primary-500' 
+                : isDarkMode 
+                  ? 'text-dark-400 hover:text-white hover:bg-dark-800' 
+                  : 'text-gray-600 hover:text-gray-900 hover:bg-gray-100'
+            }`}
+          >
+            MCQ
+          </NavLink>
+          <NavLink 
+            to="/feedback"
+            title="Feedback & Issues"
+            className={({ isActive }) => `px-4 py-2 rounded-lg font-medium transition-colors ${
+              isActive 
+                ? 'bg-primary-500/20 text-primary-500' 
+                : isDarkMode 
+                  ? 'text-dark-400 hover:text-white hover:bg-dark-800' 
+                  : 'text-gray-600 hover:text-gray-900 hover:bg-gray-100'
+            }`}
+          >
+            Feedback
+          </NavLink>
         </nav>
 
         {/* Right - Theme Toggle & User Info */}
