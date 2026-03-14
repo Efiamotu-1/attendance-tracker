@@ -390,7 +390,7 @@ function McqQuiz() {
   if (quizFinished) {
     const results = calculateResults();
     const getGrade = (pct) => {
-      if (pct >= 70) return { label: "Excellent!", color: "text-green-500", emoji: "🎉" };
+      if (pct >= 75) return { label: "Excellent!", color: "text-green-500", emoji: "🎉" };
       if (pct >= 50) return { label: "Good Job!", color: "text-yellow-500", emoji: "👍" };
       if (pct >= 40) return { label: "Fair", color: "text-orange-500", emoji: "📚" };
       return { label: "Keep Studying", color: "text-red-500", emoji: "💪" };

@@ -32,7 +32,7 @@ function Dashboard() {
 
   const totalCourses = courses?.length || 0
   const totalReports = reports?.length || 0
-  const coursesAtRisk = courses?.filter(c => (c.percentage || 0) < 70).length || 0
+  const coursesAtRisk = courses?.filter(c => (c.percentage || 0) < 75).length || 0
 
   // Consider user 'new' when there is no data to show in the primary cards
   const isNewUser = !coursesLoading && !reportsLoading && totalCourses === 0 && totalReports === 0 && coursesAtRisk === 0
@@ -40,13 +40,13 @@ function Dashboard() {
   const tips = [
     "Create a course for each subject you're enrolled in",
     "Log attendance after each class for accurate tracking",
-    "Aim for at least 70% attendance in each course",
+    "Aim for at least 75% attendance in each course",
     "Review your stats weekly to stay on track"
   ]
 
-  // Get attendance color based on percentage (green for ≥70%, red for <70%)
+  // Get attendance color based on percentage (green for ≥75%, red for <75%)
   const getAttendanceColor = (pct) => {
-    if (pct >= 70) return 'text-emerald-500';
+    if (pct >= 75) return 'text-emerald-500';
     return 'text-red-500';
   };
 
@@ -55,7 +55,7 @@ function Dashboard() {
       {/* Welcome Section */}
       <div className={`relative overflow-hidden rounded-2xl p-4 xs:p-6 md:p-8 border ${
         isDarkMode 
-          ? 'bg-gradient-to-br from-primary-600/20 via-dark-800 to-dark-900 border-dark-700' 
+          ? 'bg-gradient-to-br from-primary-600/20 via-dark-800 to-dark-900 border-dark-70' 
           : 'bg-gradient-to-br from-primary-100 via-white to-gray-50 border-gray-200'
       }`}>
         {/* Decorative Elements */}
@@ -139,7 +139,7 @@ function Dashboard() {
               <p className={`text-3xl font-bold mb-1 ${coursesAtRisk > 0 ? 'text-red-500' : 'text-emerald-500'}`}>
                 {coursesLoading ? '...' : coursesAtRisk}
               </p>
-              <p className={`text-sm ${isDarkMode ? 'text-dark-400' : 'text-gray-500'}`}>Courses below 70%</p>
+              <p className={`text-sm ${isDarkMode ? 'text-dark-400' : 'text-gray-500'}`}>Courses below 75%</p>
             </div>
           )}
         </div>
@@ -155,11 +155,11 @@ function Dashboard() {
           <div className='flex items-center gap-4 text-xs'>
             <div className='flex items-center gap-1.5'>
               <div className='w-2 h-2 rounded-full bg-emerald-500' />
-              <span className={isDarkMode ? 'text-dark-400' : 'text-gray-500'}>≥70%</span>
+              <span className={isDarkMode ? 'text-dark-400' : 'text-gray-500'}>≥75%</span>
             </div>
             <div className='flex items-center gap-1.5'>
               <div className='w-2 h-2 rounded-full bg-red-500' />
-              <span className={isDarkMode ? 'text-dark-400' : 'text-gray-500'}>{'<70%'}</span>
+              <span className={isDarkMode ? 'text-dark-400' : 'text-gray-500'}>{'<75%'}</span>
             </div>
           </div>
         </div>
@@ -203,7 +203,7 @@ function Dashboard() {
                   <div className={`mt-3 h-1.5 rounded-full overflow-hidden ${isDarkMode ? 'bg-dark-700' : 'bg-gray-200'}`}>
                     <div 
                       className={`h-full rounded-full transition-all duration-500 ${
-                        percentage >= 70 ? 'bg-emerald-500' : 'bg-red-500'
+                        percentage >= 75 ? 'bg-emerald-500' : 'bg-red-500'
                       }`}
                       style={{ width: `${percentage}%` }}
                     />

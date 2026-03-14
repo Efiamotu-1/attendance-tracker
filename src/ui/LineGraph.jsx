@@ -20,7 +20,7 @@ function LineGraph({ courses }) {
     return Math.round(data.reduce((acc, d) => acc + d.value, 0) / data.length);
   }, [data]);
 
-  const isGoodAttendance = avgAttendance >= 70;
+  const isGoodAttendance = avgAttendance >= 75;
 
   if (data.length === 0) {
     return (

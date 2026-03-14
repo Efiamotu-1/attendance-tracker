@@ -191,7 +191,7 @@ function CourseBarChart({ courseStats, isDarkMode }) {
               </div>
               <span
                 className={`text-xs sm:text-sm font-bold flex-shrink-0 ml-2 ${
-                  pct >= 70
+                  pct >= 75
                     ? "text-green-500"
                     : pct >= 50
                     ? "text-yellow-500"
@@ -459,7 +459,7 @@ function McqPerformance() {
             value: `${analytics.overallAvg}%`,
             icon: HiOutlineChartBar,
             color:
-              analytics.overallAvg >= 70
+              analytics.overallAvg >= 75
                 ? "text-green-500"
                 : analytics.overallAvg >= 50
                 ? "text-yellow-500"
@@ -763,7 +763,7 @@ function McqPerformance() {
               </span>
               <span
                 className={`text-[10px] sm:text-xs font-bold ${
-                  c.avgPercentage >= 70
+                  c.avgPercentage >= 75
                     ? "text-green-500"
                     : c.avgPercentage >= 50
                     ? "text-yellow-500"
@@ -1011,7 +1011,7 @@ function McqPerformance() {
                   <div className="text-right">
                     <span
                       className={`text-xs sm:text-sm font-bold ${
-                        attempt.percentage >= 70
+                        attempt.percentage >= 75
                           ? "text-green-500"
                           : attempt.percentage >= 50
                           ? "text-yellow-500"

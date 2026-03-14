@@ -8,7 +8,7 @@ function CourseRow({ course }) {
   const { isDarkMode } = useTheme();
 
   const getPercentageColor = (pct) => {
-    if (pct >= 70) return 'text-emerald-500 bg-emerald-500/10';
+    if (pct >= 75) return 'text-emerald-500 bg-emerald-500/10';
     if (pct >= 50) return 'text-amber-500 bg-amber-500/10';
     return 'text-red-500 bg-red-500/10';
   };
