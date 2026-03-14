@@ -32,7 +32,7 @@ function SignupForm() {
       {/* Name Field */}
       <div className="space-y-2">
         <label className="block text-sm font-medium text-dark-300">
-          Full name
+         Username
         </label>
         <div className="relative">
           <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
