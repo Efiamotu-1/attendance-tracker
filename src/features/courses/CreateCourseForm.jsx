@@ -71,11 +71,10 @@ function CreateCourseForm({ onCloseModal }) {
           style={inputStyle}
           type="text"
           id="department"
-          placeholder="e.g. CS, MATH, PHY"
+          placeholder="use course abbreviation. e.g. CS, MATH, PHY"
           disabled={isCreating}
           value={department}
           onChange={(e) => setDepartment(e.target.value.toUpperCase())}
-          maxLength={6}
         />
       </div>
 

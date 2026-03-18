@@ -22,7 +22,7 @@ const COURSE_COLORS = {
   "Criminal Litigation": { color: "#ef4444", bg: "bg-red-500" },
   "Corporate Law Practice": { color: "#a855f7", bg: "bg-purple-500" },
   "Property Law Practice": { color: "#10b981", bg: "bg-emerald-500" },
-  "Law in Practice": { color: "#f59e0b", bg: "bg-amber-500" },
+  "Professional Ethics & Skills": { color: "#f59e0b", bg: "bg-amber-500" },
 };
 
 const getCourseColor = (name) =>

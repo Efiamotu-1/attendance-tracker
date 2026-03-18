@@ -83,6 +83,27 @@ function Dashboard() {
       {/* Stats Cards - Side by Side (hide cards with zero value; hide all when user is new) */}
       {!isNewUser && (
         <div className='grid grid-cols-1 sm:grid-cols-3 gap-4'>
+          {/* Courses at Risk */}
+
+           {(coursesLoading || coursesAtRisk > 0) && (
+            <div className={`backdrop-blur border rounded-2xl p-6 transition-colors ${
+              isDarkMode 
+                ? 'bg-dark-800/50 border-dark-700 hover:border-dark-600' 
+                : 'bg-white border-gray-200 hover:border-gray-300 shadow-sm'
+            }`}>
+              <div className='flex items-center justify-between mb-4'>
+                <div className={`p-3 rounded-xl ${coursesAtRisk > 0 ? 'bg-red-500/20' : 'bg-emerald-500/20'}`}>
+                  <HiOutlineExclamationTriangle className={`w-6 h-6 ${coursesAtRisk > 0 ? 'text-red-500' : 'text-emerald-500'}`} />
+                </div>
+                <span className={`text-xs uppercase tracking-wide ${isDarkMode ? 'text-dark-500' : 'text-gray-500'}`}>At Risk</span>
+              </div>
+              <p className={`text-3xl font-bold mb-1 ${coursesAtRisk > 0 ? 'text-red-500' : 'text-emerald-500'}`}>
+                {coursesLoading ? '...' : coursesAtRisk}
+              </p>
+              <p className={`text-sm ${isDarkMode ? 'text-dark-400' : 'text-gray-500'}`}>Courses below 75%</p>
+            </div>
+          )}
+
           {/* Total Courses */}
           {(coursesLoading || totalCourses > 0) && (
             <div className={`backdrop-blur border rounded-2xl p-6 transition-colors ${
@@ -123,25 +144,7 @@ function Dashboard() {
             </div>
           )}
 
-          {/* Courses at Risk */}
-          {(coursesLoading || coursesAtRisk > 0) && (
-            <div className={`backdrop-blur border rounded-2xl p-6 transition-colors ${
-              isDarkMode 
-                ? 'bg-dark-800/50 border-dark-700 hover:border-dark-600' 
-                : 'bg-white border-gray-200 hover:border-gray-300 shadow-sm'
-            }`}>
-              <div className='flex items-center justify-between mb-4'>
-                <div className={`p-3 rounded-xl ${coursesAtRisk > 0 ? 'bg-red-500/20' : 'bg-emerald-500/20'}`}>
-                  <HiOutlineExclamationTriangle className={`w-6 h-6 ${coursesAtRisk > 0 ? 'text-red-500' : 'text-emerald-500'}`} />
-                </div>
-                <span className={`text-xs uppercase tracking-wide ${isDarkMode ? 'text-dark-500' : 'text-gray-500'}`}>At Risk</span>
-              </div>
-              <p className={`text-3xl font-bold mb-1 ${coursesAtRisk > 0 ? 'text-red-500' : 'text-emerald-500'}`}>
-                {coursesLoading ? '...' : coursesAtRisk}
-              </p>
-              <p className={`text-sm ${isDarkMode ? 'text-dark-400' : 'text-gray-500'}`}>Courses below 75%</p>
-            </div>
-          )}
+         
         </div>
       )}
 

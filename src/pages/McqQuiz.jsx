@@ -700,13 +700,11 @@ function McqQuiz() {
                   <div className="flex-1 min-w-0">
                     {q.context && (
                       <p
-                        className={`text-[10px] sm:text-xs mb-2 italic break-words ${
+                        className={`text-[10px] sm:text-xs mb-2 break-words ${
                           isDarkMode ? "text-dark-500" : "text-gray-400"
                         }`}
                       >
-                        {q.context.length > 150
-                          ? q.context.slice(0, 150) + "..."
-                          : q.context}
+                        {q.context}
                       </p>
                     )}
                     <p

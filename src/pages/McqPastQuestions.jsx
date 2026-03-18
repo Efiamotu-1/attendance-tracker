@@ -31,11 +31,27 @@ const downloadableFiles = [
   },
   {
     id: 2,
+    name: "2011 (May) Bar Finals MCQs",
+    fileName: "2011 (May) Bar Finals MCQs.docx",
+    year: 2011,
+    session: "May",
+    fileType: "docx",
+  },
+  {
+    id: 3,
     name: "2011 (August) Bar Finals MCQs",
     fileName: "2011 (August) Bar Finals MCQs.docx",
     year: 2011,
     session: "August",
     fileType: "docx",
+  },
+  {
+    id: 4,
+    name: "MCQ 2020 JAN",
+    fileName: "MCQ 2020 JAN.pdf",
+    year: 2020,
+    session: "January",
+    fileType: "pdf",
   },
 ];
 
@@ -77,7 +93,7 @@ const COURSE_COLORS = {
     badge: "bg-emerald-100 text-emerald-700",
     badgeDark: "bg-emerald-500/20 text-emerald-400",
   },
-  "Law in Practice": {
+  "Professional Ethics & Skills": {
     key: "amber",
     dot: "bg-amber-500",
     bg: "bg-amber-500/10",
@@ -255,7 +271,7 @@ function McqPastQuestions() {
       {/* ========== STATS BANNER ========== */}
       <div className="grid grid-cols-3 gap-2 sm:gap-3 mb-5 sm:mb-6">
         {[
-          { label: "Years", value: totalYears, icon: "📅" },
+          { label: "Files", value: downloadableFiles.length, icon: "📅" },
           { label: "Quizzes", value: totalQuizzes, icon: "📝" },
           { label: "Questions", value: totalQuestions, icon: "❓" },
         ].map((stat) => (

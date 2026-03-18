@@ -1093,6 +1093,1401 @@ const mcqQuestions = {
   },
 
   // ================================================================
+  // 2011 MAY — BAR PART II FINAL EXAMINATION
+  // ================================================================
+
+  "2011-may": {
+    year: 2011,
+    session: "May",
+    examTitle: "Bar Part II Final Examination",
+    totalQuestions: 100,
+    courses: [
+      // ========================================
+      // CIVIL LITIGATION (20 Questions)
+      // ========================================
+      {
+        id: "2011-may-civil-litigation",
+        name: "Civil Litigation",
+        questionsCount: 20,
+        questions: [
+          {
+            id: 1,
+            context:
+              "Chief Agbasi Obi was the Governorship candidate of Winners Party whilst Mr. Mike Chukwu was the candidate of the Action Party of the just concluded general elections, which took place on the 26th April, 2011. By the result declared by the Resident Electoral Commission for the state, Mr. Mike Chukwu won, having polled 260,000 votes whilst Chief Agbasi came second having polled 180,000 votes. Chief Agbasi Obi is not satisfied with the outcome of the election and intends to challenge the election on the ground that Mr. Mike Chukwu was only 34 years old as at the date of the election.",
+            question: "The proper tribunal to file the petition is:",
+            options: {
+              a: "The Court of Appeal.",
+              b: "The Governorship and Legislative Houses Election Tribunal.",
+              c: "The Governorship Election Tribunal.",
+              d: "The Governorship and National Assembly Election Tribunal.",
+            },
+            answer: "c",
+          },
+          {
+            id: 2,
+            context:
+              "Chief Agbasi Obi was the Governorship candidate of Winners Party whilst Mr. Mike Chukwu was the candidate of the Action Party of the just concluded general elections, which took place on the 26th April, 2011. By the result declared by the Resident Electoral Commission for the state, Mr. Mike Chukwu won, having polled 260,000 votes whilst Chief Agbasi came second having polled 180,000 votes. Chief Agbasi Obi is not satisfied with the outcome of the election and intends to challenge the election on the ground that Mr. Mike Chukwu was only 34 years old as at the date of the election.",
+            question:
+              "Documents to be filed along with the petition include all but one of the following:",
+            options: {
+              a: "Verifying Affidavit.",
+              b: "List of witnesses.",
+              c: "Copies of Exhibits.",
+              d: "Statement on oath of witnesses.",
+            },
+            answer: "a",
+          },
+          {
+            id: 3,
+            context:
+              "Chief Agbasi Obi was the Governorship candidate of Winners Party whilst Mr. Mike Chukwu was the candidate of the Action Party of the just concluded general elections, which took place on the 26th April, 2011. By the result declared by the Resident Electoral Commission for the state, Mr. Mike Chukwu won, having polled 260,000 votes whilst Chief Agbasi came second having polled 180,000 votes. Chief Agbasi Obi is not satisfied with the outcome of the election and intends to challenge the election on the ground that Mr. Mike Chukwu was only 34 years old as at the date of the election.",
+            question: "The petition in this case must be filed latest on:",
+            options: {
+              a: "17th May, 2011.",
+              b: "26th May, 2011.",
+              c: "19th May, 2011.",
+              d: "28th May, 2011.",
+            },
+            answer: "a",
+          },
+          {
+            id: 4,
+            context:
+              "Chief Agbasi Obi was the Governorship candidate of Winners Party whilst Mr. Mike Chukwu was the candidate of the Action Party of the just concluded general elections, which took place on the 26th April, 2011. By the result declared by the Resident Electoral Commission for the state, Mr. Mike Chukwu won, having polled 260,000 votes whilst Chief Agbasi came second having polled 180,000 votes. Chief Agbasi Obi is not satisfied with the outcome of the election and intends to challenge the election on the ground that Mr. Mike Chukwu was only 34 years old as at the date of the election.",
+            question:
+              "Assuming the petition was filed on the 30th April, 2011, judgment in the case must be delivered latest on:",
+            options: {
+              a: "29th October, 2011.",
+              b: "28th October, 2011.",
+              c: "29th July, 2011.",
+              d: "30th July, 2011.",
+            },
+            answer: "b",
+          },
+          {
+            id: 5,
+            context:
+              "Chief Agbasi Obi was the Governorship candidate of Winners Party whilst Mr. Mike Chukwu was the candidate of the Action Party of the just concluded general elections, which took place on the 26th April, 2011. By the result declared by the Resident Electoral Commission for the state, Mr. Mike Chukwu won, having polled 260,000 votes whilst Chief Agbasi came second having polled 180,000 votes. Chief Agbasi Obi is not satisfied with the outcome of the election and intends to challenge the election on the ground that Mr. Mike Chukwu was only 34 years old as at the date of the election.",
+            question:
+              "At the conclusion of this case, the Tribunal can validly give any of the following judgment except one:",
+            options: {
+              a: "Nullifying the election of Mr. Mike Chukwu and ordering conduct of another election.",
+              b: "Upholding the election of Mr. Mike Chukwu and dismissing the petition.",
+              c: "Nullifying the election of Mr. Mike Chukwu and ordering that Chief Agbasi Obi be sworn in as Governor.",
+              d: "Striking out the petition for failure to file same within time.",
+            },
+            answer: "c",
+          },
+          {
+            id: 6,
+            question:
+              "An action between Lagos State and the Senate must be commenced before:",
+            options: {
+              a: "Supreme Court.",
+              b: "Court of Appeal.",
+              c: "Federal High Court.",
+              d: "State High Court.",
+            },
+            answer: "c",
+          },
+          {
+            id: 7,
+            question:
+              "When a case is adjourned for mention, on the adjourned date, any of the following can validly take place except one:",
+            options: {
+              a: "Hearing of interlocutory application with the consent of both parties.",
+              b: "Hearing of substantive case with the consent of both parties.",
+              c: "Striking out of the case for lack of readiness by claimant to proceed with the hearing of the case.",
+              d: "Adjournment of the case for hearing.",
+            },
+            answer: "c",
+          },
+          {
+            id: 8,
+            question:
+              "When a trial court holds that it lacks jurisdiction, the proper order to make is to:",
+            options: {
+              a: "Dismiss the case.",
+              b: "Strike out the case.",
+              c: "Non-suit the case.",
+              d: "Order a trial de-novo.",
+            },
+            answer: "b",
+          },
+          {
+            id: 9,
+            question:
+              "For a yearly tenant whose tenancy commenced on 1st October 2011 and whose tenancy is to be terminated in 2012, the notice to quit must be served on him latest on:",
+            options: {
+              a: "1st March, 2012.",
+              b: "30th March, 2012.",
+              c: "29th February, 2012.",
+              d: "1st February, 2012.",
+            },
+            answer: "b",
+          },
+          {
+            id: 10,
+            question:
+              "All the following orders cannot ordinarily be obtained in a proceeding for dissolution of marriage except one:",
+            options: {
+              a: "Maintenance of the respondent who is guilty of adultery.",
+              b: "Dissolution of the marriage at the instance of a petitioner who is guilty of desertion.",
+              c: "Custody of a child of the marriage who is 30 years old.",
+              d: "Sharing of the assets jointly acquired by the parties to the marriage.",
+            },
+            answer: "c",
+          },
+          {
+            id: 11,
+            context:
+              "In an application for interlocutory injunction by Mr. Emmanuel Dimka against Chief Ogidi, the trial court granted him order of injunction restraining Chief Ogidi from going onto the land the subject matter of the dispute. Although, the order was made on 10th February, 2011, the defendant (Chief Ogidi) refused to obey the order of the Court. He wants to appeal on the 20th April, 2011.",
+            question: "What time limit does Chief Ogidi have to appeal?",
+            options: {
+              a: "14 days.",
+              b: "15 days.",
+              c: "90 days.",
+              d: "30 days.",
+            },
+            answer: "a",
+          },
+          {
+            id: 12,
+            context:
+              "In an application for interlocutory injunction by Mr. Emmanuel Dimka against Chief Ogidi, the trial court granted him order of injunction restraining Chief Ogidi from going onto the land the subject matter of the dispute. Although, the order was made on 10th February, 2011, the defendant (Chief Ogidi) refused to obey the order of the Court. He wants to appeal on the 20th April, 2011.",
+            question:
+              "Assuming the trial court refused the application for injunction, what application will you as Counsel for Mr. Emmanuel make to maintain the status quo?",
+            options: {
+              a: "Stay of proceedings.",
+              b: "Interlocutory injunction.",
+              c: "Stay of execution.",
+              d: "Injunction pending appeal.",
+            },
+            answer: "d",
+          },
+          {
+            id: 13,
+            context:
+              "In an application for interlocutory injunction by Mr. Emmanuel Dimka against Chief Ogidi, the trial court granted him order of injunction restraining Chief Ogidi from going onto the land the subject matter of the dispute. Although, the order was made on 10th February, 2011, the defendant (Chief Ogidi) refused to obey the order of the Court. He wants to appeal on the 20th April, 2011.",
+            question:
+              "What first process would Mr. Emmanuel require to ensure compliance with the order of the Court?",
+            options: {
+              a: "Form 50.",
+              b: "Form 48.",
+              c: "Form 30.",
+              d: "Form 49.",
+            },
+            answer: "b",
+          },
+          {
+            id: 14,
+            context:
+              "In an application for interlocutory injunction by Mr. Emmanuel Dimka against Chief Ogidi, the trial court granted him order of injunction restraining Chief Ogidi from going onto the land the subject matter of the dispute. Although, the order was made on 10th February, 2011, the defendant (Chief Ogidi) refused to obey the order of the Court. He wants to appeal on the 20th April, 2011.",
+            question:
+              "If the time limited for appeal has expired, what application will Chief Ogidi make to Court to render the appeal competent?",
+            options: {
+              a: "Leave to appeal.",
+              b: "Extension of time to appeal.",
+              c: "Leave to appeal, extension of time to seek leave to appeal and extension of time to appeal.",
+              d: "None of the above.",
+            },
+            answer: "b",
+          },
+          {
+            id: 15,
+            context:
+              "In an application for interlocutory injunction by Mr. Emmanuel Dimka against Chief Ogidi, the trial court granted him order of injunction restraining Chief Ogidi from going onto the land the subject matter of the dispute. Although, the order was made on 10th February, 2011, the defendant (Chief Ogidi) refused to obey the order of the Court. He wants to appeal on the 20th April, 2011.",
+            question:
+              "If an application for stay of proceedings is refused by a trial court, within what time should a similar application be made to the Court of Appeal?",
+            options: {
+              a: "3 months.",
+              b: "12 days.",
+              c: "15 days.",
+              d: "14 days.",
+            },
+            answer: "c",
+          },
+          {
+            id: 16,
+            context:
+              "Chief Obada James bought a plot of land recently from the Ajanaku family of Ikorodu, Lagos. Shortly thereafter, some men who claimed to have been sent by Chief Dan Izu started erecting a fence on the plot, preparatory to developing the plot. Chief Obada James has consulted your Law Office to file an action against Chief Dan Izu for declaration of title to land and trespass.",
+            question: "By what mode will you commence the action?",
+            options: {
+              a: "Originating motion.",
+              b: "Originating Summons.",
+              c: "Writ of Summons.",
+              d: "Petition.",
+            },
+            answer: "c",
+          },
+          {
+            id: 17,
+            context:
+              "Chief Obada James bought a plot of land recently from the Ajanaku family of Ikorodu, Lagos. Shortly thereafter, some men who claimed to have been sent by Chief Dan Izu started erecting a fence on the plot, preparatory to developing the plot. Chief Obada James has consulted your Law Office to file an action against Chief Dan Izu for declaration of title to land and trespass.",
+            question:
+              "All but one of the following persons is a proper person to effect service of the originating process on Chief Dan Izu:",
+            options: {
+              a: "Through a Special Marshal.",
+              b: "Through an officer of the Court.",
+              c: "Through Chief Dan Izu's Personal Assistant.",
+              d: "Through a Sheriff of Court.",
+            },
+            answer: "c",
+          },
+          {
+            id: 18,
+            context:
+              "Chief Obada James bought a plot of land recently from the Ajanaku family of Ikorodu, Lagos. Shortly thereafter, some men who claimed to have been sent by Chief Dan Izu started erecting a fence on the plot, preparatory to developing the plot. Chief Obada James has consulted your Law Office to file an action against Chief Dan Izu for declaration of title to land and trespass.",
+            question:
+              "If Chief Obada James wants the status quo maintained pending the determination of the suit, which of the following application should he make?",
+            options: {
+              a: "Interim injunction.",
+              b: "Stay of proceedings.",
+              c: "Stay of execution.",
+              d: "Interlocutory injunction.",
+            },
+            answer: "d",
+          },
+          {
+            id: 19,
+            context:
+              "John Mark is a tenant in the property belonging to late Ojo Ladi on a yearly tenancy which commenced on the 1st of April, 2008. After the death of Ojo Ladi, his two eldest sons are contesting over the rightful person to collect the rent. John Mark is in dilemma as to the person who has the legal right to collect rent.",
+            question:
+              "What step can John Mark take to avoid paying rent to the wrong person?",
+            options: {
+              a: "Third Party Proceedings.",
+              b: "Interpleader summons.",
+              c: "Garnishee proceedings.",
+              d: "Anton Piller.",
+            },
+            answer: "b",
+          },
+          {
+            id: 20,
+            context:
+              "John Mark is a tenant in the property belonging to late Ojo Ladi on a yearly tenancy which commenced on the 1st of April, 2008. After the death of Ojo Ladi, his two eldest sons are contesting over the rightful person to collect the rent. John Mark is in dilemma as to the person who has the legal right to collect rent.",
+            question:
+              "In order to determine the tenancy of Mr. John Mark, which of the following is the appropriate notice to be served on him?",
+            options: {
+              a: "A six months notice to quit expiring on 31st of March, 2009.",
+              b: "A six months notice to expire on the 2nd of March, 2009.",
+              c: "Six months notice to expire on the 31st of December, 2009.",
+              d: "None of the above.",
+            },
+            answer: "a",
+          },
+        ],
+      },
+
+      // ========================================
+      // CRIMINAL LITIGATION (20 Questions)
+      // ========================================
+      {
+        id: "2011-may-criminal-litigation",
+        name: "Criminal Litigation",
+        questionsCount: 20,
+        questions: [
+          {
+            id: 1,
+            context:
+              "Araromi Igbe was arrested in Lokoja, Kogi State for stabbing one Hassan Okoh to death with a knife. The State Ministry of Justice is considering the arraignment of the suspect to court who has been in custody for more than seven days. His family informed you that the police explained that they have been instructed to detain him because of the publicity of the case.",
+            question:
+              "What document should the Ministry of Justice file at the High Court?",
+            options: {
+              a: "Charge of culpable homicide punishable with death.",
+              b: "First information report.",
+              c: "Application for leave to prefer a charge.",
+              d: "None of the above.",
+            },
+            answer: "c",
+          },
+          {
+            id: 2,
+            context:
+              "Araromi Igbe was arrested in Lokoja, Kogi State for stabbing one Hassan Okoh to death with a knife. The State Ministry of Justice is considering the arraignment of the suspect to court who has been in custody for more than seven days. His family informed you that the police explained that they have been instructed to detain him because of the publicity of the case.",
+            question: "The family should apply for bail at:",
+            options: {
+              a: "The High Court.",
+              b: "The Magistrate Court.",
+              c: "The Office of the Attorney General of the State.",
+              d: "None of the above.",
+            },
+            answer: "a",
+          },
+          {
+            id: 3,
+            context:
+              "Araromi Igbe was arrested in Lokoja, Kogi State for stabbing one Hassan Okoh to death with a knife. The State Ministry of Justice is considering the arraignment of the suspect to court who has been in custody for more than seven days. His family informed you that the police explained that they have been instructed to detain him because of the publicity of the case.",
+            question:
+              "When the Ministry of Justice arraigns the accused in Court he would:",
+            options: {
+              a: "Be entitled to an interpreter.",
+              b: "Be placed in the dock without shackles.",
+              c: "The charge must be read and explained to him to his satisfaction.",
+              d: "Be required to plead to the charge.",
+            },
+            answer: "b",
+          },
+          {
+            id: 4,
+            context:
+              "Araromi Igbe was arrested in Lokoja, Kogi State for stabbing one Hassan Okoh to death with a knife. The State Ministry of Justice is considering the arraignment of the suspect to court who has been in custody for more than seven days. His family informed you that the police explained that they have been instructed to detain him because of the publicity of the case.",
+            question:
+              "The reason given by the police for the detention of the suspect is:",
+            options: {
+              a: "Understandable in view of the nature of the charge.",
+              b: "Unlawful.",
+              c: "Would have been proper if the Police had applied to a Magistrate for the detention pending completion of investigation.",
+              d: "None of the above.",
+            },
+            answer: "b",
+          },
+          {
+            id: 5,
+            context:
+              "Araromi Igbe was arrested in Lokoja, Kogi State for stabbing one Hassan Okoh to death with a knife. The State Ministry of Justice is considering the arraignment of the suspect to court who has been in custody for more than seven days. His family informed you that the police explained that they have been instructed to detain him because of the publicity of the case.",
+            question:
+              "If the accused is convicted after trial he may exercise all but one of these options:",
+            options: {
+              a: "Appeal against the decision.",
+              b: "Apply for judicial pardon.",
+              c: "Apply for bail.",
+              d: "None of the above.",
+            },
+            answer: "b",
+          },
+          {
+            id: 6,
+            question:
+              "One of these is not a process to secure attendance of an accused for his trial:",
+            options: {
+              a: "Invitation letter by the Police.",
+              b: "Arrest.",
+              c: "Summons.",
+              d: "Warrant of arrest.",
+            },
+            answer: "a",
+          },
+          {
+            id: 7,
+            question:
+              "These are Courts of Criminal jurisdiction except:",
+            options: {
+              a: "The High Courts.",
+              b: "Courts constituted under the Armed Forces Act.",
+              c: "Election Tribunal.",
+              d: "Magistrate Court.",
+            },
+            answer: "c",
+          },
+          {
+            id: 8,
+            question: "One of these is not a type of punishment:",
+            options: {
+              a: "Imprisonment.",
+              b: "Fine.",
+              c: "Compensation.",
+              d: "Forfeiture.",
+            },
+            answer: "c",
+          },
+          {
+            id: 9,
+            question:
+              "A Magistrate Court in the North may take cognizance of an offence in any of the following ways except:",
+            options: {
+              a: "By drafting a charge.",
+              b: "Upon receipt of a first information report.",
+              c: "When the Court receives information which constitutes an offence.",
+              d: "Upon a complaint from any person.",
+            },
+            answer: "a",
+          },
+          {
+            id: 10,
+            question:
+              "The case of Osahon decided that the police can prosecute matters under certain conditions before:",
+            options: {
+              a: "The Supreme Court.",
+              b: "Court Martial.",
+              c: "Court of Appeal.",
+              d: "High Courts.",
+            },
+            answer: "b",
+          },
+          {
+            id: 11,
+            context:
+              "An application for leave to prefer a Charge pursuant to Section 185(b) of the Criminal Procedure Code was brought before Justice Pam of the High Court of Plateau State after the same application had earlier been refused by Justice Dung, also of the High Court of Plateau State. It was preferred against Bob Guy and Joseph Masters. At the trial in which both accused persons were represented by Counsel, Bob stated that he had already been pardoned for that particular offence by the Governor of Plateau State before his arrest. Joseph refused to plead and the trial Judge observing that his refusal to plead was out of malice ordered that he be remanded in custody until the pleasure of the Governor is known. He later discharged Bob, who was promptly re-arrested by the Police before even fully stepping out of the dock.",
+            question:
+              "After the Application for Leave to prefer a Charge in the High Court was refused by Justice Dung, the proper thing for the prosecutor is to:",
+            options: {
+              a: "Appeal to the Court of Appeal.",
+              b: "File a similar application before another High Court Judge.",
+              c: "Apply for Writ of Mandamus to compel Justice Dung to grant the leave.",
+              d: "None of the above.",
+            },
+            answer: "b",
+          },
+          {
+            id: 12,
+            context:
+              "An application for leave to prefer a Charge pursuant to Section 185(b) of the Criminal Procedure Code was brought before Justice Pam of the High Court of Plateau State after the same application had earlier been refused by Justice Dung, also of the High Court of Plateau State. It was preferred against Bob Guy and Joseph Masters. At the trial in which both accused persons were represented by Counsel, Bob stated that he had already been pardoned for that particular offence by the Governor of Plateau State before his arrest. Joseph refused to plead and the trial Judge observing that his refusal to plead was out of malice ordered that he be remanded in custody until the pleasure of the Governor is known. He later discharged Bob, who was promptly re-arrested by the Police before even fully stepping out of the dock.",
+            question:
+              "Which of the following statements is true?",
+            options: {
+              a: "Bob was properly pardoned by the Governor of Plateau State.",
+              b: "That prior to Bob's initial arrest, he can only be granted amnesty and not pardon.",
+              c: "That prior to the arrest, the Attorney General ought to have entered nolle prosequi.",
+              d: "All of the above.",
+            },
+            answer: "b",
+          },
+          {
+            id: 13,
+            context:
+              "An application for leave to prefer a Charge pursuant to Section 185(b) of the Criminal Procedure Code was brought before Justice Pam of the High Court of Plateau State after the same application had earlier been refused by Justice Dung, also of the High Court of Plateau State. It was preferred against Bob Guy and Joseph Masters. At the trial in which both accused persons were represented by Counsel, Bob stated that he had already been pardoned for that particular offence by the Governor of Plateau State before his arrest. Joseph refused to plead and the trial Judge observing that his refusal to plead was out of malice ordered that he be remanded in custody until the pleasure of the Governor is known. He later discharged Bob, who was promptly re-arrested by the Police before even fully stepping out of the dock.",
+            question:
+              "When the trial Court observed that Joseph's refusal to plead was out of malice, the Court should:",
+            options: {
+              a: "Have properly ordered that he be remanded until the Governor's pleasure is known.",
+              b: "Ought to have enquired whether he could follow the proceedings by use of sign language.",
+              c: "Ought to have entered a plea of not guilty for him and proceeded with the trial.",
+              d: "Should have called upon him to open his defence.",
+            },
+            answer: "c",
+          },
+          {
+            id: 14,
+            context:
+              "An application for leave to prefer a Charge pursuant to Section 185(b) of the Criminal Procedure Code was brought before Justice Pam of the High Court of Plateau State after the same application had earlier been refused by Justice Dung, also of the High Court of Plateau State. It was preferred against Bob Guy and Joseph Masters. At the trial in which both accused persons were represented by Counsel, Bob stated that he had already been pardoned for that particular offence by the Governor of Plateau State before his arrest. Joseph refused to plead and the trial Judge observing that his refusal to plead was out of malice ordered that he be remanded in custody until the pleasure of the Governor is known. He later discharged Bob, who was promptly re-arrested by the Police before even fully stepping out of the dock.",
+            question:
+              "In which of these places can a proper arrest be made?",
+            options: {
+              a: "In a courtroom where court is sitting.",
+              b: "In a Legislative House where no permission of the Senate President or Speaker had been sought and obtained.",
+              c: "Inside a Church.",
+              d: "None of the above.",
+            },
+            answer: "c",
+          },
+          {
+            id: 15,
+            context:
+              "An application for leave to prefer a Charge pursuant to Section 185(b) of the Criminal Procedure Code was brought before Justice Pam of the High Court of Plateau State after the same application had earlier been refused by Justice Dung, also of the High Court of Plateau State. It was preferred against Bob Guy and Joseph Masters. At the trial in which both accused persons were represented by Counsel, Bob stated that he had already been pardoned for that particular offence by the Governor of Plateau State before his arrest. Joseph refused to plead and the trial Judge observing that his refusal to plead was out of malice ordered that he be remanded in custody until the pleasure of the Governor is known. He later discharged Bob, who was promptly re-arrested by the Police before even fully stepping out of the dock.",
+            question:
+              "Which of these statements is true?",
+            options: {
+              a: "The police can still charge Bob for theft.",
+              b: "Bob can successfully plead autrefois acquit in the subsequent trial.",
+              c: "If Bob is subsequently convicted, his conviction will be set aside on appeal due to unlawful arrest.",
+              d: "None of the above.",
+            },
+            answer: "a",
+          },
+          {
+            id: 16,
+            context:
+              "At the trial of James Roberson at the Senior Magistrate Court Apapa, Lagos for stealing and rape of one Miss Abalaka, the two offences were stated in count one and read to him. He pleaded not guilty to it. At the end of the trial, the accused was discharged and acquitted of the offences. Miss Abalaka appealed against the decision.",
+            question: "The charge is bad for offending:",
+            options: {
+              a: "The rule against misjoinder of offences.",
+              b: "The rule against ambiguity.",
+              c: "The rule against duplicity.",
+              d: "The rule against misjoinder of offenders.",
+            },
+            answer: "c",
+          },
+          {
+            id: 17,
+            context:
+              "At the trial of James Roberson at the Senior Magistrate Court Apapa, Lagos for stealing and rape of one Miss Abalaka, the two offences were stated in count one and read to him. He pleaded not guilty to it. At the end of the trial, the accused was discharged and acquitted of the offences. Miss Abalaka appealed against the decision.",
+            question:
+              "Miss Abalaka does not have right of appeal against the decision because:",
+            options: {
+              a: "She is not the accused.",
+              b: "She is not the prosecutor.",
+              c: "She is the victim.",
+              d: "All of the above.",
+            },
+            answer: "c",
+          },
+          {
+            id: 18,
+            question:
+              "One of the following is the basic qualification of an interpreter in Court:",
+            options: {
+              a: "Must be bold.",
+              b: "Must be competent enough.",
+              c: "Must be knowledgeable in law.",
+              d: "Must be of the same tribe with the accused person.",
+            },
+            answer: "b",
+          },
+          {
+            id: 19,
+            context:
+              "Assuming Colonel Badmus was tried and convicted by the Court martial for rape and stealing and was sentenced accordingly:",
+            question:
+              "Which of the following sentences is correct?",
+            options: {
+              a: "He can still be tried for the offences by the High Court.",
+              b: "He cannot be tried again by any Court of Law.",
+              c: "He can only be tried by the High Court upon leave of the President of the Court martial.",
+              d: "None of the above.",
+            },
+            answer: "a",
+          },
+          {
+            id: 20,
+            question: "All but one of the following is untrue:",
+            options: {
+              a: "By the Magistrates' Court Law of Lagos State 2009, all grades of Magistrates now have equal powers.",
+              b: "Only Grade 3 Magistrate Court try capital offences.",
+              c: "Magistracy cadre is abolished.",
+              d: "The highest punishment a Magistrate can impose is 20 years imprisonment.",
+            },
+            answer: "a",
+          },
+        ],
+      },
+
+      // ========================================
+      // CORPORATE LAW (20 Questions)
+      // ========================================
+      {
+        id: "2011-may-corporate-law",
+        name: "Corporate Law",
+        questionsCount: 20,
+        questions: [
+          {
+            id: 1,
+            context:
+              "Farouk Okon (33), Ayo Emeka (34) and Tersu Oche (35) studied Law at the Federal Capital University, Abuja and were recently admitted to the Nigerian Bar, having successfully completed the Law School Programme. Having been exempted from the NYSC programme, they have applied for accreditation at the Corporate Affairs Commission and the Securities and Exchange Commission respectively, two months after their Call to Bar. They also intend to execute a partnership agreement towards setting up a joint legal practice under a name that will not require registration under Part B of the Companies and Allied Matters Act Cap C20 LFN 2004.",
+            question:
+              "Which of the following document is not required for the accreditation of the intending partners?",
+            options: {
+              a: "2 Passport photographs.",
+              b: "NYSC Letter of Exemption.",
+              c: "Original LL.B Degree Certificate.",
+              d: "Photocopy of Call to Bar Certificate.",
+            },
+            answer: "c",
+          },
+          {
+            id: 2,
+            context:
+              "Farouk Okon (33), Ayo Emeka (34) and Tersu Oche (35) studied Law at the Federal Capital University, Abuja and were recently admitted to the Nigerian Bar, having successfully completed the Law School Programme. Having been exempted from the NYSC programme, they have applied for accreditation at the Corporate Affairs Commission and the Securities and Exchange Commission respectively, two months after their Call to Bar. They also intend to execute a partnership agreement towards setting up a joint legal practice under a name that will not require registration under Part B of the Companies and Allied Matters Act Cap C20 LFN 2004.",
+            question:
+              "The Partners above will be refused accreditation at SEC because:",
+            options: {
+              a: "SEC accredits only individual professionals.",
+              b: "It is impossible for them to obtain Police security report.",
+              c: "SEC does not accredit Solicitors.",
+              d: "They are below 5 years Post-call.",
+            },
+            answer: "d",
+          },
+          {
+            id: 3,
+            context:
+              "Farouk Okon (33), Ayo Emeka (34) and Tersu Oche (35) studied Law at the Federal Capital University, Abuja and were recently admitted to the Nigerian Bar, having successfully completed the Law School Programme. Having been exempted from the NYSC programme, they have applied for accreditation at the Corporate Affairs Commission and the Securities and Exchange Commission respectively, two months after their Call to Bar. They also intend to execute a partnership agreement towards setting up a joint legal practice under a name that will not require registration under Part B of the Companies and Allied Matters Act Cap C20 LFN 2004.",
+            question:
+              "Which of the following names will require registration if used by the Partners?",
+            options: {
+              a: "Farouk Okon, Ayo Emeka and Tersu Oche.",
+              b: "F. Okon, A. Emeka, T. Oche and Associates.",
+              c: "F. Okon, A. Emeka and T. Oche.",
+              d: "Okon, Emeka and Oche.",
+            },
+            answer: "b",
+          },
+          {
+            id: 4,
+            context:
+              "Farouk Okon (33), Ayo Emeka (34) and Tersu Oche (35) studied Law at the Federal Capital University, Abuja and were recently admitted to the Nigerian Bar, having successfully completed the Law School Programme. Having been exempted from the NYSC programme, they have applied for accreditation at the Corporate Affairs Commission and the Securities and Exchange Commission respectively, two months after their Call to Bar. They also intend to execute a partnership agreement towards setting up a joint legal practice under a name that will not require registration under Part B of the Companies and Allied Matters Act Cap C20 LFN 2004.",
+            question:
+              "The Partners in this scenario will require accreditation in respect of:",
+            options: {
+              a: "Parts A and B of CAMA.",
+              b: "Parts B and C of CAMA.",
+              c: "Part A of CAMA.",
+              d: "Parts A and C of CAMA.",
+            },
+            answer: "c",
+          },
+          {
+            id: 5,
+            context:
+              "Farouk Okon (33), Ayo Emeka (34) and Tersu Oche (35) studied Law at the Federal Capital University, Abuja and were recently admitted to the Nigerian Bar, having successfully completed the Law School Programme. Having been exempted from the NYSC programme, they have applied for accreditation at the Corporate Affairs Commission and the Securities and Exchange Commission respectively, two months after their Call to Bar. They also intend to execute a partnership agreement towards setting up a joint legal practice under a name that will not require registration under Part B of the Companies and Allied Matters Act Cap C20 LFN 2004.",
+            question:
+              "Assuming the Partners opted for a registrable name of their legal practice, the following forms must be duly completed and filed:",
+            options: {
+              a: "Form CAC 1 and BN Form 1.",
+              b: "Form CAC 1 and BN Form 2.",
+              c: "Form CAC 1 and CAC Form 2.",
+              d: "Form CAC 1 and CAC Form 3.",
+            },
+            answer: "a",
+          },
+          {
+            id: 6,
+            context:
+              "Anasco Nigeria Limited was incorporated on 1st April, 2009. At the 2nd Board of Directors Meeting, the Chairman, Chief Oyin Udo did not arrive until 2 hours after the time the meeting was scheduled to commence. Three (3) of the six (6) directors passed a resolution appointing Mr. Okey Hassan to chair the Board Meeting of that day.",
+            question:
+              "When is the 1st Board of Directors Meeting of the company supposed to be held?",
+            options: {
+              a: "12 months after the incorporation of the Company.",
+              b: "6 months after the incorporation of the company.",
+              c: "15 months after incorporation of the Company.",
+              d: "18 months after the incorporation of the company.",
+            },
+            answer: "b",
+          },
+          {
+            id: 7,
+            context:
+              "Anasco Nigeria Limited was incorporated on 1st April, 2009. At the 2nd Board of Directors Meeting, the Chairman, Chief Oyin Udo did not arrive until 2 hours after the time the meeting was scheduled to commence. Three (3) of the six (6) directors passed a resolution appointing Mr. Okey Hassan to chair the Board Meeting of that day.",
+            question:
+              "If the Chairman of the Board of Directors is not present within _____ after the time appointed for the holding of Board of Directors Meeting, the directors present may choose one of their number to be Chairman of the meeting:",
+            options: {
+              a: "5 minutes.",
+              b: "15 minutes.",
+              c: "1 hour.",
+              d: "30 minutes.",
+            },
+            answer: "a",
+          },
+          {
+            id: 8,
+            context:
+              "The object clause of En-Quary Company Limited is to extract solid minerals in any available mining fields. Its mining licence has been revoked by the Federal Ministry of Solid Minerals, and the Directors have been warned to stop further illegal mining activities. The Company is considering a range of options, either to change its object clause or wind up voluntarily or even merge with another company with operating licence.",
+            question:
+              "Assuming the company decides to pass a resolution to alter its object clause, one of these persons would not be notified:",
+            options: {
+              a: "Shareholder.",
+              b: "Debenture Holder.",
+              c: "Any person financially interested in the Company.",
+              d: "None of the above.",
+            },
+            answer: "d",
+          },
+          {
+            id: 9,
+            context:
+              "The object clause of En-Quary Company Limited is to extract solid minerals in any available mining fields. Its mining licence has been revoked by the Federal Ministry of Solid Minerals, and the Directors have been warned to stop further illegal mining activities. The Company is considering a range of options, either to change its object clause or wind up voluntarily or even merge with another company with operating licence.",
+            question:
+              "One of the following persons cannot validly oppose any Resolution for alteration of the company's object clause:",
+            options: {
+              a: "Minority members with at least 15% of the paid up shares who neither voted for nor supported the resolution.",
+              b: "Debenture holders secured by floating charge who are not in support of the resolution.",
+              c: "Corporate Affairs Commission.",
+              d: "None of the above.",
+            },
+            answer: "c",
+          },
+          {
+            id: 10,
+            context:
+              "The object clause of En-Quary Company Limited is to extract solid minerals in any available mining fields. Its mining licence has been revoked by the Federal Ministry of Solid Minerals, and the Directors have been warned to stop further illegal mining activities. The Company is considering a range of options, either to change its object clause or wind up voluntarily or even merge with another company with operating licence.",
+            question:
+              "Any objection to oppose the Resolution for alteration of the Company's object must be filed in the Court within:",
+            options: {
+              a: "14 days after the date of passing the Resolution.",
+              b: "21 days after the date of passing the Resolution.",
+              c: "28 days after the date of passing the Resolution.",
+              d: "None of the above.",
+            },
+            answer: "c",
+          },
+          {
+            id: 11,
+            context:
+              "The object clause of En-Quary Company Limited is to extract solid minerals in any available mining fields. Its mining licence has been revoked by the Federal Ministry of Solid Minerals, and the Directors have been warned to stop further illegal mining activities. The Company is considering a range of options, either to change its object clause or wind up voluntarily or even merge with another company with operating licence.",
+            question:
+              "Assuming the company decides to wind up voluntarily, one of the following documents would not be necessary:",
+            options: {
+              a: "Declaration of solvency.",
+              b: "Statement of Assets and Liabilities.",
+              c: "Copy of resolution at a general meeting.",
+              d: "Class Resolutions.",
+            },
+            answer: "d",
+          },
+          {
+            id: 12,
+            context:
+              "Adago Smith owns a lot of shares in several companies listed at the stock exchange. Her Stockbroker — Kolade manages the shares purchased and sells on her behalf.",
+            question:
+              "Assuming she has unresolved dispute with her stockbroker over accounts of the transactions, she would under the Investments and Securities Act lay her complaints at:",
+            options: {
+              a: "Nigerian Stock Exchange.",
+              b: "Investments and Securities Tribunal.",
+              c: "Securities and Exchange Commission.",
+              d: "Federal High Court.",
+            },
+            answer: "c",
+          },
+          {
+            id: 13,
+            context:
+              "Adago Smith owns a lot of shares in several companies listed at the stock exchange. Her Stockbroker — Kolade manages the shares purchased and sells on her behalf.",
+            question:
+              "If a decision was reached in her favour but Kolade refuses to comply with the directive, where would she institute a fresh action against Kolade under the Investment and Securities Act?",
+            options: {
+              a: "Federal High Court.",
+              b: "National Industrial Court.",
+              c: "Investments and Securities Tribunal.",
+              d: "Economic and Financial Crimes Commission.",
+            },
+            answer: "c",
+          },
+          {
+            id: 14,
+            context:
+              "Adago Smith owns a lot of shares in several companies listed at the stock exchange. Her Stockbroker — Kolade manages the shares purchased and sells on her behalf.",
+            question:
+              "If she is dissatisfied with the decision after the action, in which Court would she file her Appeal?",
+            options: {
+              a: "Federal High Court.",
+              b: "High Court of a State.",
+              c: "Court of Appeal.",
+              d: "Administrative Panel of the Securities and Exchange Commission.",
+            },
+            answer: "c",
+          },
+          {
+            id: 15,
+            context:
+              "Adago Smith owns a lot of shares in several companies listed at the stock exchange. Her Stockbroker — Kolade manages the shares purchased and sells on her behalf.",
+            question:
+              "Assuming she obtained judgment against Kolade, in which Court should she enforce the judgment?",
+            options: {
+              a: "Investments and Securities Tribunal.",
+              b: "Federal High Court.",
+              c: "State High Court.",
+              d: "National Industrial Court.",
+            },
+            answer: "b",
+          },
+          {
+            id: 16,
+            context:
+              "Ohanezecom (Nig.) Plc and Arewacom (Nig.) Plc are two of the newly licensed telecom service providers in Nigeria. With a combined network of N490 million, the two companies have concluded a merger arrangement in view of the threats from older telecommunication companies operating in Nigeria. They have secured the consent of the Corporate Affairs Commission (CAC) to use the name Oharewacom (Nig.) Plc. They have also secured a N1 Billion loan from a consortium of Niger Delta Bank (Nig.) Plc; Oodua Bank (Nig.) Plc and Middle Belt Bank (Nig.) Plc. The loan is secured by a fixed charge on the proposed Corporate Headquarters at No. 1, Ring Road, Enugu, Enugu State.",
+            question:
+              "The merger of Ohanezecom (Nig) Plc and Arewacom (Nig.) Plc is in the ______ category by virtue of Section 120 of the ISA 2007:",
+            options: {
+              a: "Small.",
+              b: "Intermediate.",
+              c: "Large.",
+              d: "Mega.",
+            },
+            answer: "a",
+          },
+          {
+            id: 17,
+            context:
+              "Ohanezecom (Nig.) Plc and Arewacom (Nig.) Plc are two of the newly licensed telecom service providers in Nigeria. With a combined network of N490 million, the two companies have concluded a merger arrangement in view of the threats from older telecommunication companies operating in Nigeria. They have secured the consent of the Corporate Affairs Commission (CAC) to use the name Oharewacom (Nig.) Plc. They have also secured a N1 Billion loan from a consortium of Niger Delta Bank (Nig.) Plc; Oodua Bank (Nig.) Plc and Middle Belt Bank (Nig.) Plc. The loan is secured by a fixed charge on the proposed Corporate Headquarters at No. 1, Ring Road, Enugu, Enugu State.",
+            question:
+              "The merger of the two companies is an example of:",
+            options: {
+              a: "Horizontal merger.",
+              b: "Vertical merger.",
+              c: "Conglomerate merger.",
+              d: "Pure conglomerate merger.",
+            },
+            answer: "a",
+          },
+          {
+            id: 18,
+            context:
+              "Ohanezecom (Nig.) Plc and Arewacom (Nig.) Plc are two of the newly licensed telecom service providers in Nigeria. With a combined network of N490 million, the two companies have concluded a merger arrangement in view of the threats from older telecommunication companies operating in Nigeria. They have secured the consent of the Corporate Affairs Commission (CAC) to use the name Oharewacom (Nig.) Plc. They have also secured a N1 Billion loan from a consortium of Niger Delta Bank (Nig.) Plc; Oodua Bank (Nig.) Plc and Middle Belt Bank (Nig.) Plc. The loan is secured by a fixed charge on the proposed Corporate Headquarters at No. 1, Ring Road, Enugu, Enugu State.",
+            question:
+              "The fixed charge securing the loan must be registered at _____ and _____:",
+            options: {
+              a: "AGIS Abuja and CAC Abuja.",
+              b: "Enugu Land Registry and CAC Abuja.",
+              c: "Port-Harcourt Land Registry and CAC Abuja.",
+              d: "Lagos Land Registry and CAC Abuja.",
+            },
+            answer: "b",
+          },
+          {
+            id: 19,
+            context:
+              "Ohanezecom (Nig.) Plc and Arewacom (Nig.) Plc are two of the newly licensed telecom service providers in Nigeria. With a combined network of N490 million, the two companies have concluded a merger arrangement in view of the threats from older telecommunication companies operating in Nigeria. They have secured the consent of the Corporate Affairs Commission (CAC) to use the name Oharewacom (Nig.) Plc. They have also secured a N1 Billion loan from a consortium of Niger Delta Bank (Nig.) Plc; Oodua Bank (Nig.) Plc and Middle Belt Bank (Nig.) Plc. The loan is secured by a fixed charge on the proposed Corporate Headquarters at No. 1, Ring Road, Enugu, Enugu State.",
+            question:
+              "The fixed charge will be registered at the Corporate Affairs Commission using _____ within _____:",
+            options: {
+              a: "CAC Form 8 within 90 days.",
+              b: "CAC Form 9 within 90 days.",
+              c: "CAC Form 8 within 60 days.",
+              d: "CAC Form 9 within 3 months.",
+            },
+            answer: "a",
+          },
+          {
+            id: 20,
+            context:
+              "Ohanezecom (Nig.) Plc and Arewacom (Nig.) Plc are two of the newly licensed telecom service providers in Nigeria. With a combined network of N490 million, the two companies have concluded a merger arrangement in view of the threats from older telecommunication companies operating in Nigeria. They have secured the consent of the Corporate Affairs Commission (CAC) to use the name Oharewacom (Nig.) Plc. They have also secured a N1 Billion loan from a consortium of Niger Delta Bank (Nig.) Plc; Oodua Bank (Nig.) Plc and Middle Belt Bank (Nig.) Plc. The loan is secured by a fixed charge on the proposed Corporate Headquarters at No. 1, Ring Road, Enugu, Enugu State.",
+            question:
+              "Which of the following is not a consequence of non-registration of the fixed charge in this scenario as prescribed by Section 197 of CAMA?",
+            options: {
+              a: "The loan is not binding on the Company's Liquidator and other creditors.",
+              b: "The company is relieved from obligation to repay the loan.",
+              c: "The company is not relieved from obligation to repay the loan.",
+              d: "None of the above.",
+            },
+            answer: "b",
+          },
+        ],
+      },
+
+      // ========================================
+      // PROPERTY LAW PRACTICE (20 Questions)
+      // ========================================
+      {
+        id: "2011-may-property-law",
+        name: "Property Law",
+        questionsCount: 20,
+        questions: [
+          {
+            id: 1,
+            context:
+              "Mr. Eno Ibok has agreed to the sale of a plot of land covered by a certificate of occupancy dated 5th February 1999 and registered as 15/15/555 at the Lands registry, Calabar, Cross River State. The Buyer is Mr. Bassey Bassey. The consideration is N25 million.",
+            question:
+              "It is advisable for the parties to enter into a contract first for the following reason except:",
+            options: {
+              a: "To enable the purchaser investigate the title.",
+              b: "The vendor cannot increase the price arbitrarily.",
+              c: "Death of either party cannot affect the transaction.",
+              d: "It makes the transaction slow.",
+            },
+            answer: "d",
+          },
+          {
+            id: 2,
+            context:
+              "Mr. Eno Ibok has agreed to the sale of a plot of land covered by a certificate of occupancy dated 5th February 1999 and registered as 15/15/555 at the Lands registry, Calabar, Cross River State. The Buyer is Mr. Bassey Bassey. The consideration is N25 million.",
+            question:
+              "Where Mr. Eno Ibok is an illiterate, it will be necessary to include _____ in the agreement:",
+            options: {
+              a: "An illiterate Juror.",
+              b: "An illiterate Jurat.",
+              c: "An illiterate Jade.",
+              d: "An illiterate Assignor.",
+            },
+            answer: "b",
+          },
+          {
+            id: 3,
+            context:
+              "Mr. Eno Ibok has agreed to the sale of a plot of land covered by a certificate of occupancy dated 5th February 1999 and registered as 15/15/555 at the Lands registry, Calabar, Cross River State. The Buyer is Mr. Bassey Bassey. The consideration is N25 million.",
+            question:
+              "Assuming Mr. Ibok is only selling part of his property, he will need to give the purchaser:",
+            options: {
+              a: "An indemnity clause.",
+              b: "An undertaking for safe custody and acknowledgment clause.",
+              c: "An irrevocable power of attorney.",
+              d: "None of the above.",
+            },
+            answer: "b",
+          },
+          {
+            id: 4,
+            context:
+              "Mr. Eno Ibok has agreed to the sale of a plot of land covered by a certificate of occupancy dated 5th February 1999 and registered as 15/15/555 at the Lands registry, Calabar, Cross River State. The Buyer is Mr. Bassey Bassey. The consideration is N25 million.",
+            question:
+              "Assuming Mr. Ibok dies without making provision for his estate:",
+            options: {
+              a: "His estate will be deemed to be forfeited.",
+              b: "His executor will apply for probate.",
+              c: "His Attorney General will take over his estate.",
+              d: "His personal representatives will make an application regarding his estate.",
+            },
+            answer: "d",
+          },
+          {
+            id: 5,
+            context:
+              "Mr. Eno Ibok has agreed to the sale of a plot of land covered by a certificate of occupancy dated 5th February 1999 and registered as 15/15/555 at the Lands registry, Calabar, Cross River State. The Buyer is Mr. Bassey Bassey. The consideration is N25 million.",
+            question:
+              "The final agreement between Mr. Ibok and Mr. Bassey will be prepared by:",
+            options: {
+              a: "Any Legal Practitioner.",
+              b: "Mr. Ibok's Legal Practitioner.",
+              c: "Mr. Bassey's Legal Practitioner.",
+              d: "None of the above.",
+            },
+            answer: "c",
+          },
+          {
+            id: 6,
+            question:
+              "The following include some specific types of property transactions and dealings in Nigeria except:",
+            options: {
+              a: "Pledge of Land.",
+              b: "Leases.",
+              c: "Licensed squatting.",
+              d: "Donation of power to deal with land.",
+            },
+            answer: "c",
+          },
+          {
+            id: 7,
+            question:
+              "Persons who carry out the wishes of deceased persons are:",
+            options: {
+              a: "Vendors.",
+              b: "Mortgagors.",
+              c: "Licensors.",
+              d: "Personal Representatives.",
+            },
+            answer: "d",
+          },
+          {
+            id: 8,
+            question:
+              "Nigerian Legislation, enacted by either the States or the Federal Government regulates property transactions. Some of these legislation include the following except:",
+            options: {
+              a: "Administration of Estate Laws.",
+              b: "Illiterate Protection Laws.",
+              c: "Companies and Allied Matters Act.",
+              d: "Nigerian Pensions Scheme Ordinance.",
+            },
+            answer: "d",
+          },
+          {
+            id: 9,
+            context:
+              "Chief George exchanged a contract of sale of land with Obode. Obode, the purchaser paid a deposit of N5 million to Chief George after the exchange of contract. The Chief allowed Obode to occupy the property after exchange of contract. The contract was to be completed within three months following the exchange of contract.",
+            question:
+              "Exchange of contract gives to the Purchaser one of the following titles:",
+            options: {
+              a: "Legal title.",
+              b: "Legal and equitable title.",
+              c: "Equitable title.",
+              d: "Unexpired term of the Vendor.",
+            },
+            answer: "c",
+          },
+          {
+            id: 10,
+            context:
+              "Chief George exchanged a contract of sale of land with Obode. Obode, the purchaser paid a deposit of N5 million to Chief George after the exchange of contract. The Chief allowed Obode to occupy the property after exchange of contract. The contract was to be completed within three months following the exchange of contract.",
+            question:
+              "When an independent party receives the deposit on behalf of George and Obode, the independent party is known as:",
+            options: {
+              a: "An agent.",
+              b: "Stakeholder.",
+              c: "A trustee.",
+              d: "A banker.",
+            },
+            answer: "b",
+          },
+          {
+            id: 11,
+            context:
+              "Chief George exchanged a contract of sale of land with Obode. Obode, the purchaser paid a deposit of N5 million to Chief George after the exchange of contract. The Chief allowed Obode to occupy the property after exchange of contract. The contract was to be completed within three months following the exchange of contract.",
+            question:
+              "It is more advantageous for Chief George that Obode occupies the property after exchange of contract as one of the following:",
+            options: {
+              a: "Licensee.",
+              b: "Tenant.",
+              c: "Landlord.",
+              d: "Stakeholder.",
+            },
+            answer: "a",
+          },
+          {
+            id: 12,
+            context:
+              "Chief George exchanged a contract of sale of land with Obode. Obode, the purchaser paid a deposit of N5 million to Chief George after the exchange of contract. The Chief allowed Obode to occupy the property after exchange of contract. The contract was to be completed within three months following the exchange of contract.",
+            question:
+              "One of the following is a consequence of Obode not completing the contract within the three months:",
+            options: {
+              a: "Obode will be commuted.",
+              b: "Obode will be required to secure Governor's consent.",
+              c: "He will act as a stakeholder.",
+              d: "He may pay interest on the balance of the purchase money.",
+            },
+            answer: "d",
+          },
+          {
+            id: 13,
+            context:
+              "Mr. Israel Sani got a loan of N100 million in 1999 from Unity Bank PLC using his twin Duplex situate at No. 5 River Lane, Asokoro Abuja, as security. The twin Duplex is worth N300 million considering the current market value as at 1999. In 2009, Mr. Israel Sani got additional loan of N120 million from Unity Bank to enable him finance the political party he identified with.",
+            question: "Which of the following is correct?",
+            options: {
+              a: "Mr. Israel lacks capacity to obtain additional loan using the same security.",
+              b: "Mr. Israel could take additional loan on the same terms and conditions as the previous loan.",
+              c: "Mr. Israel could only take such additional loan on different terms and conditions.",
+              d: "None is applicable.",
+            },
+            answer: "b",
+          },
+          {
+            id: 14,
+            context:
+              "Mr. Israel Sani got a loan of N100 million in 1999 from Unity Bank PLC using his twin Duplex situate at No. 5 River Lane, Asokoro Abuja, as security. The twin Duplex is worth N300 million considering the current market value as at 1999. In 2009, Mr. Israel Sani got additional loan of N120 million from Unity Bank to enable him finance the political party he identified with.",
+            question: "Which of the following is correct?",
+            options: {
+              a: "Mr. Israel needed FCT Minister's consent regarding the additional loan.",
+              b: "The Bank needed to conduct a separate search on the property used as security.",
+              c: "All that would be required is up-stamping regarding the additional loan.",
+              d: "Mr. Israel ought to have engaged a different Solicitor to act on his behalf in respect of the second loan.",
+            },
+            answer: "c",
+          },
+          {
+            id: 15,
+            question:
+              "Once a mortgage always a mortgage implies all but one of the following:",
+            options: {
+              a: "Upon the expiration of the legal right to redeem, the equitable right to redeem continues.",
+              b: "The right to redeem cannot be taken away by express agreement.",
+              c: "The mortgagor's equity of redemption is not extinguished by sale or foreclosure.",
+              d: "Any clause or clog in a mortgage against redemption is void.",
+            },
+            answer: "c",
+          },
+          {
+            id: 16,
+            question:
+              "Which of the following does not occur at the completion stage in conveyance of land?",
+            options: {
+              a: "Exchange of contract of sale.",
+              b: "Execution of a formal conveyance.",
+              c: "Handing over of title documents.",
+              d: "Payment of balance of purchase price.",
+            },
+            answer: "a",
+          },
+          {
+            id: 17,
+            question:
+              "A legal mortgage can be created in all but one of the following ways:",
+            options: {
+              a: "Demise for a term of years absolute.",
+              b: "Completing and registering Form 8.",
+              c: "Sublease at least one day shorter than term of original lease.",
+              d: "Assignment of unexpired interest in land.",
+            },
+            answer: "b",
+          },
+          {
+            id: 18,
+            context:
+              "Tella Dauda is one of the personal representatives of Mrs. Ola Joseph deceased whose will has been read and all the personal Representatives given a copy of the will.",
+            question:
+              "What will Tella Dauda need to do if she does not want to be part of Ola Joseph's estate?",
+            options: {
+              a: "File a renunciation form.",
+              b: "File a Form 1C.",
+              c: "File Form 15.",
+              d: "File a Caveat.",
+            },
+            answer: "a",
+          },
+          {
+            id: 19,
+            context:
+              "Tella Dauda is one of the personal representatives of Mrs. Ola Joseph deceased whose will has been read and all the personal Representatives given a copy of the will.",
+            question:
+              "One of the following is not a duty of personal representatives:",
+            options: {
+              a: "Arrange for burial of the deceased testator.",
+              b: "Apply for probate of his estate.",
+              c: "Open a school in her village.",
+              d: "Give account of their representation.",
+            },
+            answer: "c",
+          },
+          {
+            id: 20,
+            context:
+              "Tella Dauda is one of the personal representatives of Mrs. Ola Joseph deceased whose will has been read and all the personal Representatives given a copy of the will.",
+            question:
+              "Where an application for probate is contested it is called:",
+            options: {
+              a: "Grant in usual form.",
+              b: "Grant in solemn form.",
+              c: "Grant in common form.",
+              d: "Grant in common law.",
+            },
+            answer: "b",
+          },
+        ],
+      },
+
+      // ========================================
+      // PROFESSIONAL ETHICS & SKILLS (20 Questions)
+      // (formerly "Law in Practice")
+      // ========================================
+      {
+        id: "2011-may-professional-ethics",
+        name: "Professional Ethics & Skills",
+        questionsCount: 20,
+        questions: [
+          {
+            id: 1,
+            question:
+              "In Nigeria where parties to an arbitration agreement fail to specify the number of arbitrators, the arbitrators to be appointed shall be deemed to be:",
+            options: {
+              a: "One.",
+              b: "Two.",
+              c: "Three.",
+              d: "Six.",
+            },
+            answer: "c",
+          },
+          {
+            id: 2,
+            question:
+              "The Convention on the Recognition and Enforcement of Foreign Arbitral Awards is otherwise known as:",
+            options: {
+              a: "Geneva Convention.",
+              b: "New York Convention.",
+              c: "Lome Convention.",
+              d: "Paris Convention.",
+            },
+            answer: "b",
+          },
+          {
+            id: 3,
+            question:
+              "Nigeria acceded to the provisions of the Convention on the Recognition of Enforcement of Foreign Arbitral Awards in the year:",
+            options: {
+              a: "1958.",
+              b: "1970.",
+              c: "1988.",
+              d: "1990.",
+            },
+            answer: "b",
+          },
+          {
+            id: 4,
+            question:
+              "A party dissatisfied with an arbitral award may apply for setting aside the award within:",
+            options: {
+              a: "Fifteen days of the award.",
+              b: "One month of the award.",
+              c: "Two months of the award.",
+              d: "Three months of the award.",
+            },
+            answer: "d",
+          },
+          {
+            id: 5,
+            question:
+              "A judicial officer, who retired shall not:",
+            options: {
+              a: "Use the name Justice.",
+              b: "Sign legal agreements nor prepare same.",
+              c: "Register a law firm.",
+              d: "Practice as an Advocate in any court.",
+            },
+            answer: "d",
+          },
+          {
+            id: 6,
+            question:
+              "A charge before a Magistrate court that has no jurisdiction to entertain it is called:",
+            options: {
+              a: "A higher charge.",
+              b: "A bogus charge.",
+              c: "A holding charge.",
+              d: "An ineffective charge.",
+            },
+            answer: "c",
+          },
+          {
+            id: 7,
+            question:
+              "The National Industrial Court is a court of co-ordinate jurisdiction with the:",
+            options: {
+              a: "Supreme Court.",
+              b: "Federal High Court.",
+              c: "Sharia Customary Court of Appeal.",
+              d: "Court of Appeal.",
+            },
+            answer: "b",
+          },
+          {
+            id: 8,
+            question: "A lawyer who is enrolled in October 2010 should:",
+            options: {
+              a: "Wait until January 2011 before payment of his professional fees.",
+              b: "Not pay his Annual practicing fee that year.",
+              c: "Wait until he is one year at the bar before payment.",
+              d: "Pay the fees within one month of his enrollment at the Bar.",
+            },
+            answer: "d",
+          },
+          {
+            id: 9,
+            context:
+              "Mr. Smart Deco is a Legal Practitioner who has been arraigned before the Legal Practitioners Disciplinary Committee for misappropriating N5 million belonging to his client.",
+            question:
+              "What is the appropriate quorum of the Disciplinary Committee?",
+            options: {
+              a: "Five.",
+              b: "Six.",
+              c: "Twelve.",
+              d: "Two.",
+            },
+            answer: "a",
+          },
+          {
+            id: 10,
+            context:
+              "Mr. Smart Deco is a Legal Practitioner who has been arraigned before the Legal Practitioners Disciplinary Committee for misappropriating N5 million belonging to his client.",
+            question:
+              "Assuming the Disciplinary Committee makes a finding against Mr. Smart, what is the time within which Mr. Smart can file appeal against the decision of the Committee?",
+            options: {
+              a: "28 days from the date he was served a copy of the decision.",
+              b: "28 days from the date the decision was made.",
+              c: "30 days from the date he was served a copy of the decision.",
+              d: "30 days from the date of the decision.",
+            },
+            answer: "a",
+          },
+          {
+            id: 11,
+            question:
+              "After you have accepted a brief and conducted an interview with the client, why is it usual in practice to write a letter to that client?",
+            options: {
+              a: "To request for additional information.",
+              b: "To inform the client of his fee.",
+              c: "To confirm instructions before proceeding.",
+              d: "To terminate the brief.",
+            },
+            answer: "c",
+          },
+          {
+            id: 12,
+            question:
+              "All but one of the following statements are incorrect:",
+            options: {
+              a: "Only a legal practitioner can prepare all instruments for fee, gain or reward.",
+              b: "Only a legal practitioner can represent a client in court as an agent.",
+              c: "Only a legal practitioner can prepare instruments relating to immovable properties for fee, gain or reward.",
+              d: "Only a legal practitioner can incorporate companies under Companies and Allied Matters Act.",
+            },
+            answer: "c",
+          },
+          {
+            id: 13,
+            question:
+              "The rules of professional conduct for legal practitioners was made by:",
+            options: {
+              a: "Attorney General of the Federation.",
+              b: "Solicitor General of the Federation.",
+              c: "The Body of Benchers.",
+              d: "General Council of the Bar.",
+            },
+            answer: "d",
+          },
+          {
+            id: 14,
+            question:
+              "All but one of the following has the exclusive right to sit at the inner bar or the front row of seats available for legal practitioners:",
+            options: {
+              a: "Attorney General of the Federation, Attorney General of States, Solicitor General of the Federation.",
+              b: "Solicitor General of the Federation, Senior Advocate of Nigeria, Life Members of the Body of Benchers.",
+              c: "Attorney General of the Federation, Attorney General of States, Senior Advocates of Nigeria.",
+              d: "Attorney General of the Federation, Attorney General of States, Members of Body of Benchers.",
+            },
+            answer: "d",
+          },
+          {
+            id: 15,
+            question:
+              "The Legal Practitioners (Remuneration for legal documentation and other land matters) order, 1991 was made by:",
+            options: {
+              a: "General Council of the Bar.",
+              b: "Legal Practitioners Accounts and Rules Committee.",
+              c: "Ethics and Privileges Committee.",
+              d: "None of the above.",
+            },
+            answer: "d",
+          },
+          {
+            id: 16,
+            context:
+              "Jide Jones, an aspirant to the Nigerian Bar has approached a Bencher to sponsor him to the Bar. To test his academic suitability, the Honourable Bencher posed the following questions to him.",
+            question:
+              "Which of these is not a dereliction of duty to the profession by counsel?",
+            options: {
+              a: "Instigating litigation directly or indirectly.",
+              b: "Searching of land titles for defects.",
+              c: "Counseling agents and other persons to follow up on accidents with intention to have employment.",
+              d: "Giving of proper advice to those seeking relief against unfaithful and neglectful counsel.",
+            },
+            answer: "d",
+          },
+          {
+            id: 17,
+            context:
+              "Jide Jones, an aspirant to the Nigerian Bar has approached a Bencher to sponsor him to the Bar. To test his academic suitability, the Honourable Bencher posed the following questions to him.",
+            question:
+              "Which of the following is not a reason for counsel to be punctual to court?",
+            options: {
+              a: "The need to have settled down before court sits.",
+              b: "The need to wait for the court and not the reverse.",
+              c: "The need for counsel to get familiar with court procedures and witnesses before the court sits.",
+              d: "The need to get acquainted with the court clerk and registrar.",
+            },
+            answer: "d",
+          },
+          {
+            id: 18,
+            context:
+              "Jide Jones, an aspirant to the Nigerian Bar has approached a Bencher to sponsor him to the Bar. To test his academic suitability, the Honourable Bencher posed the following questions to him.",
+            question:
+              "The case of Oyekanmi V. NEPA (2000) 12 SCNJ.75 is an authority on:",
+            options: {
+              a: "The cashbook account.",
+              b: "The ledger account.",
+              c: "Recovery of professional fees.",
+              d: "Fees for Executor.",
+            },
+            answer: "c",
+          },
+          {
+            id: 19,
+            context:
+              "Jide Jones, an aspirant to the Nigerian Bar has approached a Bencher to sponsor him to the Bar. To test his academic suitability, the Honourable Bencher posed the following questions to him.",
+            question:
+              "The decision in Bello Raji V. X (A legal practitioner) best illustrates the need for a legal practitioner to possess the quality and requisite ability for:",
+            options: {
+              a: "Hard work and determination.",
+              b: "Commitment.",
+              c: "Knowledge and skill.",
+              d: "Honesty and integrity.",
+            },
+            answer: "c",
+          },
+          {
+            id: 20,
+            context:
+              "Jide Jones, an aspirant to the Nigerian Bar has approached a Bencher to sponsor him to the Bar. To test his academic suitability, the Honourable Bencher posed the following questions to him.",
+            question:
+              "Choose the option that best completes the following passage: The court started _____ at exactly 9 a.m. when the case was _____ out, _____ announced their appearances and the matter was _____ to 11 a.m. for hearing.",
+            options: {
+              a: "Proceedings, announced, counsel, adjourned.",
+              b: "Sitting, announced, Counsel, adjourned.",
+              c: "Sitting, called up, counsels, stood down.",
+              d: "Sitting, called, counsel, stood down.",
+            },
+            answer: "d",
+          },
+        ],
+      },
+    ],
+  },
+
+  // ================================================================
   // 2011 AUGUST — BAR PART II FINAL EXAMINATION
   // ================================================================
   "2011-august": {
@@ -2186,11 +3581,12 @@ const mcqQuestions = {
       },
 
       // ========================================
-      // LAW IN PRACTICE (20 Questions)
+      // PROFESSIONAL ETHICS & SKILLS (20 Questions)
+      // (formerly "Law in Practice")
       // ========================================
       {
-        id: "2011-august-law-in-practice",
-        name: "Law in Practice",
+        id: "2011-august-professional-ethics",
+        name: "Professional Ethics & Skills",
         questionsCount: 20,
         questions: [
           {
@@ -2450,6 +3846,1468 @@ const mcqQuestions = {
               d: "Duty to open client's account.",
             },
             answer: "b",
+          },
+        ],
+      },
+    ],
+  },
+
+  // ================================================================
+  // 2020 JANUARY — Bar Part II Final Examination (Backlog)
+  // ================================================================
+  "2020-january": {
+    year: 2020,
+    session: "January",
+    examTitle: "Bar Part II Final Examination (Backlog)",
+    totalQuestions: 100,
+    courses: [
+      // ========================================
+      // CIVIL LITIGATION (20 Questions)
+      // ========================================
+      {
+        id: "2020-january-civil-litigation",
+        name: "Civil Litigation",
+        questionsCount: 20,
+        questions: [
+          {
+            id: 1,
+            context:
+              "Mr. Thomas Boris, a businessman of No. 10 Ojuelegba Road, Lagos requested in writing N5,000,000.00 (Five Million Naira) loan from LABO Microfinance Bank, Wall Street, Lagos and was granted. The term of agreement stated that the loan with interest should be repaid within 90 days from the date it was granted. Mr. Thomas Boris refused/neglected to pay back the loan after its due date.",
+            question:
+              "The best and fastest court where this claim can be pursued is:",
+            options: {
+              a: "District Court",
+              b: "High Court.",
+              c: "Small Claims Court/Magistrate Court",
+              d: "Native Court",
+            },
+            answer: "c",
+          },
+          {
+            id: 2,
+            context:
+              "Mr. Thomas Boris, a businessman of No. 10 Ojuelegba Road, Lagos requested in writing N5,000,000.00 (Five Million Naira) loan from LABO Microfinance Bank, Wall Street, Lagos and was granted. The term of agreement stated that the loan with interest should be repaid within 90 days from the date it was granted. Mr. Thomas Boris refused/neglected to pay back the loan after its due date.",
+            question:
+              "After the claim in the procedure you quoted above is issued by the Registrar of Court, it must be served within how many days?",
+            options: {
+              a: "21 days",
+              b: "14 days",
+              c: "10 days",
+              d: "7 days.",
+            },
+            answer: "d",
+          },
+          {
+            id: 3,
+            context:
+              "Mr. Thomas Boris, a businessman of No. 10 Ojuelegba Road, Lagos requested in writing N5,000,000.00 (Five Million Naira) loan from LABO Microfinance Bank, Wall Street, Lagos and was granted. The term of agreement stated that the loan with interest should be repaid within 90 days from the date it was granted. Mr. Thomas Boris refused/neglected to pay back the loan after its due date.",
+            question:
+              "The defendant must respond within how many days to the claim failing which he will be deemed to have admitted the claim?",
+            options: {
+              a: "5 days.",
+              b: "7 days.",
+              c: "8 days.",
+              d: "10 days.",
+            },
+            answer: "b",
+          },
+          {
+            id: 4,
+            context:
+              "Mr. Thomas Boris, a businessman of No. 10 Ojuelegba Road, Lagos requested in writing N5,000,000.00 (Five Million Naira) loan from LABO Microfinance Bank, Wall Street, Lagos and was granted. The term of agreement stated that the loan with interest should be repaid within 90 days from the date it was granted. Mr. Thomas Boris refused/neglected to pay back the loan after its due date.",
+            question:
+              "The defendant can enter a counter-claim of up to:",
+            options: {
+              a: "N6,000",
+              b: "N7,000.",
+              c: "N8,000.",
+              d: "N10,000",
+            },
+            answer: "bonus",
+          },
+          {
+            id: 5,
+            context:
+              "Mr. Thomas Boris, a businessman of No. 10 Ojuelegba Road, Lagos requested in writing N5,000,000.00 (Five Million Naira) loan from LABO Microfinance Bank, Wall Street, Lagos and was granted. The term of agreement stated that the loan with interest should be repaid within 90 days from the date it was granted. Mr. Thomas Boris refused/neglected to pay back the loan after its due date.",
+            question:
+              "The hearing of the claimant and the delivery of judgment must be concluded within:",
+            options: {
+              a: "180 days",
+              b: "120 days",
+              c: "90 days",
+              d: "60 days",
+            },
+            answer: "d",
+          },
+          {
+            id: 6,
+            context:
+              "During your externship programme, Mr. Dogo Yunus came to your office to brief your Principal about an action he wants to institute in court. He stated that on 10 April, 2019 one Roland Giddy drove at top speed along the Eko Hotel Road, Victoria Island, Lagos and was also using his mobile phone at the same time. Roland Giddy ran into Mr Dogo's Prado Jeep which was occupied by his wife Mrs Raliat Yunus, their 7 year old Son, Taju Yunus and himself. The occupants of the Prado Jeep were severely injured and were admitted at the Goodwill Hospital, Victoria Island, Lagos for treatment. Mr. Dogo's Prado Jeep was also badly damaged. Mr. Dogo Yunus, his wife and son now want to institute an action in court to recover their hospital bill, repair the damaged Prado Jeep and also they want to claim damages for the pain and psychological trauma they suffered.",
+            question:
+              "The proper parties in the action are:",
+            options: {
+              a: "The Dogo Yunus family (Claimant) versus Roland Giddy (Defendant)",
+              b: "Dogo Yunus, Mrs Raliat Yunus, Master Taju Yunus (Claimant) versus Roland Giddy (Defendant)",
+              c: "Mr. Dogo Yunus, Mrs Raliat Yunus, Master Taju Yunus (suing by his guardian, Mr Dogo Yunus) (Claimant) versus Roland Giddy (Defendant)",
+              d: "Mr Dogo Yunus, Mrs. Raliat Yunus, suing for themselves and their son Master Taju Yunus (Claimants) versus Roland Giddy (Defendant)",
+            },
+            answer: "c",
+          },
+          {
+            id: 7,
+            context:
+              "During your externship programme, Mr. Dogo Yunus came to your office to brief your Principal about an action he wants to institute in court. He stated that on 10 April, 2019 one Roland Giddy drove at top speed along the Eko Hotel Road, Victoria Island, Lagos and was also using his mobile phone at the same time. Roland Giddy ran into Mr Dogo's Prado Jeep which was occupied by his wife Mrs Raliat Yunus, their 7 year old Son, Taju Yunus and himself. The occupants of the Prado Jeep were severely injured and were admitted at the Goodwill Hospital, Victoria Island, Lagos for treatment. Mr. Dogo's Prado Jeep was also badly damaged. Mr. Dogo Yunus, his wife and son now want to institute an action in court to recover their hospital bill, repair the damaged Prado Jeep and also they want to claim damages for the pain and psychological trauma they suffered.",
+            question:
+              "Assuming judgment was entered against the defendant and the defendant wants to prevent the immediate execution of the judgment, he shall apply:",
+            options: {
+              a: "By motion on notice for stay of proceedings",
+              b: "By motion on notice for stay of execution",
+              c: "By summons for Mareva Injunction",
+              d: "By motion on notice for injunction pending Appeal",
+            },
+            answer: "b",
+          },
+          {
+            id: 8,
+            context:
+              "During your externship programme, Mr. Dogo Yunus came to your office to brief your Principal about an action he wants to institute in court. He stated that on 10 April, 2019 one Roland Giddy drove at top speed along the Eko Hotel Road, Victoria Island, Lagos and was also using his mobile phone at the same time. Roland Giddy ran into Mr Dogo's Prado Jeep which was occupied by his wife Mrs Raliat Yunus, their 7 year old Son, Taju Yunus and himself. The occupants of the Prado Jeep were severely injured and were admitted at the Goodwill Hospital, Victoria Island, Lagos for treatment. Mr. Dogo's Prado Jeep was also badly damaged. Mr. Dogo Yunus, his wife and son now want to institute an action in court to recover their hospital bill, repair the damaged Prado Jeep and also they want to claim damages for the pain and psychological trauma they suffered.",
+            question:
+              "If the judgment debtor is making plans to migrate to Canada and is also planning to move all his assets away from Nigeria, the Claimant will have to apply:",
+            options: {
+              a: "By motion on notice for interim injunction",
+              b: "Motion ex-parte for Mareva injunction.",
+              c: "Motion on notice for Anton Piller Injunction.",
+              d: "Motion ex-parte for interpleader summons",
+            },
+            answer: "b",
+          },
+          {
+            id: 9,
+            context:
+              "During your externship programme, Mr. Dogo Yunus came to your office to brief your Principal about an action he wants to institute in court. He stated that on 10 April, 2019 one Roland Giddy drove at top speed along the Eko Hotel Road, Victoria Island, Lagos and was also using his mobile phone at the same time. Roland Giddy ran into Mr Dogo's Prado Jeep which was occupied by his wife Mrs Raliat Yunus, their 7 year old Son, Taju Yunus and himself. The occupants of the Prado Jeep were severely injured and were admitted at the Goodwill Hospital, Victoria Island, Lagos for treatment. Mr. Dogo's Prado Jeep was also badly damaged. Mr. Dogo Yunus, his wife and son now want to institute an action in court to recover their hospital bill, repair the damaged Prado Jeep and also they want to claim damages for the pain and psychological trauma they suffered.",
+            question:
+              "The originating process by which the Defendant will appeal against the judgment obtained in (7) above is:",
+            options: {
+              a: "Respondent's Notice",
+              b: "Brief of Argument",
+              c: "Notice of Appeal",
+              d: "Grounds of Appeal",
+            },
+            answer: "c",
+          },
+          {
+            id: 10,
+            context:
+              "During your externship programme, Mr. Dogo Yunus came to your office to brief your Principal about an action he wants to institute in court. He stated that on 10 April, 2019 one Roland Giddy drove at top speed along the Eko Hotel Road, Victoria Island, Lagos and was also using his mobile phone at the same time. Roland Giddy ran into Mr Dogo's Prado Jeep which was occupied by his wife Mrs Raliat Yunus, their 7 year old Son, Taju Yunus and himself. The occupants of the Prado Jeep were severely injured and were admitted at the Goodwill Hospital, Victoria Island, Lagos for treatment. Mr. Dogo's Prado Jeep was also badly damaged. Mr. Dogo Yunus, his wife and son now want to institute an action in court to recover their hospital bill, repair the damaged Prado Jeep and also they want to claim damages for the pain and psychological trauma they suffered.",
+            question:
+              "The record of appeal will be compiled and transmitted to the appellate court within:",
+            options: {
+              a: "9 months after service of the Respondent's notice",
+              b: "42 days after the filing of the Grounds of Appeal",
+              c: "60 days after the filing of the Notice of Appeal",
+              d: "60 days after the Judgment of the trial Court",
+            },
+            answer: "c",
+          },
+          {
+            id: 11,
+            context:
+              "Mr. John Pam died intestate on 1 January, 2019 leaving behind two children namely: Emmanuel Pam (35) and Victor Pam (30). The title document to his only property is in the possession of his Solicitor, Mr. Kingsley Mallam. While his letter of Administration is still being processed, his two sons have been disturbing Mr. Kingsley Mallam to give the title document to them. Emmanuel Pam, the eldest son is laying claim to the title document being the first son. Mr. Kingsley Mallam is confused as to who to give the title document and he does not want to give it to the wrong person and neither does he want to continue to hold it. He has now approached the court to decide who to deliver the document to.",
+            question:
+              "This kind of procedure is referred to as:",
+            options: {
+              a: "Stakeholder interpleader",
+              b: "Sheriff interpleader",
+              c: "Court interpleader",
+              d: "Personal interpleader",
+            },
+            answer: "a",
+          },
+          {
+            id: 12,
+            context:
+              "Mr. John Pam died intestate on 1 January, 2019 leaving behind two children namely: Emmanuel Pam (35) and Victor Pam (30). The title document to his only property is in the possession of his Solicitor, Mr. Kingsley Mallam. While his letter of Administration is still being processed, his two sons have been disturbing Mr. Kingsley Mallam to give the title document to them. Emmanuel Pam, the eldest son is laying claim to the title document being the first son. Mr. Kingsley Mallam is confused as to who to give the title document and he does not want to give it to the wrong person and neither does he want to continue to hold it. He has now approached the court to decide who to deliver the document to.",
+            question:
+              "Assuming you are Counsel to Mr. Kingsley Mallam, what will be your advice to him with respect to the title document?",
+            options: {
+              a: "Give it to Emmanuel Pam being the eldest Son.",
+              b: "Deposit it with the bank till Letters of Administration is granted.",
+              c: "Apply to court to order them to take necessary proceedings between/amongst themselves in order to determine who is entitled to take the title document.",
+              d: "None of the above",
+            },
+            answer: "c",
+          },
+          {
+            id: 13,
+            context:
+              "Mr. John Pam died intestate on 1 January, 2019 leaving behind two children namely: Emmanuel Pam (35) and Victor Pam (30). The title document to his only property is in the possession of his Solicitor, Mr. Kingsley Mallam. While his letter of Administration is still being processed, his two sons have been disturbing Mr. Kingsley Mallam to give the title document to them. Emmanuel Pam, the eldest son is laying claim to the title document being the first son. Mr. Kingsley Mallam is confused as to who to give the title document and he does not want to give it to the wrong person and neither does he want to continue to hold it. He has now approached the court to decide who to deliver the document to.",
+            question:
+              "One of the following is not an essential fact for Mr. Kingsley Mallam to state in his supporting affidavit:",
+            options: {
+              a: "That the applicant has not colluded with any of the claimants",
+              b: "That he must show that the property is not in his possession.",
+              c: "That he has no interest other than charges for costs in the subject matter in dispute",
+              d: "That the applicant is willing to pay or transfer it as the court or Judge may direct.",
+            },
+            answer: "b",
+          },
+          {
+            id: 14,
+            context:
+              "Mr. John Pam died intestate on 1 January, 2019 leaving behind two children namely: Emmanuel Pam (35) and Victor Pam (30). The title document to his only property is in the possession of his Solicitor, Mr. Kingsley Mallam. While his letter of Administration is still being processed, his two sons have been disturbing Mr. Kingsley Mallam to give the title document to them. Emmanuel Pam, the eldest son is laying claim to the title document being the first son. Mr. Kingsley Mallam is confused as to who to give the title document and he does not want to give it to the wrong person and neither does he want to continue to hold it. He has now approached the court to decide who to deliver the document to.",
+            question:
+              "Assuming both Victor Pam and Emmanuel Pam have gone to court regarding the matter, what step can be taken to prevent Mr. Kingsley Mallam from giving it to either of the parties?",
+            options: {
+              a: "Interlocutory injunction",
+              b: "Interim injunction.",
+              c: "Order of mandamus",
+              d: "Mareva injunction",
+            },
+            answer: "a",
+          },
+          {
+            id: 15,
+            context:
+              "Mr. John Pam died intestate on 1 January, 2019 leaving behind two children namely: Emmanuel Pam (35) and Victor Pam (30). The title document to his only property is in the possession of his Solicitor, Mr. Kingsley Mallam. While his letter of Administration is still being processed, his two sons have been disturbing Mr. Kingsley Mallam to give the title document to them. Emmanuel Pam, the eldest son is laying claim to the title document being the first son. Mr. Kingsley Mallam is confused as to who to give the title document and he does not want to give it to the wrong person and neither does he want to continue to hold it. He has now approached the court to decide who to deliver the document to.",
+            question:
+              "Assuming the court makes an order that Mr. Kingsley Mallam gives the title documents to Victor Pam, how many days does Emmanuel Pam have to appeal?",
+            options: {
+              a: "3 months",
+              b: "90 days",
+              c: "14 days.",
+              d: "30 days",
+            },
+            answer: "c",
+          },
+          {
+            id: 16,
+            context:
+              "Miss Bolanle is a tenant in the property belonging to Mr. Peter Azi situate at No 22 Gwarimpa Estate, Abuja. It is a yearly tenancy commencing on 1st January, 2017. Miss Bolanle has been in default of payment of rent and Mr. Peter Azi has approached you to recover possession of the premises. The annual rent is 7,000,000.00 (Seven Million Naira) only.",
+            question:
+              "One of the following must be served on Miss Bolanle in order to properly determine her tenancy:",
+            options: {
+              a: "A 6 month notice to quit which must expire on 31st December",
+              b: "A 6 month notice which must expire on 1st January",
+              c: "A 6-month notice which must expire at the end of January",
+              d: "A 7 days notice of owners intention to recover possession",
+            },
+            answer: "a",
+          },
+          {
+            id: 17,
+            context:
+              "Miss Bolanle is a tenant in the property belonging to Mr. Peter Azi situate at No 22 Gwarimpa Estate, Abuja. It is a yearly tenancy commencing on 1st January, 2017. Miss Bolanle has been in default of payment of rent and Mr. Peter Azi has approached you to recover possession of the premises. The annual rent is 7,000,000.00 (Seven Million Naira) only.",
+            question:
+              "Assuming upon being served with the document you have identified in 16 above to determine Bolanle's tenancy. What other document are you required to serve on her?",
+            options: {
+              a: "Notice to quit.",
+              b: "7 days Owners Intention to apply to court to recover possession",
+              c: "Writ of summons",
+              d: "Plaint as in form E",
+            },
+            answer: "b",
+          },
+          {
+            id: 18,
+            context:
+              "Miss Bolanle is a tenant in the property belonging to Mr. Peter Azi situate at No 22 Gwarimpa Estate, Abuja. It is a yearly tenancy commencing on 1st January, 2017. Miss Bolanle has been in default of payment of rent and Mr. Peter Azi has approached you to recover possession of the premises. The annual rent is 7,000,000.00 (Seven Million Naira) only.",
+            question:
+              "Assuming it has become necessary to go to court. In which of the following courts will you institute the action?",
+            options: {
+              a: "District Court, Abuja.",
+              b: "Magistrate Court, Abuja",
+              c: "Customary Court, Abuja",
+              d: "High Court of the Federal Capital Territory, Abuja",
+            },
+            answer: "d",
+          },
+          {
+            id: 19,
+            context:
+              "Miss Bolanle is a tenant in the property belonging to Mr. Peter Azi situate at No 22 Gwarimpa Estate, Abuja. It is a yearly tenancy commencing on 1st January, 2017. Miss Bolanle has been in default of payment of rent and Mr. Peter Azi has approached you to recover possession of the premises. The annual rent is 7,000,000.00 (Seven Million Naira) only.",
+            question:
+              "Assuming the scenario was in Lagos, in which Court would you have instituted the action?",
+            options: {
+              a: "High Court of Lagos State",
+              b: "Magistrate Court of Lagos State.",
+              c: "Customary Court of Lagos State",
+              d: "None of the above",
+            },
+            answer: "d",
+          },
+          {
+            id: 20,
+            context:
+              "Miss Bolanle is a tenant in the property belonging to Mr. Peter Azi situate at No 22 Gwarimpa Estate, Abuja. It is a yearly tenancy commencing on 1st January, 2017. Miss Bolanle has been in default of payment of rent and Mr. Peter Azi has approached you to recover possession of the premises. The annual rent is 7,000,000.00 (Seven Million Naira) only.",
+            question:
+              "Assuming the action is instituted at the High Court of Federal Capital Territory, Abuja, by which form would you commence the action?",
+            options: {
+              a: "Writ as in form G",
+              b: "Plaint as in form F",
+              c: "Originating summons.",
+              d: "Originating motion",
+            },
+            answer: "a",
+          },
+        ],
+      },
+      // ========================================
+      // CRIMINAL LITIGATION (20 Questions)
+      // ========================================
+      {
+        id: "2020-january-criminal-litigation",
+        name: "Criminal Litigation",
+        questionsCount: 20,
+        questions: [
+          {
+            id: 1,
+            context:
+              "Mrs Getty Ali was charged before the High Court of the Federal Capital Territory Abuja for Culpable Homicide punishable with death, but the charge did not state the Section of the Law contravened. After the charge was read to her, she pleaded not guilty. At the conclusion of trial, she was convicted and sentenced to death by lethal injection. She was six (6) months pregnant at the time she was sentenced. She has appealed against conviction and sentence and has applied for bail pending appeal.",
+            question:
+              "What rule of drafting charges has the charge against Mrs Getty Ali contravened?",
+            options: {
+              a: "Rule against duplicity.",
+              b: "Rule against Misjoinder of Offenders",
+              c: "Rule against misjoinder of offences",
+              d: "Rule against ambiguity",
+            },
+            answer: "d",
+          },
+          {
+            id: 2,
+            context:
+              "Mrs Getty Ali was charged before the High Court of the Federal Capital Territory Abuja for Culpable Homicide punishable with death, but the charge did not state the Section of the Law contravened. After the charge was read to her, she pleaded not guilty. At the conclusion of trial, she was convicted and sentenced to death by lethal injection. She was six (6) months pregnant at the time she was sentenced. She has appealed against conviction and sentence and has applied for bail pending appeal.",
+            question:
+              "The complainant in this case will be:",
+            options: {
+              a: "The State",
+              b: "Commissioner of Police",
+              c: "Federal Republic of Nigeria",
+              d: "Federal Government of Nigeria",
+            },
+            answer: "c",
+          },
+          {
+            id: 3,
+            context:
+              "Mrs Getty Ali was charged before the High Court of the Federal Capital Territory Abuja for Culpable Homicide punishable with death, but the charge did not state the Section of the Law contravened. After the charge was read to her, she pleaded not guilty. At the conclusion of trial, she was convicted and sentenced to death by lethal injection. She was six (6) months pregnant at the time she was sentenced. She has appealed against conviction and sentence and has applied for bail pending appeal.",
+            question:
+              "The implication of the plea of the defendant is that:",
+            options: {
+              a: "She is deemed to have put herself upon her trial.",
+              b: "She can proceed to prove her innocence",
+              c: "She is resting her case on that of the Prosecution.",
+              d: "She is making a No Case Submission.",
+            },
+            answer: "a",
+          },
+          {
+            id: 4,
+            context:
+              "Mrs Getty Ali was charged before the High Court of the Federal Capital Territory Abuja for Culpable Homicide punishable with death, but the charge did not state the Section of the Law contravened. After the charge was read to her, she pleaded not guilty. At the conclusion of trial, she was convicted and sentenced to death by lethal injection. She was six (6) months pregnant at the time she was sentenced. She has appealed against conviction and sentence and has applied for bail pending appeal.",
+            question:
+              "The appropriate sentence in this case should have been:",
+            options: {
+              a: "Life imprisonment.",
+              b: "Remanded in custody until the pleasure of the President is known.",
+              c: "Death by hanging after delivery",
+              d: "Death by hanging or by lethal injection after her child is born and weaned.",
+            },
+            answer: "d",
+          },
+          {
+            id: 5,
+            context:
+              "Mrs Getty Ali was charged before the High Court of the Federal Capital Territory Abuja for Culpable Homicide punishable with death, but the charge did not state the Section of the Law contravened. After the charge was read to her, she pleaded not guilty. At the conclusion of trial, she was convicted and sentenced to death by lethal injection. She was six (6) months pregnant at the time she was sentenced. She has appealed against conviction and sentence and has applied for bail pending appeal.",
+            question:
+              "Her application for bail pending appeal should be by:",
+            options: {
+              a: "Motion Exparte",
+              b: "Summons",
+              c: "Originating Motion",
+              d: "Motion on Notice",
+            },
+            answer: "d",
+          },
+          {
+            id: 6,
+            context:
+              "Jerry Musa was arraigned before a Magistrate Court Lafia in Nasarawa State on a one count charge as follows: 'Jerry Musa on the 1 day of January, 2019 at No. 10 Abuja Road Lafia Nasarawa in the Lafia Magisterial District stabbed Mallam Bitrus Kolo and also assaulted Miss Binta Kolo and thereby committed an offence punishable under sections of the Penal Code Law of Nasarawa State.'",
+            question:
+              "Who is to draft the charge?",
+            options: {
+              a: "Police Officer",
+              b: "Justice of the Peace",
+              c: "Magistrate",
+              d: "Attorney-General of the State",
+            },
+            answer: "c",
+          },
+          {
+            id: 7,
+            context:
+              "Jerry Musa was arraigned before a Magistrate Court Lafia in Nasarawa State on a one count charge as follows: 'Jerry Musa on the 1 day of January, 2019 at No. 10 Abuja Road Lafia Nasarawa in the Lafia Magisterial District stabbed Mallam Bitrus Kolo and also assaulted Miss Binta Kolo and thereby committed an offence punishable under sections of the Penal Code Law of Nasarawa State.'",
+            question:
+              "The above charge is drafted where an accused person is brought to court by:",
+            options: {
+              a: "Information",
+              b: "First Information Report (FIR)",
+              c: "Summons",
+              d: "Charge",
+            },
+            answer: "b",
+          },
+          {
+            id: 8,
+            context:
+              "Jerry Musa was arraigned before a Magistrate Court Lafia in Nasarawa State on a one count charge as follows: 'Jerry Musa on the 1 day of January, 2019 at No. 10 Abuja Road Lafia Nasarawa in the Lafia Magisterial District stabbed Mallam Bitrus Kolo and also assaulted Miss Binta Kolo and thereby committed an offence punishable under sections of the Penal Code Law of Nasarawa State.'",
+            question:
+              "Assuming the accused person was convicted, how many days does he have to appeal against his conviction?",
+            options: {
+              a: "60 days",
+              b: "90 days",
+              c: "30 days",
+              d: "120 days",
+            },
+            answer: "c",
+          },
+          {
+            id: 9,
+            context:
+              "Jerry Musa was arraigned before a Magistrate Court Lafia in Nasarawa State on a one count charge as follows: 'Jerry Musa on the 1 day of January, 2019 at No. 10 Abuja Road Lafia Nasarawa in the Lafia Magisterial District stabbed Mallam Bitrus Kolo and also assaulted Miss Binta Kolo and thereby committed an offence punishable under sections of the Penal Code Law of Nasarawa State.'",
+            question:
+              "If the accused person was convicted and sentenced to caning how many days does he have to appeal against his conviction and sentence?",
+            options: {
+              a: "15 days",
+              b: "5 days",
+              c: "60 days",
+              d: "35 days",
+            },
+            answer: "a",
+          },
+          {
+            id: 10,
+            context:
+              "Jerry Musa was arraigned before a Magistrate Court Lafia in Nasarawa State on a one count charge as follows: 'Jerry Musa on the 1 day of January, 2019 at No. 10 Abuja Road Lafia Nasarawa in the Lafia Magisterial District stabbed Mallam Bitrus Kolo and also assaulted Miss Binta Kolo and thereby committed an offence punishable under sections of the Penal Code Law of Nasarawa State.'",
+            question:
+              "Who can appeal against the judgment of the court in this matter?",
+            options: {
+              a: "Mallam Bitrus Kolo and Binta Kolo",
+              b: "Jerry Musa or Prosecutor",
+              c: "The Magistrate",
+              d: "None of the above",
+            },
+            answer: "b",
+          },
+          {
+            id: 11,
+            context:
+              "Mohammed Kurata who was brought to the Chief Magistrate Court, Normansland, Kano for the offence of Armed Robbery pleaded not guilty to the F.I.R when it was read to him. Counsel to the accused thereafter applied for his bail which was refused by the learned trial Chief Magistrate. The Chief Magistrate ruled that the accused should apply to the High Court for bail because the Magistrate has no jurisdiction to try the matter.",
+            question:
+              "To make application for his bail at the High Court, Mohammed should use:",
+            options: {
+              a: "Motion on Notice",
+              b: "Summons to Admit to bail",
+              c: "Either (a) or (b) above",
+              d: "Originating summons",
+            },
+            answer: "a",
+          },
+          {
+            id: 12,
+            context:
+              "Mohammed Kurata who was brought to the Chief Magistrate Court, Normansland, Kano for the offence of Armed Robbery pleaded not guilty to the F.I.R when it was read to him. Counsel to the accused thereafter applied for his bail which was refused by the learned trial Chief Magistrate. The Chief Magistrate ruled that the accused should apply to the High Court for bail because the Magistrate has no jurisdiction to try the matter.",
+            question:
+              "In this scenario, the application for bail of Kurata shall be filed at:",
+            options: {
+              a: "The registry at the Chief Magistrate Normansland",
+              b: "The Registry of the State High Court",
+              c: "Process Registry at the State High Court.",
+              d: "Any of the above",
+            },
+            answer: "a",
+          },
+          {
+            id: 13,
+            context:
+              "Mohammed Kurata who was brought to the Chief Magistrate Court, Normansland, Kano for the offence of Armed Robbery pleaded not guilty to the F.I.R when it was read to him. Counsel to the accused thereafter applied for his bail which was refused by the learned trial Chief Magistrate. The Chief Magistrate ruled that the accused should apply to the High Court for bail because the Magistrate has no jurisdiction to try the matter.",
+            question:
+              "Kurata's application for bail shall be supported by all except:",
+            options: {
+              a: "An affidavit of facts.",
+              b: "An affidavit of the facts relied upon and exhibits.",
+              c: "An affidavit of material facts and record of proceedings of the lower Court.",
+              d: "An affidavit of material facts, record of the Lower Court and an address.",
+            },
+            answer: "d",
+          },
+          {
+            id: 14,
+            context:
+              "Mohammed Kurata who was brought to the Chief Magistrate Court, Normansland, Kano for the offence of Armed Robbery pleaded not guilty to the F.I.R when it was read to him. Counsel to the accused thereafter applied for his bail which was refused by the learned trial Chief Magistrate. The Chief Magistrate ruled that the accused should apply to the High Court for bail because the Magistrate has no jurisdiction to try the matter.",
+            question:
+              "When Kurata is granted bail, he shall fulfil the bail conditions at:",
+            options: {
+              a: "The Judge's Chambers.",
+              b: "The office of the prison superintendent.",
+              c: "The office of the registrar of the High Court",
+              d: "All of the above",
+            },
+            answer: "d",
+          },
+          {
+            id: 15,
+            context:
+              "Mohammed Kurata who was brought to the Chief Magistrate Court, Normansland, Kano for the offence of Armed Robbery pleaded not guilty to the F.I.R when it was read to him. Counsel to the accused thereafter applied for his bail which was refused by the learned trial Chief Magistrate. The Chief Magistrate ruled that the accused should apply to the High Court for bail because the Magistrate has no jurisdiction to try the matter.",
+            question:
+              "In considering the bail application of Kurata, the High Court shall consider all but one of the following factors:",
+            options: {
+              a: "Nature of the offence.",
+              b: "Prevalence of the offence.",
+              c: "Nature of evidence against the accused.",
+              d: "Availability of sureties",
+            },
+            answer: "d",
+          },
+          {
+            id: 16,
+            context:
+              "Mohammed Kurata who was brought to the Chief Magistrate Court, Normansland, Kano for the offence of Armed Robbery pleaded not guilty to the F.I.R when it was read to him. Counsel to the accused thereafter applied for his bail which was refused by the learned trial Chief Magistrate. The Chief Magistrate ruled that the accused should apply to the High Court for bail because the Magistrate has no jurisdiction to try the matter.",
+            question:
+              "Assuming that the State High Court refused Kurata's application for bail; he should:",
+            options: {
+              a: "Appeal to the Court of Appeal",
+              b: "Make another application.",
+              c: "None of the above.",
+              d: "Any of the above.",
+            },
+            answer: "a",
+          },
+          {
+            id: 17,
+            context:
+              "Mohammed Kurata who was brought to the Chief Magistrate Court, Normansland, Kano for the offence of Armed Robbery pleaded not guilty to the F.I.R when it was read to him. Counsel to the accused thereafter applied for his bail which was refused by the learned trial Chief Magistrate. The Chief Magistrate ruled that the accused should apply to the High Court for bail because the Magistrate has no jurisdiction to try the matter.",
+            question:
+              "Assuming that Kurata's application in this scenario is granted on onerous conditions. Kurata should do any of the following:",
+            options: {
+              a: "Apply to the Court of Appeal for review.",
+              b: "Apply to the High Court for review",
+              c: "Appeal to the Court of Appeal",
+              d: "Any of the above",
+            },
+            answer: "b",
+          },
+          {
+            id: 18,
+            context:
+              "At the trial of Rabiu Beraye for the offence of unlawful possession of Indian Hemp at the Federal High Court, Kano, the defendant pleaded guilty as charged. He urged the court to temper justice with mercy.",
+            question:
+              "Upon the plea of guilty of the defendant, the trial court should:",
+            options: {
+              a: "Record his plea and convict him",
+              b: "Call on the prosecution to prove its Case",
+              c: "Call on the prosecution to present expert evidence.",
+              d: "A and C above.",
+            },
+            answer: "c",
+          },
+          {
+            id: 19,
+            context:
+              "At the trial of Rabiu Beraye for the offence of unlawful possession of Indian Hemp at the Federal High Court, Kano, the defendant pleaded guilty as charged. He urged the court to temper justice with mercy.",
+            question:
+              "On production before the Federal High Court for trial the defendant should be placed:",
+            options: {
+              a: "In the dock",
+              b: "The witness box.",
+              c: "In the court detention room.",
+              d: "Either C or D above.",
+            },
+            answer: "a",
+          },
+          {
+            id: 20,
+            context:
+              "At the trial of Rabiu Beraye for the offence of unlawful possession of Indian Hemp at the Federal High Court, Kano, the defendant pleaded guilty as charged. He urged the court to temper justice with mercy.",
+            question:
+              "Upon conviction, the defendant in the above scenario shall be:",
+            options: {
+              a: "Immediately remanded in prison custody",
+              b: "Allowed to make allocutus",
+              c: "Sentenced to a term of imprisonment or fined.",
+              d: "All of the above",
+            },
+            answer: "b",
+          },
+        ],
+      },
+      // ========================================
+      // CORPORATE LAW PRACTICE (20 Questions)
+      // ========================================
+      {
+        id: "2020-january-corporate-law-practice",
+        name: "Corporate Law Practice",
+        questionsCount: 20,
+        questions: [
+          {
+            id: 1,
+            context:
+              "After your Call to the Bar ceremonies, your friend's mum has approached you to register her restaurant with the Corporate Affairs Commission as a sole Proprietorship business.",
+            question:
+              "One of the following will be the first step you will take to carry out her instructions:",
+            options: {
+              a: "Enrol at the Supreme Court as a Legal Practitioner",
+              b: "Get registered at the Securities and Exchange Commission.",
+              c: "Get accredited at the Corporate Affairs Commission.",
+              d: "File Corporate Affairs Commission form 1 to check for availability of name.",
+            },
+            answer: "a",
+          },
+          {
+            id: 2,
+            context:
+              "After your Call to the Bar ceremonies, your friend's mum has approached you to register her restaurant with the Corporate Affairs Commission as a sole Proprietorship business.",
+            question:
+              "Assuming she had started business on December 1, 2019, two days before your Call to the Bar which was held on December 3, 2019. When is the last day you should get the business registered?",
+            options: {
+              a: "December 3, 2019.",
+              b: "December 31, 2019.",
+              c: "December 1, 2019.",
+              d: "December 29, 2019.",
+            },
+            answer: "d",
+          },
+          {
+            id: 3,
+            context:
+              "After your Call to the Bar ceremonies, your friend's mum has approached you to register her restaurant with the Corporate Affairs Commission as a sole Proprietorship business.",
+            question:
+              "One of the following is not a relevant document to register the business:",
+            options: {
+              a: "CAC 1.",
+              b: "CAC1A.",
+              c: "CAC BN/1",
+              d: "Recognized means of identification.",
+            },
+            answer: "b",
+          },
+          {
+            id: 4,
+            context:
+              "After your Call to the Bar ceremonies, your friend's mum has approached you to register her restaurant with the Corporate Affairs Commission as a sole Proprietorship business.",
+            question:
+              "One of the following is no longer mandatory for the registration of a Business under Part B:",
+            options: {
+              a: "Accreditation of Professionals",
+              b: "Search for availability of Names",
+              c: "Completion of Business Name form.",
+              d: "Submission of Passport photographs.",
+            },
+            answer: "a",
+          },
+          {
+            id: 5,
+            context:
+              "After your Call to the Bar ceremonies, your friend's mum has approached you to register her restaurant with the Corporate Affairs Commission as a sole Proprietorship business.",
+            question:
+              "Sole proprietorship has one of the following advantages over limited liability companies:",
+            options: {
+              a: "It is flexible as management is concentrated in one person",
+              b: "It can last as long as the proprietor desires even after his/her demise",
+              c: "Its business name once registered forecloses other businesses from taking the same name or a name so similar as will likely deceive the public.",
+              d: "None of the above",
+            },
+            answer: "a",
+          },
+          {
+            id: 6,
+            context:
+              "Etcetera Nigeria Limited has just been registered at the Corporate Affairs Commission with an authorised share capital of N100,000.00 divided into N500,000 ordinary shares of N1.00 each and 250,000 preference shares of N2.00 each.",
+            question:
+              "One of the following is correct about the company:",
+            options: {
+              a: "No transfer of shares is effective until an instrument of transfer has been executed",
+              b: "No transfer of shares is effective until such transfer has been consented to by the directors",
+              c: "The company can never have more than 50 members under any circumstance",
+              d: "The age of the directors must never be over 70 years",
+            },
+            answer: "d",
+          },
+          {
+            id: 7,
+            context:
+              "Etcetera Nigeria Limited has just been registered at the Corporate Affairs Commission with an authorised share capital of N100,000.00 divided into N500,000 ordinary shares of N1.00 each and 250,000 preference shares of N2.00 each.",
+            question:
+              "All but one of the following shares can be allowed in Etcetera Nigeria Limited:",
+            options: {
+              a: "Non-voting shares",
+              b: "Weighted shares",
+              c: "Non-cumulative preference shares",
+              d: "Non-participating preference shares",
+            },
+            answer: "b",
+          },
+          {
+            id: 8,
+            context:
+              "Etcetera Nigeria Limited has just been registered at the Corporate Affairs Commission with an authorised share capital of N100,000.00 divided into N500,000 ordinary shares of N1.00 each and 250,000 preference shares of N2.00 each.",
+            question:
+              "The preference shareholders can have any of the following rights except:",
+            options: {
+              a: "Right to accumulate dividend at a fixed rate when dividend has not been declared",
+              b: "Right to participate in the distribution of the company's assets after creditors have been settled.",
+              c: "Right to more than one vote in certain circumstances",
+              d: "Right to appoint at least one director",
+            },
+            answer: "d",
+          },
+          {
+            id: 9,
+            context:
+              "Etcetera Nigeria Limited has just been registered at the Corporate Affairs Commission with an authorised share capital of N100,000.00 divided into N500,000 ordinary shares of N1.00 each and 250,000 preference shares of N2.00 each.",
+            question:
+              "A share is considered weighted when:",
+            options: {
+              a: "It is more expensive than other shares",
+              b: "It is in higher demand than other shares",
+              c: "More shareholders have that class of shares",
+              d: "It carries more than one vote per share",
+            },
+            answer: "d",
+          },
+          {
+            id: 10,
+            context:
+              "Etcetera Nigeria Limited has just been registered at the Corporate Affairs Commission with an authorised share capital of N100,000.00 divided into N500,000 ordinary shares of N1.00 each and 250,000 preference shares of N2.00 each.",
+            question:
+              "The rights of a shareholder include all of the following except:",
+            options: {
+              a: "To attend the meeting of the board of directors",
+              b: "To be elected a member of the audit committee.",
+              c: "To vote by show of hand",
+              d: "To propose resolutions",
+            },
+            answer: "b",
+          },
+          {
+            id: 11,
+            context:
+              "New Leaf Investment Plc has just concluded its 3rd Annual General Meeting where it transacted both ordinary business and special businesses. 100 members were in attendance out of a total of 300 members of the company.",
+            question:
+              "The ordinary business of an Annual General Meeting includes the following except:",
+            options: {
+              a: "Presenting company's financial statement for the year ended.",
+              b: "Presentation of the audit committee's report",
+              c: "Declaration of dividend.",
+              d: "Retirement of directors and appointment to replace the retiring directors.",
+            },
+            answer: "d",
+          },
+          {
+            id: 12,
+            context:
+              "New Leaf Investment Plc has just concluded its 3rd Annual General Meeting where it transacted both ordinary business and special businesses. 100 members were in attendance out of a total of 300 members of the company.",
+            question:
+              "The quorum for the meeting was met because:",
+            options: {
+              a: "Up to one third of the company's members were in attendance",
+              b: "Up to 25 members were in attendance.",
+              c: "Up to 100 persons were in attendance",
+              d: "Quorum was not met.",
+            },
+            answer: "a",
+          },
+          {
+            id: 13,
+            context:
+              "New Leaf Investment Plc has just concluded its 3rd Annual General Meeting where it transacted both ordinary business and special businesses. 100 members were in attendance out of a total of 300 members of the company.",
+            question:
+              "One of the special businesses was to remove Mr. Akindayo Bello as company director. 20 members voted in favour of the resolution while 8 members voted against same. Others refrained from voting. Which of the following is true about the resolution?",
+            options: {
+              a: "The resolution will sail through because it is an annual general meeting",
+              b: "The resolution will sail through because it is approved by the majority of members who are present and voting",
+              c: "The resolution will not sail through because 22 members does not meet the required threshold for a meeting of 100 persons.",
+              d: "The resolution will not sail through because 75% majority of members is required.",
+            },
+            answer: "b",
+          },
+          {
+            id: 14,
+            context:
+              "New Leaf Investment Plc has just concluded its 3rd Annual General Meeting where it transacted both ordinary business and special businesses. 100 members were in attendance out of a total of 300 members of the company.",
+            question:
+              "The annual return form must be filed within:",
+            options: {
+              a: "14 days after the AGM was held",
+              b: "15 days after the end of the financial year",
+              c: "42 days of holding the AGM",
+              d: "42 days of sending the notice of AGM.",
+            },
+            answer: "c",
+          },
+          {
+            id: 15,
+            context:
+              "New Leaf Investment Plc has just concluded its 3rd Annual General Meeting where it transacted both ordinary business and special businesses. 100 members were in attendance out of a total of 300 members of the company.",
+            question:
+              "One of the following is not entitled to the notice of the AGM:",
+            options: {
+              a: "The Company Secretary",
+              b: "The Company Auditor",
+              c: "The company's debenture holder.",
+              d: "The Chairman of the audit committee",
+            },
+            answer: "d",
+          },
+          {
+            id: 16,
+            context:
+              "New Leaf Investment Plc has just concluded its 3rd Annual General Meeting where it transacted both ordinary business and special businesses. 100 members were in attendance out of a total of 300 members of the company.",
+            question:
+              "Which of the following is not a minority protection action under CAMA?",
+            options: {
+              a: "Application to set aside an alteration of the company's object clause.",
+              b: "Application to commence derivative action.",
+              c: "Application to investigate the directors of the company.",
+              d: "Application for unfairly prejudicial conducts.",
+            },
+            answer: "a",
+          },
+          {
+            id: 17,
+            context:
+              "New Leaf Investment Plc has just concluded its 3rd Annual General Meeting where it transacted both ordinary business and special businesses. 100 members were in attendance out of a total of 300 members of the company.",
+            question:
+              "An application for a minority protection action may be brought by one of the following except:",
+            options: {
+              a: "Writ of summons.",
+              b: "Originating motion.",
+              c: "Originating summons.",
+              d: "Petition.",
+            },
+            answer: "a",
+          },
+          {
+            id: 18,
+            context:
+              "New Leaf Investment Plc has just concluded its 3rd Annual General Meeting where it transacted both ordinary business and special businesses. 100 members were in attendance out of a total of 300 members of the company.",
+            question:
+              "One of the following reliefs will not be granted by the court under Section 303 CAMA:",
+            options: {
+              a: "An order directing the applicants to sue the directors in the company's name",
+              b: "An order mandating the applicants to sue the company in their personal capacity.",
+              c: "An order directing applicants to sue a named third party in the company's name",
+              d: "None of the above.",
+            },
+            answer: "d",
+          },
+          {
+            id: 19,
+            context:
+              "New Leaf Investment Plc has just concluded its 3rd Annual General Meeting where it transacted both ordinary business and special businesses. 100 members were in attendance out of a total of 300 members of the company.",
+            question:
+              "Which of the following courts is seized with original jurisdiction to entertain a commercial dispute between Alaka Nig Ltd. vs Sam Edo?",
+            options: {
+              a: "Federal High Court",
+              b: "High Court",
+              c: "Court of Appeal",
+              d: "National Industrial Court",
+            },
+            answer: "b",
+          },
+          {
+            id: 20,
+            context:
+              "New Leaf Investment Plc has just concluded its 3rd Annual General Meeting where it transacted both ordinary business and special businesses. 100 members were in attendance out of a total of 300 members of the company.",
+            question:
+              "One of the following categories of mergers has been abolished by the Federal Consumers Protection and Competition Commission Act 2019:",
+            options: {
+              a: "Small Merger",
+              b: "Intermediate Merger.",
+              c: "Larger Merger.",
+              d: "a and c.",
+            },
+            answer: "b",
+          },
+        ],
+      },
+      // ========================================
+      // PROPERTY LAW PRACTICE (20 Questions)
+      // ========================================
+      {
+        id: "2020-january-property-law-practice",
+        name: "Property Law Practice",
+        questionsCount: 20,
+        questions: [
+          {
+            id: 1,
+            context:
+              "Dr. Pam John has just been Called to Bar and was appointed as the Sole Executor to the Will of Gideon Izang, who has two sons namely: Ayuba Gideon and Audu Gideon. The will has the following clauses: (i) My 3 bedroom flat situated at No.2 Ahmadu Bello Way, Jos be given to my son Ayuba Gideon. (ii) My Toyota Car to my security man Awal. (iii) My collection of shoes by Clerks to be given to my nephew Rindom Musa. (iv) My solicitor Dr. Pam John is hereby appointed as trustee to fund the education of my grand children.",
+            question:
+              "What documents will the Executor require to vest title on the beneficiaries?",
+            options: {
+              a: "A deed of assignment.",
+              b: "Deed of transfer",
+              c: "Assent",
+              d: "Letters of Administration",
+            },
+            answer: "c",
+          },
+          {
+            id: 2,
+            context:
+              "Dr. Pam John has just been Called to Bar and was appointed as the Sole Executor to the Will of Gideon Izang, who has two sons namely: Ayuba Gideon and Audu Gideon. The will has the following clauses: (i) My 3 bedroom flat situated at No.2 Ahmadu Bello Way, Jos be given to my son Ayuba Gideon. (ii) My Toyota Car to my security man Awal. (iii) My collection of shoes by Clerks to be given to my nephew Rindom Musa. (iv) My solicitor Dr. Pam John is hereby appointed as trustee to fund the education of my grand children.",
+            question:
+              "One of the following clauses must be inserted in the Will to enable Dr. Pam John demand his professional fees:",
+            options: {
+              a: "Charging Clause",
+              b: "Residuary Clause",
+              c: "Demonstrative Clause",
+              d: "Exemption Clause.",
+            },
+            answer: "a",
+          },
+          {
+            id: 3,
+            context:
+              "Dr. Pam John has just been Called to Bar and was appointed as the Sole Executor to the Will of Gideon Izang, who has two sons namely: Ayuba Gideon and Audu Gideon. The will has the following clauses: (i) My 3 bedroom flat situated at No.2 Ahmadu Bello Way, Jos be given to my son Ayuba Gideon. (ii) My Toyota Car to my security man Awal. (iii) My collection of shoes by Clerks to be given to my nephew Rindom Musa. (iv) My solicitor Dr. Pam John is hereby appointed as trustee to fund the education of my grand children.",
+            question:
+              "All but one are the disadvantages of appointing Dr. Pam John as the sole executor of the Will:",
+            options: {
+              a: "Dr. Pam John may pre-decease the testator and the testator has to appoint another executor through a codicil.",
+              b: "Where Dr. Pam John died before the Will is admitted to probate the Will would be without executor",
+              c: "Where Dr. Pam John renounces Probate, the Will would be without executor.",
+              d: "Dr. Pam John being the sole executor there is no tendency of conflict.",
+            },
+            answer: "d",
+          },
+          {
+            id: 4,
+            context:
+              "Dr. Pam John has just been Called to Bar and was appointed as the Sole Executor to the Will of Gideon Izang, who has two sons namely: Ayuba Gideon and Audu Gideon. The will has the following clauses: (i) My 3 bedroom flat situated at No.2 Ahmadu Bello Way, Jos be given to my son Ayuba Gideon. (ii) My Toyota Car to my security man Awal. (iii) My collection of shoes by Clerks to be given to my nephew Rindom Musa. (iv) My solicitor Dr. Pam John is hereby appointed as trustee to fund the education of my grand children.",
+            question:
+              "Clause (ii) in the Will is:",
+            options: {
+              a: "General gift",
+              b: "Specific gift",
+              c: "Pecuniary gift",
+              d: "Residuary gift",
+            },
+            answer: "a",
+          },
+          {
+            id: 5,
+            context:
+              "Dr. Pam John has just been Called to Bar and was appointed as the Sole Executor to the Will of Gideon Izang, who has two sons namely: Ayuba Gideon and Audu Gideon. The will has the following clauses: (i) My 3 bedroom flat situated at No.2 Ahmadu Bello Way, Jos be given to my son Ayuba Gideon. (ii) My Toyota Car to my security man Awal. (iii) My collection of shoes by Clerks to be given to my nephew Rindom Musa. (iv) My solicitor Dr. Pam John is hereby appointed as trustee to fund the education of my grand children.",
+            question:
+              "Which of the following is the implication of the gift in clause (ii)?",
+            options: {
+              a: "It cannot suffer ademption.",
+              b: "It can suffer ademption.",
+              c: "It cannot abate",
+              d: "None of the above.",
+            },
+            answer: "a",
+          },
+          {
+            id: 6,
+            context:
+              "Dr. Pam John has just been Called to Bar and was appointed as the Sole Executor to the Will of Gideon Izang, who has two sons namely: Ayuba Gideon and Audu Gideon. The will has the following clauses: (i) My 3 bedroom flat situated at No.2 Ahmadu Bello Way, Jos be given to my son Ayuba Gideon. (ii) My Toyota Car to my security man Awal. (iii) My collection of shoes by Clerks to be given to my nephew Rindom Musa. (iv) My solicitor Dr. Pam John is hereby appointed as trustee to fund the education of my grand children.",
+            question:
+              "Assuming Audu Gideon one of the sons of the testator wishes to challenge the Will, he may take one of the following steps first:",
+            options: {
+              a: "File a citation",
+              b: "File a caveat.",
+              c: "File an application for injunction",
+              d: "All of the above",
+            },
+            answer: "b",
+          },
+          {
+            id: 7,
+            context:
+              "Dr. Pam John has just been Called to Bar and was appointed as the Sole Executor to the Will of Gideon Izang, who has two sons namely: Ayuba Gideon and Audu Gideon. The will has the following clauses: (i) My 3 bedroom flat situated at No.2 Ahmadu Bello Way, Jos be given to my son Ayuba Gideon. (ii) My Toyota Car to my security man Awal. (iii) My collection of shoes by Clerks to be given to my nephew Rindom Musa. (iv) My solicitor Dr. Pam John is hereby appointed as trustee to fund the education of my grand children.",
+            question:
+              "The principle that the probate Registrar cannot grant probate to a disputed Will while a caveat had not been discharged was laid down in:",
+            options: {
+              a: "Dan-Jumbo v. Dan-Jumbo (1999) 7 SCNJIR",
+              b: "Obusez v. Obusez (2007) 10 NWLR (P. 1043) 430",
+              c: "N.B.A. v. Koku (2006) ALL FWLR (Pt. 334) 1928",
+              d: "Ajibeye v. Ajibeye (2007) ALL FWLR (Pt. 359) 1321",
+            },
+            answer: "a",
+          },
+          {
+            id: 8,
+            context:
+              "Senator Boboye Bitrus owns a shopping Mall at Plot A98 Aminu Kano Way, Maitama, Abuja. In 2019, Senator Bitrus decided to use the shopping Mall as a security for a loan of N75m from Assention Bank PLC in order to go into cocoa production.",
+            question:
+              "As Solicitor for both parties, you are entitled to:",
+            options: {
+              a: "Full fee from the bank and half fee from Senator Bitrus",
+              b: "Full fee from Senator Bitrus and half fee from the bank.",
+              c: "Full fees from both parties.",
+              d: "Full fee from the bank and one quarter fee from Senator Bitrus.",
+            },
+            answer: "a",
+          },
+          {
+            id: 9,
+            context:
+              "Senator Boboye Bitrus owns a shopping Mall at Plot A98 Aminu Kano Way, Maitama, Abuja. In 2019, Senator Bitrus decided to use the shopping Mall as a security for a loan of N75m from Assention Bank PLC in order to go into cocoa production.",
+            question:
+              "Assuming Ambassador Theo Adesuwa is buying the ground floor of the shopping Mall, one of the following covenants must be contained in the deed:",
+            options: {
+              a: "Covenant to safeguard the premises",
+              b: "Covenant to indemnify Ambassador Adesuwa",
+              c: "Covenant to keep the premises in tenantable condition.",
+              d: "Covenant to insure the premises",
+            },
+            answer: "b",
+          },
+          {
+            id: 10,
+            context:
+              "Senator Boboye Bitrus owns a shopping Mall at Plot A98 Aminu Kano Way, Maitama, Abuja. In 2019, Senator Bitrus decided to use the shopping Mall as a security for a loan of N75m from Assention Bank PLC in order to go into cocoa production.",
+            question:
+              "If the shopping mall is located in Kaduna, Senator Bitrus would be required to deduce title for:",
+            options: {
+              a: "30 years",
+              b: "40 years",
+              c: "20 years",
+              d: "12 years",
+            },
+            answer: "b",
+          },
+          {
+            id: 11,
+            context:
+              "Senator Boboye Bitrus owns a shopping Mall at Plot A98 Aminu Kano Way, Maitama, Abuja. In 2019, Senator Bitrus decided to use the shopping Mall as a security for a loan of N75m from Assention Bank PLC in order to go into cocoa production.",
+            question:
+              "Senator Bitrus devised the Shopping Mall in his Will to his first son, Yoana Bitrus, the legacy will be a:",
+            options: {
+              a: "Specific legacy",
+              b: "General legacy",
+              c: "Demonstrative legacy",
+              d: "Residuary legacy",
+            },
+            answer: "a",
+          },
+          {
+            id: 12,
+            context:
+              "Senator Boboye Bitrus owns a shopping Mall at Plot A98 Aminu Kano Way, Maitama, Abuja. In 2019, Senator Bitrus decided to use the shopping Mall as a security for a loan of N75m from Assention Bank PLC in order to go into cocoa production.",
+            question:
+              "If at the time of the death of Senator Bitrus, the bank had sold the shopping mall to recover his loan and interest, the gift to Yoana Bitrus is said to have been:",
+            options: {
+              a: "Discharged",
+              b: "Abated",
+              c: "Adeemed",
+              d: "Renounced",
+            },
+            answer: "c",
+          },
+          {
+            id: 13,
+            context:
+              "Senator Boboye Bitrus owns a shopping Mall at Plot A98 Aminu Kano Way, Maitama, Abuja. In 2019, Senator Bitrus decided to use the shopping Mall as a security for a loan of N75m from Assention Bank PLC in order to go into cocoa production.",
+            question:
+              "One of the following is true when a Bank has obtained an order of foreclosure and the proceeds of the sale is insufficient to discharge the loan:",
+            options: {
+              a: "The bank can sue for the balance",
+              b: "The bank cannot sue for the balance.",
+              c: "The bank can sue for specific performance.",
+              d: "The bank can attach other property of his.",
+            },
+            answer: "b",
+          },
+          {
+            id: 14,
+            context:
+              "Mr. Hope Ochojule a native of Kogi State died in her house at No. 15, Idumota Avenue Lagos on 22/12/2017. The family of Mr. Ochojule appointed Mr. Isaiah Ochojule and Madam Doris Joshua Ochojule (Uncle and Mother of Mr. Hope Ochojule) to apply for a grant to enable them manage Mr. Hope Ochojule's estate who died without making a will. They both applied for the grant at the Probate Registry.",
+            question:
+              "(This question was voided — all candidates were awarded the mark.)",
+            options: {
+              a: "N/A",
+              b: "N/A",
+              c: "N/A",
+              d: "N/A",
+            },
+            answer: "bonus",
+          },
+          {
+            id: 15,
+            context:
+              "Mr. Hope Ochojule a native of Kogi State died in her house at No. 15, Idumota Avenue Lagos on 22/12/2017. The family of Mr. Ochojule appointed Mr. Isaiah Ochojule and Madam Doris Joshua Ochojule (Uncle and Mother of Mr. Hope Ochojule) to apply for a grant to enable them manage Mr. Hope Ochojule's estate who died without making a will. They both applied for the grant at the Probate Registry.",
+            question:
+              "What type of grant will be obtained in respect of Mr. Hope Ochojule's estate?",
+            options: {
+              a: "Probate",
+              b: "Letters of Administration with the will annexed.",
+              c: "Simple Administration",
+              d: "Double Probate.",
+            },
+            answer: "c",
+          },
+          {
+            id: 16,
+            context:
+              "Mr. Hope Ochojule a native of Kogi State died in her house at No. 15, Idumota Avenue Lagos on 22/12/2017. The family of Mr. Ochojule appointed Mr. Isaiah Ochojule and Madam Doris Joshua Ochojule (Uncle and Mother of Mr. Hope Ochojule) to apply for a grant to enable them manage Mr. Hope Ochojule's estate who died without making a will. They both applied for the grant at the Probate Registry.",
+            question:
+              "One of the following may not lead to revocation of a grant already made in respect of the estate of Mr. Hope Ochojule:",
+            options: {
+              a: "If his will is found after an intestate grant.",
+              b: "If he was found to have been married under the Act.",
+              c: "If grant is found to have been made to the wrong person(s).",
+              d: "If applicants had failed to meet the conditions precedent to a grant",
+            },
+            answer: "bonus",
+          },
+          {
+            id: 17,
+            context:
+              "Mr. Hope Ochojule a native of Kogi State died in her house at No. 15, Idumota Avenue Lagos on 22/12/2017. The family of Mr. Ochojule appointed Mr. Isaiah Ochojule and Madam Doris Joshua Ochojule (Uncle and Mother of Mr. Hope Ochojule) to apply for a grant to enable them manage Mr. Hope Ochojule's estate who died without making a will. They both applied for the grant at the Probate Registry.",
+            question:
+              "Which of the following is not a quality of a Personal Representative?",
+            options: {
+              a: "Availability",
+              b: "Lack of Conflict of Ideas",
+              c: "Age",
+              d: "Lack of Conflict of Interest",
+            },
+            answer: "b",
+          },
+          {
+            id: 18,
+            context:
+              "Mr. Hope Ochojule a native of Kogi State died in her house at No. 15, Idumota Avenue Lagos on 22/12/2017. The family of Mr. Ochojule appointed Mr. Isaiah Ochojule and Madam Doris Joshua Ochojule (Uncle and Mother of Mr. Hope Ochojule) to apply for a grant to enable them manage Mr. Hope Ochojule's estate who died without making a will. They both applied for the grant at the Probate Registry.",
+            question:
+              "What type of grant is obtainable to replace a sole executor who is insane?",
+            options: {
+              a: "Grant Coligenda bona",
+              b: "Grant durante absenta",
+              c: "Grant durante dementa",
+              d: "Grant ad litem.",
+            },
+            answer: "c",
+          },
+          {
+            id: 19,
+            context:
+              "Mrs Yemi Olawole of No. 15 Kanakry Street Victoria Island Lagos, is desirous of buying a house with part of her retirement benefits. The property she wants to purchase is situate at No. 3 Rimi Close Alvan Ikoku Avenue, Lagos State with Certificate of Occupancy no. LAG/IK/072/14 Dated 14th March, 2014. The property belongs to Mr. Nathan Ekpo.",
+            question:
+              "One of the following legislations will not regulate the above transaction:",
+            options: {
+              a: "Personal Income Tax Act",
+              b: "Land Use Act",
+              c: "Registration of Titles Law",
+              d: "Capital Gains Tax Act.",
+            },
+            answer: "c",
+          },
+          {
+            id: 20,
+            context:
+              "Mrs Yemi Olawole of No. 15 Kanakry Street Victoria Island Lagos, is desirous of buying a house with part of her retirement benefits. The property she wants to purchase is situate at No. 3 Rimi Close Alvan Ikoku Avenue, Lagos State with Certificate of Occupancy no. LAG/IK/072/14 Dated 14th March, 2014. The property belongs to Mr. Nathan Ekpo.",
+            question:
+              "At the initial stage of the transaction the parties will prepare and execute a:",
+            options: {
+              a: "Sale Agreement",
+              b: "Deed of Sale of land Agreement",
+              c: "Contract Agreement",
+              d: "Sale of land Agreement",
+            },
+            answer: "d",
+          },
+        ],
+      },
+      // ========================================
+      // PROFESSIONAL ETHICS & SKILLS (20 Questions)
+      // ========================================
+      {
+        id: "2020-january-professional-ethics",
+        name: "Professional Ethics & Skills",
+        questionsCount: 20,
+        questions: [
+          {
+            id: 1,
+            context:
+              "Okon Ubaleke presented at the Federal Medical Centre Asaba for routine Femur treatment. Owing to wrong diagnosis, Dr. Ojey Uwa wrongly without proper analysis and diagnosis amputated his limb. Distressed and distraught by the riveting incompetence of the Doctor he briefed Okoko Item Ubong, a lawyer to file an action at the State High Court in Asaba. In the fullness of time judgement in sum of N20 million was entered in his favour against Dr Ojey Uwa and Federal Medical Centre Asaba for negligence, the judgement debt was duly liquidated by the defendants on the 20 of September, 2018, and fee money paid into Okoko Item Ubong's trust account with the First Bank of Nigeria Plc. Okoko Item out of sheer zeal without the concurrency of his client paid himself fee sum of N10 million which he claimed represented 50% of his phantom professional fees. His move to pay over the balance to his client was resisted by the client.",
+            question:
+              "In which account should Mr. Okoko Item Ubong have lodged the judgement sum?",
+            options: {
+              a: "The Office Account",
+              b: "Trust Account",
+              c: "Client Account",
+              d: "None of the above",
+            },
+            answer: "c",
+          },
+          {
+            id: 2,
+            context:
+              "Okon Ubaleke presented at the Federal Medical Centre Asaba for routine Femur treatment. Owing to wrong diagnosis, Dr. Ojey Uwa wrongly without proper analysis and diagnosis amputated his limb. Distressed and distraught by the riveting incompetence of the Doctor he briefed Okoko Item Ubong, a lawyer to file an action at the State High Court in Asaba. In the fullness of time judgement in sum of N20 million was entered in his favour against Dr Ojey Uwa and Federal Medical Centre Asaba for negligence, the judgement debt was duly liquidated by the defendants on the 20 of September, 2018, and fee money paid into Okoko Item Ubong's trust account with the First Bank of Nigeria Plc. Okoko Item out of sheer zeal without the concurrency of his client paid himself fee sum of N10 million which he claimed represented 50% of his phantom professional fees. His move to pay over the balance to his client was resisted by the client.",
+            question:
+              "Mr Okoko Item Ubong could be tried by one of the following regulatory bodies:",
+            options: {
+              a: "Council of Legal Education",
+              b: "General Council of the Bar",
+              c: "Legal Practitioners Disciplinary Committee",
+              d: "Body of Benchers",
+            },
+            answer: "c",
+          },
+          {
+            id: 3,
+            context:
+              "Okon Ubaleke presented at the Federal Medical Centre Asaba for routine Femur treatment. Owing to wrong diagnosis, Dr. Ojey Uwa wrongly without proper analysis and diagnosis amputated his limb. Distressed and distraught by the riveting incompetence of the Doctor he briefed Okoko Item Ubong, a lawyer to file an action at the State High Court in Asaba. In the fullness of time judgement in sum of N20 million was entered in his favour against Dr Ojey Uwa and Federal Medical Centre Asaba for negligence, the judgement debt was duly liquidated by the defendants on the 20 of September, 2018, and fee money paid into Okoko Item Ubong's trust account with the First Bank of Nigeria Plc. Okoko Item out of sheer zeal without the concurrency of his client paid himself fee sum of N10 million which he claimed represented 50% of his phantom professional fees. His move to pay over the balance to his client was resisted by the client.",
+            question:
+              "Okoko Item Ubong could be tried for commission of one of the following professional wrongs:",
+            options: {
+              a: "Obtaining by false pretence",
+              b: "Infamous conduct in a professional respect.",
+              c: "Conduct incompatible with the status of a legal practitioner",
+              d: "None of the above",
+            },
+            answer: "b",
+          },
+          {
+            id: 4,
+            context:
+              "Okon Ubaleke presented at the Federal Medical Centre Asaba for routine Femur treatment. Owing to wrong diagnosis, Dr. Ojey Uwa wrongly without proper analysis and diagnosis amputated his limb. Distressed and distraught by the riveting incompetence of the Doctor he briefed Okoko Item Ubong, a lawyer to file an action at the State High Court in Asaba. In the fullness of time judgement in sum of N20 million was entered in his favour against Dr Ojey Uwa and Federal Medical Centre Asaba for negligence, the judgement debt was duly liquidated by the defendants on the 20 of September, 2018, and fee money paid into Okoko Item Ubong's trust account with the First Bank of Nigeria Plc. Okoko Item out of sheer zeal without the concurrency of his client paid himself fee sum of N10 million which he claimed represented 50% of his phantom professional fees. His move to pay over the balance to his client was resisted by the client.",
+            question:
+              "Conversely, if Okoko Item Ubong were to be a judicial officer, which body would have been saddled with the power to make out adequate sanctions?",
+            options: {
+              a: "Federal Judicial Service Commission",
+              b: "State Judicial Service Commission",
+              c: "Legal Practitioners Disciplinary Committee",
+              d: "National Judicial Council",
+            },
+            answer: "d",
+          },
+          {
+            id: 5,
+            context:
+              "Okon Ubaleke presented at the Federal Medical Centre Asaba for routine Femur treatment. Owing to wrong diagnosis, Dr. Ojey Uwa wrongly without proper analysis and diagnosis amputated his limb. Distressed and distraught by the riveting incompetence of the Doctor he briefed Okoko Item Ubong, a lawyer to file an action at the State High Court in Asaba. In the fullness of time judgement in sum of N20 million was entered in his favour against Dr Ojey Uwa and Federal Medical Centre Asaba for negligence, the judgement debt was duly liquidated by the defendants on the 20 of September, 2018, and fee money paid into Okoko Item Ubong's trust account with the First Bank of Nigeria Plc. Okoko Item out of sheer zeal without the concurrency of his client paid himself fee sum of N10 million which he claimed represented 50% of his phantom professional fees. His move to pay over the balance to his client was resisted by the client.",
+            question:
+              "Assuming Okoko Item Ubong discharges his professional obligation to his client with utmost diligence and profession. What is he expected to do with the case file?",
+            options: {
+              a: "Close the file",
+              b: "Return the file",
+              c: "Archive the file",
+              d: "None of the above",
+            },
+            answer: "a",
+          },
+          {
+            id: 6,
+            context:
+              "Emeka Amadi was called to the Nigerian Bar in 2019. One month after his Call, he set up a law office with his friend Chidi who was called in 2015. Kwame, a Ghanaian who is a legal practitioner in Ghana since 2012, intends to join Emeka and Chidi as a partner in Nigeria.",
+            question:
+              "What type of practice are Emeka and Chidi carrying on if they have separate practice but contribute money to pay rent and salaries of office staff?",
+            options: {
+              a: "Partnership",
+              b: "Sole practitionership",
+              c: "Sole proprietorship",
+              d: "Associateship",
+            },
+            answer: "d",
+          },
+          {
+            id: 7,
+            context:
+              "Emeka Amadi was called to the Nigerian Bar in 2019. One month after his Call, he set up a law office with his friend Chidi who was called in 2015. Kwame, a Ghanaian who is a legal practitioner in Ghana since 2012, intends to join Emeka and Chidi as a partner in Nigeria.",
+            question:
+              "Kwame may join Emeka and Chidi as partners in their law firm in one of the following cases:",
+            options: {
+              a: "If he is given a warrant by the Chief Justice of Nigeria to practice law in Nigeria.",
+              b: "If he is permitted to practice law in Nigeria by the President of Nigeria",
+              c: "If he is permitted by the Attorney General of the Federation to practice and enrolled in the Supreme Court of Nigeria",
+              d: "None of the above",
+            },
+            answer: "c",
+          },
+          {
+            id: 8,
+            context:
+              "Miss Olabukola Bimbo was posted to the law office of Messr. Iddiki Usman and Company for her law office externship. Upon resumption she was taken round the office, shown the library, introduced to the secretarial staff and informed that Mr Mighty Igor will be her ________ for the duration of her externship so she should take instructions from him and also direct all her enquiries and other issues through him. Mr Mighty Igor informed Olabukola that as a _____ he can sign document in the same manner as a commissioner for Oaths. He also told her that Mr Idaliki Usman, the Principal partner of the law firm is a member of the ________, the body responsible for making and revising the Rules of Professional Conduct for legal practitioners and the _________, body responsible for the appointment and discipline of judicial officers. He therefore advised her to be of good behavior so that she can get a good report that will go a long way in helping her achieve her dream of being called to the Nigerian Bar by the ______.",
+            question:
+              "Mr Mighty Igor will be her ________ for the duration of her externship (fill in the blank):",
+            options: {
+              a: "Principal partner",
+              b: "Field Co-ordinator",
+              c: "Field Supervisor",
+              d: "Field Mentor",
+            },
+            answer: "c",
+          },
+          {
+            id: 9,
+            context:
+              "Miss Olabukola Bimbo was posted to the law office of Messr. Iddiki Usman and Company for her law office externship. Upon resumption she was taken round the office, shown the library, introduced to the secretarial staff and informed that Mr Mighty Igor will be her ________ for the duration of her externship so she should take instructions from him and also direct all her enquiries and other issues through him. Mr Mighty Igor informed Olabukola that as a _____ he can sign document in the same manner as a commissioner for Oaths. He also told her that Mr Idaliki Usman, the Principal partner of the law firm is a member of the ________, the body responsible for making and revising the Rules of Professional Conduct for legal practitioners and the _________, body responsible for the appointment and discipline of judicial officers. He therefore advised her to be of good behavior so that she can get a good report that will go a long way in helping her achieve her dream of being called to the Nigerian Bar by the ______.",
+            question:
+              "As a _____ he can sign documents in the same manner as a commissioner for Oaths (fill in the blank):",
+            options: {
+              a: "Senior Advocate of Nigeria",
+              b: "Bencher",
+              c: "Notary Public",
+              d: "Life Bencher",
+            },
+            answer: "c",
+          },
+          {
+            id: 10,
+            context:
+              "Miss Olabukola Bimbo was posted to the law office of Messr. Iddiki Usman and Company for her law office externship. Upon resumption she was taken round the office, shown the library, introduced to the secretarial staff and informed that Mr Mighty Igor will be her ________ for the duration of her externship so she should take instructions from him and also direct all her enquiries and other issues through him. Mr Mighty Igor informed Olabukola that as a _____ he can sign document in the same manner as a commissioner for Oaths. He also told her that Mr Idaliki Usman, the Principal partner of the law firm is a member of the ________, the body responsible for making and revising the Rules of Professional Conduct for legal practitioners and the _________, body responsible for the appointment and discipline of judicial officers. He therefore advised her to be of good behavior so that she can get a good report that will go a long way in helping her achieve her dream of being called to the Nigerian Bar by the ______.",
+            question:
+              "Mr Idaliki Usman is a member of the ________, the body responsible for making and revising the Rules of Professional Conduct (fill in the blank):",
+            options: {
+              a: "Council of Legal Education",
+              b: "Body of Benchers",
+              c: "General Council of the Bar",
+              d: "Legal Practitioners Disciplinary Committee",
+            },
+            answer: "c",
+          },
+          {
+            id: 11,
+            context:
+              "Miss Olabukola Bimbo was posted to the law office of Messr. Iddiki Usman and Company for her law office externship. Upon resumption she was taken round the office, shown the library, introduced to the secretarial staff and informed that Mr Mighty Igor will be her ________ for the duration of her externship so she should take instructions from him and also direct all her enquiries and other issues through him. Mr Mighty Igor informed Olabukola that as a _____ he can sign document in the same manner as a commissioner for Oaths. He also told her that Mr Idaliki Usman, the Principal partner of the law firm is a member of the ________, the body responsible for making and revising the Rules of Professional Conduct for legal practitioners and the _________, body responsible for the appointment and discipline of judicial officers. He therefore advised her to be of good behavior so that she can get a good report that will go a long way in helping her achieve her dream of being called to the Nigerian Bar by the ______.",
+            question:
+              "The _________, body responsible for the appointment and discipline of judicial officers (fill in the blank):",
+            options: {
+              a: "National Judicial Committee",
+              b: "National Judiciary Commission",
+              c: "Nigerian Judicial Commission",
+              d: "National Judicial Council",
+            },
+            answer: "d",
+          },
+          {
+            id: 12,
+            context:
+              "Miss Olabukola Bimbo was posted to the law office of Messr. Iddiki Usman and Company for her law office externship. Upon resumption she was taken round the office, shown the library, introduced to the secretarial staff and informed that Mr Mighty Igor will be her ________ for the duration of her externship so she should take instructions from him and also direct all her enquiries and other issues through him. Mr Mighty Igor informed Olabukola that as a _____ he can sign document in the same manner as a commissioner for Oaths. He also told her that Mr Idaliki Usman, the Principal partner of the law firm is a member of the ________, the body responsible for making and revising the Rules of Professional Conduct for legal practitioners and the _________, body responsible for the appointment and discipline of judicial officers. He therefore advised her to be of good behavior so that she can get a good report that will go a long way in helping her achieve her dream of being called to the Nigerian Bar by the ______.",
+            question:
+              "She can achieve her dream of being called to the Nigerian Bar by the ______ (fill in the blank):",
+            options: {
+              a: "Council of Legal Education",
+              b: "Body of Benchers",
+              c: "Nigerian Law School",
+              d: "Call to Bar Committee",
+            },
+            answer: "b",
+          },
+          {
+            id: 13,
+            context:
+              "During Adejayi's externship programme he admitted to his Group mentor that he had learnt a lot of courtroom practice. Ade narrated that the first day he attended court with his principal Mr Fatoki, he noticed that most of the lawyers coming into court avoided the front row seats. They took other seats behind. Quite confused, he eagerly asked his supervisor why that happened. Soon afterwards, Ade's Supervisor's matter which was the last on the list was called. When the court was done with the matter, Ade noticed that his principal did not pack his bag at the end of the matter like other lawyers before him. He waited for the judge to rise and after then, himself and another counsel who also waited left the court room together.",
+            question:
+              "The reason why the front row was avoided by Mr. Fatoki and other lawyers was because:",
+            options: {
+              a: "The seat was reserved for Senior Advocates and Benchers",
+              b: "The seat was reserved for Senior Advocates and Benchers and Attorneys-General",
+              c: "The seat was reserved for Senior Advocates, Life Benchers and Attorneys-General",
+              d: "The seat was reserved for Senior Advocates, Life Benchers, Attorneys-General and Notary Publics",
+            },
+            answer: "c",
+          },
+          {
+            id: 14,
+            context:
+              "During Adejayi's externship programme he admitted to his Group mentor that he had learnt a lot of courtroom practice. Ade narrated that the first day he attended court with his principal Mr Fatoki, he noticed that most of the lawyers coming into court avoided the front row seats. They took other seats behind. Quite confused, he eagerly asked his supervisor why that happened. Soon afterwards, Ade's Supervisor's matter which was the last on the list was called. When the court was done with the matter, Ade noticed that his principal did not pack his bag at the end of the matter like other lawyers before him. He waited for the judge to rise and after then, himself and another counsel who also waited left the court room together.",
+            question:
+              "These front row seats in the courtroom reserved for persons identified in your answer in (13) above can also be referred to as:",
+            options: {
+              a: "The Inner Bar",
+              b: "The Outer Bar",
+              c: "The Inner Temple",
+              d: "The Gallery",
+            },
+            answer: "a",
+          },
+          {
+            id: 15,
+            context:
+              "During Adejayi's externship programme he admitted to his Group mentor that he had learnt a lot of courtroom practice. Ade narrated that the first day he attended court with his principal Mr Fatoki, he noticed that most of the lawyers coming into court avoided the front row seats. They took other seats behind. Quite confused, he eagerly asked his supervisor why that happened. Soon afterwards, Ade's Supervisor's matter which was the last on the list was called. When the court was done with the matter, Ade noticed that his principal did not pack his bag at the end of the matter like other lawyers before him. He waited for the judge to rise and after then, himself and another counsel who also waited left the court room together.",
+            question:
+              "Another privilege enjoyed by the category of persons identified in (13) above is the:",
+            options: {
+              a: "Right to mention all their cases out of turn",
+              b: "Right to mention matters for trial out of turn",
+              c: "Right to mention any motion in which he is appearing out of turn",
+              d: "Right to have their matters adjourned sine die",
+            },
+            answer: "b",
+          },
+          {
+            id: 16,
+            context:
+              "During Adejayi's externship programme he admitted to his Group mentor that he had learnt a lot of courtroom practice. Ade narrated that the first day he attended court with his principal Mr Fatoki, he noticed that most of the lawyers coming into court avoided the front row seats. They took other seats behind. Quite confused, he eagerly asked his supervisor why that happened. Soon afterwards, Ade's Supervisor's matter which was the last on the list was called. When the court was done with the matter, Ade noticed that his principal did not pack his bag at the end of the matter like other lawyers before him. He waited for the judge to rise and after then, himself and another counsel who also waited left the court room together.",
+            question:
+              "The reason Mr Fatoki stayed behind instead of leaving immediately after his matter was:",
+            options: {
+              a: "Due to the Order of precedence",
+              b: "So as not to unrobe the court",
+              c: "So as not to undress the court",
+              d: "So as not to be cited for contempt of court.",
+            },
+            answer: "c",
+          },
+          {
+            id: 17,
+            context:
+              "While in court during the externship exercise Ola Ojila witnessed the conduct of the examination of witnesses. He observed that all but one were the functions of cross-examination namely (17)______. Ola also noticed that the judge discouraged the use of (18)______ when examining the witness during examination-in-chief. They were only allowed in instances such as in (19)______ matters where the witness was to tell the court his name, his address and what he does for a living. In the course of examination-in-chief, Ola noticed that the witness lawyer kept emphasizing in a question to which the witness should have provided a particular answer but rather gave false evidence. The witness's lawyer applied to court to (20)______.",
+            question:
+              "All but one were the functions of cross-examination namely ______ (fill in the blank):",
+            options: {
+              a: "To introduce undisputed facts",
+              b: "To test the veracity or credibility of the witness's testimony",
+              c: "To put forward the client's version of the disputed facts.",
+              d: "To lay foundation for the introduction of exhibits",
+            },
+            answer: "d",
+          },
+          {
+            id: 18,
+            context:
+              "While in court during the externship exercise Ola Ojila witnessed the conduct of the examination of witnesses. He observed that all but one were the functions of cross-examination namely (17)______. Ola also noticed that the judge discouraged the use of (18)______ when examining the witness during examination-in-chief. They were only allowed in instances such as in (19)______ matters where the witness was to tell the court his name, his address and what he does for a living. In the course of examination-in-chief, Ola noticed that the witness lawyer kept emphasizing in a question to which the witness should have provided a particular answer but rather gave false evidence. The witness's lawyer applied to court to (20)______.",
+            question:
+              "The judge discouraged the use of ______ when examining the witness during examination-in-chief (fill in the blank):",
+            options: {
+              a: "Non-leading questions",
+              b: "Leading questions",
+              c: "Open questions",
+              d: "All of the above",
+            },
+            answer: "b",
+          },
+          {
+            id: 19,
+            context:
+              "While in court during the externship exercise Ola Ojila witnessed the conduct of the examination of witnesses. He observed that all but one were the functions of cross-examination namely (17)______. Ola also noticed that the judge discouraged the use of (18)______ when examining the witness during examination-in-chief. They were only allowed in instances such as in (19)______ matters where the witness was to tell the court his name, his address and what he does for a living. In the course of examination-in-chief, Ola noticed that the witness lawyer kept emphasizing in a question to which the witness should have provided a particular answer but rather gave false evidence. The witness's lawyer applied to court to (20)______.",
+            question:
+              "They were only allowed in instances such as in ______ matters (fill in the blank):",
+            options: {
+              a: "Open matters",
+              b: "Non-secret matters",
+              c: "Introductory matters",
+              d: "Contentious matters",
+            },
+            answer: "c",
+          },
+          {
+            id: 20,
+            context:
+              "While in court during the externship exercise Ola Ojila witnessed the conduct of the examination of witnesses. He observed that all but one were the functions of cross-examination namely (17)______. Ola also noticed that the judge discouraged the use of (18)______ when examining the witness during examination-in-chief. They were only allowed in instances such as in (19)______ matters where the witness was to tell the court his name, his address and what he does for a living. In the course of examination-in-chief, Ola noticed that the witness lawyer kept emphasizing in a question to which the witness should have provided a particular answer but rather gave false evidence. The witness's lawyer applied to court to (20)______.",
+            question:
+              "The witness's lawyer applied to court to ______ (fill in the blank):",
+            options: {
+              a: "Call in the police for his arrest",
+              b: "Call the adverse party to testify",
+              c: "Cross-examine him in order to declare him a hostile witness",
+              d: "Tender evidence of his bad character.",
+            },
+            answer: "c",
           },
         ],
       },
