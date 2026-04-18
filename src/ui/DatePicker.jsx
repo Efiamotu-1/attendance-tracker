@@ -74,7 +74,10 @@ function DatePicker({ value, onChange, placeholder = 'Select date', disabled = f
   }
 
   function handleDateSelect(date) {
-    const formattedDate = date.toISOString().split('T')[0];
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, '0');
+    const day = String(date.getDate()).padStart(2, '0');
+    const formattedDate = `${year}-${month}-${day}`;
     onChange(formattedDate);
     setIsOpen(false);
   }
