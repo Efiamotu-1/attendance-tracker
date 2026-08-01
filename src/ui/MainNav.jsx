@@ -11,10 +11,10 @@ import { useTheme } from "../context/ThemeContext";
 
 const navItems = [
   { to: "/dashboard", icon: HiOutlineHome, label: "Dashboard" },
+  { to: "/mcq-past-questions", icon: HiOutlineDocumentText, label: "MCQ Past Questions", shortLabel: "MCQ" },
   { to: "/courses", icon: HiOutlineBookOpen, label: "Courses" },
   { to: "/reports", icon: HiOutlineClipboardDocumentList, label: "Reports" },
   { to: "/tips", icon: HiOutlineLightBulb, label: "Tips" },
-  { to: "/mcq-past-questions", icon: HiOutlineDocumentText, label: "MCQ Past Questions", shortLabel: "MCQ" },
   { to: "/feedback", icon: HiOutlineChatBubbleLeftRight, label: "Feedback & Issues", shortLabel: "Feedback" },
 ];
 

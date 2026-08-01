@@ -5,7 +5,11 @@ import {
   HiOutlineClipboardDocumentList, 
   HiOutlineExclamationTriangle,
   HiOutlineLightBulb,
-  HiOutlineSparkles
+  HiOutlineSparkles,
+  HiOutlineDocumentText,
+  HiOutlineChartBar,
+  HiOutlineArrowRight,
+  HiOutlinePlayCircle
 } from 'react-icons/hi2'
 import { supabase } from '../services/supabase'
 import { useCourses } from '../features/courses/useCourses'
@@ -50,6 +54,21 @@ function Dashboard() {
     return 'text-red-500';
   };
 
+  const mcqStats = [
+    {
+      label: 'Past Questions',
+      value: 'Practice',
+      icon: HiOutlineDocumentText,
+      action: () => navigate('/mcq-past-questions'),
+    },
+    {
+      label: 'Performance',
+      value: 'Track',
+      icon: HiOutlineChartBar,
+      action: () => navigate('/mcq-performance'),
+    },
+  ]
+
   return (
     <div className='space-y-6 md:space-y-8 animate-fade-in px-2 xs:px-3 md:px-6 py-2 md:py-4'>
       {/* Welcome Section */}
@@ -77,6 +96,68 @@ function Dashboard() {
           <p className={isDarkMode ? 'text-dark-400' : 'text-gray-600'}>
             Track your attendance, monitor your progress, and stay on top of your academic journey.
           </p>
+        </div>
+      </div>
+
+      {/* MCQ Spotlight - primary mobile action */}
+      <div className={`relative overflow-hidden rounded-2xl border p-4 xs:p-5 md:p-6 ${
+        isDarkMode
+          ? 'bg-gradient-to-br from-primary-500/15 via-dark-800 to-dark-900 border-dark-700'
+          : 'bg-gradient-to-br from-primary-50 via-white to-gray-50 border-gray-200'
+      }`}>
+        <div className={`absolute -top-8 -right-8 w-32 h-32 rounded-full blur-3xl ${
+          isDarkMode ? 'bg-primary-500/10' : 'bg-primary-500/20'
+        }`} />
+        <div className='relative z-10 flex flex-col gap-4 md:flex-row md:items-end md:justify-between'>
+          <div className='max-w-xl'>
+            <div className='flex items-center gap-2 mb-2 text-primary-500'>
+              <HiOutlinePlayCircle className='w-5 h-5' />
+              <span className='text-sm font-medium uppercase tracking-wide'>Featured</span>
+            </div>
+            <h2 className={`text-2xl md:text-3xl font-bold ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>
+              Start MCQ practice first
+            </h2>
+            <p className={`mt-2 text-sm md:text-base ${isDarkMode ? 'text-dark-400' : 'text-gray-600'}`}>
+              Quick access to past questions, timed quizzes, and performance tracking from one place.
+            </p>
+          </div>
+
+          <button
+            onClick={() => navigate('/mcq-past-questions')}
+            className='inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-primary-500 text-white font-semibold hover:bg-primary-600 active:bg-primary-700 transition-colors shadow-lg shadow-primary-500/20'
+          >
+            Open MCQ
+            <HiOutlineArrowRight className='w-4 h-4' />
+          </button>
+        </div>
+
+        <div className='relative z-10 mt-5 grid grid-cols-1 sm:grid-cols-2 gap-3'>
+          {mcqStats.map((item) => {
+            const Icon = item.icon
+            return (
+              <button
+                key={item.label}
+                onClick={item.action}
+                className={`flex items-center justify-between rounded-2xl border p-4 text-left transition-all hover:scale-[1.01] active:scale-[0.99] ${
+                  isDarkMode
+                    ? 'border-dark-700 bg-dark-800/60 hover:border-dark-600'
+                    : 'border-gray-200 bg-white hover:border-gray-300'
+                }`}
+              >
+                <div>
+                  <p className={`text-xs uppercase tracking-wide mb-1 ${isDarkMode ? 'text-dark-500' : 'text-gray-500'}`}>
+                    {item.label}
+                  </p>
+                  <p className={`text-lg font-bold ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>
+                    {item.value}
+                  </p>
+                </div>
+                <div className='p-3 rounded-xl bg-primary-500/10'>
+                  <Icon className='w-5 h-5 text-primary-500' />
+                </div>
+              </button>
+            )
+          })}
         </div>
       </div>
 
@@ -148,12 +229,12 @@ function Dashboard() {
         </div>
       )}
 
-      {/* Course Performance Cards */}
+      {/* Attendance Summary */}
       {!isNewUser && (
         <div>
         <div className='flex items-center justify-between mb-4'>
           <h2 className={`text-lg font-semibold ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>
-            Course Performance
+            Attendance Summary
           </h2>
           <div className='flex items-center gap-4 text-xs'>
             <div className='flex items-center gap-1.5'>

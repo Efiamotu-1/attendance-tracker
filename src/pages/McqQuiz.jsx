@@ -4,6 +4,7 @@ import { useTheme } from "../context/ThemeContext";
 import mcqQuestions from "../data/mcqQuestions";
 import { useSaveQuizAttempt } from "../features/mcq/useSaveQuizAttempt";
 import { useQuizAttempts } from "../features/mcq/useQuizAttempts";
+import QuizTimerSettings from "../features/mcq/QuizTimerSettings";
 import {
   HiOutlineArrowLeft,
   HiOutlineArrowRight,
@@ -21,6 +22,7 @@ function McqQuiz() {
   const { sessionId, courseId } = useParams();
   const navigate = useNavigate();
   const { isDarkMode } = useTheme();
+  const isExamMode = !courseId;
 
   // Quiz state
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -28,12 +30,18 @@ function McqQuiz() {
   const [quizFinished, setQuizFinished] = useState(false);
   const [elapsedTime, setElapsedTime] = useState(0);
   const [quizStarted, setQuizStarted] = useState(false);
-  const [resultsSaved, setResultsSaved] = useState(false);
+  const [quizRunId, setQuizRunId] = useState(0);
+  const [timerSettings, setTimerSettings] = useState({
+    mode: "count_up",
+    durationValue: isExamMode ? 50 : 7,
+    durationUnit: "min",
+    durationMinutes: isExamMode ? 50 : 7,
+  });
   const timerRef = useRef(null);
   const savedRef = useRef(false);
 
   // Hooks for saving and loading quiz history
-  const { saveAttempt, isSaving } = useSaveQuizAttempt();
+  const { saveAttempt } = useSaveQuizAttempt();
   const { attempts: allAttempts } = useQuizAttempts();
 
   // Find the course data
@@ -42,21 +50,120 @@ function McqQuiz() {
 
   // Previous attempts for THIS specific quiz
   const previousAttempts = useMemo(() => {
-    if (!allAttempts || !courseId || !sessionId) return [];
+    if (!allAttempts || !sessionId) return [];
     return allAttempts
-      .filter((a) => a.session_id === sessionId && a.course_id === courseId)
+      .filter((a) => {
+        const quizMode = a.quiz_mode ?? "course";
+        if (isExamMode) {
+          return a.session_id === sessionId && quizMode === "exam_styled";
+        }
+
+        return a.session_id === sessionId && a.course_id === courseId && quizMode !== "exam_styled";
+      })
       .sort((a, b) => new Date(a.completed_at) - new Date(b.completed_at));
-  }, [allAttempts, sessionId, courseId]);
+  }, [allAttempts, sessionId, courseId, isExamMode]);
+
+  const questions = useMemo(() => {
+    if (!session) return [];
+    if (!isExamMode) return course?.questions ?? [];
+
+    return session.courses.flatMap((courseItem) =>
+      courseItem.questions.map((question) => ({
+        ...question,
+        courseName: courseItem.name,
+        courseId: courseItem.id,
+        questionKey: isExamMode ? `${courseItem.id}-${question.id}` : `${question.id}`,
+      }))
+    );
+  }, [session, course, isExamMode]);
+  const question = questions[currentQuestion];
+  const totalQuestions = questions.length;
+  const answeredCount = Object.keys(selectedAnswers).length;
+  const progress = ((currentQuestion + 1) / totalQuestions) * 100;
+  const timerDisplayTime =
+    timerSettings.mode === "count_down"
+      ? Math.max(0, timerSettings.durationMinutes * 60 - elapsedTime)
+      : elapsedTime;
+
+  const calculateResults = useCallback(() => {
+    let correct = 0;
+    let incorrect = 0;
+    let unanswered = 0;
+    let bonusCount = 0;
+
+    questions.forEach((q) => {
+      const questionKey = q.questionKey ?? `${q.id}`;
+
+      if (q.answer === "bonus") {
+        bonusCount++;
+        correct++;
+      } else if (!selectedAnswers[questionKey]) {
+        unanswered++;
+      } else if (selectedAnswers[questionKey] === q.answer) {
+        correct++;
+      } else {
+        incorrect++;
+      }
+    });
+
+    const percentage = Math.round((correct / totalQuestions) * 100);
+    return { correct, incorrect, unanswered, bonusCount, percentage };
+  }, [questions, selectedAnswers, totalQuestions]);
+
+  const handleFinishQuiz = useCallback(() => {
+    clearInterval(timerRef.current);
+    setQuizFinished(true);
+
+    if (!savedRef.current && session && (isExamMode || course)) {
+      savedRef.current = true;
+      const results = calculateResults();
+      saveAttempt(
+        {
+          sessionId,
+          courseId: isExamMode ? `exam-${sessionId}` : course.id,
+          courseName: isExamMode ? "Exam Styled MCQ" : course.name,
+          year: session.year,
+          session: session.session,
+          quizMode: isExamMode ? "exam_styled" : "course",
+          score: results.correct,
+          totalQuestions: questions.length,
+          percentage: results.percentage,
+          timeElapsed: elapsedTime,
+          timerMode: timerSettings.mode,
+          timerDurationMinutes: timerSettings.durationMinutes,
+          correctCount: results.correct,
+          incorrectCount: results.incorrect,
+          skippedCount: results.unanswered,
+          bonusCount: results.bonusCount,
+        },
+        {
+          onSuccess: () => undefined,
+        }
+      );
+    }
+  }, [calculateResults, course, elapsedTime, isExamMode, questions.length, saveAttempt, session, sessionId, timerSettings.durationMinutes, timerSettings.mode]);
 
   // Timer
   useEffect(() => {
-    if (quizStarted && !quizFinished) {
-      timerRef.current = setInterval(() => {
-        setElapsedTime((prev) => prev + 1);
-      }, 1000);
-    }
+    if (!quizStarted || quizFinished) return undefined;
+
+    timerRef.current = setInterval(() => {
+      setElapsedTime((prev) => {
+        const nextElapsed = prev + 1;
+        const totalDurationSeconds = timerSettings.durationMinutes * 60;
+
+        if (timerSettings.mode === "count_down" && nextElapsed >= totalDurationSeconds) {
+          clearInterval(timerRef.current);
+          handleFinishQuiz();
+          return totalDurationSeconds;
+        }
+
+        return nextElapsed;
+      });
+    }, 1000);
+
     return () => clearInterval(timerRef.current);
-  }, [quizStarted, quizFinished]);
+  }, [quizStarted, quizFinished, handleFinishQuiz, timerSettings.mode, timerSettings.durationMinutes]);
 
   const formatTime = useCallback((seconds) => {
     const mins = Math.floor(seconds / 60);
@@ -66,7 +173,7 @@ function McqQuiz() {
       .padStart(2, "0")}`;
   }, []);
 
-  if (!session || !course) {
+  if (!session || (!isExamMode && !course)) {
     return (
       <div className="px-4 sm:px-6 py-8 max-w-3xl mx-auto text-center">
         <h1 className="text-xl sm:text-2xl font-bold text-red-500 mb-4">
@@ -84,12 +191,6 @@ function McqQuiz() {
       </div>
     );
   }
-
-  const questions = course.questions;
-  const question = questions[currentQuestion];
-  const totalQuestions = questions.length;
-  const answeredCount = Object.keys(selectedAnswers).length;
-  const progress = ((currentQuestion + 1) / totalQuestions) * 100;
 
   const handleSelectAnswer = (questionId, optionKey) => {
     if (quizFinished) return;
@@ -111,38 +212,8 @@ function McqQuiz() {
     }
   };
 
-  const handleFinishQuiz = () => {
-    clearInterval(timerRef.current);
-    setQuizFinished(true);
-
-    // Auto-save results (prevent double-save)
-    if (!savedRef.current && session && course) {
-      savedRef.current = true;
-      const results = calculateResults();
-      saveAttempt(
-        {
-          sessionId,
-          courseId: course.id,
-          courseName: course.name,
-          year: session.year,
-          session: session.session,
-          score: results.correct,
-          totalQuestions: questions.length,
-          percentage: results.percentage,
-          timeElapsed: elapsedTime,
-          correctCount: results.correct,
-          incorrectCount: results.incorrect,
-          skippedCount: results.unanswered,
-          bonusCount: results.bonusCount,
-        },
-        {
-          onSuccess: () => setResultsSaved(true),
-        }
-      );
-    }
-  };
-
   const handleStartQuiz = () => {
+    setElapsedTime(0);
     setQuizStarted(true);
   };
 
@@ -152,32 +223,8 @@ function McqQuiz() {
     setQuizFinished(false);
     setElapsedTime(0);
     setQuizStarted(true);
-    setResultsSaved(false);
+    setQuizRunId((prev) => prev + 1);
     savedRef.current = false;
-  };
-
-  // Calculate results
-  const calculateResults = () => {
-    let correct = 0;
-    let incorrect = 0;
-    let unanswered = 0;
-    let bonusCount = 0;
-
-    questions.forEach((q) => {
-      if (q.answer === "bonus") {
-        bonusCount++;
-        correct++; // Everyone gets bonus marks
-      } else if (!selectedAnswers[q.id]) {
-        unanswered++;
-      } else if (selectedAnswers[q.id] === q.answer) {
-        correct++;
-      } else {
-        incorrect++;
-      }
-    });
-
-    const percentage = Math.round((correct / totalQuestions) * 100);
-    return { correct, incorrect, unanswered, bonusCount, percentage };
   };
 
   // Pre-quiz start screen
@@ -211,14 +258,16 @@ function McqQuiz() {
               isDarkMode ? "text-white" : "text-gray-900"
             }`}
           >
-            {course.name}
+            {isExamMode ? "Exam Styled MCQ" : course.name}
           </h1>
           <p
             className={`text-xs sm:text-sm mb-1 ${
               isDarkMode ? "text-dark-400" : "text-gray-500"
             }`}
           >
-            {session.examTitle} — {session.session} {session.year}
+            {isExamMode
+              ? `${session.examTitle} — ${session.session} ${session.year} • ${session.courses.length} courses`
+              : `${session.examTitle} — ${session.session} ${session.year}`}
           </p>
 
           {/* Info cards — responsive grid */}
@@ -260,7 +309,7 @@ function McqQuiz() {
                   isDarkMode ? "text-white" : "text-gray-900"
                 }`}
               >
-                MCQ
+                {isExamMode ? "Exam" : "MCQ"}
               </p>
             </div>
             <div
@@ -289,9 +338,20 @@ function McqQuiz() {
               isDarkMode ? "text-dark-400" : "text-gray-500"
             }`}
           >
-            A timer will start once you begin. Answer all questions and submit
-            to see your score and completion time.
+            {isExamMode
+              ? "This exam styled quiz combines all 5 courses into one sitting. Choose count-up or count-down before you start."
+              : "A timer will start once you begin. Choose between count-up or count-down mode before you start."}
           </p>
+
+          <div className="mb-5 sm:mb-6">
+            <QuizTimerSettings
+              value={timerSettings}
+              onChange={setTimerSettings}
+              isDarkMode={isDarkMode}
+              defaultDurationValue={isExamMode ? 50 : 7}
+              defaultDurationUnit="min"
+            />
+          </div>
 
           {/* Previous attempts summary */}
           {previousAttempts.length > 0 && (
@@ -379,7 +439,13 @@ function McqQuiz() {
             onClick={handleStartQuiz}
             className="w-full sm:w-auto px-8 py-3 bg-primary-500 hover:bg-primary-600 active:bg-primary-700 text-white rounded-xl font-semibold text-base sm:text-lg transition-all hover:shadow-lg hover:shadow-primary-500/25 active:scale-95"
           >
-            {previousAttempts.length > 0 ? "Retake Quiz" : "Start Quiz"}
+            {previousAttempts.length > 0
+              ? isExamMode
+                ? "Retake Exam"
+                : "Retake Quiz"
+              : isExamMode
+              ? "Start Exam"
+              : "Start Quiz"}
           </button>
         </div>
       </div>
@@ -417,10 +483,32 @@ function McqQuiz() {
               isDarkMode ? "text-dark-400" : "text-gray-500"
             }`}
           >
-            {course.name} — {session.session} {session.year}
+            {isExamMode
+              ? `Exam Styled MCQ — ${session.session} ${session.year}`
+              : `${course.name} — ${session.session} ${session.year}`}
           </p>
 
           {/* Score & Time */}
+          <div
+            className={`rounded-xl border p-3 sm:p-4 mb-4 sm:mb-5 text-left ${
+              isDarkMode ? "border-dark-700 bg-dark-700/50" : "border-gray-200 bg-gray-50"
+            }`}
+          >
+            <p className={`text-[10px] sm:text-xs font-semibold mb-1 ${isDarkMode ? "text-dark-400" : "text-gray-500"}`}>
+              Timer mode
+            </p>
+            <p className={`text-sm sm:text-base font-semibold ${isDarkMode ? "text-white" : "text-gray-900"}`}>
+              {timerSettings.mode === "count_down"
+                ? `Countdown • ${timerSettings.durationValue} ${timerSettings.durationUnit}${timerSettings.durationValue > 1 ? "s" : ""}`
+                : "Default count-up timer"}
+            </p>
+            <p className={`mt-1 text-[10px] sm:text-xs ${isDarkMode ? "text-dark-500" : "text-gray-500"}`}>
+              {timerSettings.mode === "count_down"
+                ? `You will submit at ${formatTime(timerSettings.durationMinutes * 60)} if you do not finish earlier.`
+                : "This quiz will keep a running clock from zero."}
+            </p>
+          </div>
+
           <div className="grid grid-cols-2 gap-3 sm:gap-4 mb-5 sm:mb-6">
             <div
               className={`rounded-xl p-3 sm:p-4 ${
@@ -462,14 +550,23 @@ function McqQuiz() {
                   isDarkMode ? "text-white" : "text-gray-900"
                 }`}
               >
-                {formatTime(elapsedTime)}
+                {formatTime(timerDisplayTime)}
               </p>
               <p
                 className={`text-[10px] sm:text-xs ${
                   isDarkMode ? "text-dark-400" : "text-gray-500"
                 }`}
               >
-                Time Taken
+                {timerSettings.mode === "count_down" ? "Time Used" : "Time Taken"}
+              </p>
+              <p
+                className={`mt-1 text-[10px] sm:text-xs ${
+                  isDarkMode ? "text-dark-500" : "text-gray-500"
+                }`}
+              >
+                {timerSettings.mode === "count_down"
+                  ? `Submitted after ${formatTime(elapsedTime)} of ${formatTime(timerSettings.durationMinutes * 60)}`
+                  : `Submitted after ${formatTime(elapsedTime)}`}
               </p>
             </div>
           </div>
@@ -638,7 +735,7 @@ function McqQuiz() {
               className="flex items-center justify-center gap-2 px-5 sm:px-6 py-3 bg-primary-500 hover:bg-primary-600 active:bg-primary-700 text-white rounded-xl font-medium transition-all hover:shadow-lg active:scale-95"
             >
               <HiOutlineArrowPath className="w-5 h-5" />
-              Retry Quiz
+              {isExamMode ? "Retry Exam" : "Retry Quiz"}
             </button>
             <button
               onClick={() => navigate("/mcq-performance")}
@@ -671,7 +768,7 @@ function McqQuiz() {
         </h2>
         <div className="space-y-3 sm:space-y-4">
           {questions.map((q, idx) => {
-            const userAnswer = selectedAnswers[q.id];
+            const userAnswer = selectedAnswers[q.questionKey ?? `${q.id}`];
             const isBonus = q.answer === "bonus";
             const isCorrect = isBonus || userAnswer === q.answer;
             const wasAnswered = !!userAnswer;
@@ -714,6 +811,15 @@ function McqQuiz() {
                     >
                       {q.question}
                     </p>
+                    {isExamMode && q.courseName && (
+                      <p
+                        className={`mt-1 text-[10px] sm:text-xs font-semibold ${
+                          isDarkMode ? "text-dark-500" : "text-gray-400"
+                        }`}
+                      >
+                        {q.courseName}
+                      </p>
+                    )}
                   </div>
                 </div>
 
@@ -773,7 +879,7 @@ function McqQuiz() {
 
   // Active quiz screen
   return (
-    <div className="px-3 sm:px-6 py-4 sm:py-6 max-w-3xl mx-auto">
+    <div key={quizRunId} className="px-3 sm:px-6 py-4 sm:py-6 max-w-3xl mx-auto">
       {/* Top Bar */}
       <div className="flex items-center justify-between mb-4 sm:mb-6">
         <button
@@ -797,15 +903,35 @@ function McqQuiz() {
           Exit
         </button>
 
-        <div
-          className={`flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3 py-1.5 rounded-full font-mono text-xs sm:text-sm font-bold ${
-            isDarkMode
-              ? "bg-dark-800 text-primary-400"
-              : "bg-primary-50 text-primary-600"
-          }`}
-        >
-          <HiOutlineClock className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-          {formatTime(elapsedTime)}
+        <div className="flex flex-col items-end gap-1">
+          <div
+            className={`flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3 py-1.5 rounded-full font-mono text-xs sm:text-sm font-bold ${
+              isDarkMode
+                ? "bg-dark-800 text-primary-400"
+                : "bg-primary-50 text-primary-600"
+            }`}
+          >
+            <HiOutlineClock className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+            {formatTime(timerDisplayTime)}
+          </div>
+          <div className="text-right leading-tight">
+            {isExamMode && (
+              <span
+                className={`block text-[9px] sm:text-[10px] uppercase tracking-wide font-semibold ${
+                  isDarkMode ? "text-dark-500" : "text-gray-400"
+                }`}
+              >
+                Exam Styled MCQ
+              </span>
+            )}
+            <span
+              className={`block max-w-[180px] truncate text-[10px] sm:text-xs font-semibold ${
+                isDarkMode ? "text-dark-300" : "text-gray-600"
+              }`}
+            >
+              Current course: {isExamMode ? question?.courseName : course?.name}
+            </span>
+          </div>
         </div>
       </div>
 
@@ -865,14 +991,27 @@ function McqQuiz() {
           {question.question}
         </h2>
 
+        <div className="mb-3 sm:mb-4">
+          <span
+            className={`inline-flex items-center px-2.5 py-1 rounded-full text-[10px] sm:text-xs font-semibold ${
+              isDarkMode
+                ? "bg-dark-700 text-dark-300"
+                : "bg-gray-100 text-gray-600"
+            }`}
+          >
+            {isExamMode ? question?.courseName : course?.name}
+          </span>
+        </div>
+
         {/* Options */}
         <div className="space-y-2 sm:space-y-3">
           {Object.entries(question.options).map(([key, text]) => {
-            const isSelected = selectedAnswers[question.id] === key;
+            const currentQuestionKey = question.questionKey ?? `${question.id}`;
+            const isSelected = selectedAnswers[currentQuestionKey] === key;
             return (
               <button
                 key={key}
-                onClick={() => handleSelectAnswer(question.id, key)}
+                onClick={() => handleSelectAnswer(currentQuestionKey, key)}
                 className={`w-full text-left flex items-center gap-2.5 sm:gap-3 p-3 sm:p-4 rounded-xl border-2 transition-all duration-200 group active:scale-[0.98] ${
                   isSelected
                     ? "border-primary-500 bg-primary-500/10"
@@ -912,7 +1051,8 @@ function McqQuiz() {
       {/* Navigation & Question dots */}
       <div className="flex flex-wrap gap-1 sm:gap-1.5 justify-center mb-4 sm:mb-6">
         {questions.map((q, idx) => {
-          const isAnswered = !!selectedAnswers[q.id];
+          const questionKey = q.questionKey ?? `${q.id}`;
+          const isAnswered = !!selectedAnswers[questionKey];
           const isCurrent = idx === currentQuestion;
           return (
             <button

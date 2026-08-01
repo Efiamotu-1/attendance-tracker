@@ -250,9 +250,16 @@ function McqPerformance() {
   const analytics = useMemo(() => {
     if (!attempts || attempts.length === 0) return null;
 
+    const regularAttempts = attempts.filter(
+      (attempt) => (attempt.quiz_mode ?? "course") !== "exam_styled"
+    );
+    const examAttempts = attempts.filter(
+      (attempt) => (attempt.quiz_mode ?? "course") === "exam_styled"
+    );
+
     // Group by course name
     const courseMap = {};
-    attempts.forEach((a) => {
+    regularAttempts.forEach((a) => {
       if (!courseMap[a.course_name]) {
         courseMap[a.course_name] = [];
       }
@@ -310,15 +317,17 @@ function McqPerformance() {
             sessionId: a.session_id,
             year: a.year,
             session: a.session,
+            timerMode: a.timer_mode,
+            timerDurationMinutes: a.timer_duration_minutes,
           })),
         };
       })
       .sort((a, b) => b.avgPercentage - a.avgPercentage);
 
     // Overall stats
-    const totalAttempts = attempts.length;
+    const totalAttempts = regularAttempts.length;
     const overallAvg = Math.round(
-      attempts.reduce((s, a) => s + a.percentage, 0) / totalAttempts
+      regularAttempts.reduce((s, a) => s + a.percentage, 0) / totalAttempts
     );
     // Find ALL courses tied for the highest average
     const topAvg = courseStats[0]?.avgPercentage ?? 0;
@@ -326,19 +335,27 @@ function McqPerformance() {
     const mostImproved = [...courseStats]
       .filter((c) => c.totalAttempts > 1)
       .sort((a, b) => b.improvement - a.improvement)[0];
-    const totalTimeSpent = attempts.reduce(
-      (s, a) => s + a.time_elapsed,
-      0
-    );
+    const totalTimeSpent = regularAttempts.reduce((s, a) => s + a.time_elapsed, 0);
+
+    const examTotalAttempts = examAttempts.length;
+    const examAverage = examTotalAttempts
+      ? Math.round(
+          examAttempts.reduce((sum, attempt) => sum + attempt.percentage, 0) /
+            examTotalAttempts
+        )
+      : 0;
+    const examRecent = [...examAttempts]
+      .sort((a, b) => new Date(b.completed_at) - new Date(a.completed_at))
+      .slice(0, 6);
 
     // Recent activity (last 10)
-    const recentActivity = [...attempts]
+    const recentActivity = [...regularAttempts]
       .sort((a, b) => new Date(b.completed_at) - new Date(a.completed_at))
       .slice(0, 10);
 
     // Unique quizzes taken
     const uniqueQuizzes = new Set(
-      attempts.map((a) => `${a.session_id}-${a.course_id}`)
+      regularAttempts.map((a) => `${a.session_id}-${a.course_id}`)
     ).size;
 
     return {
@@ -350,6 +367,10 @@ function McqPerformance() {
       totalTimeSpent,
       recentActivity,
       uniqueQuizzes,
+      examAttempts,
+      examTotalAttempts,
+      examAverage,
+      examRecent,
     };
   }, [attempts]);
 
@@ -679,6 +700,98 @@ function McqPerformance() {
         )}
       </div>
 
+      {/* ========== EXAM STYLED PERFORMANCE ========== */}
+      <div
+        className={`rounded-xl border p-3.5 sm:p-5 mb-6 sm:mb-8 ${
+          isDarkMode
+            ? "bg-dark-800/50 border-dark-700"
+            : "bg-white border-gray-200"
+        }`}
+      >
+        <div className="flex items-center justify-between gap-3 mb-3 sm:mb-4">
+          <div>
+            <h2
+              className={`text-base sm:text-lg font-bold ${
+                isDarkMode ? "text-white" : "text-gray-900"
+              }`}
+            >
+              Exam Styled MCQ
+            </h2>
+            <p
+              className={`text-[10px] sm:text-xs ${
+                isDarkMode ? "text-dark-400" : "text-gray-500"
+              }`}
+            >
+              Combined 5-course exam attempts by year and session
+            </p>
+          </div>
+          <div className={`text-right ${isDarkMode ? "text-dark-300" : "text-gray-600"}`}>
+            <p className="text-lg sm:text-2xl font-bold text-primary-500">
+              {analytics.examTotalAttempts}
+            </p>
+            <p className="text-[10px] sm:text-xs">attempt{analytics.examTotalAttempts !== 1 ? "s" : ""}</p>
+          </div>
+        </div>
+
+        {analytics.examTotalAttempts === 0 ? (
+          <p className={`text-sm ${isDarkMode ? "text-dark-400" : "text-gray-500"}`}>
+            No exam-styled attempts yet. Start one from the exam styled MCQ section.
+          </p>
+        ) : (
+          <div className="space-y-2.5 sm:space-y-3">
+            <div className="grid grid-cols-2 gap-2 sm:gap-3">
+              <div className={`rounded-xl p-3 ${isDarkMode ? "bg-dark-700" : "bg-gray-50"}`}>
+                <p className={`text-[10px] sm:text-xs ${isDarkMode ? "text-dark-400" : "text-gray-500"}`}>
+                  Average score
+                </p>
+                <p className={`text-xl sm:text-2xl font-bold ${isDarkMode ? "text-white" : "text-gray-900"}`}>
+                  {analytics.examAverage}%
+                </p>
+              </div>
+              <div className={`rounded-xl p-3 ${isDarkMode ? "bg-dark-700" : "bg-gray-50"}`}>
+                <p className={`text-[10px] sm:text-xs ${isDarkMode ? "text-dark-400" : "text-gray-500"}`}>
+                  Latest attempt
+                </p>
+                <p className={`text-xl sm:text-2xl font-bold ${isDarkMode ? "text-white" : "text-gray-900"}`}>
+                  {analytics.examRecent[0] ? `${analytics.examRecent[0].percentage}%` : "—"}
+                </p>
+              </div>
+            </div>
+
+            <div className="space-y-2">
+              {analytics.examRecent.map((attempt) => {
+                const date = new Date(attempt.completed_at);
+                return (
+                  <div
+                    key={attempt.id}
+                    className={`flex items-center justify-between gap-3 rounded-xl border px-3 py-3 ${
+                      isDarkMode ? "border-dark-700 bg-dark-800/30" : "border-gray-200 bg-gray-50"
+                    }`}
+                  >
+                    <div>
+                      <p className={`text-sm font-semibold ${isDarkMode ? "text-white" : "text-gray-900"}`}>
+                        {attempt.session} {attempt.year}
+                      </p>
+                      <p className={`text-[10px] sm:text-xs ${isDarkMode ? "text-dark-500" : "text-gray-500"}`}>
+                        Completed {date.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}
+                      </p>
+                    </div>
+                    <div className="text-right">
+                      <p className="text-sm font-bold text-primary-500">
+                        {attempt.percentage}%
+                      </p>
+                      <p className={`text-[10px] sm:text-xs ${isDarkMode ? "text-dark-500" : "text-gray-400"}`}>
+                        {Math.floor(attempt.time_elapsed / 60)}:{(attempt.time_elapsed % 60).toString().padStart(2, "0")}
+                      </p>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        )}
+      </div>
+
       {/* ========== SCORE TREND LINE CHART ========== */}
       <div
         className={`rounded-xl border p-3.5 sm:p-5 mb-6 sm:mb-8 ${
@@ -918,17 +1031,28 @@ function McqPerformance() {
                               ⭐
                             </span>
                           )}
-                          <span
-                            className={`text-[10px] sm:text-xs flex items-center gap-0.5 sm:gap-1 ${
-                              isDarkMode ? "text-dark-500" : "text-gray-400"
-                            }`}
-                          >
-                            <HiOutlineClock className="w-3 h-3" />
-                            {Math.floor(attempt.timeElapsed / 60)}:
-                            {(attempt.timeElapsed % 60)
-                              .toString()
-                              .padStart(2, "0")}
-                          </span>
+                          <div className="text-right">
+                            <div
+                              className={`text-[10px] sm:text-xs flex items-center justify-end gap-0.5 sm:gap-1 ${
+                                isDarkMode ? "text-dark-500" : "text-gray-400"
+                              }`}
+                            >
+                              <HiOutlineClock className="w-3 h-3" />
+                              {Math.floor(attempt.timeElapsed / 60)}:
+                              {(attempt.timeElapsed % 60)
+                                .toString()
+                                .padStart(2, "0")}
+                            </div>
+                            {attempt.timerMode === "count_down" && (
+                              <div
+                                className={`text-[10px] sm:text-xs ${
+                                  isDarkMode ? "text-dark-500" : "text-gray-400"
+                                }`}
+                              >
+                                {attempt.timerDurationMinutes}m countdown
+                              </div>
+                            )}
+                          </div>
                           <span
                             className={`text-[10px] sm:text-xs hidden xs:inline ${
                               isDarkMode ? "text-dark-500" : "text-gray-400"
@@ -1028,15 +1152,26 @@ function McqPerformance() {
                       ({attempt.percentage}%)
                     </span>
                   </div>
-                  <span
-                    className={`text-[10px] sm:text-xs font-medium items-center gap-1 hidden sm:flex ${
-                      isDarkMode ? "text-dark-400" : "text-gray-500"
-                    }`}
-                  >
-                    <HiOutlineClock className="w-3 h-3" />
-                    {Math.floor(attempt.time_elapsed / 60)}:
-                    {(attempt.time_elapsed % 60).toString().padStart(2, "0")}
-                  </span>
+                  <div className="text-right hidden sm:block">
+                    <div
+                      className={`text-[10px] sm:text-xs font-medium items-center justify-end gap-1 flex ${
+                        isDarkMode ? "text-dark-400" : "text-gray-500"
+                      }`}
+                    >
+                      <HiOutlineClock className="w-3 h-3" />
+                      {Math.floor(attempt.time_elapsed / 60)}:
+                      {(attempt.time_elapsed % 60).toString().padStart(2, "0")}
+                    </div>
+                    {attempt.timer_mode === "count_down" && (
+                      <div
+                        className={`text-[10px] sm:text-xs ${
+                          isDarkMode ? "text-dark-500" : "text-gray-400"
+                        }`}
+                      >
+                        {attempt.timer_duration_minutes}m countdown
+                      </div>
+                    )}
+                  </div>
                 </div>
               </div>
             );

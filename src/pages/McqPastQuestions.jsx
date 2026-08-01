@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useTheme } from "../context/ThemeContext";
 import mcqQuestions from "../data/mcqQuestions";
 import { useQuizAttempts } from "../features/mcq/useQuizAttempts";
+import { getCompleteExamSessions, getCompleteExamYears } from "../features/mcq/examUtils";
 import {
   HiOutlineDocumentArrowDown,
   HiOutlineDocumentText,
@@ -84,7 +85,25 @@ const COURSE_COLORS = {
     badge: "bg-purple-100 text-purple-700",
     badgeDark: "bg-purple-500/20 text-purple-400",
   },
+  "Corporate Law": {
+    key: "purple",
+    dot: "bg-purple-500",
+    bg: "bg-purple-500/10",
+    border: "border-purple-500/30",
+    text: "text-purple-500",
+    badge: "bg-purple-100 text-purple-700",
+    badgeDark: "bg-purple-500/20 text-purple-400",
+  },
   "Property Law Practice": {
+    key: "emerald",
+    dot: "bg-emerald-500",
+    bg: "bg-emerald-500/10",
+    border: "border-emerald-500/30",
+    text: "text-emerald-500",
+    badge: "bg-emerald-100 text-emerald-700",
+    badgeDark: "bg-emerald-500/20 text-emerald-400",
+  },
+  "Property Law": {
     key: "emerald",
     dot: "bg-emerald-500",
     bg: "bg-emerald-500/10",
@@ -104,8 +123,14 @@ const COURSE_COLORS = {
   },
 };
 
+const normalizeCourseName = (name) => {
+  if (name === "Corporate Law") return "Corporate Law Practice";
+  if (name === "Property Law") return "Property Law Practice";
+  return name;
+};
+
 const getColor = (name) =>
-  COURSE_COLORS[name] || {
+  COURSE_COLORS[normalizeCourseName(name)] || {
     key: "primary",
     dot: "bg-primary-500",
     bg: "bg-primary-500/10",
@@ -144,6 +169,8 @@ function McqPastQuestions() {
   const [selectedCourse, setSelectedCourse] = useState("all");
   const [collapsedYears, setCollapsedYears] = useState({});
   const [showDownloads, setShowDownloads] = useState(false);
+  const [showExamStyled, setShowExamStyled] = useState(false);
+  const [expandedExamYears, setExpandedExamYears] = useState({});
 
   // Derive all quiz data
   const allQuizzes = useMemo(
@@ -152,7 +179,8 @@ function McqPastQuestions() {
         session.courses.map((course) => ({
           sessionId,
           courseId: course.id,
-          courseName: course.name,
+          courseName: normalizeCourseName(course.name),
+          rawCourseName: course.name,
           year: session.year,
           session: session.session,
           examTitle: session.examTitle,
@@ -169,7 +197,7 @@ function McqPastQuestions() {
   );
 
   const courseNames = useMemo(
-    () => [...new Set(allQuizzes.map((q) => q.courseName))],
+    () => [...new Set(allQuizzes.map((q) => normalizeCourseName(q.courseName)))],
     [allQuizzes]
   );
 
@@ -179,10 +207,10 @@ function McqPastQuestions() {
       const matchesYear =
         selectedYear === "all" || q.year === Number(selectedYear);
       const matchesCourse =
-        selectedCourse === "all" || q.courseName === selectedCourse;
+        selectedCourse === "all" || normalizeCourseName(q.courseName) === selectedCourse;
       const matchesSearch =
         !searchQuery ||
-        q.courseName.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        normalizeCourseName(q.courseName).toLowerCase().includes(searchQuery.toLowerCase()) ||
         q.year.toString().includes(searchQuery) ||
         q.session.toLowerCase().includes(searchQuery.toLowerCase());
       return matchesYear && matchesCourse && matchesSearch;
@@ -236,6 +264,19 @@ function McqPastQuestions() {
     (sum, q) => sum + q.questionsCount,
     0
   );
+  const examSessions = useMemo(() => getCompleteExamSessions(mcqQuestions), []);
+  const examYears = useMemo(() => getCompleteExamYears(mcqQuestions), []);
+  const examSessionsByYear = useMemo(() => {
+    return examSessions.reduce((acc, session) => {
+      if (!acc[session.year]) acc[session.year] = [];
+      acc[session.year].push(session);
+      return acc;
+    }, {});
+  }, [examSessions]);
+
+  const toggleExamYear = (year) => {
+    setExpandedExamYears((prev) => ({ ...prev, [year]: !prev[year] }));
+  };
 
   return (
     <div className="px-3 sm:px-6 py-5 sm:py-6 max-w-5xl mx-auto">
@@ -265,6 +306,118 @@ function McqPastQuestions() {
             <HiOutlineChartBarSquare className="w-4 h-4" />
             View Performance Dashboard
           </button>
+        )}
+      </div>
+
+      {/* ========== EXAM STYLED ENTRY ========== */}
+      <div
+        className={`rounded-xl border p-3 sm:p-4 mb-5 sm:mb-6 ${
+          isDarkMode
+            ? "bg-dark-800/30 border-dark-700"
+            : "bg-white border-gray-200"
+        }`}
+      >
+        <button
+          onClick={() => setShowExamStyled((prev) => !prev)}
+          className="w-full flex items-center justify-between gap-3 text-left"
+        >
+          <div className="flex items-center gap-2.5 sm:gap-3 min-w-0">
+            <div className="p-2 rounded-xl bg-primary-500/20 flex-shrink-0">
+              <HiOutlineTrophy className="w-5 h-5 text-primary-500" />
+            </div>
+            <div className="min-w-0">
+              <p className={`text-[10px] sm:text-xs font-semibold uppercase tracking-wide ${isDarkMode ? "text-dark-500" : "text-gray-500"}`}>
+                Exam Styled MCQ
+              </p>
+              <h2 className={`text-base sm:text-lg font-bold ${isDarkMode ? "text-white" : "text-gray-900"}`}>
+                One-day 5-course exam mode
+              </h2>
+            </div>
+          </div>
+          <HiOutlineChevronDown
+            className={`w-5 h-5 flex-shrink-0 transition-transform ${
+              showExamStyled ? "rotate-180" : ""
+            } ${isDarkMode ? "text-dark-400" : "text-gray-400"}`}
+          />
+        </button>
+
+        {showExamStyled && (
+          <div className="mt-4 space-y-3">
+            <p className={`text-xs sm:text-sm ${isDarkMode ? "text-dark-400" : "text-gray-500"}`}>
+              Choose a year that has all 5 courses available, then open the exact exam session you want to practice.
+            </p>
+
+            <div className="flex flex-wrap gap-2">
+              {examYears.map((year) => {
+                const isExpanded = expandedExamYears[year];
+                return (
+                  <button
+                    key={year}
+                    onClick={() => toggleExamYear(year)}
+                    className={`px-3 py-1.5 rounded-full text-xs sm:text-sm font-semibold transition-colors ${
+                      isExpanded
+                        ? "bg-primary-500 text-white"
+                        : isDarkMode
+                        ? "bg-dark-700 text-dark-300 hover:bg-dark-600"
+                        : "bg-gray-100 text-gray-600 hover:bg-gray-200"
+                    }`}
+                  >
+                    {year}
+                  </button>
+                );
+              })}
+            </div>
+
+            <div className="space-y-2">
+              {examYears.map((year) => {
+                const isExpanded = expandedExamYears[year];
+                return (
+                  <div key={year} className={`rounded-xl border p-3 sm:p-4 ${isDarkMode ? "border-dark-700 bg-dark-800/30" : "border-gray-200 bg-gray-50"}`}>
+                    <button
+                      onClick={() => toggleExamYear(year)}
+                      className="w-full flex items-center justify-between gap-3 text-left"
+                    >
+                      <div>
+                        <p className={`text-sm sm:text-base font-bold ${isDarkMode ? "text-white" : "text-gray-900"}`}>
+                          {year}
+                        </p>
+                        <p className={`text-[10px] sm:text-xs ${isDarkMode ? "text-dark-500" : "text-gray-500"}`}>
+                          {examSessionsByYear[year]?.length || 0} exam session{(examSessionsByYear[year]?.length || 0) !== 1 ? "s" : ""}
+                        </p>
+                      </div>
+                      <HiOutlineChevronDown className={`w-4 h-4 transition-transform ${isExpanded ? "rotate-180" : ""} ${isDarkMode ? "text-dark-400" : "text-gray-400"}`} />
+                    </button>
+
+                    {isExpanded && (
+                      <div className="mt-3 grid gap-2 sm:grid-cols-2">
+                        {(examSessionsByYear[year] || []).map((session) => (
+                          <button
+                            key={session.sessionId}
+                            onClick={() => navigate(`/mcq-past-questions/exam/${session.sessionId}`)}
+                            className={`flex items-center justify-between rounded-xl border px-3 py-3 text-left transition-all hover:scale-[1.01] active:scale-[0.99] ${
+                              isDarkMode
+                                ? "border-dark-700 bg-dark-800/60 hover:border-dark-600"
+                                : "border-gray-200 bg-white hover:border-gray-300"
+                            }`}
+                          >
+                            <div>
+                              <p className={`text-sm font-semibold ${isDarkMode ? "text-white" : "text-gray-900"}`}>
+                                {session.session} {session.year}
+                              </p>
+                              <p className={`text-[10px] sm:text-xs ${isDarkMode ? "text-dark-500" : "text-gray-500"}`}>
+                                {session.totalQuestions} questions · 5 courses
+                              </p>
+                            </div>
+                            <HiOutlinePlayCircle className="w-5 h-5 text-primary-500 flex-shrink-0" />
+                          </button>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </div>
         )}
       </div>
 
