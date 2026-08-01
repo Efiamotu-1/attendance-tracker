@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback, useRef, useMemo } from "react"
 import { useParams, useNavigate } from "react-router-dom";
 import { useTheme } from "../context/ThemeContext";
 import mcqQuestions from "../data/mcqQuestions";
+import topicQuizzes from "../data/topicQuizzes";
 import { useSaveQuizAttempt } from "../features/mcq/useSaveQuizAttempt";
 import { useQuizAttempts } from "../features/mcq/useQuizAttempts";
 import QuizTimerSettings from "../features/mcq/QuizTimerSettings";
@@ -19,10 +20,11 @@ import {
 } from "react-icons/hi2";
 
 function McqQuiz() {
-  const { sessionId, courseId } = useParams();
+  const { sessionId, courseId, courseSlug, topicId } = useParams();
   const navigate = useNavigate();
   const { isDarkMode } = useTheme();
-  const isExamMode = !courseId;
+  const isTopicMode = !!(courseSlug && topicId);
+  const isExamMode = !isTopicMode && !courseId;
 
   // Quiz state
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -44,27 +46,46 @@ function McqQuiz() {
   const { saveAttempt } = useSaveQuizAttempt();
   const { attempts: allAttempts } = useQuizAttempts();
 
-  // Find the course data
-  const session = mcqQuestions[sessionId];
-  const course = session?.courses?.find((c) => c.id === courseId);
+  // Find the topic-quiz data (topic mode) or the past-question session/course data
+  const topicCourse = isTopicMode ? topicQuizzes[courseSlug] : null;
+  const topic = topicCourse?.topics?.find((t) => t.id === topicId);
+
+  const pastSession = !isTopicMode ? mcqQuestions[sessionId] : null;
+  const pastCourse = pastSession?.courses?.find((c) => c.id === courseId);
+
+  // Normalise both data sources into the same shape the rest of the component expects.
+  // year/session must be non-null: quiz_attempts.year and .session are NOT NULL columns.
+  const session = isTopicMode
+    ? topic
+      ? {
+          year: new Date().getFullYear(),
+          session: "Topic Quiz",
+          examTitle: topicCourse.courseName,
+          courses: null,
+        }
+      : null
+    : pastSession;
+  const course = isTopicMode ? topic : pastCourse;
+  const effectiveId = isTopicMode ? topicId : sessionId;
 
   // Previous attempts for THIS specific quiz
   const previousAttempts = useMemo(() => {
-    if (!allAttempts || !sessionId) return [];
+    if (!allAttempts || !effectiveId) return [];
     return allAttempts
       .filter((a) => {
         const quizMode = a.quiz_mode ?? "course";
         if (isExamMode) {
-          return a.session_id === sessionId && quizMode === "exam_styled";
+          return a.session_id === effectiveId && quizMode === "exam_styled";
         }
 
-        return a.session_id === sessionId && a.course_id === courseId && quizMode !== "exam_styled";
+        return a.session_id === effectiveId && a.course_id === (isTopicMode ? topicId : courseId) && quizMode !== "exam_styled";
       })
       .sort((a, b) => new Date(a.completed_at) - new Date(b.completed_at));
-  }, [allAttempts, sessionId, courseId, isExamMode]);
+  }, [allAttempts, effectiveId, courseId, topicId, isTopicMode, isExamMode]);
 
   const questions = useMemo(() => {
     if (!session) return [];
+    if (isTopicMode) return course?.questions ?? [];
     if (!isExamMode) return course?.questions ?? [];
 
     return session.courses.flatMap((courseItem) =>
@@ -75,7 +96,7 @@ function McqQuiz() {
         questionKey: isExamMode ? `${courseItem.id}-${question.id}` : `${question.id}`,
       }))
     );
-  }, [session, course, isExamMode]);
+  }, [session, course, isExamMode, isTopicMode]);
   const question = questions[currentQuestion];
   const totalQuestions = questions.length;
   const answeredCount = Object.keys(selectedAnswers).length;
@@ -119,12 +140,16 @@ function McqQuiz() {
       const results = calculateResults();
       saveAttempt(
         {
-          sessionId,
-          courseId: isExamMode ? `exam-${sessionId}` : course.id,
-          courseName: isExamMode ? "Exam Styled MCQ" : course.name,
+          sessionId: effectiveId,
+          courseId: isExamMode ? `exam-${effectiveId}` : course.id,
+          courseName: isExamMode
+            ? "Exam Styled MCQ"
+            : isTopicMode
+            ? topicCourse.courseName
+            : course.name,
           year: session.year,
           session: session.session,
-          quizMode: isExamMode ? "exam_styled" : "course",
+          quizMode: isExamMode ? "exam_styled" : isTopicMode ? "topic" : "course",
           score: results.correct,
           totalQuestions: questions.length,
           percentage: results.percentage,
@@ -141,7 +166,7 @@ function McqQuiz() {
         }
       );
     }
-  }, [calculateResults, course, elapsedTime, isExamMode, questions.length, saveAttempt, session, sessionId, timerSettings.durationMinutes, timerSettings.mode]);
+  }, [calculateResults, course, elapsedTime, isExamMode, isTopicMode, topicCourse, questions.length, saveAttempt, session, effectiveId, timerSettings.durationMinutes, timerSettings.mode]);
 
   // Timer
   useEffect(() => {
@@ -265,7 +290,9 @@ function McqQuiz() {
               isDarkMode ? "text-dark-400" : "text-gray-500"
             }`}
           >
-            {isExamMode
+            {isTopicMode
+              ? `${session.examTitle} — ${topic.sourceRef ?? "Topic Quiz"}`
+              : isExamMode
               ? `${session.examTitle} — ${session.session} ${session.year} • ${session.courses.length} courses`
               : `${session.examTitle} — ${session.session} ${session.year}`}
           </p>
@@ -483,7 +510,9 @@ function McqQuiz() {
               isDarkMode ? "text-dark-400" : "text-gray-500"
             }`}
           >
-            {isExamMode
+            {isTopicMode
+              ? `${course.name} — ${session.examTitle}`
+              : isExamMode
               ? `Exam Styled MCQ — ${session.session} ${session.year}`
               : `${course.name} — ${session.session} ${session.year}`}
           </p>

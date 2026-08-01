@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e ' *)",
+      "Bash(awk 'NR>=3053 && NR<=3798' /Users/habeebefiamotumusa/MINE/attendance-tracker/src/data/topicQuizzes.js)"
+    ]
+  }
+}

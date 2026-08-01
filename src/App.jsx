@@ -53,6 +53,7 @@ function App() {
               <Route path="mcq-past-questions" element={<McqPastQuestions />} />
               <Route path="mcq-past-questions/exam/:sessionId" element={<McqQuiz />} />
               <Route path="mcq-past-questions/:sessionId/:courseId" element={<McqQuiz />} />
+              <Route path="mcq-topic-quiz/:courseSlug/:topicId" element={<McqQuiz />} />
               <Route path="mcq-performance" element={<McqPerformance />} />
               <Route path="feedback" element={<Feedback />} />
             </Route>

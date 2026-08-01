@@ -2,6 +2,7 @@ import React, { useState, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
 import { useTheme } from "../context/ThemeContext";
 import mcqQuestions from "../data/mcqQuestions";
+import topicQuizzes from "../data/topicQuizzes";
 import { useQuizAttempts } from "../features/mcq/useQuizAttempts";
 import { getCompleteExamSessions, getCompleteExamYears } from "../features/mcq/examUtils";
 import {
@@ -18,6 +19,7 @@ import {
   HiOutlineChevronUp,
   HiOutlineChartBarSquare,
   HiOutlineTrophy,
+  HiOutlineBookOpen,
 } from "react-icons/hi2";
 
 // Downloadable files
@@ -171,6 +173,8 @@ function McqPastQuestions() {
   const [showDownloads, setShowDownloads] = useState(false);
   const [showExamStyled, setShowExamStyled] = useState(false);
   const [expandedExamYears, setExpandedExamYears] = useState({});
+  const [showTopicQuiz, setShowTopicQuiz] = useState(false);
+  const [expandedTopicCourses, setExpandedTopicCourses] = useState({});
 
   // Derive all quiz data
   const allQuizzes = useMemo(
@@ -276,6 +280,15 @@ function McqPastQuestions() {
 
   const toggleExamYear = (year) => {
     setExpandedExamYears((prev) => ({ ...prev, [year]: !prev[year] }));
+  };
+
+  const topicQuizCourses = useMemo(
+    () => Object.entries(topicQuizzes).map(([slug, data]) => ({ slug, ...data })),
+    []
+  );
+
+  const toggleTopicCourse = (slug) => {
+    setExpandedTopicCourses((prev) => ({ ...prev, [slug]: !prev[slug] }));
   };
 
   return (
@@ -411,6 +424,119 @@ function McqPastQuestions() {
                             <HiOutlinePlayCircle className="w-5 h-5 text-primary-500 flex-shrink-0" />
                           </button>
                         ))}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        )}
+      </div>
+
+      {/* ========== TOPIC QUIZ ENTRY ========== */}
+      <div
+        className={`rounded-xl border p-3 sm:p-4 mb-5 sm:mb-6 ${
+          isDarkMode
+            ? "bg-dark-800/30 border-dark-700"
+            : "bg-white border-gray-200"
+        }`}
+      >
+        <button
+          onClick={() => setShowTopicQuiz((prev) => !prev)}
+          className="w-full flex items-center justify-between gap-3 text-left"
+        >
+          <div className="flex items-center gap-2.5 sm:gap-3 min-w-0">
+            <div className="p-2 rounded-xl bg-primary-500/20 flex-shrink-0">
+              <HiOutlineBookOpen className="w-5 h-5 text-primary-500" />
+            </div>
+            <div className="min-w-0">
+              <p className={`text-[10px] sm:text-xs font-semibold uppercase tracking-wide ${isDarkMode ? "text-dark-500" : "text-gray-500"}`}>
+                Topic Quiz
+              </p>
+              <h2 className={`text-base sm:text-lg font-bold ${isDarkMode ? "text-white" : "text-gray-900"}`}>
+                Practice by syllabus topic
+              </h2>
+            </div>
+          </div>
+          <HiOutlineChevronDown
+            className={`w-5 h-5 flex-shrink-0 transition-transform ${
+              showTopicQuiz ? "rotate-180" : ""
+            } ${isDarkMode ? "text-dark-400" : "text-gray-400"}`}
+          />
+        </button>
+
+        {showTopicQuiz && (
+          <div className="mt-4 space-y-3">
+            <p className={`text-xs sm:text-sm ${isDarkMode ? "text-dark-400" : "text-gray-500"}`}>
+              Original questions built from course topics — not from any past exam paper. Pick a course, then a topic.
+            </p>
+
+            <div className="space-y-2">
+              {topicQuizCourses.map(({ slug, courseName, topics }) => {
+                const isExpanded = expandedTopicCourses[slug];
+                return (
+                  <div key={slug} className={`rounded-xl border p-3 sm:p-4 ${isDarkMode ? "border-dark-700 bg-dark-800/30" : "border-gray-200 bg-gray-50"}`}>
+                    <button
+                      onClick={() => toggleTopicCourse(slug)}
+                      className="w-full flex items-center justify-between gap-3 text-left"
+                    >
+                      <div>
+                        <p className={`text-sm sm:text-base font-bold ${isDarkMode ? "text-white" : "text-gray-900"}`}>
+                          {courseName}
+                        </p>
+                        <p className={`text-[10px] sm:text-xs ${isDarkMode ? "text-dark-500" : "text-gray-500"}`}>
+                          {topics.length} topic{topics.length !== 1 ? "s" : ""}
+                        </p>
+                      </div>
+                      <HiOutlineChevronDown className={`w-4 h-4 transition-transform ${isExpanded ? "rotate-180" : ""} ${isDarkMode ? "text-dark-400" : "text-gray-400"}`} />
+                    </button>
+
+                    {isExpanded && (
+                      <div className="mt-3 grid gap-2 sm:grid-cols-2">
+                        {topics.map((topic) => {
+                          const stats = getQuizStats(topic.id, topic.id);
+                          return (
+                            <button
+                              key={topic.id}
+                              onClick={() => navigate(`/mcq-topic-quiz/${slug}/${topic.id}`)}
+                              className={`flex items-center justify-between rounded-xl border px-3 py-3 text-left transition-all hover:scale-[1.01] active:scale-[0.99] ${
+                                isDarkMode
+                                  ? "border-dark-700 bg-dark-800/60 hover:border-dark-600"
+                                  : "border-gray-200 bg-white hover:border-gray-300"
+                              }`}
+                            >
+                              <div className="min-w-0">
+                                <p className={`text-sm font-semibold ${isDarkMode ? "text-white" : "text-gray-900"}`}>
+                                  {topic.name}
+                                </p>
+                                <div className="flex items-center gap-2 mt-1 flex-wrap">
+                                  <p className={`text-[10px] sm:text-xs ${isDarkMode ? "text-dark-500" : "text-gray-500"}`}>
+                                    {topic.questionsCount} questions
+                                  </p>
+                                  {stats && (
+                                    <>
+                                      <span
+                                        className={`inline-flex items-center gap-1 text-[10px] sm:text-xs font-bold px-2 py-0.5 rounded-full ${
+                                          isDarkMode
+                                            ? "bg-primary-500/20 text-primary-400"
+                                            : "bg-primary-100 text-primary-700"
+                                        }`}
+                                      >
+                                        <HiOutlineTrophy className="w-3 h-3" />
+                                        Best: {stats.best}%
+                                      </span>
+                                      <span className={`text-[10px] sm:text-xs ${isDarkMode ? "text-dark-500" : "text-gray-400"}`}>
+                                        {stats.attempts} attempt{stats.attempts !== 1 ? "s" : ""}
+                                      </span>
+                                    </>
+                                  )}
+                                </div>
+                              </div>
+                              <HiOutlinePlayCircle className="w-5 h-5 text-primary-500 flex-shrink-0" />
+                            </button>
+                          );
+                        })}
                       </div>
                     )}
                   </div>
