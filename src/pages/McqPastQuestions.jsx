@@ -330,7 +330,7 @@ function McqPastQuestions() {
                 Exam Styled MCQ
               </p>
               <h2 className={`text-base sm:text-lg font-bold ${isDarkMode ? "text-white" : "text-gray-900"}`}>
-                One-day 5-course exam mode
+                5 course exam mode
               </h2>
             </div>
           </div>

@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Root-level PQ/ANS PDFs
+/Civil_PQ_&_ANS.pdf
+/Criminal_PQ_&_ANS.pdf
+/Corporate_PQ_&_ANS.pdf
+/property_PQ_&_ANS.pdf
+/Professional_Ethics_PQ_&_ANS.pdf
