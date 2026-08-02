@@ -1,9 +1,23 @@
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import LoginForm from "../features/authentication/LoginForm";
 import { HiAcademicCap } from "react-icons/hi2";
+import { getUsersCount } from "../services/apiAuth";
+import mcqQuestions from "../data/mcqQuestions";
+
+const EXAM_SESSIONS_COUNT = Object.keys(mcqQuestions).length;
+const TOTAL_MCQ_QUESTIONS = Object.values(mcqQuestions).reduce(
+  (sum, session) => sum + (session.totalQuestions || 0),
+  0
+);
 
 function Login() {
   const navigate = useNavigate();
+  const [usersCount, setUsersCount] = useState(null);
+
+  useEffect(() => {
+    getUsersCount().then(({ count }) => setUsersCount(count));
+  }, []);
   
   return (
     <div className="min-h-screen flex" style={{ backgroundColor: '#0a0f1a' }}>
@@ -71,16 +85,18 @@ function Login() {
           {/* Stats */}
           <div className="flex gap-8 mt-12">
             <div>
-              <p className="text-3xl font-bold" style={{ color: '#ffffff' }}>98%</p>
-              <p className="text-sm" style={{ color: '#64748b' }}>Success Rate</p>
-            </div>
-            <div>
-              <p className="text-3xl font-bold" style={{ color: '#ffffff' }}>1000+</p>
+              <p className="text-3xl font-bold" style={{ color: '#ffffff' }}>
+                {usersCount === null ? '—' : `${usersCount}+`}
+              </p>
               <p className="text-sm" style={{ color: '#64748b' }}>Active Users</p>
             </div>
             <div>
-              <p className="text-3xl font-bold" style={{ color: '#ffffff' }}>50+</p>
-              <p className="text-sm" style={{ color: '#64748b' }}>Institutions</p>
+              <p className="text-3xl font-bold" style={{ color: '#ffffff' }}>{EXAM_SESSIONS_COUNT}</p>
+              <p className="text-sm" style={{ color: '#64748b' }}>Exam Sessions</p>
+            </div>
+            <div>
+              <p className="text-3xl font-bold" style={{ color: '#ffffff' }}>{TOTAL_MCQ_QUESTIONS}+</p>
+              <p className="text-sm" style={{ color: '#64748b' }}>MCQ Questions</p>
             </div>
           </div>
         </div>
