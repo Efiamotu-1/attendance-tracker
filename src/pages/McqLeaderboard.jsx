@@ -195,7 +195,7 @@ function McqLeaderboard() {
                         {entry.best_score}/{entry.best_total_questions}
                       </p>
                     </div>
-                    <div className="text-right hidden xs:block">
+                    <div className="text-right">
                       <div
                         className={`text-[10px] sm:text-xs font-medium flex items-center justify-end gap-1 ${
                           isDarkMode ? "text-dark-400" : "text-gray-500"

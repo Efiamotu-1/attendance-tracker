@@ -294,27 +294,29 @@ function McqPastQuestions() {
   return (
     <div className="px-3 sm:px-6 py-5 sm:py-6 max-w-5xl mx-auto">
       {/* ========== HEADER ========== */}
-      <div className="mb-5 sm:mb-8">
-        <div className="flex items-center gap-2.5 sm:gap-3 mb-2">
-          <div className="p-1.5 sm:p-2 bg-primary-500/20 rounded-xl">
-            <HiOutlineAcademicCap className="w-6 h-6 sm:w-7 sm:h-7 text-primary-500" />
+      <div className="mb-5 sm:mb-8 flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3">
+        <div>
+          <div className="flex items-center gap-2.5 sm:gap-3 mb-2">
+            <div className="p-1.5 sm:p-2 bg-primary-500/20 rounded-xl">
+              <HiOutlineAcademicCap className="w-6 h-6 sm:w-7 sm:h-7 text-primary-500" />
+            </div>
+            <h1 className="text-xl sm:text-3xl font-bold text-primary-500">
+              MCQ Past Questions
+            </h1>
           </div>
-          <h1 className="text-xl sm:text-3xl font-bold text-primary-500">
-            MCQ Past Questions
-          </h1>
+          <p
+            className={`text-xs sm:text-sm mt-1 ${
+              isDarkMode ? "text-dark-400" : "text-gray-500"
+            }`}
+          >
+            Practice with past Bar Finals MCQ questions. Select a year and course
+            to start a timed quiz.
+          </p>
         </div>
-        <p
-          className={`text-xs sm:text-sm mt-1 ${
-            isDarkMode ? "text-dark-400" : "text-gray-500"
-          }`}
-        >
-          Practice with past Bar Finals MCQ questions. Select a year and course
-          to start a timed quiz.
-        </p>
         {allAttempts && allAttempts.length > 0 && (
           <button
             onClick={() => navigate("/mcq-performance")}
-            className="mt-3 inline-flex items-center gap-2 px-4 py-2.5 bg-primary-500 hover:bg-primary-600 active:bg-primary-700 text-white rounded-xl text-sm font-semibold transition-all hover:shadow-lg active:scale-95 w-full sm:w-auto justify-center"
+            className="inline-flex items-center gap-2 px-4 py-2.5 bg-primary-500 hover:bg-primary-600 active:bg-primary-700 text-white rounded-xl text-sm font-semibold transition-all hover:shadow-lg active:scale-95 w-full sm:w-auto justify-center flex-shrink-0"
           >
             <HiOutlineChartBarSquare className="w-4 h-4" />
             View Performance Dashboard
@@ -322,9 +324,11 @@ function McqPastQuestions() {
         )}
       </div>
 
+      {/* ========== EXAM STYLED + TOPIC QUIZ ENTRIES ========== */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 mb-5 sm:mb-6 items-start">
       {/* ========== EXAM STYLED ENTRY ========== */}
       <div
-        className={`rounded-xl border p-3 sm:p-4 mb-5 sm:mb-6 ${
+        className={`rounded-xl border p-3 sm:p-4 ${
           isDarkMode
             ? "bg-dark-800/30 border-dark-700"
             : "bg-white border-gray-200"
@@ -436,7 +440,7 @@ function McqPastQuestions() {
 
       {/* ========== TOPIC QUIZ ENTRY ========== */}
       <div
-        className={`rounded-xl border p-3 sm:p-4 mb-5 sm:mb-6 ${
+        className={`rounded-xl border p-3 sm:p-4 ${
           isDarkMode
             ? "bg-dark-800/30 border-dark-700"
             : "bg-white border-gray-200"
@@ -493,7 +497,7 @@ function McqPastQuestions() {
                     </button>
 
                     {isExpanded && (
-                      <div className="mt-3 grid gap-2 sm:grid-cols-2">
+                      <div className="mt-3 grid gap-2 grid-cols-1 max-h-[420px] overflow-y-auto pr-1">
                         {topics.map((topic) => {
                           const stats = getQuizStats(topic.id, topic.id);
                           return (
@@ -545,6 +549,7 @@ function McqPastQuestions() {
             </div>
           </div>
         )}
+      </div>
       </div>
 
       {/* ========== STATS BANNER ========== */}
