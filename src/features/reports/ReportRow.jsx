@@ -2,24 +2,36 @@ import { HiCheck, HiXMark } from "react-icons/hi2";
 import { useTheme } from "../../context/ThemeContext";
 
 function ReportRow({ report, courses }) {
-  const { course_id, class_held, class_attended, class_date } = report;
+  const { course_id, class_held, class_attended, class_date, created_at } = report;
   const { isDarkMode } = useTheme();
-  
+
   const course = courses?.find(course => course.id === course_id);
-  
+
   if (!course) return null;
 
   const formatDate = (dateStr) => {
     const date = new Date(dateStr);
-    return date.toLocaleDateString('en-US', { 
-      month: 'short', 
+    return date.toLocaleDateString('en-US', {
+      month: 'short',
       day: 'numeric',
       year: 'numeric'
     });
   };
 
+  const formatTimestamp = (dateStr) => {
+    if (!dateStr) return '—';
+    const date = new Date(dateStr);
+    return date.toLocaleString('en-US', {
+      month: 'short',
+      day: 'numeric',
+      year: 'numeric',
+      hour: 'numeric',
+      minute: '2-digit',
+    });
+  };
+
   return (
-    <div role="row" className={`grid grid-cols-4 gap-4 px-6 py-4 items-center transition-colors ${
+    <div role="row" className={`grid grid-cols-5 gap-4 px-6 py-4 items-center transition-colors ${
       isDarkMode ? 'hover:bg-dark-700/30' : 'hover:bg-gray-50'
     }`}>
       <div className="flex items-center gap-3">
@@ -57,6 +69,10 @@ function ReportRow({ report, courses }) {
             <HiXMark className="w-4 h-4 text-red-500" />
           </div>
         )}
+      </div>
+
+      <div className={`text-center text-xs ${isDarkMode ? 'text-dark-400' : 'text-gray-500'}`}>
+        {formatTimestamp(created_at)}
       </div>
     </div>
   );

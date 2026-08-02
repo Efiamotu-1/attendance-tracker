@@ -29,17 +29,18 @@ function ReportTable({ courses }) {
     }`}>
       {/* Scrollable wrapper for mobile */}
       <div className="overflow-x-auto">
-        <div style={{ minWidth: '600px' }}>
+        <div style={{ minWidth: '750px' }}>
           {/* Table Header */}
-          <div className={`grid grid-cols-4 gap-4 px-6 py-4 border-b ${
-            isDarkMode 
-              ? 'bg-dark-800 border-dark-700' 
+          <div className={`grid grid-cols-5 gap-4 px-6 py-4 border-b ${
+            isDarkMode
+              ? 'bg-dark-800 border-dark-700'
               : 'bg-gray-50 border-gray-200'
           }`}>
             <div className={`text-xs font-semibold uppercase tracking-wider ${isDarkMode ? 'text-dark-400' : 'text-gray-500'}`}>Course</div>
             <div className={`text-xs font-semibold uppercase tracking-wider text-center ${isDarkMode ? 'text-dark-400' : 'text-gray-500'}`}>Date</div>
             <div className={`text-xs font-semibold uppercase tracking-wider text-center ${isDarkMode ? 'text-dark-400' : 'text-gray-500'}`}>Class Held</div>
             <div className={`text-xs font-semibold uppercase tracking-wider text-center ${isDarkMode ? 'text-dark-400' : 'text-gray-500'}`}>Attended</div>
+            <div className={`text-xs font-semibold uppercase tracking-wider text-center ${isDarkMode ? 'text-dark-400' : 'text-gray-500'}`}>Submitted At</div>
           </div>
           
           {/* Table Body */}

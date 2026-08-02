@@ -11,6 +11,7 @@ import {
   HiOutlineTrophy,
   HiOutlineClock,
 } from "react-icons/hi2";
+import { GiCrown } from "react-icons/gi";
 
 function McqLeaderboard() {
   const { isDarkMode } = useTheme();
@@ -43,7 +44,7 @@ function McqLeaderboard() {
           </div>
           <div>
             <h1 className="text-xl sm:text-2xl font-bold text-primary-500">
-              Exam Leaderboard
+              Leaderboard
             </h1>
             <p
               className={`text-xs sm:text-sm ${
@@ -119,6 +120,12 @@ function McqLeaderboard() {
                   : isDarkMode
                   ? "text-dark-400"
                   : "text-gray-400";
+              const medalBg =
+                entry.rank === 1
+                  ? "bg-yellow-500/20"
+                  : entry.rank === 2
+                  ? "bg-gray-400/20"
+                  : "bg-amber-600/20";
 
               return (
                 <div
@@ -137,13 +144,17 @@ function McqLeaderboard() {
                     <span
                       className={`w-6 h-6 sm:w-7 sm:h-7 rounded-full flex items-center justify-center text-xs sm:text-sm font-bold flex-shrink-0 ${
                         isTopThree
-                          ? "bg-yellow-500/20"
+                          ? medalBg
                           : isDarkMode
                           ? "bg-dark-700"
                           : "bg-gray-200"
                       } ${medalColor}`}
                     >
-                      {entry.rank}
+                      {isTopThree ? (
+                        <GiCrown className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+                      ) : (
+                        entry.rank
+                      )}
                     </span>
                     <div className="min-w-0">
                       <p

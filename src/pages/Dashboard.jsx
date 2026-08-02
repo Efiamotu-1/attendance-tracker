@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useMemo, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { 
   HiOutlineBookOpen, 
@@ -10,13 +10,15 @@ import {
   HiOutlineChartBar,
   HiOutlineArrowRight,
   HiOutlinePlayCircle,
-  HiOutlineTrophy
+  HiOutlineTrophy,
+  HiOutlineCalendarDays
 } from 'react-icons/hi2'
 import { supabase } from '../services/supabase'
 import { useCourses } from '../features/courses/useCourses'
 import { useReports } from '../features/reports/useReports'
 import { useTheme } from '../context/ThemeContext'
 import LineGraph from '../ui/LineGraph'
+import DatePicker from '../ui/DatePicker'
 
 function Dashboard() {
   const [userName, setUserName] = useState('')
@@ -38,6 +40,117 @@ function Dashboard() {
   const totalCourses = courses?.length || 0
   const totalReports = reports?.length || 0
   const coursesAtRisk = courses?.filter(c => (c.percentage || 0) < 75).length || 0
+
+  // Law school's official attendance policy: percentage is based on days
+  // attended (only one class holds per day), not per-course.
+  // School term: Mar 16 - May 14 2026, Mon-Fri only.
+  const TERM_WEEKS = 15
+  const DAYS_PER_WEEK = 5
+  const TERM_TARGET_DAYS = TERM_WEEKS * DAYS_PER_WEEK // 75
+  const PASS_THRESHOLD = 0.7
+  const DAYS_NEEDED_TO_PASS = Math.ceil(TERM_TARGET_DAYS * PASS_THRESHOLD) // 53
+
+  const dailyAttendance = useMemo(() => {
+    if (!reports) return null
+
+    const TERM_START = new Date('2026-03-16T00:00:00')
+    const TERM_END = new Date('2026-05-14T23:59:59')
+    const today = new Date()
+    const elapsedEnd = today < TERM_END ? today : TERM_END
+
+    // Every submitted report counts as its own entry, even if two reports
+    // share the same class_date (e.g. a missed day backfilled alongside
+    // the current day's report) — each is a distinct attendance record.
+    // Occasional Saturday makeup classes do happen, so the numerator
+    // counts any reported day within the term, not just Mon-Fri;
+    // the denominators below stay Mon-Fri since that's the baseline schedule.
+    const termReports = reports.filter((r) => {
+      const d = new Date(r.class_date)
+      if (d < TERM_START || d > TERM_END) return false
+      return true
+    })
+
+    const daysAttended = termReports.filter((r) => r.class_attended === 1)
+
+    // Count actual weekdays elapsed so far in the term (Mon-Fri only)
+    let weekdaysElapsed = 0
+    if (elapsedEnd >= TERM_START) {
+      const cursor = new Date(TERM_START)
+      while (cursor <= elapsedEnd) {
+        const day = cursor.getDay()
+        if (day !== 0 && day !== 6) weekdaysElapsed++
+        cursor.setDate(cursor.getDate() + 1)
+      }
+    }
+
+    // So far: attended vs. weekdays that have actually elapsed in the term
+    const actualPercentage = weekdaysElapsed > 0
+      ? Math.round((daysAttended.length / weekdaysElapsed) * 100)
+      : 0
+
+    // Term-wide: attended vs. fixed 15-week x 5-day target
+    const termPercentage = Math.round((daysAttended.length / TERM_TARGET_DAYS) * 100)
+
+    // Days still needed / days that can still be missed to hit the 70% pass mark
+    const remainingTermDays = TERM_TARGET_DAYS - weekdaysElapsed
+    const daysStillNeeded = Math.max(DAYS_NEEDED_TO_PASS - daysAttended.length, 0)
+    const maxMissesAllowed = Math.max(remainingTermDays - daysStillNeeded, 0)
+    const hasPassed = daysAttended.length >= DAYS_NEEDED_TO_PASS
+    const isPassStillPossible = daysStillNeeded <= remainingTermDays
+
+    return {
+      weekdaysElapsed,
+      daysAttended: daysAttended.length,
+      actualPercentage,
+      termPercentage,
+      termTargetDays: TERM_TARGET_DAYS,
+      daysNeededToPass: DAYS_NEEDED_TO_PASS,
+      daysStillNeeded,
+      maxMissesAllowed,
+      hasPassed,
+      isPassStillPossible,
+    }
+  }, [reports])
+
+  // Custom date range attendance — user-picked window, same Mon-Fri
+  // weekday-based methodology as the fixed Mar16-May14 calculation above.
+  const [useCustomRange, setUseCustomRange] = useState(false)
+  const [customRangeStart, setCustomRangeStart] = useState('')
+  const [customRangeEnd, setCustomRangeEnd] = useState('')
+
+  const customRangeAttendance = useMemo(() => {
+    if (!reports || !customRangeStart || !customRangeEnd) return null
+
+    const rangeStart = new Date(`${customRangeStart}T00:00:00`)
+    const rangeEnd = new Date(`${customRangeEnd}T23:59:59`)
+    if (rangeEnd < rangeStart) return null
+
+    const rangeReports = reports.filter((r) => {
+      const d = new Date(r.class_date)
+      return d >= rangeStart && d <= rangeEnd
+    })
+
+    const daysAttended = rangeReports.filter((r) => r.class_attended === 1)
+
+    // Weekdays (Mon-Fri) that fall within the picked range
+    let weekdaysInRange = 0
+    const cursor = new Date(rangeStart)
+    while (cursor <= rangeEnd) {
+      const day = cursor.getDay()
+      if (day !== 0 && day !== 6) weekdaysInRange++
+      cursor.setDate(cursor.getDate() + 1)
+    }
+
+    const percentage = weekdaysInRange > 0
+      ? Math.round((daysAttended.length / weekdaysInRange) * 100)
+      : 0
+
+    return {
+      weekdaysInRange,
+      daysAttended: daysAttended.length,
+      percentage,
+    }
+  }, [reports, customRangeStart, customRangeEnd])
 
   // Consider user 'new' when there is no data to show in the primary cards
   const isNewUser = !coursesLoading && !reportsLoading && totalCourses === 0 && totalReports === 0 && coursesAtRisk === 0
@@ -99,6 +212,155 @@ function Dashboard() {
           </p>
         </div>
       </div>
+
+      {/* Official Daily Attendance (Law School Policy) */}
+      {!isNewUser && dailyAttendance && dailyAttendance.daysAttended > 0 && (
+        <div className={`relative rounded-2xl border p-4 xs:p-5 md:p-6 ${
+          isDarkMode
+            ? 'bg-dark-800/50 border-dark-700'
+            : 'bg-white border-gray-200 shadow-sm'
+        }`}>
+          <div className='flex items-start gap-3 mb-5'>
+            <div className={`p-3 rounded-xl flex-shrink-0 ${
+              dailyAttendance.actualPercentage >= 75 ? 'bg-emerald-500/20' : 'bg-red-500/20'
+            }`}>
+              <HiOutlineCalendarDays className={`w-6 h-6 ${
+                dailyAttendance.actualPercentage >= 75 ? 'text-emerald-500' : 'text-red-500'
+              }`} />
+            </div>
+            <div>
+              <h2 className={`text-base md:text-lg font-semibold ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>
+                Overall Attendance
+              </h2>
+              <p className={`text-xs md:text-sm mt-0.5 ${isDarkMode ? 'text-dark-400' : 'text-gray-500'}`}>
+                Calculated per day attended, as used by the law school
+              </p>
+            </div>
+          </div>
+
+          {/* Custom date range toggle */}
+          <div className='mb-4'>
+            <label className='flex items-center gap-2 cursor-pointer select-none w-fit'>
+              <input
+                type='checkbox'
+                checked={useCustomRange}
+                onChange={(e) => setUseCustomRange(e.target.checked)}
+                className='w-4 h-4 rounded accent-primary-500'
+              />
+              <span className={`text-sm font-medium ${isDarkMode ? 'text-dark-300' : 'text-gray-700'}`}>
+                Check attendance for a custom date range
+              </span>
+            </label>
+
+            {useCustomRange && (
+              <div className='grid grid-cols-1 sm:grid-cols-2 gap-3 mt-3'>
+                <div>
+                  <label className={`block text-xs font-medium mb-1.5 ${isDarkMode ? 'text-dark-400' : 'text-gray-500'}`}>
+                    From
+                  </label>
+                  <DatePicker
+                    value={customRangeStart}
+                    onChange={setCustomRangeStart}
+                    placeholder='Start date'
+                  />
+                </div>
+                <div>
+                  <label className={`block text-xs font-medium mb-1.5 ${isDarkMode ? 'text-dark-400' : 'text-gray-500'}`}>
+                    To
+                  </label>
+                  <DatePicker
+                    value={customRangeEnd}
+                    onChange={setCustomRangeEnd}
+                    placeholder='End date'
+                  />
+                </div>
+              </div>
+            )}
+          </div>
+
+          <div className='grid grid-cols-1 sm:grid-cols-2 gap-4'>
+            {/* Term-wide: attended vs. fixed 15-week x 5-day target */}
+            <div className={`rounded-xl p-4 ${
+              useCustomRange && customRangeStart && customRangeEnd ? '' : 'sm:col-span-2'
+            } ${isDarkMode ? 'bg-dark-900/50' : 'bg-gray-50'}`}>
+              <div className='flex items-center justify-between mb-2'>
+                <p className={`text-xs font-medium uppercase tracking-wide ${isDarkMode ? 'text-dark-400' : 'text-gray-500'}`}>
+                  15-Week Term Target
+                </p>
+                <p className={`text-xl font-bold ${dailyAttendance.hasPassed ? 'text-emerald-500' : 'text-red-500'}`}>
+                  {dailyAttendance.termPercentage}%
+                </p>
+              </div>
+              <p className={`text-xs mb-2 ${isDarkMode ? 'text-dark-500' : 'text-gray-500'}`}>
+                {dailyAttendance.daysAttended} / {dailyAttendance.termTargetDays} days (5/week &times; 15 weeks)
+              </p>
+              <div className={`h-1.5 rounded-full overflow-hidden mb-3 ${isDarkMode ? 'bg-dark-700' : 'bg-gray-200'}`}>
+                <div
+                  className={`h-full rounded-full transition-all duration-500 ${
+                    dailyAttendance.hasPassed ? 'bg-emerald-500' : 'bg-red-500'
+                  }`}
+                  style={{ width: `${Math.min(dailyAttendance.termPercentage, 100)}%` }}
+                />
+                {/* 70% pass-mark tick */}
+                <div className='relative' style={{ marginTop: '-6px' }}>
+                  <div
+                    className={`absolute top-0 w-px h-1.5 ${isDarkMode ? 'bg-white/60' : 'bg-gray-900/40'}`}
+                    style={{ left: '70%' }}
+                  />
+                </div>
+              </div>
+
+              {/* Pass status / miss budget */}
+              <p className={`text-xs font-medium ${
+                dailyAttendance.hasPassed
+                  ? 'text-emerald-500'
+                  : dailyAttendance.isPassStillPossible
+                  ? isDarkMode ? 'text-amber-400' : 'text-amber-600'
+                  : 'text-red-500'
+              }`}>
+                {dailyAttendance.hasPassed
+                  ? `Pass secured (70% needs ${dailyAttendance.daysNeededToPass} days) — you can miss up to ${dailyAttendance.maxMissesAllowed} more day${dailyAttendance.maxMissesAllowed !== 1 ? 's' : ''} and still pass`
+                  : dailyAttendance.isPassStillPossible
+                  ? `Need ${dailyAttendance.daysStillNeeded} more day${dailyAttendance.daysStillNeeded !== 1 ? 's' : ''} to hit 70% — you can only miss ${dailyAttendance.maxMissesAllowed} more day${dailyAttendance.maxMissesAllowed !== 1 ? 's' : ''}`
+                  : `70% pass mark is no longer reachable this term`}
+              </p>
+            </div>
+
+            {/* Custom range result — shown side by side with the 15-week card */}
+            {useCustomRange && customRangeStart && customRangeEnd && (
+              customRangeAttendance ? (
+                <div className={`rounded-xl p-4 ${isDarkMode ? 'bg-dark-900/50' : 'bg-gray-50'}`}>
+                  <div className='flex items-center justify-between mb-2'>
+                    <p className={`text-xs font-medium uppercase tracking-wide ${isDarkMode ? 'text-dark-400' : 'text-gray-500'}`}>
+                      Custom Range
+                    </p>
+                    <p className={`text-xl font-bold ${customRangeAttendance.percentage >= 70 ? 'text-emerald-500' : 'text-red-500'}`}>
+                      {customRangeAttendance.percentage}%
+                    </p>
+                  </div>
+                  <p className={`text-xs mb-2 ${isDarkMode ? 'text-dark-500' : 'text-gray-500'}`}>
+                    {customRangeAttendance.daysAttended} / {customRangeAttendance.weekdaysInRange} school days (Mon&ndash;Fri) in range
+                  </p>
+                  <div className={`h-1.5 rounded-full overflow-hidden ${isDarkMode ? 'bg-dark-700' : 'bg-gray-200'}`}>
+                    <div
+                      className={`h-full rounded-full transition-all duration-500 ${
+                        customRangeAttendance.percentage >= 70 ? 'bg-emerald-500' : 'bg-red-500'
+                      }`}
+                      style={{ width: `${Math.min(customRangeAttendance.percentage, 100)}%` }}
+                    />
+                  </div>
+                </div>
+              ) : (
+                <div className={`rounded-xl p-4 flex items-center ${isDarkMode ? 'bg-dark-900/50' : 'bg-gray-50'}`}>
+                  <p className={`text-xs ${isDarkMode ? 'text-dark-500' : 'text-gray-500'}`}>
+                    End date must be on or after the start date.
+                  </p>
+                </div>
+              )
+            )}
+          </div>
+        </div>
+      )}
 
       {/* MCQ Spotlight - primary mobile action */}
       <div className={`relative overflow-hidden rounded-2xl border p-4 xs:p-5 md:p-6 ${
