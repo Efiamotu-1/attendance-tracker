@@ -95,7 +95,7 @@ function Dashboard() {
             Hello, {userName}! 👋
           </h1>
           <p className={isDarkMode ? 'text-dark-400' : 'text-gray-600'}>
-            Track your attendance, monitor your progress, and stay on top of your academic journey.
+            Track your attendance, practice past MCQs, and monitor your progress on your journey to the Bar.
           </p>
         </div>
       </div>
