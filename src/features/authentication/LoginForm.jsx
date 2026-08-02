@@ -15,7 +15,6 @@ function LoginForm() {
     if (!email || !password) return;
     login({ email, password }, {
       onError: () => {
-        setEmail('');
         setPassword('');
       }
     });
