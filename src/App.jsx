@@ -1,6 +1,8 @@
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom"
 import Login from "./pages/Login"
 import Signup from "./pages/Signup"
+import ForgotPassword from "./pages/ForgotPassword"
+import ResetPassword from "./pages/ResetPassword"
 import PageNotFound from "./pages/PageNotFound"
 import ProtectedRoute from "./ui/ProtectedRoute"
 import AppLayout from "./ui/AppLayout"
@@ -17,6 +19,7 @@ import TipDetail from "./pages/TipDetail"
 import McqPastQuestions from "./pages/McqPastQuestions"
 import McqQuiz from "./pages/McqQuiz"
 import McqPerformance from "./pages/McqPerformance"
+import McqLeaderboard from "./pages/McqLeaderboard"
 import Feedback from "./pages/Feedback"
 
 
@@ -55,11 +58,14 @@ function App() {
               <Route path="mcq-past-questions/:sessionId/:courseId" element={<McqQuiz />} />
               <Route path="mcq-topic-quiz/:courseSlug/:topicId" element={<McqQuiz />} />
               <Route path="mcq-performance" element={<McqPerformance />} />
+              <Route path="mcq-leaderboard" element={<McqLeaderboard />} />
               <Route path="feedback" element={<Feedback />} />
             </Route>
 
             <Route path="login" element={<Login />} />
             <Route path="signup" element={<Signup />} />
+            <Route path="forgot-password" element={<ForgotPassword />} />
+            <Route path="reset-password" element={<ResetPassword />} />
             <Route path="*" element={<PageNotFound />} />
           </Routes>
         </BrowserRouter>

@@ -9,7 +9,8 @@ import {
   HiOutlineDocumentText,
   HiOutlineChartBar,
   HiOutlineArrowRight,
-  HiOutlinePlayCircle
+  HiOutlinePlayCircle,
+  HiOutlineTrophy
 } from 'react-icons/hi2'
 import { supabase } from '../services/supabase'
 import { useCourses } from '../features/courses/useCourses'
@@ -122,13 +123,26 @@ function Dashboard() {
             </p>
           </div>
 
-          <button
-            onClick={() => navigate('/mcq-past-questions')}
-            className='inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-primary-500 text-white font-semibold hover:bg-primary-600 active:bg-primary-700 transition-colors shadow-lg shadow-primary-500/20'
-          >
-            Open MCQ
-            <HiOutlineArrowRight className='w-4 h-4' />
-          </button>
+          <div className='flex flex-col xs:flex-row gap-3'>
+            <button
+              onClick={() => navigate('/mcq-leaderboard')}
+              className={`inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl font-semibold border transition-colors ${
+                isDarkMode
+                  ? 'border-dark-700 bg-dark-800/60 text-white hover:border-dark-600'
+                  : 'border-gray-200 bg-white text-gray-900 hover:border-gray-300'
+              }`}
+            >
+              <HiOutlineTrophy className='w-4 h-4 text-yellow-500' />
+              View Leaderboard
+            </button>
+            <button
+              onClick={() => navigate('/mcq-past-questions')}
+              className='inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-primary-500 text-white font-semibold hover:bg-primary-600 active:bg-primary-700 transition-colors shadow-lg shadow-primary-500/20'
+            >
+              Open MCQ
+              <HiOutlineArrowRight className='w-4 h-4' />
+            </button>
+          </div>
         </div>
 
         <div className='relative z-10 mt-5 grid grid-cols-1 sm:grid-cols-2 gap-3'>

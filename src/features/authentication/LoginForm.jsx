@@ -1,8 +1,10 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { useLogin } from "./useLogin";
 import { HiEye, HiEyeSlash, HiEnvelope, HiLockClosed } from 'react-icons/hi2';
 
 function LoginForm() {
+  const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
@@ -53,9 +55,19 @@ function LoginForm() {
 
       {/* Password Field */}
       <div className="space-y-2">
-        <label className="block text-sm font-medium text-dark-300">
-          Password
-        </label>
+        <div className="flex items-center justify-between">
+          <label className="block text-sm font-medium text-dark-300">
+            Password
+          </label>
+          <button
+            type="button"
+            onClick={() => navigate('/forgot-password')}
+            className="text-sm font-medium hover:opacity-80 transition-opacity"
+            style={{ color: '#818cf8' }}
+          >
+            Forgot password?
+          </button>
+        </div>
         <div className="relative">
           <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
             <HiLockClosed className="h-5 w-5 text-dark-500" />

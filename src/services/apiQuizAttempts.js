@@ -49,6 +49,35 @@ export async function getQuizAttemptsByCourse(sessionId, courseId) {
 }
 
 /**
+ * Get the top exam leaderboard across all users, optionally scoped to a session
+ */
+export async function getExamLeaderboard(limitCount = 10, sessionId = null) {
+  const { data, error } = await supabase.rpc("get_exam_leaderboard", {
+    limit_count: limitCount,
+    session_id_filter: sessionId,
+  });
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  return data;
+}
+
+/**
+ * Get the distinct exam sessions that have leaderboard entries
+ */
+export async function getExamLeaderboardSessions() {
+  const { data, error } = await supabase.rpc("get_exam_leaderboard_sessions");
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  return data;
+}
+
+/**
  * Save a new quiz attempt
  */
 export async function saveQuizAttempt({
