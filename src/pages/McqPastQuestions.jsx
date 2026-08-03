@@ -2,6 +2,7 @@ import React, { useState, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
 import { useTheme } from "../context/ThemeContext";
 import mcqQuestions from "../data/mcqQuestions";
+import revisedMcqQuestion from "../data/revisedMcqQuestion";
 import topicQuizzes from "../data/topicQuizzes";
 import { useQuizAttempts } from "../features/mcq/useQuizAttempts";
 import { getCompleteExamSessions, getCompleteExamYears } from "../features/mcq/examUtils";
@@ -268,8 +269,8 @@ function McqPastQuestions() {
     (sum, q) => sum + q.questionsCount,
     0
   );
-  const examSessions = useMemo(() => getCompleteExamSessions(mcqQuestions), []);
-  const examYears = useMemo(() => getCompleteExamYears(mcqQuestions), []);
+  const examSessions = useMemo(() => getCompleteExamSessions(revisedMcqQuestion), []);
+  const examYears = useMemo(() => getCompleteExamYears(revisedMcqQuestion), []);
   const examSessionsByYear = useMemo(() => {
     return examSessions.reduce((acc, session) => {
       if (!acc[session.year]) acc[session.year] = [];

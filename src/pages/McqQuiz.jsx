@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback, useRef, useMemo } from "react"
 import { useParams, useNavigate } from "react-router-dom";
 import { useTheme } from "../context/ThemeContext";
 import mcqQuestions from "../data/mcqQuestions";
+import revisedMcqQuestion from "../data/revisedMcqQuestion";
 import topicQuizzes from "../data/topicQuizzes";
 import { useSaveQuizAttempt } from "../features/mcq/useSaveQuizAttempt";
 import { useQuizAttempts } from "../features/mcq/useQuizAttempts";
@@ -50,7 +51,13 @@ function McqQuiz() {
   const topicCourse = isTopicMode ? topicQuizzes[courseSlug] : null;
   const topic = topicCourse?.topics?.find((t) => t.id === topicId);
 
-  const pastSession = !isTopicMode ? mcqQuestions[sessionId] : null;
+  // Exam mode pulls exclusively from the revised question set; regular
+  // per-course quizzes keep using the original mcqQuestions data.
+  const pastSession = !isTopicMode
+    ? isExamMode
+      ? revisedMcqQuestion[sessionId]
+      : mcqQuestions[sessionId]
+    : null;
   const pastCourse = pastSession?.courses?.find((c) => c.id === courseId);
 
   // Normalise both data sources into the same shape the rest of the component expects.
