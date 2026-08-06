@@ -5,7 +5,9 @@
       "Bash(awk 'NR>=3053 && NR<=3798' /Users/habeebefiamotumusa/MINE/attendance-tracker/src/data/topicQuizzes.js)",
       "Bash(python3 -c ' *)",
       "Bash(node --input-type=module -e ' *)",
-      "Bash(grep -n \"^      {$\\\\|id:.*[0-9]*-july\" revisedMcqQuestion.js)"
+      "Bash(grep -n \"^      {$\\\\|id:.*[0-9]*-july\" revisedMcqQuestion.js)",
+      "Bash(npx eslint *)",
+      "Bash(grep -v \"babel-preset-react-app\\\\|@babel/plugin\\\\|node_modules\\\\|may break\\\\|not maintianed\\\\|unlikely\\\\|Add \\\\\"@babel\\\\|devDependencies\\\\|message go away\\\\|^$\")"
     ]
   }
 }

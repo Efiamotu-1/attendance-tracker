@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import LoginForm from "../features/authentication/LoginForm";
 import { HiAcademicCap } from "react-icons/hi2";
 import { getUsersCount } from "../services/apiAuth";
+import { supabase } from "../services/supabase";
 import mcqQuestions from "../data/mcqQuestions";
 
 const EXAM_SESSIONS_COUNT = Object.keys(mcqQuestions).length;
@@ -18,7 +19,13 @@ function Login() {
   useEffect(() => {
     getUsersCount().then(({ count }) => setUsersCount(count));
   }, []);
-  
+
+  useEffect(() => {
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      if (session) navigate("/dashboard", { replace: true });
+    });
+  }, [navigate]);
+
   return (
     <div className="min-h-screen flex" style={{ backgroundColor: '#0a0f1a' }}>
       {/* Left Side - Decorative */}

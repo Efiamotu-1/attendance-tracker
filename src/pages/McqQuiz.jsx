@@ -27,21 +27,42 @@ function McqQuiz() {
   const isTopicMode = !!(courseSlug && topicId);
   const isExamMode = !isTopicMode && !courseId;
 
+  // Key used to persist/restore the last-submitted result for this exact quiz
+  const resultStorageKey = `mcq-last-result:${
+    isTopicMode ? `topic-${courseSlug}-${topicId}` : isExamMode ? `exam-${sessionId}` : `course-${sessionId}-${courseId}`
+  }`;
+
+  const storedResult = useMemo(() => {
+    try {
+      const raw = localStorage.getItem(resultStorageKey);
+      return raw ? JSON.parse(raw) : null;
+    } catch {
+      return null;
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [resultStorageKey]);
+
   // Quiz state
   const [currentQuestion, setCurrentQuestion] = useState(0);
-  const [selectedAnswers, setSelectedAnswers] = useState({});
-  const [quizFinished, setQuizFinished] = useState(false);
-  const [elapsedTime, setElapsedTime] = useState(0);
-  const [quizStarted, setQuizStarted] = useState(false);
+  const [selectedAnswers, setSelectedAnswers] = useState(
+    () => storedResult?.selectedAnswers ?? {}
+  );
+  const [quizFinished, setQuizFinished] = useState(() => !!storedResult);
+  const [elapsedTime, setElapsedTime] = useState(
+    () => storedResult?.elapsedTime ?? 0
+  );
+  const [quizStarted, setQuizStarted] = useState(() => !!storedResult);
   const [quizRunId, setQuizRunId] = useState(0);
-  const [timerSettings, setTimerSettings] = useState({
-    mode: "count_up",
-    durationValue: isExamMode ? 50 : 7,
-    durationUnit: "min",
-    durationMinutes: isExamMode ? 50 : 7,
-  });
+  const [timerSettings, setTimerSettings] = useState(() => ({
+    mode: storedResult?.timerSettings?.mode ?? "count_up",
+    durationValue:
+      storedResult?.timerSettings?.durationValue ?? (isExamMode ? 50 : 7),
+    durationUnit: storedResult?.timerSettings?.durationUnit ?? "min",
+    durationMinutes:
+      storedResult?.timerSettings?.durationMinutes ?? (isExamMode ? 50 : 7),
+  }));
   const timerRef = useRef(null);
-  const savedRef = useRef(false);
+  const savedRef = useRef(!!storedResult);
 
   // Hooks for saving and loading quiz history
   const { saveAttempt } = useSaveQuizAttempt();
@@ -145,6 +166,20 @@ function McqQuiz() {
     if (!savedRef.current && session && (isExamMode || course)) {
       savedRef.current = true;
       const results = calculateResults();
+
+      try {
+        localStorage.setItem(
+          resultStorageKey,
+          JSON.stringify({
+            selectedAnswers,
+            elapsedTime,
+            timerSettings,
+          })
+        );
+      } catch {
+        // localStorage unavailable — safe to ignore, review just won't persist
+      }
+
       saveAttempt(
         {
           sessionId: effectiveId,
@@ -173,7 +208,7 @@ function McqQuiz() {
         }
       );
     }
-  }, [calculateResults, course, elapsedTime, isExamMode, isTopicMode, topicCourse, questions.length, saveAttempt, session, effectiveId, timerSettings.durationMinutes, timerSettings.mode]);
+  }, [calculateResults, course, elapsedTime, isExamMode, isTopicMode, topicCourse, questions.length, saveAttempt, session, effectiveId, timerSettings, selectedAnswers, resultStorageKey]);
 
   // Timer
   useEffect(() => {
@@ -244,12 +279,23 @@ function McqQuiz() {
     }
   };
 
+  const clearStoredResult = () => {
+    try {
+      localStorage.removeItem(resultStorageKey);
+    } catch {
+      // localStorage unavailable — safe to ignore
+    }
+  };
+
   const handleStartQuiz = () => {
+    clearStoredResult();
+    setSelectedAnswers({});
     setElapsedTime(0);
     setQuizStarted(true);
   };
 
   const handleRestartQuiz = () => {
+    clearStoredResult();
     setCurrentQuestion(0);
     setSelectedAnswers({});
     setQuizFinished(false);

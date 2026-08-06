@@ -1,10 +1,18 @@
+import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import SignupForm from "../features/authentication/SignupForm";
 import { HiAcademicCap, HiCheckCircle } from "react-icons/hi2";
+import { supabase } from "../services/supabase";
 
 function Signup() {
   const navigate = useNavigate();
-  
+
+  useEffect(() => {
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      if (session) navigate("/dashboard", { replace: true });
+    });
+  }, [navigate]);
+
   const features = [
     "Track attendance across all courses",
     "Real-time percentage calculations",

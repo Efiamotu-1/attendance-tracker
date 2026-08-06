@@ -1,9 +1,17 @@
+import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import ForgotPasswordForm from "../features/authentication/ForgotPasswordForm";
 import { HiAcademicCap, HiOutlineArrowLeft } from "react-icons/hi2";
+import { supabase } from "../services/supabase";
 
 function ForgotPassword() {
   const navigate = useNavigate();
+
+  useEffect(() => {
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      if (session) navigate("/dashboard", { replace: true });
+    });
+  }, [navigate]);
 
   return (
     <div className="min-h-screen flex items-center justify-center p-8" style={{ backgroundColor: '#0a0f1a' }}>
