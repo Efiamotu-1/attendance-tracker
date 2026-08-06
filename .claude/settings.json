@@ -7,7 +7,20 @@
       "Bash(node --input-type=module -e ' *)",
       "Bash(grep -n \"^      {$\\\\|id:.*[0-9]*-july\" revisedMcqQuestion.js)",
       "Bash(npx eslint *)",
-      "Bash(grep -v \"babel-preset-react-app\\\\|@babel/plugin\\\\|node_modules\\\\|may break\\\\|not maintianed\\\\|unlikely\\\\|Add \\\\\"@babel\\\\|devDependencies\\\\|message go away\\\\|^$\")"
+      "Bash(grep -v \"babel-preset-react-app\\\\|@babel/plugin\\\\|node_modules\\\\|may break\\\\|not maintianed\\\\|unlikely\\\\|Add \\\\\"@babel\\\\|devDependencies\\\\|message go away\\\\|^$\")",
+      "Bash(python3 -c \"import pytesseract\")",
+      "Bash(python3 -c \"import pdf2image\")",
+      "Bash(python3 -c \"import fitz; print\\('pymupdf ok'\\)\")",
+      "Bash(brew install *)",
+      "Bash(pdftoppm -png -r 200 'PQ AND ANSWERS NOV 2024_015933.pdf' /private/tmp/claude-501/-Users-habeebefiamotumusa-MINE-attendance-tracker/ccf21164-5782-4158-8fad-3990291a9118/scratchpad/nov2024_pages/page)",
+      "Bash(pdftoppm -png -r 400 -f 3 -l 3 'PQ AND ANSWERS NOV 2024_015933.pdf' /private/tmp/claude-501/-Users-habeebefiamotumusa-MINE-attendance-tracker/ccf21164-5782-4158-8fad-3990291a9118/scratchpad/test_hires)",
+      "Bash(tesseract /private/tmp/claude-501/-Users-habeebefiamotumusa-MINE-attendance-tracker/ccf21164-5782-4158-8fad-3990291a9118/scratchpad/test_hires-03.png /private/tmp/claude-501/-Users-habeebefiamotumusa-MINE-attendance-tracker/ccf21164-5782-4158-8fad-3990291a9118/scratchpad/test_hires_psm3 -l eng --psm 3)",
+      "Bash(tesseract /private/tmp/claude-501/-Users-habeebefiamotumusa-MINE-attendance-tracker/ccf21164-5782-4158-8fad-3990291a9118/scratchpad/test_hires-03.png /private/tmp/claude-501/-Users-habeebefiamotumusa-MINE-attendance-tracker/ccf21164-5782-4158-8fad-3990291a9118/scratchpad/test_hires_psm4 -l eng --psm 4)",
+      "Bash(tesseract /private/tmp/claude-501/-Users-habeebefiamotumusa-MINE-attendance-tracker/ccf21164-5782-4158-8fad-3990291a9118/scratchpad/test_hires-003.png /private/tmp/claude-501/-Users-habeebefiamotumusa-MINE-attendance-tracker/ccf21164-5782-4158-8fad-3990291a9118/scratchpad/test_hires_psm3 -l eng --psm 3)",
+      "Bash(tesseract /private/tmp/claude-501/-Users-habeebefiamotumusa-MINE-attendance-tracker/ccf21164-5782-4158-8fad-3990291a9118/scratchpad/test_hires-003.png /private/tmp/claude-501/-Users-habeebefiamotumusa-MINE-attendance-tracker/ccf21164-5782-4158-8fad-3990291a9118/scratchpad/test_hires_psm4 -l eng --psm 4)",
+      "Bash(pdftoppm -png -r 400 'PQ AND ANSWERS NOV 2024_015933.pdf' /private/tmp/claude-501/-Users-habeebefiamotumusa-MINE-attendance-tracker/ccf21164-5782-4158-8fad-3990291a9118/scratchpad/nov2024_pages/page)",
+      "Bash(cat /private/tmp/claude-501/-Users-habeebefiamotumusa-MINE-attendance-tracker/ccf21164-5782-4158-8fad-3990291a9118/scratchpad/nov2024_ocr/page-003.txt /private/tmp/claude-501/-Users-habeebefiamotumusa-MINE-attendance-tracker/ccf21164-5782-4158-8fad-3990291a9118/scratchpad/nov2024_ocr/page-004.txt /private/tmp/claude-501/-Users-habeebefiamotumusa-MINE-attendance-tracker/ccf21164-5782-4158-8fad-3990291a9118/scratchpad/nov2024_ocr/page-005.txt)",
+      "Read(//tmp/**)"
     ]
   }
 }

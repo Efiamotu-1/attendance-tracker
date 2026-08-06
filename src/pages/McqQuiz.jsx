@@ -951,6 +951,21 @@ function McqQuiz() {
                     ⚠️ You did not answer this question
                   </p>
                 )}
+
+                {q.explanation && (
+                  <div
+                    className={`ml-8 sm:ml-10 mt-3 p-2.5 sm:p-3 rounded-lg border-l-4 border-primary-500 text-[11px] sm:text-xs leading-relaxed ${
+                      isDarkMode
+                        ? "bg-dark-700/50 text-dark-300"
+                        : "bg-primary-50/50 text-gray-600"
+                    }`}
+                  >
+                    <p className="text-[10px] sm:text-xs font-semibold text-primary-500 mb-1">
+                      💡 Explanation
+                    </p>
+                    {q.explanation}
+                  </div>
+                )}
               </div>
             );
           })}
