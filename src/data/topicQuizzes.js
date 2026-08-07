@@ -16938,6 +16938,7 @@ const topicQuizzes = {
             question: "Which of the following accurately describes the qualification of the Registrar General of the Corporate Affairs Commission?",
             options: { a: "He must be a legal practitioner who has been in active legal practice for 12 years and has at least 10 years experience in corporate law practice and administration", b: "He must be a legal practitioner who has been in active legal practice for 10 years and has at least 8 years experience in corporate law practice and administration", c: "He must be a legal practitioner who has been in active legal practice for at least 10 years and has at least 8 years experience in corporate law practice or administration", d: "He must be a legal practitioner who has been in active legal practice for 8 years and has at least 8 years experience in corporate law practice and administration" },
             answer: "c",
+            explanation: "See section 8(1), CAMA. Take note of the word \"or\"",
           },
           {
             id: 3,
@@ -16945,6 +16946,7 @@ const topicQuizzes = {
             question: "The apex regulatory body for Nigeria's capital market is:",
             options: { a: "The Nigerian Stock Exchange", b: "The Central Bank of Nigeria", c: "The Corporate Affairs Commission", d: "The Securities and Exchange Commission" },
             answer: "d",
+            explanation: "See section 13, ISA",
           },
           {
             id: 4,
@@ -16966,6 +16968,7 @@ const topicQuizzes = {
             question: "The Corporate Affairs Commission has a total membership of____",
             options: { a: "12", b: "10", c: "15", d: "20" },
             answer: "b",
+            explanation: "See section 2, CAMA",
           },
           {
             id: 7,
@@ -16973,6 +16976,7 @@ const topicQuizzes = {
             question: "The quorum of the meeting of the Corporate Affairs Commission shall be:",
             options: { a: "4", b: "5", c: "6", d: "7" },
             answer: "b",
+            explanation: "See section 5(3), CAMA",
           },
           {
             id: 8,
@@ -17001,6 +17005,7 @@ const topicQuizzes = {
             question: "Accreditation of professionals with the Corporate Affairs Commission is only necessary as regards matters pertaining to:",
             options: { a: "Part A of CAMA", b: "Part B of CAMA", c: "Part C of CAMA", d: "All of the above" },
             answer: "a",
+            explanation: "Accreditation of professionals with CAC is with respect to matters pertaining to part A of CAMA, dealing with companies",
           },
           {
             id: 12,
@@ -17008,6 +17013,7 @@ const topicQuizzes = {
             question: "Which of the following is not part of accredited professionals with the Corporate Affairs Commission?",
             options: { a: "Legal practitioners", b: "Chartered accountants", c: "Chartered auditors", d: "Chartered secretaries" },
             answer: "c",
+            explanation: "Auditors are not part of the accredited professionals with CAC. Professionals that can be accredited with CAC are legal practitioners, chartered secretaries and chartered accountants",
           },
           {
             id: 13,
@@ -17015,6 +17021,7 @@ const topicQuizzes = {
             question: "One of the following documents is not required for the accreditation of legal practitioners with the Corporate Affairs Commission:",
             options: { a: "NYSC exemption letter or discharge certificate", b: "Two passport photographs", c: "Receipt of payment of call fee", d: "Evidence of payment of prescribed fee" },
             answer: "c",
+            explanation: "What is needed is your call to Bar certificate, not the receipt of your call fee",
           },
           {
             id: 14,
@@ -17029,6 +17036,7 @@ const topicQuizzes = {
             question: "All but one of the following professionals can be registered with the Securities and Exchange Commission as a capital market operator:",
             options: { a: "Legal practitioners", b: "Auditors", c: "Chartered secretaries", d: "Accountants" },
             answer: "c",
+            explanation: "Chartered Secretaries cannot be registered with the SEC as Capital Market Operators",
           },
         ],
       },
