@@ -111,3 +111,39 @@ export async function updateFeedback(id, { status, admin_comment }) {
   if (error) throw new Error(error.message);
   return data;
 }
+
+/**
+ * Create a question report (special feedback type)
+ */
+export async function createQuestionReport({
+  bugType,
+  proposedAnswer,
+  reason,
+  question,
+  quizContext,
+}) {
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  if (!user) throw new Error("User not authenticated");
+
+  const { data, error } = await supabase
+    .from("user_feedback")
+    .insert({
+      user_id: user.id,
+      type: "question_report",
+      title: `Question Report: ${question.id || `Q${question.questionNumber}`}`,
+      description: reason,
+      bug_type: bugType,
+      proposed_answer: proposedAnswer,
+      question_id: question.id || `${question.questionNumber}`,
+      quiz_type: quizContext?.quizType,
+      exam_session: quizContext?.examSession,
+      course_name: quizContext?.courseName,
+    })
+    .select()
+    .single();
+
+  if (error) throw new Error(error.message);
+  return data;
+}

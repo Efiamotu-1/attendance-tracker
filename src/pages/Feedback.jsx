@@ -53,6 +53,15 @@ const TYPES = [
     borderColor: "border-blue-500/30",
     badgeBg: "bg-blue-500",
   },
+  {
+    value: "question_report",
+    label: "Question Report",
+    icon: HiOutlineBugAnt,
+    color: "text-orange-500",
+    bgColor: "bg-orange-500/10",
+    borderColor: "border-orange-500/30",
+    badgeBg: "bg-orange-500",
+  },
 ];
 
 const STATUSES = {
@@ -215,7 +224,7 @@ function FeedbackDetailModal({
             </span>
           </div>
 
-          {/* Related quiz info */}
+          {/* Related quiz info (regular bug reports) */}
           {item.related_quiz && (
             <div
               className={`rounded-lg p-3 border ${
@@ -241,6 +250,86 @@ function FeedbackDetailModal({
                   ? ` — Question ${item.related_question_number}`
                   : ""}
               </span>
+            </div>
+          )}
+
+          {/* Question report info */}
+          {item.type === "question_report" && (
+            <div
+              className={`rounded-lg p-3 border space-y-2 ${
+                isDarkMode
+                  ? "bg-dark-800/50 border-dark-700"
+                  : "bg-orange-50 border-orange-200/50"
+              }`}
+            >
+              <span
+                className={`text-xs font-medium block ${
+                  isDarkMode ? "text-dark-400" : "text-orange-600"
+                }`}
+              >
+                Question Details
+              </span>
+              {item.quiz_type && (
+                <p
+                  className={`text-xs ${
+                    isDarkMode ? "text-dark-300" : "text-gray-700"
+                  }`}
+                >
+                  <span className="font-semibold">Type:</span>{" "}
+                  {item.quiz_type === "exam" ? "Exam Styled MCQ" : "Topic Quiz"}
+                </p>
+              )}
+              {item.question_id && (
+                <p
+                  className={`text-xs ${
+                    isDarkMode ? "text-dark-300" : "text-gray-700"
+                  }`}
+                >
+                  <span className="font-semibold">Question:</span> {item.question_id}
+                </p>
+              )}
+              {item.course_name && (
+                <p
+                  className={`text-xs ${
+                    isDarkMode ? "text-dark-300" : "text-gray-700"
+                  }`}
+                >
+                  <span className="font-semibold">Course:</span> {item.course_name}
+                </p>
+              )}
+              {item.exam_session && (
+                <p
+                  className={`text-xs ${
+                    isDarkMode ? "text-dark-300" : "text-gray-700"
+                  }`}
+                >
+                  <span className="font-semibold">Session:</span> {item.exam_session}
+                </p>
+              )}
+              {item.bug_type && (
+                <p
+                  className={`text-xs ${
+                    isDarkMode ? "text-dark-300" : "text-gray-700"
+                  }`}
+                >
+                  <span className="font-semibold">Bug Type:</span>{" "}
+                  {item.bug_type
+                    .replace(/_/g, " ")
+                    .replace(/\b\w/g, (l) => l.toUpperCase())}
+                </p>
+              )}
+              {item.proposed_answer && (
+                <p
+                  className={`text-xs ${
+                    isDarkMode ? "text-dark-300" : "text-gray-700"
+                  }`}
+                >
+                  <span className="font-semibold">Proposed Answer:</span>{" "}
+                  <span className="font-mono font-bold text-green-600">
+                    {item.proposed_answer}
+                  </span>
+                </p>
+              )}
             </div>
           )}
 
@@ -562,6 +651,8 @@ function CreateFeedbackModal({ isDarkMode, onClose, onCreate, isCreating }) {
                         ? "Bug"
                         : t.value === "feature"
                         ? "Feature"
+                        : t.value === "question_report"
+                        ? "Q. Report"
                         : "Feedback"}
                     </span>
                   </button>
@@ -1051,6 +1142,8 @@ export default function Feedback() {
                     ? "Bugs"
                     : t.value === "feature"
                     ? "Features"
+                    : t.value === "question_report"
+                    ? "Q. Reports"
                     : "Feedback"}
                 </button>
               ))}

@@ -6,7 +6,9 @@ import revisedMcqQuestion from "../data/revisedMcqQuestion";
 import topicQuizzes from "../data/topicQuizzes";
 import { useSaveQuizAttempt } from "../features/mcq/useSaveQuizAttempt";
 import { useQuizAttempts } from "../features/mcq/useQuizAttempts";
+import { useCreateQuestionReport } from "../features/feedback/useCreateQuestionReport";
 import QuizTimerSettings from "../features/mcq/QuizTimerSettings";
+import QuestionReportModal from "../features/feedback/QuestionReportModal";
 import {
   HiOutlineArrowLeft,
   HiOutlineArrowRight,
@@ -18,6 +20,7 @@ import {
   HiOutlineArrowPath,
   HiOutlineArrowTrendingUp,
   HiOutlineCalendarDays,
+  HiOutlineExclamationTriangle,
 } from "react-icons/hi2";
 
 function McqQuiz() {
@@ -67,6 +70,11 @@ function McqQuiz() {
   // Hooks for saving and loading quiz history
   const { saveAttempt } = useSaveQuizAttempt();
   const { attempts: allAttempts } = useQuizAttempts();
+  const { submitQuestionReport, isSubmitting: isSubmittingReport } = useCreateQuestionReport();
+
+  // Question report modal state
+  const [reportModalOpen, setReportModalOpen] = useState(false);
+  const [selectedQuestionForReport, setSelectedQuestionForReport] = useState(null);
 
   // Find the topic-quiz data (topic mode) or the past-question session/course data
   const topicCourse = isTopicMode ? topicQuizzes[courseSlug] : null;
@@ -285,6 +293,34 @@ function McqQuiz() {
     } catch {
       // localStorage unavailable — safe to ignore
     }
+  };
+
+  const buildQuizContext = () => ({
+    quizType: isExamMode ? "exam" : "topic",
+    examSession: isExamMode
+      ? `${session.session} ${session.year}`
+      : isTopicMode
+      ? session.examTitle
+      : null,
+    courseName: isExamMode ? course?.name : isTopicMode ? course?.name : course?.name,
+  });
+
+  const handleOpenReportModal = (question, questionNumber) => {
+    setSelectedQuestionForReport({
+      id: question.id || questionNumber,
+      questionNumber,
+      question: question.question,
+    });
+    setReportModalOpen(true);
+  };
+
+  const handleSubmitReport = (reportData) => {
+    submitQuestionReport(reportData, {
+      onSuccess: () => {
+        setReportModalOpen(false);
+        setSelectedQuestionForReport(null);
+      },
+    });
   };
 
   const handleStartQuiz = () => {
@@ -966,10 +1002,39 @@ function McqQuiz() {
                     {q.explanation}
                   </div>
                 )}
+
+                {/* Report Question Button */}
+                <div className="ml-8 sm:ml-10 mt-3 flex items-center gap-2">
+                  <button
+                    onClick={() => handleOpenReportModal(q, idx + 1)}
+                    className={`flex items-center gap-1.5 px-3 sm:px-4 py-2 text-xs sm:text-sm font-medium rounded-lg transition-colors ${
+                      isDarkMode
+                        ? "bg-red-500/15 text-red-400 hover:bg-red-500/25"
+                        : "bg-red-50 text-red-600 hover:bg-red-100"
+                    }`}
+                  >
+                    <HiOutlineExclamationTriangle className="w-4 h-4" />
+                    Report this question
+                  </button>
+                </div>
               </div>
             );
           })}
         </div>
+
+        {/* Question Report Modal */}
+        <QuestionReportModal
+          isDarkMode={isDarkMode}
+          isOpen={reportModalOpen}
+          onClose={() => {
+            setReportModalOpen(false);
+            setSelectedQuestionForReport(null);
+          }}
+          onSubmit={handleSubmitReport}
+          isSubmitting={isSubmittingReport}
+          question={selectedQuestionForReport}
+          quizContext={buildQuizContext()}
+        />
       </div>
     );
   }
