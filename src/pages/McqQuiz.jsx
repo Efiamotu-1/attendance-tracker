@@ -1535,7 +1535,17 @@ function McqQuiz() {
           {question.question}
         </h2>
 
-        <div className="mb-3 sm:mb-4">
+        <div className="mb-3 sm:mb-4 flex items-center gap-2 flex-wrap">
+          <span
+            className={`inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-full font-mono text-[10px] sm:text-xs font-bold ${
+              isDarkMode
+                ? "bg-dark-800 text-primary-400"
+                : "bg-primary-50 text-primary-600"
+            }`}
+          >
+            <HiOutlineClock className="w-3 h-3 sm:w-3.5 sm:h-3.5" />
+            {formatTime(timerDisplayTime)}
+          </span>
           <span
             className={`inline-flex items-center px-2.5 py-1 rounded-full text-[10px] sm:text-xs font-semibold ${
               isDarkMode

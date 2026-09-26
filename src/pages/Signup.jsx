@@ -10,6 +10,27 @@ import {
   HiOutlineLightBulb,
 } from "react-icons/hi2";
 import { supabase } from "../services/supabase";
+import mcqQuestions from "../data/mcqQuestions";
+import revisedMcqQuestion from "../data/revisedMcqQuestion";
+import topicQuizzes from "../data/topicQuizzes";
+
+// Total questions across the course-quiz bank, the Exam Styled MCQ /
+// Practice Questions bank, and topic quizzes — kept in sync with the app
+// instead of a hardcoded marketing number.
+const countQuestions = (session) =>
+  (session.courses || []).reduce(
+    (sum, course) => sum + (course.questions?.length || course.questionsCount || 0),
+    0
+  );
+
+const TOTAL_MCQ_QUESTIONS =
+  Object.values(mcqQuestions).reduce((sum, session) => sum + countQuestions(session), 0) +
+  Object.values(revisedMcqQuestion).reduce((sum, session) => sum + countQuestions(session), 0) +
+  Object.values(topicQuizzes).reduce(
+    (sum, course) =>
+      sum + (course.topics || []).reduce((tSum, topic) => tSum + (topic.questions?.length || 0), 0),
+    0
+  );
 
 const PLATFORM_PILLARS = [
   {
@@ -22,7 +43,7 @@ const PLATFORM_PILLARS = [
     icon: HiOutlineClipboardDocumentCheck,
     title: "Bar Finals MCQ Engine",
     description:
-      "1,500+ authentic past questions across all 5 core courses — full mock exams, subject drills, and topic-by-topic quizzes.",
+      "5,800+ authentic past questions across all 5 core courses — full mock exams, Exam Styled MCQ sessions, Practice Questions, subject drills, and topic-by-topic quizzes.",
   },
   {
     icon: HiOutlineTrophy,
@@ -49,8 +70,8 @@ function Signup() {
 
   const features = [
     "Track attendance across all 5 core courses",
-    "1,500+ Bar Finals MCQ past questions",
-    "Timed mock exams & topic-by-topic quizzes",
+    `${TOTAL_MCQ_QUESTIONS.toLocaleString()}+ Bar Finals MCQ past questions`,
+    "Timed mock exams, Exam Styled MCQ & Practice Questions",
     "Global leaderboards & performance analytics",
     "Campus survival guides & downloadable resources",
   ];

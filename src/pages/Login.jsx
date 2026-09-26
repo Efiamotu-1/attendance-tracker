@@ -11,12 +11,29 @@ import {
 import { getUsersCount } from "../services/apiAuth";
 import { supabase } from "../services/supabase";
 import mcqQuestions from "../data/mcqQuestions";
+import revisedMcqQuestion from "../data/revisedMcqQuestion";
+import topicQuizzes from "../data/topicQuizzes";
 
-const EXAM_SESSIONS_COUNT = Object.keys(mcqQuestions).length;
-const TOTAL_MCQ_QUESTIONS = Object.values(mcqQuestions).reduce(
-  (sum, session) => sum + (session.totalQuestions || 0),
-  0
-);
+// Exam sessions across both the course-quiz bank and the Exam Styled MCQ /
+// Practice Questions bank (real sittings + practice-1..8), so the count
+// reflects everything a student can actually attempt.
+const EXAM_SESSIONS_COUNT =
+  Object.keys(mcqQuestions).length + Object.keys(revisedMcqQuestion).length;
+
+const countQuestions = (session) =>
+  (session.courses || []).reduce(
+    (sum, course) => sum + (course.questions?.length || course.questionsCount || 0),
+    0
+  );
+
+const TOTAL_MCQ_QUESTIONS =
+  Object.values(mcqQuestions).reduce((sum, session) => sum + countQuestions(session), 0) +
+  Object.values(revisedMcqQuestion).reduce((sum, session) => sum + countQuestions(session), 0) +
+  Object.values(topicQuizzes).reduce(
+    (sum, course) =>
+      sum + (course.topics || []).reduce((tSum, topic) => tSum + (topic.questions?.length || 0), 0),
+    0
+  );
 
 const PLATFORM_PILLARS = [
   {
@@ -29,7 +46,7 @@ const PLATFORM_PILLARS = [
     icon: HiOutlineClipboardDocumentCheck,
     title: "Bar Finals MCQ Engine",
     description:
-      "1,500+ authentic past questions across all 5 core courses — full mock exams, subject drills, and topic-by-topic quizzes.",
+      "5,800+ authentic past questions across all 5 core courses — full mock exams, Exam Styled MCQ sessions, Practice Questions, subject drills, and topic-by-topic quizzes.",
   },
   {
     icon: HiOutlineTrophy,
@@ -159,7 +176,7 @@ function Login() {
               <p className="text-sm" style={{ color: '#64748b' }}>Exam Sessions</p>
             </div>
             <div>
-              <p className="text-3xl font-bold" style={{ color: '#ffffff' }}>{TOTAL_MCQ_QUESTIONS}+</p>
+              <p className="text-3xl font-bold" style={{ color: '#ffffff' }}>{TOTAL_MCQ_QUESTIONS.toLocaleString()}+</p>
               <p className="text-sm" style={{ color: '#64748b' }}>MCQ Questions</p>
             </div>
           </div>

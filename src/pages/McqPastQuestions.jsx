@@ -23,6 +23,13 @@ import {
   HiOutlineBookOpen,
 } from "react-icons/hi2";
 
+// Practice sets (built from the 800-question compilation) share a synthetic
+// numeric "year" so they group into their own bucket, sorted ahead of every
+// real exam year — see revisedMcqQuestion.js's "practice-N" entries.
+const PRACTICE_YEAR = 9999;
+const isPracticeYear = (year) => year === PRACTICE_YEAR;
+const getExamYearLabel = (year) => (isPracticeYear(year) ? "Practice Questions" : year);
+
 // Downloadable files
 const downloadableFiles = [
   {
@@ -380,7 +387,7 @@ function McqPastQuestions() {
                         : "bg-gray-100 text-gray-600 hover:bg-gray-200"
                     }`}
                   >
-                    {year}
+                    {getExamYearLabel(year)}
                   </button>
                 );
               })}
@@ -397,7 +404,7 @@ function McqPastQuestions() {
                     >
                       <div>
                         <p className={`text-sm sm:text-base font-bold ${isDarkMode ? "text-white" : "text-gray-900"}`}>
-                          {year}
+                          {getExamYearLabel(year)}
                         </p>
                         <p className={`text-[10px] sm:text-xs ${isDarkMode ? "text-dark-500" : "text-gray-500"}`}>
                           {examSessionsByYear[year]?.length || 0} exam session{(examSessionsByYear[year]?.length || 0) !== 1 ? "s" : ""}
@@ -420,7 +427,7 @@ function McqPastQuestions() {
                           >
                             <div>
                               <p className={`text-sm font-semibold ${isDarkMode ? "text-white" : "text-gray-900"}`}>
-                                {session.session} {session.year}
+                                {isPracticeYear(year) ? session.session : `${session.session} ${session.year}`}
                               </p>
                               <p className={`text-[10px] sm:text-xs ${isDarkMode ? "text-dark-500" : "text-gray-500"}`}>
                                 {session.totalQuestions} questions · 5 courses

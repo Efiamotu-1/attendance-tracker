@@ -17,9 +17,28 @@ function ProtectedRoute({ children }) {
       if (!session) {
         setIsAuthenticated(false);
         navigate("/login");
-      } else {
-        setIsAuthenticated(true);
+        setIsLoading(false);
+        return;
       }
+
+      // getSession() only checks the locally cached token's expiry — it
+      // does NOT confirm the server still honours it. A revoked/invalid
+      // refresh token (e.g. after a password change, a stale tab left open
+      // across a session rotation, or a corrupted localStorage entry) would
+      // otherwise let a dead session through, and every subsequent request
+      // across the app would 403 in a loop with no redirect ever firing.
+      // getUser() round-trips to the server, so it catches that case.
+      const { error } = await supabase.auth.getUser();
+
+      if (error) {
+        await supabase.auth.signOut();
+        setIsAuthenticated(false);
+        navigate("/login");
+        setIsLoading(false);
+        return;
+      }
+
+      setIsAuthenticated(true);
       setIsLoading(false);
     }
 
@@ -32,7 +51,7 @@ function ProtectedRoute({ children }) {
       if (event === "SIGNED_OUT" || !session) {
         setIsAuthenticated(false);
         navigate("/login");
-      } else {
+      } else if (event === "TOKEN_REFRESHED" || event === "SIGNED_IN") {
         setIsAuthenticated(true);
       }
     });

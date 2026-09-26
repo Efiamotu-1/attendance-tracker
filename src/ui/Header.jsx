@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import { HiArrowRightOnRectangle, HiBars3, HiOutlineUser, HiAcademicCap, HiSun, HiMoon } from 'react-icons/hi2'
-import { useNavigate, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
+import { useQueryClient } from '@tanstack/react-query'
 import { supabase } from '../services/supabase'
 import { useTheme } from '../context/ThemeContext'
 
 function Header({ setShowSideBar }) {
   const [userName, setUserName] = useState('')
-  const navigate = useNavigate()
+  const [isLoggingOut, setIsLoggingOut] = useState(false)
+  const queryClient = useQueryClient()
   const { isDarkMode, toggleTheme } = useTheme()
 
   useEffect(() => {
@@ -20,8 +22,23 @@ function Header({ setShowSideBar }) {
   }, [])
 
   async function logOut() {
-    await supabase.auth.signOut()
-    navigate('/login')
+    if (isLoggingOut) return
+    setIsLoggingOut(true)
+
+    // Stop every in-flight/cached query first so nothing (dashboard widgets,
+    // background refetches, retries) keeps hitting Supabase with the
+    // about-to-be-invalidated session and piling up 403s after sign-out.
+    queryClient.cancelQueries()
+    queryClient.clear()
+
+    try {
+      await supabase.auth.signOut()
+    } finally {
+      // A hard redirect (instead of client-side navigate) guarantees every
+      // mounted component/query subscription is torn down, rather than
+      // relying on ProtectedRoute's effect to catch up in time.
+      window.location.assign('/login')
+    }
   }
 
   return (
@@ -172,11 +189,12 @@ function Header({ setShowSideBar }) {
             </span>
           </div>
           
-          <button 
+          <button
             onClick={logOut}
-            className={`p-2 rounded-lg transition-all group ${
-              isDarkMode 
-                ? 'hover:bg-dark-800 text-dark-400 hover:text-red-400' 
+            disabled={isLoggingOut}
+            className={`p-2 rounded-lg transition-all group ${isLoggingOut ? 'opacity-50 cursor-not-allowed' : ''} ${
+              isDarkMode
+                ? 'hover:bg-dark-800 text-dark-400 hover:text-red-400'
                 : 'hover:bg-gray-100 text-gray-600 hover:text-red-500'
             }`}
             title='Sign out'
