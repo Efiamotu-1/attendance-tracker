@@ -27,7 +27,7 @@ Furthermore, students face extreme academic pressure preparing for **Bar Finals 
 
 **NLS AttendanceTracker & Bar Finals Prep Suite** bridges these needs into a unified portal:
 1. **Attendance Engine**: Tracks daily attendance under NLS regulations, calculating real-time safety buffers and countdowns for days needed to pass.
-2. **Bar Finals MCQ Engine**: Interactive practice platform featuring over 1,500+ authentic Bar Finals past questions, topic-based quizzes, custom timed exams, instant feedback, and global student leaderboards.
+2. **Bar Finals MCQ Engine**: Interactive practice platform featuring 5,800+ authentic Bar Finals past questions across course quizzes, Exam Styled MCQ sessions, Practice Questions, and topic-based quizzes, with custom timed exams, an OMR answer-sheet mode, instant feedback, and global student leaderboards.
 3. **NLS Companion & Resources**: Campus survival tips (food, cab contacts, academic strategies) and downloadable original past question papers.
 
 ---
@@ -42,13 +42,16 @@ Furthermore, students face extreme academic pressure preparing for **Bar Finals 
 - **Course & Department Tracking**: Log specific course attendance, priorities, and historical logs.
 
 ### 📝 Bar Finals MCQ Practice Portal
-- **Extensive Question Bank**: Over 1,500+ curated MCQ questions covering all 5 Law School core courses across historical Bar Finals exam sessions (e.g., 2009–2024).
+- **Extensive Question Bank**: 5,800+ curated MCQ questions covering all 5 Law School core courses (Civil Litigation, Criminal Litigation, Corporate Law Practice, Property Law Practice, Professional Ethics and Skills) across historical Bar Finals exam sessions (2011–2026) plus an 800-question Practice bank.
 - **Flexible Exam Modes**:
-  - **Full Session Mock Exams**: Simulate realistic Bar Finals MCQ exams (e.g., 100 questions in 60 mins).
+  - **Exam Styled MCQ**: Full 5-course, 100-question mock exams pulled from real past Bar Finals sittings, grouped by year (e.g. 2026, 2025 … 2011).
+  - **Practice Questions**: 8 additional 100-question practice sets (Practice 1–8) built from an 800-question compilation bank, sits at the top of the exam-session list.
+  - **Quiz Mode vs. OMR Answer Sheet**: Inside any exam session, choose the standard tap-to-answer Quiz Mode, or an OMR Answer Sheet mode that mirrors real exam conditions — questions are read-only in-app, answers are shaded on your own physical bubble sheet, and a per-course answer key (with a "Report this question" option) is revealed at the end for grading.
   - **Subject-Specific Past Questions**: Filter by course (Civil, Criminal, Corporate, Property, Ethics).
   - **Topic-by-Topic Quizzes**: Test granular topic knowledge (e.g., *Jurisdiction*, *Company Formation*, *Search Warrants*).
-- **Customizable Quiz Timer**: Choose timed mode with customizable minutes per attempt or untimed study mode.
+- **Customizable Quiz Timer**: Choose timed mode (count-up or count-down) with customizable minutes per attempt, or untimed study mode.
 - **Instant Detailed Explanations**: Immediate answer feedback with thorough legal explanations and statutory citations.
+- **Question Reporting**: Flag a question or answer you believe is incorrect directly from the review/answer screens.
 
 ### 📊 Performance Analytics & Competitive Leaderboards
 - **Detailed Attempts History**: View detailed breakdown of past score percentages, correct vs. incorrect answers, and time taken.
