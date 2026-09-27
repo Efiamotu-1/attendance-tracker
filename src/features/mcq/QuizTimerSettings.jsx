@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { HiOutlineClock, HiOutlineInformationCircle } from "react-icons/hi2";
+import { HiOutlineClock } from "react-icons/hi2";
 
 function QuizTimerSettings({
   value,
@@ -87,12 +87,6 @@ function QuizTimerSettings({
         >
           <div className="flex items-center justify-center gap-1.5">
             <span>Count up</span>
-            <span
-              title="Starts at 00:00 and keeps increasing until you finish."
-              className="inline-flex"
-            >
-              <HiOutlineInformationCircle className="w-4 h-4" />
-            </span>
           </div>
         </button>
         <button
@@ -108,14 +102,31 @@ function QuizTimerSettings({
         >
           <div className="flex items-center justify-center gap-1.5">
             <span>Count down</span>
-            <span
-              title="Starts from your chosen duration and ends when time runs out."
-              className="inline-flex"
-            >
-              <HiOutlineInformationCircle className="w-4 h-4" />
-            </span>
           </div>
         </button>
+      </div>
+
+      <div
+        className={`rounded-xl p-3 sm:p-4 mt-3 text-left ${
+          isDarkMode ? "bg-dark-700/50" : "bg-gray-50"
+        }`}
+      >
+        <p
+          className={`text-xs sm:text-sm font-semibold mb-1 ${
+            isDarkMode ? "text-white" : "text-gray-900"
+          }`}
+        >
+          {timerMode === "count_up" ? "How Count up works" : "How Count down works"}
+        </p>
+        <p
+          className={`text-[11px] sm:text-xs leading-relaxed ${
+            isDarkMode ? "text-dark-400" : "text-gray-500"
+          }`}
+        >
+          {timerMode === "count_up"
+            ? "The clock starts at 00:00 and keeps climbing while you work — it's just tracking how long you take, with no cutoff. You submit whenever you're ready."
+            : "The clock starts at your chosen duration and counts down. If it hits 00:00 before you finish, your quiz is submitted automatically with whatever you've answered so far."}
+        </p>
       </div>
 
       {timerMode === "count_down" && (

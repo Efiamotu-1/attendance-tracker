@@ -44,6 +44,29 @@ export async function getUserFeedback(isAdmin = false) {
 
   const { data, error } = await query;
   if (error) throw new Error(error.message);
+
+  // Admin-only: attach the reporting user's name/email so admins can see who
+  // sent each report. `user_feedback.user_id` references auth.users, not
+  // profiles, so there's no automatic join — fetch profiles separately and
+  // merge them in by id. Never exposed to regular users (query above already
+  // scopes non-admins to their own rows, but we also just skip this fetch).
+  if (isAdmin && data && data.length > 0) {
+    const userIds = [...new Set(data.map((item) => item.user_id))];
+    const { data: profiles, error: profilesError } = await supabase
+      .from("profiles")
+      .select("id, name, email")
+      .in("id", userIds);
+
+    if (!profilesError && profiles) {
+      const profileById = new Map(profiles.map((p) => [p.id, p]));
+      return data.map((item) => ({
+        ...item,
+        reporter_name: profileById.get(item.user_id)?.name || null,
+        reporter_email: profileById.get(item.user_id)?.email || null,
+      }));
+    }
+  }
+
   return data;
 }
 

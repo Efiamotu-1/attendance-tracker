@@ -179,7 +179,9 @@ function McqPastQuestions() {
   const [selectedCourse, setSelectedCourse] = useState("all");
   const [collapsedYears, setCollapsedYears] = useState({});
   const [showDownloads, setShowDownloads] = useState(false);
-  const [showExamStyled, setShowExamStyled] = useState(false);
+  // Exam Styled MCQ is the primary entry point for this page, so it opens
+  // expanded by default rather than requiring a click.
+  const [showExamStyled, setShowExamStyled] = useState(true);
   const [expandedExamYears, setExpandedExamYears] = useState({});
   const [showTopicQuiz, setShowTopicQuiz] = useState(false);
   const [expandedTopicCourses, setExpandedTopicCourses] = useState({});
@@ -355,8 +357,11 @@ function McqPastQuestions() {
                 Exam Styled MCQ
               </p>
               <h2 className={`text-base sm:text-lg font-bold ${isDarkMode ? "text-white" : "text-gray-900"}`}>
-                5 course exam mode
+                Simulate the real bar finals
               </h2>
+              <p className={`text-xs sm:text-sm mt-0.5 ${isDarkMode ? "text-dark-400" : "text-gray-500"}`}>
+                Timed mock exams across all 5 courses, past sittings & practice sets
+              </p>
             </div>
           </div>
           <HiOutlineChevronDown
@@ -368,9 +373,7 @@ function McqPastQuestions() {
 
         {showExamStyled && (
           <div className="mt-4 space-y-3">
-            <p className={`text-xs sm:text-sm ${isDarkMode ? "text-dark-400" : "text-gray-500"}`}>
-              Choose a year that has all 5 courses available, then open the exact exam session you want to practice.
-            </p>
+           
 
             <div className="flex flex-wrap gap-2">
               {examYears.map((year) => {

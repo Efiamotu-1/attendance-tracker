@@ -25,6 +25,14 @@ import {
   HiOutlineQueueList,
 } from "react-icons/hi2";
 
+// Practice sessions (practice-1..practice-8) share a synthetic numeric
+// "year" so they group into their own bucket in the exam-session list (see
+// McqPastQuestions.jsx) — it isn't a real year, so it's never shown to the
+// user. "Practice 1", not "Practice 1 9999".
+const PRACTICE_YEAR = 9999;
+const formatExamSessionLabel = (session) =>
+  session.year === PRACTICE_YEAR ? session.session : `${session.session} ${session.year}`;
+
 function McqQuiz() {
   const { sessionId, courseId, courseSlug, topicId } = useParams();
   const navigate = useNavigate();
@@ -87,7 +95,10 @@ function McqQuiz() {
   // OMR mode: toggles the full question-by-question answer view so a
   // student can verify each answer against its question text.
   const [showOmrQuestionsView, setShowOmrQuestionsView] = useState(false);
-  const [activeOmrCourseTab, setActiveOmrCourseTab] = useState(0);
+  // Shared by both the OMR Q&A view and Quiz Mode's Review Answers section —
+  // only one of those screens renders at a time, so one tab index suffices.
+  // Keeps a 100-question exam session from being one giant scroll.
+  const [activeReviewCourseTab, setActiveReviewCourseTab] = useState(0);
 
   // Find the topic-quiz data (topic mode) or the past-question session/course data
   const topicCourse = isTopicMode ? topicQuizzes[courseSlug] : null;
@@ -343,7 +354,7 @@ function McqQuiz() {
   const buildQuizContext = () => ({
     quizType: isExamMode ? "exam" : "topic",
     examSession: isExamMode
-      ? `${session.session} ${session.year}`
+      ? formatExamSessionLabel(session)
       : isTopicMode
       ? session.examTitle
       : null,
@@ -427,8 +438,8 @@ function McqQuiz() {
             {isTopicMode
               ? `${session.examTitle} — ${topic.sourceRef ?? "Topic Quiz"}`
               : isExamMode
-              ? `${session.examTitle} — ${session.session} ${session.year} • ${session.courses.length} courses`
-              : `${session.examTitle} — ${session.session} ${session.year}`}
+              ? `${session.examTitle} — ${formatExamSessionLabel(session)} • ${session.courses.length} courses`
+              : `${session.examTitle} — ${formatExamSessionLabel(session)}`}
           </p>
 
           {/* Answer mode tabs */}
@@ -472,15 +483,28 @@ function McqQuiz() {
               OMR Answer Sheet
             </button>
           </div>
-          <p
-            className={`text-[10px] sm:text-xs mt-2 mb-1 ${
-              isDarkMode ? "text-dark-500" : "text-gray-400"
+          <div
+            className={`rounded-xl p-3 sm:p-4 mt-3 mb-1 text-left ${
+              isDarkMode ? "bg-dark-700/50" : "bg-gray-50"
             }`}
           >
-            {answerMode === "quiz"
-              ? "Answer each question directly under it, one at a time."
-              : "Shade your answers on a bubble sheet, like a real exam."}
-          </p>
+            <p
+              className={`text-xs sm:text-sm font-semibold mb-1 ${
+                isDarkMode ? "text-white" : "text-gray-900"
+              }`}
+            >
+              {answerMode === "quiz" ? "How Quiz Mode works" : "How OMR Answer Sheet works"}
+            </p>
+            <p
+              className={`text-[11px] sm:text-xs leading-relaxed ${
+                isDarkMode ? "text-dark-400" : "text-gray-500"
+              }`}
+            >
+              {answerMode === "quiz"
+                ? "Tap an option to select it right on the screen. Your selections are saved as you go, and you'll get a full scored breakdown — correct, wrong, and skipped — the moment you submit."
+                : "You'll only see the question and its options here — you can't select an answer in the app. Shade your answers on your own physical OMR/bubble sheet as you would in the real exam. Nothing is scored automatically; once you finish, you'll get a per-course answer key to mark your sheet yourself, plus an option to review every question and answer side by side."}
+            </p>
+          </div>
 
           {/* Info cards — responsive grid */}
           <div className="flex items-center justify-center gap-2.5 sm:gap-4 mt-5 sm:mt-6 mb-6 sm:mb-8">
@@ -808,9 +832,9 @@ function McqQuiz() {
                 {answerKeyGroups.map((group, groupIdx) => (
                   <button
                     key={group.courseName}
-                    onClick={() => setActiveOmrCourseTab(groupIdx)}
+                    onClick={() => setActiveReviewCourseTab(groupIdx)}
                     className={`px-3 py-1.5 rounded-full text-xs sm:text-sm font-semibold transition-colors ${
-                      activeOmrCourseTab === groupIdx
+                      activeReviewCourseTab === groupIdx
                         ? "bg-primary-500 text-white"
                         : isDarkMode
                         ? "bg-dark-700 text-dark-300 hover:bg-dark-600"
@@ -824,7 +848,7 @@ function McqQuiz() {
             )}
 
             <div className="space-y-3 sm:space-y-4">
-              {(answerKeyGroups[activeOmrCourseTab]?.questions ?? []).map((q, idx) => {
+              {(answerKeyGroups[activeReviewCourseTab]?.questions ?? []).map((q, idx) => {
                 const isBonus = q.answer === "bonus";
                 return (
                   <div
@@ -984,8 +1008,8 @@ function McqQuiz() {
             {isTopicMode
               ? `${course.name} — ${session.examTitle}`
               : isExamMode
-              ? `Exam Styled MCQ — ${session.session} ${session.year}`
-              : `${course.name} — ${session.session} ${session.year}`}
+              ? `Exam Styled MCQ — ${formatExamSessionLabel(session)}`
+              : `${course.name} — ${formatExamSessionLabel(session)}`}
           </p>
 
           {/* Score & Time */}
@@ -1266,8 +1290,34 @@ function McqQuiz() {
         >
           Review Answers
         </h2>
+
+        {/* Course tabs — keeps a 100-question exam session from being one
+            long scroll; only renders when there's more than one course. */}
+        {answerKeyGroups.length > 1 && (
+          <div className="flex flex-wrap gap-2 mb-4 sm:mb-5">
+            {answerKeyGroups.map((group, groupIdx) => (
+              <button
+                key={group.courseName}
+                onClick={() => setActiveReviewCourseTab(groupIdx)}
+                className={`px-3 py-1.5 rounded-full text-xs sm:text-sm font-semibold transition-colors ${
+                  activeReviewCourseTab === groupIdx
+                    ? "bg-primary-500 text-white"
+                    : isDarkMode
+                    ? "bg-dark-700 text-dark-300 hover:bg-dark-600"
+                    : "bg-gray-100 text-gray-600 hover:bg-gray-200"
+                }`}
+              >
+                {group.courseName}
+              </button>
+            ))}
+          </div>
+        )}
+
         <div className="space-y-3 sm:space-y-4">
-          {questions.map((q, idx) => {
+          {(answerKeyGroups.length > 1
+            ? answerKeyGroups[activeReviewCourseTab]?.questions ?? []
+            : questions
+          ).map((q, idx) => {
             const userAnswer = selectedAnswers[q.questionKey ?? `${q.id}`];
             const isBonus = q.answer === "bonus";
             const isCorrect = isBonus || userAnswer === q.answer;

@@ -13,15 +13,33 @@ import {
 } from "react-icons/hi2";
 import { GiCrown } from "react-icons/gi";
 
+// Practice sessions (practice-1..practice-8) are study drills, not real exam
+// sittings — keep them out of the competitive leaderboard entirely.
+const isPracticeSession = (sessionId) => sessionId?.startsWith("practice-");
+
 function McqLeaderboard() {
   const { isDarkMode } = useTheme();
   const navigate = useNavigate();
   const [selectedLeaderboardSession, setSelectedLeaderboardSession] = useState(null);
-  const { sessions: leaderboardSessions } = useExamLeaderboardSessions();
-  const { isLoading: leaderboardLoading, leaderboard } = useExamLeaderboard(
-    10,
+  const { sessions: rawLeaderboardSessions } = useExamLeaderboardSessions();
+  // Over-fetch from the RPC (its LIMIT is applied server-side before we can
+  // filter out practice sessions), then filter and trim to 10 here so
+  // removing practice entries never leaves fewer than 10 real results.
+  const { isLoading: leaderboardLoading, leaderboard: rawLeaderboard } = useExamLeaderboard(
+    50,
     selectedLeaderboardSession
   );
+
+  const leaderboardSessions = rawLeaderboardSessions?.filter(
+    (s) => !isPracticeSession(s.session_id)
+  );
+  const leaderboard = rawLeaderboard
+    ?.filter((entry) => !isPracticeSession(entry.session_id))
+    .slice(0, 10)
+    // Re-derive rank after filtering — the RPC's original rank can have
+    // gaps once practice-session entries are removed (it was already
+    // sorted by best_percentage/time/completed_at, so index order holds).
+    .map((entry, idx) => ({ ...entry, rank: idx + 1 }));
 
   return (
     <div className="px-3 sm:px-6 py-5 sm:py-6 max-w-3xl mx-auto">

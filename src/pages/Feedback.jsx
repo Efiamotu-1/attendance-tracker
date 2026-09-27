@@ -224,6 +224,28 @@ function FeedbackDetailModal({
             </span>
           </div>
 
+          {/* Who submitted this — admin only, applies to every feedback type
+              (Bugs, Features, Feedback, Q. Reports), not just question reports */}
+          {isAdmin && (item.reporter_name || item.reporter_email) && (
+            <div className="flex items-center gap-2">
+              <span
+                className={`text-xs font-medium ${
+                  isDarkMode ? "text-dark-400" : "text-gray-500"
+                }`}
+              >
+                Reported by:
+              </span>
+              <span
+                className={`text-xs font-semibold ${
+                  isDarkMode ? "text-dark-200" : "text-gray-800"
+                }`}
+              >
+                {item.reporter_name || "Unnamed"}
+                {item.reporter_email ? ` (${item.reporter_email})` : ""}
+              </span>
+            </div>
+          )}
+
           {/* Related quiz info (regular bug reports) */}
           {item.related_quiz && (
             <div
