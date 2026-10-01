@@ -170,7 +170,14 @@ function Dashboard() {
   };
 
   const mcqStats = [
+   
     {
+      label: 'Flashcards',
+      value: 'Active Recall',
+      icon: HiOutlineBolt,
+      action: () => navigate('/flashcards'),
+    },
+     {
       label: 'Past Questions',
       value: 'Practice',
       icon: HiOutlineDocumentText,
@@ -182,12 +189,7 @@ function Dashboard() {
       icon: HiOutlineChartBar,
       action: () => navigate('/mcq-performance'),
     },
-    {
-      label: 'Flashcards',
-      value: 'Active Recall',
-      icon: HiOutlineBolt,
-      action: () => navigate('/flashcards'),
-    },
+    
   ]
 
   return (
