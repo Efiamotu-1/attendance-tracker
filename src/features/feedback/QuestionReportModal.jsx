@@ -38,6 +38,10 @@ export default function QuestionReportModal({
   isSubmitting,
   question,
   quizContext,
+  // "mcq" (default): proposed answer is an A/B/C/D picker, matching the
+  // quiz's own option letters. "text": proposed answer is a free-text box —
+  // used for flashcards, which have no lettered options.
+  answerFormat = "mcq",
 }) {
   const [bugType, setBugType] = useState("");
   const [proposedAnswer, setProposedAnswer] = useState("");
@@ -161,24 +165,38 @@ export default function QuestionReportModal({
               >
                 Proposed Correct Answer *
               </label>
-              <div className="grid grid-cols-3 gap-2">
-                {ANSWER_OPTIONS.map((option) => (
-                  <button
-                    key={option}
-                    type="button"
-                    onClick={() => setProposedAnswer(option)}
-                    className={`py-2.5 rounded-lg font-semibold text-sm transition-all border ${
-                      proposedAnswer === option
-                        ? "bg-green-500 text-white border-green-600"
-                        : isDarkMode
-                        ? "bg-dark-800 border-dark-700 text-dark-300 hover:border-dark-600"
-                        : "bg-gray-50 border-gray-200 text-gray-700 hover:border-gray-300"
-                    }`}
-                  >
-                    {option}
-                  </button>
-                ))}
-              </div>
+              {answerFormat === "text" ? (
+                <textarea
+                  value={proposedAnswer}
+                  onChange={(e) => setProposedAnswer(e.target.value)}
+                  placeholder="What should the correct answer say instead?"
+                  rows={3}
+                  className={`w-full px-3 sm:px-4 py-2.5 sm:py-3 rounded-xl border text-sm font-medium transition-colors outline-none resize-none focus:ring-2 focus:ring-red-500/30 ${
+                    isDarkMode
+                      ? "bg-dark-800 border-dark-700 text-white placeholder:text-dark-500"
+                      : "bg-gray-50 border-gray-200 text-gray-900 placeholder:text-gray-400"
+                  }`}
+                />
+              ) : (
+                <div className="grid grid-cols-3 gap-2">
+                  {ANSWER_OPTIONS.map((option) => (
+                    <button
+                      key={option}
+                      type="button"
+                      onClick={() => setProposedAnswer(option)}
+                      className={`py-2.5 rounded-lg font-semibold text-sm transition-all border ${
+                        proposedAnswer === option
+                          ? "bg-green-500 text-white border-green-600"
+                          : isDarkMode
+                          ? "bg-dark-800 border-dark-700 text-dark-300 hover:border-dark-600"
+                          : "bg-gray-50 border-gray-200 text-gray-700 hover:border-gray-300"
+                      }`}
+                    >
+                      {option}
+                    </button>
+                  ))}
+                </div>
+              )}
             </div>
           )}
 
@@ -244,6 +262,8 @@ export default function QuestionReportModal({
                     <span className="font-semibold">Type:</span>{" "}
                     {quizContext.quizType === "exam"
                       ? "Exam Styled MCQ"
+                      : quizContext.quizType === "flashcard"
+                      ? "Flashcard"
                       : "Topic Quiz"}
                   </p>
                 )}

@@ -20,6 +20,7 @@ import McqPastQuestions from "./pages/McqPastQuestions"
 import McqQuiz from "./pages/McqQuiz"
 import McqPerformance from "./pages/McqPerformance"
 import McqLeaderboard from "./pages/McqLeaderboard"
+import McqFlashcards from "./pages/McqFlashcards"
 import Feedback from "./pages/Feedback"
 
 
@@ -59,6 +60,7 @@ function App() {
               <Route path="mcq-topic-quiz/:courseSlug/:topicId" element={<McqQuiz />} />
               <Route path="mcq-performance" element={<McqPerformance />} />
               <Route path="mcq-leaderboard" element={<McqLeaderboard />} />
+              <Route path="flashcards" element={<McqFlashcards />} />
               <Route path="feedback" element={<Feedback />} />
             </Route>
 

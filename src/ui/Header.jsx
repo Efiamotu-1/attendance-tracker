@@ -133,7 +133,20 @@ function Header({ setShowSideBar }) {
           >
             MCQ
           </NavLink>
-          <NavLink 
+          <NavLink
+            to="/flashcards"
+            title="Flashcards"
+            className={({ isActive }) => `px-4 py-2 rounded-lg font-medium transition-colors ${
+              isActive
+                ? 'bg-primary-500/20 text-primary-500'
+                : isDarkMode
+                  ? 'text-dark-400 hover:text-white hover:bg-dark-800'
+                  : 'text-gray-600 hover:text-gray-900 hover:bg-gray-100'
+            }`}
+          >
+            Flashcards
+          </NavLink>
+          <NavLink
             to="/feedback"
             title="Feedback & Issues"
             className={({ isActive }) => `px-4 py-2 rounded-lg font-medium transition-colors ${
