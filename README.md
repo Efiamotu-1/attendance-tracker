@@ -10,6 +10,11 @@
   ![Vite](https://img.shields.io/badge/Vite-Build-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
   [Report Bug](https://github.com/Efiamotu-1/attendance-tracker/issues) · [Request Feature](https://github.com/Efiamotu-1/attendance-tracker/issues)
+
+  ### 📱 Scan to open the app
+  <img src="public/qr/app-qr.png" alt="QR code linking to the deployed AttendanceTracker app" width="180" height="180" />
+
+  **[attendance-tracker-olive.vercel.app](https://attendance-tracker-olive.vercel.app)**
 </div>
 
 ---

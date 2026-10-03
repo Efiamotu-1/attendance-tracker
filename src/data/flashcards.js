@@ -1,6 +1,13 @@
 // Active-recall flashcard decks, grouped by course.
-// Each deck: { id, title, instructions, cards: [...] }
+// Each deck: { id, title, instructions, preClassUrl?, cards: [...] }
 // Each card: { category, question, answer: [...bullet points], source }
+//
+// `preClassUrl` (optional, deck-level): link to the pre-class material
+// (e.g. a shared Google Drive folder with the pre-class questions/answers)
+// that cards whose `source` mentions "Pre-class" are drawn from. When set,
+// the UI (McqFlashcards.jsx) shows a "View pre-class material" link on any
+// card whose source references "Pre-class", so users can go check the
+// original question/answer for themselves.
 //
 // To add a new deck (e.g. a new week's revision set), append another entry
 // to the matching course's `decks` array. To add a brand new course, add a
@@ -16,6 +23,7 @@ const flashcards = {
         title: "Week 3: Introductory matters and courts with civil jurisdiction",
         instructions:
           "Try to answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
+        preClassUrl: "https://drive.google.com/drive/folders/1QQCg96bo6ZEFvf4vhZEzioXpqtQedEye?usp=sharing",
         cards: [
           {
             category: "Sources & Overview",
@@ -892,6 +900,7 @@ const flashcards = {
         title: "Week 4: Parties to a Civil Suit",
         instructions:
           "Answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
+        preClassUrl: "https://drive.google.com/drive/folders/1QQCg96bo6ZEFvf4vhZEzioXpqtQedEye?usp=sharing",
         cards: [
           {
             category: "Types of Parties",

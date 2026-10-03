@@ -15,6 +15,7 @@ import {
   HiOutlineRectangleStack,
   HiOutlineSparkles,
   HiOutlineFlag,
+  HiOutlineFolderOpen,
 } from "react-icons/hi2";
 
 const courseEntries = Object.entries(flashcards); // [[courseId, {courseName, decks}], ...]
@@ -144,25 +145,46 @@ function DeckPlayer({ deck, courseName, isDarkMode, onBack }) {
       <h1 className={`text-xl sm:text-2xl font-bold mb-1 ${isDarkMode ? "text-white" : "text-gray-900"}`}>
         {deck.title}
       </h1>
-      <p className={`text-xs sm:text-sm mb-4 ${isDarkMode ? "text-dark-400" : "text-gray-500"}`}>
+      <p className={`text-xs sm:text-sm ${deck.preClassUrl ? "mb-2" : "mb-4"} ${isDarkMode ? "text-dark-400" : "text-gray-500"}`}>
         {deck.instructions}
       </p>
+      {deck.preClassUrl && (
+        <a
+          href={deck.preClassUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={`inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold mb-4 transition-colors ${
+            isDarkMode ? "text-primary-400 hover:text-primary-300" : "text-primary-600 hover:text-primary-700"
+          }`}
+        >
+          <HiOutlineFolderOpen className="w-4 h-4" />
+          View pre-class Questions & Answers (Google Drive)
+        </a>
+      )}
 
-      {/* Category chips */}
-      <div className="flex flex-wrap gap-1.5 mb-3.5">
+      {/* Category tabs — lets users jump straight to a topic instead of
+          scrolling the whole deck */}
+      <div
+        className={`flex gap-1 overflow-x-auto mb-3.5 -mx-0.5 px-0.5 pb-0.5 border-b ${
+          isDarkMode ? "border-dark-700" : "border-gray-200"
+        }`}
+      >
         {categories.map((c) => (
           <button
             key={c}
             onClick={() => setFilter(c)}
-            className={`px-3 py-1.5 rounded-full text-[11px] sm:text-xs font-semibold transition-colors ${
+            className={`relative flex-shrink-0 px-3.5 py-2 text-xs sm:text-sm font-semibold whitespace-nowrap transition-colors ${
               filter === c
-                ? "bg-primary-500 text-white shadow-sm shadow-primary-500/30"
+                ? "text-primary-500"
                 : isDarkMode
-                ? "bg-dark-800 text-dark-300 hover:bg-dark-700 border border-dark-700"
-                : "bg-white text-gray-600 hover:bg-gray-50 border border-gray-200"
+                ? "text-dark-400 hover:text-dark-200"
+                : "text-gray-500 hover:text-gray-800"
             }`}
           >
             {c}
+            {filter === c && (
+              <span className="absolute left-0 right-0 -bottom-[1px] h-0.5 rounded-full bg-primary-500" />
+            )}
           </button>
         ))}
       </div>
@@ -309,7 +331,7 @@ function DeckPlayer({ deck, courseName, isDarkMode, onBack }) {
                     </li>
                   ))}
                 </ul>
-                <div className="flex items-center justify-between gap-2 mt-3.5">
+                <div className="flex items-center justify-between gap-2 mt-3.5 flex-wrap">
                   {card.source ? (
                     <p className={`text-[11px] ${isDarkMode ? "text-dark-500" : "text-gray-400"}`}>
                       Source: {card.source}
@@ -327,6 +349,19 @@ function DeckPlayer({ deck, courseName, isDarkMode, onBack }) {
                     Report this card
                   </button>
                 </div>
+                {deck.preClassUrl && card.source?.toLowerCase().includes("pre-class") && (
+                  <a
+                    href={deck.preClassUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`mt-2 inline-flex items-center gap-1.5 text-[11px] font-semibold transition-colors ${
+                      isDarkMode ? "text-primary-400 hover:text-primary-300" : "text-primary-600 hover:text-primary-700"
+                    }`}
+                  >
+                    <HiOutlineFolderOpen className="w-3.5 h-3.5" />
+                    View pre-class material
+                  </a>
+                )}
               </div>
             ) : (
               <div className="relative mt-5 flex-1 flex flex-col">

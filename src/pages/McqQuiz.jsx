@@ -1683,37 +1683,136 @@ function McqQuiz() {
         </div>
       </div>
 
-      {/* Navigation & Question dots */}
-      <div className="flex flex-wrap gap-1 sm:gap-1.5 justify-center mb-4 sm:mb-6">
-        {questions.map((q, idx) => {
-          const questionKey = q.questionKey ?? `${q.id}`;
-          const isAnswered = answerMode === "quiz" && !!selectedAnswers[questionKey];
-          const isCurrent = idx === currentQuestion;
-          return (
-            <button
-              key={q.id}
-              onClick={() => setCurrentQuestion(idx)}
-              className={`w-7 h-7 sm:w-8 sm:h-8 rounded-lg text-[10px] sm:text-xs font-bold transition-all ${
-                isCurrent
-                  ? "bg-primary-500 text-white scale-110"
-                  : isAnswered
-                  ? isDarkMode
-                    ? "bg-primary-500/20 text-primary-400"
-                    : "bg-primary-100 text-primary-600"
-                  : isDarkMode
-                  ? "bg-dark-700 text-dark-400 hover:bg-dark-600"
-                  : "bg-gray-100 text-gray-400 hover:bg-gray-200"
-              }`}
-              title={`Question ${idx + 1}${isAnswered ? " (answered)" : ""}`}
-            >
-              {idx + 1}
-            </button>
-          );
-        })}
+      {/* Desktop-only Prev/Next, placed above the question-dot grid so it's
+          reachable without scrolling past the (often tall) course-grouped
+          grid below. Mobile keeps the single fixed bottom bar further down. */}
+      <div className="hidden sm:flex items-center justify-between mb-4">
+        <button
+          onClick={handlePrev}
+          disabled={currentQuestion === 0}
+          className={`flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-medium transition-colors ${
+            currentQuestion === 0
+              ? "opacity-40 cursor-not-allowed"
+              : isDarkMode
+              ? "hover:bg-dark-800 text-dark-300"
+              : "hover:bg-gray-100 text-gray-600"
+          }`}
+        >
+          <HiOutlineArrowLeft className="w-4 h-4" />
+          Previous
+        </button>
+
+        {currentQuestion === totalQuestions - 1 ? (
+          <button
+            onClick={handleFinishQuiz}
+            className="flex items-center gap-2 px-6 py-2.5 bg-green-500 hover:bg-green-600 active:bg-green-700 text-white rounded-xl text-sm font-semibold transition-all hover:shadow-lg active:scale-95"
+          >
+            <HiOutlineCheckCircle className="w-5 h-5" />
+            {answerMode === "omr" ? "Finish & Reveal Answers" : "Submit Quiz"}
+          </button>
+        ) : (
+          <button
+            onClick={handleNext}
+            className="flex items-center gap-2 px-4 py-2.5 bg-primary-500 hover:bg-primary-600 active:bg-primary-700 text-white rounded-xl text-sm font-medium transition-all hover:shadow-lg active:scale-95"
+          >
+            Next
+            <HiOutlineArrowRight className="w-4 h-4" />
+          </button>
+        )}
       </div>
 
-      {/* Bottom navigation */}
-      <div className="flex items-center justify-between">
+      {/* Navigation & Question dots — in exam mode, grouped into a labeled
+          section per course instead of one flat 1-100 strip, so it's clear
+          which numbers belong to which course */}
+      {isExamMode && answerKeyGroups.length > 1 ? (
+        <div className="space-y-3 mb-4 sm:mb-6">
+          {(() => {
+            let runningIndex = 0;
+            return answerKeyGroups.map((group) => {
+              const startIndex = runningIndex;
+              runningIndex += group.questions.length;
+              return (
+                <div key={group.courseName}>
+                  <p
+                    className={`text-[11px] sm:text-xs font-semibold uppercase tracking-wide mb-1.5 ${
+                      isDarkMode ? "text-dark-500" : "text-gray-500"
+                    }`}
+                  >
+                    {group.courseName}
+                  </p>
+                  <div className="flex flex-wrap gap-1 sm:gap-1.5">
+                    {group.questions.map((q, i) => {
+                      const idx = startIndex + i;
+                      const questionKey = q.questionKey ?? `${q.id}`;
+                      const isAnswered = answerMode === "quiz" && !!selectedAnswers[questionKey];
+                      const isCurrent = idx === currentQuestion;
+                      return (
+                        <button
+                          key={q.id}
+                          onClick={() => setCurrentQuestion(idx)}
+                          className={`w-7 h-7 sm:w-8 sm:h-8 rounded-lg text-[10px] sm:text-xs font-bold transition-all ${
+                            isCurrent
+                              ? "bg-primary-500 text-white scale-110"
+                              : isAnswered
+                              ? isDarkMode
+                                ? "bg-primary-500/20 text-primary-400"
+                                : "bg-primary-100 text-primary-600"
+                              : isDarkMode
+                              ? "bg-dark-700 text-dark-400 hover:bg-dark-600"
+                              : "bg-gray-100 text-gray-400 hover:bg-gray-200"
+                          }`}
+                          title={`Question ${idx + 1}${isAnswered ? " (answered)" : ""}`}
+                        >
+                          {i + 1}
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              );
+            });
+          })()}
+        </div>
+      ) : (
+        <div className="flex flex-wrap gap-1 sm:gap-1.5 justify-center mb-4 sm:mb-6">
+          {questions.map((q, idx) => {
+            const questionKey = q.questionKey ?? `${q.id}`;
+            const isAnswered = answerMode === "quiz" && !!selectedAnswers[questionKey];
+            const isCurrent = idx === currentQuestion;
+            return (
+              <button
+                key={q.id}
+                onClick={() => setCurrentQuestion(idx)}
+                className={`w-7 h-7 sm:w-8 sm:h-8 rounded-lg text-[10px] sm:text-xs font-bold transition-all ${
+                  isCurrent
+                    ? "bg-primary-500 text-white scale-110"
+                    : isAnswered
+                    ? isDarkMode
+                      ? "bg-primary-500/20 text-primary-400"
+                      : "bg-primary-100 text-primary-600"
+                    : isDarkMode
+                    ? "bg-dark-700 text-dark-400 hover:bg-dark-600"
+                    : "bg-gray-100 text-gray-400 hover:bg-gray-200"
+                }`}
+                title={`Question ${idx + 1}${isAnswered ? " (answered)" : ""}`}
+              >
+                {idx + 1}
+              </button>
+            );
+          })}
+        </div>
+      )}
+
+      {/* Mobile-only fixed bottom bar — Prev/Next/Submit always one tap away
+          without scrolling past the (often tall) course-grouped dot grid.
+          Desktop uses the copy above the dot grid instead (see above), so
+          this is hidden there to avoid showing Prev/Next twice. */}
+      <div
+        className={`fixed sm:hidden bottom-0 left-0 right-0 z-30 flex items-center justify-between gap-2 px-3 py-2.5 border-t ${
+          isDarkMode ? "bg-dark-900/95 border-dark-700" : "bg-white/95 border-gray-200"
+        } backdrop-blur-lg`}
+        style={{ paddingBottom: "max(0.625rem, env(safe-area-inset-bottom))" }}
+      >
         <button
           onClick={handlePrev}
           disabled={currentQuestion === 0}
@@ -1747,6 +1846,8 @@ function McqQuiz() {
           </button>
         )}
       </div>
+      {/* Spacer so the fixed mobile bar doesn't overlap the dot grid above it */}
+      <div className="h-16 sm:hidden" />
     </div>
   );
 }
