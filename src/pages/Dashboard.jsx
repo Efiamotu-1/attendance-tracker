@@ -597,11 +597,12 @@ function Dashboard() {
 
      
 
-      {/* Tips Section (only show for new users) */}
-      {isNewUser && (
+      {/* Tips Section (only show for new users) — hidden for now, keep the
+          implementation intact so it's a one-line flip to bring back. */}
+      {/* {isNewUser && (
         <div className={`border rounded-2xl p-6 ${
-          isDarkMode 
-            ? 'bg-dark-800/30 border-dark-700' 
+          isDarkMode
+            ? 'bg-dark-800/30 border-dark-700'
             : 'bg-gray-50 border-gray-200'
         }`}>
           <div className='flex items-center gap-2 mb-4'>
@@ -629,7 +630,7 @@ function Dashboard() {
             </button>
           </div>
         </div>
-      )}
+      )} */}
     </div>
   )
 }

@@ -3,7 +3,7 @@ import {
   HiOutlineHome,
   HiOutlineBookOpen,
   HiOutlineClipboardDocumentList,
-  HiOutlineLightBulb,
+  // HiOutlineLightBulb, // used by the hidden Tips nav item below
   HiOutlineDocumentText,
   HiOutlineChatBubbleLeftRight,
   HiOutlineBolt,
@@ -16,7 +16,8 @@ const navItems = [
   { to: "/flashcards", icon: HiOutlineBolt, label: "Flashcards" },
   { to: "/courses", icon: HiOutlineBookOpen, label: "Courses" },
   { to: "/reports", icon: HiOutlineClipboardDocumentList, label: "Reports" },
-  { to: "/tips", icon: HiOutlineLightBulb, label: "Tips" },
+  // Hidden for now — keep the route/page intact, just not linked from nav.
+  // { to: "/tips", icon: HiOutlineLightBulb, label: "Tips" },
   { to: "/feedback", icon: HiOutlineChatBubbleLeftRight, label: "Feedback & Issues", shortLabel: "Feedback" },
 ];
 

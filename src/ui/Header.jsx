@@ -108,19 +108,21 @@ function Header({ setShowSideBar }) {
           >
             Reports
           </NavLink>
-          <NavLink 
+          {/* Hidden for now — keep the route/page intact, just not linked from nav.
+          <NavLink
             to="/tips"
             className={({ isActive }) => `px-4 py-2 rounded-lg font-medium transition-colors ${
-              isActive 
-                ? 'bg-primary-500/20 text-primary-500' 
-                : isDarkMode 
-                  ? 'text-dark-400 hover:text-white hover:bg-dark-800' 
+              isActive
+                ? 'bg-primary-500/20 text-primary-500'
+                : isDarkMode
+                  ? 'text-dark-400 hover:text-white hover:bg-dark-800'
                   : 'text-gray-600 hover:text-gray-600 hover:bg-gray-100'
             }`}
           >
             Tips
           </NavLink>
-          <NavLink 
+          */}
+          <NavLink
             to="/mcq-past-questions"
             title="MCQ Past Questions"
             className={({ isActive }) => `px-4 py-2 rounded-lg font-medium transition-colors ${
