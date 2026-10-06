@@ -28,7 +28,15 @@ import {
 // real exam year — see revisedMcqQuestion.js's "practice-N" entries.
 const PRACTICE_YEAR = 9999;
 const isPracticeYear = (year) => year === PRACTICE_YEAR;
-const getExamYearLabel = (year) => (isPracticeYear(year) ? "Practice Questions" : year);
+// Snap Tests (practice "snapshot" tests from various sources, e.g. a Lagos
+// Campus snap test) get their own synthetic bucket too — sorts just after
+// Practice Questions (9999) and before any real year, so new snap tests can
+// be added over time and will all group together under one pill/section,
+// the same way Practice sessions do.
+const SNAP_TEST_YEAR = 9998;
+const isSnapTestYear = (year) => year === SNAP_TEST_YEAR;
+const getExamYearLabel = (year) =>
+  isPracticeYear(year) ? "Practice Questions" : isSnapTestYear(year) ? "Snap Tests" : year;
 
 // Downloadable files
 const downloadableFiles = [
@@ -430,7 +438,9 @@ function McqPastQuestions() {
                           >
                             <div>
                               <p className={`text-sm font-semibold ${isDarkMode ? "text-white" : "text-gray-900"}`}>
-                                {isPracticeYear(year) ? session.session : `${session.session} ${session.year}`}
+                                {isPracticeYear(year) || isSnapTestYear(year)
+                                  ? session.session
+                                  : `${session.session} ${session.year}`}
                               </p>
                               <p className={`text-[10px] sm:text-xs ${isDarkMode ? "text-dark-500" : "text-gray-500"}`}>
                                 {session.totalQuestions} questions · 5 courses

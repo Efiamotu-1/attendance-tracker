@@ -17803,6 +17803,1350 @@ const revisedMcqQuestion = {
     ]
   },
 
+  "snap-test-lagos-campus": {
+  "year": 9998,
+  "session": "Snap Test (Lagos Campus)",
+  "examTitle": "Nigerian Law School, Lagos Campus — Snap Test",
+  "totalQuestions": 100,
+  "courses": [
+    {
+      "id": "property-law-practice",
+      "name": "Property Law Practice",
+      "questionsCount": 20,
+      "questions": [
+        {
+          "id": 1,
+          "context": "Mrs Janet Jumiat of 13 Jumiat Street, Idumota Lagos is the owner of a shopping mall at 13 Jumiat Street, Idumota Lagos. Mrs Jumiat is in dire need of funds to enable her attend to her health which is currently deteriorating. She wants to be guided whether to sell, lease or mortgage her property in order to solve her financial needs. As such, she has approached you for advice on the most appropriate property law transaction that will be beneficial as well as the procedure involved in the said transaction.",
+          "question": "Where Mrs Jumiat wants to sell her property to Mirakle Nigeria Limited, the same solicitor can act for both parties in the following instances except....",
+          "options": {
+            "a": "Where the title of the property is sound",
+            "b": "Where there is no conflict of interest",
+            "c": "When the parties agree to use the same solicitor",
+            "d": "Where there is no encumbrance on the property."
+          },
+          "answer": "d",
+          "explanation": "One solicitor can act for both sides where the title is sound, there is no likelihood of conflict, the value is small, or the terms are already agreed. 'No encumbrance' is not one of those recognised instances. (The parties' agreement to use one solicitor counts only if there is full disclosure, under Rule 17 RPC.)"
+        },
+        {
+          "id": 2,
+          "context": "Mrs Janet Jumiat of 13 Jumiat Street, Idumota Lagos is the owner of a shopping mall at 13 Jumiat Street, Idumota Lagos. Mrs Jumiat is in dire need of funds to enable her attend to her health which is currently deteriorating. She wants to be guided whether to sell, lease or mortgage her property in order to solve her financial needs. As such, she has approached you for advice on the most appropriate property law transaction that will be beneficial as well as the procedure involved in the said transaction.",
+          "question": "One of the following will not constitute a good root of title for Mrs Jumiat if Mirakle Nigeria Limited is buying the property",
+          "options": {
+            "a": "Deed of Assignment",
+            "b": "Deed of Legal Mortgage",
+            "c": "Power of Attorney",
+            "d": "Deed of Gift"
+          },
+          "answer": "c",
+          "explanation": "A Power of Attorney is not a good root of title (Ude v Nwara). A Deed of Assignment, Deed of Legal Mortgage and Deed of Gift are good roots."
+        },
+        {
+          "id": 3,
+          "context": "Mrs Janet Jumiat of 13 Jumiat Street, Idumota Lagos is the owner of a shopping mall at 13 Jumiat Street, Idumota Lagos. Mrs Jumiat is in dire need of funds to enable her attend to her health which is currently deteriorating. She wants to be guided whether to sell, lease or mortgage her property in order to solve her financial needs. As such, she has approached you for advice on the most appropriate property law transaction that will be beneficial as well as the procedure involved in the said transaction.",
+          "question": "One of the following statements is false about Exchange of contract",
+          "options": {
+            "a": "Is necessary when parties are represented by different solicitors;",
+            "b": "Creates legal relations;",
+            "c": "Concludes the contract state;",
+            "d": "Takes place in the purchaser's solicitor's office"
+          },
+          "answer": "d",
+          "explanation": "Exchange takes place at the vendor's solicitor's office, not the purchaser's."
+        },
+        {
+          "id": 4,
+          "context": "Mrs Janet Jumiat of 13 Jumiat Street, Idumota Lagos is the owner of a shopping mall at 13 Jumiat Street, Idumota Lagos. Mrs Jumiat is in dire need of funds to enable her attend to her health which is currently deteriorating. She wants to be guided whether to sell, lease or mortgage her property in order to solve her financial needs. As such, she has approached you for advice on the most appropriate property law transaction that will be beneficial as well as the procedure involved in the said transaction.",
+          "question": "Assuming Mrs Jumiat wants to create a legal mortgage in favour of Steeze Mortgage Bank Plc using her property as security, one of the following is not an option by which the mortgage may be created",
+          "options": {
+            "a": "Demise for a term of years absolute",
+            "b": "Sub-demise for a term of years",
+            "c": "Assignment",
+            "d": "Charge by deed expressed to be by way of statutory mortgage"
+          },
+          "answer": "c",
+          "explanation": "In Lagos, MPL ss.15–16 allow only demise, sub-demise, legal charge and statutory charge. Assignment is not one of the modes."
+        },
+        {
+          "id": 5,
+          "context": "Mrs Janet Jumiat of 13 Jumiat Street, Idumota Lagos is the owner of a shopping mall at 13 Jumiat Street, Idumota Lagos. Mrs Jumiat is in dire need of funds to enable her attend to her health which is currently deteriorating. She wants to be guided whether to sell, lease or mortgage her property in order to solve her financial needs. As such, she has approached you for advice on the most appropriate property law transaction that will be beneficial as well as the procedure involved in the said transaction.",
+          "question": "Where Mrs Jumiat obtained a loan of Ten Million Naira from Steeze Bank, the following laws will be applicable to the transaction except.....",
+          "options": {
+            "a": "Mortgages and Property Law of Lagos State 2015",
+            "b": "Land Use Act",
+            "c": "Capital Gains Tax Act",
+            "d": "Constitution of the Federal Republic of Nigeria 1999"
+          },
+          "answer": "c",
+          "explanation": "The Capital Gains Tax Act does not apply, because taking a loan is not a disposal of the asset. The MPL, the Land Use Act (Governor's consent) and the Constitution all apply."
+        },
+        {
+          "id": 6,
+          "context": "Mrs Janet Jumiat of 13 Jumiat Street, Idumota Lagos is the owner of a shopping mall at 13 Jumiat Street, Idumota Lagos. Mrs Jumiat is in dire need of funds to enable her attend to her health which is currently deteriorating. She wants to be guided whether to sell, lease or mortgage her property in order to solve her financial needs. As such, she has approached you for advice on the most appropriate property law transaction that will be beneficial as well as the procedure involved in the said transaction.",
+          "question": "Assuming she opted for an equitable mortgage all the following are options available to her except",
+          "options": {
+            "a": "Mortgage of an equitable interest",
+            "b": "Assignment of an equitable interest",
+            "c": "Deposit of title deeds with an agreement to create a legal mortgage",
+            "d": "Mortgage of Equity of Redemption"
+          },
+          "answer": "d",
+          "explanation": "Lagos equitable mortgages are: deposit of title deeds with an agreement, a charge with an agreement, assignment of an equitable interest, and mortgage of an equitable interest. Mortgage of an equity of redemption is not among them."
+        },
+        {
+          "id": 7,
+          "context": "Mrs Janet Jumiat of 13 Jumiat Street, Idumota Lagos is the owner of a shopping mall at 13 Jumiat Street, Idumota Lagos. Mrs Jumiat is in dire need of funds to enable her attend to her health which is currently deteriorating. She wants to be guided whether to sell, lease or mortgage her property in order to solve her financial needs. As such, she has approached you for advice on the most appropriate property law transaction that will be beneficial as well as the procedure involved in the said transaction.",
+          "question": "The following are the Roles of the Solicitor in Mortgage transactions in Nigeria except....",
+          "options": {
+            "a": "Negotiating the loan with a lender",
+            "b": "Negotiating the loan with a borrower",
+            "c": "Investigating the mortgage instrument",
+            "d": "Perfecting the mortgage instrument."
+          },
+          "answer": "b",
+          "explanation": "The solicitor negotiates the loan with the lender on the borrower's behalf, not with a borrower."
+        },
+        {
+          "id": 8,
+          "context": "Mrs Janet Jumiat of 13 Jumiat Street, Idumota Lagos is the owner of a shopping mall at 13 Jumiat Street, Idumota Lagos. Mrs Jumiat is in dire need of funds to enable her attend to her health which is currently deteriorating. She wants to be guided whether to sell, lease or mortgage her property in order to solve her financial needs. As such, she has approached you for advice on the most appropriate property law transaction that will be beneficial as well as the procedure involved in the said transaction.",
+          "question": "One of the following is not a mandatory document/record to be kept in the Lands Registry, Lagos:",
+          "options": {
+            "a": "The Day List",
+            "b": "Mutation Record;",
+            "c": "Registry Map",
+            "d": "Mortgages Register"
+          },
+          "answer": "d",
+          "explanation": "The Mortgages Register is a LIMS register under s.17 Land Registration Law (LRL). The eight Registry documents are the transactions register, Registry Map, Parcel Files, Day List, Mutation Record, Nominal Index, Register of Powers of Attorney and any other register the Registrar prescribes."
+        },
+        {
+          "id": 9,
+          "context": "Mrs Janet Jumiat of 13 Jumiat Street, Idumota Lagos is the owner of a shopping mall at 13 Jumiat Street, Idumota Lagos. Mrs Jumiat is in dire need of funds to enable her attend to her health which is currently deteriorating. She wants to be guided whether to sell, lease or mortgage her property in order to solve her financial needs. As such, she has approached you for advice on the most appropriate property law transaction that will be beneficial as well as the procedure involved in the said transaction.",
+          "question": "All but one are instances where the Registrar can rectify the register under the Land Registration Law of Lagos 2015",
+          "options": {
+            "a": "The Court so directs",
+            "b": "Where the Head of the family submits a petition",
+            "c": "All parties consent",
+            "d": "Where registration was obtained by fraud."
+          },
+          "answer": "b",
+          "explanation": "A head of family's petition is not a ground for rectification. The grounds are a court order, consent of all affected persons, fraud, mistaken double registration and other error or omission (s.99)."
+        },
+        {
+          "id": 10,
+          "context": "Mrs Janet Jumiat of 13 Jumiat Street, Idumota Lagos is the owner of a shopping mall at 13 Jumiat Street, Idumota Lagos. Mrs Jumiat is in dire need of funds to enable her attend to her health which is currently deteriorating. She wants to be guided whether to sell, lease or mortgage her property in order to solve her financial needs. As such, she has approached you for advice on the most appropriate property law transaction that will be beneficial as well as the procedure involved in the said transaction.",
+          "question": "Under the Land Registration Law of Lagos 2015, the appropriate forms used for application for Certified True Copy and Withdrawal of caution are",
+          "options": {
+            "a": "Forms 1 and 2",
+            "b": "Forms 3 and 4",
+            "c": "Forms 4 and 5",
+            "d": "Forms 5 and 7"
+          },
+          "answer": "d",
+          "explanation": "Form 5 is the application for a certified true copy, and Form 7 is the application to withdraw a caution."
+        },
+        {
+          "id": 11,
+          "context": "Chief Ignasius Kingsley is the Head of title chiefs in Uyo, Akwa Ibom State. He agreed to sell a large parcel of land to representatives of the Boyle family of Mary Slessor Road, Uyo, Akwa Ibom State for its produce farm production. The family gave Chief Kingsley 6 nos 25 litres of palm oil, 5 baskets of kolanuts, 100 litres of PMS and a 250 KVA generator. The items were delivered to Chief Ignasius's house and handed over to the gateman while he (Chief Ignasius) was away to the Obong's palace.",
+          "question": "The contract between Chief Kingsley and the Boyle family is",
+          "options": {
+            "a": "voidable",
+            "b": "Illegal",
+            "c": "Void",
+            "d": "unenforceable"
+          },
+          "answer": "d",
+          "explanation": "It is an oral customary sale. The price was paid in kind but delivered to a gateman, with no credible witnesses and no possession given. So the three Adedeji v Oloso conditions aren't met, and the contract is valid but unenforceable."
+        },
+        {
+          "id": 12,
+          "context": "Chief Ignasius Kingsley is the Head of title chiefs in Uyo, Akwa Ibom State. He agreed to sell a large parcel of land to representatives of the Boyle family of Mary Slessor Road, Uyo, Akwa Ibom State for its produce farm production. The family gave Chief Kingsley 6 nos 25 litres of palm oil, 5 baskets of kolanuts, 100 litres of PMS and a 250 KVA generator. The items were delivered to Chief Ignasius's house and handed over to the gateman while he (Chief Ignasius) was away to the Obong's palace.",
+          "question": "One of the following statements is correct regarding the contract between Chief Kingsley and the family",
+          "options": {
+            "a": "It must be reduced to writing",
+            "b": "Is an exception to sale of land under customary law",
+            "c": "Witnesses must be present",
+            "d": "It is an archaic way of transferring interest to land"
+          },
+          "answer": "c",
+          "explanation": "Credible adult witnesses must be present for an oral customary sale to be enforceable. Writing is not required, because s.5(3)(c) of the Law Reform (Contracts) Act exempts it."
+        },
+        {
+          "id": 13,
+          "context": "Chief Ignasius Kingsley is the Head of title chiefs in Uyo, Akwa Ibom State. He agreed to sell a large parcel of land to representatives of the Boyle family of Mary Slessor Road, Uyo, Akwa Ibom State for its produce farm production. The family gave Chief Kingsley 6 nos 25 litres of palm oil, 5 baskets of kolanuts, 100 litres of PMS and a 250 KVA generator. The items were delivered to Chief Ignasius's house and handed over to the gateman while he (Chief Ignasius) was away to the Obong's palace.",
+          "question": "Assuming Chief Kingsley executed a formal contract of sale of land with the representatives of the Boyle family, all but one is correct",
+          "options": {
+            "a": "The document prevents last minute withdrawal",
+            "b": "The document is a registrable document",
+            "c": "Equitable interest passes",
+            "d": "Legal interest passes."
+          },
+          "answer": "d",
+          "explanation": "Legal interest does not pass on a formal contract. Only equitable interest passes (Universal Vulcanizing v IUTTC), and legal interest passes on the conveyance."
+        },
+        {
+          "id": 14,
+          "context": "Chief Ignasius Kingsley is the Head of title chiefs in Uyo, Akwa Ibom State. He agreed to sell a large parcel of land to representatives of the Boyle family of Mary Slessor Road, Uyo, Akwa Ibom State for its produce farm production. The family gave Chief Kingsley 6 nos 25 litres of palm oil, 5 baskets of kolanuts, 100 litres of PMS and a 250 KVA generator. The items were delivered to Chief Ignasius's house and handed over to the gateman while he (Chief Ignasius) was away to the Obong's palace.",
+          "question": "Where the Boyle family wants to investigate Chief Kingsley's title, one of the following is not material",
+          "options": {
+            "a": "The family must insist on 30 years proof of title",
+            "b": "The family must insist on 40 years proof of title",
+            "c": "Abstract of title must be delivered",
+            "d": "Chief Kingsley must deduce his title"
+          },
+          "answer": "a",
+          "explanation": "Akwa Ibom is a Conveyancing Act (CA) state, so the root of title must go back 40 years. 30 years is the Property and Conveyancing Law (PCL) position, so insisting on it is not material."
+        },
+        {
+          "id": 15,
+          "context": "Chief Ignasius Kingsley is the Head of title chiefs in Uyo, Akwa Ibom State. He agreed to sell a large parcel of land to representatives of the Boyle family of Mary Slessor Road, Uyo, Akwa Ibom State for its produce farm production. The family gave Chief Kingsley 6 nos 25 litres of palm oil, 5 baskets of kolanuts, 100 litres of PMS and a 250 KVA generator. The items were delivered to Chief Ignasius's house and handed over to the gateman while he (Chief Ignasius) was away to the Obong's palace.",
+          "question": "The final document to be executed by the parties is",
+          "options": {
+            "a": "Deed of Conveyance",
+            "b": "Deed of Sale of Land",
+            "c": "Deed of Assignment",
+            "d": "Certificate of Occupancy."
+          },
+          "answer": "a",
+          "explanation": "The final document in a sale is the Deed of Conveyance. (Less sure: I couldn't find this tied expressly to Akwa Ibom. If your class treats Deed of Assignment as the final document, choose C.)"
+        },
+        {
+          "id": 16,
+          "context": "Madam Roli Nqwa of 22 Lagos Street, Ebute Meta, Lagos owns Plots 22-24 Haladu Street, Lekki, Lagos, covered by a Certificate of Occupancy registered as 34/34/2002G. She wants to grant a term of 4 years to Mr Fada Hilton.",
+          "question": "One of the following statements is wrong except",
+          "options": {
+            "a": "The document to be executed is a Deed of Lease and Tenancy Law Lagos 2011 is one of the applicable laws.",
+            "b": "The document to be executed is a Deed of Lease and Registration is not required.",
+            "c": "The document to be executed is a Deed of Sub-Lease and Registration is required.",
+            "d": "The document to be executed is a Deed of Sub-Lease and Registration is not required."
+          },
+          "answer": "c",
+          "explanation": "Madam Nqwa holds a Certificate of Occupancy and is granting 4 years, which is above 3 years. That makes it a Deed of Sub-Lease, and a sub-lease of 3 years or more must be registered."
+        },
+        {
+          "id": 17,
+          "context": "Madam Roli Nqwa of 22 Lagos Street, Ebute Meta, Lagos owns Plots 22-24 Haladu Street, Lekki, Lagos, covered by a Certificate of Occupancy registered as 34/34/2002G. She wants to grant a term of 4 years to Mr Fada Hilton.",
+          "question": "One of the following statements is correct",
+          "options": {
+            "a": "A covenant against assignment and subletting must be expressly included in the agreement executed by the parties.",
+            "b": "A covenant against assignment and subletting need not be included in the agreement.",
+            "c": "It is good if Mr Hilton pays rent for the entire four years.",
+            "d": "Insurance covenant should be included in the document."
+          },
+          "answer": "b",
+          "explanation": "Even if the agreement is silent, s.7(6) of the Lagos Tenancy Law bars assignment and subletting without the landlord's consent. So the covenant need not be expressly included. Rent for all four years in advance is also prohibited in Lagos. (Insurance covenant being good practice is the alternative-reasoning answer.)"
+        },
+        {
+          "id": 18,
+          "question": "One of the following will not be inserted in the Operative part of the document the parties will execute",
+          "options": {
+            "a": "Testimonium",
+            "b": "Testatum",
+            "c": "Reddendum",
+            "d": "Parcels"
+          },
+          "answer": "a",
+          "explanation": "The testimonium belongs to the concluding part of a deed. The testatum, parcels and reddendum are in the operative part."
+        },
+        {
+          "id": 19,
+          "context": "When Madam Nqwa wants to write her will, one of the following will apply",
+          "question": "When Madam Nqwa wants to write her will, one of the following will apply",
+          "options": {
+            "a": "Bank v Goosefellow",
+            "b": "Banks v Goodfellows",
+            "c": "Banks v Goodfellow",
+            "d": "Bank v Goofellow"
+          },
+          "answer": "c",
+          "explanation": "Banks v Goodfellow is the case on testamentary capacity."
+        },
+        {
+          "id": 20,
+          "context": "All but one will not apply to a clause in Madam Nqwa's will that says 'I give the house at Plot 22 Haladu Street, Lekki, Lagos to my daughter, Anne Maki'",
+          "question": "All but one will not apply to a clause in Madam Nqwa's will that says 'I give the house at Plot 22 Haladu Street, Lekki, Lagos to my daughter, Anne Maki'",
+          "options": {
+            "a": "It is general gift",
+            "b": "It is a specific gift",
+            "c": "It may suffer ademption",
+            "d": "Madam Nqwa may give the property to another child by a later will."
+          },
+          "answer": "a",
+          "explanation": "'The house at Plot 22 Haladu Street' is a specific gift, not a general one. A specific gift can suffer ademption, and the testator can later dispose of the property by another will. A is the only statement that doesn't apply (it wrongly calls it a general gift)."
+        }
+      ]
+    },
+    {
+      "id": "criminal-litigation",
+      "name": "Criminal Litigation",
+      "questionsCount": 20,
+      "questions": [
+        {
+          "id": 1,
+          "context": "Mrs Ero Sarki was informed by her second daughter, Chidi Sarki, that their father locked her and her elder sister out of their house at No. 4 Enugu Road, Ebonyi State, because he brought a female visitor to the house. Infuriated by this information, Mrs Sarki confronted her husband, Chief Owode Sarki. In an argument that ensued, which graduated to assault, Mrs Sarki stabbed Chief Owode Sarki with a knife which resulted to his death. Mrs Sarki was arrested by a team of Police Officers from Ebonyi State Command, Abakiliki. After investigation, the following one count charge was drafted by the Attorney General of Ebonyi State and filed at the High Court of Ebonyi State, Abakiliki: \"That you Mrs Ero Sarki on 27th May, 2025, at No. 4 Enugu Road, Ebonyi State, within the jurisdiction of this Honourable Court assaulted and murdered Chief Owode Sarki by stabbing him with a knife.\"",
+          "question": "Which of the following should be parties to the above charge?",
+          "options": {
+            "a": "The State as the Complainant and Mrs Ero Sarki as the Defendant",
+            "b": "The State of Ebonyi as the Complainant and Mrs Ero Sarki as the Defendant",
+            "c": "The Attorney General as the Complainant and Mrs Ero Sarki as the Defendant",
+            "d": "Chief Owode Sarki as the Complainant and Mrs Ero Sarki as the Defendant"
+          },
+          "answer": "a",
+          "explanation": "Ebonyi is a Southern, non-Lagos state, so the prosecutorial authority at the High Court is simply 'The State' (only Lagos uses 'The State of Lagos')."
+        },
+        {
+          "id": 2,
+          "context": "Mrs Ero Sarki was informed by her second daughter, Chidi Sarki, that their father locked her and her elder sister out of their house at No. 4 Enugu Road, Ebonyi State, because he brought a female visitor to the house. Infuriated by this information, Mrs Sarki confronted her husband, Chief Owode Sarki. In an argument that ensued, which graduated to assault, Mrs Sarki stabbed Chief Owode Sarki with a knife which resulted to his death. Mrs Sarki was arrested by a team of Police Officers from Ebonyi State Command, Abakiliki. After investigation, the following one count charge was drafted by the Attorney General of Ebonyi State and filed at the High Court of Ebonyi State, Abakiliki: \"That you Mrs Ero Sarki on 27th May, 2025, at No. 4 Enugu Road, Ebonyi State, within the jurisdiction of this Honourable Court assaulted and murdered Chief Owode Sarki by stabbing him with a knife.\"",
+          "question": "Which of the following rules of drafting did the above charge offend?",
+          "options": {
+            "a": "Misjoinder of offences",
+            "b": "Duplicity",
+            "c": "Ambiguity",
+            "d": "Misjoinder of offenders"
+          },
+          "answer": "b",
+          "explanation": "The single count recites two separate offences ('assaulted and murdered') in one count, which is the rule against duplicity, not misjoinder (which concerns separate counts/accused)."
+        },
+        {
+          "id": 3,
+          "context": "Mrs Ero Sarki was informed by her second daughter, Chidi Sarki, that their father locked her and her elder sister out of their house at No. 4 Enugu Road, Ebonyi State, because he brought a female visitor to the house. Infuriated by this information, Mrs Sarki confronted her husband, Chief Owode Sarki. In an argument that ensued, which graduated to assault, Mrs Sarki stabbed Chief Owode Sarki with a knife which resulted to his death. Mrs Sarki was arrested by a team of Police Officers from Ebonyi State Command, Abakiliki. After investigation, the following one count charge was drafted by the Attorney General of Ebonyi State and filed at the High Court of Ebonyi State, Abakiliki: \"That you Mrs Ero Sarki on 27th May, 2025, at No. 4 Enugu Road, Ebonyi State, within the jurisdiction of this Honourable Court assaulted and murdered Chief Owode Sarki by stabbing him with a knife.\"",
+          "question": "How would you identify the form of the above draft?",
+          "options": {
+            "a": "Information",
+            "b": "First Information Report",
+            "c": "Complaint",
+            "d": "Charge"
+          },
+          "answer": "d",
+          "explanation": "It is drafted by the AG and filed at the High Court, matching the courts that use the 'Charge' form (Magistrate North, High Court North, FHC), not the Lagos/Abuja 'Information' model."
+        },
+        {
+          "id": 4,
+          "context": "Mrs Ero Sarki was informed by her second daughter, Chidi Sarki, that their father locked her and her elder sister out of their house at No. 4 Enugu Road, Ebonyi State, because he brought a female visitor to the house. Infuriated by this information, Mrs Sarki confronted her husband, Chief Owode Sarki. In an argument that ensued, which graduated to assault, Mrs Sarki stabbed Chief Owode Sarki with a knife which resulted to his death. Mrs Sarki was arrested by a team of Police Officers from Ebonyi State Command, Abakiliki. After investigation, the following one count charge was drafted by the Attorney General of Ebonyi State and filed at the High Court of Ebonyi State, Abakiliki: \"That you Mrs Ero Sarki on 27th May, 2025, at No. 4 Enugu Road, Ebonyi State, within the jurisdiction of this Honourable Court assaulted and murdered Chief Owode Sarki by stabbing him with a knife.\"",
+          "question": "Which of the following Courts can you use the form of the above draft?",
+          "options": {
+            "a": "Magistrate Court in the North",
+            "b": "Federal High Court",
+            "c": "High Court in the North",
+            "d": "All of the above"
+          },
+          "answer": "d",
+          "explanation": "Magistrate Court North, FHC, and High Court North all use the same 'Charge' form."
+        },
+        {
+          "id": 5,
+          "context": "Mrs Ero Sarki was informed by her second daughter, Chidi Sarki, that their father locked her and her elder sister out of their house at No. 4 Enugu Road, Ebonyi State, because he brought a female visitor to the house. Infuriated by this information, Mrs Sarki confronted her husband, Chief Owode Sarki. In an argument that ensued, which graduated to assault, Mrs Sarki stabbed Chief Owode Sarki with a knife which resulted to his death. Mrs Sarki was arrested by a team of Police Officers from Ebonyi State Command, Abakiliki. After investigation, the following one count charge was drafted by the Attorney General of Ebonyi State and filed at the High Court of Ebonyi State, Abakiliki: \"That you Mrs Ero Sarki on 27th May, 2025, at No. 4 Enugu Road, Ebonyi State, within the jurisdiction of this Honourable Court assaulted and murdered Chief Owode Sarki by stabbing him with a knife.\"",
+          "question": "As the defence counsel, at what point would you raise objection to the defective charge?",
+          "options": {
+            "a": "Before the plea is taken",
+            "b": "After the plea is taken",
+            "c": "As a preliminary objection",
+            "d": "On Appeal"
+          },
+          "answer": "a",
+          "explanation": "A defective charge must be raised before the plea is taken, failing which it is deemed waived."
+        },
+        {
+          "id": 6,
+          "context": "Imoh Ette is a security man in a popular Night Club around Bodija Area in Ibadan, Oyo State. One fateful night, a group of boys wanted to force themselves into the night club without payment of the necessary fees. As a result of the noise it generated, Mr Odion Kema, the operator of the Night Club came out only to be hit by a bullet and he died instantly. Eventually, the Police arrested Jasper Adazi and Tuyo Yeye as among the people that perpetrated the crime, though they denied their involvement. The Police is planning to organise an identification parade to enable Imoh Ette identify them. Eventually, they were charged by the Attorney General of the Federation arraigned at the High Court of the Federal Capital Territory, Abuja.",
+          "question": "How many persons are to form the identification parade?",
+          "options": {
+            "a": "12 persons including the suspects",
+            "b": "8 persons excluding the suspects",
+            "c": "14 persons including the suspects",
+            "d": "9 persons including the suspects"
+          },
+          "answer": "c",
+          "explanation": "With two suspects (Jasper Adazi and Tuyo Yeye) the parade requires at least 12 other persons plus the 2 suspects, i.e. 14 persons including the suspects."
+        },
+        {
+          "id": 7,
+          "context": "Imoh Ette is a security man in a popular Night Club around Bodija Area in Ibadan, Oyo State. One fateful night, a group of boys wanted to force themselves into the night club without payment of the necessary fees. As a result of the noise it generated, Mr Odion Kema, the operator of the Night Club came out only to be hit by a bullet and he died instantly. Eventually, the Police arrested Jasper Adazi and Tuyo Yeye as among the people that perpetrated the crime, though they denied their involvement. The Police is planning to organise an identification parade to enable Imoh Ette identify them. Eventually, they were charged by the Attorney General of the Federation arraigned at the High Court of the Federal Capital Territory, Abuja.",
+          "question": "Assuming Jasper Adazi raised the defence of Alibi upon his arrest, which of the following particulars must he supply to enable the police investigate?",
+          "options": {
+            "a": "Where he was at the time of the crime",
+            "b": "the persons he was with at the time of the crime",
+            "c": "the time at which he was with the persons",
+            "d": "All of the above"
+          },
+          "answer": "d",
+          "explanation": "An alibi must state where he was, who he was with, and the time he was with them - all three particulars."
+        },
+        {
+          "id": 8,
+          "context": "Imoh Ette is a security man in a popular Night Club around Bodija Area in Ibadan, Oyo State. One fateful night, a group of boys wanted to force themselves into the night club without payment of the necessary fees. As a result of the noise it generated, Mr Odion Kema, the operator of the Night Club came out only to be hit by a bullet and he died instantly. Eventually, the Police arrested Jasper Adazi and Tuyo Yeye as among the people that perpetrated the crime, though they denied their involvement. The Police is planning to organise an identification parade to enable Imoh Ette identify them. Eventually, they were charged by the Attorney General of the Federation arraigned at the High Court of the Federal Capital Territory, Abuja.",
+          "question": "Assuming Jasper Adazi confessed to the crime, under what circumstance will his confession bind Tuyo Yeye?",
+          "options": {
+            "a": "If there is corroboration",
+            "b": "If he adopts the confession",
+            "c": "If confirmed by the evidence of an expert",
+            "d": "None of the above"
+          },
+          "answer": "b",
+          "explanation": "A co-accused's confession only binds another accused where that other accused adopts it on oath during trial."
+        },
+        {
+          "id": 9,
+          "context": "Imoh Ette is a security man in a popular Night Club around Bodija Area in Ibadan, Oyo State. One fateful night, a group of boys wanted to force themselves into the night club without payment of the necessary fees. As a result of the noise it generated, Mr Odion Kema, the operator of the Night Club came out only to be hit by a bullet and he died instantly. Eventually, the Police arrested Jasper Adazi and Tuyo Yeye as among the people that perpetrated the crime, though they denied their involvement. The Police is planning to organise an identification parade to enable Imoh Ette identify them. Eventually, they were charged by the Attorney General of the Federation arraigned at the High Court of the Federal Capital Territory, Abuja.",
+          "question": "The prosecution may prove that the bullet that killed Mr Odion Kema was shot by an AK47 rifle by the following, except:",
+          "options": {
+            "a": "Calling a Pathologist as a witness",
+            "b": "Tendering the bullet in evidence",
+            "c": "Calling a ballistic expert as a witness",
+            "d": "Calling a very senior police officer as a witness"
+          },
+          "answer": "d",
+          "explanation": "A pathologist, the bullet itself, and a ballistic expert all go to proving the weapon/cause of death, but calling 'a very senior police officer as a witness' does not establish the type of firearm used."
+        },
+        {
+          "id": 10,
+          "context": "Imoh Ette is a security man in a popular Night Club around Bodija Area in Ibadan, Oyo State. One fateful night, a group of boys wanted to force themselves into the night club without payment of the necessary fees. As a result of the noise it generated, Mr Odion Kema, the operator of the Night Club came out only to be hit by a bullet and he died instantly. Eventually, the Police arrested Jasper Adazi and Tuyo Yeye as among the people that perpetrated the crime, though they denied their involvement. The Police is planning to organise an identification parade to enable Imoh Ette identify them. Eventually, they were charged by the Attorney General of the Federation arraigned at the High Court of the Federal Capital Territory, Abuja.",
+          "question": "Assuming the government does not want to continue the prosecution in this case, which of the following steps is the most appropriate step to take?",
+          "options": {
+            "a": "The President to grant pardon",
+            "c": "The Attorney General to enter Nolle Prosequi",
+            "d": "The Prosecutor may enter a defence of autrefois acquit",
+            "e": "The Court may strike out the case suo motu"
+          },
+          "answer": "c",
+          "explanation": "Where government does not wish to continue a prosecution, the correct step is for the Attorney General to enter a Nolle Prosequi. Note: the original exam paper skips the letter (b) for this question, jumping from (a) to (c), so the option lettering here preserves that quirk rather than renumbering sequentially."
+        },
+        {
+          "id": 11,
+          "context": "Fearful and Jagman were arrested by Special Fraud Unit of the Nigerian Police on May 5, 2025, for defrauding Joke of her Law School Tuition Fees in the sum of N1 million. During their interrogation, Jagman informed the Police that he only understands pidgin English by which his statement was taken; Fearful on his part stated that he only understands Ibibio and an interpreter was called who translated his statement to English Language. They were eventually arraigned on June 11, 2025, for fraudulent misrepresentation which carries maximum sentence of 2 years or fine of N50,000.00, or both. The trial proceeded without the defendants being represented until they opened their defence.",
+          "question": "One of the following is true of the arraignment of the Defendants:",
+          "options": {
+            "a": "The Court must provide interpreters to all the Defendants",
+            "b": "The Court is only obliged to provide Fearful with an interpreter",
+            "c": "The Court is only required to inform the Defendants to procure an interpreter where they required one.",
+            "d": "All of the above"
+          },
+          "answer": "b",
+          "explanation": "Fearful (Ibibio-only speaker) needs an interpreter, but a defendant who understands pidgin English is deemed to understand English and needs none, so only Fearful must be provided one."
+        },
+        {
+          "id": 12,
+          "context": "Fearful and Jagman were arrested by Special Fraud Unit of the Nigerian Police on May 5, 2025, for defrauding Joke of her Law School Tuition Fees in the sum of N1 million. During their interrogation, Jagman informed the Police that he only understands pidgin English by which his statement was taken; Fearful on his part stated that he only understands Ibibio and an interpreter was called who translated his statement to English Language. They were eventually arraigned on June 11, 2025, for fraudulent misrepresentation which carries maximum sentence of 2 years or fine of N50,000.00, or both. The trial proceeded without the defendants being represented until they opened their defence.",
+          "question": "One of the following is correct in relation to the Defendants in the scenario:",
+          "options": {
+            "a": "The cost of engaging an interpreter is solely borne by the Court",
+            "b": "The Judge is not obliged to grant it except on special circumstances",
+            "c": "The Defendants are entitled to bail as of right",
+            "d": "The Defendants can only granted bail if the application is made by motion on notice"
+          },
+          "answer": "a",
+          "explanation": "The right to an interpreter is provided at the expense of the court; the right cannot be raised for the first time on appeal unless it was raised and refused below."
+        },
+        {
+          "id": 13,
+          "context": "Fearful and Jagman were arrested by Special Fraud Unit of the Nigerian Police on May 5, 2025, for defrauding Joke of her Law School Tuition Fees in the sum of N1 million. During their interrogation, Jagman informed the Police that he only understands pidgin English by which his statement was taken; Fearful on his part stated that he only understands Ibibio and an interpreter was called who translated his statement to English Language. They were eventually arraigned on June 11, 2025, for fraudulent misrepresentation which carries maximum sentence of 2 years or fine of N50,000.00, or both. The trial proceeded without the defendants being represented until they opened their defence.",
+          "question": "As counsel for the Defendants, your application for their bail can be made in the following way:",
+          "options": {
+            "a": "Orally",
+            "b": "Summons",
+            "c": "Motion on Notice",
+            "d": "Any of the above"
+          },
+          "answer": "a",
+          "explanation": "In the Magistrate's Court, oral application for bail suffices unless the Magistrate directs otherwise, and this minor offence (2 years/N50,000 fine) falls within Magistrate Court jurisdiction."
+        },
+        {
+          "id": 14,
+          "context": "Fearful and Jagman were arrested by Special Fraud Unit of the Nigerian Police on May 5, 2025, for defrauding Joke of her Law School Tuition Fees in the sum of N1 million. During their interrogation, Jagman informed the Police that he only understands pidgin English by which his statement was taken; Fearful on his part stated that he only understands Ibibio and an interpreter was called who translated his statement to English Language. They were eventually arraigned on June 11, 2025, for fraudulent misrepresentation which carries maximum sentence of 2 years or fine of N50,000.00, or both. The trial proceeded without the defendants being represented until they opened their defence.",
+          "question": "One of the following is one of the factors for granting the Defendants bail?",
+          "options": {
+            "a": "Nature of the offence and the prescribed punishment",
+            "b": "Interference with evidence",
+            "c": "Likelihood of jumping bail",
+            "d": "All of the above"
+          },
+          "answer": "d",
+          "explanation": "Nature of offence/punishment, interference with evidence, and likelihood of jumping bail are all recognised factors for granting bail."
+        },
+        {
+          "id": 15,
+          "context": "Fearful and Jagman were arrested by Special Fraud Unit of the Nigerian Police on May 5, 2025, for defrauding Joke of her Law School Tuition Fees in the sum of N1 million. During their interrogation, Jagman informed the Police that he only understands pidgin English by which his statement was taken; Fearful on his part stated that he only understands Ibibio and an interpreter was called who translated his statement to English Language. They were eventually arraigned on June 11, 2025, for fraudulent misrepresentation which carries maximum sentence of 2 years or fine of N50,000.00, or both. The trial proceeded without the defendants being represented until they opened their defence.",
+          "question": "One of the following is correct of the bail application made by the Defendants in this case:",
+          "options": {
+            "a": "The court's decision to grant bail depends on whether the prosecution opposes the application for bail or not.",
+            "b": "The Judge is not obliged to grant it except on special circumstances",
+            "c": "The Defendants are entitled to bail as of right",
+            "d": "The Defendants can only granted bail if the application is made by motion on notice"
+          },
+          "answer": "c",
+          "explanation": "Fraudulent misrepresentation (max 2 years) is a misdemeanour below 3 years, and the court 'shall grant bail as a matter of course' in such cases - i.e. bail as of right."
+        },
+        {
+          "id": 16,
+          "context": "The Department of Security Services arrested Mr Kefas Charly in Taraba State and took him to Abuja on an alleged offence of Terrorism. Mr Charly made a confessional statement in his native language as he does not understand English. The Statement was interpreted and written in English by Inspector Maja. After investigation, Mr Charly was arraigned in the Federal High Court, Kaduna. The defence counsel filed a bail application. He also filed an objection to the jurisdiction of the Court arguing that the Federal High Court in Kaduna lacked jurisdiction. His reason is that the alleged offence was committed in Taraba State. In his ruling, His Lordship refused bail and overruled the defence counsel on the issue of jurisdiction.",
+          "question": "Which of the following judicial authorities supports the contention of the defence counsel on the issue of jurisdiction?",
+          "options": {
+            "a": "FRN v. Abiola",
+            "b": "FRN v. Osahon",
+            "c": "FRN v. Ibori",
+            "d": "Umar v. FRN"
+          },
+          "answer": "c",
+          "explanation": "FRN v Ibori held that a criminal case must be filed where the offence took place and condemned moving a matter to a different division as forum shopping, directly supporting the objection that FHC Kaduna lacked jurisdiction over an offence committed in Taraba."
+        },
+        {
+          "id": 17,
+          "context": "The Department of Security Services arrested Mr Kefas Charly in Taraba State and took him to Abuja on an alleged offence of Terrorism. Mr Charly made a confessional statement in his native language as he does not understand English. The Statement was interpreted and written in English by Inspector Maja. After investigation, Mr Charly was arraigned in the Federal High Court, Kaduna. The defence counsel filed a bail application. He also filed an objection to the jurisdiction of the Court arguing that the Federal High Court in Kaduna lacked jurisdiction. His reason is that the alleged offence was committed in Taraba State. In his ruling, His Lordship refused bail and overruled the defence counsel on the issue of jurisdiction.",
+          "question": "Which of the following options is open to the defence counsel upon refusal of bail application?",
+          "options": {
+            "a": "Apply to another High Court for bail",
+            "b": "File a summons for bail before another judge in the same court",
+            "c": "Appeal against the ruling to the Court of Appeal",
+            "d": "File a fresh application for bail in the Court of Appeal"
+          },
+          "answer": "d",
+          "explanation": "A bail refusal is remedied by a fresh application (not an appeal) at the next higher court - here, the Court of Appeal."
+        },
+        {
+          "id": 18,
+          "context": "The Department of Security Services arrested Mr Kefas Charly in Taraba State and took him to Abuja on an alleged offence of Terrorism. Mr Charly made a confessional statement in his native language as he does not understand English. The Statement was interpreted and written in English by Inspector Maja. After investigation, Mr Charly was arraigned in the Federal High Court, Kaduna. The defence counsel filed a bail application. He also filed an objection to the jurisdiction of the Court arguing that the Federal High Court in Kaduna lacked jurisdiction. His reason is that the alleged offence was committed in Taraba State. In his ruling, His Lordship refused bail and overruled the defence counsel on the issue of jurisdiction.",
+          "question": "Assuming Mr Charly denies making any confessional statement during his trial in court, what is the proper step to be taken by the Court?",
+          "options": {
+            "a": "Admit the statement",
+            "b": "call for trial-within-trial",
+            "c": "call for a corroborative evidence",
+            "d": "call for opinion of expert"
+          },
+          "answer": "a",
+          "explanation": "Charly's outright denial that he made the statement is a retraction (not an involuntariness objection), and retraction does not affect admissibility - the court must admit the statement and only weigh it later; trial-within-trial applies only to involuntariness."
+        },
+        {
+          "id": 19,
+          "context": "The Department of Security Services arrested Mr Kefas Charly in Taraba State and took him to Abuja on an alleged offence of Terrorism. Mr Charly made a confessional statement in his native language as he does not understand English. The Statement was interpreted and written in English by Inspector Maja. After investigation, Mr Charly was arraigned in the Federal High Court, Kaduna. The defence counsel filed a bail application. He also filed an objection to the jurisdiction of the Court arguing that the Federal High Court in Kaduna lacked jurisdiction. His reason is that the alleged offence was committed in Taraba State. In his ruling, His Lordship refused bail and overruled the defence counsel on the issue of jurisdiction.",
+          "question": "Which of the following is generally true in respect of the confessional statement in this case?",
+          "options": {
+            "a": "Only Inspector Maja can tender it",
+            "b": "The IPO can always tender it",
+            "c": "Any officer present when the statement was made may tender it",
+            "d": "Any of the above"
+          },
+          "answer": "a",
+          "explanation": "A confessional statement must be tendered through the police officer who recorded it, and on the facts Inspector Maja is the one who interpreted and recorded Charly's statement."
+        },
+        {
+          "id": 20,
+          "context": "The Department of Security Services arrested Mr Kefas Charly in Taraba State and took him to Abuja on an alleged offence of Terrorism. Mr Charly made a confessional statement in his native language as he does not understand English. The Statement was interpreted and written in English by Inspector Maja. After investigation, Mr Charly was arraigned in the Federal High Court, Kaduna. The defence counsel filed a bail application. He also filed an objection to the jurisdiction of the Court arguing that the Federal High Court in Kaduna lacked jurisdiction. His reason is that the alleged offence was committed in Taraba State. In his ruling, His Lordship refused bail and overruled the defence counsel on the issue of jurisdiction.",
+          "question": "Assuming Mr Charly was charged with Robbery at the High Court of Taraba State, can the court justifiably convict him of Armed Robbery?",
+          "options": {
+            "a": "Yes, because they have the same ingredients",
+            "b": "Yes, because Robbery is a higher offence",
+            "c": "No, because Robbery is a lesser offence",
+            "d": "None of the above"
+          },
+          "answer": "c",
+          "explanation": "A court can only convict of a lesser offence than the one charged, never a greater one; Armed Robbery is the aggravated (greater) offence and Robbery the lesser, so a Robbery charge cannot sustain an Armed Robbery conviction."
+        }
+      ]
+    },
+    {
+      "id": "professional-ethics",
+      "name": "Professional Ethics",
+      "questionsCount": 20,
+      "questions": [
+        {
+          "id": 1,
+          "context": "Chief Ifenna Bashua turned up in the Law Firm of Taye Dara & Co (SAN) for a meeting and told the learned Silk in company of his juniors in chambers how his thirty year old marriage is crumbling because his wife had decided to join politics, therefore abandoning her marital duties. He instructed the Senior Advocate to file a Petition to dissolve his marriage as he could no longer bear the pains of going to bed every night hungry. Immediately Chief left, the SAN picked a cover letter on his table and instructed a new wig, Chubby Cappa, who is seeking employment as part of his test, to write Chief Bashua a letter to be sure of the instructions he had given to the firm.",
+          "question": "Assuming the Learned SAN adopted Avrom Sherr's Model of interviewing in his meeting with Chief Bashua, which of the following is NOT one of the stages in the interview?",
+          "options": {
+            "a": "Listening",
+            "b": "Taking Instructions",
+            "c": "Questioning",
+            "d": "Advising"
+          },
+          "answer": "b",
+          "explanation": "Avrom Sherr's three stages are Listening, Questioning and Advising, so 'Taking Instructions' is not one of them."
+        },
+        {
+          "id": 2,
+          "context": "Chief Ifenna Bashua turned up in the Law Firm of Taye Dara & Co (SAN) for a meeting and told the learned Silk in company of his juniors in chambers how his thirty year old marriage is crumbling because his wife had decided to join politics, therefore abandoning her marital duties. He instructed the Senior Advocate to file a Petition to dissolve his marriage as he could no longer bear the pains of going to bed every night hungry. Immediately Chief left, the SAN picked a cover letter on his table and instructed a new wig, Chubby Cappa, who is seeking employment as part of his test, to write Chief Bashua a letter to be sure of the instructions he had given to the firm.",
+          "question": "How would you identify the Letter written by the Junior Counsel in Taye Dara & Co (SAN)?",
+          "options": {
+            "a": "Status Letter",
+            "b": "Letter of Confirmation",
+            "c": "Opinion Letter",
+            "d": "Negotiation Letter"
+          },
+          "answer": "b",
+          "explanation": "Chubby was told to write to be sure of the instructions Chief Bashua gave, and that is a letter confirming a client's instructions."
+        },
+        {
+          "id": 3,
+          "context": "Chief Ifenna Bashua turned up in the Law Firm of Taye Dara & Co (SAN) for a meeting and told the learned Silk in company of his juniors in chambers how his thirty year old marriage is crumbling because his wife had decided to join politics, therefore abandoning her marital duties. He instructed the Senior Advocate to file a Petition to dissolve his marriage as he could no longer bear the pains of going to bed every night hungry. Immediately Chief left, the SAN picked a cover letter on his table and instructed a new wig, Chubby Cappa, who is seeking employment as part of his test, to write Chief Bashua a letter to be sure of the instructions he had given to the firm.",
+          "question": "Assuming the Letter written to Chief Bashua is for negotiation of professional fees and the Firm does not want to be bound by the terms of negotiation, which of the following clauses should be added in the letter?",
+          "options": {
+            "a": "Without Prejudice",
+            "b": "Meet and Greet",
+            "c": "Subject to contract",
+            "d": "None of the above"
+          },
+          "answer": "c",
+          "explanation": "Where 'subject to contract' is used, the parties are not bound by their negotiations until a formal contract is executed. 'Without prejudice' only makes the letter inadmissible against its maker."
+        },
+        {
+          "id": 4,
+          "context": "Chief Ifenna Bashua turned up in the Law Firm of Taye Dara & Co (SAN) for a meeting and told the learned Silk in company of his juniors in chambers how his thirty year old marriage is crumbling because his wife had decided to join politics, therefore abandoning her marital duties. He instructed the Senior Advocate to file a Petition to dissolve his marriage as he could no longer bear the pains of going to bed every night hungry. Immediately Chief left, the SAN picked a cover letter on his table and instructed a new wig, Chubby Cappa, who is seeking employment as part of his test, to write Chief Bashua a letter to be sure of the instructions he had given to the firm.",
+          "question": "Which of the following is one of the uses of a cover letter mentioned in the scenario?",
+          "options": {
+            "a": "A means of forwarding the CV to the law firm",
+            "b": "For drawing the employer's attention to some important sections of the CV",
+            "c": "For clarifying some gaps in the CV",
+            "d": "All of the above"
+          },
+          "answer": "d",
+          "explanation": "A cover letter forwards the CV, draws the employer's attention to important sections, and clarifies gaps in it."
+        },
+        {
+          "id": 5,
+          "context": "Chief Ifenna Bashua turned up in the Law Firm of Taye Dara & Co (SAN) for a meeting and told the learned Silk in company of his juniors in chambers how his thirty year old marriage is crumbling because his wife had decided to join politics, therefore abandoning her marital duties. He instructed the Senior Advocate to file a Petition to dissolve his marriage as he could no longer bear the pains of going to bed every night hungry. Immediately Chief left, the SAN picked a cover letter on his table and instructed a new wig, Chubby Cappa, who is seeking employment as part of his test, to write Chief Bashua a letter to be sure of the instructions he had given to the firm.",
+          "question": "Assuming the Learned SAN wanted to officially communicate to all juniors in chambers, a policy of change in the resumption time of the firm from 9am to 7am, how would that be achieved?",
+          "options": {
+            "a": "Office WhatsApp Group",
+            "b": "Official Email Addresses",
+            "c": "Office Memorandum",
+            "d": "All of the above"
+          },
+          "answer": "c",
+          "explanation": "The Office Memorandum is the official means of communicating a directive within an organisation."
+        },
+        {
+          "id": 6,
+          "context": "Chief Ifenna Bashua turned up in the Law Firm of Taye Dara & Co (SAN) for a meeting and told the learned Silk in company of his juniors in chambers how his thirty year old marriage is crumbling because his wife had decided to join politics, therefore abandoning her marital duties. He instructed the Senior Advocate to file a Petition to dissolve his marriage as he could no longer bear the pains of going to bed every night hungry. Immediately Chief left, the SAN picked a cover letter on his table and instructed a new wig, Chubby Cappa, who is seeking employment as part of his test, to write Chief Bashua a letter to be sure of the instructions he had given to the firm.",
+          "question": "Assuming Chubby Cappa was called to bar with the backlog set last month, which of the following is his exclusive right?",
+          "options": {
+            "a": "Right to be appointed a Judge",
+            "b": "Right to prepare Court Processes",
+            "c": "Right to become a Senior Advocate",
+            "d": "All of the above"
+          },
+          "answer": "b",
+          "explanation": "Section 22 LPA makes the right to prepare court processes exclusive to lawyers. Chubby was only called last month, so he can't yet be a judge (10 years post-call) or a Senior Advocate."
+        },
+        {
+          "id": 7,
+          "context": "Chief Ifenna Bashua turned up in the Law Firm of Taye Dara & Co (SAN) for a meeting and told the learned Silk in company of his juniors in chambers how his thirty year old marriage is crumbling because his wife had decided to join politics, therefore abandoning her marital duties. He instructed the Senior Advocate to file a Petition to dissolve his marriage as he could no longer bear the pains of going to bed every night hungry. Immediately Chief left, the SAN picked a cover letter on his table and instructed a new wig, Chubby Cappa, who is seeking employment as part of his test, to write Chief Bashua a letter to be sure of the instructions he had given to the firm.",
+          "question": "Which of the following is the annual practicing fee payable by Taye Dara SAN?",
+          "options": {
+            "a": "N40,000.00",
+            "b": "N25,000.00",
+            "c": "N50,000.00",
+            "d": "N35,000.00"
+          },
+          "answer": "c",
+          "explanation": "A SAN or member of the Body of Benchers pays N50,000 annually under the Legal Practitioners (Bar Practising Fees) Notice 2002."
+        },
+        {
+          "id": 8,
+          "context": "Chief Ifenna Bashua turned up in the Law Firm of Taye Dara & Co (SAN) for a meeting and told the learned Silk in company of his juniors in chambers how his thirty year old marriage is crumbling because his wife had decided to join politics, therefore abandoning her marital duties. He instructed the Senior Advocate to file a Petition to dissolve his marriage as he could no longer bear the pains of going to bed every night hungry. Immediately Chief left, the SAN picked a cover letter on his table and instructed a new wig, Chubby Cappa, who is seeking employment as part of his test, to write Chief Bashua a letter to be sure of the instructions he had given to the firm.",
+          "question": "Which of the following activities of Taye Dara (SAN) & Co is improper?",
+          "options": {
+            "a": "Erecting a billboard with the words \"Solicitor and Advocate of Nigeria\"",
+            "b": "Making new complimentary cards for juniors in chambers reflecting changes in address or telephone number",
+            "c": "Affixing a soberly designed notice on the wall where the chambers is situated",
+            "d": "Furnishing informative data in a reputable law journal"
+          },
+          "answer": "a",
+          "explanation": "Rule 41 RPC allows only a sign of reasonable size and sober design at the entrance of the practice premises. The other three activities are permitted under Rules 39 to 43."
+        },
+        {
+          "id": 9,
+          "context": "Chief Ifenna Bashua turned up in the Law Firm of Taye Dara & Co (SAN) for a meeting and told the learned Silk in company of his juniors in chambers how his thirty year old marriage is crumbling because his wife had decided to join politics, therefore abandoning her marital duties. He instructed the Senior Advocate to file a Petition to dissolve his marriage as he could no longer bear the pains of going to bed every night hungry. Immediately Chief left, the SAN picked a cover letter on his table and instructed a new wig, Chubby Cappa, who is seeking employment as part of his test, to write Chief Bashua a letter to be sure of the instructions he had given to the firm.",
+          "question": "Assuming there is a complaint of professional misconduct by chief Bashua against Taye Dara, SAN, which of the following regulatory bodies will be responsible for his discipline?",
+          "options": {
+            "a": "Body of Senior Advocates of Nigeria (BOSAN)",
+            "b": "Legal Practitioners Disciplinary Committee",
+            "c": "Legal Practitioners Privileges Committee",
+            "d": "All of the above"
+          },
+          "answer": "b",
+          "explanation": "The LPDC handles misconduct complaints against any lawyer. The LPPC only confers the SAN rank, and withdraws it where the LPDC makes an adverse finding."
+        },
+        {
+          "id": 10,
+          "context": "Chief Ifenna Bashua turned up in the Law Firm of Taye Dara & Co (SAN) for a meeting and told the learned Silk in company of his juniors in chambers how his thirty year old marriage is crumbling because his wife had decided to join politics, therefore abandoning her marital duties. He instructed the Senior Advocate to file a Petition to dissolve his marriage as he could no longer bear the pains of going to bed every night hungry. Immediately Chief left, the SAN picked a cover letter on his table and instructed a new wig, Chubby Cappa, who is seeking employment as part of his test, to write Chief Bashua a letter to be sure of the instructions he had given to the firm.",
+          "question": "Assuming NBA stamp and seal was not fixed in the letter sent to chief Bashua by Taye Dara (SAN) & Co, which of the following is the implication?",
+          "options": {
+            "a": "The letter is a nullity",
+            "b": "The Letter is irregular and voidable",
+            "c": "The Letter is worthless",
+            "d": "None of the above"
+          },
+          "answer": "b",
+          "explanation": "This is the holding in APC v Yaki on Rule 10 RPC 2023. The document becomes valid once the stamp and seal are affixed."
+        },
+        {
+          "id": 11,
+          "context": "Debem Diri was called to the Nigerian Bar in July, 2021 and immediately established his own Law Office. Chief Madu, an old friend, called him to his office to give him a brief and Dubem accepted. Chief Madu instructed Dubem to manage his estate and collect rents in the sum of N20,000,000.00. Three months passed and Chief Madu had not received any feedback from Dubem. Chief Madu was later informed by Uche Zungeru, a mutual friend, that Dubem had relocated with his family to Canada.",
+          "question": "Dubem Diri shall send all except one of the following information to his NBA Branch within 30 days of establishment of his law office:",
+          "options": {
+            "a": "His name",
+            "b": "The date of his enrolment and enrolment number",
+            "c": "The date of his Call to Bar in Nigeria",
+            "d": "The address where the legal office is carried on"
+          },
+          "answer": "b",
+          "explanation": "Rule 13 RPC requires the lawyer's name, the address of the office, the date of call to bar, and the date the name was entered on the Roll. An enrolment number is not among the required particulars."
+        },
+        {
+          "id": 12,
+          "context": "Debem Diri was called to the Nigerian Bar in July, 2021 and immediately established his own Law Office. Chief Madu, an old friend, called him to his office to give him a brief and Dubem accepted. Chief Madu instructed Dubem to manage his estate and collect rents in the sum of N20,000,000.00. Three months passed and Chief Madu had not received any feedback from Dubem. Chief Madu was later informed by Uche Zungeru, a mutual friend, that Dubem had relocated with his family to Canada.",
+          "question": "According to Rule 22 of the Rules of Professional Conduct for Lawyers, 2023, one of the following is NOT an exception permissible for Dubem to visit the place of business of Chief Madu to accept brief:",
+          "options": {
+            "a": "There is/are prevailing special circumstance(s) on the part of Chief Madu",
+            "b": "Where Dubem feels that the secret/confidence of chief Madu shall be compromised due to openness of his law office",
+            "c": "Where chief Madu has an urgent reason as to why Dubem should visit his office",
+            "d": "None of the above"
+          },
+          "answer": "b",
+          "explanation": "Rule 22 recognises only special circumstances or an urgent reason preventing the client from coming to the office. Where Dubem feels Chief Madu's secrets would be compromised by the openness of his law office is not one of the recognised exceptions."
+        },
+        {
+          "id": 13,
+          "context": "Debem Diri was called to the Nigerian Bar in July, 2021 and immediately established his own Law Office. Chief Madu, an old friend, called him to his office to give him a brief and Dubem accepted. Chief Madu instructed Dubem to manage his estate and collect rents in the sum of N20,000,000.00. Three months passed and Chief Madu had not received any feedback from Dubem. Chief Madu was later informed by Uche Zungeru, a mutual friend, that Dubem had relocated with his family to Canada.",
+          "question": "Chief Madu is about to report Dubem to the Legal Practitioners Disciplinary Committee, which one of the following is not among the persons appointed to receive such a complaint?",
+          "options": {
+            "a": "Any of the Attorneys-General of the States",
+            "b": "The Attorney General of the Federation",
+            "c": "Any Presiding Justice of a Division of Court of Appeal",
+            "d": "The President of the Court of Appeal"
+          },
+          "answer": "a",
+          "explanation": "Under the LPDC Rules, the people who can receive a complaint are the CJN, the Attorney-General of the Federation (not State Attorneys-General), the President or any Presiding Justice of the Court of Appeal, the Chairman of the Body of Benchers, the NBA President or branch chairman, and the LPDC."
+        },
+        {
+          "id": 14,
+          "context": "Debem Diri was called to the Nigerian Bar in July, 2021 and immediately established his own Law Office. Chief Madu, an old friend, called him to his office to give him a brief and Dubem accepted. Chief Madu instructed Dubem to manage his estate and collect rents in the sum of N20,000,000.00. Three months passed and Chief Madu had not received any feedback from Dubem. Chief Madu was later informed by Uche Zungeru, a mutual friend, that Dubem had relocated with his family to Canada.",
+          "question": "Which of the following is not a punishment Dubem will face if he is adjudged to have breached the Rules of the Professional Conduct?",
+          "options": {
+            "a": "Striking off the name from the roll",
+            "b": "Suspension from practice for a period of time",
+            "c": "Sealing off his Law Office",
+            "d": "Admonishing the person"
+          },
+          "answer": "c",
+          "explanation": "LPDC sanctions are striking off the name, suspension, admonition, and a direction to refund money or documents. Sealing off a law office is not one of them."
+        },
+        {
+          "id": 15,
+          "context": "Debem Diri was called to the Nigerian Bar in July, 2021 and immediately established his own Law Office. Chief Madu, an old friend, called him to his office to give him a brief and Dubem accepted. Chief Madu instructed Dubem to manage his estate and collect rents in the sum of N20,000,000.00. Three months passed and Chief Madu had not received any feedback from Dubem. Chief Madu was later informed by Uche Zungeru, a mutual friend, that Dubem had relocated with his family to Canada.",
+          "question": "Which of the following statements is correct about the restrictions on Dubem in practice of his profession as a Legal Practitioner?",
+          "options": {
+            "a": "If he is a party in a case he cannot represent another party in the same case",
+            "b": "He cannot practice the legal profession as a corporation",
+            "c": "He cannot enter into partnership with a non lawyer for the purpose of practicing the legal profession",
+            "d": "All of the above"
+          },
+          "answer": "d",
+          "explanation": "A lawyer cannot appear for another party in a suit where he is a litigant. He also cannot practise as a corporation (Rule 5(5)) or in partnership with a non-lawyer (Rule 5(1))."
+        },
+        {
+          "id": 16,
+          "context": "Mr Godday is a junior counsel in the Legal Drafting Department of the Ogun State Ministry of Justice. The Director has asked him to educate some students from the Faculty of Law, Babcock University, that came on excursion, and he posed the following questions during interactive session, after a general overview.",
+          "question": "Which of the following is referred to as the statutory nickname of legislation?",
+          "options": {
+            "a": "Short Title",
+            "b": "Long Title",
+            "c": "Preamble",
+            "d": "Marginal note"
+          },
+          "answer": "a",
+          "explanation": "Vacher & Sons v London Society of Compositors called it the 'statutory nickname' of an Act."
+        },
+        {
+          "id": 17,
+          "context": "Mr Godday is a junior counsel in the Legal Drafting Department of the Ogun State Ministry of Justice. The Director has asked him to educate some students from the Faculty of Law, Babcock University, that came on excursion, and he posed the following questions during interactive session, after a general overview.",
+          "question": "What part of the legislation captures the main purpose of legislation?",
+          "options": {
+            "a": "Commencement clause",
+            "b": "Long Title",
+            "c": "Short Title",
+            "d": "Interpretation clause"
+          },
+          "answer": "b",
+          "explanation": "The Long Title states the general purpose or essence of the legislation."
+        },
+        {
+          "id": 18,
+          "context": "Mr Godday is a junior counsel in the Legal Drafting Department of the Ogun State Ministry of Justice. The Director has asked him to educate some students from the Faculty of Law, Babcock University, that came on excursion, and he posed the following questions during interactive session, after a general overview.",
+          "question": "The Section, Sub-section, paragraph and sub-paragraph in a legislation is numbered as follows:",
+          "options": {
+            "a": "S.1(a)(A)(i)",
+            "b": "S.1(1)(a)(A)",
+            "c": "S.1(A)(a)(i)",
+            "d": "S.1(1)(a)(i)"
+          },
+          "answer": "d",
+          "explanation": "Sections are numbered in Arabic numerals, subsections in bracketed Arabic numerals, paragraphs in bracketed small letters and sub-paragraphs in bracketed roman numerals."
+        },
+        {
+          "id": 19,
+          "context": "Mr Godday is a junior counsel in the Legal Drafting Department of the Ogun State Ministry of Justice. The Director has asked him to educate some students from the Faculty of Law, Babcock University, that came on excursion, and he posed the following questions during interactive session, after a general overview.",
+          "question": "In the expression of time, \"from\" indicates that:",
+          "options": {
+            "a": "The date in question is to be included in computation of the period of time",
+            "b": "The date in question is to be excluded in the computation of the period of time",
+            "c": "All of the above",
+            "d": "None of the above"
+          },
+          "answer": "b",
+          "explanation": "'From' excludes the named date, and counting starts the next day (Stewart v Chapman)."
+        },
+        {
+          "id": 20,
+          "context": "Mr Godday is a junior counsel in the Legal Drafting Department of the Ogun State Ministry of Justice. The Director has asked him to educate some students from the Faculty of Law, Babcock University, that came on excursion, and he posed the following questions during interactive session, after a general overview.",
+          "question": "All of the following are not primary sources of law that the draftsman would consult while classifying drafting instructions, except:",
+          "options": {
+            "a": "The Constitution of the Federal Republic of Nigeria",
+            "b": "A. O. Obilade: The Nigerian Legal System",
+            "c": "Gani Fawehinmi: Supreme Court Cases, Digest of Supreme Court Cases 1956 - 84",
+            "d": "None of the Above"
+          },
+          "answer": "a",
+          "explanation": "The Constitution is a primary source of law. Obilade's book is a secondary source, and the Digest of Supreme Court Cases is a tertiary finding tool."
+        }
+      ]
+    },
+    {
+      "id": "civil-litigation",
+      "name": "Civil Litigation",
+      "questionsCount": 20,
+      "questions": [
+        {
+          "id": 1,
+          "context": "Vance Ventures Ltd an Abuja based furniture manufacturer supplied furniture worth N35million to Clinton Consulting & Partners of Johnson Street, Lekki, Lagos. The furniture were supplied sometimes in December 2024 and the payment was expected to have been made by January 31, 2025, but Clinton Consulting & Partners defaulted in making payment. Vance Ventures Ltd has now retained your services to recover the debt.",
+          "question": "What is the most expeditious trial mode of recovering the debt?",
+          "options": {
+            "a": "Summary Judgment by Undefended List",
+            "b": "Summary Judgment under Order 11",
+            "c": "Judgment on Admission",
+            "d": "Fast Track Procedure"
+          },
+          "answer": "a",
+          "explanation": "It is a liquidated money demand of N35m with no real defence in sight, which is what the Undefended List is for (writ with an affidavit that there is no defence). It is the quickest route."
+        },
+        {
+          "id": 2,
+          "context": "Vance Ventures Ltd an Abuja based furniture manufacturer supplied furniture worth N35million to Clinton Consulting & Partners of Johnson Street, Lekki, Lagos. The furniture were supplied sometimes in December 2024 and the payment was expected to have been made by January 31, 2025, but Clinton Consulting & Partners defaulted in making payment. Vance Ventures Ltd has now retained your services to recover the debt.",
+          "question": "Based on the mode chosen above, as counsel for the Defendant, you are expected to file one of the following processes to defend the suit:",
+          "options": {
+            "a": "Counter Affidavit",
+            "b": "Affidavit Disclosing Defence",
+            "c": "Statement of defence",
+            "d": "Notice of Preliminary Objection"
+          },
+          "answer": "b",
+          "explanation": "The defendant to an Undefended List claim files a notice of intention to defend with an affidavit disclosing a defence."
+        },
+        {
+          "id": 3,
+          "context": "Vance Ventures Ltd an Abuja based furniture manufacturer supplied furniture worth N35million to Clinton Consulting & Partners of Johnson Street, Lekki, Lagos. The furniture were supplied sometimes in December 2024 and the payment was expected to have been made by January 31, 2025, but Clinton Consulting & Partners defaulted in making payment. Vance Ventures Ltd has now retained your services to recover the debt.",
+          "question": "The Defendant in the suit is expected to enter appearance within .. days",
+          "options": {
+            "a": "42",
+            "b": "21",
+            "c": "14",
+            "d": "30"
+          },
+          "answer": "a",
+          "explanation": "The suit is taken as filed in Lagos, where the defendant is, and the Lagos period for appearance is 42 days. If it were filed in the FCT, the period would be 21 days."
+        },
+        {
+          "id": 4,
+          "context": "Vance Ventures Ltd an Abuja based furniture manufacturer supplied furniture worth N35million to Clinton Consulting & Partners of Johnson Street, Lekki, Lagos. The furniture were supplied sometimes in December 2024 and the payment was expected to have been made by January 31, 2025, but Clinton Consulting & Partners defaulted in making payment. Vance Ventures Ltd has now retained your services to recover the debt.",
+          "question": "The originating process in the case would be deemed to have been properly served when the same is served on the Defendant by:",
+          "options": {
+            "a": "Dropping at the Defendant's branch office",
+            "b": "The registered addressed",
+            "c": "Senior officer of the Defendant",
+            "d": "None of the above"
+          },
+          "answer": "c",
+          "explanation": "Clinton Consulting & Partners is a firm, so service is on a partner or a senior person managing the business. Dropping the process at a branch office is not good service. A firm has no 'registered address' in the corporate sense."
+        },
+        {
+          "id": 5,
+          "context": "Vance Ventures Ltd an Abuja based furniture manufacturer supplied furniture worth N35million to Clinton Consulting & Partners of Johnson Street, Lekki, Lagos. The furniture were supplied sometimes in December 2024 and the payment was expected to have been made by January 31, 2025, but Clinton Consulting & Partners defaulted in making payment. Vance Ventures Ltd has now retained your services to recover the debt.",
+          "question": "If the suit is commenced at the High Court of FCT, the originating process would be valid for .. at the first instance:",
+          "options": {
+            "a": "3 months",
+            "b": "6 months",
+            "c": "9 months",
+            "d": "12 months"
+          },
+          "answer": "d",
+          "explanation": "A writ is valid for 12 months at the first instance and can be renewed for a further 6 months."
+        },
+        {
+          "id": 6,
+          "context": "Miss Mary Houndeston secured a monetary judgment in the sum of N15million against Mr Karimu, while executing the judgment, Mr Femi Kent's Toyota Matrix was seized by the Court's sheriff for the satisfaction of the judgment. All attempts made by Mr Femi Kent explaining that the car does not belong to Mr Karimu fell on deaf ears and the car was taken to the court's premises to be auctioned.",
+          "question": "As counsel to Mr Femi Kent, what step will you take to retrieve your client's car?",
+          "options": {
+            "a": "File a motion on notice for Stay of Execution",
+            "b": "File a motion on notice for Interlocutory Injunction",
+            "c": "File an Interpleader Summons.",
+            "d": "File a motion on notice for Third Party Intervention"
+          },
+          "answer": "c",
+          "explanation": "Femi Kent is a third party claiming goods seized in execution, and the remedy is an interpleader summons."
+        },
+        {
+          "id": 7,
+          "context": "Miss Mary Houndeston secured a monetary judgment in the sum of N15million against Mr Karimu, while executing the judgment, Mr Femi Kent's Toyota Matrix was seized by the Court's sheriff for the satisfaction of the judgment. All attempts made by Mr Femi Kent explaining that the car does not belong to Mr Karimu fell on deaf ears and the car was taken to the court's premises to be auctioned.",
+          "question": "Assuming Mr Femi Kent is a mechanic who was given the car by Miss Mary Houndeston to repair and both Miss Mary Houndeston and Mr Karimu are now laying claim to the Toyota Matrix in his possession, what application will you file as his counsel to ensure that he does not bear any liability by giving the car to any of the parties:",
+          "options": {
+            "a": "Motion on notice for Stay of Execution",
+            "b": "File a motion on notice for Interlocutory Injunction.",
+            "c": "File a motion on notice for Third Party Proceedings",
+            "d": "File an Interpleader Summons"
+          },
+          "answer": "d",
+          "explanation": "He is a stakeholder with no interest in the car and faces competing claimants. He files an interpleader summons to be freed from liability."
+        },
+        {
+          "id": 8,
+          "context": "Miss Mary Houndeston secured a monetary judgment in the sum of N15million against Mr Karimu, while executing the judgment, Mr Femi Kent's Toyota Matrix was seized by the Court's sheriff for the satisfaction of the judgment. All attempts made by Mr Femi Kent explaining that the car does not belong to Mr Karimu fell on deaf ears and the car was taken to the court's premises to be auctioned.",
+          "question": "If the suit was filed by Miss Mary Houndeston seeking for a declaration that she is the owner of the Toyota Matrix, and on the date fixed for hearing, the defendant and his counsel were absent, one of the following is the most appropriate application to be made by the Claimant's counsel:",
+          "options": {
+            "a": "Apply for default judgment to be entered in favour of the Claimant",
+            "b": "Apply for the suit to be struck out for lack of diligent prosecution",
+            "c": "Proceed to call evidence.",
+            "d": "None of the above."
+          },
+          "answer": "c",
+          "explanation": "The claim is for a declaration. Default judgment is not available for declaratory reliefs, so the claimant proceeds to call evidence. Striking out for lack of diligent prosecution is for a defaulting claimant, not defendant."
+        },
+        {
+          "id": 9,
+          "context": "Miss Mary Houndeston secured a monetary judgment in the sum of N15million against Mr Karimu, while executing the judgment, Mr Femi Kent's Toyota Matrix was seized by the Court's sheriff for the satisfaction of the judgment. All attempts made by Mr Femi Kent explaining that the car does not belong to Mr Karimu fell on deaf ears and the car was taken to the court's premises to be auctioned.",
+          "question": "Assuming the case was fixed for mention, but the Defendant and his counsel were absent, one of the following is the most appropriate application to be made by the Claimant's counsel:",
+          "options": {
+            "a": "Apply for default judgment to be entered in favour of the Claimant",
+            "b": "Apply for the suit to be struck out for lack of diligent prosecution",
+            "c": "Proceed to call evidence.",
+            "d": "None of the above."
+          },
+          "answer": "d",
+          "explanation": "A mention date is not a hearing date, so no evidence can be taken. Default judgment does not lie for a declaration, and striking out is a remedy against a defaulting claimant."
+        },
+        {
+          "id": 10,
+          "context": "Miss Mary Houndeston secured a monetary judgment in the sum of N15million against Mr Karimu, while executing the judgment, Mr Femi Kent's Toyota Matrix was seized by the Court's sheriff for the satisfaction of the judgment. All attempts made by Mr Femi Kent explaining that the car does not belong to Mr Karimu fell on deaf ears and the car was taken to the court's premises to be auctioned.",
+          "question": "On the day fixed for hearing, Mrs Mary Houndeston who is the sole witness for the Claimant was caught in traffic while the case was called, as counsel for the Claimant, you are expected to make an application for .. to allow her meet up with the hearing of the matter on the same day:",
+          "options": {
+            "a": "An Adjournment",
+            "b": "An Adjournment sine die",
+            "c": "For a Stand Down",
+            "d": "A Call Over"
+          },
+          "answer": "c",
+          "explanation": "A stand down lets the case be called again later the same day, once the witness arrives. An adjournment would move it to another day."
+        },
+        {
+          "id": 11,
+          "context": "Miss Ann Aladeniyi, a fashion designer based in Lekki Phase 1, Lagos State, was commissioned by Mrs Elsie Paul of Utako, Abuja, to create a bespoke wedding dress valued at N15 million in April 2017. Mrs Paul assured Miss Aladeniyi that payment would be made from the wedding donations received from friends. However, Mrs Paul has since defaulted on payment. Miss Aladeniyi has now retained your services on August 5, 2025, to recover the outstanding debt.",
+          "question": "By what process will you initiate the action against Mrs Elsie Paul",
+          "options": {
+            "a": "Statement of Claim",
+            "b": "Writ of Summons",
+            "c": "Witness Deposition on Oath",
+            "d": "Summary Summons"
+          },
+          "answer": "b",
+          "explanation": "A debt of N15m is commenced by writ of summons in Lagos."
+        },
+        {
+          "id": 12,
+          "context": "Miss Ann Aladeniyi, a fashion designer based in Lekki Phase 1, Lagos State, was commissioned by Mrs Elsie Paul of Utako, Abuja, to create a bespoke wedding dress valued at N15 million in April 2017. Mrs Paul assured Miss Aladeniyi that payment would be made from the wedding donations received from friends. However, Mrs Paul has since defaulted on payment. Miss Aladeniyi has now retained your services on August 5, 2025, to recover the outstanding debt.",
+          "question": "After the parties have filed and exchanged their originating processes, what stage would the case progressed to?",
+          "options": {
+            "a": "Pre-Trial Conference",
+            "b": "Case Management Conference",
+            "c": "Pre-Trial Proceedings",
+            "d": "None of the above"
+          },
+          "answer": "b",
+          "explanation": "After pleadings are exchanged the case goes to Case Management Conference."
+        },
+        {
+          "id": 13,
+          "context": "Miss Ann Aladeniyi, a fashion designer based in Lekki Phase 1, Lagos State, was commissioned by Mrs Elsie Paul of Utako, Abuja, to create a bespoke wedding dress valued at N15 million in April 2017. Mrs Paul assured Miss Aladeniyi that payment would be made from the wedding donations received from friends. However, Mrs Paul has since defaulted on payment. Miss Aladeniyi has now retained your services on August 5, 2025, to recover the outstanding debt.",
+          "question": "Assuming the action was filed in Lagos State High Court, and Mrs Paul wants to see and inspect some documents Miss Ann mentioned in her Statement of Claim, what legal procedure would you employ to achieve the objective?",
+          "options": {
+            "a": "Discovery of Documents",
+            "b": "Interrogatories of Documents",
+            "c": "Notice to Admit",
+            "d": "Notice to produce"
+          },
+          "answer": "a",
+          "explanation": "Inspection of documents is a form of discovery of documents."
+        },
+        {
+          "id": 14,
+          "context": "Miss Ann Aladeniyi, a fashion designer based in Lekki Phase 1, Lagos State, was commissioned by Mrs Elsie Paul of Utako, Abuja, to create a bespoke wedding dress valued at N15 million in April 2017. Mrs Paul assured Miss Aladeniyi that payment would be made from the wedding donations received from friends. However, Mrs Paul has since defaulted on payment. Miss Aladeniyi has now retained your services on August 5, 2025, to recover the outstanding debt.",
+          "question": "By what means will you achieve the above?",
+          "options": {
+            "a": "By exparte application in Form 19",
+            "b": "By exparte application in Form 21",
+            "c": "In writing",
+            "d": "By an affidavit"
+          },
+          "answer": "c",
+          "explanation": "The request for inspection is made in writing, usually by a letter. Only the answer is made on affidavit."
+        },
+        {
+          "id": 15,
+          "context": "Miss Ann Aladeniyi, a fashion designer based in Lekki Phase 1, Lagos State, was commissioned by Mrs Elsie Paul of Utako, Abuja, to create a bespoke wedding dress valued at N15 million in April 2017. Mrs Paul assured Miss Aladeniyi that payment would be made from the wedding donations received from friends. However, Mrs Paul has since defaulted on payment. Miss Aladeniyi has now retained your services on August 5, 2025, to recover the outstanding debt.",
+          "question": "Within how many days is Miss Ann expected to respond to the process in 13 above?",
+          "options": {
+            "a": "4 days from the date of being served",
+            "b": "7 days from the close of pleadings",
+            "c": "7 days from the date of being served",
+            "d": "14 days from the close of pleadings"
+          },
+          "answer": "c",
+          "explanation": "The party who receives the request responds within 7 days of being served with it."
+        },
+        {
+          "id": 16,
+          "context": "Sometimes in May, 2024 Ali Jumbo approached his best friend Jide Nice in Lagos to loan him the sum of N12 million naira to enable him purchase a Nissan Salon car. Jide Nice gave him the loan and it was agreed that he will make an installment payment of N1 million per month from the 1st June, 2024 until the total sum is paid up by 30th May, 2025. Ali Jumbo only paid 4 installments of N4 million and has failed to pay the balance sum of N8 million till date. Jide Nice has briefed you to institute an action in court to recover the outstanding balance.",
+          "question": "In which court should they institute the action and by what mode?",
+          "options": {
+            "a": "State High Court by Writ of Summons",
+            "b": "State High Court by Originating Summons",
+            "c": "Magistrate Court by Claim",
+            "d": "Magistrate Court by Originating Motion"
+          },
+          "answer": "a",
+          "explanation": "A N8m claim is above the N5m Small Claims limit, so it goes to the State High Court by writ of summons."
+        },
+        {
+          "id": 17,
+          "context": "Sometimes in May, 2024 Ali Jumbo approached his best friend Jide Nice in Lagos to loan him the sum of N12 million naira to enable him purchase a Nissan Salon car. Jide Nice gave him the loan and it was agreed that he will make an installment payment of N1 million per month from the 1st June, 2024 until the total sum is paid up by 30th May, 2025. Ali Jumbo only paid 4 installments of N4 million and has failed to pay the balance sum of N8 million till date. Jide Nice has briefed you to institute an action in court to recover the outstanding balance.",
+          "question": "Which one of the following documents must accompany the Originating process you have chosen in (16) above?",
+          "options": {
+            "a": "Statement of Claim",
+            "b": "Particulars of Claim",
+            "c": "Affidavit in support",
+            "d": "Statement of facts"
+          },
+          "answer": "a",
+          "explanation": "A writ of summons is accompanied by a statement of claim, along with the other frontloaded documents."
+        },
+        {
+          "id": 18,
+          "context": "Sometimes in May, 2024 Ali Jumbo approached his best friend Jide Nice in Lagos to loan him the sum of N12 million naira to enable him purchase a Nissan Salon car. Jide Nice gave him the loan and it was agreed that he will make an installment payment of N1 million per month from the 1st June, 2024 until the total sum is paid up by 30th May, 2025. Ali Jumbo only paid 4 installments of N4 million and has failed to pay the balance sum of N8 million till date. Jide Nice has briefed you to institute an action in court to recover the outstanding balance.",
+          "question": "Assuming the outstanding balance is the sum of N5 million and Mr Jide Nice wants institute an action in court in order to recover same in an informal, inexpensive, and speedy way. In which court will he commence the action?",
+          "options": {
+            "a": "State High Court",
+            "b": "Magistrate Court",
+            "c": "Small Claims Court",
+            "d": "Anyone of the above."
+          },
+          "answer": "c",
+          "explanation": "A liquidated N5 million claim that is meant to be informal, cheap and speedy goes to the Small Claims Court."
+        },
+        {
+          "id": 19,
+          "context": "Sometimes in May, 2024 Ali Jumbo approached his best friend Jide Nice in Lagos to loan him the sum of N12 million naira to enable him purchase a Nissan Salon car. Jide Nice gave him the loan and it was agreed that he will make an installment payment of N1 million per month from the 1st June, 2024 until the total sum is paid up by 30th May, 2025. Ali Jumbo only paid 4 installments of N4 million and has failed to pay the balance sum of N8 million till date. Jide Nice has briefed you to institute an action in court to recover the outstanding balance.",
+          "question": "Which one of the following is not true about the conditions to be fulfilled before commencing the action in (18) above?",
+          "options": {
+            "a": "The Claimant must reside or carry on business in Lagos State.",
+            "b": "The Defendant must reside or carry on business in Lagos State.",
+            "c": "The Claim must be for a liquidated monetary demand in a sum not exceeding N5 million including interest and costs",
+            "d": "The cause of action arose wholly or in part in Lagos State."
+          },
+          "answer": "a",
+          "explanation": "The claimant need not live or carry on business in Lagos. The defendant must reside or carry on business there, and the cause of action must arise wholly or in part in Lagos."
+        },
+        {
+          "id": 20,
+          "context": "Sometimes in May, 2024 Ali Jumbo approached his best friend Jide Nice in Lagos to loan him the sum of N12 million naira to enable him purchase a Nissan Salon car. Jide Nice gave him the loan and it was agreed that he will make an installment payment of N1 million per month from the 1st June, 2024 until the total sum is paid up by 30th May, 2025. Ali Jumbo only paid 4 installments of N4 million and has failed to pay the balance sum of N8 million till date. Jide Nice has briefed you to institute an action in court to recover the outstanding balance.",
+          "question": "Assuming Jide Nice got an information from Ade one of their childhood friends that Ali Jumbo is planning to transfer all the money in his account with Swift Bank Plc out of Nigeria to a bank in Ghana so that Jide Nice will not be able to execute the court's judgement against him. Which of the following steps will you advice him to take to ensure Ali Jumbo is stopped from taking the step?",
+          "options": {
+            "a": "Apply to the High Court for Anton Pillar Injunction",
+            "b": "Apply to the High Court for Mareva Injunction",
+            "c": "Apply to the Magistrate Court for Interlocutory Injunction",
+            "d": "Apply to the Magistrate Court for an Interim Injunction."
+          },
+          "answer": "b",
+          "explanation": "A Mareva injunction stops a defendant moving assets out of the jurisdiction to defeat a judgment. It is granted by the High Court."
+        }
+      ]
+    },
+    {
+      "id": "corporate-law-practice",
+      "name": "Corporate Law Practice",
+      "questionsCount": 20,
+      "questions": [
+        {
+          "id": 1,
+          "context": "Fanco Nig Ltd made significant profits in the last financial year which made the company to pay out the largest dividend to its members since its incorporation 20 years ago. The financial forecast of the next five years indicates that Fanco Nig Ltd would make profits of not less than 3 billion naira.",
+          "question": "Every company is required to prepare financial statements every year except ________",
+          "options": {
+            "a": "Small companies",
+            "b": "Companies Limited by Guarantee",
+            "c": "Companies Limited by Shares",
+            "d": "None of the Above"
+          },
+          "answer": "d",
+          "explanation": "S.377(1) CAMA says the directors of every company must prepare financial statements each year. Small companies and companies limited by guarantee are not exempt. A small company only gets reduced content."
+        },
+        {
+          "id": 2,
+          "context": "Fanco Nig Ltd made significant profits in the last financial year which made the company to pay out the largest dividend to its members since its incorporation 20 years ago. The financial forecast of the next five years indicates that Fanco Nig Ltd would make profits of not less than 3 billion naira.",
+          "question": "The financial statement of Fanco Nig Ltd must contain all but one of the following",
+          "options": {
+            "a": "Auditor's report",
+            "b": "Value-added statement for the year",
+            "c": "Five-year financial summary",
+            "d": "Notes on the account"
+          },
+          "answer": "b",
+          "explanation": "S.377(3) says a private company need not include the accounting policies, the cash-flow statement, changes in equity or the value-added statement. The five-year financial summary is not on that exempt list, so a private company like Fanco must still include it."
+        },
+        {
+          "id": 3,
+          "context": "Fanco Nig Ltd made significant profits in the last financial year which made the company to pay out the largest dividend to its members since its incorporation 20 years ago. The financial forecast of the next five years indicates that Fanco Nig Ltd would make profits of not less than 3 billion naira.",
+          "question": "________ is entitled to receive the financial statements as of right",
+          "options": {
+            "a": "Every member of the company",
+            "b": "Every debenture holder",
+            "c": "Every persons so entitled",
+            "d": "All of the above"
+          },
+          "answer": "d",
+          "explanation": "S.387(1) CAMA: every member, every debenture holder and every other person entitled to receive notice of general meetings must be sent the statements."
+        },
+        {
+          "id": 4,
+          "context": "Fanco Nig Ltd made significant profits in the last financial year which made the company to pay out the largest dividend to its members since its incorporation 20 years ago. The financial forecast of the next five years indicates that Fanco Nig Ltd would make profits of not less than 3 billion naira.",
+          "question": "Which of the following is not correct about Fanco Nig Ltd?",
+          "options": {
+            "a": "Fanco Nig Ltd cannot have more than 50 members",
+            "b": "Fanco Nig Ltd cannot appoint an over aged director without special notice",
+            "c": "Two persons can be entitled to ownership of a share at the same time in Fanco Nig Ltd",
+            "d": "Fanco Nig Ltd can hold general meeting electronically"
+          },
+          "answer": "b",
+          "explanation": "The over-70 special-notice rule applies only to public companies. Fanco is a private company, so it can appoint a director over 70 without special notice. The other three statements are true. A private company is capped at 50 members, joint holders can own a share together, and a private company may hold meetings electronically (S.240)."
+        },
+        {
+          "id": 5,
+          "context": "Fanco Nig Ltd made significant profits in the last financial year which made the company to pay out the largest dividend to its members since its incorporation 20 years ago. The financial forecast of the next five years indicates that Fanco Nig Ltd would make profits of not less than 3 billion naira.",
+          "question": "One of these debentures is most appropriate for a debenture holder who wishes to be a shareholder of the company.",
+          "options": {
+            "a": "Bearer Debenture",
+            "b": "Perpetual Debenture",
+            "c": "Convertible Debenture",
+            "d": "Registered Debenture"
+          },
+          "answer": "c",
+          "explanation": "The Convertible Debenture is the type that can be converted into shares."
+        },
+        {
+          "id": 6,
+          "context": "Phillips Inc, a leading Turkish company intends to do business of mining lithium for the purposes of producing batteries for electric vehicles and mobile phones. The company intends to sell shares to not more than 50 investors and pay yearly dividend. The company has secured a loan of 10 million USD for the venture.",
+          "question": "The legal obligation Phillips Inc will comply with for it to validly do mining business in Nigeria.",
+          "options": {
+            "a": "Incorporate a Nigerian Company",
+            "b": "Register with NIPC",
+            "c": "Obtain mining license.",
+            "d": "All of the Above"
+          },
+          "answer": "d",
+          "explanation": "A foreign company must be incorporated in Nigeria before it can carry on business here (S.78(1) CAMA). An enterprise with foreign participation must register with the NIPC (S.20 NIPC Act). Mining also needs a mining licence."
+        },
+        {
+          "id": 7,
+          "context": "Phillips Inc, a leading Turkish company intends to do business of mining lithium for the purposes of producing batteries for electric vehicles and mobile phones. The company intends to sell shares to not more than 50 investors and pay yearly dividend. The company has secured a loan of 10 million USD for the venture.",
+          "question": "Which is the most suitable registration option for the Nigerian entity to be incorporated.",
+          "options": {
+            "a": "Private Company",
+            "b": "Public Company",
+            "c": "Company Limited by Shares",
+            "d": "Company Limited by Guarantee"
+          },
+          "answer": "a",
+          "explanation": "It will sell shares to no more than 50 investors, and a private company's membership is capped at 50. It would be a private company limited by shares."
+        },
+        {
+          "id": 8,
+          "context": "Phillips Inc, a leading Turkish company intends to do business of mining lithium for the purposes of producing batteries for electric vehicles and mobile phones. The company intends to sell shares to not more than 50 investors and pay yearly dividend. The company has secured a loan of 10 million USD for the venture.",
+          "question": "The permit that would allow the company employ foreign geologist for mining exploration is called",
+          "options": {
+            "a": "Work Permit",
+            "b": "Employee Permit",
+            "c": "Expatriate Quota",
+            "d": "Residence Permit"
+          },
+          "answer": "c",
+          "explanation": "This is the permission given to a business to employ non-Nigerians, and the employing company must obtain it (Expatriate Quota)."
+        },
+        {
+          "id": 9,
+          "context": "Phillips Inc, a leading Turkish company intends to do business of mining lithium for the purposes of producing batteries for electric vehicles and mobile phones. The company intends to sell shares to not more than 50 investors and pay yearly dividend. The company has secured a loan of 10 million USD for the venture.",
+          "question": "All but one are the guarantees under the NIPC Act available foreign investors in Nigeria.",
+          "options": {
+            "a": "Full repatriation of profits and proceeds",
+            "b": "Access to dispute resolution mechanism",
+            "c": "Guarantee against expropriation without compensation",
+            "d": "Duty Draw Back guarantee"
+          },
+          "answer": "d",
+          "explanation": "The NIPC Act guarantees repatriation of profits and proceeds (S.24), protection against expropriation (S.25) and dispute settlement (S.26). Duty drawback is a separate customs incentive."
+        },
+        {
+          "id": 10,
+          "context": "Phillips Inc, a leading Turkish company intends to do business of mining lithium for the purposes of producing batteries for electric vehicles and mobile phones. The company intends to sell shares to not more than 50 investors and pay yearly dividend. The company has secured a loan of 10 million USD for the venture.",
+          "question": "All but one is the regulatory law that would govern the business of the company",
+          "options": {
+            "a": "Companies and Allied Matters Act",
+            "b": "Industrial Inspectorate Act",
+            "c": "Nigeria Investment Promotion Commission",
+            "d": "Nigerian Minerals and Mining Act"
+          },
+          "answer": "b",
+          "explanation": "CAMA, the NIPC Act and the Minerals and Mining Act clearly govern a foreign-owned mining company. The Industrial Inspectorate Act deals with capital expenditure by industrial undertakings, so it is the likeliest odd one out."
+        },
+        {
+          "id": 11,
+          "context": "At the 10th Annual General Meeting of Johnsons Nig Plc, Mr Adeleye Oluwole was absent because, he was not served with a notice of the AGM by the Secretary, who reasoned that Mr Oluwole will not be able to attend the AGM as he will be going for his inauguration as the chairman presidential committee on tax reforms. Mr Oluwole later transferred all his shares to Chief Wambai Goje and Mrs Mary Aina in equal proportion. The company neither held a statutory meeting nor filed statutory report with CAC. The company wants to alter its objects clause to include the business of oil exploration.",
+          "question": "The following are entitled to receive notice of the AGM of the company except;",
+          "options": {
+            "a": "every director of the company",
+            "b": "every auditor for the time being of the company",
+            "c": "every member of the company",
+            "d": "every legal adviser for the time being of the company"
+          },
+          "answer": "d",
+          "explanation": "S.243(1) lists members, legal representatives of a member, directors, auditors, the company secretary and, for public companies, the CAC. Legal advisers are not on the list."
+        },
+        {
+          "id": 12,
+          "context": "At the 10th Annual General Meeting of Johnsons Nig Plc, Mr Adeleye Oluwole was absent because, he was not served with a notice of the AGM by the Secretary, who reasoned that Mr Oluwole will not be able to attend the AGM as he will be going for his inauguration as the chairman presidential committee on tax reforms. Mr Oluwole later transferred all his shares to Chief Wambai Goje and Mrs Mary Aina in equal proportion. The company neither held a statutory meeting nor filed statutory report with CAC. The company wants to alter its objects clause to include the business of oil exploration.",
+          "question": "One of these persons can challenge alteration of object clause of Johnsons Nig Plc",
+          "options": {
+            "a": "Holders of not less than 15% of issued shares of the company",
+            "b": "Holders of less than 15% of the company debentures",
+            "c": "Holders of less than 15% of the issued share capital of the company",
+            "d": "None of the above"
+          },
+          "answer": "a",
+          "explanation": "Holders of not less than 15% in nominal value of the issued share capital can apply to the court against an alteration of the objects clause. Debenture holders qualify only if they hold at least 15% of debentures secured by a floating charge. Options (b) and (c) say 'less than 15%', which is wrong."
+        },
+        {
+          "id": 13,
+          "context": "At the 10th Annual General Meeting of Johnsons Nig Plc, Mr Adeleye Oluwole was absent because, he was not served with a notice of the AGM by the Secretary, who reasoned that Mr Oluwole will not be able to attend the AGM as he will be going for his inauguration as the chairman presidential committee on tax reforms. Mr Oluwole later transferred all his shares to Chief Wambai Goje and Mrs Mary Aina in equal proportion. The company neither held a statutory meeting nor filed statutory report with CAC. The company wants to alter its objects clause to include the business of oil exploration.",
+          "question": "The Statutory Meeting of Johnsons Nig Plc, should have been held within",
+          "options": {
+            "a": "150 days of incorporation",
+            "b": "1 Month of incorporation",
+            "c": "6 months of incorporation",
+            "d": "3 months of incorporation"
+          },
+          "answer": "c",
+          "explanation": "The statutory meeting is compulsory for public companies and must be held within 6 months of incorporation (S.235 CAMA). It is still part of CAMA 2020."
+        },
+        {
+          "id": 14,
+          "context": "At the 10th Annual General Meeting of Johnsons Nig Plc, Mr Adeleye Oluwole was absent because, he was not served with a notice of the AGM by the Secretary, who reasoned that Mr Oluwole will not be able to attend the AGM as he will be going for his inauguration as the chairman presidential committee on tax reforms. Mr Oluwole later transferred all his shares to Chief Wambai Goje and Mrs Mary Aina in equal proportion. The company neither held a statutory meeting nor filed statutory report with CAC. The company wants to alter its objects clause to include the business of oil exploration.",
+          "question": "The Notice of the general meeting of Johnsons Nig Plc meeting must meet the following requirement.",
+          "options": {
+            "a": "Comply with the prescribed form of preparing the notice under section 242 CAMA",
+            "b": "Specify the place, date and time of the meeting",
+            "c": "Specify the general nature of the business to be transacted",
+            "d": "Set out the terms of the special resolution to be considered at the meeting if any",
+            "e": "All of the above"
+          },
+          "answer": "e",
+          "explanation": "The notice must comply with the prescribed form, state the place, date and time, state the general nature of the business, and set out the terms of any special resolution."
+        },
+        {
+          "id": 15,
+          "context": "At the 10th Annual General Meeting of Johnsons Nig Plc, Mr Adeleye Oluwole was absent because, he was not served with a notice of the AGM by the Secretary, who reasoned that Mr Oluwole will not be able to attend the AGM as he will be going for his inauguration as the chairman presidential committee on tax reforms. Mr Oluwole later transferred all his shares to Chief Wambai Goje and Mrs Mary Aina in equal proportion. The company neither held a statutory meeting nor filed statutory report with CAC. The company wants to alter its objects clause to include the business of oil exploration.",
+          "question": "All but one are the Ordinary Business that is transacted at the AGM",
+          "options": {
+            "a": "Declaration of dividend",
+            "b": "Presentation of accounting statements",
+            "c": "Presentation of auditors and directors report",
+            "d": "Election of directors in place of those retiring"
+          },
+          "answer": "None",
+          "explanation": "Flag this question to your lecturer. The S.238 ordinary-business list covers all four options: declaring a dividend, presenting the financial statements, the directors' and auditors' reports, and electing directors to replace those retiring. None of them is the exception. The question probably meant 'appointment of directors'."
+        },
+        {
+          "id": 16,
+          "context": "Kings Nig Plc have passed a resolution offer its equity and debt securities to the public. For this purpose, they have secured the services of Zenith Registrars to act as its registrar. The prospectus of Johnsons Nig Plc has been approved by SEC.",
+          "question": "Johnsons Nig Plc can offer securities to the public through any of these means except",
+          "options": {
+            "a": "Offer for Subscription",
+            "b": "Offer for Sale",
+            "c": "Offer by Introduction",
+            "d": "Offer by Transfer"
+          },
+          "answer": "d",
+          "explanation": "The recognised methods are offer for subscription, offer for sale, offer by introduction, private placement, rights issue and bonus issue. 'Offer by transfer' is not one of them."
+        },
+        {
+          "id": 17,
+          "context": "Kings Nig Plc have passed a resolution offer its equity and debt securities to the public. For this purpose, they have secured the services of Zenith Registrars to act as its registrar. The prospectus of Johnsons Nig Plc has been approved by SEC.",
+          "question": "Assuming Johnsons Nig Plc intends to offer their securities to pre-arrange high net worth individuals, the period of offer and aggregate number of shares to be offered shall not exceed________",
+          "options": {
+            "a": "10 working days and 35% of the issued share capital",
+            "b": "10 working days and 30% of the existing issued and paid up capital",
+            "c": "15 working days and 20% of the convertible preference shares",
+            "d": "20 working days and 50% of the existing share capital"
+          },
+          "answer": "b",
+          "explanation": "Rule 340 SEC Rules: private placement is capped at 30% of the existing issued and paid-up capital, for a period not exceeding 10 working days."
+        },
+        {
+          "id": 18,
+          "context": "Kings Nig Plc have passed a resolution offer its equity and debt securities to the public. For this purpose, they have secured the services of Zenith Registrars to act as its registrar. The prospectus of Johnsons Nig Plc has been approved by SEC.",
+          "question": "Under CAMA, the limit of shares of a company that can be bought by the company is________",
+          "options": {
+            "a": "Not more than 15% of the nominal value of the issued share capital",
+            "b": "Not more than 15% of the nominal value of the paid up capital",
+            "c": "Not more than 25% of the nominal value of the existing share capital",
+            "d": "Not more than 25% of the nominal value of a class of shares"
+          },
+          "answer": "a",
+          "explanation": "S.187 CAMA: a company must not hold more than 15% of the nominal value of its issued share capital. If it does, it must re-issue or cancel the excess within 12 months."
+        },
+        {
+          "id": 19,
+          "context": "Kings Nig Plc have passed a resolution offer its equity and debt securities to the public. For this purpose, they have secured the services of Zenith Registrars to act as its registrar. The prospectus of Johnsons Nig Plc has been approved by SEC.",
+          "question": "Application to court for cancellation of variation of rights attached to a class of shares shall be made within________",
+          "options": {
+            "a": "21 days after the date the resolution was passed",
+            "b": "15 days after the date the resolution was passed",
+            "c": "14 days after the date the resolution was passed",
+            "d": "28 days after the date the resolution was passed"
+          },
+          "answer": "a",
+          "explanation": "An application to cancel a variation of class rights must be made within 21 days after the resolution is passed, by holders of at least 15% of the class who did not vote for it (S.167 CAMA)."
+        },
+        {
+          "id": 20,
+          "context": "Kings Nig Plc have passed a resolution offer its equity and debt securities to the public. For this purpose, they have secured the services of Zenith Registrars to act as its registrar. The prospectus of Johnsons Nig Plc has been approved by SEC.",
+          "question": "Right to more than one vote is available to preference share holders in the following instances except________",
+          "options": {
+            "a": "Variation of rights attached to preference shares",
+            "b": "Removal of auditors",
+            "c": "Winding up of a company",
+            "d": "Appointment of director"
+          },
+          "answer": "d",
+          "explanation": "Preference shares carry more than one vote only on certain resolutions: when the preferential dividend is in arrears, a variation of their rights, removal or replacement of an auditor, winding up, and a special resolution increasing a class of shares (S.168(2)). Appointment of director is the exception."
+        }
+      ]
+    }
+  ]
+},
+
 };
 
 export default revisedMcqQuestion;
