@@ -7,6 +7,7 @@ import {
   HiOutlineDocumentText,
   HiOutlineChatBubbleLeftRight,
   HiOutlineBolt,
+  HiOutlinePencilSquare,
 } from "react-icons/hi2";
 import { useTheme } from "../context/ThemeContext";
 
@@ -14,6 +15,7 @@ const navItems = [
   { to: "/dashboard", icon: HiOutlineHome, label: "Dashboard" },
   { to: "/mcq-past-questions", icon: HiOutlineDocumentText, label: "MCQ Past Questions", shortLabel: "MCQ" },
   { to: "/flashcards", icon: HiOutlineBolt, label: "Flashcards" },
+  { to: "/drafts", icon: HiOutlinePencilSquare, label: "Drafts" },
   { to: "/courses", icon: HiOutlineBookOpen, label: "Courses" },
   { to: "/reports", icon: HiOutlineClipboardDocumentList, label: "Reports" },
   // Hidden for now — keep the route/page intact, just not linked from nav.

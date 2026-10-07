@@ -264,6 +264,8 @@ export default function QuestionReportModal({
                       ? "Exam Styled MCQ"
                       : quizContext.quizType === "flashcard"
                       ? "Flashcard"
+                      : quizContext.quizType === "draft"
+                      ? "Draft"
                       : "Topic Quiz"}
                   </p>
                 )}

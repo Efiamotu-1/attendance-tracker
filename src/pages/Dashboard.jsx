@@ -12,7 +12,8 @@ import {
   HiOutlinePlayCircle,
   HiOutlineTrophy,
   HiOutlineCalendarDays,
-  HiOutlineBolt
+  HiOutlineBolt,
+  HiOutlineDocumentDuplicate
 } from 'react-icons/hi2'
 import { supabase } from '../services/supabase'
 import { useCourses } from '../features/courses/useCourses'
@@ -189,7 +190,12 @@ function Dashboard() {
       icon: HiOutlineChartBar,
       action: () => navigate('/mcq-performance'),
     },
-    
+    {
+      label: 'Drafts',
+      value: 'Practice',
+      icon: HiOutlineDocumentDuplicate,
+      action: () => navigate('/drafts'),
+    },
   ]
 
   return (
@@ -416,7 +422,7 @@ function Dashboard() {
           </div>
         </div>
 
-        <div className='relative z-10 mt-5 grid grid-cols-1 sm:grid-cols-3 gap-3'>
+        <div className='relative z-10 mt-5 grid grid-cols-2 sm:grid-cols-4 gap-3'>
           {mcqStats.map((item) => {
             const Icon = item.icon
             return (

@@ -21,6 +21,7 @@ import McqQuiz from "./pages/McqQuiz"
 import McqPerformance from "./pages/McqPerformance"
 import McqLeaderboard from "./pages/McqLeaderboard"
 import McqFlashcards from "./pages/McqFlashcards"
+import Drafts from "./pages/Drafts"
 import Feedback from "./pages/Feedback"
 
 
@@ -61,6 +62,7 @@ function App() {
               <Route path="mcq-performance" element={<McqPerformance />} />
               <Route path="mcq-leaderboard" element={<McqLeaderboard />} />
               <Route path="flashcards" element={<McqFlashcards />} />
+              <Route path="drafts" element={<Drafts />} />
               <Route path="feedback" element={<Feedback />} />
             </Route>
 
