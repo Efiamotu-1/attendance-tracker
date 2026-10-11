@@ -18344,7 +18344,7 @@ const revisedMcqQuestion = {
     },
     {
       "id": "professional-ethics",
-      "name": "Professional Ethics",
+      "name": "Professional Ethics & Skills",
       "questionsCount": 20,
       "questions": [
         {

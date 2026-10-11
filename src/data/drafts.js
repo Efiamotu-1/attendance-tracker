@@ -31,7 +31,7 @@
 
 const drafts = {
   "professional-ethics": {
-    courseName: "Professional Ethics",
+    courseName: "Professional Ethics & Skills",
     drafts: [
       {
         id: "arbitration-clause",
