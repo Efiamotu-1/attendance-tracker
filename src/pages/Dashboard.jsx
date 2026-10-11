@@ -171,7 +171,12 @@ function Dashboard() {
   };
 
   const mcqStats = [
-   
+    {
+      label: 'Drafts',
+      value: 'Practice',
+      icon: HiOutlineDocumentDuplicate,
+      action: () => navigate('/drafts'),
+    },
     {
       label: 'Flashcards',
       value: 'Active Recall',
@@ -189,12 +194,6 @@ function Dashboard() {
       value: 'Track',
       icon: HiOutlineChartBar,
       action: () => navigate('/mcq-performance'),
-    },
-    {
-      label: 'Drafts',
-      value: 'Practice',
-      icon: HiOutlineDocumentDuplicate,
-      action: () => navigate('/drafts'),
     },
   ]
 
@@ -422,7 +421,7 @@ function Dashboard() {
           </div>
         </div>
 
-        <div className='relative z-10 mt-5 grid grid-cols-2 sm:grid-cols-4 gap-3'>
+        <div className='relative z-10 mt-5 grid grid-cols-1 sm:grid-cols-4 gap-3'>
           {mcqStats.map((item) => {
             const Icon = item.icon
             return (
