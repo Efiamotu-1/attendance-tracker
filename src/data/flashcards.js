@@ -15,7 +15,7 @@
 // (McqFlashcards.jsx) reads this file directly — no other wiring needed.
 
 const flashcards = {
-  "civil-litigation": {
+ "civil-litigation": {
     courseName: "Civil Litigation",
     decks: [
       {
@@ -25,6 +25,28 @@ const flashcards = {
           "Try to answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
         preClassUrl: "https://drive.google.com/drive/folders/1QQCg96bo6ZEFvf4vhZEzioXpqtQedEye?usp=sharing",
         cards: [
+          {
+            category: "Week 3: Overview",
+            question: "Syllabus overview: the topics taught in the 15 weeks of contact (Weeks 3 to 17).",
+            answer: [
+              "Week 3: Overview, introductory matters, courts with civil jurisdiction",
+              "Week 4: Parties to a civil suit",
+              "Week 5: Pre-action considerations and commencement of actions in the Magistrates' Court",
+              "Week 6: Commencement of actions in the High Court",
+              "Week 7: Interlocutory applications and orders",
+              "Week 8: Summary judgment procedure and judgment by default",
+              "Week 9: Pleadings",
+              "Week 10: Pre-trial proceedings and trial preparation",
+              "Week 11: Trial and examination of witnesses",
+              "Week 12: Closing address, judgment and enforcement of judgment",
+              "Week 13: Applications pending appeal and appeal",
+              "Week 14: Recovery of possession of premises",
+              "Week 15: Election petition",
+              "Week 16: Matrimonial causes",
+              "Week 17: Enforcement of fundamental rights procedure, judicial review, cost and sanctions",
+            ],
+            source: "Course syllabus, Week 3 lesson plan",
+          },
           {
             category: "Sources & Overview",
             question: "Name the six sources of civil procedure.",
@@ -53,8 +75,7 @@ const flashcards = {
           },
           {
             category: "Sources & Overview",
-            question:
-              "State the current rules of court for the SC, CA, FHC, NIC, FCT HC, Lagos HC, Lagos Magistrate Court and Lagos Small Claims Court.",
+            question: "State the current rules of court for the SC, CA, FHC, NIC, FCT HC, Lagos HC, Lagos Magistrate Court and Lagos Small Claims Court.",
             answer: [
               "Supreme Court Rules 2024",
               "Court of Appeal Rules 2021",
@@ -142,6 +163,44 @@ const flashcards = {
             source: "Mayowa; S.A. Badmus",
           },
           {
+            category: "Sources & Rules of Court",
+            question: "Table: the rules of court for each court, and who makes them (with CFRN sections).",
+            answer: [
+              "District Court (FCT): District Court Rules 2021. Made by the Chief Judge of the FCT",
+              "Magistrates' Court (Lagos): Magistrates' Court (Civil Procedure) Rules, Lagos, 2009. Made by the Chief Judge of Lagos State",
+              "Customary Court of Appeal: Customary Court of Appeal Rules. Made by the President of the Customary Court of Appeal, ss.269 and 284 CFRN",
+              "Sharia Court of Appeal: Sharia Court of Appeal Rules. Made by the Grand Khadi, ss.264 and 279 CFRN",
+              "High Court of the FCT: High Court of the FCT (Civil Procedure) Rules 2025. Made by the Chief Judge of the FCT, s.259 CFRN",
+              "High Court of Lagos State: High Court of Lagos State (Civil Procedure) Rules 2019. Made by the Chief Judge of Lagos State, s.274 CFRN",
+              "Federal High Court: Federal High Court Rules 2019. Made by the Chief Judge of the FHC, s.254 CFRN",
+              "National Industrial Court: NIC (Civil Procedure) Rules 2017. Made by the President of the NIC, s.254F CFRN",
+              "Court of Appeal: Court of Appeal Rules 2021. Made by the President of the Court of Appeal, s.248 CFRN",
+              "Supreme Court: Supreme Court Rules 2024. Made by the Chief Justice of Nigeria, s.236 CFRN",
+            ],
+            source: "Week 3 compiled PDF, 3.1",
+          },
+          {
+            category: "Sources & Rules of Court",
+            question: "Week 3 compiled notes on sources of civil procedure (3.1) and on litigation and ADR (3.2).",
+            answer: [
+              "Six sources: (1) rules of court; (2) statutes creating the courts; (3) other statutes with procedural rules (Sheriffs and Civil Process Act and the Judgment (Enforcement) Rules, Foreign Judgments (Reciprocal Enforcement) Act, CAMA, Matrimonial Causes Act, Admiralty Jurisdiction Act and Procedure Rules 2011, Companies Income Tax Act and FHC Tax Appeals Rules); (4) the Constitution; (5) decisions of court on procedure; (6) practice directions",
+              "Constitution provisions that support rule-making: ss.46(3), 248, 236 and the sections in the table of court rules. Provisions that prescribe procedure include s.36 (fair hearing) and s.294 (judgment within 90 days)",
+              "Effect of non-compliance with the rules: Order 7 FCT Rules 2025 and Order 7 Lagos Rules 2019",
+              "ADR mechanisms: negotiation, mediation, arbitration, conciliation, online dispute resolution. Effect of an arbitration agreement on the court's jurisdiction: s.5 Arbitration and Mediation Act 2023",
+            ],
+            source: "Week 3 compiled PDF, 3.1-3.2",
+          },
+          {
+            category: "Week 3: Sources of Procedure",
+            question: "What is the position where a statute and a rule of court conflict, and do practice directions have the force of law? (syllabus Week 3, item 4(c)(ii) and (vi))",
+            answer: [
+              "Rules of court are subsidiary to the Constitution and to statutes. Where a rule conflicts with a statute, the statute prevails and the rule is void to that extent; where any law is inconsistent with the Constitution, the Constitution prevails (s.1(3) CFRN)",
+              "Exception noted in Week 17: the Fundamental Rights (Enforcement Procedure) Rules 2009 have constitutional flavour and prevail over conflicting rules of court",
+              "Practice directions: made by the head of the court under the rule-making power. Courts treat compliance as binding, and non-compliance can be fatal (Nwankwo v Yar'Adua, in the Week 3 deck). Check how your lecturer states 'force of law'",
+            ],
+            source: "Syllabus topic not in the compiled PDF: general knowledge; verify against lecture slides",
+          },
+          {
             category: "ADR",
             question: "List the ADR mechanisms.",
             answer: [
@@ -213,8 +272,7 @@ const flashcards = {
           },
           {
             category: "ADR",
-            question:
-              "Defendant served with a writ wants the dispute arbitrated under an arbitration clause. What step, under what law, and when?",
+            question: "Defendant served with a writ wants the dispute arbitrated under an arbitration clause. What step, under what law, and when?",
             answer: [
               "Motion on notice with affidavit for stay of proceedings pending arbitration, s.5 Arbitration and Mediation Act 2023",
               "Must be brought before taking any further step, else the right is waived (Kaduna State Urban Development Board v Fanz Construction)",
@@ -291,6 +349,15 @@ const flashcards = {
             source: "S.A. Badmus",
           },
           {
+            category: "Week 3: ADR",
+            question: "What is ADR? (syllabus Week 3, item 3(b))",
+            answer: [
+              "Alternative Dispute Resolution: the processes for resolving disputes outside the formal court trial, usually with the help of a neutral third party, such as negotiation, mediation, conciliation, arbitration and online dispute resolution",
+              "Types, advantages, disadvantages and limits are in the main Week 3 deck, and the effect of an arbitration agreement on court jurisdiction is s.5 Arbitration and Mediation Act 2023",
+            ],
+            source: "Syllabus topic not in the compiled PDF: general knowledge; verify against lecture slides",
+          },
+          {
             category: "Jurisdiction Basics",
             question: "State the four elements of the Madukolu v Nkemdilim test for competence of a court.",
             answer: [
@@ -323,8 +390,7 @@ const flashcards = {
           },
           {
             category: "Jurisdiction Basics",
-            question:
-              "What determines which court has jurisdiction, and what order does a court make if it lacks jurisdiction?",
+            question: "What determines which court has jurisdiction, and what order does a court make if it lacks jurisdiction?",
             answer: [
               "The claimant's claim: subject matter, reliefs sought and parties (not the background facts)",
               "Proceedings without jurisdiction are a nullity however well conducted (Anih v Nna)",
@@ -399,6 +465,29 @@ const flashcards = {
               "Once statute-barred, the action is dead and the court lacks jurisdiction",
             ],
             source: "S.A. Badmus",
+          },
+          {
+            category: "Jurisdiction: General Principles",
+            question: "Week 3 compiled notes on jurisdiction (3.3): types, elements, conditions precedent, limitation periods, due process.",
+            answer: [
+              "Types: subject matter, geographical and monetary",
+              "Elements that affect jurisdiction (Madukolu v Nkemdilim [1962] SCNJ 341): (i) the court is properly constituted as to number and qualification of members; (ii) the subject matter is within its jurisdiction; (iii) the action was initiated by due process of law; (iv) conditions precedent to the exercise of jurisdiction have been satisfied",
+              "Condition precedent examples: pre-action notices (s.12(2) NNPC Act); Public Officers Protection Act s.2; statutes of limitation (s.7 Limitation Act, Abuja)",
+              "Limitation periods on the slide: simple contract 6 years; enforcement of an arbitral award 6 years; negligence causing personal injuries, nuisance, slander and similar 3 years",
+              "Due process includes proper service of court processes and locus standi",
+              "Subject-matter jurisdiction examples: ss.251, 254C, 257, 272, 285 CFRN",
+            ],
+            source: "Week 3 compiled PDF, 3.3",
+          },
+          {
+            category: "Week 3: Jurisdiction",
+            question: "What is jurisdiction, and why is it important? (syllabus Week 3, item 5(a)-(b))",
+            answer: [
+              "Jurisdiction is the authority or power of a court to hear and determine a dispute brought before it (Madukolu v Nkemdilim)",
+              "It is a threshold issue: a court without jurisdiction cannot validly decide the case, and proceedings without jurisdiction are a nullity however well conducted (see Anih v Nna in the Week 3 deck)",
+              "The proper order where jurisdiction is successfully challenged is striking out, not dismissal (Week 3 deck)",
+            ],
+            source: "Syllabus topic not in the compiled PDF: general knowledge; verify against lecture slides",
           },
           {
             category: "Supreme Court",
@@ -482,8 +571,7 @@ const flashcards = {
           },
           {
             category: "Supreme Court",
-            question:
-              "What happens to the SC's original jurisdiction if a private party is added as a defendant in a Federation v State suit?",
+            question: "What happens to the SC's original jurisdiction if a private party is added as a defendant in a Federation v State suit?",
             answer: [
               "The SC loses original jurisdiction; the suit must strictly be between the governments (AG Ondo v AGF)",
             ],
@@ -587,8 +675,7 @@ const flashcards = {
           },
           {
             category: "Federal High Court",
-            question:
-              "Which court decides whether the seat of a Senator, HoR member, HoA member, Governor or Deputy Governor has ceased or become vacant?",
+            question: "Which court decides whether the seat of a Senator, HoR member, HoA member, Governor or Deputy Governor has ceased or become vacant?",
             answer: [
               "Federal High Court: s.251(4) for Senators and HoR members; s.272(3) for HoA members, Governor and Deputy Governor",
               "Whether they were validly elected goes to the election tribunals",
@@ -724,6 +811,50 @@ const flashcards = {
             source: "S.A. Badmus",
           },
           {
+            category: "Courts: Establishment Table",
+            question: "Table: Supreme Court and Court of Appeal - establishment, composition, jurisdiction (CFRN) and notes.",
+            answer: [
+              "Supreme Court: established s.230(1); composition s.230(2); appointment s.231; original jurisdiction s.232(1) and (2); appellate s.233",
+              "Supreme Court notes: Constitution: 7 justices for original jurisdiction, constitutional and fundamental rights matters; not less than 5 otherwise (s.234). Cases: AG Bendel v AG Federation; AG Lagos v AG Federation; AG Kano v AGF",
+              "Court of Appeal: established s.237; appointment ss.237(2), 238; original jurisdiction s.239; appellate ss.240-246",
+              "Court of Appeal notes: Original: whether a person is validly elected President or VP, whether the President's term has ceased, whether the office is vacant. Final decisions: ss.243(4), 246(3)",
+            ],
+            source: "Week 3 compiled PDF, 3.3 table",
+          },
+          {
+            category: "Courts: Establishment Table",
+            question: "Table: Federal High Court and National Industrial Court - establishment, composition, jurisdiction and notes (cases).",
+            answer: [
+              "Federal High Court: established s.249(1); appointment ss.249(2), 250; jurisdiction s.251",
+              "FHC notes: actions involving the Federal Government or agencies (NEPA v Edegbenro; Onuoha v KRPC; NUEE v BPE; Wema Securities v NAIC). Fundamental rights are concurrent (Tukur v Govt of Gongola; Jack v UNAM; Adetona v Igele; Gafar v Kwara State; FUT Minna v Olutayo). Bank and customer disputes: s.251(1)(d) (NDIC v Okem). Transfer of cases FHC to SHC and back: s.22(2) FHC Act (Mokelu; Fasakin Foods v Shosanya)",
+              "National Industrial Court: established s.254A(1); composition s.254A(2); appointment s.254B; jurisdiction s.254C",
+              "NIC notes: Coca-Cola v Akinsanya; Sheraton v HPSSSA; Skye Bank v Iwu",
+            ],
+            source: "Week 3 compiled PDF, 3.3 table",
+          },
+          {
+            category: "Courts: Establishment Table",
+            question: "Table: High Courts, Sharia and Customary Courts of Appeal, Magistrates' Court, Election Tribunals, ECOWAS Court - sections.",
+            answer: [
+              "High Court of FCT / State: FCT ss.255, 256, 257(1). State ss.270, 271, 272(1). Unlimited jurisdiction subject to s.251",
+              "Sharia Court of Appeal: FCT ss.260-262. State ss.275-277",
+              "Customary Court of Appeal: FCT ss.265-267. State ss.280-282",
+              "Magistrates' Court (Lagos): jurisdiction s.28 Magistrates' Court Law 2009. Establishment for the FCT by the National Assembly, for States by the House of Assembly. Small Claims Court is a special division (see Week 5)",
+              "Election Tribunals: National and State Assembly Tribunals s.285(1); Governorship Tribunal s.285(2); composition s.285(3) and 6th Schedule; quorum s.285(4); appointment 6th Schedule paras 1(2)(3), 2(2)(3)",
+              "ECOWAS Court: establishment Arts 6 and 15 Revised ECOWAS Treaty 1993; composition and appointment Art 3 Protocol; jurisdiction Art 9 Protocol",
+            ],
+            source: "Week 3 compiled PDF, 3.3 table",
+          },
+          {
+            category: "Check / Conflict",
+            question: "Check / conflict: year of the Lagos Small Claims Practice Directions.",
+            answer: [
+              "The Week 3 slide says the Lagos Small Claims Practice Directions are 2023; the Week 5 slide says 2018",
+              "Small Claims details follow the Week 5 slides (2018). Confirm the year before citing",
+            ],
+            source: "Week 3 compiled PDF, check box",
+          },
+          {
             category: "Federal High Court",
             question: "What is the scope of the FHC's admiralty jurisdiction?",
             answer: [
@@ -800,7 +931,9 @@ const flashcards = {
           {
             category: "Pre-class Scenarios",
             question: "FIRS sues Zenith Horizon Ltd for N200m Companies Income Tax. Court?",
-            answer: ["Federal High Court, exclusive: revenue of the FG and taxation of companies (s.251(1)(a),(b))"],
+            answer: [
+              "Federal High Court, exclusive: revenue of the FG and taxation of companies (s.251(1)(a),(b))",
+            ],
             source: "Pre-class Q2(c)(ii)",
           },
           {
@@ -893,6 +1026,15 @@ const flashcards = {
             ],
             source: "Pre-class Q1(e)",
           },
+          {
+            category: "Ethics, Costs & Sanctions",
+            question: "Week 3 compiled note on ethics, costs and sanctions (3.4): improper use of rules and filing in the wrong court.",
+            answer: [
+              "Ethical issues arise from improper use of the rules and from filing in the wrong court",
+              "Costs and sanctions for wrong use of the rules and wrong choice of court: cost against counsel personally - Order 53 r.14 Lagos; Order 49 r.13 Abuja",
+            ],
+            source: "Week 3 compiled PDF, 3.4",
+          },
         ],
       },
       {
@@ -968,6 +1110,17 @@ const flashcards = {
               "Suing the State or HoA itself instead of the AG or Speaker is a mere procedural irregularity that can be waived (Plateau State v AGF)",
             ],
             source: "S.A. Badmus",
+          },
+          {
+            category: "Types of Parties",
+            question: "Table: types of parties, meaning and authority.",
+            answer: [
+              "Necessary: interested in the subject matter and in whose absence the proceedings cannot be effectively and completely determined. Authority: Green v Green; Union Beverages v Pepsi; Adisa v Oyinwola; Ojo v Ogbe",
+              "Proper: has an interest in the subject matter or is directly affected by the outcome. Authority: Mobil v LASEPA",
+              "Desirable: not necessary for a just determination, but joined so as to be bound by the result. Authority: Yakubu v Gov of Kogi; Green v Green",
+              "Nominal (statutory): a party only by virtue of the office held, e.g. AG, Speaker. Authority: Padawa v Jatau; Plateau State v AGF",
+            ],
+            source: "Week 4 compiled PDF, 4.3 table",
           },
           {
             category: "Capacity & Classes",
@@ -1128,6 +1281,39 @@ const flashcards = {
             source: "Kelvin",
           },
           {
+            category: "Designation & Capacity",
+            question: "Compiled PDF 4.1-4.2: designation of parties and the capacity rule.",
+            answer: [
+              "Parties are the persons whose names appear on the record as claimants or defendants (Green v Green). A process with no parties is incompetent and will be struck out",
+              "Writ of summons or originating summons (Lagos and Abuja): Claimant v Defendant. Petition: Petitioner v Respondent. Originating motion / application: Applicant v Respondent. Appeal: Appellant v Respondent",
+              "Only legal (juristic) persons can sue or be sued. A party lacking capacity is struck out; if it is the sole claimant or defendant the action is incompetent (Shitta v Ligali; Okechukwu v Ndah; Njemanze v Shell). A misnomer can be amended (Kalu v Odili; Emespo v Corona)",
+            ],
+            source: "Week 4 compiled PDF, 4.1-4.2",
+          },
+          {
+            category: "Designation & Capacity",
+            question: "Table: how each kind of party sues or is sued, with authority (first half).",
+            answer: [
+              "Infant, lunatic, bankrupt (legal disability): through a guardian or next friend, e.g. 'John Martin (an infant, suing through his guardian, Obi Martin)'. Authority: Order 15 r.9 Lagos; Order 13 r.11 Abuja",
+              "Attorney: 'suing through his lawful attorney'",
+              "Personal representatives, trustees, executors, administrators: in that capacity. Authority: Order 15 r.11(1) Lagos; Order 13 r.13 Abuja",
+              "Corporation sole (AG, Governor, President, CJN, COP, IGP, minister, stool): in the name or title of the office",
+              "Corporation aggregate (statutory bodies, companies, Incorporated Trustees): in their corporate names (Council of Legal Education, CAC, SEC, NNPC, INEC; Moses v NBA for registered trustees). Authority: s.830(1) CAMA 2020 for Incorporated Trustees",
+            ],
+            source: "Week 4 compiled PDF, 4.2 table",
+          },
+          {
+            category: "Designation & Capacity",
+            question: "Table: how each kind of party sues or is sued, with authority (second half).",
+            answer: [
+              "Juridical persons (statutory bodies with no express power to sue): deemed to have capacity (Taff Vale; Thomas v Local Govt Service Board; Kpebimoh v Western Ijaw TTC)",
+              "Firms, partnerships, business names: not juristic. Sue in the name of the partners or proprietor, but the rules allow the firm name; disclosure of partners can be applied for. Authority: Order 13 r.25 Abuja; Order 15 rr.24-28 Lagos; Iyke Medical v Pfizer",
+              "Unincorporated associations: no capacity in own name; sue through accredited members in a representative capacity (Yussuf v Akindipe; Shitta v Ligali; Kpebimoh v Western Ijaw TTC cf Fawehinmi v NBA (No.1))",
+              "Persons unknown (trespassers): described as 'persons unknown'; may apply to be substituted. Authority: Order 13 r.9 Abuja; Form 38, Order 57 r.2(2) Lagos ('The Occupier')",
+            ],
+            source: "Week 4 compiled PDF, 4.2 table",
+          },
+          {
             category: "Representative & Class",
             question: "What is a representative action, and what are its purposes?",
             answer: [
@@ -1205,8 +1391,7 @@ const flashcards = {
           },
           {
             category: "Representative & Class",
-            question:
-              "How do you challenge a party's representative capacity? Can a defendant be sued or defend in a representative capacity?",
+            question: "How do you challenge a party's representative capacity? Can a defendant be sued or defend in a representative capacity?",
             answer: [
               "A challenge to suing or being sued in a representative capacity must be raised timeously by preliminary objection, not in the statement of defence (Wali v Amaefule)",
               "Representative actions apply to defendants too: 'Sued for themselves and on behalf of...'",
@@ -1222,6 +1407,18 @@ const flashcards = {
               "Requires leave of court and must be in the company's interest (s.303 CAMA)",
             ],
             source: "S.A. Badmus",
+          },
+          {
+            category: "Representative & Class Actions",
+            question: "Compiled PDF 4.4: representative and class actions, with rule numbers and the check note.",
+            answer: [
+              "Representative action: several persons with a common interest, one or more sue or are sued for all. Order 13 r.14 Abuja; Order 15 r.12 Lagos. Named and represented parties are bound (Oketie v Olughor). No leave is needed to sue in a representative capacity; a named defendant who wants to defend in a representative capacity needs leave",
+              "Class action (a species of representative action): the court must be satisfied that (a) the persons interested cannot be, or cannot readily be, ascertained; or (b) if ascertained, cannot be found; or (c) though ascertained and found, a class action is expedient. Order 13 rr.15 and 16 Abuja; Order 15 rr.13 and 14 Lagos",
+              "Available in proceedings about: administration of an estate; property subject to a trust; family or communal land; construction of a written instrument or statute; and (Abuja only) torts or any other class action",
+              "Procedure: motion ex parte for the court to appoint one or more persons to represent the class. Any settlement must be certified by the court. The judgment binds all members, including the unborn, unless obtained by fraud or misrepresentation",
+              "Check / conflict: Week 4 slides give the Abuja class-action rule as Order 13 rr.15 and 16, and the syllabus gives Order 13 r.15. Other notes cited Order 14 r.1. Follow the slides",
+            ],
+            source: "Week 4 compiled PDF, 4.4",
           },
           {
             category: "Joinder & Alteration",
@@ -1361,6 +1558,27 @@ const flashcards = {
             source: "S.A. Badmus",
           },
           {
+            category: "Joinder & Alteration",
+            question: "Compiled PDF 4.5 (first half): joinder, persons jointly and severally liable, non-joinder and misjoinder.",
+            answer: [
+              "Joinder of parties: Order 13 rr.1 and 4 Abuja; Order 15 rr.1 and 4 Lagos. Joint claimants must have the same interest and no conflicting claims; joinder of parties is not joinder of causes of action (Amachree v Newington)",
+              "Persons jointly and severally liable: Order 13 r.7 Abuja; Order 15 r.7 Lagos. If in doubt who to sue, join two or more so that the court decides after trial: Order 15 r.8 Lagos; Order 13 r.8 Abuja (Bullock v London General Omnibus)",
+              "Non-joinder or misjoinder does not defeat the suit: Order 15 r.16 Lagos; Order 13 r.18 Abuja (Dontsoho v Mohammed; Green v Green: a judgment against a non-party is likely to be set aside). The court can join suo motu (Otapo v Sunmonu)",
+              "Misjoinder: application to strike out the party wrongly joined, by motion on notice + affidavit + written address: Order 15 r.17 Lagos; Order 13 r.19 Abuja",
+            ],
+            source: "Week 4 compiled PDF, 4.5",
+          },
+          {
+            category: "Joinder & Alteration",
+            question: "Compiled PDF 4.5 (second half): application to join, alteration (substitution) and survival of parties.",
+            answer: [
+              "Application to join: by an existing party or by a prospective party or intervener; the person must be a necessary party; at any stage and even on appeal (Inakoju v Adeleke; Yakubu v Gov of Kogi). A joinder order cannot be reversed by the same court (Onwuka v Maduka)",
+              "Alteration (substitution) of parties on death, bankruptcy, assignment, transmission, change of name, merger and similar: motion ex parte. Order 15 r.30 Lagos; Order 13 r.31 Abuja",
+              "Death of a sole party: the action abates (actio personalis moritur cum persona) unless the cause of action survives (Order 15 r.29 Lagos; Order 13 r.30 Abuja), or death occurs between findings of fact and judgment (Order 15 r.30 Lagos; Order 13 r.31 Abuja). Amend processes after substitution",
+            ],
+            source: "Week 4 compiled PDF, 4.5",
+          },
+          {
             category: "Third Party",
             question: "What are third party proceedings, who can use them, and why?",
             answer: [
@@ -1415,6 +1633,16 @@ const flashcards = {
               "Status: a third party is not a party to the main suit (the dispute is between him and the defendant); a joined person is a party to the main suit",
             ],
             source: "S.A. Badmus",
+          },
+          {
+            category: "Third Party Proceedings & Ethics",
+            question: "Compiled PDF 4.6-4.7: third party proceedings and ethics.",
+            answer: [
+              "A defendant (or a claimant who is a defendant to a counterclaim) seeks contribution or indemnity from a third party. The claim must arise from the claimant's claim. The third party becomes a defendant to the defendant, not to the claimant's claim. Aim: avoid multiplicity of actions. Order 15 r.19 Lagos; Order 13 r.21 Abuja (British Airways v NAHCO; Sun Insurance v Ojemuyiwa)",
+              "Procedure (from your drafts): motion ex parte for leave to issue and serve a third party notice, supported by an affidavit and written address (Bank of Ireland v UBA)",
+              "Ethics: due diligence on the true, necessary and capable parties; representation within the bounds of the law; honest advice; dedication; professional secrecy; careful drafting; take full instructions",
+            ],
+            source: "Week 4 compiled PDF, 4.6-4.7",
           },
           {
             category: "Drafting",
@@ -1492,8 +1720,7 @@ const flashcards = {
           },
           {
             category: "Drafting",
-            question:
-              "Give the correct party descriptions for: infant, person of unsound mind, attorney, executors, business name, Part F body, State Government.",
+            question: "Give the correct party descriptions for: infant, person of unsound mind, attorney, executors, business name, Part F body, State Government.",
             answer: [
               "MASTER X (An Infant) (Suing through his Guardian, Y)",
               "X (A Lunatic) (Suing through his Guardian, Y)",
@@ -1518,8 +1745,7 @@ const flashcards = {
           },
           {
             category: "Drafting",
-            question:
-              "Case Study 4: give the party lines for a representative defendant, partnership defendants, the National Assembly, a company, an infant defendant and a class action.",
+            question: "Case Study 4: give the party lines for a representative defendant, partnership defendants, the National Assembly, a company, an infant defendant and a class action.",
             answer: [
               "1. Dele Jide 2. Aluko Madu (Sued for themselves and on behalf of the Tokunbo Family)",
               "1. Obi John 2. James King (Trading under the name and style of Blue Gate Enterprises)",
@@ -1755,6 +1981,33 @@ const flashcards = {
               "Breach of Rules 14, 15 and 16 RPC",
             ],
             source: "Mayowa; S.A. Badmus",
+          },
+          {
+            category: "Preliminary Considerations",
+            question: "Table (compiled PDF 5.1): matters to consider before commencing or defending, with key points and authority (first half).",
+            answer: [
+              "Cause of action: Nwosu v APP; AG Adamawa v AGF; Oshoboja v Amuda",
+              "Limitation period: s.2 Public Officers Protection Act; s.12(1) NNPC Act; s.307(2) Petroleum Industry Act",
+              "Parties: nomenclature, capacity, consent",
+              "Exhaustion of remedies: internal mechanisms; contract terms",
+              "ADR: Rule 15(3)(d) RPC 2023; ADR screening: Order 2 r.7 Abuja, Order 5 r.8 Lagos; s.38(1) Magistrates' Court Law 2009 (duty of lawyer)",
+              "Locus standi: sufficient right or interest to maintain the action (Adetono v Zenith Bank; Uwazuruonye v Gov Imo State; Adesanya v President; cf AG Kaduna v Hassan, Fawehinmi v Akilu)",
+            ],
+            source: "Week 5 compiled PDF, 5.1 table",
+          },
+          {
+            category: "Preliminary Considerations",
+            question: "Table (compiled PDF 5.1): matters to consider before commencing or defending (second half), and the skills note.",
+            answer: [
+              "Jurisdiction: subject matter, financial limit, geographical limit, parties (Madukolu v Nkemdilim)",
+              "Venue: judicial divisions and districts",
+              "Condition precedent / pre-action notice: s.12(2) NNPC Act; pre-action certificate or protocol",
+              "Cost of litigation: compare cost with the relief; consider other means",
+              "Immunity: s.308 CFRN; s.1 DIPA 2004",
+              "Enforceability of judgment: can the judgment be realised if won?",
+              "Skills: interviewing and counselling, letter writing, listening, duty of dedication and devotion and competence (Rules 14 and 15 RPC)",
+            ],
+            source: "Week 5 compiled PDF, 5.1 table",
           },
           {
             category: "Limitation & Conditions Precedent",
@@ -2480,6 +2733,16 @@ const flashcards = {
             source: "NLS slides; S.A. Badmus",
           },
           {
+            category: "The Writ",
+            question: "Compiled PDF 6.3: the writ - content, signature, NBA stamp and seal.",
+            answer: [
+              "Content: Order 6 Lagos; Order 2 r.2(5) and (6) and Order 6 Abuja; Forms 1 and 2. Judicial division, heading, names and description of parties and capacities (Mgt Ent v Otusanya), endorsement of claim (Alatede v Falode; Alawode v Semoh), address of claimant and legal practitioner (Order 4 r.6 Lagos; Order 6 r.6 Abuja), general and special endorsement",
+              "Signature: only a legal practitioner (a human being) can sign (s.9 Legal Practitioners Act). A law firm cannot sign: a writ signed in a firm name is incurably bad (Okafor v Nweke; Alawiye v Ogunsanya)",
+              "NBA stamp and seal: Order 2 r.9 Abuja; Rule 10 RPC 2023. Failure does not make the process incompetent; it is an irregularity cured by extension of time (Nyesom v Peterside; Yaki v Bagudu). A payment receipt can suffice (Today's Car v LASACO); an expired seal does not invalidate (Emechebe v Ceto)",
+            ],
+            source: "Week 6 compiled PDF, 6.3",
+          },
+          {
             category: "Frontloading",
             question: "What documents must accompany a writ of summons (SLWEP)?",
             answer: [
@@ -2533,6 +2796,20 @@ const flashcards = {
               "Format is like an affidavit with the heading 'Witness Statement on Oath of PW1'",
             ],
             source: "S.A. Badmus",
+          },
+          {
+            category: "Frontloading",
+            question: "Compiled PDF 6.4: frontloading - meaning, advantages, table (Lagos v Abuja), and originating summons documents.",
+            answer: [
+              "Meaning: filing the statement of claim and other necessary documents with the writ. Advantages: open trials, saves time and cost, prevents frivolous suits, encourages ADR, efficient case management, avoids surprises, shows the strength of the case",
+              "Rule for writ: Lagos Order 5 r.1(2); Abuja Order 2 r.2(2) and r.8",
+              "Documents: Lagos - statement of claim; list of witnesses; written statements on oath of witnesses (except witnesses on subpoena); copies of every document to be relied on; Pre-action Protocol Form 01 with necessary documents. Abuja - statement of claim; list of witnesses; written statements of witnesses (not required on oath, numbered in consecutive paragraphs); copies of every document to be relied on; Certificate of Pre-action Counselling Form 6",
+              "Effect of failure: Lagos - nullifies the action (Order 5 r.1(3)). Abuja - process shall not be accepted for filing (Order 2 r.2(4))",
+              "Pre-action document: Lagos - statement on oath of compliance with the protocol, under the High Court of Lagos State Expeditious Disposal of Civil Cases Practice Direction 2019. Abuja - counsel certifies he advised on strength and weakness, on ADR and amicable settlement, and will bear the cost if the suit is frivolous (Order 2 r.8, Order 2 r.2(e)); Form 6",
+              "Originating summons is accompanied by: affidavit setting out facts; exhibits; written address; pre-action counselling certificate or protocol Form 01 (Order 2 r.3(5) Abuja; Order 5 r.5(3) Lagos). Time to respond: 21 days in both (Order 11 r.1 and Form 3)",
+              "Mandatory ADR screening on acceptance of all originating processes: Order 2 r.7 Abuja; Order 5 r.8 Lagos",
+            ],
+            source: "Week 6 compiled PDF, 6.4",
           },
           {
             category: "Issuance & Lifespan",
@@ -2785,6 +3062,16 @@ const flashcards = {
             source: "NLS slides; Mayowa",
           },
           {
+            category: "Check / Conflict",
+            question: "Check / conflict notes in Week 6: writ life, appearance time, Abuja fast track fee.",
+            answer: [
+              "Writ life span: the Lagos life span printed on the writ form in your S.A. draft also reads 6 months plus renewals of 3 months. The Abuja renewal timing (before expiry versus within 14 days after) is the one real conflict between sources; the slide says 14 days after expiry",
+              "Appearance time: your S.A. draft writ form prints '42 days / (14 days in Abuja)' and, for service out of the State, '(30 days in Abuja)'. The slides say 21 days in Abuja (30 where served outside the State). Use the slide figures",
+              "Abuja fast track fee: the fee on the slide (N500,000,000.00) looks like a typing error for N500,000. Confirm against Order 41 r.7 before using the figure",
+            ],
+            source: "Week 6 compiled PDF, check boxes",
+          },
+          {
             category: "Modes of Commencement",
             question: "State the prescribed forms and headings for each originating process.",
             answer: [
@@ -2796,6 +3083,19 @@ const flashcards = {
               "Related forms: memorandum of appearance Form 11 Lagos, Form 12 Abuja; renewed writ Form 6 Lagos, Form 7 Abuja",
             ],
             source: "S.A. Badmus; Mayowa",
+          },
+          {
+            category: "Venue & Modes",
+            question: "Compiled PDF 6.1-6.2: venue (Order 4 Abuja and Lagos) and the table of modes of commencement with authority.",
+            answer: [
+              "One High Court per State; judicial divisions are for administrative convenience (Nigerite v Danlami)",
+              "Venue: land matters - where the land is located. Penalties, forfeitures, or actions against public officers - where the cause of action arose. Specific performance or breach of contract - where the contract ought to have been performed, or where the defendant resides or carries on business. Every other action - where the defendant resides or carries on business (use this when in doubt, except for land)",
+              "Writ of summons: contentious matters or where facts are likely to be in dispute; where the claimant is unsure of the mode. Authority: Order 5 r.1(1) Lagos; Order 2 r.2 Abuja; Doherty v Doherty; NBN v Alakija; SSS v Agbakoba",
+              "Originating summons: questions on construction or interpretation of a deed, will, enactment or other document, where facts are not likely to be in dispute. Authority: Order 5 rr.4 and 5 Lagos; Order 2 r.3 Abuja; Saude v Abdullahi; Unilag v Aigoro; Agip v Ezendu",
+              "Originating motion (originating application): where a law or rule says so: fundamental rights enforcement, prerogative reliefs. Authority: Order 2 r.1 Abuja; Order 43 r.1 Abuja; Order 2 r.1 FREP Rules 2009; Kasoap v Kofa Trading",
+              "Petition: where a law or rule says so: election petitions, matrimonial causes. Authority: Order 2 r.1 Abuja; Order 1 r.2(3) Lagos; Kasoap v Kofa",
+            ],
+            source: "Week 6 compiled PDF, 6.1-6.2",
           },
           {
             category: "Issuance & Lifespan",
@@ -2855,6 +3155,40 @@ const flashcards = {
               "VERIFY: the notes do not set out a separate e-filing deadline rule (e.g. whether a filing after registry hours counts as next day); confirm Order 3 before the exam",
             ],
             source: "NLS slides; syllabus item; verify in Order 3",
+          },
+          {
+            category: "Issue & Service",
+            question: "Compiled PDF 6.5-6.6: issue of process, concurrent writ and who, when and how to serve.",
+            answer: [
+              "Filing fees: failure affects jurisdiction (Onwubufor v Okoye). A writ is issued when sealed by the registrar (Order 8 r.1 Lagos; Order 8 r.2(1) Abuja). Once the claimant presents all documents with proof of payment, the action is deemed commenced (Uba v Mode; Alawode v Semoh); time of commencement fixes limitation and the life span of the writ",
+              "Concurrent writ: a true copy bearing the same date and life span, e.g. one for service outside the jurisdiction beside one for service within. Order 8 rr.9 and 10 Lagos; Order 8 r.9 Abuja",
+              "Who serves: sheriff, deputy sheriff, bailiff, special marshal, officer of court, law chambers, couriers registered or appointed by the Chief Judge (Order 7 r.1(1) Abuja; Order 9 r.1(1) and (2) Lagos)",
+              "Time: between 6am and 6pm; after 6pm is deemed served next day; any day except Sundays and public holidays unless exceptional (Order 9 r.15 Abuja; Order 9 r.14 Lagos). Advance copies of non-originating processes by email in Abuja (Order 9 r.16)",
+              "Modes: personal or substituted (Order 9 rr.1 and 2). Service by a bailiff on a third party who delivers it to the party is proper (Akande v Jegede; Panache v Aikhomu)",
+            ],
+            source: "Week 6 compiled PDF, 6.5-6.6",
+          },
+          {
+            category: "Issue & Service",
+            question: "Compiled PDF 6.6 (continued): substituted service, company service, violence, service outside the State and Nigeria, proof of service.",
+            answer: [
+              "Substituted service: Order 9 r.5 Lagos; Order 9 r.11 Abuja (Mark v Eke). Abuja lists the modes: delivery to an adult at the last abode, newspaper or gazette advertisement, posting at the court house, email, scientific device, courier (Order 9 r.11(2)). Procedure: motion ex parte, affidavit, written address",
+              "Service on a company: Abuja - any officer or employee at the head office or other place of business within the jurisdiction (Order 9 r.8). Lagos - director, secretary, trustee, senior or principal officer, or leaving it at the principal, registered or advertised office (Order 9 r.9; s.104 CAMA; Mark v Eke)",
+              "Where violence is threatened, leave the process within reach of the person (Order 9 r.12)",
+              "Service outside the State but within Nigeria: no leave needed, but (1) the time to appear must be not less than 30 days where the rules prescribe so (so 30 days in Abuja, 42 days in Lagos), and (2) the writ must carry the endorsement that it is for service outside the State. ss.97-99 Sheriffs and Civil Process Act (Nwabueze v Okoye; Adegoke Motors v Adesanya; Odua v Talabi). Service outside Nigeria: Order 10 r.1 (both)",
+              "Proof of service: affidavit of service (Order 9 r.13 Abuja). Lack of service affects jurisdiction (NEPA v Onah; NBN v Guthrie; Dickson v Okoi); improper service is a curable defect (RFG v Skye Bank; GTB v Muyiwa)",
+            ],
+            source: "Week 6 compiled PDF, 6.6",
+          },
+          {
+            category: "Defective Writ & E-Filing",
+            question: "Compiled PDF 6.7-6.8: defective writ and e-filing and e-service (Order 3 Abuja).",
+            answer: [
+              "Defendant may: enter conditional appearance then move to set aside the writ or service by motion on notice + affidavit + written address; or without appearing, move by motion on notice or summons; or challenge jurisdiction without appearing (Holman Brothers v Kigo; Skenconsult v Ukey; Order 5 r.2 Abuja; Order 7 r.2 Lagos). Do it within a reasonable time and before taking any step (Skenconsult; Ariori v Elemo; Ezomo v Oyakhire; Adegoke Motors)",
+              "Claimant cures a defective writ by motion on notice + affidavit + written address (Okomu Palm v Iserhienrhien; Kupoluyi v Philips)",
+              "E-filing and e-service (Order 3 Abuja): all processes and service may be done electronically; the Chief Judge establishes an E-filing Unit that runs beside the regular registry; the claimant's filing method is followed by the defendant; processes can be signed electronically; hearings can be virtual on application or the judge's direction",
+            ],
+            source: "Week 6 compiled PDF, 6.7-6.8",
           },
           {
             category: "Appearance & Default",
@@ -3028,680 +3362,744 @@ const flashcards = {
         ],
       },
       {
-  id: "civil-litigation-week-7",
-  title: "Week 7: Interlocutory Applications and Orders",
-  instructions:
-    "Answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
-  preClassUrl: "https://drive.google.com/drive/folders/1QQCg96bo6ZEFvf4vhZEzioXpqtQedEye?usp=sharing",
-  cards: [
-    {
-      category: "Meaning & Nature",
-      question: "What is an interlocutory application, and how is it tied to a suit?",
-      answer: [
-        "Applications made to the court while an action is pending; can be made before, during, or after trial but before judgment",
-        "IFC v DSNL Offshore Ltd: interlocutory process is provisional, interim, temporary and not final; it decides some intervening point, not the dispute itself",
-        "It is 'interlocutory' because it results in an order other than a final decision in the suit",
-        "Must be tied to an existing suit, whether brought before, during or after it — Woluchem v Wokoma",
-      ],
-      source: "IFC v DSNL Offshore Ltd (2008); handwritten notes",
-    },
-    {
-      category: "Meaning & Nature",
-      question: "Distinguish interlocutory process from originating process.",
-      answer: [
-        "Originating processes commence actions (writ, originating summons, motion, petition); interlocutory processes are generally tied to a substantive suit, commenced or pending",
-        "Originating process seeks a perpetual order/relief on the substantive suit; interlocutory process seeks only temporary orders pending the suit's conclusion",
-        "An interlocutory order/relief terminates with the substantive suit — Okafor v AG Anambra",
-        "The parties are called Applicant and Respondent, not Claimant and Defendant",
-      ],
-      source: "IFC v DSNL Offshore Ltd; Okafor v AG Anambra (1992) 2 SCNJ 219; handwritten notes",
-    },
-    {
-      category: "Uses & Examples",
-      question: "List the uses of interlocutory applications.",
-      answer: [
-        "Remedy defects in a pending suit, e.g. amend process or pleadings",
-        "Fulfil a condition precedent, e.g. leave for judicial review",
-        "Extend time for filing process",
-        "Seek temporary relief other than that in the originating process, e.g. injunction",
-        "Assist the orderly presentation of the case and quicken trial; appointment of a receiver; preserve property pending suit; stay proceedings or execution",
-      ],
-      source: "Handwritten notes; lecture slides",
-    },
-    {
-      category: "Uses & Examples",
-      question: "Give examples of interlocutory applications made during the pendency, and after trial.",
-      answer: [
-        "During pendency: extension of time to plead; leave for judicial review; leave for substituted service; leave to stay execution; striking out a suit; leave to sue in representative capacity; leave to appeal; adjournment; Mareva injunction; Anton Piller order; interpleader summons; an order at pretrial on order of hearing; default judgment and setting one aside",
-        "After trial/substantive suit: application to pay judgment debt in instalments; application for leave to appeal",
-      ],
-      source: "Handwritten notes; lecture slides",
-    },
-    {
-      category: "Uses & Examples",
-      question: "Interlocutory applications are sometimes abused by counsel as a delay tactic. What cases illustrate this?",
-      answer: [
-        "Professor Steve Ugba v Gabriel Suswam (2014) LPELR-22882(SC)",
-        "Ogboru v Uduaghan (2011) 17 NWLR (Pt 1232)",
-        "While interlocutory applications exist to assist orderly, speedy presentation of a case, some lawyers misuse them to stall proceedings",
-      ],
-      source: "Ugba v Suswam (2014) LPELR-22882(SC); Ogboru v Uduaghan (2011) 17 NWLR (Pt 1232)",
-    },
-    {
-      category: "Mode of Application",
-      question: "By what modes can an interlocutory application be made to court?",
-      answer: [
-        "Orally, before the judge in open court or in chambers — for minor, non-contentious matters",
-        "In writing, by motion — the most common mode (O30 R1 & 53 R1 Abuja; O43 R1 Lagos)",
-        "In writing, by summons — only where the rules so provide, e.g. interpleader proceedings (O26 R5 Abuja; O47 R2 Lagos)",
-      ],
-      source: "Lecture slides; handwritten notes",
-    },
-    {
-      category: "Limit to Filing",
-      question: "Is there a limit to the number of interlocutory applications a party may file in a suit?",
-      answer: [
-        "General rule: no limit to the number of interlocutory applications",
-        "An application meant to delay proceedings, or that is frivolous, will be struck out",
-        "Exception — amendment: Lagos allows unlimited amendment before close of CMC, but only twice during trial before judgment conference (O26 R1); Abuja limits amendment to twice before judgment, except with special leave (O24 R1)",
-        "Any interlocutory application brought after the two-amendment limit is incompetent and amounts to abuse of court process",
-      ],
-      source: "Order 26 Rule 1 Lagos; Order 24 Rule 1 Abuja",
-    },
-    {
-      category: "Motion — Meaning & Types",
-      question: "Define a motion and name its two types.",
-      answer: [
-        "'A written or oral application requesting a court to make a specified ruling or order' — Black's Law Dictionary, 11th ed., p.1216",
-        "Two types: Motion Ex Parte and Motion on Notice",
-        "A motion may be supported by an affidavit (O30 R1 Abuja; O43 R1(1) Lagos); no affidavit is needed where the application is on a point of law — Erejuwa II v Deduwa",
-      ],
-      source: "Black's Law Dictionary 11th ed.; Erejuwa II v Deduwa (1970) MSNLR 15",
-    },
-    {
-      category: "Motion Ex Parte",
-      question: "What is a motion ex parte, and in what two circumstances is it permitted?",
-      answer: [
-        "An application heard without notice to the other party; even if the affected party is in court, he is seen but not heard",
-        "Permitted where time is of the essence (real urgency)",
-        "Permitted where, from the nature of the application, the adverse party's interest will not be negatively affected",
-      ],
-      source: "7-Up Bottling Co v Abiola & Sons (1995) 2 SCNJ 37; Gombe v PW (Nig) Ltd (1995) 2 SCNJ 37; Leedo Presidential Motel Ltd v Bank of the North Ltd (1998) 7 SCNJ 328",
-    },
-    {
-      category: "Motion Ex Parte",
-      question: "Give examples of applications made by motion ex parte, and the orders a court may make after hearing one.",
-      answer: [
-        "Leave to bring a class/representative action; substituted service; interim injunction; renewal of writ (not yet served); garnishee order nisi; Anton Piller order; Mareva injunction",
-        "The court may: grant the application; grant less than prayed; refuse it; order that the other party be put on notice; order the affected party to show cause why it should not be granted; strike out or dismiss",
-      ],
-      source: "Lecture slides; handwritten notes; Order 43 Rule 5 Lagos",
-    },
-    {
-      category: "Motion Ex Parte",
-      question: "What is the lifespan of an ex parte order, and on what conditions can it be extended?",
-      answer: [
-        "In Lagos and Abuja, an ex parte order abates after 7 days unless extended before the abatement/lapse",
-        "The court may extend it by not more than a further 7 days if: (i) satisfied the motion on notice has been served; (ii) necessary in the interest of justice; (iii) necessary to prevent irreparable mischief",
-        "Application for extension must be brought before the ex parte order abates",
-        "Where an order is obtained ex parte in a case where it should have been on notice, the order will be set aside on appeal as a violation of natural justice — Unibiz Nig Ltd v CBN Nig Ltd",
-      ],
-      source: "Order 43 Rule 3(3)&(4) Lagos; Order 30 Rule 3(1)&(2) Abuja; Unibiz Nig Ltd v CBN Nig Ltd",
-    },
-    {
-      category: "Motion on Notice",
-      question: "What is a motion on notice, and what is the service timetable in Abuja and Lagos?",
-      answer: [
-        "Served on the other party, requiring him to appear on a named date; personal service is not required, unlike originating processes",
-        "Abuja: at least 2 clear days between service and hearing, absent leave to the contrary (O30 R6)",
-        "Lagos: every motion must be served within 5 days of filing (O43 R1(2)(b)); also at least 2 clear days between service and hearing",
-        "Where a motion on notice was filed and moved on the same day it was not ripe for hearing, the resulting order was set aside — Loxroy (Nig) Ltd v Triamns Nig Ltd",
-      ],
-      source: "Order 30 Rule 6 Abuja; Order 43 Rule 1(2)(b) Lagos; Loxroy (Nig) Ltd v Triamns Nig Ltd",
-    },
-    {
-      category: "Motion on Notice",
-      question: "State the counter-affidavit and reply timetable in Abuja and Lagos, and give examples of applications by motion on notice.",
-      answer: [
-        "Abuja: respondent's counter-affidavit within 7 days (O30 R1(3)); applicant's reply within 5 days (O30 R1(4))",
-        "Lagos: respondent's counter-affidavit within 7 days (O43 R1(3)); applicant's reply within 7 days (O43 R1(4))",
-        "Examples: joinder of parties; interlocutory injunction; amendment of pleadings; striking out of pleadings; stay of execution",
-      ],
-      source: "Order 30 Rule 1(3)&(4) Abuja; Order 43 Rule 1(3)&(4) Lagos",
-    },
-    {
-      category: "Motion on Notice",
-      question: "What orders may the court make after hearing a motion on notice?",
-      answer: [
-        "Grant the application as prayed",
-        "Grant less than the relief sought",
-        "Order striking out or dismissal of the motion",
-        "NOTE: the court cannot grant more than the reliefs prayed for, but can grant less",
-      ],
-      source: "Handwritten notes; lecture slides",
-    },
-    {
-      category: "Contents of a Motion",
-      question: "List the contents of a motion paper.",
-      answer: [
-        "Heading of the court and suit number",
-        "Parties ('Applicant', 'Respondent') and their designation",
-        "Type of motion (ex parte or on notice)",
-        "The order/rule/law under which brought (O43 R1 Lagos; O30 R1 Abuja)",
-        "The notice itself ('TAKE NOTICE that...'); the order/relief sought; grounds, if rules require them",
-        "Date; name and signature of counsel (never a law firm); applicant's counsel's address; name and address for service on the respondent",
-      ],
-      source: "Falobi v Falobi (1979) 1 NMLR 169; Uchendu v Ogboni (1999) 4 SCNJ 64; Maja v Samouris (2002) 7 NWLR (Pt 765) 78; Okafor v Nweke (2007) All FWLR (Pt 368) 1016",
-    },
-    {
-      category: "Hearing & Moving a Motion",
-      question: "Where are motions heard, and what happens where there is no objection?",
-      answer: [
-        "Contentious applications are heard in open court; non-contentious ones may be heard in chambers",
-        "In Abuja, a non-contentious motion ex parte is deemed moved and its written address deemed adopted, without actually moving it (O30 R4)",
-        "Where the respondent has no objection and filed no counter-affidavit, he may indicate no objection and ask for costs",
-        "Respondent may oppose only on points of law, filing and adopting only a written address",
-      ],
-      source: "Order 30 Rule 4 Abuja; handwritten notes",
-    },
-    {
-      category: "Hearing & Moving a Motion",
-      question: "Outline the step-by-step procedure for moving a motion in court.",
-      answer: [
-        "1. Announce appearance before the court",
-        "2. Identify the motion (type, date filed) and state the rule/law it is brought under",
-        "3. State the prayers/reliefs sought on the motion paper",
-        "4. Draw the court's attention to the affidavit in support (and further affidavit, if any) and rely on its paragraphs",
-        "5. Refer to any exhibits attached",
-        "6. Draw attention to the written address and adopt it",
-        "7. Where a counter-affidavit was filed, respond to it; urge the court to grant the application",
-      ],
-      source: "Handwritten notes; lecture slides",
-    },
-    {
-      category: "Hearing & Moving a Motion",
-      question: "What happens if the respondent opposes by counter-affidavit, and what does 'moving a motion in terms' mean?",
-      answer: [
-        "Opposing respondent: indicate and refer the court to the counter-affidavit, adopt his written address, and urge the court not to grant the application",
-        "Court delivers a bench ruling, stands down, or adjourns for ruling",
-        "'Moving in terms' means moving the motion exactly as drafted on the motion paper, usually adopted where the opposing party does not contest",
-      ],
-      source: "Handwritten notes",
-    },
-    {
-      category: "Order of Hearing",
-      question: "The court must hear every properly filed motion. What case illustrates this, and what is the general rule on order of hearing?",
-      answer: [
-        "A court is duty-bound to hear and pronounce on every filed application unless it is withdrawn",
-        "A motion for extension of time to file defence was never heard, yet judgment was entered — set aside on appeal: Dandume LGC v Yaro (2011) 11 NWLR (Pt 1257) 159",
-        "General rule: order of hearing is at the court's discretion, usually taken in the order in which motions were filed",
-      ],
-      source: "Dandume LGC v Yaro (2011) 11 NWLR (Pt 1257) 159",
-    },
-    {
-      category: "Order of Hearing",
-      question: "Where two motions are pending — one seeking to destroy, the other to save the suit — which is heard first, and what is the exception?",
-      answer: [
-        "The constructive motion (seeking to save/regularise the case) is heard first; the destructive one is heard after, or withdrawn if overtaken",
-        "AG Fed v AIC Ltd (1995) 2 NWLR 378",
-        "Exception: where a pending motion challenges the jurisdiction of the court, it must be heard first regardless of the constructive/destructive rule",
-      ],
-      source: "AG Fed v AIC Ltd (1995) 2 NWLR 378",
-    },
-    {
-      category: "Affidavits",
-      question: "Define an affidavit, and state what every affidavit must comply with.",
-      answer: [
-        "A written statement of facts made by the maker (deponent) under oath",
-        "Must comply with section 115 Evidence Act",
-        "Contains only statements of fact; must NOT contain extraneous matter, objections, prayers/reliefs, legal arguments, or conclusions of fact or law — s.115(1) & (2) EA",
-        "Where law, argument, prayers or conclusions must be made, they belong in the written address, not the affidavit",
-      ],
-      source: "Section 115 Evidence Act",
-    },
-    {
-      category: "Affidavits",
-      question: "List the contents of an affidavit, per s.117 Evidence Act.",
-      answer: [
-        "Heading of the court; suit/motion number; names, capacity and designation of parties; title (e.g. 'Affidavit in Support of Motion Ex Parte')",
-        "Declaration of the deponent's particulars: full name, nationality, religion, occupation/profession, address",
-        "Introduction stating the position in which the deponent is deposing (e.g. applicant, or a friend/relative, in 2-3 paragraphs)",
-        "Facts within the deponent's knowledge; where not within his knowledge, the source of his information (s.115(3)&(4) EA)",
-        "Statement that he verily believes the information to be true; oath clause; signature; official stamp of the Commissioner for Oaths or Notary Public; date; jurat (where applicable)",
-      ],
-      source: "Section 117 Evidence Act",
-    },
-    {
-      category: "Affidavits",
-      question: "What is a certificate of exhibit, and where is it endorsed?",
-      answer: [
-        "Where a document is attached to an affidavit, there must be a certificate of exhibit — always endorsed at the back of the document",
-        "It identifies/connects the exhibit to the relevant paragraph of the affidavit it supports",
-      ],
-      source: "Handwritten notes",
-    },
-    {
-      category: "Principles on Affidavit",
-      question: "If a deponent's belief is derived from another source (not personal knowledge), what must he state?",
-      answer: [
-        "Where belief is derived from sources other than personal knowledge, he must state the facts and circumstances forming the grounds of his belief",
-        "Where information is derived from another person, he must name the informant and give reasonable particulars of the time, place and circumstances of the information",
-      ],
-      source: "Section 115(1)-(4) Evidence Act; GTB Plc v Innoson (Nig) Ltd (2025) LPELR-81486(SC) at 43-44",
-    },
-    {
-      category: "Principles on Affidavit",
-      question: "Who is disqualified from administering or deposing to an oath for a given affidavit?",
-      answer: [
-        "A deponent shall not swear before himself — a Commissioner for Oaths or Notary Public is disqualified from attesting an affidavit in which he is the deponent",
-        "A deponent shall not swear before his own legal practitioner, or a clerk or partner of that practitioner",
-        "A defective or erroneous affidavit may be amended and re-sworn by leave of court, on reasonable terms",
-      ],
-      source: "Section 112 & 114 Evidence Act; Buhari v INEC & Ors (2008) LPELR-814(SC) at 88",
-    },
-    {
-      category: "Principles on Affidavit",
-      question: "Is it proper for a lawyer to type the affidavit, have the client sign it in the lawyer's office, then take it for stamping by a Commissioner for Oaths?",
-      answer: [
-        "No — this procedure is wrong and renders the affidavit inadmissible: the deponent must actually depose/swear before the Commissioner, not merely have it stamped after signing elsewhere",
-        "Exception: valid if the lawyer who takes the oath is himself a Notary Public",
-      ],
-      source: "Section 114 Evidence Act; handwritten notes",
-    },
-    {
-      category: "Principles on Affidavit",
-      question: "What are the jurat requirements for an illiterate or blind deponent, and for an affidavit deposed in another language?",
-      answer: [
-        "Illiterate/blind jurat: the contents must be read out and explained by an interpreter, and the deponent affixes thumbprint/mark after appearing to understand",
-        "Where deposed in a language other than the court's (English), the affidavit must be translated, and both the English and other-language versions presented to the court, with a jurat",
-      ],
-      source: "Gundiri v Nyako (2014) 2 NWLR (Pt 1391) 211",
-    },
-    {
-      category: "Principles on Affidavit",
-      question: "In what instances is an affidavit not required to be sworn on oath?",
-      answer: [
-        "S.120 Evidence Act: on religious grounds (want of religious belief) — the deponent may affirm instead",
-        "Where the deponent is below the age of maturity (age of immaturity is under 14 years)",
-      ],
-      source: "Section 120 Evidence Act",
-    },
-    {
-      category: "Types of Affidavit",
-      question: "Name the types of affidavit used to support motions.",
-      answer: [
-        "Affidavit in support of application",
-        "Affidavit of urgency",
-        "Affidavit of service / non-service",
-        "Counter-affidavit",
-        "Further and better affidavit",
-        "Affidavit for the record",
-      ],
-      source: "Handwritten notes",
-    },
-    {
-      category: "Defective Affidavit",
-      question: "What is a defective affidavit, and can it still be admitted?",
-      answer: [
-        "One which does not conform to the proper form of an affidavit",
-        "It can still be admitted by the court, provided the affidavit was administered by the relevant/proper authority",
-      ],
-      source: "Handwritten notes",
-    },
-    {
-      category: "Counter-Affidavit",
-      question: "What is a counter-affidavit, and what is the effect of failing to file one?",
-      answer: [
-        "Filed in opposition to an application, to oppose facts deposed to in the affidavit in support",
-        "Where a respondent fails to file a counter-affidavit, the facts deposed to in the applicant's affidavit are deemed true/admitted",
-        "General denials are not a sufficient rebuttal — an effective rebuttal must be specific, clear and unambiguous",
-      ],
-      source: "Mato v Hember (2018) All FWLR (Pt 925) 146 @ 190; Okereke v Ejiofor (1996) 3 NWLR (Pt 434) 90",
-    },
-    {
-      category: "Counter-Affidavit",
-      question: "When is a respondent NOT required to file a counter-affidavit?",
-      answer: [
-        "Where the respondent is not opposing the application",
-        "Where the respondent intends to rely only on documents already on record, or on a point of law",
-        "Where the facts in the applicant's affidavit are manifestly self-contradictory such that no reasonable court would rely on them",
-      ],
-      source: "Badejo v Minister of Education (1996) 9-10 SCNJ 51; Real Exchange Assurance v Asuani Textile",
-    },
-    {
-      category: "Further Affidavit",
-      question: "What is a further affidavit, and when is it used?",
-      answer: [
-        "Filed by the applicant after being served with the respondent's counter-affidavit, to oppose new facts raised or clarify earlier contradictions",
-        "Must be limited to matters arising from the counter-affidavit — not an opportunity to introduce an entirely new case",
-      ],
-      source: "Order 43 Rule 1(4) Lagos; Order 30 Rule 1(4) Abuja; Forsan v Calabar MG",
-    },
-    {
-      category: "Conflicts in Affidavit",
-      question: "Distinguish a 'contradiction' from a 'conflict' in affidavit evidence.",
-      answer: [
-        "Contradiction: occurs within ONE party's own affidavit, where he makes two opposing statements on the same issue — the court simply disbelieves that deponent on that point",
-        "Conflict: occurs where TWO parties say different/opposing things on the same issue in their respective affidavits",
-        "Only a genuine conflict between parties (not a mere internal contradiction) triggers the requirement to call oral evidence",
-      ],
-      source: "Handwritten notes",
-    },
-    {
-      category: "Conflicts in Affidavit",
-      question: "How does the court resolve a conflict on material facts, and when may it dispense with oral evidence?",
-      answer: [
-        "Where there is a material conflict, it is imperative for the court to call oral evidence to resolve it — Falobi v Falobi; s.116 Evidence Act",
-        "Court may dispense with oral evidence where there is documentary evidence that can resolve the conflict without need for it — Falobi v Falobi; N/Mosu v Imo State Environmental Agency",
-        "Also dispensed with where the conflict is immaterial to the substance of the dispute",
-      ],
-      source: "Falobi v Falobi; Section 116 Evidence Act; N/Mosu v Imo State Environmental Agency",
-    },
-    {
-      category: "Propriety of Counsel Deposing",
-      question: "Is it proper for counsel to depose to an affidavit on behalf of his client?",
-      answer: [
-        "Counsel must avoid the habit of deposing to an affidavit on behalf of his client",
-        "In the event of conflicts, he would be required to enter the witness box and be subjected to cross-examination — a clash of his roles as advocate and witness",
-        "An affidavit deposed to by counsel is nonetheless NOT inadmissible, since admissibility is governed by the Evidence Act, not the RPC",
-      ],
-      source: "Ukpabio v Nigerian Films & Censors Board (2008) 9 NWLR (Pt 1092) 219; Nwite v PDP & Ors (2022) LPELR-59192(SC) at 30-33",
-    },
-    {
-      category: "Written Address",
-      question: "When is a written address required, and what are the page limits in Abuja and Lagos?",
-      answer: [
-        "Interlocutory applications must be accompanied by a written address — O30 R1(2) Abuja; O43 R1(2) Lagos",
-        "Abuja: written address not more than 30 pages (35 pages where there is a counter-affidavit); reply not more than 10 pages",
-        "Lagos: written address not more than 20 pages; reply not more than 5 pages",
-      ],
-      source: "Order 30 Rule 1(2) Abuja; Order 43 Rule 1(2) Lagos; Order 39 Rules 2&3 Abuja; Order 35 Rules 3(1)&(2) Lagos",
-    },
-    {
-      category: "Written Address",
-      question: "List the contents of a written address.",
-      answer: [
-        "The claim/defence upon which the application is based",
-        "Brief statement of facts, with reference to exhibits attached",
-        "Issues for determination",
-        "Legal arguments, incorporating authorities cited (judicial and statutory)",
-        "Conclusion, containing a numbered summary of points raised",
-        "List of cited authorities; certified true copies of unreported decisions",
-      ],
-      source: "Order 33 Rules 2&3 Abuja; Order 35 Rules 2&3(1)&(2) Lagos",
-    },
-    {
-      category: "Interim Injunction",
-      question: "What is an interim injunction, and what conditions govern its grant?",
-      answer: [
-        "A temporary order preserving the status quo until a named date, further order, or until the motion on notice is heard — granted in urgent situations, normally ex parte, with a short lifespan",
-        "No application for injunction can be made ex parte unless the applicant files with it a motion on notice for interlocutory injunction — O30 R3(1) Abuja; O43 R3(2) Lagos",
-        "Conditions (1-6 of the interlocutory injunction conditions apply) plus urgency: affidavit of real and extreme urgency, required ONLY for interim injunction",
-      ],
-      source: "Kotoye v CBN (1998) 1 NWLR (Pt 98) 419; Obeya Memorial Hospital v AG Federation & Anor (1987) 7 SCNJ 42",
-    },
-    {
-      category: "Interim Injunction",
-      question: "Outline the procedure for filing an interim injunction application.",
-      answer: [
-        "File the originating process; frontload per the rules",
-        "File the Motion Ex Parte for interim injunction pending determination of the motion on notice for interlocutory injunction (or until a stated time) — in other words, file both a motion ex parte for interim AND a motion on notice for interlocutory injunction together",
-        "File an affidavit in support, an affidavit of urgency, and a written address",
-        "Summary: Motion Ex Parte for interim + Affidavit + Written Address + Motion on Notice for interlocutory injunction — Kotoye v CBN",
-      ],
-      source: "Kotoye v CBN; Order 30 Rule 1(3)(A) Abuja; Order 43 Rule 3(2) Lagos",
-    },
-    {
-      category: "Interlocutory Injunction",
-      question: "What is an interlocutory injunction, and how does it differ from interim?",
-      answer: [
-        "Granted after both parties are heard; lasts during the pendency of the suit; obtained by motion on notice — Kotoye v CBN",
-        "Not granted in respect of a completed act — Okafor v AG Anambra",
-        "Only a perpetual injunction can be granted where the subject matter has already been completed",
-      ],
-      source: "Kotoye v CBN; Okafor v AG Anambra",
-    },
-    {
-      category: "Interlocutory Injunction",
-      question: "List the conditions/principles for grant of an interlocutory (or interim) injunction.",
-      answer: [
-        "1. Existence of a legal or equitable right",
-        "2. Substantial issue to be tried or dealt with must exist",
-        "3. Balance of convenience in favour of the applicant (he must show he will suffer greater inconvenience than the respondent if refused)",
-        "4. Irreparable damage/injury — loss not capable of being compensated in damages",
-        "5. Conduct of the parties before and during the pendency of the suit",
-        "6. Undertaking as to damages by the applicant",
-        "(7. Affidavit of real and extreme urgency applies ONLY for interim injunction)",
-      ],
-      source: "Obeya Memorial Hospital v AG Federation & Anor (1987) 7 SCNJ 42",
-    },
-    {
-      category: "Mandatory Injunction",
-      question: "What is a mandatory injunction, and what is its purpose?",
-      answer: [
-        "An order compelling a party to do an act, in some cases to forestall executive lawlessness",
-        "Compels a Respondent to retrace his steps and restore the parties to the status quo ante bellum",
-      ],
-      source: "Sulu Gambari v Bukola (2004) 1 NWLR (Pt 853) 122 @ 140-141",
-    },
-    {
-      category: "Anton Piller Order",
-      question: "What is an Anton Piller order, and where is it typically instituted?",
-      answer: [
-        "An injunction normally made ex parte and in camera (in secret), permitting the applicant to enter the respondent's premises to search, seize, detain and preserve goods/documents/articles in his possession — mostly copyrighted items; also called an 'Order of Seizure'",
-        "By ex parte application because it concerns a matter of urgency",
-        "Granted for infringement of copyright, trademarks or patents; usually instituted at the Federal High Court under s.103 Copyright Act 2022 and s.251(1)(f) CFRN, by virtue of which the FHC has exclusive jurisdiction",
-      ],
-      source: "Anton Piller K.G. v Manufacturing Processes Ltd & Ors (1976) 1 All ER 779; Section 103 Copyright Act 2022; Section 251(1)(f) CFRN",
-    },
-    {
-      category: "Anton Piller Order",
-      question: "List the conditions for grant of an Anton Piller order, restated in Ferodo v Unibro Stores.",
-      answer: [
-        "1. There is an infringement of the applicant's copyright, trademark, patent rights, or designs",
-        "2. The infringing property is in the possession of the respondent",
-        "3. If made on notice, the respondent is likely to destroy or hide the property",
-        "4. The applicant's case would be seriously frustrated if the order is refused",
-        "5. The applicant must be prepared to make an undertaking as to damages",
-      ],
-      source: "Ferodo Ltd v Unibro Stores (1980) Fleet Street Report 489",
-    },
-    {
-      category: "Mareva Injunction",
-      question: "What is a Mareva injunction, and when will the court grant it?",
-      answer: [
-        "Otherwise known as a Freezing Order — an injunction/order restraining the defendant/respondent from removing his assets from jurisdiction, pending or ongoing, to avoid rendering the judgment nugatory",
-        "Only granted if the defendant has NO OTHER assets within jurisdiction with which he would be able to satisfy a judgment debt against him",
-        "Generally applied for by Motion on Notice (+ Affidavit + Written Address), but may be made ex parte only in exceptional circumstances, e.g. where the defendant made himself absent and could not be served despite every effort (void of nullity otherwise)",
-      ],
-      source: "Mareva Compania Naviera S.A. v International Bulk Carrier Ltd (1975) Lloyd's Rep. 509; Akinbote v EFCC",
-    },
-    {
-      category: "Mareva Injunction",
-      question: "List the conditions/principles for grant of a Mareva injunction, restated in Sotiminu v Ocean Steamship.",
-      answer: [
-        "1. A pending action in court",
-        "2. A justiciable cause of action against the defendant",
-        "3. A real and imminent risk of the defendant removing his assets from jurisdiction/dissipating same, rendering any judgment nugatory",
-        "4. Full disclosure of all material facts relevant to the application",
-        "5. Full particulars of the defendant's assets within the court's jurisdiction",
-        "6. A deposition that the defendant has property within the court's jurisdiction",
-        "7. Balance of convenience is on the side of the applicant",
-        "8. Applicant prepared to make an undertaking as to damages",
-      ],
-      source: "Sotiminu v Ocean Steamship (Nig) Ltd (1992) 5 SCNJ 1",
-    },
-    {
-      category: "Interpleader Proceedings",
-      question: "What is interpleader, and what two types exist?",
-      answer: [
-        "Where a person is in possession of property/money claimed by two or more persons and is uncertain who the rightful owner is, he applies to court by way of interpleader to compel the claimants to interplead (determine between themselves who is entitled)",
-        "Sheriff's Interpleader — s.34 Sheriffs and Civil Process Act",
-        "Stakeholder's Interpleader — O26 R1 Abuja; O47 R1 Lagos; Nwekeson v Onuigbo",
-      ],
-      source: "Order 26 Abuja; Order 47 Lagos; Section 34 Sheriffs and Civil Process Act; Nwekeson v Onuigbo (1991) 3 NWLR (Pt 178) 125",
-    },
-    {
-      category: "Interpleader Proceedings",
-      question: "Explain the Sheriff's Interpleader, when it arises, and its effect.",
-      answer: [
-        "Arises where a sheriff, executing a judgment, attaches goods/chattel claimed by a third party NOT named in the writ of fi fa (i.e. not the judgment debtor)",
-        "The third party and the judgment creditor are called upon to substantiate their respective claims",
-        "It operates as a stay of execution pending determination of the interpleader matter",
-      ],
-      source: "Section 34 Sheriffs and Civil Process Act; Keystone Bank Ltd v M&M Ltd (2018) All FWLR (Pt 918) 143; Shelle v Oshun 11 NLR 43",
-    },
-    {
-      category: "Interpleader Proceedings",
-      question: "By what process is interpleader brought, and what are the CICW conditions?",
-      answer: [
-        "By way of Originating Summons where no suit is pending; by ordinary interlocutory summons where a suit is already pending — O47 R2(1) Lagos; O48 R5 Abuja",
-        "Affidavit must show: Custody — the property is in the applicant's custody; the applicant/interpleader claims no Interest beyond charges for costs; no Collusion with any claimant; applicant is Willing to pay/transfer the subject matter to court or dispose of it as the judge may direct",
-      ],
-      source: "Order 47 Rule 2(1) Lagos; Order 48 Rule 5 Abuja; Order 26 Rule 2 Abuja; Order 47 Rule 2(2) Lagos",
-    },
-    {
-      category: "Interpleader Proceedings",
-      question: "What is the time frame for bringing interpleader proceedings?",
-      answer: [
-        "No fixed time frame for interpleader generally",
-        "But it must be brought before the sale/disposal of the property attached",
-      ],
-      source: "Lecture slides, Week 7 (Time for Bringing Interpleader)",
-    },
-    {
-      category: "Abuse of Ex Parte Injunctions",
-      question: "What is the purpose of an ex parte injunction, and what abuse concerns have arisen?",
-      answer: [
-        "Purpose: to ensure the subject matter is not irreversibly altered before the motion on notice can be heard",
-        "There has been abuse and misuse of ex parte injunctions by both judges and lawyers",
-      ],
-      source: "Interlocutory Applications by Afe Babalola",
-    },
-    {
-      category: "Abuse of Ex Parte Injunctions",
-      question: "Give three examples of abuse of ex parte injunctions, from decided practice.",
-      answer: [
-        "A court in one state refused an ex parte injunction; the applicant rushed to another state, filed a similar suit and obtained an ex parte order WITHOUT disclosing the earlier refusal — National Bank of Nig Ltd v Yinka Comm. Ent. Ltd",
-        "After a claimant obtained an ex parte interim injunction and served the defendant, the defendant's counsel filed a SIMILAR suit and obtained his own ex parte injunction on the same subject matter — Panaf Investment Ltd v Temple & Golders Ltd",
-        "A judge adjourned hearing of an ex parte application for 2 weeks, then adjourned the ruling for another week; in a related case, a ruling was adjourned sine die because the defendant filed a motion 'arresting' it — Morgan Airlines Ltd v Transnet Ltd & Ors",
-      ],
-      source: "National Bank of Nig Ltd v Yinka Comm. Ent. Ltd; Panaf Investment Ltd v Temple & Golders Ltd; Morgan Airlines Ltd v Transnet Ltd & Ors; Interlocutory Applications by Afe Babalola pp.38-40",
-    },
-    {
-      category: "Abuse of Ex Parte Injunctions",
-      question: "What does Rule 2(2) Code of Conduct for Judicial Officers require of judges regarding ex parte injunctions?",
-      answer: [
-        "A judicial officer must avoid the abuse of the power of issuing (or refusing) interim injunctions ex parte",
-        "Places a direct ethical obligation on the judge, not just counsel, to guard against misuse of the ex parte procedure",
-      ],
-      source: "Rule 2(2) Code of Conduct for Judicial Officers",
-    },
-    {
-      category: "Ethical Issues",
-      question: "What ethical rules govern a lawyer's conduct generally in interlocutory applications?",
-      answer: [
-        "A lawyer shall deal candidly and fairly with the court — Rule 32 RPC 2023",
-        "A lawyer shall not take undue advantage of an opposing lawyer — Rule 27 RPC 2023",
-        "A lawyer is an officer of the court and shall not obstruct, delay, or adversely affect the administration of justice — Rule 30 RPC 2023",
-      ],
-      source: "Rules 27, 30, 32 RPC 2023",
-    },
-    {
-      category: "Ethical Issues",
-      question: "What ethical issue arises from swearing/deposing to affidavits by counsel, and from suppression of facts in ex parte applications?",
-      answer: [
-        "Swearing/deposing to an affidavit by counsel himself — governed by Rule 20 RPC 2023; risks requiring counsel to enter the witness box and be cross-examined",
-        "Suppression of facts in ex parte applications: since the respondent is not heard, counsel owes a duty of candour; suppression breaches Rule 32(3) RPC 2023 and may lead to the order being set aside",
-      ],
-      source: "Rule 20 RPC 2023; Okpabio v Nigerian Films & Censors Board; Rule 32(3) RPC 2023",
-    },
-    {
-      category: "Ethical Issues",
-      question: "What ethical issue arises from late filing of motions and affidavits?",
-      answer: [
-        "Late filing of motions and counter-affidavits with a view to delaying proceedings breaches a lawyer's duty not to obstruct or delay the administration of justice",
-      ],
-      source: "Rule 30(5) RPC 2023",
-    },
-    {
-      category: "Interim Injunction — Variation/Discharge",
-      question: "On what grounds can a party apply for variation or discharge of an interim injunction, and how is that application made?",
-      answer: [
-        "Failure or default to give security for costs, or an undertaking as to damages",
-        "Suppression or misrepresentation of facts — the applicant did not disclose material facts to the court",
-        "Where the injunction was obtained by fraud",
-        "Where the injunction was irregularly obtained",
-        "Application is by Motion on Notice + Affidavit setting out the facts/grounds for variation or discharge + Written Address",
-      ],
-      source: "Handwritten notes",
-    },
-    {
-      category: "Drafting — Motions",
-      question: "Draft the key prayer for a Motion Ex Parte seeking an interim injunction.",
-      answer: [
-        "'AN ORDER OF INTERIM INJUNCTION restraining the Respondent, by himself, his agents, servants or privies, from [the act complained of] pending the hearing and determination of the Motion on Notice for interlocutory injunction already filed in this suit'",
-        "Must be filed together with a Motion on Notice for interlocutory injunction, supported by an affidavit of urgency and written address",
-      ],
-      source: "Kotoye v CBN",
-    },
-    {
-      category: "Drafting — Motions",
-      question: "Draft the key prayer for a Motion on Notice seeking an interlocutory injunction, and for a Mareva injunction.",
-      answer: [
-        "Interlocutory: 'AN ORDER OF INTERLOCUTORY INJUNCTION restraining the Respondent...from [the act complained of] pending the hearing and final determination of this suit'",
-        "Mareva: 'AN ORDER restraining the Respondent...from removing, dissipating, or otherwise dealing with his assets within the jurisdiction of this Honourable Court, pending the hearing and determination of this suit'",
-      ],
-      source: "Kotoye v CBN; Sotiminu v Ocean Steamship",
-    },
-    {
-      category: "Drafting — Motions",
-      question: "Draft the key prayer for a Motion Ex Parte seeking an Anton Piller order.",
-      answer: [
-        "'AN ORDER granting the Applicant leave to enter the premises of the Respondent situate at [address] to search for, inspect, photograph and remove into safe custody the infringing copies/items/documents described in the Schedule hereto, pending the hearing and determination of this suit'",
-        "Filed at the Federal High Court for copyright matters; affidavit must address all 5 Ferodo conditions",
-      ],
-      source: "Ferodo Ltd v Unibro Stores; Anton Piller K.G. v Manufacturing Processes Ltd",
-    },
-    {
-      category: "Drafting — Interpleader",
-      question: "What must the Interpleader Summons and supporting affidavit contain?",
-      answer: [
-        "Summons: names of all rival claimants; description of the property/fund in dispute",
-        "Affidavit: custody of the property, no interest beyond costs, no collusion, willingness to pay/transfer as the court directs (CICW)",
-        "Prayer: an order determining which claimant is entitled and discharging the applicant from further liability",
-      ],
-      source: "Order 26 Abuja; Order 47 Lagos",
-    },
-    {
-      category: "Pre-class Scenarios",
-      question: "In the Crown Kitchen v K&T scenario, what application addresses the risk of K&T dissipating funds, and what should a preliminary objection target?",
-      answer: [
-        "A Mareva injunction to freeze K&T's assets/bank account within jurisdiction, addressing all 8 Sotiminu conditions",
-        "A preliminary objection could target lack of jurisdiction, improper mode of commencement, or non-fulfilment of a condition precedent",
-        "If K&T's counter-affidavit fails to specifically deny Crown Kitchen's facts, those facts are deemed admitted",
-        "If both a constructive and destructive motion are pending, the constructive one is heard first — unless the destructive one challenges jurisdiction",
-      ],
-      source: "Pre-class scenario (Crown Kitchen v K&T)",
-    },
-    {
-      category: "Pre-class Scenarios",
-      question: "In the Kayuba Ada v Agricultural Bank scenario, what applications address joining NDIC, searching the Bank's records, and Pluto Grant's conflicting claims?",
-      answer: [
-        "Joining NDIC: an application for joinder, with leave of court, showing NDIC's presence is necessary for complete determination",
-        "Searching the Bank's records: an Anton Piller order, if all 5 Ferodo conditions are met, filed at the appropriate court",
-        "Pluto Grant holding disputed funds with no personal interest: a Stakeholder's Interpleader, satisfying the CICW conditions",
-      ],
-      source: "Pre-class scenario (Kayuba Ada v Agricultural Bank)",
-    },
-  ],
+        id: "civil-litigation-week-7",
+        title: "Week 7: Interlocutory Applications and Orders",
+        instructions:
+          "Answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
+        preClassUrl: "https://drive.google.com/drive/folders/1QQCg96bo6ZEFvf4vhZEzioXpqtQedEye?usp=sharing",
+        cards: [
+          {
+            category: "Meaning & Nature",
+            question: "What is an interlocutory application, and how is it tied to a suit?",
+            answer: [
+              "Applications made to the court while an action is pending; can be made before, during, or after trial but before judgment",
+              "IFC v DSNL Offshore Ltd: interlocutory process is provisional, interim, temporary and not final; it decides some intervening point, not the dispute itself",
+              "It is 'interlocutory' because it results in an order other than a final decision in the suit",
+              "Must be tied to an existing suit, whether brought before, during or after it — Woluchem v Wokoma",
+            ],
+            source: "IFC v DSNL Offshore Ltd (2008); handwritten notes",
+          },
+          {
+            category: "Meaning & Nature",
+            question: "Distinguish interlocutory process from originating process.",
+            answer: [
+              "Originating processes commence actions (writ, originating summons, motion, petition); interlocutory processes are generally tied to a substantive suit, commenced or pending",
+              "Originating process seeks a perpetual order/relief on the substantive suit; interlocutory process seeks only temporary orders pending the suit's conclusion",
+              "An interlocutory order/relief terminates with the substantive suit — Okafor v AG Anambra",
+              "The parties are called Applicant and Respondent, not Claimant and Defendant",
+            ],
+            source: "IFC v DSNL Offshore Ltd; Okafor v AG Anambra (1992) 2 SCNJ 219; handwritten notes",
+          },
+          {
+            category: "Uses & Examples",
+            question: "List the uses of interlocutory applications.",
+            answer: [
+              "Remedy defects in a pending suit, e.g. amend process or pleadings",
+              "Fulfil a condition precedent, e.g. leave for judicial review",
+              "Extend time for filing process",
+              "Seek temporary relief other than that in the originating process, e.g. injunction",
+              "Assist the orderly presentation of the case and quicken trial; appointment of a receiver; preserve property pending suit; stay proceedings or execution",
+            ],
+            source: "Handwritten notes; lecture slides",
+          },
+          {
+            category: "Uses & Examples",
+            question: "Give examples of interlocutory applications made during the pendency, and after trial.",
+            answer: [
+              "During pendency: extension of time to plead; leave for judicial review; leave for substituted service; leave to stay execution; striking out a suit; leave to sue in representative capacity; leave to appeal; adjournment; Mareva injunction; Anton Piller order; interpleader summons; an order at pretrial on order of hearing; default judgment and setting one aside",
+              "After trial/substantive suit: application to pay judgment debt in instalments; application for leave to appeal",
+            ],
+            source: "Handwritten notes; lecture slides",
+          },
+          {
+            category: "Uses & Examples",
+            question: "Interlocutory applications are sometimes abused by counsel as a delay tactic. What cases illustrate this?",
+            answer: [
+              "Professor Steve Ugba v Gabriel Suswam (2014) LPELR-22882(SC)",
+              "Ogboru v Uduaghan (2011) 17 NWLR (Pt 1232)",
+              "While interlocutory applications exist to assist orderly, speedy presentation of a case, some lawyers misuse them to stall proceedings",
+            ],
+            source: "Ugba v Suswam (2014) LPELR-22882(SC); Ogboru v Uduaghan (2011) 17 NWLR (Pt 1232)",
+          },
+          {
+            category: "Mode of Application",
+            question: "By what modes can an interlocutory application be made to court?",
+            answer: [
+              "Orally, before the judge in open court or in chambers — for minor, non-contentious matters",
+              "In writing, by motion — the most common mode (O30 R1 & 53 R1 Abuja; O43 R1 Lagos)",
+              "In writing, by summons — only where the rules so provide, e.g. interpleader proceedings (O26 R5 Abuja; O47 R2 Lagos)",
+            ],
+            source: "Lecture slides; handwritten notes",
+          },
+          {
+            category: "Limit to Filing",
+            question: "Is there a limit to the number of interlocutory applications a party may file in a suit?",
+            answer: [
+              "General rule: no limit to the number of interlocutory applications",
+              "An application meant to delay proceedings, or that is frivolous, will be struck out",
+              "Exception — amendment: Lagos allows unlimited amendment before close of CMC, but only twice during trial before judgment conference (O26 R1); Abuja limits amendment to twice before judgment, except with special leave (O24 R1)",
+              "Any interlocutory application brought after the two-amendment limit is incompetent and amounts to abuse of court process",
+            ],
+            source: "Order 26 Rule 1 Lagos; Order 24 Rule 1 Abuja",
+          },
+          {
+            category: "Motion — Meaning & Types",
+            question: "Define a motion and name its two types.",
+            answer: [
+              "'A written or oral application requesting a court to make a specified ruling or order' — Black's Law Dictionary, 11th ed., p.1216",
+              "Two types: Motion Ex Parte and Motion on Notice",
+              "A motion may be supported by an affidavit (O30 R1 Abuja; O43 R1(1) Lagos); no affidavit is needed where the application is on a point of law — Erejuwa II v Deduwa",
+            ],
+            source: "Black's Law Dictionary 11th ed.; Erejuwa II v Deduwa (1970) MSNLR 15",
+          },
+          {
+            category: "Motion Ex Parte",
+            question: "What is a motion ex parte, and in what two circumstances is it permitted?",
+            answer: [
+              "An application heard without notice to the other party; even if the affected party is in court, he is seen but not heard",
+              "Permitted where time is of the essence (real urgency)",
+              "Permitted where, from the nature of the application, the adverse party's interest will not be negatively affected",
+            ],
+            source: "7-Up Bottling Co v Abiola & Sons (1995) 2 SCNJ 37; Gombe v PW (Nig) Ltd (1995) 2 SCNJ 37; Leedo Presidential Motel Ltd v Bank of the North Ltd (1998) 7 SCNJ 328",
+          },
+          {
+            category: "Motion Ex Parte",
+            question: "Give examples of applications made by motion ex parte, and the orders a court may make after hearing one.",
+            answer: [
+              "Leave to bring a class/representative action; substituted service; interim injunction; renewal of writ (not yet served); garnishee order nisi; Anton Piller order; Mareva injunction",
+              "The court may: grant the application; grant less than prayed; refuse it; order that the other party be put on notice; order the affected party to show cause why it should not be granted; strike out or dismiss",
+            ],
+            source: "Lecture slides; handwritten notes; Order 43 Rule 5 Lagos",
+          },
+          {
+            category: "Motion Ex Parte",
+            question: "What is the lifespan of an ex parte order, and on what conditions can it be extended?",
+            answer: [
+              "In Lagos and Abuja, an ex parte order abates after 7 days unless extended before the abatement/lapse",
+              "The court may extend it by not more than a further 7 days if: (i) satisfied the motion on notice has been served; (ii) necessary in the interest of justice; (iii) necessary to prevent irreparable mischief",
+              "Application for extension must be brought before the ex parte order abates",
+              "Where an order is obtained ex parte in a case where it should have been on notice, the order will be set aside on appeal as a violation of natural justice — Unibiz Nig Ltd v CBN Nig Ltd",
+            ],
+            source: "Order 43 Rule 3(3)&(4) Lagos; Order 30 Rule 3(1)&(2) Abuja; Unibiz Nig Ltd v CBN Nig Ltd",
+          },
+          {
+            category: "Motion on Notice",
+            question: "What is a motion on notice, and what is the service timetable in Abuja and Lagos?",
+            answer: [
+              "Served on the other party, requiring him to appear on a named date; personal service is not required, unlike originating processes",
+              "Abuja: at least 2 clear days between service and hearing, absent leave to the contrary (O30 R6)",
+              "Lagos: every motion must be served within 5 days of filing (O43 R1(2)(b)); also at least 2 clear days between service and hearing",
+              "Where a motion on notice was filed and moved on the same day it was not ripe for hearing, the resulting order was set aside — Loxroy (Nig) Ltd v Triamns Nig Ltd",
+            ],
+            source: "Order 30 Rule 6 Abuja; Order 43 Rule 1(2)(b) Lagos; Loxroy (Nig) Ltd v Triamns Nig Ltd",
+          },
+          {
+            category: "Motion on Notice",
+            question: "State the counter-affidavit and reply timetable in Abuja and Lagos, and give examples of applications by motion on notice.",
+            answer: [
+              "Abuja: respondent's counter-affidavit within 7 days (O30 R1(3)); applicant's reply within 5 days (O30 R1(4))",
+              "Lagos: respondent's counter-affidavit within 7 days (O43 R1(3)); applicant's reply within 7 days (O43 R1(4))",
+              "Examples: joinder of parties; interlocutory injunction; amendment of pleadings; striking out of pleadings; stay of execution",
+            ],
+            source: "Order 30 Rule 1(3)&(4) Abuja; Order 43 Rule 1(3)&(4) Lagos",
+          },
+          {
+            category: "Motion on Notice",
+            question: "What orders may the court make after hearing a motion on notice?",
+            answer: [
+              "Grant the application as prayed",
+              "Grant less than the relief sought",
+              "Order striking out or dismissal of the motion",
+              "NOTE: the court cannot grant more than the reliefs prayed for, but can grant less",
+            ],
+            source: "Handwritten notes; lecture slides",
+          },
+          {
+            category: "Ex Parte v On Notice",
+            question: "Table (compiled PDF 7.2): motion ex parte v motion on notice (meaning, when, examples, orders).",
+            answer: [
+              "Meaning - ex parte: application without notice to the other party; even if he is in court he cannot respond (7-Up v Abiola; Gombe v PW). On notice: served on the other party, who is asked to appear on a named date for hearing",
+              "When - ex parte: where time is of the essence, or the adverse party's interest will not be affected (Leedo Presidential Motel v Bank of the North). On notice: the default for contested applications",
+              "Examples - ex parte: leave for a class action; substituted service; interim injunction; renew a writ; garnishee order nisi; Anton Piller; Mareva (see conflict note); substitution of parties; leave for service out; leave to apply for judicial review. On notice: joinder; interlocutory injunction; amendment; striking out pleadings; stay of execution; extension of time; summary judgment; fifa; setting aside a defective writ",
+              "Orders the court may make - ex parte: grant; refuse; direct that the motion be served; order the other party to appear and show cause (Order 43 r.5 Lagos). On notice: grant as prayed; grant less than prayed; strike out or dismiss. The court cannot grant more than is prayed",
+              "Service - on notice: Abuja at least 2 clear days between service and hearing (Order 30 r.6). Lagos serve within 5 days of filing (Order 43 r.1(2)(b)); personal service not required, unlike originating processes",
+              "Counter-affidavit: 7 days (Order 30 r.1(3) Abuja; Order 43 r.1(3) Lagos). Reply (further affidavit / on law): Abuja 5 days (Order 30 r.1(4)); Lagos 7 days (Order 43 r.1(4))",
+              "Check / conflict: Week 7 slide 14 lists Mareva under motion ex parte. Your S.A. draft heads Mareva as 'Motion on Notice + Affidavit + Written Address', and Anton Piller as ex parte. Be ready to explain both: a Mareva is ex parte when notice would defeat the purpose",
+            ],
+            source: "Week 7 compiled PDF, 7.2",
+          },
+          {
+            category: "Contents of a Motion",
+            question: "List the contents of a motion paper.",
+            answer: [
+              "Heading of the court and suit number",
+              "Parties ('Applicant', 'Respondent') and their designation",
+              "Type of motion (ex parte or on notice)",
+              "The order/rule/law under which brought (O43 R1 Lagos; O30 R1 Abuja)",
+              "The notice itself ('TAKE NOTICE that...'); the order/relief sought; grounds, if rules require them",
+              "Date; name and signature of counsel (never a law firm); applicant's counsel's address; name and address for service on the respondent",
+            ],
+            source: "Falobi v Falobi (1979) 1 NMLR 169; Uchendu v Ogboni (1999) 4 SCNJ 64; Maja v Samouris (2002) 7 NWLR (Pt 765) 78; Okafor v Nweke (2007) All FWLR (Pt 368) 1016",
+          },
+          {
+            category: "Hearing & Moving a Motion",
+            question: "Where are motions heard, and what happens where there is no objection?",
+            answer: [
+              "Contentious applications are heard in open court; non-contentious ones may be heard in chambers",
+              "In Abuja, a non-contentious motion ex parte is deemed moved and its written address deemed adopted, without actually moving it (O30 R4)",
+              "Where the respondent has no objection and filed no counter-affidavit, he may indicate no objection and ask for costs",
+              "Respondent may oppose only on points of law, filing and adopting only a written address",
+            ],
+            source: "Order 30 Rule 4 Abuja; handwritten notes",
+          },
+          {
+            category: "Hearing & Moving a Motion",
+            question: "Outline the step-by-step procedure for moving a motion in court.",
+            answer: [
+              "1. Announce appearance before the court",
+              "2. Identify the motion (type, date filed) and state the rule/law it is brought under",
+              "3. State the prayers/reliefs sought on the motion paper",
+              "4. Draw the court's attention to the affidavit in support (and further affidavit, if any) and rely on its paragraphs",
+              "5. Refer to any exhibits attached",
+              "6. Draw attention to the written address and adopt it",
+              "7. Where a counter-affidavit was filed, respond to it; urge the court to grant the application",
+            ],
+            source: "Handwritten notes; lecture slides",
+          },
+          {
+            category: "Hearing & Moving a Motion",
+            question: "What happens if the respondent opposes by counter-affidavit, and what does 'moving a motion in terms' mean?",
+            answer: [
+              "Opposing respondent: indicate and refer the court to the counter-affidavit, adopt his written address, and urge the court not to grant the application",
+              "Court delivers a bench ruling, stands down, or adjourns for ruling",
+              "'Moving in terms' means moving the motion exactly as drafted on the motion paper, usually adopted where the opposing party does not contest",
+            ],
+            source: "Handwritten notes",
+          },
+          {
+            category: "Order of Hearing",
+            question: "The court must hear every properly filed motion. What case illustrates this, and what is the general rule on order of hearing?",
+            answer: [
+              "A court is duty-bound to hear and pronounce on every filed application unless it is withdrawn",
+              "A motion for extension of time to file defence was never heard, yet judgment was entered — set aside on appeal: Dandume LGC v Yaro (2011) 11 NWLR (Pt 1257) 159",
+              "General rule: order of hearing is at the court's discretion, usually taken in the order in which motions were filed",
+            ],
+            source: "Dandume LGC v Yaro (2011) 11 NWLR (Pt 1257) 159",
+          },
+          {
+            category: "Order of Hearing",
+            question: "Where two motions are pending — one seeking to destroy, the other to save the suit — which is heard first, and what is the exception?",
+            answer: [
+              "The constructive motion (seeking to save/regularise the case) is heard first; the destructive one is heard after, or withdrawn if overtaken",
+              "AG Fed v AIC Ltd (1995) 2 NWLR 378",
+              "Exception: where a pending motion challenges the jurisdiction of the court, it must be heard first regardless of the constructive/destructive rule",
+            ],
+            source: "AG Fed v AIC Ltd (1995) 2 NWLR 378",
+          },
+          {
+            category: "Contents, Hearing & Moving",
+            question: "Compiled PDF 7.3-7.4: contents of a motion paper, hearing and moving a motion, limits.",
+            answer: [
+              "Contents of a motion paper: heading of court; suit number; parties (applicant, respondent); type of motion; the order and rule or law under which brought (Order 43 r.1 Lagos; Order 30 r.1 Abuja; Falobi v Falobi; Uchendu v Ogboni; Maja v Samouris); 'TAKE NOTICE that...' clause; the order(s) sought; date; name and signature of counsel (not a law firm: Okafor v Nweke); address of applicant's counsel; name and address for service on the respondent",
+              "Contentious applications are heard in open court; non-contentious ones may be in chambers. In Abuja a motion ex parte may be deemed moved and the written address adopted without moving it (Order 30 r.4)",
+              "The court must hear every motion filed unless withdrawn (Dandume LGC v Yaro: judgment delivered without hearing a motion for extension of time was set aside)",
+              "Order of hearing is at the court's discretion, usually the order of filing. Where one motion seeks to save the suit and another to destroy it, the one that saves is heard first (AG Federation v AIC Ltd)",
+              "Steps to move: (1) identify the application, usually by date; (2) state the rule or law; (3) state the prayers; (4) draw attention to the affidavit (and further affidavit); (5) refer to exhibits; (6) adopt the written address; (7) respond to any counter-affidavit; (8) urge the court to grant. Respondent: refers to his counter-affidavit, adopts his address, urges the court to refuse; if no objection, says so and may ask for costs; may oppose on points of law only with a written address",
+              "The court may deliver a bench ruling, stand down for ruling, or adjourn for ruling",
+              "Limits: no general limit on the number of applications; frivolous or delaying ones are struck out. Amendment: Lagos, without limit before close of case management and twice during trial before judgment (Order 26 r.1); Abuja, not more than twice before judgment without special leave (Order 24 r.1)",
+            ],
+            source: "Week 7 compiled PDF, 7.3-7.4",
+          },
+          {
+            category: "Affidavits",
+            question: "Define an affidavit, and state what every affidavit must comply with.",
+            answer: [
+              "A written statement of facts made by the maker (deponent) under oath",
+              "Must comply with section 115 Evidence Act",
+              "Contains only statements of fact; must NOT contain extraneous matter, objections, prayers/reliefs, legal arguments, or conclusions of fact or law — s.115(1) & (2) EA",
+              "Where law, argument, prayers or conclusions must be made, they belong in the written address, not the affidavit",
+            ],
+            source: "Section 115 Evidence Act",
+          },
+          {
+            category: "Affidavits",
+            question: "List the contents of an affidavit, per s.117 Evidence Act.",
+            answer: [
+              "Heading of the court; suit/motion number; names, capacity and designation of parties; title (e.g. 'Affidavit in Support of Motion Ex Parte')",
+              "Declaration of the deponent's particulars: full name, nationality, religion, occupation/profession, address",
+              "Introduction stating the position in which the deponent is deposing (e.g. applicant, or a friend/relative, in 2-3 paragraphs)",
+              "Facts within the deponent's knowledge; where not within his knowledge, the source of his information (s.115(3)&(4) EA)",
+              "Statement that he verily believes the information to be true; oath clause; signature; official stamp of the Commissioner for Oaths or Notary Public; date; jurat (where applicable)",
+            ],
+            source: "Section 117 Evidence Act",
+          },
+          {
+            category: "Affidavits",
+            question: "What is a certificate of exhibit, and where is it endorsed?",
+            answer: [
+              "Where a document is attached to an affidavit, there must be a certificate of exhibit — always endorsed at the back of the document",
+              "It identifies/connects the exhibit to the relevant paragraph of the affidavit it supports",
+            ],
+            source: "Handwritten notes",
+          },
+          {
+            category: "Principles on Affidavit",
+            question: "If a deponent's belief is derived from another source (not personal knowledge), what must he state?",
+            answer: [
+              "Where belief is derived from sources other than personal knowledge, he must state the facts and circumstances forming the grounds of his belief",
+              "Where information is derived from another person, he must name the informant and give reasonable particulars of the time, place and circumstances of the information",
+            ],
+            source: "Section 115(1)-(4) Evidence Act; GTB Plc v Innoson (Nig) Ltd (2025) LPELR-81486(SC) at 43-44",
+          },
+          {
+            category: "Principles on Affidavit",
+            question: "Who is disqualified from administering or deposing to an oath for a given affidavit?",
+            answer: [
+              "A deponent shall not swear before himself — a Commissioner for Oaths or Notary Public is disqualified from attesting an affidavit in which he is the deponent",
+              "A deponent shall not swear before his own legal practitioner, or a clerk or partner of that practitioner",
+              "A defective or erroneous affidavit may be amended and re-sworn by leave of court, on reasonable terms",
+            ],
+            source: "Section 112 & 114 Evidence Act; Buhari v INEC & Ors (2008) LPELR-814(SC) at 88",
+          },
+          {
+            category: "Principles on Affidavit",
+            question: "Is it proper for a lawyer to type the affidavit, have the client sign it in the lawyer's office, then take it for stamping by a Commissioner for Oaths?",
+            answer: [
+              "No — this procedure is wrong and renders the affidavit inadmissible: the deponent must actually depose/swear before the Commissioner, not merely have it stamped after signing elsewhere",
+              "Exception: valid if the lawyer who takes the oath is himself a Notary Public",
+            ],
+            source: "Section 114 Evidence Act; handwritten notes",
+          },
+          {
+            category: "Principles on Affidavit",
+            question: "What are the jurat requirements for an illiterate or blind deponent, and for an affidavit deposed in another language?",
+            answer: [
+              "Illiterate/blind jurat: the contents must be read out and explained by an interpreter, and the deponent affixes thumbprint/mark after appearing to understand",
+              "Where deposed in a language other than the court's (English), the affidavit must be translated, and both the English and other-language versions presented to the court, with a jurat",
+            ],
+            source: "Gundiri v Nyako (2014) 2 NWLR (Pt 1391) 211",
+          },
+          {
+            category: "Principles on Affidavit",
+            question: "In what instances is an affidavit not required to be sworn on oath?",
+            answer: [
+              "S.120 Evidence Act: on religious grounds (want of religious belief) — the deponent may affirm instead",
+              "Where the deponent is below the age of maturity (age of immaturity is under 14 years)",
+            ],
+            source: "Section 120 Evidence Act",
+          },
+          {
+            category: "Types of Affidavit",
+            question: "Name the types of affidavit used to support motions.",
+            answer: [
+              "Affidavit in support of application",
+              "Affidavit of urgency",
+              "Affidavit of service / non-service",
+              "Counter-affidavit",
+              "Further and better affidavit",
+              "Affidavit for the record",
+            ],
+            source: "Handwritten notes",
+          },
+          {
+            category: "Defective Affidavit",
+            question: "What is a defective affidavit, and can it still be admitted?",
+            answer: [
+              "One which does not conform to the proper form of an affidavit",
+              "It can still be admitted by the court, provided the affidavit was administered by the relevant/proper authority",
+            ],
+            source: "Handwritten notes",
+          },
+          {
+            category: "Counter-Affidavit",
+            question: "What is a counter-affidavit, and what is the effect of failing to file one?",
+            answer: [
+              "Filed in opposition to an application, to oppose facts deposed to in the affidavit in support",
+              "Where a respondent fails to file a counter-affidavit, the facts deposed to in the applicant's affidavit are deemed true/admitted",
+              "General denials are not a sufficient rebuttal — an effective rebuttal must be specific, clear and unambiguous",
+            ],
+            source: "Mato v Hember (2018) All FWLR (Pt 925) 146 @ 190; Okereke v Ejiofor (1996) 3 NWLR (Pt 434) 90",
+          },
+          {
+            category: "Counter-Affidavit",
+            question: "When is a respondent NOT required to file a counter-affidavit?",
+            answer: [
+              "Where the respondent is not opposing the application",
+              "Where the respondent intends to rely only on documents already on record, or on a point of law",
+              "Where the facts in the applicant's affidavit are manifestly self-contradictory such that no reasonable court would rely on them",
+            ],
+            source: "Badejo v Minister of Education (1996) 9-10 SCNJ 51; Real Exchange Assurance v Asuani Textile",
+          },
+          {
+            category: "Further Affidavit",
+            question: "What is a further affidavit, and when is it used?",
+            answer: [
+              "Filed by the applicant after being served with the respondent's counter-affidavit, to oppose new facts raised or clarify earlier contradictions",
+              "Must be limited to matters arising from the counter-affidavit — not an opportunity to introduce an entirely new case",
+            ],
+            source: "Order 43 Rule 1(4) Lagos; Order 30 Rule 1(4) Abuja; Forsan v Calabar MG",
+          },
+          {
+            category: "Conflicts in Affidavit",
+            question: "Distinguish a 'contradiction' from a 'conflict' in affidavit evidence.",
+            answer: [
+              "Contradiction: occurs within ONE party's own affidavit, where he makes two opposing statements on the same issue — the court simply disbelieves that deponent on that point",
+              "Conflict: occurs where TWO parties say different/opposing things on the same issue in their respective affidavits",
+              "Only a genuine conflict between parties (not a mere internal contradiction) triggers the requirement to call oral evidence",
+            ],
+            source: "Handwritten notes",
+          },
+          {
+            category: "Conflicts in Affidavit",
+            question: "How does the court resolve a conflict on material facts, and when may it dispense with oral evidence?",
+            answer: [
+              "Where there is a material conflict, it is imperative for the court to call oral evidence to resolve it — Falobi v Falobi; s.116 Evidence Act",
+              "Court may dispense with oral evidence where there is documentary evidence that can resolve the conflict without need for it — Falobi v Falobi; N/Mosu v Imo State Environmental Agency",
+              "Also dispensed with where the conflict is immaterial to the substance of the dispute",
+            ],
+            source: "Falobi v Falobi; Section 116 Evidence Act; N/Mosu v Imo State Environmental Agency",
+          },
+          {
+            category: "Affidavits",
+            question: "Compiled PDF 7.5-7.6: affidavits (contents, principles, counter and further affidavit, conflict, counsel deposing) and written address.",
+            answer: [
+              "A motion may be supported by an affidavit (Order 30 r.1 Abuja; Order 43 r.1(1) Lagos). None is needed for a point of law (Erejuwa II v Deduwa). Affidavit: written statement of facts on oath; maker is the deponent. Must comply with s.115 Evidence Act. If the deponent speaks another language, translate and present both versions with a jurat (Gundiri v Nyako)",
+              "Contents: heading of court; suit number; parties; the application it supports; name, nationality, religion, profession and address of deponent; authority of the party if the deponent is not a party; source of knowledge or belief; oath clause; signature and stamp of the commissioner for oaths",
+              "Principles: facts only (s.115(1)); no extraneous matter, objection, prayer, legal argument or conclusion of fact or law. Belief derived from other sources: state the facts and circumstances; information from another person: name the informant and give time, place and circumstance (s.115(1)-(4); GTB v Innoson, SC 2025). A deponent cannot swear before himself, or before his legal practitioner, clerk or partner (s.112 EA; Buhari v INEC). A defective affidavit may be amended and re-sworn with leave (s.114 EA). The court may order proof of facts by affidavit (s.107 EA)",
+              "Counter-affidavit: needed to oppose on facts. If none is filed, the facts in the affidavit are deemed admitted (Mato v Hember). Denial must be specific and clear; a general denial is insufficient (Okereke v Ejiofor). Not needed to rely on points of law only (Badejo v Minister of Education)",
+              "Further affidavit: applicant answers new facts in the counter-affidavit (Order 43 r.1(4) Lagos; Order 30 r.1(4) Abuja)",
+              "Conflict in affidavits: the court must resolve it by calling oral evidence (Falobi v Falobi; s.116 EA)",
+              "Counsel deposing: avoid it; he may be called to the witness box and cross-examined (Ukpabio v Nigerian Films and Censors Board). The affidavit is not inadmissible, since admissibility is governed by the Evidence Act, not the RPC (Nwite v PDP). Rule 20 RPC 2023",
+              "Written address: interlocutory applications must be accompanied by one (Order 30 r.1(2) Abuja; Order 43 r.1(2) Lagos). Contents (Order 33 rr.2 and 3 Abuja; Order 35 rr.2 and 3(1)-(2) Lagos): the claim on which the application rests; brief facts with reference to exhibits; issues for determination; legal argument with authorities; conclusion with numbered summary; list of authorities; certified true copies of unreported decisions",
+            ],
+            source: "Week 7 compiled PDF, 7.5-7.6",
+          },
+          {
+            category: "Propriety of Counsel Deposing",
+            question: "Is it proper for counsel to depose to an affidavit on behalf of his client?",
+            answer: [
+              "Counsel must avoid the habit of deposing to an affidavit on behalf of his client",
+              "In the event of conflicts, he would be required to enter the witness box and be subjected to cross-examination — a clash of his roles as advocate and witness",
+              "An affidavit deposed to by counsel is nonetheless NOT inadmissible, since admissibility is governed by the Evidence Act, not the RPC",
+            ],
+            source: "Ukpabio v Nigerian Films & Censors Board (2008) 9 NWLR (Pt 1092) 219; Nwite v PDP & Ors (2022) LPELR-59192(SC) at 30-33",
+          },
+          {
+            category: "Written Address",
+            question: "When is a written address required, and what are the page limits in Abuja and Lagos?",
+            answer: [
+              "Interlocutory applications must be accompanied by a written address — O30 R1(2) Abuja; O43 R1(2) Lagos",
+              "Abuja: written address not more than 30 pages (35 pages where there is a counter-affidavit); reply not more than 10 pages",
+              "Lagos: written address not more than 20 pages; reply not more than 5 pages",
+            ],
+            source: "Order 30 Rule 1(2) Abuja; Order 43 Rule 1(2) Lagos; Order 39 Rules 2&3 Abuja; Order 35 Rules 3(1)&(2) Lagos",
+          },
+          {
+            category: "Written Address",
+            question: "List the contents of a written address.",
+            answer: [
+              "The claim/defence upon which the application is based",
+              "Brief statement of facts, with reference to exhibits attached",
+              "Issues for determination",
+              "Legal arguments, incorporating authorities cited (judicial and statutory)",
+              "Conclusion, containing a numbered summary of points raised",
+              "List of cited authorities; certified true copies of unreported decisions",
+            ],
+            source: "Order 33 Rules 2&3 Abuja; Order 35 Rules 2&3(1)&(2) Lagos",
+          },
+          {
+            category: "Interim Injunction",
+            question: "What is an interim injunction, and what conditions govern its grant?",
+            answer: [
+              "A temporary order preserving the status quo until a named date, further order, or until the motion on notice is heard — granted in urgent situations, normally ex parte, with a short lifespan",
+              "No application for injunction can be made ex parte unless the applicant files with it a motion on notice for interlocutory injunction — O30 R3(1) Abuja; O43 R3(2) Lagos",
+              "Conditions (1-6 of the interlocutory injunction conditions apply) plus urgency: affidavit of real and extreme urgency, required ONLY for interim injunction",
+            ],
+            source: "Kotoye v CBN (1998) 1 NWLR (Pt 98) 419; Obeya Memorial Hospital v AG Federation & Anor (1987) 7 SCNJ 42",
+          },
+          {
+            category: "Interim Injunction",
+            question: "Outline the procedure for filing an interim injunction application.",
+            answer: [
+              "File the originating process; frontload per the rules",
+              "File the Motion Ex Parte for interim injunction pending determination of the motion on notice for interlocutory injunction (or until a stated time) — in other words, file both a motion ex parte for interim AND a motion on notice for interlocutory injunction together",
+              "File an affidavit in support, an affidavit of urgency, and a written address",
+              "Summary: Motion Ex Parte for interim + Affidavit + Written Address + Motion on Notice for interlocutory injunction — Kotoye v CBN",
+            ],
+            source: "Kotoye v CBN; Order 30 Rule 1(3)(A) Abuja; Order 43 Rule 3(2) Lagos",
+          },
+          {
+            category: "Interlocutory Injunction",
+            question: "What is an interlocutory injunction, and how does it differ from interim?",
+            answer: [
+              "Granted after both parties are heard; lasts during the pendency of the suit; obtained by motion on notice — Kotoye v CBN",
+              "Not granted in respect of a completed act — Okafor v AG Anambra",
+              "Only a perpetual injunction can be granted where the subject matter has already been completed",
+            ],
+            source: "Kotoye v CBN; Okafor v AG Anambra",
+          },
+          {
+            category: "Interlocutory Injunction",
+            question: "List the conditions/principles for grant of an interlocutory (or interim) injunction.",
+            answer: [
+              "1. Existence of a legal or equitable right",
+              "2. Substantial issue to be tried or dealt with must exist",
+              "3. Balance of convenience in favour of the applicant (he must show he will suffer greater inconvenience than the respondent if refused)",
+              "4. Irreparable damage/injury — loss not capable of being compensated in damages",
+              "5. Conduct of the parties before and during the pendency of the suit",
+              "6. Undertaking as to damages by the applicant",
+              "(7. Affidavit of real and extreme urgency applies ONLY for interim injunction)",
+            ],
+            source: "Obeya Memorial Hospital v AG Federation & Anor (1987) 7 SCNJ 42",
+          },
+          {
+            category: "Mandatory Injunction",
+            question: "What is a mandatory injunction, and what is its purpose?",
+            answer: [
+              "An order compelling a party to do an act, in some cases to forestall executive lawlessness",
+              "Compels a Respondent to retrace his steps and restore the parties to the status quo ante bellum",
+            ],
+            source: "Sulu Gambari v Bukola (2004) 1 NWLR (Pt 853) 122 @ 140-141",
+          },
+          {
+            category: "Anton Piller Order",
+            question: "What is an Anton Piller order, and where is it typically instituted?",
+            answer: [
+              "An injunction normally made ex parte and in camera (in secret), permitting the applicant to enter the respondent's premises to search, seize, detain and preserve goods/documents/articles in his possession — mostly copyrighted items; also called an 'Order of Seizure'",
+              "By ex parte application because it concerns a matter of urgency",
+              "Granted for infringement of copyright, trademarks or patents; usually instituted at the Federal High Court under s.103 Copyright Act 2022 and s.251(1)(f) CFRN, by virtue of which the FHC has exclusive jurisdiction",
+            ],
+            source: "Anton Piller K.G. v Manufacturing Processes Ltd & Ors (1976) 1 All ER 779; Section 103 Copyright Act 2022; Section 251(1)(f) CFRN",
+          },
+          {
+            category: "Anton Piller Order",
+            question: "List the conditions for grant of an Anton Piller order, restated in Ferodo v Unibro Stores.",
+            answer: [
+              "1. There is an infringement of the applicant's copyright, trademark, patent rights, or designs",
+              "2. The infringing property is in the possession of the respondent",
+              "3. If made on notice, the respondent is likely to destroy or hide the property",
+              "4. The applicant's case would be seriously frustrated if the order is refused",
+              "5. The applicant must be prepared to make an undertaking as to damages",
+            ],
+            source: "Ferodo Ltd v Unibro Stores (1980) Fleet Street Report 489",
+          },
+          {
+            category: "Mareva Injunction",
+            question: "What is a Mareva injunction, and when will the court grant it?",
+            answer: [
+              "Otherwise known as a Freezing Order — an injunction/order restraining the defendant/respondent from removing his assets from jurisdiction, pending or ongoing, to avoid rendering the judgment nugatory",
+              "Only granted if the defendant has NO OTHER assets within jurisdiction with which he would be able to satisfy a judgment debt against him",
+              "Generally applied for by Motion on Notice (+ Affidavit + Written Address), but may be made ex parte only in exceptional circumstances, e.g. where the defendant made himself absent and could not be served despite every effort (void of nullity otherwise)",
+            ],
+            source: "Mareva Compania Naviera S.A. v International Bulk Carrier Ltd (1975) Lloyd's Rep. 509; Akinbote v EFCC",
+          },
+          {
+            category: "Mareva Injunction",
+            question: "List the conditions/principles for grant of a Mareva injunction, restated in Sotiminu v Ocean Steamship.",
+            answer: [
+              "1. A pending action in court",
+              "2. A justiciable cause of action against the defendant",
+              "3. A real and imminent risk of the defendant removing his assets from jurisdiction/dissipating same, rendering any judgment nugatory",
+              "4. Full disclosure of all material facts relevant to the application",
+              "5. Full particulars of the defendant's assets within the court's jurisdiction",
+              "6. A deposition that the defendant has property within the court's jurisdiction",
+              "7. Balance of convenience is on the side of the applicant",
+              "8. Applicant prepared to make an undertaking as to damages",
+            ],
+            source: "Sotiminu v Ocean Steamship (Nig) Ltd (1992) 5 SCNJ 1",
+          },
+          {
+            category: "Injunctions & Interpleader",
+            question: "Table (compiled PDF 7.7): injunctions (Order 42 r.8 Lagos; Order 32 r.8 Abuja) - interim, interlocutory, mandatory, Anton Piller, Mareva.",
+            answer: [
+              "Injunction: Order 42 r.8 Lagos; Order 32 r.8 Abuja",
+              "Interim injunction - mode and features: temporary order to preserve the res until a named date or the hearing of the motion on notice. Urgent; normally ex parte; short life. Order 43 r.1(2) Lagos; Order 30 r.3(1) Abuja (Kotoye v CBN). No ex parte interim injunction unless a motion on notice is filed with it (Order 43 r.3(2) Lagos; Order 30 r.3(2) Abuja). Conditions/authority: lasts 7 days (Order 43 r.3(3) Lagos; Order 30 r.3(2) Abuja); the judge may extend for not more than 7 days (Order 43 r.3(4) Lagos)",
+              "Interlocutory injunction - mode and features: granted after both sides are heard; lasts pending the suit; by motion on notice. Not granted for a completed act (Okafor v AG Anambra). Conditions: legal or equitable right; substantial issue to be tried; balance of convenience; irreparable damage; conduct of parties; undertaking as to damages. Obeya Memorial Hospital v AG Federation",
+              "Mandatory injunction - mode and features: compels a party to act and retrace his steps to restore the status quo ante (Gambari v Bukola; to forestall executive lawlessness). Conditions/authority: motion on notice + affidavit + written address (drafts)",
+              "Anton Piller - mode and features: ex parte order permitting the applicant to enter the respondent's premises to search, seize, detain and preserve goods; copyright, trademark, patent infringement (Anton Piller KG v Manufacturing Processes). Conditions (Ferodo v Unibro): infringement shown; the infringing property is with the respondent; on notice he would likely destroy or hide it; the case would be seriously frustrated without the order",
+              "Mareva - mode and features: restrains a defendant from removing or dissipating assets within the jurisdiction so that the judgment is not nugatory (Mareva Compania Naviera v International Bulk Carriers). Conditions (Sotiminu v Ocean Steamship): a justiciable cause of action; a real and imminent risk of removal or dissipation; full disclosure of material facts; full particulars of assets within the jurisdiction; balance of convenience; undertaking as to damages",
+            ],
+            source: "Week 7 compiled PDF, 7.7",
+          },
+          {
+            category: "Interpleader Proceedings",
+            question: "What is interpleader, and what two types exist?",
+            answer: [
+              "Where a person is in possession of property/money claimed by two or more persons and is uncertain who the rightful owner is, he applies to court by way of interpleader to compel the claimants to interplead (determine between themselves who is entitled)",
+              "Sheriff's Interpleader — s.34 Sheriffs and Civil Process Act",
+              "Stakeholder's Interpleader — O26 R1 Abuja; O47 R1 Lagos; Nwekeson v Onuigbo",
+            ],
+            source: "Order 26 Abuja; Order 47 Lagos; Section 34 Sheriffs and Civil Process Act; Nwekeson v Onuigbo (1991) 3 NWLR (Pt 178) 125",
+          },
+          {
+            category: "Interpleader Proceedings",
+            question: "Explain the Sheriff's Interpleader, when it arises, and its effect.",
+            answer: [
+              "Arises where a sheriff, executing a judgment, attaches goods/chattel claimed by a third party NOT named in the writ of fi fa (i.e. not the judgment debtor)",
+              "The third party and the judgment creditor are called upon to substantiate their respective claims",
+              "It operates as a stay of execution pending determination of the interpleader matter",
+            ],
+            source: "Section 34 Sheriffs and Civil Process Act; Keystone Bank Ltd v M&M Ltd (2018) All FWLR (Pt 918) 143; Shelle v Oshun 11 NLR 43",
+          },
+          {
+            category: "Interpleader Proceedings",
+            question: "By what process is interpleader brought, and what are the CICW conditions?",
+            answer: [
+              "By way of Originating Summons where no suit is pending; by ordinary interlocutory summons where a suit is already pending — O47 R2(1) Lagos; O48 R5 Abuja",
+              "Affidavit must show: Custody — the property is in the applicant's custody; the applicant/interpleader claims no Interest beyond charges for costs; no Collusion with any claimant; applicant is Willing to pay/transfer the subject matter to court or dispose of it as the judge may direct",
+            ],
+            source: "Order 47 Rule 2(1) Lagos; Order 48 Rule 5 Abuja; Order 26 Rule 2 Abuja; Order 47 Rule 2(2) Lagos",
+          },
+          {
+            category: "Interpleader Proceedings",
+            question: "What is the time frame for bringing interpleader proceedings?",
+            answer: [
+              "No fixed time frame for interpleader generally",
+              "But it must be brought before the sale/disposal of the property attached",
+            ],
+            source: "Lecture slides, Week 7 (Time for Bringing Interpleader)",
+          },
+          {
+            category: "Abuse of Ex Parte Injunctions",
+            question: "What is the purpose of an ex parte injunction, and what abuse concerns have arisen?",
+            answer: [
+              "Purpose: to ensure the subject matter is not irreversibly altered before the motion on notice can be heard",
+              "There has been abuse and misuse of ex parte injunctions by both judges and lawyers",
+            ],
+            source: "Interlocutory Applications by Afe Babalola",
+          },
+          {
+            category: "Abuse of Ex Parte Injunctions",
+            question: "Give three examples of abuse of ex parte injunctions, from decided practice.",
+            answer: [
+              "A court in one state refused an ex parte injunction; the applicant rushed to another state, filed a similar suit and obtained an ex parte order WITHOUT disclosing the earlier refusal — National Bank of Nig Ltd v Yinka Comm. Ent. Ltd",
+              "After a claimant obtained an ex parte interim injunction and served the defendant, the defendant's counsel filed a SIMILAR suit and obtained his own ex parte injunction on the same subject matter — Panaf Investment Ltd v Temple & Golders Ltd",
+              "A judge adjourned hearing of an ex parte application for 2 weeks, then adjourned the ruling for another week; in a related case, a ruling was adjourned sine die because the defendant filed a motion 'arresting' it — Morgan Airlines Ltd v Transnet Ltd & Ors",
+            ],
+            source: "National Bank of Nig Ltd v Yinka Comm. Ent. Ltd; Panaf Investment Ltd v Temple & Golders Ltd; Morgan Airlines Ltd v Transnet Ltd & Ors; Interlocutory Applications by Afe Babalola pp.38-40",
+          },
+          {
+            category: "Abuse of Ex Parte Injunctions",
+            question: "What does Rule 2(2) Code of Conduct for Judicial Officers require of judges regarding ex parte injunctions?",
+            answer: [
+              "A judicial officer must avoid the abuse of the power of issuing (or refusing) interim injunctions ex parte",
+              "Places a direct ethical obligation on the judge, not just counsel, to guard against misuse of the ex parte procedure",
+            ],
+            source: "Rule 2(2) Code of Conduct for Judicial Officers",
+          },
+          {
+            category: "Ethical Issues",
+            question: "What ethical rules govern a lawyer's conduct generally in interlocutory applications?",
+            answer: [
+              "A lawyer shall deal candidly and fairly with the court — Rule 32 RPC 2023",
+              "A lawyer shall not take undue advantage of an opposing lawyer — Rule 27 RPC 2023",
+              "A lawyer is an officer of the court and shall not obstruct, delay, or adversely affect the administration of justice — Rule 30 RPC 2023",
+            ],
+            source: "Rules 27, 30, 32 RPC 2023",
+          },
+          {
+            category: "Ethical Issues",
+            question: "What ethical issue arises from swearing/deposing to affidavits by counsel, and from suppression of facts in ex parte applications?",
+            answer: [
+              "Swearing/deposing to an affidavit by counsel himself — governed by Rule 20 RPC 2023; risks requiring counsel to enter the witness box and be cross-examined",
+              "Suppression of facts in ex parte applications: since the respondent is not heard, counsel owes a duty of candour; suppression breaches Rule 32(3) RPC 2023 and may lead to the order being set aside",
+            ],
+            source: "Rule 20 RPC 2023; Okpabio v Nigerian Films & Censors Board; Rule 32(3) RPC 2023",
+          },
+          {
+            category: "Ethical Issues",
+            question: "What ethical issue arises from late filing of motions and affidavits?",
+            answer: [
+              "Late filing of motions and counter-affidavits with a view to delaying proceedings breaches a lawyer's duty not to obstruct or delay the administration of justice",
+            ],
+            source: "Rule 30(5) RPC 2023",
+          },
+          {
+            category: "Injunctions & Interpleader",
+            question: "Compiled PDF 7.8-7.9: interpleader table and ethics (abuse of ex parte injunctions, counsel's conduct).",
+            answer: [
+              "Interpleader: a person holds property or money claimed by two or more persons and applies to compel the claimants to interplead (Order 26 Abuja; Order 47 Lagos)",
+              "Mode of making interlocutory applications (compiled PDF 7.1): orally or in writing, in open court or in chambers. In writing: by motion (Order 30 r.1 and Order 53 r.1 Abuja; Order 43 r.1 Lagos) or by summons where the rules provide (interpleader: Order 26 r.5 Abuja; Order 47 r.2 Lagos)",
+              "Stakeholder interpleader: Order 26 r.1 Abuja; Order 47 r.1 Lagos (Nwekeson v Onuigbo). Affidavit states: applicant has no interest in the subject matter; has not colluded with any claimant; is willing to transfer or dispose of it as the court directs",
+              "Sheriff interpleader: s.34 Sheriffs and Civil Process Act. Where a sheriff attaches goods under a judgment and a third party claims them, e.g. goods of a person not named in the writ of fifa (Keystone Bank v M and M). The claimant and judgment creditor must substantiate their claims; it operates as a stay pending the decision (Shelle v Oshun)",
+              "Procedure: originating summons if no suit is pending; ordinary interlocutory summons if a suit is pending (Order 47 r.2(1) and Order 48 r.5 Abuja). Time: no fixed period, but before the sale of the attached property",
+              "Ethics: abuse of ex parte injunctions (National Bank v Yinka Commercial; Panaf v Temple and Golders; Morgan Airlines v Transnet): going to another court after refusal without disclosure; long adjournments of an interim application; arresting a ruling. Judicial officers: Rule 2(2) Code of Conduct for Judicial Officers",
+              "Counsel: Rule 32 RPC 2023 (candour; Rule 32(3) suppression of facts in ex parte applications); Rule 27 (no undue advantage of opposing counsel); Rule 20 (swearing affidavit as counsel); late filing of motions and affidavits",
+            ],
+            source: "Week 7 compiled PDF, 7.8-7.9",
+          },
+          {
+            category: "Interim Injunction — Variation/Discharge",
+            question: "On what grounds can a party apply for variation or discharge of an interim injunction, and how is that application made?",
+            answer: [
+              "Failure or default to give security for costs, or an undertaking as to damages",
+              "Suppression or misrepresentation of facts — the applicant did not disclose material facts to the court",
+              "Where the injunction was obtained by fraud",
+              "Where the injunction was irregularly obtained",
+              "Application is by Motion on Notice + Affidavit setting out the facts/grounds for variation or discharge + Written Address",
+            ],
+            source: "Handwritten notes",
+          },
+          {
+            category: "Drafting — Motions",
+            question: "Draft the key prayer for a Motion Ex Parte seeking an interim injunction.",
+            answer: [
+              "'AN ORDER OF INTERIM INJUNCTION restraining the Respondent, by himself, his agents, servants or privies, from [the act complained of] pending the hearing and determination of the Motion on Notice for interlocutory injunction already filed in this suit'",
+              "Must be filed together with a Motion on Notice for interlocutory injunction, supported by an affidavit of urgency and written address",
+            ],
+            source: "Kotoye v CBN",
+          },
+          {
+            category: "Drafting — Motions",
+            question: "Draft the key prayer for a Motion on Notice seeking an interlocutory injunction, and for a Mareva injunction.",
+            answer: [
+              "Interlocutory: 'AN ORDER OF INTERLOCUTORY INJUNCTION restraining the Respondent...from [the act complained of] pending the hearing and final determination of this suit'",
+              "Mareva: 'AN ORDER restraining the Respondent...from removing, dissipating, or otherwise dealing with his assets within the jurisdiction of this Honourable Court, pending the hearing and determination of this suit'",
+            ],
+            source: "Kotoye v CBN; Sotiminu v Ocean Steamship",
+          },
+          {
+            category: "Drafting — Motions",
+            question: "Draft the key prayer for a Motion Ex Parte seeking an Anton Piller order.",
+            answer: [
+              "'AN ORDER granting the Applicant leave to enter the premises of the Respondent situate at [address] to search for, inspect, photograph and remove into safe custody the infringing copies/items/documents described in the Schedule hereto, pending the hearing and determination of this suit'",
+              "Filed at the Federal High Court for copyright matters; affidavit must address all 5 Ferodo conditions",
+            ],
+            source: "Ferodo Ltd v Unibro Stores; Anton Piller K.G. v Manufacturing Processes Ltd",
+          },
+          {
+            category: "Drafting — Interpleader",
+            question: "What must the Interpleader Summons and supporting affidavit contain?",
+            answer: [
+              "Summons: names of all rival claimants; description of the property/fund in dispute",
+              "Affidavit: custody of the property, no interest beyond costs, no collusion, willingness to pay/transfer as the court directs (CICW)",
+              "Prayer: an order determining which claimant is entitled and discharging the applicant from further liability",
+            ],
+            source: "Order 26 Abuja; Order 47 Lagos",
+          },
+          {
+            category: "Pre-class Scenarios",
+            question: "In the Crown Kitchen v K&T scenario, what application addresses the risk of K&T dissipating funds, and what should a preliminary objection target?",
+            answer: [
+              "A Mareva injunction to freeze K&T's assets/bank account within jurisdiction, addressing all 8 Sotiminu conditions",
+              "A preliminary objection could target lack of jurisdiction, improper mode of commencement, or non-fulfilment of a condition precedent",
+              "If K&T's counter-affidavit fails to specifically deny Crown Kitchen's facts, those facts are deemed admitted",
+              "If both a constructive and destructive motion are pending, the constructive one is heard first — unless the destructive one challenges jurisdiction",
+            ],
+            source: "Pre-class scenario (Crown Kitchen v K&T)",
+          },
+          {
+            category: "Pre-class Scenarios",
+            question: "In the Kayuba Ada v Agricultural Bank scenario, what applications address joining NDIC, searching the Bank's records, and Pluto Grant's conflicting claims?",
+            answer: [
+              "Joining NDIC: an application for joinder, with leave of court, showing NDIC's presence is necessary for complete determination",
+              "Searching the Bank's records: an Anton Piller order, if all 5 Ferodo conditions are met, filed at the appropriate court",
+              "Pluto Grant holding disputed funds with no personal interest: a Stakeholder's Interpleader, satisfying the CICW conditions",
+            ],
+            source: "Pre-class scenario (Kayuba Ada v Agricultural Bank)",
+          },
+        ],
       },
-      // Civil Litigation: NEW decks (Weeks 8-17, Part 2A, Part 2B, Part 3).
-// HOW TO USE: in your flashcards file, find the end of the Week 7 deck inside
-//   "civil-litigation": { ... decks: [ ... ] }
-// and paste everything BELOW this comment block straight after the Week 7 deck's closing "},"
-// (before the "]," that closes the decks array). Do not change Weeks 3-7.
-
       {
         id: "civil-litigation-week-8",
         title: "Week 8: Summary Judgment and Judgment by Default",
@@ -4194,7 +4592,7 @@ const flashcards = {
             category: "Documentary Evidence",
             question: "Basis of admissibility, primary evidence and secondary evidence (ss.86-87 EA).",
             answer: [
-              "Basis of admissibility: relevance; pleaded; in admissible form (Okonji v Njokama)",
+              "Basis of admissibility: relevance; pleaded; in admissible form (Okonji v Njonkama)",
               "Primary evidence (s.86 EA): the document itself; document executed in several parts; counterparts; documents made by one uniform process",
               "Secondary evidence (s.87 EA): certified copies; copies made by mechanical processes; copies made from or compared with the original; counterparts by those who did not sign; oral account of the contents of the document",
             ],
@@ -4445,6 +4843,18 @@ const flashcards = {
               "Foreign judgment: action at common law (summary judgment procedure; subject to s.8 Foreign Judgments (Reciprocal Enforcement) Act), or registration at the Supreme Court Registry under Cap F35 LFN 2004: reciprocity; applied for within 6 years; final judgment (Peenok v Hotel Presidential). A judgment must first be registered (s.8). Set-aside grounds: IFC v DSNL Offshore. Foreign court's jurisdiction: s.6",
             ],
             source: "Week 12 slides",
+          },
+          {
+            category: "Week 12: Judgment and Enforcement",
+            question: "Meaning of judgment and of enforcement; who enforces; who are the parties to execution? (syllabus Week 12)",
+            answer: [
+              "Judgment: the final decision of the court determining the rights and obligations of the parties",
+              "Enforcement: the process of giving effect to a judgment so that the successful party obtains what the court awarded. Governing law: Sheriffs and Civil Process Act 2004 and the Judgment (Enforcement) Rules (Week 12 deck)",
+              "Responsible for enforcement: the Sheriff and Deputy Sheriffs (and bailiffs) of the court, acting on processes issued by the registry",
+              "Parties to execution: the judgment creditor (successful party), the judgment debtor, and in garnishee proceedings the garnishee who holds the debtor's money",
+              "Time for compliance: judgments are immediately enforceable unless the court orders otherwise (s.20 SCPA), and the court may fix time for payment (Week 12 deck)",
+            ],
+            source: "Syllabus topic not in the compiled PDF: general knowledge; verify against lecture slides",
           },
           {
             category: "Ethics",
@@ -5540,7 +5950,7 @@ const flashcards = {
       },
     ],
   },
-    "corporate-law-practice": {
+"corporate-law-practice": {
     courseName: "Corporate Law Practice",
     decks: [
       {
@@ -5549,6 +5959,28 @@ const flashcards = {
         instructions:
           "Answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
         cards: [
+          {
+            category: "Course Overview",
+            question: "Corporate Law Practice: what topics are taught in the 15 weeks of contact (Weeks 3 to 17)?",
+            answer: [
+              "Week 3: Formation and incorporation of companies",
+              "Week 4: Formation and registration of business names, partnerships and incorporated trustees",
+              "Week 5: Post-incorporation matters in business and non-business organisations (preliminary steps; conversion of companies and alteration of registered documents)",
+              "Week 6: Foreign participation and corporate contracts",
+              "Week 7: Corporate governance 1: legal and regulatory framework, directors and secretaries",
+              "Week 8: Corporate governance 2: membership, meetings, resolutions",
+              "Week 9: Corporate governance 3: financial statements, audits and annual returns",
+              "Week 10: Corporate governance 4: majority rule and minorities protection",
+              "Week 11: Corporate finance 1: equity capital and collective investment schemes",
+              "Week 12: Corporate finance 2: debt capital, debentures and bonds",
+              "Week 13: Corporate restructuring 1 (internal)",
+              "Week 14: Corporate restructuring 2 (external restructuring)",
+              "Week 15: Corporate insolvency: company voluntary arrangement, administration and receivership",
+              "Week 16: Introduction to intellectual property rights, registration and intellectual property of generative artificial intelligence",
+              "Week 17: Winding up and dissolution of business and non-business organisations (a: bodies with corporate personality: companies, LLP and incorporated trustees; b: business names and partnerships, general and limited)",
+            ],
+            source: "Course syllabus (lesson plan)",
+          },
           {
             category: "Legal Framework",
             question: "State the structure of CAMA 2020 by Parts.",
@@ -6348,6 +6780,18 @@ const flashcards = {
             source: "S.A",
           },
           {
+            category: "Preliminary Steps",
+            question: "Which laws and regulators govern post-incorporation matters, and where does each point in this week sit?",
+            answer: [
+              "Regulator: the Corporate Affairs Commission (CAC) receives the filings (forms, resolutions, annual returns) for all the alterations, conversions and searches in this week",
+              "Companies: CAMA 2020 (section references in this week, e.g. s.729 publication of name, ss.98-99 seals, s.30(6) effect of change of name) and the Companies Regulations 2021 (CR 2021)",
+              "Trade names: registrable at the Trade Marks Registry (corporate name v trade name, see Preliminary Steps cards)",
+              "Syllabus note: tutors focus on post-incorporation matters in relation to companies; post-incorporation matters for business names, partnerships and incorporated trustees are mentioned in passing (see the Week 4 cards for annual returns, changes, suspension and replacement of trustees)",
+              "Source note: the compiled PDF has no separate headed list of laws for Week 5; the statement above collects the laws and bodies it cites in the Week 5 section",
+            ],
+            source: "Course syllabus; Compiled PDF Week 5",
+          },
+          {
             category: "Statutory Books",
             question: "State the rules on the register of members (s.109), the index (s.111) and keeping (s.110).",
             answer: [
@@ -6540,6 +6984,20 @@ const flashcards = {
               "Notify CAC within 1 month (Mayowa); S.A treats with special resolution 15 days",
             ],
             source: "S.A; Mayowa",
+          },
+          {
+            category: "Alteration",
+            question: "Amendment of incorporation documents for incorporated trustees (syllabus Week 5 outcome 6): what are the rules on change of name or objects, replacing trustees and altering the constitution?",
+            answer: [
+              "Change of name/objects (s.832): trustees' meeting; members' meeting and resolution; Form CAC/IT 2; publish in 2 national dailies; no objection then CAC assents; new certificate on name change; display notice at headquarters",
+              "Replacing trustees (s.834): general meeting; resolution; Form CAC/IT 03; publish; CAC assents in writing and the appointment is valid from the date of the resolution",
+              "Alteration of the constitution (s.833): resolution by simple majority of members, approved by CAC",
+              "The lecturer's change-of-name steps: general meeting, special resolution, notify CAC, publish in two dailies (one national), display the notice for at least 28 days at headquarters or branches, objections to reach CAC within 28 days of the last publication; then submit the application, minutes, amended constitution, signed resolution and fee",
+              "Timing of post-incorporation filings (Reg 37): other than annual returns, bi-annual statements and miscellaneous filings, applications are filed within 15 days of the resolution, and an application that must be published is not processed until 28 days after the last publication",
+              "Returns: bi-annual statement of affairs made up to 30 June and 31 December, filed by 15 July and 15 January (Form CAC/IT 5, s.845). Annual return (Form CAC/IT 04) not earlier than 30 June or later than 31 December each year, except year of registration (s.848)",
+              "This repeats the incorporated-trustee rules from the Week 4 notes (4.3) so the Week 5 outcome is covered in this week too",
+            ],
+            source: "Compiled PDF 4.3; lecturer slides",
           },
           {
             category: "Conversion",
@@ -6954,6 +7412,15 @@ const flashcards = {
         instructions:
           "Answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
         cards: [
+          {
+            category: "Study Note",
+            question: "Where is the full treatment of directors and the company secretary, and what does the Week 7 compilation keep?",
+            answer: [
+              "Full treatment with section-by-section checks is in your separate 'Directors and Company Secretary: Bar Final Revision Note'",
+              "The compiled Week 7 part keeps every date, number and rule for quick revision",
+            ],
+            source: "Compiled PDF Week 7",
+          },
           {
             category: "Codes",
             question: "Nigerian Code of Corporate Governance 2018 (FRC): key numbers.",
@@ -7474,6 +7941,18 @@ const flashcards = {
             source: "S.A",
           },
           {
+            category: "Preparing for Meetings",
+            question: "Attendance at meetings: what should be recorded and why? (syllabus Week 8: attendance)",
+            answer: [
+              "Syllabus item: preparation of meetings and proceedings includes notices, agenda, venue, voting, quorum, attendance, minutes of meeting and the different types of resolution",
+              "Attendance register: members (and proxies) sign in on arrival; the register is the evidence of who attended, of whether a quorum was present and of voting entitlement",
+              "Minutes record those present, apologies, and the business done, so attendance is proved from the minutes and the attendance register together",
+              "Related points covered in the cards of this week: quorum, proxy, voting (show of hands and poll), notice, minutes",
+              "General knowledge, not from your notes. Verify against your lecture slides.",
+            ],
+            source: "Course syllabus; general knowledge (verify)",
+          },
+          {
             category: "Resolutions",
             question: "Ordinary resolution (s.258(1)).",
             answer: [
@@ -7846,6 +8325,19 @@ const flashcards = {
         instructions:
           "Answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
         cards: [
+          {
+            category: "Corporate Sovereignty",
+            question: "Corporate sovereignty: what is the principle of separate corporate personality and how does it lead to the majority rule? (syllabus Week 10 outcome 1)",
+            answer: [
+              "A company registered under CAMA is a body corporate with perpetual succession from the date on the certificate of incorporation (s.42), separate from its members (compiled PDF 3.5; Week 3 cards)",
+              "Separate personality: Salomon v Salomon & Co Ltd [1897] AC 22 (HL): the company is a legal person distinct from its members even where one person owns nearly all the shares",
+              "Consequence 1: the company, as a separate person, is the proper plaintiff for a wrong done to it (the rule in Foss v Harbottle (1843), s.341: see the next cards)",
+              "Consequence 2: the majority decides how the company acts; irregularities the majority can ratify are not redressed at a minority's instance (majority rule)",
+              "Limit: the minority is protected by the exceptions to Foss v Harbottle and the statutory remedies in ss.343-370 (direct, personal, representative and derivative actions, oppression petition s.353, investigation s.357)",
+              "The Salomon case citation and the statement of the principle are general knowledge, not from your notes. Verify against your lecture slides.",
+            ],
+            source: "Course syllabus; Compiled PDF 3.5 and 10.1; general knowledge (verify)",
+          },
           {
             category: "Foss v Harbottle",
             question: "State the rule in Foss v Harbottle (s.341).",
@@ -9217,6 +9709,29 @@ const flashcards = {
             source: "S.A",
           },
           {
+            category: "Due Diligence",
+            question: "What is a leveraged buy-in, and how does it differ from the management buy-in in your notes? (syllabus Week 14 outcome 1)",
+            answer: [
+              "Your notes list the options as: merger, takeover bid, acquisition, takeover offer, management buy-in, purchase and assumption (14.1A) and mention a management buy-in in which an external management team buys a controlling stake and replaces management (14.2)",
+              "The syllabus also lists 'leveraged-buy-in' as an external option; the compiled PDF does not define that term",
+              "Leveraged buy-in (general meaning): an acquisition of a controlling stake funded mainly by borrowed money, usually secured on the assets or cash flow of the target, so that the debt is repaid from the target's earnings",
+              "General knowledge, not from your notes. Verify against your lecture slides.",
+            ],
+            source: "Course syllabus; general knowledge (verify)",
+          },
+          {
+            category: "Due Diligence",
+            question: "Disclosure issues in external restructuring (syllabus Week 14 outcome 4): what is the significance of disclosure alongside due diligence?",
+            answer: [
+              "Due diligence (14.4): investigation of the target before a binding agreement, so the acquirer does not rely on faulty information; the target also checks the acquirer and does internal due diligence before giving warranties",
+              "Disclosure: the target discloses material facts and documents during due diligence; what is disclosed qualifies the warranties it gives in the agreement",
+              "Public takeovers and mergers: offers, circulars and notifications to SEC, the exchange and the FCCPC carry mandatory information; see the merger and takeover cards of this week for the regulators and the procedure",
+              "Whether disclosure is full and true affects the validity of consents and sanctions and the liability for misstatement; apply the facts to the provisions in the cards for each regulator",
+              "General knowledge, not from your notes. Verify against your lecture slides.",
+            ],
+            source: "Course syllabus; Compiled PDF 14.4; general knowledge (verify)",
+          },
+          {
             category: "Roles & Ethics",
             question: "Professional roles and ethics in external restructuring.",
             answer: [
@@ -10000,6 +10515,63 @@ const flashcards = {
               "Liquidation vs dissolution: liquidation is the process of collecting assets and paying debts; dissolution ends the company's legal existence",
             ],
             source: "S.A",
+          },
+          {
+            category: "Dissolution: Business Names",
+            question: "Dissolution of a business name (syllabus Week 17(b)): what is the legal status of a business name and how does it cease? (Part E, ss.811-822)",
+            answer: [
+              "Administered by the CAC; Registrar-General is Registrar of Business Names (s.811). Each State has a registry under Assistant Registrars (s.813(3))",
+              "A business name is not a legal person (Domingo v The Queen [1963]); registration only tells the public who trades under the name",
+              "Cessation (s.819): partners notify CAC within 3 months of cessation; CAC may send an enquiry and remove the name if the reply shows the business is no longer carried on or there is no answer within 2 months of the enquiry",
+              "Changes: notify CAC within 28 days (s.818; Form CAC/BN 05), except age particulars",
+              "Annual return (s.822): not later than 30 June each year, except the calendar year of registration; with financial statements for 1 January to 31 December; signed by the individual or partners",
+              "Registration does not prove partnership (Henshaw v Roberts [1966]) but raises a rebuttable presumption (Nwankwo v Nwankwo [1995]). It gives priority in the name even against later companies (ss.852(1)(d), 41(e), 30(4))",
+            ],
+            source: "Compiled PDF 4.1; S.A; Kelvin; Mayowa",
+          },
+          {
+            category: "Dissolution: Partnerships",
+            question: "Dissolution of a general partnership (syllabus Week 17(b)): how does it happen and how are the assets applied?",
+            answer: [
+              "Three types of partnership are recognised: Limited Liability Partnership (Part C), Limited Partnership (Part D), General Partnership (Part E, registered as a business name)",
+              "Dissolution by agreement, court order, or operation of law (e.g. death)",
+              "On dissolution, assets applied: (1) debts to outsiders; (2) advances by partners; (3) return of capital; (4) surplus in profit-sharing ratio",
+              "Give notice to CAC (if registered), gazette/newspapers, clients",
+              "Implied terms where the deed is silent (Kelvin, Dec 2020 Q3(d)): equal profit sharing; equal loss sharing; equal capital contribution; death of a partner dissolves; no suspension (else dissolution); no salaries",
+              "The partnership deed should carry a dissolution clause (one of the 14 deed clauses: commencement; names of parties; place of business; duration; capital; profit and loss sharing; partnership property; salary; powers, rights and duties; retirement; bankers and signatories; expulsion and suspension; dissolution; arbitration)",
+              "Advantages over a company include easy dissolution and decisions; disadvantage: no separate legal personality",
+              "A partnership over 20 persons must be a company (s.19)",
+            ],
+            source: "Compiled PDF 4.2; S.A; Kelvin",
+          },
+          {
+            category: "Dissolution: Limited Partnership and LLP",
+            question: "Ending of a limited partnership and a limited liability partnership (syllabus Week 17(b) and 17(a)): what are the key rules?",
+            answer: [
+              "Limited Partnership (Part D): min 2, max 20 (s.795 ff); at least one general and one limited partner. Name ends 'LP' (s.802); Form CAC/LP 01; an LP that is not registered is treated as a general partnership (s.797)",
+              "Limited Partnership: disqualified partners (lecturer slides, s.796): a person of unsound mind found so by a court, and an undischarged bankrupt; an individual or body corporate may be a partner. (The earlier draft listed infants and cited s.795)",
+              "LLP (Part C): min 2, no maximum; at least 2 designated partners (ss.746-752); if only 1 partner for more than 6 months, the lone partner is personally liable (s.748)",
+              "LLP: a vacancy among designated partners is filled within 30 days, and if only one designated partner remains all partners are treated as designated (s.751; penalty s.752)",
+              "LLP: cessation of a partner's interest (s.763): as agreed, or by 30 days' notice if there is no agreement, or by death, dissolution, unsound mind or insolvency",
+              "LLP winding up: voluntary or by court on petition (s.793); grounds include partners below 2 for more than 6 months; CAC may strike off defunct LLP. Winding up of an LLP is also referred to in s.789",
+              "LLP investigation: application by at least one-fifth of partners (s.773 ff as cited)",
+              "Annual return: LP and LLP both 60 days from end of the financial year (LLP Form CAC/LLP/07, s.773)",
+            ],
+            source: "Compiled PDF 4.2; S.A; lecturer slides",
+          },
+          {
+            category: "Dissolution: Incorporated Trustees",
+            question: "Dissolution of incorporated trustees (s.850): who may petition, on what grounds, and what happens to the surplus?",
+            answer: [
+              "Dissolution (s.850): by FHC petition from governing body, one or more trustees, members forming at least 50%, or the CAC",
+              "Grounds: aims realised; fixed period expired; aims illegal/contrary to public policy; just and equitable; certificate withdrawn or revoked",
+              "Notice to affected persons (s.850(3))",
+              "Surplus goes to a similar-object institution chosen by members, never to members (s.850(4)); otherwise to charity (s.850(5))",
+              "Incorporated trustees v company limited by guarantee: an incorporated trustee ends by dissolution (FHC petition); a company ends by winding up. Both: tax exemption (CITA s.23); no distribution of profits to members; surplus on dissolution to similar objects (ss.26(9), 850(4))",
+              "Related: suspension of trustees (s.839): CAC may suspend and appoint interim managers on grounds of misconduct/mismanagement, protection or proper application of property, public interest, or fraud. Court order is required (s.839(2)); petitioners: CAC or members with one-fifth",
+              "Related: merger of incorporated trustees (s.849): resolution by 75% of each association's members; publish in 2 dailies (one national); 28 days for objections; display notice at HQ and branches for 28 days; scheme sanctioned by FHC; Form CAC/IT 07",
+            ],
+            source: "Compiled PDF 4.3; S.A; lecturer slides",
           },
           {
             category: "Officers & Priority",
