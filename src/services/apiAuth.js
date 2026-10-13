@@ -18,11 +18,14 @@ export async function signup({ name, email, password }) {
 
   // 2. Create a profile record for the user
   if (data?.user) {
-    const { error: profileError } = await supabase.from("profiles").insert({
-      id: data.user.id,
-      name,
-      email,
-    });
+    const { error: profileError } = await supabase.from("profiles").upsert(
+      {
+        id: data.user.id,
+        name,
+        email,
+      },
+      { onConflict: "id" }
+    );
 
     if (profileError) {
       console.error("Profile creation error:", profileError);
