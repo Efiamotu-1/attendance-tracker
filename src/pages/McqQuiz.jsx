@@ -82,10 +82,17 @@ function McqQuiz() {
   const savedRef = useRef(!!storedResult);
 
   // Answer mode: "quiz" is the current tap-to-answer experience; "omr" is the
-  // new OMR-style answer sheet flow.
+  // new OMR-style answer sheet flow. OMR is only available for exam-styled
+  // quizzes; topic and course quizzes always use the interactive flow.
   const [answerMode, setAnswerMode] = useState(
-    () => storedResult?.answerMode ?? "quiz"
+    () => (isExamMode && storedResult?.answerMode === "omr" ? "omr" : "quiz")
   );
+
+  useEffect(() => {
+    if (!isExamMode && answerMode !== "quiz") {
+      setAnswerMode("quiz");
+    }
+  }, [answerMode, isExamMode]);
 
   // Hooks for saving and loading quiz history
   const { saveAttempt } = useSaveQuizAttempt();
@@ -447,69 +454,75 @@ function McqQuiz() {
               : `${session.examTitle} — ${formatExamSessionLabel(session)}`}
           </p>
 
-          {/* Answer mode tabs */}
-          <div
-            className={`flex items-center gap-1 p-1 rounded-xl mt-5 sm:mt-6 mx-auto max-w-md ${
-              isDarkMode ? "bg-dark-700" : "bg-gray-100"
-            }`}
-            role="tablist"
-            aria-label="Answer mode"
-          >
-            <button
-              type="button"
-              role="tab"
-              aria-selected={answerMode === "quiz"}
-              onClick={() => setAnswerMode("quiz")}
-              className={`flex-1 flex items-center justify-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-2.5 rounded-lg text-xs sm:text-sm font-semibold transition-all ${
-                answerMode === "quiz"
-                  ? "bg-primary-500 text-white shadow"
-                  : isDarkMode
-                  ? "text-dark-300 hover:text-white"
-                  : "text-gray-500 hover:text-gray-900"
-              }`}
-            >
-              <HiOutlineQueueList className="w-4 h-4 sm:w-5 sm:h-5" />
-              Quiz Mode
-            </button>
-            <button
-              type="button"
-              role="tab"
-              aria-selected={answerMode === "omr"}
-              onClick={() => setAnswerMode("omr")}
-              className={`flex-1 flex items-center justify-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-2.5 rounded-lg text-xs sm:text-sm font-semibold transition-all ${
-                answerMode === "omr"
-                  ? "bg-primary-500 text-white shadow"
-                  : isDarkMode
-                  ? "text-dark-300 hover:text-white"
-                  : "text-gray-500 hover:text-gray-900"
-              }`}
-            >
-              <HiOutlineViewColumns className="w-4 h-4 sm:w-5 sm:h-5" />
-              OMR Answer Sheet
-            </button>
-          </div>
-          <div
-            className={`rounded-xl p-3 sm:p-4 mt-3 mb-1 text-left ${
-              isDarkMode ? "bg-dark-700/50" : "bg-gray-50"
-            }`}
-          >
-            <p
-              className={`text-xs sm:text-sm font-semibold mb-1 ${
-                isDarkMode ? "text-white" : "text-gray-900"
-              }`}
-            >
-              {answerMode === "quiz" ? "How Quiz Mode works" : "How OMR Answer Sheet works"}
-            </p>
-            <p
-              className={`text-[11px] sm:text-xs leading-relaxed ${
-                isDarkMode ? "text-dark-400" : "text-gray-500"
-              }`}
-            >
-              {answerMode === "quiz"
-                ? "Tap an option to select it right on the screen. Your selections are saved as you go, and you'll get a full scored breakdown — correct, wrong, and skipped — the moment you submit."
-                : "You'll only see the question and its options here — you can't select an answer in the app. Shade your answers on your own physical OMR/bubble sheet as you would in the real exam. Nothing is scored automatically; once you finish, you'll get a per-course answer key to mark your sheet yourself, plus an option to review every question and answer side by side."}
-            </p>
-          </div>
+          {/* OMR is intended for full exam-style sessions only. */}
+          {isExamMode && (
+            <>
+              <div
+                className={`flex items-center gap-1 p-1 rounded-xl mt-5 sm:mt-6 mx-auto max-w-md ${
+                  isDarkMode ? "bg-dark-700" : "bg-gray-100"
+                }`}
+                role="tablist"
+                aria-label="Answer mode"
+              >
+                <button
+                  type="button"
+                  role="tab"
+                  aria-selected={answerMode === "quiz"}
+                  onClick={() => setAnswerMode("quiz")}
+                  className={`flex-1 flex items-center justify-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-2.5 rounded-lg text-xs sm:text-sm font-semibold transition-all ${
+                    answerMode === "quiz"
+                      ? "bg-primary-500 text-white shadow"
+                      : isDarkMode
+                      ? "text-dark-300 hover:text-white"
+                      : "text-gray-500 hover:text-gray-900"
+                  }`}
+                >
+                  <HiOutlineQueueList className="w-4 h-4 sm:w-5 sm:h-5" />
+                  Quiz Mode
+                </button>
+                <button
+                  type="button"
+                  role="tab"
+                  aria-selected={answerMode === "omr"}
+                  onClick={() => setAnswerMode("omr")}
+                  className={`flex-1 flex items-center justify-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-2.5 rounded-lg text-xs sm:text-sm font-semibold transition-all ${
+                    answerMode === "omr"
+                      ? "bg-primary-500 text-white shadow"
+                      : isDarkMode
+                      ? "text-dark-300 hover:text-white"
+                      : "text-gray-500 hover:text-gray-900"
+                  }`}
+                >
+                  <HiOutlineViewColumns className="w-4 h-4 sm:w-5 sm:h-5" />
+                  OMR Answer Sheet
+                </button>
+              </div>
+              <div
+                className={`rounded-xl p-3 sm:p-4 mt-3 mb-1 text-left ${
+                  isDarkMode ? "bg-dark-700/50" : "bg-gray-50"
+                }`}
+              >
+                <p
+                  className={`text-xs sm:text-sm font-semibold mb-1 ${
+                    isDarkMode ? "text-white" : "text-gray-900"
+                  }`}
+                >
+                  {answerMode === "quiz"
+                    ? "How Quiz Mode works"
+                    : "How OMR Answer Sheet works"}
+                </p>
+                <p
+                  className={`text-[11px] sm:text-xs leading-relaxed ${
+                    isDarkMode ? "text-dark-400" : "text-gray-500"
+                  }`}
+                >
+                  {answerMode === "quiz"
+                    ? "Tap an option to select it right on the screen. Your selections are saved as you go, and you'll get a full scored breakdown — correct, wrong, and skipped — the moment you submit."
+                    : "You'll only see the question and its options here — you can't select an answer in the app. Shade your answers on your own physical OMR/bubble sheet as you would in the real exam. Nothing is scored automatically; once you finish, you'll get a per-course answer key to mark your sheet yourself, plus an option to review every question and answer side by side."}
+                </p>
+              </div>
+            </>
+          )}
 
           {/* Info cards — responsive grid */}
           <div className="flex items-center justify-center gap-2.5 sm:gap-4 mt-5 sm:mt-6 mb-6 sm:mb-8">
