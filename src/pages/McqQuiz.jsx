@@ -359,8 +359,6 @@ function McqQuiz() {
     quizType: isExamMode ? "exam" : "topic",
     examSession: isExamMode
       ? formatExamSessionLabel(session)
-      : isTopicMode
-      ? topic?.name
       : null,
     courseName: isExamMode ? course?.name : isTopicMode ? course?.name : course?.name,
     topicId: isTopicMode ? topic?.id : null,

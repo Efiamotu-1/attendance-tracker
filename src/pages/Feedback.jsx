@@ -360,7 +360,17 @@ function FeedbackDetailModal({
                   <span className="font-semibold">Course:</span> {item.course_name}
                 </p>
               )}
-              {item.exam_session && (
+              {item.quiz_type === "topic" && item.topic_name && (
+                <p
+                  className={`text-xs ${
+                    isDarkMode ? "text-dark-300" : "text-gray-700"
+                  }`}
+                >
+                  <span className="font-semibold">Topic:</span>{" "}
+                  {item.topic_name}
+                </p>
+              )}
+              {item.exam_session && item.quiz_type !== "topic" && (
                 <p
                   className={`text-xs ${
                     isDarkMode ? "text-dark-300" : "text-gray-700"
@@ -372,7 +382,7 @@ function FeedbackDetailModal({
                   {item.exam_session}
                 </p>
               )}
-              {item.topic_id && (
+              {item.topic_id && item.quiz_type !== "topic" && (
                 <p
                   className={`text-xs ${
                     isDarkMode ? "text-dark-300" : "text-gray-700"
