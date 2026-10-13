@@ -366,7 +366,30 @@ function FeedbackDetailModal({
                     isDarkMode ? "text-dark-300" : "text-gray-700"
                   }`}
                 >
-                  <span className="font-semibold">Session:</span> {item.exam_session}
+                  <span className="font-semibold">
+                    {item.quiz_type === "topic" ? "Topic:" : "Session:"}
+                  </span>{" "}
+                  {item.exam_session}
+                </p>
+              )}
+              {item.topic_id && (
+                <p
+                  className={`text-xs ${
+                    isDarkMode ? "text-dark-300" : "text-gray-700"
+                  }`}
+                >
+                  <span className="font-semibold">Topic ID:</span>{" "}
+                  {item.topic_id}
+                </p>
+              )}
+              {item.topic_source_ref && (
+                <p
+                  className={`text-xs ${
+                    isDarkMode ? "text-dark-300" : "text-gray-700"
+                  }`}
+                >
+                  <span className="font-semibold">Source:</span>{" "}
+                  {item.topic_source_ref}
                 </p>
               )}
               {item.bug_type && (

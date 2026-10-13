@@ -360,9 +360,12 @@ function McqQuiz() {
     examSession: isExamMode
       ? formatExamSessionLabel(session)
       : isTopicMode
-      ? session.examTitle
+      ? topic?.name
       : null,
     courseName: isExamMode ? course?.name : isTopicMode ? course?.name : course?.name,
+    topicId: isTopicMode ? topic?.id : null,
+    topicName: isTopicMode ? topic?.name : null,
+    topicSourceRef: isTopicMode ? topic?.sourceRef : null,
   });
 
   const handleOpenReportModal = (question, questionNumber) => {

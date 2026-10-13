@@ -173,6 +173,9 @@ export async function createQuestionReport({
       quiz_type: quizContext?.quizType,
       exam_session: quizContext?.examSession,
       course_name: quizContext?.courseName,
+      topic_id: quizContext?.topicId || null,
+      topic_name: quizContext?.topicName || null,
+      topic_source_ref: quizContext?.topicSourceRef || null,
     })
     .select()
     .single();
