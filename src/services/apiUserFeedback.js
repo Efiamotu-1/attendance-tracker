@@ -154,8 +154,18 @@ export async function createQuestionReport({
     .from("user_feedback")
     .insert({
       user_id: user.id,
-      type: "question_report",
-      title: `Question Report: ${question.id || `Q${question.questionNumber}`}`,
+      type:
+        quizContext?.quizType === "draft"
+          ? "draft_report"
+          : quizContext?.quizType === "flashcard"
+          ? "flashcard_report"
+          : "question_report",
+      title:
+        quizContext?.quizType === "draft"
+          ? `Draft Report: ${question.id}`
+          : quizContext?.quizType === "flashcard"
+          ? `Flashcard Report: ${question.id}`
+          : `Question Report: ${question.id || `Q${question.questionNumber}`}`,
       description: reason,
       bug_type: bugType,
       proposed_answer: proposedAnswer,

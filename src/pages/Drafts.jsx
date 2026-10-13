@@ -1,11 +1,11 @@
 import React, { useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import toast from "react-hot-toast";
 import { useTheme } from "../context/ThemeContext";
 import drafts from "../data/drafts";
 import { paperHtml, plainText } from "../features/drafts/draftPaper";
 import DraftPaperStyles from "../features/drafts/DraftPaperStyles";
 import QuestionReportModal from "../features/feedback/QuestionReportModal";
+import { useCreateQuestionReport } from "../features/feedback/useCreateQuestionReport";
 import {
   HiOutlineArrowLeft,
   HiOutlineDocumentText,
@@ -174,8 +174,7 @@ function DraftViewer({ draft, courseName, isDarkMode, onBack }) {
   const [ticked, setTicked] = useState({});
   const [copied, setCopied] = useState(false);
   const [reportModalOpen, setReportModalOpen] = useState(false);
-  // Draft reports are UI-only, same approach as flashcard reports — nothing
-  // is sent to Supabase or any backend, just a local toast acknowledgement.
+  const { submitQuestionReport, isSubmitting } = useCreateQuestionReport();
 
   const html = useMemo(() => paperHtml(draft), [draft]);
 
@@ -189,9 +188,10 @@ function DraftViewer({ draft, courseName, isDarkMode, onBack }) {
     }
   };
 
-  const handleSubmitReport = () => {
-    setReportModalOpen(false);
-    toast.success("Thanks — noted for this draft.");
+  const handleSubmitReport = (reportData) => {
+    submitQuestionReport(reportData, {
+      onSuccess: () => setReportModalOpen(false),
+    });
   };
 
   const tickedCount = Object.values(ticked).filter(Boolean).length;
@@ -356,7 +356,7 @@ function DraftViewer({ draft, courseName, isDarkMode, onBack }) {
         isOpen={reportModalOpen}
         onClose={() => setReportModalOpen(false)}
         onSubmit={handleSubmitReport}
-        isSubmitting={false}
+        isSubmitting={isSubmitting}
         answerFormat="text"
         question={{
           id: draft.id,

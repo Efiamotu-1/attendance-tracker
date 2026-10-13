@@ -1,9 +1,9 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import toast from "react-hot-toast";
 import { useTheme } from "../context/ThemeContext";
 import flashcards from "../data/flashcards";
 import QuestionReportModal from "../features/feedback/QuestionReportModal";
+import { useCreateQuestionReport } from "../features/feedback/useCreateQuestionReport";
 import {
   HiOutlineArrowLeft,
   HiOutlineBolt,
@@ -42,8 +42,7 @@ function DeckPlayer({ deck, courseName, isDarkMode, onBack }) {
   const [missedOnly, setMissedOnly] = useState(false);
   const [typedAnswer, setTypedAnswer] = useState("");
   const [reportModalOpen, setReportModalOpen] = useState(false);
-  // Card reports are UI-only for flashcards — nothing is sent to Supabase or
-  // any backend. We just acknowledge it locally so the person feels heard.
+  const { submitQuestionReport, isSubmitting } = useCreateQuestionReport();
 
   const basePool = useMemo(
     () =>
@@ -91,11 +90,10 @@ function DeckPlayer({ deck, courseName, isDarkMode, onBack }) {
     setShown(true);
   };
 
-  const handleSubmitReport = () => {
-    // Local-only: no API call, nothing persisted. Just close the modal and
-    // let the person know their note was noted for this session.
-    setReportModalOpen(false);
-    toast.success("Thanks — noted for this card.");
+  const handleSubmitReport = (reportData) => {
+    submitQuestionReport(reportData, {
+      onSuccess: () => setReportModalOpen(false),
+    });
   };
 
   useEffect(() => {
@@ -455,7 +453,7 @@ function DeckPlayer({ deck, courseName, isDarkMode, onBack }) {
             isOpen={reportModalOpen}
             onClose={() => setReportModalOpen(false)}
             onSubmit={handleSubmitReport}
-            isSubmitting={false}
+            isSubmitting={isSubmitting}
             answerFormat="text"
             question={{
               id: `${deck.id}-${order[index]}`,

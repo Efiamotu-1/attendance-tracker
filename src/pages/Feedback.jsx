@@ -20,6 +20,8 @@ import {
   HiOutlineMagnifyingGlass,
   HiOutlineInboxStack,
   HiOutlineShieldCheck,
+  HiOutlineDocumentText,
+  HiOutlineRectangleStack,
 } from "react-icons/hi2";
 
 // ==========================================
@@ -61,6 +63,24 @@ const TYPES = [
     bgColor: "bg-orange-500/10",
     borderColor: "border-orange-500/30",
     badgeBg: "bg-orange-500",
+  },
+  {
+    value: "draft_report",
+    label: "Draft Report",
+    icon: HiOutlineDocumentText,
+    color: "text-purple-500",
+    bgColor: "bg-purple-500/10",
+    borderColor: "border-purple-500/30",
+    badgeBg: "bg-purple-500",
+  },
+  {
+    value: "flashcard_report",
+    label: "Flashcard Report",
+    icon: HiOutlineRectangleStack,
+    color: "text-cyan-500",
+    bgColor: "bg-cyan-500/10",
+    borderColor: "border-cyan-500/30",
+    badgeBg: "bg-cyan-500",
   },
 ];
 
@@ -276,7 +296,9 @@ function FeedbackDetailModal({
           )}
 
           {/* Question report info */}
-          {item.type === "question_report" && (
+          {(item.type === "question_report" ||
+            item.type === "draft_report" ||
+            item.type === "flashcard_report") && (
             <div
               className={`rounded-lg p-3 border space-y-2 ${
                 isDarkMode
@@ -289,7 +311,11 @@ function FeedbackDetailModal({
                   isDarkMode ? "text-dark-400" : "text-orange-600"
                 }`}
               >
-                Question Details
+                {item.type === "draft_report"
+                  ? "Draft Details"
+                  : item.type === "flashcard_report"
+                  ? "Flashcard Details"
+                  : "Question Details"}
               </span>
               {item.quiz_type && (
                 <p
@@ -298,7 +324,15 @@ function FeedbackDetailModal({
                   }`}
                 >
                   <span className="font-semibold">Type:</span>{" "}
-                  {item.quiz_type === "exam" ? "Exam Styled MCQ" : "Topic Quiz"}
+                  {item.quiz_type === "exam"
+                    ? "Exam Styled MCQ"
+                    : item.quiz_type === "topic"
+                    ? "Topic Quiz"
+                    : item.quiz_type === "draft"
+                    ? "Draft"
+                    : item.quiz_type === "flashcard"
+                    ? "Flashcard"
+                    : item.quiz_type}
                 </p>
               )}
               {item.question_id && (
@@ -307,7 +341,14 @@ function FeedbackDetailModal({
                     isDarkMode ? "text-dark-300" : "text-gray-700"
                   }`}
                 >
-                  <span className="font-semibold">Question:</span> {item.question_id}
+                  <span className="font-semibold">
+                    {item.type === "draft_report"
+                      ? "Draft:"
+                      : item.type === "flashcard_report"
+                      ? "Flashcard:"
+                      : "Question:"}
+                  </span>{" "}
+                  {item.question_id}
                 </p>
               )}
               {item.course_name && (
@@ -675,6 +716,10 @@ function CreateFeedbackModal({ isDarkMode, onClose, onCreate, isCreating }) {
                         ? "Feature"
                         : t.value === "question_report"
                         ? "Q. Report"
+                        : t.value === "draft_report"
+                        ? "Draft"
+                        : t.value === "flashcard_report"
+                        ? "Flashcard"
                         : "Feedback"}
                     </span>
                   </button>
@@ -1166,6 +1211,10 @@ export default function Feedback() {
                     ? "Features"
                     : t.value === "question_report"
                     ? "Q. Reports"
+                    : t.value === "draft_report"
+                    ? "Draft Reports"
+                    : t.value === "flashcard_report"
+                    ? "Flashcard Reports"
                     : "Feedback"}
                 </button>
               ))}

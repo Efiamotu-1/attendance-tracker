@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { HiOutlineXMark, HiOutlineExclamationTriangle } from "react-icons/hi2";
 
-const BUG_TYPES = [
+const QUESTION_BUG_TYPES = [
   {
     value: "incomplete_question",
     label: "Incomplete Question",
@@ -28,6 +28,21 @@ const BUG_TYPES = [
   },
 ];
 
+const CONTENT_BUG_TYPES = {
+  draft: [
+    { value: "incorrect_content", label: "Incorrect Content" },
+    { value: "missing_content", label: "Missing Content" },
+    { value: "formatting_issue", label: "Formatting Issue" },
+    { value: "other_issue", label: "Other Issue" },
+  ],
+  flashcard: [
+    { value: "incorrect_answer", label: "Incorrect Answer" },
+    { value: "unclear_answer", label: "Unclear Answer" },
+    { value: "missing_answer", label: "Missing Answer" },
+    { value: "other_issue", label: "Other Issue" },
+  ],
+};
+
 const ANSWER_OPTIONS = ["A", "B", "C", "D"];
 
 export default function QuestionReportModal({
@@ -49,9 +64,16 @@ export default function QuestionReportModal({
 
   if (!isOpen || !question) return null;
 
-  const selectedBugType = BUG_TYPES.find((t) => t.value === bugType);
+  const contentType = quizContext?.quizType;
+  const isContentReport = contentType === "draft" || contentType === "flashcard";
+  const bugTypes = isContentReport
+    ? CONTENT_BUG_TYPES[contentType]
+    : QUESTION_BUG_TYPES;
+  const selectedBugType = bugTypes.find((t) => t.value === bugType);
   const requiresReason = selectedBugType?.requiresReason ?? true;
-  const requiresAnswer = selectedBugType?.requiresAnswer ?? false;
+  const requiresAnswer = isContentReport
+    ? false
+    : selectedBugType?.requiresAnswer ?? false;
 
   function handleSubmit(e) {
     e.preventDefault();
@@ -107,7 +129,9 @@ export default function QuestionReportModal({
                   isDarkMode ? "text-white" : "text-gray-900"
                 }`}
               >
-                Report This Question
+                {isContentReport
+                  ? `Report This ${contentType === "draft" ? "Draft" : "Flashcard"}`
+                  : "Report This Question"}
               </h3>
             </div>
             <button
@@ -134,7 +158,7 @@ export default function QuestionReportModal({
                 isDarkMode ? "text-dark-400" : "text-gray-500"
               }`}
             >
-              Bug Type *
+              {isContentReport ? "Issue Type" : "Bug Type"} *
             </label>
             <select
               value={bugType}
@@ -147,7 +171,7 @@ export default function QuestionReportModal({
               }`}
             >
               <option value="">Select a bug type...</option>
-              {BUG_TYPES.map((type) => (
+              {bugTypes.map((type) => (
                 <option key={type.value} value={type.value}>
                   {type.label}
                 </option>
@@ -210,6 +234,8 @@ export default function QuestionReportModal({
               >
                 {bugType === "incorrect_answer" || bugType === "missing_option"
                   ? "Why This is the Correct Answer"
+                  : isContentReport
+                  ? "Describe the Issue"
                   : "Details"}
                 *
               </label>
