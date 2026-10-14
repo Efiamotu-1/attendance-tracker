@@ -14298,9 +14298,3668 @@ const flashcards = {
       ],
     },
   ],
-},  "criminal-litigation": { courseName: "Criminal Litigation", decks: [] },
-
-  "professional-ethics": { courseName: "Professional Ethics & Skills", decks: [] },
+},
+"criminal-litigation": {
+  courseName: "Criminal Litigation",
+  decks: [
+    {
+      id: "criminal-litigation-week-3",
+      title: "Week 3: Introduction, Sources, Courts, Sittings and Venue",
+      instructions: "Try to answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
+      cards: [
+        {
+          category: "What is an Offence",
+          question: "What is the constitutional basis for 'no offence without an enactment', and what case confirms there is no criminal litigation without an offence?",
+          answer: [
+            "s.36(8),(12) Constitution: a reference to crime in Nigeria must relate to an enactment - Tafida v FRN (2014)",
+            "There is no customary criminal law in Nigeria - Omoju v FRN (2008)",
+            "Without an offence, there is no criminal litigation - Aoko v Fagbemi (1961)",
+            "'Offence' defined: s.2 Criminal Code; s.28 Penal Code; s.371 ACJL Lagos 2015; s.494 ACJA 2015; s.2 ACJL Kano 2019",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Sources",
+          question: "Name the three principal/primary enactments governing criminal procedure, and where each applies.",
+          answer: [
+            "ACJL Lagos 2015 (amended 2021): High Court and Magistrate Courts in Lagos; in force since 2007. Used in Law School as the procedural law for the South. Several other southern states have adopted their own ACJLs",
+            "ACJA 2015: FCT Abuja; National Industrial Court; Federal High Court; Code of Conduct Tribunal. Applies throughout the federation to offences created by an Act of the National Assembly, s.2(1); not to Court Martial, s.2(2)",
+            "ACJL Kano 2019: Kano State, repealed the CPC; used in Law School as the procedural law for the North",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Sources",
+          question: "List the secondary enactments and name the instances where English High Court procedure has been applied to fill a lacuna.",
+          answer: [
+            "Secondary: 1999 Constitution (Ch.IV, Ch.VII); Evidence Act 2011; Criminal/Penal Code; Practice Directions; Supreme Court/Court of Appeal/Federal High Court Acts and Rules; State High Court/Magistrates'/Customary/Area Court Laws; Police Act; Armed Forces Act; Coroners' Laws; Child Rights Act; EFCC Act; ICPC Act",
+            "Standard applied where a lacuna exists: ACJL Lagos s.262 'substantial justice'; ACJA s.492(3) 'justice of the case'; ACJL Kano s.467(g) 'justice of the case'; North generally s.35 HCL of Northern Nigeria 1963 - English rules excluded",
+            "Instances: change of plea before judgment - Board of Customs & Excise v Hassan (1978); bail at High Court after refusal below - Simidele v COP (1966)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Terminology & Courts",
+          question: "Name the parties in a criminal trial, and distinguish courts of general from special criminal jurisdiction.",
+          answer: [
+            "Parties: the State as Complainant; the Defendant (COP v Tobin (2009)). The reference number used is Charge No.",
+            "General criminal jurisdiction - Original (first instance): Customary, Area, Sharia, Magistrate, High Court. Appellate: Court of Appeal, Supreme Court",
+            "Special criminal jurisdiction (set up for particular offences/offenders): Federal High Court; National Industrial Court; Court Martial; Juvenile Court; Coroners' Court; ICC; other tribunals",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Sittings of Court",
+          question: "What are juridical days, and what is the effect of proceedings on a non-juridical day?",
+          answer: [
+            "Juridical days: Monday to Saturday; Sundays and public holidays are non-juridical (dies non juridicus)",
+            "Proceedings on a non-juridical day are, as a rule, null and void - Balogun v Odumosu (1999)",
+            "Exceptions: with consent of the parties - Ososanmi v COP (1952); or where a statute authorises it, e.g. s.40(2) MCL Lagos 2009 - Falae v Obasanjo (No.1) (1999)",
+            "Lagos Magistrate Court: open all year except Sat/Sun/public holidays (s.40(1)); but at least one court per district sits on a given Saturday for remand, bail and other non-custodial matters (s.40(2))",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Settings of Court",
+          question: "Describe the dock, and whether a defendant can testify from it.",
+          answer: [
+            "Layout: the Bench, the Bar, the Dock, the Witness Box, the Gallery, the Registrar's Desk",
+            "The dock is the enclosed part where the accused is placed during trial, usually left-hand side, positioned so the Judge can see it",
+            "Yes - an unsworn statement from the dock, s.358(1)(a) ACJA; s.240(1)(a)(i) ACJL Lagos; s.358(1)(a) ACJL Kano",
+            "Effect: admitted but he is not sworn, not liable to cross-examination, not treated as a witness - little weight compared with sworn testimony in the witness box",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Venue",
+          question: "What is the rule on criminal trials crossing State lines?",
+          answer: [
+            "Criminal trials are territorial",
+            "Offences committed outside Nigeria: Mattaradona v Ahu (1995)",
+            "If an offence begins in one State and is completed in another, both States' High Courts may assume jurisdiction - Njovens v State (1973); Nyame v FRN (2010); Haruna v State (1972)",
+          ],
+          source: "Lecturer slides",
+        },
+      ],
+    },
+    {
+      id: "criminal-litigation-week-4",
+      title: "Week 4: Searches, Arrest and Constitutional Rights",
+      instructions: "Try to answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
+      cards: [
+        {
+          category: "Searches Generally",
+          question: "Define a search, name its governing provisions and the three types.",
+          answer: [
+            "An examination of a person's body, property, or other area the person would reasonably expect to be private, by a law-enforcement officer, to find evidence of crime - Black's Law Dictionary 9th ed.",
+            "Governing: s.9(1)(a) ACJA; s.5(1) ACJL Lagos; s.32(1) ACJL Kano; s.52(1) Police Act 2020",
+            "Three types: of persons, of premises, of things",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Search of Persons",
+          question: "State the rules on same-sex search and the ACJA innovation allowing a man to search a woman.",
+          answer: [
+            "A woman is searched by a woman, a man by a man - s.9(3) & s.149(3) ACJA; s.5(2) & s.109(3) ACJL Lagos; s.32(3) & s.159(3) ACJL Kano; s.51(6)(a) Police Act",
+            "Intimate search must be same sex (s.53(6) Police Act), only at a police station/hospital/medical facility (s.53(7))",
+            "ACJA innovation: a man may search a woman where (i) urgency demands it, (ii) interest of justice, (iii) impracticable to use the same sex - s.9(3) ACJA",
+            "Unacceptable grounds to search (s.54 Police Act): hairstyle, dressing, skin colour/tattoos, age, previous conviction, stereotyped beliefs",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Search of Premises",
+          question: "When is a warrant required to search premises, and what is the one key exception?",
+          answer: [
+            "Generally required - s.144 ACJA; s.104 ACJL Lagos; s.154 ACJL Kano; s.58(3) Police Act; s.37 CFRN",
+            "Exception: an officer executing a warrant of arrest may search the premises where he effects the arrest, without a separate search warrant - s.12(1) ACJA; s.7(1) ACJL Lagos; s.35(1) ACJL Kano; s.55(1) Police Act",
+            "Woman in purdah must be notified of an impending search to allow withdrawal, with reasonable time",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Search of Premises",
+          question: "Table: when a search warrant is issuable/executable under the four regimes.",
+          answer: [
+            "Police Act 2020: issuable any day incl. Sat/Sun/holiday; executable any time (s.59(3))",
+            "ACJL Lagos: issuable any day incl. Sat/Sun/holiday (s.108(1)); executable only 5:00am-8:00pm unless court directs otherwise",
+            "ACJL Kano: issuable any day; executable any time (s.158)",
+            "ACJA: issuable any day; executable any time (s.148)",
+            "Check/conflict: Lagos is the only regime restricting execution hours",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Search of Premises",
+          question: "Who may issue a search warrant, and does death/retirement of the issuer invalidate it?",
+          answer: [
+            "A Judge, a Magistrate, or a Justice of the Peace (North). A superior police officer may issue one only in limited circumstances - s.146(1) ACJA; s.106 ACJL Lagos; s.156(1) ACJL Kano",
+            "No - death, resignation or retirement of the issuing authority does not invalidate the warrant; it remains in force until executed or cancelled - s.146(2) ACJA; s.106(2) ACJL Lagos; s.156(2) ACJL Kano",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Search of Premises",
+          question: "State the method of executing a search warrant, and the rule on seizure beyond the warrant.",
+          answer: [
+            "Officer identifies himself, shows the warrant, gives the occupier a copy - s.59(4)(a)-(c) Police Act",
+            "North/FCT: execution must be in the presence of the occupant and 2 witnesses, unless the court directs otherwise",
+            "Only goods specified in the warrant may be seized, but other incriminating materials found may also be seized - Elias v Pasmore (1934); Nwagu v Wawa (1957)",
+            "Admissibility of illegally obtained evidence is now governed by ss.14-15 Evidence Act 2011 (court's discretion), not the old case law",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Search of Things",
+          question: "What is required to search a 'thing', and on what grounds?",
+          answer: [
+            "No warrant required; a general police duty, depends on the item - s.49(1)-(2) Police Act; ss.50-52 ACJA",
+            "Grounds: reasonable suspicion - s.49(2)(a)-(e) Police Act",
+            "For stop-and-search, the officer must be in uniform or display a visible police ID card - s.50(4)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Arrest",
+          question: "Name the three ways of bringing a suspect before the court, and who may issue a warrant of arrest.",
+          answer: [
+            "Arrest with warrant, arrest without warrant, summons",
+            "A warrant of arrest is written authority directing a police officer to arrest the named person - s.113 ACJA; s.79 ACJL Lagos; s.130 ACJL Kano",
+            "Issuing authority: a Magistrate or Judge. Cannot be issued by: the Police, the President/Governor, or (ACJL Lagos/Kano) a JP",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Arrest",
+          question: "How is an arrest effected, and what exceptions exist to prior notification?",
+          answer: [
+            "The suspect must be touched or confined, and informed of the existence of the warrant - s.4 ACJA; s.1 ACJL Lagos; s.27 ACJL Kano; s.33 Police Act; Holgate Mohammed v Duke (1984)",
+            "Exceptions: likelihood of escape, resistance, or rescue - s.77(3) Police Act",
+            "Use of force: no unnecessary restraint; beating/dehumanizing acts strictly prohibited - s.34 Police Act; s.34 CFRN",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Arrest",
+          question: "Who may effect an arrest without warrant, and what must a private person do after?",
+          answer: [
+            "(1) Police and law-enforcement agents; (2) Judicial officers; (3) Private persons",
+            "A private person must immediately hand the arrestee to the Police or take him to the station - s.44(1) ACJL Kano; s.14(1) ACJL Lagos; s.23(1) ACJA",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Arrest",
+          question: "State the rule on arrest in lieu of a suspect, and on arrest for a civil wrong.",
+          answer: [
+            "Strictly prohibited - s.7 ACJA; s.4(1) ACJL Lagos (2021); s.30 ACJL Kano; s.36 Police Act, except as against sureties; arresting in lieu is itself an offence (s.4(4) ACJL Lagos)",
+            "No arrest for a civil wrong/breach of contract - s.8(2) ACJA; s.17(c) ACJL Lagos; s.31(2) ACJL Kano; s.32(2) Police Act; Kure v COP (2020); EFCC v Diamond Bank Plc (2018)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Summons",
+          question: "Define a summons and state the issuance/service days under each regime.",
+          answer: [
+            "A written order commanding the named person to appear in court on a stated date/time - s.77, 101, 132 ACJL Kano; s.113 ACJA; s.80 ACJL Lagos",
+            "ACJL Lagos: Monday-Saturday, 8:00am-6:00pm (s.81(a))",
+            "ACJL Kano: any day incl. Sunday/holiday (s.132)",
+            "ACJA: any day incl. Sunday/holiday (s.116)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Constitutional Safeguards",
+          question: "List the nine constitutional safeguards on arrest and search.",
+          answer: [
+            "Right to dignity (s.34 CFRN); personal liberty (s.35(1)); silence (s.35(2)); to be informed of the offence (s.35(3)); arraignment within a reasonable time (s.35(4))",
+            "Right to counsel (s.36(6)(c)); next of kin notified (s.6(2)(c) proviso ACJA); privacy (s.37); not to be arrested in lieu of another (s.7 ACJA)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Challenging Unlawful Arrest",
+          question: "Name the procedures for challenging an unlawful arrest or search.",
+          answer: [
+            "Habeas corpus ad subjiciendum: application to the High Court requiring production and justification of detention",
+            "Fundamental Rights (Enforcement Procedure) application under the FREP Rules 2009 - declaration, release, and/or damages",
+            "Civil action in tort: false imprisonment or trespass to the person/property",
+            "Exclusion of unlawfully obtained evidence at the court's discretion (ss.14-15 Evidence Act)",
+            "Administrative/disciplinary complaint to the Police Service Commission, IGP (Complaint Response Unit), or Public Complaints Commission",
+          ],
+          source: "Lecturer slides",
+        },
+      ],
+    },
+    {
+      id: "criminal-litigation-week-5",
+      title: "Week 5: Pre-Trial Investigation and Police Interview",
+      instructions: "Try to answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
+      cards: [
+        {
+          category: "Investigation",
+          question: "Define investigation, name who may investigate, and what the Police may NOT use their powers for.",
+          answer: [
+            "The systematic collection of information about a crime and assembly of evidence, within the law, to identify the offender and provide evidence for prosecution",
+            "Who may investigate: Police; other agencies (NDLEA, EFCC, NAFDAC, SSS/DSS, ICPC, NSCDC, NCS); private investigators",
+            "NOT for: debt collection (McLaren v Jennings); arrest in lieu; enforcing a civil wrong (Kure v COP; EFCC v Diamond Bank); no licence to kill arbitrarily - Olaiya v State (2018)",
+            "Police has discretion whether to investigate/prosecute - Fawehinmi v IGP; no court can stop investigation - IGP v Uba (2015)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Statements",
+          question: "Distinguish a suspect's statement from a confessional statement, and state the requirements for recording it.",
+          answer: [
+            "Suspect's statement: under caution, verbatim in his own language, interpreted if needed, recorded in first person (Ahmed v State; Adeyemi v State)",
+            "Must be tendered at trial - Garba Dandare v State (1966); it is the foundation of the prosecution's case - Olayinka v State (2007)",
+            "A suspect is not obliged to make a statement - s.17(1), 6(2) ACJA; s.35(2) Const.",
+            "A statement under duress/compulsion/threat/oppression may not be admitted - s.29(2),(5) Evidence Act",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Confessional Statements",
+          question: "Define a confessional statement, its types, and the rules on binding a co-accused.",
+          answer: [
+            "Defined s.28 Evidence Act; vitiating factors s.29. Types: judicial/formal; extra-judicial/informal - Omisade v Queen (1964)",
+            "An extra-judicial confession can only be made during investigation or at its close, but before arraignment - Onungwa v State (1976)",
+            "A confession only binds a co-accused if he adopts it by word or conduct - s.29(4) Evidence Act; Mathias v State (2020); Owolabi v State (2019)",
+            "Must be direct, positive, and irresistibly pointing to guilt, relating to both actus reus and mens rea - Omisade v Queen",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Voluntariness",
+          question: "Distinguish involuntariness from denial/retraction, and when is a trial-within-trial needed?",
+          answer: [
+            "Involuntariness goes to admissibility - triggers trial-within-trial; denial/retraction goes only to weight - Ofordike v State (2019)",
+            "Trial-within-trial is necessary only where involuntariness is alleged - Charles v FRN (2018)",
+            "On retraction: admitted without trial-within-trial, but court must first satisfy itself the accused made the statement - Oguno v State (2011)",
+            "Objection must be raised at trial court, not first on appeal - Olalekan v State (2001)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Jurisdictional Differences",
+          question: "Compare the recording-of-confessions rules in ACJL Kano, ACJL Lagos and ACJA.",
+          answer: [
+            "North (ACJL Kano): writing or electronic recording (s.38(4)); oral confession still admissible (s.38(5)); prosecution must adduce evidence of voluntariness before tendering (s.38(6))",
+            "South (ACJL Lagos): must be video recorded or taken with counsel present (s.9(3)-(5)). Charles v State of Lagos (2023): breach makes the statement 'impotent and worthless' - mandatory requirement",
+            "ACJA (federal): writing, may be recorded electronically (s.15(4)); read as mandatory in Nnajiofor v FRN (2018); Oluwatoyin v State (2018)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Alibi",
+          question: "Define alibi, state the required particulars, and the burden of proof.",
+          answer: [
+            "'Elsewhere' - a species of defence, not a mere denial - Lawali v State (2019); Nomayo v State (2019)",
+            "Particulars: (i) place at the time; (ii) exact time there; (iii) person(s) he was with - Ronke v FRN (2020)",
+            "Must be raised at the earliest opportunity; cannot be raised by proxy - Jiya v State (2020)",
+            "Evidential burden on defendant; legal burden stays on prosecution - Attah v State (2010). Standard: balance of probabilities",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Alibi",
+          question: "What happens if police fail to investigate a properly raised alibi, and when need it not be investigated?",
+          answer: [
+            "Failure renders the alibi unrebutted and may defeat proof beyond reasonable doubt, leading to acquittal - Kareem v State (2021)",
+            "A voluntary confession destroys a defence of alibi - Ogoala v State (1991)",
+            "Need not be investigated where: it is a ploy to divert attention (Olaiya v State); police can otherwise fix the suspect at the scene; or particulars are vague (Saka v State)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Identification Parade",
+          question: "When is an identification parade required, and what is the numbers rule?",
+          answer: [
+            "Required where identity, or ability to recognise, is in issue - Omah v State (2021); Ani v State (2009). Necessary where: not arrested at scene; victim didn't know him; brief encounter; limited observation opportunity",
+            "1 suspect: at least 8 other persons, 9 total. 2+ suspects: at least 12 other persons, 14 total for 2 suspects",
+            "Others must match suspect's height, age, complexion, appearance; police used must remove force numbers",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Constitutional Rights at the Station",
+          question: "List the key constitutional rights of a suspect at the police station.",
+          answer: [
+            "Access to counsel; not to be unnecessarily restrained; informed of the offence; dignity; free legal aid; bail; silence",
+            "Arraignment within a reasonable time; notification of next of kin; interpreter; presumption of innocence; compensation for unlawful arrest; decent cell conditions; adequate time to prepare defence; not arrested in place of another",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Police Bail",
+          question: "Can the Police grant bail for a capital offence, and what are the remedies if bail is refused?",
+          answer: [
+            "No - the Police cannot grant bail for a capital offence - ss.17(1), 19 ACJL Lagos; ss.30(3), 32 ACJA; ss.49(1),(3), 51(1) ACJL Kano",
+            "Terms: personal recognizance, a bond, or surety/sureties - never deposit of money",
+            "If refused: apply in court for release; enforce fundamental rights (FREPR 2009); or apply for habeas corpus",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Legal Aid Scheme",
+          question: "What matters are covered by the Legal Aid Council's Criminal Defence Service, and what is the eligibility test?",
+          answer: [
+            "Covered (2nd Schedule): murder, manslaughter, grievous bodily harm, assault occasioning ABH, common assault, affray, stealing, rape, armed robbery, and aiding/abetting",
+            "Eligibility (reg.3(1)(a)-(e)): no income; income not exceeding NMW; case referred by court (Form LAC 1); income exceeds NMW but Council allows eligible bracket (contributes to costs); or otherwise reasonable",
+            "Beneficiaries: income not exceeding the national minimum wage, s.9(1)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Remand & Holding Charge",
+          question: "Table: remand periods and maximum under ACJA, ACJL Lagos, ACJL Kano.",
+          answer: [
+            "ACJA (federal): first instance 14 days; renewable 14 days; after 56 days second renewal with hearing notice to IGP/COP/AGF, adjourn 14 more; final extension 14 days on good cause",
+            "ACJL Lagos: first instance 30 days; renewable 1 month on good cause; after first renewal, hearing notice to COP/DPP; further renewal for a final period if satisfied (max not fixed)",
+            "ACJL Kano: first instance 21 days; extendable 14 days on good cause; after first renewal, hearing notice to COP/AG, adjourn 14 more; final extension 14 days. Maximum: 63 days",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Remand & Holding Charge",
+          question: "Distinguish holding charge from remand order.",
+          answer: [
+            "What is filed: holding charge - a charge; remand - no charge, an application",
+            "Arraignment/plea: holding charge - attempted improperly; remand - none taken",
+            "Why detained: holding charge - pending DPP advice (indefinite); remand - pending investigation and formal charge (fixed, renewable)",
+            "Party names: holding charge - Complainant and Defendant; remand - Applicant and Suspect",
+            "Holding charge is illegal - Lufadeju v Johnson (2007); confirmed in Onagoruwa v State (1992)",
+          ],
+          source: "Lecturer slides",
+        },
+      ],
+    },
+    {
+      id: "criminal-litigation-week-6",
+      title: "Week 6: Jurisdiction and Venue of Criminal Trials",
+      instructions: "Try to answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
+      cards: [
+        {
+          category: "Jurisdiction",
+          question: "Define jurisdiction, and state the three Madukolu v Nkemdilim determinants.",
+          answer: [
+            "A court's power to decide a case or issue a decree (Black's Law Dictionary 9th ed.)",
+            "(1) Court properly constituted as to number and qualification of members, no member disqualified",
+            "(2) Subject matter is within its jurisdiction, with no feature preventing exercise of that jurisdiction",
+            "(3) Case initiated by due process of law, any condition precedent fulfilled - Madukolu v Nkemdilim (1962); Nwobike v FRN (2022)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Types of Jurisdiction",
+          question: "Distinguish original, appellate, exclusive, concurrent, territorial and subject-matter jurisdiction.",
+          answer: [
+            "Original: power to hear/decide first instance (ss.230, 232 Const.)",
+            "Appellate: power of a higher court to review a lower court's decision",
+            "Exclusive: power to the exclusion of all other courts (s.254C(1), s.251(1) Const.)",
+            "Concurrent: more than one court has authority over the same matter (s.251(3), s.254C(5))",
+            "Territorial: over cases arising in/persons within a defined territory - Njovens v State (1973)",
+            "Subject-matter: authority over the type of question raised (treason, probate, maritime, drugs, land)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Federal High Court",
+          question: "Can a defendant be tried in any FHC division?",
+          answer: [
+            "No - having jurisdiction 'dotted all over the Federation' does not mean trial in any division - Sulaiman v FRN (2020)",
+            "s.45 FHC Act and s.93(2) ACJA both require trial where the offence occurred - Yusuf v FRN (2023)",
+            "Compare and distinguish Belgore v FRN (2021), Ibori v FRN (2009), Abiola v FRN (1995)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Courts of General Jurisdiction",
+          question: "Compare Customary, Area, Magistrate and Sharia Court jurisdiction over persons.",
+          answer: [
+            "Customary Court: all persons; non-Nigerians excluded unless they consent. Predominant South",
+            "Area Court: persons of/descended from a tribe indigenous to Africa; others by consent only. Lacks criminal jurisdiction unless presiding judge is a lawyer",
+            "Magistrate Court: exists in every State; needs defendant's consent (election) before trying an indictable offence - failure nullifies the trial as a jurisdictional defect. Lagos: cannot impose over 14 years or try a capital offence",
+            "Sharia Court: defendant must be Muslim; non-Muslim may consent. Joint Muslim/non-Muslim offence: non-Muslim tried in Magistrate Court unless he consents",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Courts of Special Jurisdiction",
+          question: "What is the Federal High Court's criminal jurisdiction (exclusive and concurrent)?",
+          answer: [
+            "Limited criminal jurisdiction - s.251(2),(3) Const.",
+            "Exclusive: treason, treasonable felony and allied offences - s.251(2)",
+            "Concurrent: s.251(3) - see FRN v Nwosu (2016); also s.26(1) NDLEA Act",
+            "Distinguish Mumini v FRN (2018), Abiola v FRN, Ibori v FRN",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Juvenile Court",
+          question: "Table: age brackets, criminal liability and the trial court for each.",
+          answer: [
+            "1-7: not criminally liable at all - no Juvenile Court jurisdiction",
+            "Above 7, under 12: liable only if shown to have capacity to know the act was wrong (State v Nwabueze) - Juvenile Court",
+            "12-14 'Children': liable for any act constituting an offence (s.30 Criminal Code) - Juvenile Court",
+            "14-18 'Young persons' (CYPL): Juvenile Court",
+            "18+: adult - regular criminal courts",
+            "A juvenile may be tried in a regular court where: capital offence; or charged jointly with an adult",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Court Martial",
+          question: "Name the two types of Court Martial and their compositions.",
+          answer: [
+            "General Court Martial (GCM): President, not less than 4 members, waiting member, Liaison Officer, Judge Advocate. Fewer than 7 members cannot impose death sentence",
+            "Special Court Martial (SCM): President, not less than 2 members, waiting member, Liaison Officer, Judge Advocate. 2 members cannot impose more than 1 year or a death sentence",
+            "Member qualification: subject to service law, an officer, at least 5 years' aggregate service as officer - s.133(2) AFA",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Court Martial",
+          question: "State the rules on double jeopardy and limitation for Court Martial.",
+          answer: [
+            "Court Martial trial does not oust civil court jurisdiction - if tried again in regular court, prior punishment is taken into account (s.170 AFA)",
+            "If tried first in a civil court, he cannot be tried again by Court Martial (s.171 AFA) - Nigerian Army v Aminun-Kano (2010)",
+            "Limitation: trial must commence within 3 years of commission while still subject to service law (s.169 AFA) - no limitation for mutiny, desertion, or while prisoner of war",
+            "A retired officer remains subject to service law for a further 3 months, must be charged within that period",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "ICC",
+          question: "What offences does the ICC have jurisdiction over, and what is the complementarity principle?",
+          answer: [
+            "Genocide (Art.6), crimes against humanity (Art.7), war crimes (Art.8), crime of aggression (Art.8 bis). Governed by the Rome Statute",
+            "Complementarity (Arts.17, 53): the primary duty to prosecute lies with each State; ICC intervenes only where a State is unable or unwilling to genuinely investigate/prosecute",
+            "No statute of limitation applies to ICC crimes; does not prosecute anyone under 18 at the time of the offence (Art.26)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Code of Conduct Tribunal",
+          question: "What is the CCT's jurisdiction and composition?",
+          answer: [
+            "Tries public officers for breach of the Code of Conduct for Public Officers (e.g. false asset declaration, operating a foreign account, conflict of interest)",
+            "Composition: a Chairman (legal practitioner of 10+ years) and two other members",
+            "Sanctions: vacation of office, disqualification, forfeiture - in addition to, not a substitute for, a separate criminal prosecution",
+            "Appeal lies to the Court of Appeal and, with leave, to the Supreme Court",
+          ],
+          source: "Lecturer slides",
+        },
+      ],
+    },
+    {
+      id: "criminal-litigation-week-7",
+      title: "Week 7: Institution of Criminal Proceedings",
+      instructions: "Try to answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
+      cards: [
+        {
+          category: "Competence",
+          question: "What happens where a court lacks competence to institute criminal proceedings?",
+          answer: [
+            "Want of competence renders the entire trial a nullity - The State v Olatunji (2003)",
+            "An indictment without jurisdiction will be quashed even after the prosecution has closed its case - Okafor v The State (1976)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Attorney-General",
+          question: "State the AG's power to institute, take over, and discontinue (nolle prosequi).",
+          answer: [
+            "Power to institute/undertake criminal proceedings - unfettered and sacrosanct before any court except Court Martial - Akpa v State (2008)",
+            "Power to take over and continue proceedings instituted by any other authority - Amaefule v The State (1988)",
+            "Nolle prosequi: exercised orally by the AG in person, or in writing by officers in his department. He need not give reasons and cannot be questioned, even by a court - State v Ilori (1983)",
+            "No nolle where there is no incumbent AG - AG Kaduna v Hassan (1985); cannot be entered on appeal",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Attorney-General",
+          question: "Distinguish nolle prosequi from a prosecutor's withdrawal.",
+          answer: [
+            "Effect: nolle - always a discharge; withdrawal - discharge or acquittal, depending on stage of trial",
+            "Whose discretion: nolle - the AG's alone; withdrawal - subject to consent of the court",
+            "Costs: court cannot award costs against the AG for nolle; may award costs against the prosecutor for withdrawal",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Attorney-General",
+          question: "Is the AG's power to delegate express or implied?",
+          answer: [
+            "Delegable - ss.174(2), 211(2) CFRN - including to Police, Customs, EFCC and other prosecuting agencies - Saraki v FRN (2016)",
+            "Delegation must be express - AG Kaduna v Hassan; Ibrahim v State (1989)",
+            "Checking the AG's excesses (since his power cannot be challenged): removal by his appointor; media/public outcry; petitions",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Other Prosecutors",
+          question: "State the power of the Police to prosecute under the Police Act 2020.",
+          answer: [
+            "Power is statutory - s.66(1) Police Act 2020, subject to the AG's power",
+            "Only police officers who are legal practitioners may prosecute in superior courts of record - s.66(1)",
+            "A non-lawyer police officer may prosecute only as permitted by the relevant criminal procedure law - s.66(2)",
+            "Under ACJL Lagos/Kano, police prosecutors are confined to Magistrate Courts - Olusemo v COP and Osahon v FRN no longer good law to that extent",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Other Prosecutors",
+          question: "State the conditions for a private person to institute a private information.",
+          answer: [
+            "(i) AG's endorsement that he has seen the information and declines to prosecute at public instance",
+            "(ii) The private person enters a recognisance (with a surety in like sum) in the prescribed sum",
+            "Where consent is refused, the AG must not refuse indiscriminately and must give reasons - s.383(2) ACJA",
+            "Where a right to lay a complaint exists, a private legal practitioner/citizen may prosecute without the AG's fiat - Obijiaku v Obijiaku (2022)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Limitation",
+          question: "State the general rule and the statutory exceptions on time to commence proceedings.",
+          answer: [
+            "General rule: no time limit to commence criminal proceedings",
+            "Exceptions: Treason/treasonable felony - 2 years (s.43 Criminal Code); Sedition - 6 months (s.52(1)); NCS Act offences - 7 years",
+            "Private complaint - 6 years (s.92 ACJA); Sexual offences ss.218, 221 Criminal Code - 2 months; Service personnel after retirement - 3 months (s.169(2) AFA)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Modes of Institution",
+          question: "What are the modes of instituting proceedings in the Magistrate Court (South) and (North)?",
+          answer: [
+            "South (ACJL Lagos): charge signed by a police officer on a person arrested without warrant; complaint (not under ACJL Lagos but under ACJA)",
+            "North (ACJL Kano): Complaint; First Information Report (on oath or not); Charge",
+            "ACJA: Charge sheet on arrest; First Information Report; Complaint",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Practice Directions",
+          question: "What is the purpose of the FHC and FCT High Court Practice Directions, and what happens on conflict with the Rules of Court?",
+          answer: [
+            "To give effect to the ACJA 2015, promote efficiency/speed, and ensure active stakeholder participation to reduce delay and expense - s.490 ACJA",
+            "Cover terrorism, trafficking, rape, corruption and money laundering",
+            "Conflict rule: where a Practice Direction conflicts with the Rules of Court, the Rules of Court prevail",
+          ],
+          source: "Lecturer slides",
+        },
+      ],
+    },
+    {
+      id: "criminal-litigation-week-8",
+      title: "Week 8: Charges 1",
+      instructions: "Try to answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
+      cards: [
+        {
+          category: "What is a Charge",
+          question: "Define a charge, and why it matters to the defendant, the court and the public.",
+          answer: [
+            "A document informing the defendant of the case against him so he can prepare and defend himself - s.371 ACJL; s.494(1) ACJA",
+            "To the defendant: notice - ss.36(12), 36(6)(a) CFRN; Odeh v FRN (2008)",
+            "To the court: informs it of the case and founds its jurisdiction over the offence charged",
+            "To the public: a record of the parties and the allegation",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Form & Contents",
+          question: "List the seven components of a charge sheet.",
+          answer: [
+            "Heading; Reference Number; Parties; Preamble (where applicable); Main Body; Date; Subscription (signature)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Form & Contents",
+          question: "Table: prosecutorial authority named in the charge per court.",
+          answer: [
+            "High Court (general): 'The State'",
+            "High Court, Lagos: 'The State of Lagos' - s.249 ACJL Lagos",
+            "Magistrate Court (North or South): 'The Commissioner of Police'",
+            "Federal offence, instituted by/on delegation of AGF: 'The Federal Republic of Nigeria' - s.268(3) ACJA",
+            "Federal offence, instituted by a police officer: 'Inspector-General of Police' or 'Commissioner of Police' - s.268(2) ACJA",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Form & Contents",
+          question: "When is a preamble required, and what does it look like?",
+          answer: [
+            "Required only for an Information preferred in the High Court (South) or FCT Abuja (not NICN or Code of Conduct Tribunal, which proceed by 'charge')",
+            "e.g. 'At the session of the High Court of Enugu State holden at Agbani on the 30th day of March, 2026 the Court is informed by the Attorney-General of Enugu State on behalf of the State that: YAKUBU EKE (m) is charged with the following offences:'",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Form & Contents",
+          question: "What are the two paragraphs in each count of an Information, vs a Charge?",
+          answer: [
+            "An information has two paragraphs per count - 'Statement of Offence' and 'Particulars of Offence'",
+            "A charge (not an information) has only one paragraph per count",
+            "Each head of offence is called a 'charge' or 'count' and must be numbered serially where there is more than one",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Four Drafting Rules",
+          question: "State the general rule and the four exceptions to misjoinder of offenders.",
+          answer: [
+            "General rule: every offender is charged and tried separately, even for an offence committed jointly",
+            "Exceptions: (1) two+ persons jointly commit the same offence; (2) two+ persons accused of different offences in the course of the same transaction (Haruna v The State (1972) test: proximity of time/place, continuity of action, community of purpose)",
+            "(3) principal offender and one abetting/accessory/attempting the same offence; (4) person accused of theft/misappropriation/breach of trust, and another accused of receiving/retaining/concealing the proceeds",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Four Drafting Rules",
+          question: "State the general rule and the four exceptions to misjoinder of offences.",
+          answer: [
+            "General rule: a person accused of several offences must be charged/tried separately for each, else bad for misjoinder",
+            "Exceptions: (1) several offences within 12 months - any three may be charged together even if unrelated; (2) several offences connected as part of same transaction - all may be charged together",
+            "(3) offences with same elements but under different laws - may be charged/tried together, but only one conviction entered; (4) doubt as to which offence is disclosed - may be charged in the alternative",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Four Drafting Rules",
+          question: "State the general rule and the four exceptions to the rule against duplicity.",
+          answer: [
+            "General rule: every distinct offence must be in a distinct count - applies to each count, not the charge sheet",
+            "Exceptions: (1) statutory forms permitting joinder in one count (e.g. burglary and stealing); (2) general deficiency of money over time - aggregate sum, money only not goods (The Queen v Ugwu (1962))",
+            "(3) identical offences in the course of the same transaction (Police v Oyewusi); (4) overt acts in treason/treasonable felony may be charged together in a single count (R v Omisade)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Four Drafting Rules",
+          question: "What is the rule against ambiguity and uncertainty?",
+          answer: [
+            "A charge/information violating any requirement of validity is bad for ambiguity - e.g. failing to clearly identify the defendant, the precise allegation, the law violated, or the offence",
+            "Linked to the defendant's right to know the offence charged - Okeke v IGP (1965)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Effect of Breach",
+          question: "When is a conviction founded on a defective charge quashed on appeal?",
+          answer: [
+            "Presumption that a charge complies with the rules - s.195 ACJA; s.147(2) ACJL Lagos",
+            "Only quashed if the appellant shows the breach was substantial and material enough to mislead him in his defence",
+            "A charge framed on a non-existent law is defective and any conviction is quashed - distinguish from a charge based merely on the wrong (but existing) law",
+            "A misjoinder-of-offences charge is quashed only if the defendant was actually confused by the defect",
+          ],
+          source: "Lecturer slides",
+        },
+      ],
+    },
+    {
+      id: "criminal-litigation-week-9",
+      title: "Week 9: Charges 2",
+      instructions: "Try to answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
+      cards: [
+        {
+          category: "Defective Charges",
+          question: "Define a defective charge, and when should an objection be raised?",
+          answer: [
+            "One that fails to comply with the rules of drafting charges, or with substantive/procedural law. May rob the court of jurisdiction - e.g. a charge framed on a non-existent law",
+            "An objection should be raised at the commencement of trial, before plea - s.221 ACJA; Adio v State (1986)",
+            "Must be raised timeously; failure has consequences - Obakpolor v The State (1991); Alintah v FRN (2008)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Defective Charges",
+          question: "How is an objection to a defective charge made, and what are the grounds?",
+          answer: [
+            "A motion on notice supported by affidavit; a preliminary objection stating grounds; or a summons supported by affidavit (FHC)",
+            "Grounds: discloses an offence unknown to law; required fiat/consent not obtained; violates a fundamental drafting rule; autrefois (already acquitted/convicted); defendant immune/incapacitated; proof of evidence discloses no link to the defendant",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Amendment",
+          question: "Who may amend a charge, and at what stages?",
+          answer: [
+            "The drafter has discretion to amend where he observes a defect; the court itself may amend suo motu - s.216(4) ACJA",
+            "Before plea: an entirely new charge may be substituted without leave of court (South). Under ACJA/ACJL Lagos, leave is required - s.216(1) ACJA. Under ACJL Kano, leave is required only if sought after arraignment",
+            "After plea: the framer/judge/Magistrate (North) may still amend upon noticing a defect - no formal application strictly required",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Amendment",
+          question: "List the five post-amendment procedure steps.",
+          answer: [
+            "(1) Read and explain the new charge to the defendant",
+            "(2) Defendant enters a fresh plea on the amended charge",
+            "(3) Adjournment, if proceeding immediately would prejudice either party",
+            "(4) Call/recall of witnesses limited to the new charge, with full examination rights",
+            "(5) Endorsement of a note of the amendment on the new charge, substituted for the original",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Amendment",
+          question: "What is the effect of non-compliance with the post-amendment procedure?",
+          answer: [
+            "Failure to read/explain the amended charge before plea renders the trial a nullity - Ayodele v State (2011)",
+            "Failure to give the defendant reasonable time/facilities to prepare his defence may vitiate the proceedings - s.36(6)(b) CFRN; Gokpa v IGP (1961)",
+            "Key distinction: before plea, the court is not bound to follow the post-amendment procedure; once plea has been taken, compliance is mandatory",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "ICC & CCT Charges",
+          question: "How are charges commenced at the ICC and the Code of Conduct Tribunal?",
+          answer: [
+            "ICC: no 'charge sheet' - the Prosecutor submits a Document Containing the Charges (DCC) to the Pre-Trial Chamber (Art.61 Rome Statute), confirmed at a confirmation-of-charges hearing",
+            "CCT: commenced by a complaint/reference from the Code of Conduct Bureau, supported by particulars of the alleged breach of the Code of Conduct",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Application to Quash",
+          question: "How is an application to quash a charge commenced?",
+          answer: [
+            "Motion on notice, supported by an affidavit and a written address, filed before plea (or, in limited circumstances, at any time before judgment)",
+          ],
+          source: "Lecturer slides",
+        },
+      ],
+    },
+    {
+      id: "criminal-litigation-week-10",
+      title: "Week 10: Bail Pending Trial (Scenario-Based)",
+      instructions: "Try to answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move. NOTE: this week's deck was drafted from the syllabus description, not a lecturer slide deck - verify pinpoint citations.",
+      cards: [
+        {
+          category: "Nature of Bail",
+          question: "Define bail, and clarify what it does and does not do.",
+          answer: [
+            "The conditional release of a person in lawful custody, upon the execution of a bond (with or without sureties), to appear before the court or police as and when required",
+            "Bail does not terminate the criminal proceeding or custody in law - it merely suspends physical detention subject to conditions",
+            "Bail is not a right to be set free; it is a right to a conditional, supervised liberty pending the determination of the matter",
+          ],
+          source: "Syllabus/general principles",
+        },
+        {
+          category: "Types of Bail",
+          question: "Name the three types of bail.",
+          answer: [
+            "Police bail - before a formal charge is laid",
+            "Court bail pending trial - after a charge has been instituted, between arraignment and conclusion of trial",
+            "Court bail pending appeal - after conviction and sentence, harder to obtain since the presumption of innocence no longer avails the applicant",
+          ],
+          source: "Syllabus/general principles",
+        },
+        {
+          category: "Magistrate Court Power",
+          question: "Can a Magistrate Court grant bail in capital offences?",
+          answer: [
+            "Generally has power to grant bail in non-capital, bailable offences within its own jurisdiction",
+            "Generally no power in capital offences - reserved to the High Court, and only in exceptional circumstances",
+            "Where refused or no power, the applicant does not appeal - he makes a fresh application to the High Court",
+          ],
+          source: "Syllabus/general principles",
+        },
+        {
+          category: "Factors Governing Bail",
+          question: "List the factors courts weigh in granting or refusing bail.",
+          answer: [
+            "Nature and gravity of the offence; strength of the evidence; likelihood of interfering with witnesses/evidence",
+            "Criminal antecedents and prior bail compliance; probability of appearing for trial (ties to community, fixed abode, risk of flight)",
+            "Length of time already in custody; applicant's health, age, humanitarian considerations; whether bail was granted before",
+          ],
+          source: "Syllabus/general principles",
+        },
+        {
+          category: "Terms & Revocation",
+          question: "What are typical bail conditions, and when can bail be revoked?",
+          answer: [
+            "Self-recognizance (with or without sureties); specified number of sureties able to meet the bond; surety residing within jurisdiction; deposit of travel documents; reporting conditions; travel restrictions",
+            "Conditions must be reasonable - onerous conditions can themselves be challenged as an indirect refusal of bail",
+            "Revocation: breach of a condition (failure to appear, interference with witnesses, further offence, unfit sureties, false information). May lead to forfeiture of the sureties' bond",
+          ],
+          source: "Syllabus/general principles",
+        },
+      ],
+    },
+    {
+      id: "criminal-litigation-week-11",
+      title: "Week 11: Constitutional Safeguards to Ensure Fair Trial (Part 1)",
+      instructions: "Try to answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
+      cards: [
+        {
+          category: "Introduction",
+          question: "Why is Chapter IV called the 'Shield of the Defendant', and how did Fajemirokun classify its rights?",
+          answer: [
+            "ss.34, 35 and 36 primarily guarantee fair trial and justice; breach renders a trial a nullity",
+            "Prevents abuse of power, ensures justice, protects the defendant",
+            "Fajemirokun v Commercial Bank (2009): Intrinsic Rights - procedural safeguards (e.g. counsel of choice, interpreter); Enforceable Rights - substantive rights enforceable at the High Court under s.42 CFRN",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Right to be Informed",
+          question: "State the right to be informed of the crime alleged, and its limitation.",
+          answer: [
+            "s.36(6)(a) CFRN: promptly, in a language the defendant understands, and in detail - s.271 ACJA",
+            "(Contrast s.35(3) CFRN which governs the arrest stage)",
+            "Limitation: does not prevent conviction for a lesser offence on the same facts - s.230 ACJA; Maja v The State; Nwachukwu v The State",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Right to Fair Hearing",
+          question: "State the twin pillars of natural justice, and the test for fairness.",
+          answer: [
+            "audi alteram partem ('hear the other side') and nemo judex in causa sua ('no man a judge in his own cause')",
+            "Judged by the impression of a reasonable man present at the trial: 'justice must be seen to be done' - Garba v University of Maiduguri",
+            "A defendant who, given the opportunity, chooses to stay away or remain silent, cannot later complain of denial of fair hearing - Okike v LPDC (2005)",
+            "Fair hearing also means trial in public, subject to exceptions (defence, public safety, order, morality) - s.36(4)(a)-(b) CFRN",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Presumption of Innocence",
+          question: "State the presumption of innocence and its exceptions.",
+          answer: [
+            "s.36(5) CFRN: every accused presumed innocent until proven guilty; burden beyond reasonable doubt, on the prosecution - s.135(1)-(2) Evidence Act",
+            "Exceptions (proviso to s.36(5)): burden may shift to the defendant for particular facts - e.g. intoxication, insanity, facts peculiarly within his knowledge",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Time and Facilities",
+          question: "What does 'adequate time and facilities for defence' include?",
+          answer: [
+            "s.36(6)(b) CFRN: time/resources to prepare; access to proof of evidence; right to apply for subpoena; right to adjournment to procure witnesses/counsel",
+            "Reading a treason charge and demanding an instant plea was declared unconstitutional - Uwazurike v AGF (2009)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Right to Counsel",
+          question: "What is the exception requiring mandatory legal representation?",
+          answer: [
+            "s.36(6)(c) CFRN: to defend in person or through a legal practitioner of choice; court must inform him of his right if defending in person",
+            "Exception: in capital offences, representation is mandatory and the state must provide legal aid if the defendant is indigent - ss.267, 349 ACJA",
+          ],
+          source: "Lecturer slides",
+        },
+      ],
+    },
+    {
+      id: "criminal-litigation-week-12",
+      title: "Week 12: Constitutional Safeguards to Ensure Fair Trial (Part 2)",
+      instructions: "Try to answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
+      cards: [
+        {
+          category: "No Crime Without Law",
+          question: "What are nullum crimen sine lege and nulla poena sine lege?",
+          answer: [
+            "s.36(12) CFRN: the offence must be defined and penalised in a written law; a person cannot be tried for an uncodified 'traditional taboo'",
+            "The law must also prescribe a sanction - Aoko v Fagbemi (1963); AGF v Isong (1986)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Right to Silence",
+          question: "What is the constitutional basis for the right to silence?",
+          answer: [
+            "s.36(11) CFRN: protection against self-incrimination, reinforcing the presumption of innocence",
+            "The defendant is a competent but not compellable witness at his own trial - ss.180, 181, 183 Evidence Act; Sugh v The State (1988)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Double Jeopardy",
+          question: "State the pleas of autrefois acquit/convict and their four conditions.",
+          answer: [
+            "s.36(9)-(10) CFRN: protection via autrefois acquit / autrefois convict - s.238(1) ACJA; Rabiu v State (1980)",
+            "Conditions: (i) trial on a criminal charge; (ii) before a court of competent jurisdiction; (iii) ended in conviction or acquittal; (iv) the present charge is the same as the one previously tried",
+            "Exceptions: an order for trial by a superior court, or retrial ordered by an appellate court",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "No Retroactive Law",
+          question: "State the rule against trial upon retroactive legislation.",
+          answer: [
+            "s.36(8) CFRN: the offence and its punishment must pre-date the conduct",
+            "Note: the position differs for Code of Conduct offences against public officers - Para.18(7), Part I, Fifth Schedule CFRN",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Pardoned Offence",
+          question: "What combines in the right against trial for a pardoned offence?",
+          answer: [
+            "s.36(10) CFRN: no one convicted/acquitted may be tried again for the same offence - ss.175, 212 CFRN (presidential/gubernatorial pardon)",
+            "Combines the pleas of autrefois acquit/convict and plea of pardon - Falae v Obasanjo (No.2)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Interpreter & Public Trial",
+          question: "State the right to an interpreter, and when the duty to raise it arises.",
+          answer: [
+            "s.36(6)(e) CFRN: a free interpreter where the defendant does not understand the trial language; failure to provide one where needed vitiates the trial - Okoro v The State",
+            "The duty to raise the need for an interpreter rests on the defendant/counsel, at the earliest opportunity; failure to claim it timely may bar a complaint on appeal",
+            "Right to trial in public - s.36(4) CFRN: exceptions for public morality, safety, order; and trial of children in Juvenile Courts",
+          ],
+          source: "Lecturer slides",
+        },
+      ],
+    },
+    {
+      id: "criminal-litigation-week-13",
+      title: "Week 13: Trial 1 - Attendance of Parties and Arraignment",
+      instructions: "Try to answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
+      cards: [
+        {
+          category: "Trial Stages",
+          question: "What is the full sequence of a criminal trial?",
+          answer: [
+            "Preliminary issues → filing → arraignment → examination-in-chief → cross-examination → re-examination → tendering of exhibits → addresses of counsel → judgment, allocutus, sentence → appeals",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Attendance of Defendant",
+          question: "State the general rule and quasi-exceptions on the defendant's attendance.",
+          answer: [
+            "General rule: the defendant must be present in court at all times - Adeoye v State (1999); s.266 ACJA. Trial in absentia is unknown to Nigerian law; a trial in the defendant's absence is a nullity - State v Yanga (2021)",
+            "Quasi-exceptions (limited 'trial in absentia'): hearing an interlocutory application; defendant misconducts himself; absents himself on more than two adjournments while on bail without reasonable explanation; investigation into unsoundness of mind; minor offences with written guilty plea",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Compelling Attendance",
+          question: "How is attendance compelled, and what effect does jumping bail have?",
+          answer: [
+            "Summons first, then a warrant of arrest if the summons is disobeyed - ss.184, 352 ACJA",
+            "Jumping bail does not truncate the trial - s.352(4)-(5) ACJA",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Counsel & Witnesses",
+          question: "What must happen for capital offences regarding representation, and how is an absent witness handled?",
+          answer: [
+            "Capital offences carry mandatory legal representation - s.259 ACJL Lagos; Josiah v State (1985)",
+            "Absent vital witness: case adjourned on application, once satisfied absence is not deliberate. Attendance compelled by witness summons or, on refusal to appear, a subpoena",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Roles of Parties",
+          question: "State the prosecution's and defence counsel's key duties.",
+          answer: [
+            "Prosecution: 'a prosecutor, not a persecutor' - Rule 37(4) RPC; must not withhold adverse facts or favourable precedents - Dariye v FRN (2015)",
+            "Defence counsel: right of access to client in custody; cannot return a brief in a capital case (cab-rank rule, Rule 24 RPC); strict confidentiality; must not be a witness in his own case",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Arraignment",
+          question: "Define arraignment and list the four-step procedure.",
+          answer: [
+            "The process of taking the defendant's plea to the charge before the court. A criminal trial commenced without a plea is a nullity - Imam v FRN (2019)",
+            "(1) Defendant placed unfettered in the dock; (2) charge read and explained to him, to the court's satisfaction, in a language he understands; (3) defendant called upon to plead instantly; (4) plea recorded as nearly as possible in the words used - Lufadeju v Johnson",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Arraignment",
+          question: "State the scope rules on plea-taking (proxy plea, block plea, recording).",
+          answer: [
+            "Taken in person; where multiple defendants, each pleads individually - no 'proxy' plea - Lucky v State (2016); counsel cannot plead for the defendant - R v Pepple",
+            "No block plea on multiple counts - Ayinde v State: counts may be read jointly but plea taken separately per count/defendant",
+            "Recording: as nearly as possible in the defendant's own words; failure to record it is fatal - trial a nullity - Ede v State",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Options on Arraignment",
+          question: "List the seven options open to a defendant upon arraignment.",
+          answer: [
+            "(1) Preliminary objection; (2) the 'Bar Plea' (double jeopardy, autrefois acquit/convict); (3) standing mute; (4) refusal to plead",
+            "(5) plea of guilty; (6) plea of not guilty; (7) plea of not guilty by reason of insanity",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Options on Arraignment",
+          question: "What happens if a defendant stands mute, and what if he refuses to plead?",
+          answer: [
+            "Standing mute: court investigates whether the muteness is malicious or an act of God. If malicious, a plea of not guilty is entered; if an act of God, detained at the Governor's pleasure - Yesufu v State",
+            "Refusal to plead: deliberate withholding - court asks for reasons; if invalid, asked to plead again; if still refuses, not guilty entered and trial proceeds - Gaji v State",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Options on Arraignment",
+          question: "What are the requirements for a valid guilty plea, and what happens in capital offences?",
+          answer: [
+            "Made by the defendant personally, not counsel - R v Pepple; must be unambiguous ('guilty with reason' is not a valid guilty plea) - Aremu v COP; Usman v State (2018)",
+            "Capital offences: notwithstanding a guilty plea, a plea of not guilty is recorded instead - s.274(3) ACJA; Olabode v State",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Plea Bargain",
+          question: "What are the two types of plea bargain, and what consent is required?",
+          answer: [
+            "Governed by s.270 & s.494 ACJA; s.77 ACJL Lagos; s.272 ACJL Kano",
+            "Requires the consent of the victim (or representative), during or after presentation of prosecution's evidence but before the defence's",
+            "Types: plea before arraignment - sentence bargain within the statutory range; charge bargain - a plea to a lesser offence",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Plea Bargain",
+          question: "What happens if the court intends a heavier sentence than agreed?",
+          answer: [
+            "The court must notify the defendant, who may accept it or withdraw his plea for a trial de novo before another judge - s.270(11),(15)-(16) ACJA",
+            "Finality: the judgment under s.270(10)(a) is generally final, no appeal, except where fraud is alleged",
+          ],
+          source: "Lecturer slides",
+        },
+      ],
+    },
+    {
+      id: "criminal-litigation-week-14",
+      title: "Week 14: Trial 2 - Trial Preparation and Evidence",
+      instructions: "Try to answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
+      cards: [
+        {
+          category: "Burden of Proof",
+          question: "Distinguish the legal/general burden from the evidential burden.",
+          answer: [
+            "Legal/general burden: permanently on the prosecution (proof of guilt) - s.135(2) Evidence Act; Woolmington v DPP (1935); static and never shifts - s.135(1)",
+            "Evidential burden: can shift to the defendant - s.137 Evidence Act; e.g. a duty to explain facts within his peculiar knowledge - proviso to s.36(5) CFRN",
+            "Evidential burden shifts where: an exemption/exception/qualification is pleaded; insanity, intoxication, or a bar plea is raised; or facts peculiarly within his knowledge",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Standard of Proof",
+          question: "Define 'beyond reasonable doubt' as explained in Ofordike v State.",
+          answer: [
+            "Establishing guilt with compelling and conclusive evidence - not proof beyond all doubt or 'to the hilt'",
+            "If the evidence leaves only a remote probability dismissible with 'of course it is possible,' the case is proved",
+            "Where the evidential burden shifts to the defendant, his standard is only balance of probabilities",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Corroboration",
+          question: "Define corroboration, and when is it legally required?",
+          answer: [
+            "Independent testimony/evidence connecting the defendant to the crime - Okabichi v State (1975); supports that this defendant committed it, not merely that an offence occurred",
+            "General rule: no fixed number of witnesses needed - only material witnesses - s.200 Evidence Act",
+            "Exceptions requiring corroboration: treason, perjury, road traffic offences, seditious words",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Accomplice & Co-Defendant",
+          question: "Is an accomplice's evidence corroboration required, and what about a co-defendant's?",
+          answer: [
+            "Accomplice (s.198(2)): competent witness for prosecution; his uncorroborated evidence requires no corroboration but a mandatory judicial warning before conviction is based on it - Bello v State",
+            "Co-defendant's evidence (s.199): not accomplice evidence, requires no corroboration - Asimi v State (2016). May testify for the prosecution only after his own guilty plea, conviction and sentence - Umole v IGP",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Admissibility",
+          question: "What is the basis of admissibility, and the rule on improperly obtained evidence?",
+          answer: [
+            "Basis: relevancy - ss.1-3 Evidence Act: what is not relevant is not admissible, but not all relevant facts are admissible",
+            "Improperly obtained evidence (ss.14-15): now at the court's discretion, exercised judicially, weighing desirability of admission against undesirability - not the old automatic-admission case law",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Computer-Generated Evidence",
+          question: "What are the two routes to tender computer-generated evidence?",
+          answer: [
+            "(i) A certificate under s.84(4) Evidence Act, signed by a person in a responsible position regarding the computer's operation, certifying s.84(2) conditions are satisfied - Kubor v Dickson (2013)",
+            "(ii) Viva voce evidence establishing the same s.84(2) conditions directly - Dickson v Sylva (2016)",
+            "A party cannot merely tender from the bar - evidence must be led establishing the s.84(2) conditions",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Competence and Compellability",
+          question: "Distinguish competence from compellability as a witness.",
+          answer: [
+            "Competence = legal ability to give evidence; compellability = legal obligation to give evidence",
+            "Every compellable witness is competent, but not every competent witness is compellable",
+            "A compellable witness cannot be forced to answer questions tending to show he committed a crime other than the one charged - s.180(g)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Child Witness",
+          question: "State the rules on a child's evidence.",
+          answer: [
+            "A child under 14 gives unsworn evidence if the court is satisfied of sufficient intelligence and duty to speak the truth - s.209(1) - and that evidence must be corroborated - s.209(3)",
+            "One uncorroborated child's evidence cannot corroborate another's - Abdullahi v State (2021)",
+            "A child above 14 may give sworn evidence - s.209(2) - corroboration not legally required but desirable",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Defendant as Witness",
+          question: "Is the defendant's evidence corroboration required, and is he compellable?",
+          answer: [
+            "A competent witness, including against a co-defendant - ss.180, 199; only a caution, not corroboration, is required of his evidence",
+            "Not compellable - subject to limited comment (not on culpability) - s.181 Evidence Act; s.36(11) CFRN",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Hearsay",
+          question: "Define hearsay, and state the exception for police reports.",
+          answer: [
+            "An out-of-court statement by a non-testifying person, offered to prove the truth of what it asserts - excluded for lack of cross-examination, veracity and reliability - Subramaniam v Public Prosecutor (1956)",
+            "Police reports admissible under s.83; can be tendered by any member of the investigation team, not necessarily the IPO - Okon v State (2025)",
+            "This exception does NOT extend to extra-judicial statements of witnesses interviewed but not called - inadmissible unless the witness is called - Atuche v FRN (2025)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Spousal Privilege",
+          question: "State the spousal communication privilege and its exceptions.",
+          answer: [
+            "s.187 Evidence Act: not compellable to disclose, and shall not be permitted to disclose, any communication made during the marriage by their spouse, unless that spouse consents",
+            "Exceptions: between the spouses themselves in matrimonial proceedings; or where one spouse is prosecuted for an offence against the other spouse or a child of either",
+            "Distinguish from spousal competence/compellability as a witness - the privilege protects the content of marital communications specifically",
+          ],
+          source: "Lecturer slides",
+        },
+      ],
+    },
+    {
+      id: "criminal-litigation-week-15",
+      title: "Week 15: Trial Advocacy (Trial 3)",
+      instructions: "Try to answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
+      cards: [
+        {
+          category: "Trial Advocacy",
+          question: "Define advocacy and the 'great paradox'.",
+          answer: [
+            "The art, skill and tact of presenting a party's case in court - Borishade v NBN Ltd (2007); requires logical presentation, vocal skill, drafting skill, and confidence",
+            "The great paradox: cases are won in chambers, not in court - preparation is paramount",
+            "Scope: examination-in-chief, cross-examination, re-examination, and generally preparing, presenting and managing a case",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Duty of Counsel",
+          question: "State counsel's duty to the court, and why diligence matters.",
+          answer: [
+            "Uphold the rule of law, assist in the attainment of justice - Rule 1 RPC 2023; counsel is 'a minister in the temple of justice' - Taiwo v NBC Plc (2026)",
+            "Inefficient representation does not nullify a trial - a defendant 'swims or sinks' with the lawyer of his choice - Okoro v State (2025), though diligence is especially critical in capital cases",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Oaths",
+          question: "What happens if a witness refuses to take the oath, and what is the position if he professes no religion?",
+          answer: [
+            "May be committed for up to 30 days - s.250(1) ACJA. Absence of religious belief does not invalidate an oath - s.207",
+            "A person professing no religion, or whose religion forbids oaths, may still give evidence, with particulars recorded in detail - s.208; s.249 ACJA",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Examination-in-Chief",
+          question: "Define examination-in-chief and state the rule on leading questions.",
+          answer: [
+            "Questioning of a witness by the party who called him, to begin proving his case - s.214(1)",
+            "Leading questions (suggest the desired answer) are generally disallowed in chief - s.221(2)",
+            "Permitted in chief when: introductory/preliminary matters; undisputed matters; matters sufficiently proved; admitted facts; with the court's permission - s.221(3)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Cross-Examination",
+          question: "Define cross-examination and its purposes under s.223.",
+          answer: [
+            "Examination of a witness by the party adverse to the one who called him - s.214(2); s.36(6)(d) CFRN. Leading questions ARE allowed - s.221(3)",
+            "Purposes: contradict/weaken evidence-in-chief; present the adverse party's case; extract favourable facts; test veracity; shake credit; discredit the witness/evidence",
+            "Limit: relevancy, not 'the sky' - Isheno v Julius Berger (2008)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Cross-Examination",
+          question: "What questions are disallowed on cross-examination?",
+          answer: [
+            "Indecent/scandalous (s.227); insulting/annoying (s.228); irrelevant matters (s.224)",
+            "Must relate to relevant facts but need not be confined to facts raised in chief - s.215(2)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Re-Examination",
+          question: "What is the purpose of re-examination, and the rule on leading questions?",
+          answer: [
+            "Final stage, after cross-examination, by the party who originally called the witness - s.214(3). Purpose: clear ambiguities from cross-examination - Opeke v State (2021); not to restate the chief",
+            "Leading questions not allowed, except with the court's leave - s.221(2)",
+            "With leave, fresh evidence may even be introduced - but the adverse party regains a right to further cross-examine on new matters - s.215(3)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Hostile Witness",
+          question: "Define a hostile witness, and state the effect of a witness being declared hostile.",
+          answer: [
+            "One called by a party who wilfully refuses to testify truthfully for that party, or bears a hostile animus - s.230; Esan v State (1976)",
+            "Not the same as a witness who merely testifies against the calling party - Yusuf v Obasanjo (2005)",
+            "Effect: may be cross-examined by the party who called him; both his sworn evidence and prior unsworn statement become unreliable and both are rejected - Nnajiede v State (2015)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Refreshing Memory",
+          question: "What are the conditions for refreshing a witness's memory (s.239)?",
+          answer: [
+            "Application/leave of court; the document was written by the witness (or read by him) at or near the time of the event; relates to the transaction in issue",
+            "If written by another, the witness read it near the time and believed its accuracy; the event occurred a long time before testimony; genuine struggle to recollect; document must be shown to the other party if requested",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Judicial Questioning",
+          question: "Can a judge question witnesses, and what are the limits?",
+          answer: [
+            "Yes - ss.246(1)-(3) - to clarify vague/ambiguous answers, uncover truth, or aid understanding of expert evidence",
+            "Limits: must remain neutral, not act as advocate for either side, not 'descend into the arena' - Okoduwa v State (1988); use power sparingly",
+            "The adverse party may cross-examine on points raised, with leave",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Tendering Documents",
+          question: "What happens if the defence objects a confessional statement was not made voluntarily vs that it was never made?",
+          answer: [
+            "Objection on voluntariness: trial-within-trial (voir dire) is needed before ruling on admissibility",
+            "Objection that the defendant did not make the statement at all: no trial-within-trial needed - statement simply admitted, dispute goes to weight",
+          ],
+          source: "Lecturer slides",
+        },
+      ],
+    },
+    {
+      id: "criminal-litigation-week-16",
+      title: "Week 16: Trial 4 - Presentation of the Case for the Defence",
+      instructions: "Try to answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
+      cards: [
+        {
+          category: "Three Options",
+          question: "What are the defendant's three options once the prosecution's case closes?",
+          answer: [
+            "(1) A submission of no case to answer",
+            "(2) Resting his case on that of the prosecution",
+            "(3) Entering/opening his defence",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "No Case Submission",
+          question: "State the three grounds (Practice Note, Parker LCJ) on which a no-case submission succeeds.",
+          answer: [
+            "(1) No evidence to prove an essential element of the offence",
+            "(2) Prosecution evidence so discredited by cross-examination as to be worthless",
+            "(3) Evidence so manifestly unreliable that no reasonable tribunal could safely convict on it",
+            "Endorsed by Nigerian courts - Ibeziako v COP (1963); now codified at s.303(3) ACJA",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "No Case Submission",
+          question: "What is the court's task at this stage, and what is prohibited?",
+          answer: [
+            "The court only determines whether a prima facie case exists - does not evaluate credibility of witnesses, left to the end of trial - Ajiboye v The State",
+            "Ruling must be brief, must not evaluate the evidence or comment on the facts - Ekwunugo v FRN (2009)",
+            "Delivers a ruling, not a judgment - though where it upholds the submission, a detailed ruling is effectively a judgment and is appealable",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "No Case Submission",
+          question: "What is the effect of a rightly-upheld no-case submission?",
+          answer: [
+            "A discharge on the merits, amounting to an acquittal - IGP v Marke (1957); Ibeziako v COP (1963) - a bar to further proceedings on the same offence",
+            "Where wrongly decided: appealable by the prosecution - COP v Agi (1980)",
+            "Where wrongly overruled but defence supplies the very evidence used to convict: the conviction is quashed on appeal - Okoro v The State (1988)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Resting the Case",
+          question: "What happens if the defendant rests his case on the prosecution's?",
+          answer: [
+            "A constitutionally guaranteed right (s.36(11) CFRN) to remain silent - effectively inviting the court to decide on the prosecution's evidence alone - Sulaiman v State (2009)",
+            "Highly risky: the defendant stands or falls with that evidence; the Supreme Court has called it 'reckless' where the prosecution has already made out a prima facie case - Babalola v The State (1989)",
+            "He cannot later adduce evidence - Sulaiman v The State; cannot re-open his defence once convicted this way - his only recourse is appeal",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Entering a Defence",
+          question: "What alternatives must the court explain to an undefended defendant?",
+          answer: [
+            "(1) Make an unsworn statement from the dock - not cross-examinable, carries little weight",
+            "(2) Give sworn evidence from the witness box, subject to cross-examination - carries more weight",
+            "(3) Remain silent in the dock (absent under ACJA/ACJL Kano)",
+            "(4) Call witnesses/adduce other evidence - Josiah v The State (1985)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Ex Improviso Rule",
+          question: "What is the ex improviso rule?",
+          answer: [
+            "Where the defence raises a new matter the prosecution could not have foreseen, the prosecution may, with leave of court, adduce evidence to rebut it - s.361 ACJA",
+            "The new matter must be one 'no human ingenuity' could have anticipated - Bala v COP (1973)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Final Addresses",
+          question: "What is the order of final addresses, and the constitutional footing?",
+          answer: [
+            "s.294(1) CFRN - denial of the right to a final address can lead to reversal of judgment if a miscarriage of justice is shown - Asiru v Ayoade",
+            "Order: after evidence closes, the defence addresses first, then the prosecution, with defence entitled only to reply on points of law",
+            "Addresses do not form part of the evidence, and the court need not decide strictly along the lines proposed",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Final Addresses",
+          question: "When does the prosecution have a right of reply?",
+          answer: [
+            "No right of reply: if the defendant testified for himself without calling any witness (or only a character witness)",
+            "Discretionary: if defence counsel's opening address raises new matters unsupported by evidence",
+            "Right of reply: if the defence called any other witness, or tendered any document beyond character evidence",
+            "Unconditional right of reply: where the prosecutor is a Law Officer, regardless of how the defence conducted its case",
+          ],
+          source: "Lecturer slides",
+        },
+      ],
+    },
+    {
+      id: "criminal-litigation-week-17",
+      title: "Week 17: Judgment and Sentencing",
+      instructions: "Try to answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
+      cards: [
+        {
+          category: "Judgment",
+          question: "Define judgment, and state the rule against oral judgment.",
+          answer: [
+            "A court's final determination of the rights and obligations of the parties in a case - Black's Law Dictionary",
+            "No oral judgment, generally: s.308(1) ACJA; s.294(1) CFRN prohibit oral judgment - Queen v Fadina (1958)",
+            "Narrow exception: s.308(2) ACJA permits a Magistrate to deliver an oral judgment, subject to conditions precedent",
+            "Lagos and the North prohibit oral judgment outright",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Valid Judgment",
+          question: "List the five required features of a valid judgment.",
+          answer: [
+            "In writing; contain the point(s) for determination; contain the court's decision on those points; contain the reasons for the decision; and be dated, signed or sealed - s.309 ACJL Kano",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Valid Judgment",
+          question: "What is the effect of an undated/unsigned judgment?",
+          answer: [
+            "Worthless - Haruna v Uni. Agric. Makurdi (2006, null and void)",
+            "The relevant date is the date of delivery, not writing",
+            "Signature/date are verified from the manuscript, not the typed version - Sunday v State (2011)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Time Limit",
+          question: "Within what time must judgment be delivered, and the effect of breach?",
+          answer: [
+            "Within 90 days of the conclusion of final addresses - s.294(1) CFRN. Compliance is mandatory - Shehu v State (1982)",
+            "Under the 1999 Constitution (s.294(5)), breach renders it merely voidable, and only a nullity if the appellant proves a resulting miscarriage of justice - Ogbu v State (2003)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Conviction",
+          question: "Define conviction, and the consequence of failing to record it before sentencing.",
+          answer: [
+            "The judicial act of finding someone guilty - irrespective of whether a custodial sentence follows. The judgment must convict before sentencing - R v Ekpo (1947)",
+            "If guilt is discernible from the record, this is a curable irregularity. If not discernible, it may invalidate the judgment, leading to a retrial - Adamu v State (1986)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Allocutus",
+          question: "Define allocutus, and state its limits.",
+          answer: [
+            "An unsworn statement by a convicted person pleading for mercy, explaining his conduct, or apologising, to lessen the impending sentence - made after conviction, before sentence",
+            "A plea in mitigation only - does not absolve all punishment - Ogbeide v COP (1964); ineffective against a mandatory/minimum statutory punishment, never mitigates a capital sentence",
+            "Failure to call for it does not invalidate the sentence/trial - Edwin v State (2019)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Taken Into Consideration",
+          question: "State the conditions for TIC sentencing.",
+          answer: [
+            "s.313 ACJA: the defendant (i) is found guilty of the present offence, (ii) admits guilt of the other offences, (iii) agrees they be considered, (iv) the other prosecutor/AG consents, (v) those offences were properly charged, (vi) the court has jurisdiction to try them",
+            "Autrefois convict effect: once TIC sentencing occurs, the defendant cannot be tried again for those other offences unless the conviction is set aside",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Conviction for Uncharged Offence",
+          question: "When may a defendant be convicted of a lesser offence not expressly charged?",
+          answer: [
+            "Generally prohibited - s.36(6)(a) CFRN - but with statutory exceptions where supported by evidence and ingredients are embedded within the main charge - Babalola v State (1989)",
+            "A defendant charged with manslaughter cannot be convicted of murder - s.228(1) ACJA",
+            "May be convicted of an attempt to commit the charged offence; once convicted of the attempt, cannot be prosecuted for the substantive offence",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Sentencing Objectives",
+          question: "List the ACJA sentencing objectives (s.401(2)).",
+          answer: [
+            "Prevention (discourage reoffending); restraint (isolate from society); rehabilitation; deterrence; public education; retribution; restitution",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Death Sentence",
+          question: "Compare the position of a pregnant woman under ACJL Lagos, ACJA/ACJL Kano, and the Child's Rights Act.",
+          answer: [
+            "ACJL Lagos: sentenced to life imprisonment instead - s.302(2)",
+            "ACJA/ACJL Kano: sentenced to death but execution stayed until the baby is delivered and weaned - ss.404, 415(4) ACJA",
+            "Child's Rights Act: a pregnant woman/nursing mother shall NOT be sentenced to death at all - s.221(2) CRA; kept at a Special Mothers Centre for no more than 6 years",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Death Sentence",
+          question: "Can a young person (14 to under 18) be sentenced to death?",
+          answer: [
+            "No - s.302(3) ACJL Lagos - instead detained at the pleasure of the President/Governor - Guabadia v The State (2004)",
+            "Under the ACJA, a young person is never sentenced to death, but to life imprisonment or another term",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Other Sentence Types",
+          question: "What is the imprisonment ceiling for a Lagos Magistrate Court, and the rule on multiple terms?",
+          answer: [
+            "Cannot exceed 14 years - s.314 ACJL Lagos; s.29(5) Magistrate Court Law 2009",
+            "Multiple terms: concurrent = highest term served; consecutive = aggregate served",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Non-Custodial Sentences",
+          question: "List examples of non-custodial sentences under the UN Tokyo Rules 1990 / ACJA.",
+          answer: [
+            "Probation; restitution of stolen property; binding over; forfeiture order; payment of compensation; suspended sentence; community service; confinement at a rehabilitation centre; deportation; parole",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Non-Custodial Sentences",
+          question: "State the maximum period and conditions for probation, and the eligibility for parole.",
+          answer: [
+            "Probation: granted only where expedient having regard to character, antecedents, age, health, offence's trivial nature, extenuating circumstances - s.454 ACJA. Maximum 3 years",
+            "Parole (s.468 ACJA): on a good-behaviour report from the Comptroller-General of Prisons, after serving at least one-third of a 15-year or life sentence",
+          ],
+          source: "Lecturer slides",
+        },
+      ],
+    },
+    {
+      id: "criminal-litigation-week-18",
+      title: "Week 18: Appeals",
+      instructions: "Try to answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
+      cards: [
+        {
+          category: "What is an Appeal",
+          question: "Define an appeal, and state whether the right is statutory or inherent.",
+          answer: [
+            "A proceeding undertaken to have a decision reconsidered by a higher authority - a judicial examination by a higher court of a lower court's decision - Okponipere v State (2013)",
+            "An appeal is a continuation of the original action, not a new action - Odedo v Oguebego (2015)",
+            "Right of appeal is purely statutory/constitutional - no inherent power - Adili v State (1989); Rabiu v State (1980)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Who May Appeal",
+          question: "Who may appeal, and what happens on the death of an appellant?",
+          answer: [
+            "The Prosecutor (including the AG and prosecuting agencies) and the Defendant/Convict - s.243(1)(a) CFRN. Only a party to the case can appeal - Akinbiyi v Adelabu (1956)",
+            "Deceased appellant: his estate may continue the appeal in limited circumstances",
+            "Abatement: on the appellant/convict's death, the appeal generally abates - Ajilore v State (1993). The prosecution cannot die. If the appeal is against a fine, it survives since the deceased's estate satisfies it",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Case Stated",
+          question: "Distinguish 'case stated' from an appeal.",
+          answer: [
+            "A reference to a higher court for its opinion on a point of constitutional interpretation or law - not an appeal; the opinion is used to decide the case",
+            "From Magistrate Court: stated to the High Court, by either party before judgment, or by the Magistrate suo motu; only the AG may state a case after judgment, within 6 months",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Forms of Appeal",
+          question: "State the time to appeal from Magistrate Court to High Court.",
+          answer: [
+            "30 days from the decision - s.485(4) ACJA; s.461(5) ACJL Kano; s.69(1) MCL Lagos",
+            "15 days for a caning sentence - s.433(2) ACJL Kano",
+            "No oral notice of appeal is now permitted in Lagos, FCT, or Kano",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Omnibus Ground",
+          question: "Define the omnibus ground of appeal and state the correct criminal wording.",
+          answer: [
+            "A general ground of fact complaining against the totality of the evidence, not a specific finding or document; cannot raise a point of law - Ajibona v Kolawole (1996)",
+            "Criminal wording: 'The decision of the trial court is unreasonable and cannot be supported having regard to the evidence' - s.19(1) Court of Appeal Act",
+            "(Civil wording differs: 'against the weight of evidence' - do not mix the two formulations)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "High Court to Court of Appeal",
+          question: "State the time to appeal from High Court to Court of Appeal, final judgment.",
+          answer: [
+            "90 days - s.24(2)(b) Court of Appeal Act 2004",
+            "No distinction between final and interlocutory appeal time in criminal matters under the CAA",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Signing of Notice",
+          question: "What is the effect of failing to personally sign a notice of appeal?",
+          answer: [
+            "By the appellant or legal representative - O.17 R.5(1) CAR 2021. Personal signature failure invalidates the appeal - Ikechukwu v FRN (2015)",
+            "Non-compliance deprives the court of jurisdiction - Umezinne v FRN (2019)",
+            "Signing by a law firm (rather than a named legal practitioner) is an irreversible error - Nigerian Army v Samuel (2013)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Briefs of Argument",
+          question: "State the filing times for Appellant's, Respondent's and Reply briefs (ordinary vs Fast Track).",
+          answer: [
+            "Ordinary: Appellant 45 days; Respondent 30 days; Reply 14 days",
+            "Fast Track Practice Direction 2021: Appellant 14 days; Respondent 10 days; Reply 7 days (covers corruption, trafficking, kidnapping, money laundering, rape, terrorism)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Briefs of Argument",
+          question: "What happens if the Appellant defaults in filing a brief, and if the Respondent defaults?",
+          answer: [
+            "Appellant in default: appeal dismissed for want of diligent prosecution - final and irreversible, cannot be relisted - Kashim v State (2022)",
+            "Respondent in default: the appeal is heard but respondent cannot be heard orally; deemed to concede the issues - decided on the sustainability in law of the appellant's issues",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Court of Appeal to Supreme Court",
+          question: "State the time to appeal to the Supreme Court, and the current record compilation period.",
+          answer: [
+            "30 days from judgment - s.233 CFRN; s.27(2)(b) Supreme Court Act",
+            "Record compilation: 3 months (current rule, O.6 R.4(1) SCR 2024) - down from 6 months under the old rule",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Additional Evidence",
+          question: "What are the conditions for admitting additional evidence on appeal?",
+          answer: [
+            "Generally not admissible - Esoh v COP (1958). Leave must be obtained",
+            "Conditions: in the interest of justice; evidence not available at trial or could not have been adduced; apparently credible; admission would not amount to a fresh rehearing except in exceptional circumstances",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Retrial",
+          question: "List the five cumulative conditions for an order of retrial.",
+          answer: [
+            "(1) An error in law/procedural irregularity that did not nullify the trial but prevents a sound verdict",
+            "(2) Evidence as a whole discloses a substantial case against the appellant",
+            "(3) No special circumstance would make a second trial oppressive",
+            "(4) The offence/its consequences are not trivial",
+            "(5) Refusing a retrial would occasion a greater miscarriage of justice",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Bail Pending Appeal",
+          question: "Why is bail pending appeal after conviction harder to obtain, and when is it never granted?",
+          answer: [
+            "The presumption of innocence no longer applies post-conviction - Nwaoboshi v FRN (2023); the prosecution has already discharged its burden",
+            "Granted only in special circumstances - Bamaiyi v State",
+            "A fugitive is never entitled to bail pending appeal, even if usual conditions are met - Nwaoboshi v FRN (2023)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Grounds of Appeal",
+          question: "Distinguish grounds of law, fact and mixed law and fact.",
+          answer: [
+            "Ground complaining of misapplication/misunderstanding of law to proved facts = law",
+            "Ground questioning the court's evaluation of facts/evidence before applying the law = mixed",
+            "Ground questioning only the facts = fact",
+            "Holding an event occurred without admissible evidence to support it = a ground of law - Abdul v CPC (2014)",
+          ],
+          source: "Lecturer slides",
+        },
+      ],
+    },
+    {
+      id: "criminal-litigation-time-limits",
+      title: "Part 2: Master Table of Time Limits",
+      instructions: "One rule per card, roughly shortest to longest. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
+      cards: [
+        {
+          category: "Time Limits: Hours/Days",
+          question: "Time limits: search warrant execution window, summons issuance, and short appeal-related deadlines.",
+          answer: [
+            "5:00am-8:00pm: only window (Lagos) for executing a search warrant - s.108(1) ACJL Lagos; all other regimes permit any time",
+            "8:00am-6:00pm, Mon-Sat: window for issuing/serving a summons in Lagos - s.81(a) ACJL Lagos; ACJA/ACJL Kano permit any day/time",
+            "3 clear days before hearing: notice of preliminary objection at Court of Appeal - O.10 R.1 CAR 2021",
+            "5 clear days: notice of preliminary objection at the Supreme Court - O.4 R.13 SCR 2024",
+          ],
+          source: "Part 2 master table",
+        },
+        {
+          category: "Time Limits: Short Deadlines (7-15 days)",
+          question: "Time limits in the 7-15 day range.",
+          answer: [
+            "7 days: Reply brief under CA Fast Track PD 2021; Respondent's brief under SC Criminal Appeals PD 2013",
+            "7 days (now overruled): prosecutor's time to appeal a murder/manslaughter verdict - State v Ekuma (2022) held State v Omoyele (2017) decided per incuriam",
+            "10 days: Appellant's brief under SC Criminal Appeals PD 2013; appeal as of right from Court Martial where death sentence imposed (s.184(2) AFA); Respondent's brief under CA Fast Track PD 2021",
+            "14 days: Reply brief (ordinary CA/SC rules); Appellant's brief under CA Fast Track PD 2021",
+            "15 days: record of appeal compilation under SC Criminal Appeals PD 2013; appeal against a caning sentence (s.433(2) ACJL Kano)",
+          ],
+          source: "Part 2 master table",
+        },
+        {
+          category: "Time Limits: 30 Days",
+          question: "Time limits around 30 days.",
+          answer: [
+            "30 days: Respondent's brief (ordinary CA/SC rules)",
+            "30 days: appeal from Magistrate Court to High Court - s.485(4) ACJA; s.461(5) ACJL Kano; s.69(1) MCL Lagos",
+            "30 days: appeal from Court of Appeal to Supreme Court - s.233 CFRN; s.27(2)(b) Supreme Court Act",
+            "30 days: Fast Track record of appeal compilation (Court of Appeal) - s.13(2) CA(Fast Track) PD 2021",
+            "30 days: maximum committal for refusing to take an oath in an ACJA trial - s.250(1) ACJA",
+          ],
+          source: "Part 2 master table",
+        },
+        {
+          category: "Time Limits: Months (2-6)",
+          question: "Time limits between 2 and 6 months.",
+          answer: [
+            "2 months: sexual offences under ss.218, 221 Criminal Code - limitation to commence",
+            "3 months: service personnel after retirement - limitation to commence (s.169(2) AFA); Court Martial retired officer remains subject; action against a Customs Officer for official acts; imprisonment sentence must commence by (if not immediate); Supreme Court record compilation from Court of Appeal (current rule)",
+            "40 days: appeal with leave from Court Martial (non-death sentence) - s.183, 184(1) AFA",
+            "45 days: Appellant's brief (ordinary Court of Appeal/Supreme Court rules)",
+            "6 months: sedition - limitation to commence (s.52(1) Criminal Code); case stated by the AG after judgment, from a Magistrate Court (s.76 MCL Lagos)",
+          ],
+          source: "Part 2 master table",
+        },
+        {
+          category: "Time Limits: 60-90 Days",
+          question: "Time limits between 60 and 90 days.",
+          answer: [
+            "60 days: record of appeal compilation (ordinary Court of Appeal rules) - O.17 R.8(1)(b)(i) CAR 2021",
+            "90 days: judgment must be delivered within, after close of final addresses - s.294(1) CFRN",
+            "90 days: appeal from High Court to Court of Appeal, final judgment - s.24(2)(b) Court of Appeal Act 2004",
+          ],
+          source: "Part 2 master table",
+        },
+        {
+          category: "Time Limits: Years",
+          question: "Time limits measured in years.",
+          answer: [
+            "2 years: treason/treasonable felony - limitation to commence (no limitation for conspiracy) - s.43 Criminal Code",
+            "3 years: Court Martial - general limitation to commence trial while subject to service law (s.169 AFA); maximum probation period (s.454(2)(b) ACJA)",
+            "6 years: private complaint - limitation to commence under the ACJA (s.92 ACJA); maximum stay of a pregnant/nursing convict and child at a Special Mothers Centre (s.221(5) Child's Rights Act)",
+            "7 years: Nigerian Customs Service Act offences - limitation to commence",
+          ],
+          source: "Part 2 master table",
+        },
+        {
+          category: "Other Notable Periods",
+          question: "List other exam-relevant deadlines/durations not strict limitation periods.",
+          answer: [
+            "Reasonable time: arraignment must occur within a reasonable time of arrest (s.35(4) CFRN)",
+            "12 months: window within which any 3 of several offences by the same person may be joined on one charge sheet (misjoinder-of-offences exception)",
+            "Not more than 6 months, max 5 hours/day: community service order cap (s.462(1) ACJA)",
+            "At least 1/3 of a 15-year or life term: minimum portion served before parole eligibility (s.468 ACJA)",
+            "Maximum 12 strokes: cap on a sentence of caning (s.77 Penal Code)",
+            "Not exceeding 14 years: maximum imprisonment a Lagos Magistrate Court may impose",
+          ],
+          source: "Part 2 master table",
+        },
+      ],
+    },
+    {
+      id: "criminal-litigation-conflicts",
+      title: "Part 3: Conflicts and Open Queries Between Notes and Slides",
+      instructions: "Each card shows an unresolved point the lecture slides themselves flagged. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
+      cards: [
+        {
+          category: "Conflicts: Jurisdiction & Institution",
+          question: "What is the Week 6 FHC jurisdiction conflict, and the Week 7 nolle prosequi conflict?",
+          answer: [
+            "Week 6: the FHC's nationwide territorial reach does not mean trial in any division - s.45 FHC Act and s.93(2) ACJA require trial where the offence occurred (Sulaiman v FRN (2020)), yet Abiola v FRN and Ibori v FRN are sometimes cited loosely for the opposite. Compare and distinguish carefully",
+            "Week 7: under ACJL Lagos, only a written instrument is contemplated where an officer (not the AG personally) enters a nolle prosequi; ACJL Kano draws no such distinction",
+          ],
+          source: "Part 3",
+        },
+        {
+          category: "Conflicts: Charges",
+          question: "What open query did the slides raise in Week 9 about defective charges based on repealed law?",
+          answer: [
+            "Is there a difference between a charge based on a non-existent law and one based on the wrong law/section? What of a charge based on a repealed law (e.g. Advance Fee Fraud Decree 1995, Money Laundering Act 2011)?",
+            "The deck poses this as an open point for class discussion rather than resolving it definitively",
+          ],
+          source: "Part 3",
+        },
+        {
+          category: "Conflicts: Search & Arrest",
+          question: "What are the Week 4 conflicts on search warrant hours and the Lagos media-parade prohibition?",
+          answer: [
+            "Of the four regimes governing execution hours, only Lagos restricts to 5am-8pm (s.108(1) ACJL Lagos); Police Act 2020, ACJA and ACJL Kano all permit execution at any time",
+            "Whether a warrant of arrest can be executed in the National Assembly, on court premises, or in a place of worship is unresolved - starting authorities: Legislative Houses (Powers & Privileges) Act 2017; Tony Momoh v Senate (1981)",
+            "s.9A ACJL Lagos (2021) bans media parade; the slides flag a possible conflict with the Police Act 2020, which has no equivalent prohibition - unreconciled",
+          ],
+          source: "Part 3",
+        },
+        {
+          category: "Conflicts: Trial",
+          question: "What are the open queries in Weeks 13, 14 and 16?",
+          answer: [
+            "Week 13: is the order under s.370 ACJL Kano on complainant's absence a mere discharge or an acquittal? Distinguish from dismissal and striking out - different res judicata implications",
+            "Week 14: is a relative of a party automatically a 'tainted witness' requiring only caution? Adie v State (2023) cited but left for argument",
+            "Week 16: can a defendant rest his case on the prosecution's (a) without first making a no-case submission, or (b) immediately after a no-case submission is overruled? Both discussed as live possibilities",
+          ],
+          source: "Part 3",
+        },
+        {
+          category: "Conflicts: Sentencing & Appeals",
+          question: "What are the Week 17 and 18 conflicts?",
+          answer: [
+            "Week 17: pregnant woman and the death sentence - three genuinely different regimes (ACJL Lagos: life imprisonment; ACJA/ACJL Kano: death stayed until delivery/weaning; Child's Rights Act: no death sentence at all). A jurisdiction-specific answer is required",
+            "Week 18: prosecutor's appeal time in murder/manslaughter cases - State v Omoyele (2017) applied a 7-day limit under a now-repealed 1963 Act, later held per incuriam in State v Ekuma (2022). Correct current position: ordinary appeal-time rules (90 days/s.233 CFRN), not 7 days",
+            "Week 18: the criminal omnibus-ground wording ('unreasonable and cannot be supported having regard to the evidence') must not be confused with the civil formula ('against the weight of evidence') or the disapproved hybrid in Enitan v State (1986)",
+          ],
+          source: "Part 3",
+        },
+      ],
+    },
+  ],
+},
+"professional-ethics": {
+  courseName: "Professional Ethics and Skills",
+  decks: [
+    {
+      id: "professional-ethics-week-3",
+      title: "Week 3: Overview; History of the Legal Profession; Dinner Etiquette",
+      instructions: "Try to answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
+      cards: [
+        {
+          category: "Overview",
+          question: "What are the two components of this course, and name the eight skills.",
+          answer: [
+            "Ethics (values codified in the RPC 2023) and Skills (abilities to execute a client's brief effectively)",
+            "Interviewing; advocacy; negotiation; communication; drafting; legal research; management; ICT skills",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "History of the RPC",
+          question: "Who makes the RPC, under what power, and what is the structure of the RPC 2023?",
+          answer: [
+            "The General Council of the Bar ('the Bar Council'), under s.12(4) LPA. Purpose: protect and preserve a high standard of professional ethics - Ikeme v Anekwe (2003)",
+            "3 chapters, 78 rules: Chapter 1 - Part A Practice (rr.1-13); Part B Relation with Clients (rr.14-25); Part C Relation with Other Lawyers (rr.26-29); Part D Relation with the Court (rr.30-38); Part E Improper Attraction of Business (rr.39-47); Part F Remuneration and Fees (rr.48-54)",
+            "Chapter 2 - Anti-Money Laundering (rr.55-72); Chapter 3 - Miscellaneous (rr.73-78)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "History of the RPC",
+          question: "What happened to the 2020 'amendment' to the RPC, and what is the status of the 2023 RPC?",
+          answer: [
+            "3 Sept 2020: a purported amendment (S.I. No. 15 of 2020) by the Chairman of the Bar Council (the AGF) deleted Rules 9(2), 10, 11, 12 and 13",
+            "3 Dec 2021: AGF Abubakar Malami SAN publicly denied involvement and disowned the amendment as lacking due process",
+            "Aug 2022: Federal High Court, Abuja declared the 2020 amendment illegal and invalid - it has no effect",
+            "2023 RPC amended to add Chapter 2 - AML/CFT (Rules 55-72); the RPC is subsidiary legislation under s.12(4) LPA, binding every legal practitioner - NBA v Akintokun",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "History: 1876-1914",
+          question: "What triggered the Supreme Court Ordinance 1876, and name the three categories of practitioner it created.",
+          answer: [
+            "A severe shortage of qualified personnel: as at 1862 there were 7 magistrates in Lagos - only 3 were barristers, 2 clerks, 1 a merchant, 1 a garrison commander",
+            "(1) Professionally qualified legal practitioners - s.71 (called in England/Scotland/Ireland, automatic enrolment)",
+            "(2) Those who served Articles - s.73 (5 years in a law office, passed an exam, admitted only as Solicitors)",
+            "(3) Local Attorneys - s.74 (fit and proper, passed a CJN-set exam, licensed 6 months renewable; only about 30 licensed)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "History: 1876-1914",
+          question: "When did Local Attorneys cease being appointed, and what happened to J. Osho Davies?",
+          answer: [
+            "No further Local Attorneys licensed after 1908/1914 (sources differ)",
+            "J. Osho Davies, the last applicant, was refused by the CJN in 1913; his appeal was dismissed in April 1913 on the ground the CJN's discretion was properly exercised",
+            "Check/conflict: treat 1913 (Osho Davies) as the safe date for the last refusal and 1914 (Amalgamation) as the year that closed this era",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "History: 1914-1962",
+          question: "What changed in 1914, and what were the deficiencies of an English-trained lawyer practising in Nigeria?",
+          answer: [
+            "1914 - Amalgamation of the Southern and Northern Protectorates; practice restricted to professionally qualified lawyers only; a person qualifying as Barrister OR Solicitor in Britain could practise as BOTH in Nigeria on enrolment",
+            "Deficiencies: (1) trained as either barrister or solicitor in England but practised as both in Nigeria; (2) studied English textbooks/unitary government, no knowledge of Nigerian customary or land law; (3) no mandatory course of lectures for returning lawyers until 1967",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "History: Unsworth Committee",
+          question: "What was the Unsworth Committee, and name its key recommendations.",
+          answer: [
+            "Appointed April 1959, chaired by AGF E.I.G. Unsworth; mandate: legal education, admission to practice, right of audience, reciprocal arrangements",
+            "Recommendations (1959, substantially accepted): Nigeria establish its own legal education system; a Faculty of Law; a Nigerian Law School (vocational); admission requires a recognised law degree plus the Law School course; a Council of Legal Education be established",
+            "Implemented by the Legal Education Act 1962 and the Legal Practitioners Act 1962; NLS set up late 1962, first 3-month course Jan-April 1963 at 213A Igbosere Road, Lagos",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Entitlement to Practise",
+          question: "State the three categories of persons entitled to practise law in Nigeria - s.2 LPA.",
+          answer: [
+            "(i) Entitled to practise generally - s.2(1) & s.7(1) LPA: name on the roll kept by the Chief Registrar of the Supreme Court",
+            "(ii) Entitled by virtue of office - s.2(3) LPA: AG/Solicitor-General/DPP and specified public officers; entitlement lasts only while in that office, no private practice",
+            "(iii) Entitled for particular proceedings (by warrant) - s.2(2) LPA: CJN may authorise a foreign advocate by warrant, fee not exceeding ₦50 - Awolowo v Minister of Internal Affairs (a warrant does not override other disabilities, e.g. visa requirements)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Entitlement to Practise",
+          question: "State the three conditions to be Called to the Bar - s.4(1) LPA.",
+          answer: [
+            "(a) Citizen of Nigeria (non-citizens may now be called if they satisfy (b) and (c) - Decrees 8 & 9 of 1992)",
+            "(b) Produces a qualifying certificate to the Body of Benchers",
+            "(c) Satisfies the Benchers he is of good character (sponsorship form signed by at least 2 Benchers)",
+            "Qualifying certificate issued by the CLE on proof of citizenship and successful completion of the NLS course; 75% attendance mandatory; externship and portfolio assessment mandatory for Call (not waivable)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Notable Firsts",
+          question: "Name five notable firsts in the Nigerian legal profession.",
+          answer: [
+            "First indigenous lawyer: Christopher Alexander Sapara Williams (called to the Nigerian Bar 1888)",
+            "First female lawyer/magistrate: Stella Marke (1935)",
+            "First Nigerian judge: Olumuyiwa Jibowu (1931)",
+            "First indigenous CJN: Adetokunbo Ademola (1958)",
+            "First Nigerian AGF: Dr Taslim Olawale Elias (1960); first female CJN: Justice Mariam Aloma Mukhtar (2012); first SAN: Chief F.R.A. (Rotimi) Williams (1975)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Dinner Etiquette",
+          question: "How many dinner terms must a student keep, and what is the consequence of breaching the dress code?",
+          answer: [
+            "3 dining terms, culminating in Call to the Bar - a compulsory, integral part of socialisation training",
+            "A student who breaches the dress code is disallowed from keeping that dining term - ineligible for Call notwithstanding having passed the qualifying exams",
+            "Purpose: let students meet eminent Bar/Bench members and absorb the profession's traditions",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Dinner Etiquette",
+          question: "State the dressing rules for men and women at dinner.",
+          answer: [
+            "Men: dark suit with white breast-pocket square, white shirt, black tie (not bow tie), black socks and shoes; pin-striped trousers under a dark jacket allowed",
+            "Women: dark skirt/jacket or dark dress, long/three-quarter sleeves, black shoes, white blouse under a dark suit (camisole over collaret at the final/Call dinner); no mini-skirts; moderate black hijabs/short veils permitted",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Dinner Etiquette",
+          question: "Describe the key procedure points: place setting, the loyal toast, and who may not enter mid-dinner.",
+          answer: [
+            "Place setting: fork left, spoon in front, knife right, side plate top right, one water glass and one wine glass",
+            "A Bencher proposes the loyal toast to the Federal Republic of Nigeria; all respond 'To the Federal Republic of Nigeria'",
+            "After the Benchers' entry, no other person may enter the hall - a strict-liability rule attracting severe penalty if breached",
+          ],
+          source: "Lecturer slides",
+        },
+      ],
+    },
+    {
+      id: "professional-ethics-week-4",
+      title: "Week 4: Regulatory Bodies; Exclusive Rights and Restrictions; Impersonation",
+      instructions: "Try to answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
+      cards: [
+        {
+          category: "Regulatory Bodies",
+          question: "List the eight regulatory and controlling bodies of the legal profession.",
+          answer: [
+            "Body of Benchers (BOB); National Judicial Council (NJC); General Council of the Bar (GCB); Nigerian Bar Association (NBA)",
+            "Legal Practitioners' Disciplinary Committee (LPDC); Legal Practitioners' Privileges Committee (LPPC); Legal Practitioners' Remuneration Committee (LPRC); Council of Legal Education (CLE)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Body of Benchers",
+          question: "State the Body of Benchers' establishment, quorum, and key functions.",
+          answer: [
+            "S.3(1) LPA; body corporate with perpetual succession. Composed of CJN, all JSC, CA President, AGF, Chief Judges, CLE Chairman, NBA President, 30 LPs nominated by NBA, up to 10 persons of 15+ years nominated by BOB",
+            "Quorum 10 (15 to elect a Vice-Chairman/new member)",
+            "Functions: formal Call to the Bar (s.3(1)); issues Certificate of Call; prescribes call fees/dining terms; disciplinary jurisdiction over aspirants and LPs; appoints the LPDC",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "NJC & GCB",
+          question: "What is the NJC's composition and function, and what does the GCB do?",
+          answer: [
+            "NJC - s.153(1)(i) & 3rd Sch. Pt I CFRN: CJN (Chairman) + CA President + retired Justices + Chief Judges + NBA members + non-lawyers. Recommends appointment/removal/discipline of judicial officers; controls judiciary funds",
+            "GCB - s.1 LPA: AGF (Chairman), AGs of States, 20 elected NBA members. Quorum 8. Makes/revises the RPC and Legal Practitioners' Accounts Rules (s.20 LPA)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "NBA",
+          question: "Is the NBA a statutory creation, and how does it sue/get sued?",
+          answer: [
+            "Not a statutory creation - a registered association recognised by the LPA (ss.8(3), 24); registered 8 April 1983 as Registered Trustees of the NBA",
+            "Membership is automatic on enrolment at the Supreme Court. Juridical, not juristic: sues/is sued only as the Registered Trustees - Fawehinmi v NBA (No.2) (1989)",
+            "Functions: maintenance of honour/independence of the Bar; prosecutes members before the LPDC; issues practising certificates (Rule 12 RPC); organises CPD",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "LPDC, LPPC, LPRC, CLE",
+          question: "State the composition/quorum of the LPDC and its key function.",
+          answer: [
+            "S.10 LPA, a committee of the Body of Benchers: Chairman (not CJN/JSC); 2 JCA; 2 Chief Judges; 2 AGs; 4 NBA members unconnected to the investigation. Quorum 5 (3+ from (a)/(b))",
+            "Considers and determines allegations of professional misconduct; CJN makes the LPDC's procedural rules (LPDC Rules 2020)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "LPDC, LPPC, LPRC, CLE",
+          question: "State the LPPC's function, and the CLE's key case.",
+          answer: [
+            "LPPC - s.5(3) LPA: confers and withdraws the rank of SAN; makes rules on SAN privileges and dignity of the rank",
+            "LPRC - s.15(1) LPA: makes orders regulating lawyers' charges - the Legal Practitioners Remuneration Order 2023",
+            "CLE - s.1(1) Legal Education Act 1962: formal legal education, issuance of qualifying certificates - Okonjo v Council of Legal Education (1979), upholding CLE's rule-making power; the CLE has juristic personality, the NLS does not",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Order of Precedence",
+          question: "List the first five in the order of precedence at the Bar (First Schedule, LPA).",
+          answer: [
+            "(1) Attorney-General of the Federation; (2) Attorneys-General of the States (by SAN seniority then enrolment, but an AG of a State takes precedence in courts created by that State except the FHC)",
+            "(3) Solicitor-General of the Federation; (4) Life Benchers; (5) Senior Advocates of Nigeria",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Exclusive Rights",
+          question: "List the nine exclusive rights of a legal practitioner (mnemonic Re DJS PLANS).",
+          answer: [
+            "Representation/right of audience; preparation of Documents for court proceedings; Statutory declaration of compliance on company formation (no longer exclusive under CAMA 2020)",
+            "Conveyancing; Preparation of probate/LOA documents; appointment as judicial officer of a superior court; AG of Federation/State; Notary Public; conferment of SAN rank",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Exclusive Rights",
+          question: "What is the penalty for a non-lawyer doing conveyancing, and what are the two exceptions?",
+          answer: [
+            "s.22(1)(d) LPA; ss.2 & 4 Land Instruments Registration Law. Penalty: ₦200 fine or 2 years' imprisonment, or both",
+            "Exceptions: a non-lawyer may prepare an instrument to which he is himself a party - s.22(4)(b) LPA; a non-lawyer may draft a Will for a fee - s.22(4)(e) LPA (Wills are expressly excluded from exclusivity)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Restrictions",
+          question: "State the practising fee rule and the current scale.",
+          answer: [
+            "s.8(2) LPA; Rule 9 RPC. Payable before 31 March each year (within 1 month of enrolment for new wigs)",
+            "Scale: SANs/Benchers ₦50,000; 15+ years ₦25,000; 10-14 years ₦17,500; 5-9 years ₦10,000; 1-4 years ₦5,000",
+            "Paid to the Registrar of the Supreme Court; 9/10 remitted to NBA, 1/10 retained by the Court - s.8(3)(c) LPA",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Restrictions",
+          question: "State the restrictions on salaried employment and on serving/retired judicial officers.",
+          answer: [
+            "Rule 8 RPC: a lawyer in salaried employment may not appear in court for, or sign pleadings for, his employer, except as a Government legal officer. A company director who is a lawyer may not represent the company as advocate even pro bono",
+            "s.292(2) CFRN; Rule 6 RPC: a retired judicial officer may never thereafter appear or act as an advocate before any court - Atake v Afejuku. He may still practise as a solicitor, represent himself, and may continue to use the title 'Justice' - Rule 6(5)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Restrictions",
+          question: "State the restrictions on Senior Advocates of Nigeria.",
+          answer: [
+            "s.5(8) LPA; SAN Rules 1979/1990: may not appear in a civil matter before a superior court without a junior or another SAN (criminal matters excepted)",
+            "May not appear in, or sign/file processes for, an inferior court - Registered Trustees of ECWA v Ijesha",
+            "May not settle an instrument chargeable below ₦400; may practise only as a Barrister unless in partnership with a non-SAN",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Restrictions",
+          question: "State the CPD credit-hour requirements, and the notification-of-practice rule.",
+          answer: [
+            "Rule 11 RPC: 0-5 years' call - 24 hours; >5-10 years - 18 hours; above 10 years - 12 hours, annually",
+            "Rule 13 RPC: a lawyer setting up a law office must notify the local NBA branch within 30 days, stating name, date of call, enrolment date and office address; similar notice on change of name/address",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Impersonation",
+          question: "What are the four acts of impersonation under s.22 LPA, and the penalty?",
+          answer: [
+            "(a) Practise or hold himself out to practise as a legal practitioner; (b) take/use the title; (c) wilfully use any name/title implying he is a legal practitioner; (d) prepare, for reward, instruments relating to immovable property, probate/LOA, or court proceedings",
+            "Penalty: for (a), or a 2nd+ offence under (d) - fine up to ₦200 or imprisonment up to 2 years, or both. For any other case - fine up to ₦100",
+            "3-year limitation on prosecutions, from the offence date - s.22(6). Money received is recoverable and any agreement is void, whether or not proceedings are brought - s.22(7)",
+          ],
+          source: "Lecturer slides",
+        },
+      ],
+    },
+    {
+      id: "professional-ethics-week-5",
+      title: "Week 5: Duties of Counsel to Client",
+      instructions: "Try to answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
+      cards: [
+        {
+          category: "Overview",
+          question: "State the three heads of a lawyer's duties to the client, and the rule range.",
+          answer: [
+            "Duty of honesty (fiduciary duty); duty of skill and care; duty of professional secrecy/privilege (confidentiality)",
+            "Rules 14-25 RPC 2023 (mnemonic DRR CAP L/W CaDRI)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Rule 14 - Dedication",
+          question: "State the lawyer's duties under Rule 14.",
+          answer: [
+            "Devote attention, energy and expertise, act consistently with the client's best interest - Rule 14(1)",
+            "Consult on questions of doubt; keep client informed; warn of risks; respond promptly; tell client if claim/defence is hopeless - Rule 14(2)",
+            "Be personally present in court or properly represented throughout - Rule 14(4); negligence may amount to professional misconduct - Rule 14(5)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Rule 15 - Within the Bounds of the Law",
+          question: "What is the lawyer's first duty, and what must he do if the client insists on illegality?",
+          answer: [
+            "First duty is to the court, which supersedes duty to the client. Must keep strictly within the law notwithstanding contrary instructions; where the client insists on illegality, he must withdraw - Rule 15(1)-(2)",
+            "Rule 15(3) prohibits: advice causing disrespect to a judicial officer; harassing litigation; unwarranted claims; failing to inform of ADR options; concealing what he must disclose; using perjured evidence; false statements of law/fact; counselling illegal conduct",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Rule 15 - Within the Bounds of the Law",
+          question: "What must a lawyer do if he learns his client has committed fraud?",
+          answer: [
+            "Call on the client to rectify it; if the client refuses, disclose the fraud to the affected person/tribunal unless privileged; if the perpetrator is not his client, promptly reveal the fraud to the tribunal - Rule 15(4); s.192(1) Evidence Act 2011",
+            "Goodenough v Spencer (1874): instructions given to evade duty cannot be shielded as privileged",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Rule 16 - Competence",
+          question: "What must a lawyer not do under Rule 16?",
+          answer: [
+            "Handle a matter he is not competent to handle without associating a competent colleague (unless client objects)",
+            "Handle a matter without adequate preparation; neglect a matter entrusted to him; attempt to exonerate or limit his liability for malpractice/misconduct",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Rule 17 - Conflict of Interest",
+          question: "State the key disclosure and acceptance rules under Rule 17.",
+          answer: [
+            "Disclose, at time of retainer, all circumstances of relations with parties and any interest that might influence the client's choice - Rule 17(1)",
+            "Must not accept a retainer where his own interest may affect his professional judgment, except with informed consent - Rule 17(2)",
+            "Must not acquire a proprietary interest in the subject matter of litigation, save a lien for fees or a reasonable contingent fee - Rule 17(3)",
+            "Onigbongbo Community v Minister of Lagos Affairs: acting against a former client on an unrelated matter, with disclosure, is not a breach",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Rule 18 & 19",
+          question: "State the rules on client agreements (Rule 18) and privilege (Rule 19).",
+          answer: [
+            "Rule 18: client is free to choose/dispense with his lawyer at any time, but this does not absolve agreed obligations including fees; important agreements should be in writing",
+            "Rule 19: all client communications in the normal course of employment are privileged; must not reveal or use to disadvantage - s.192 Evidence Act (survives termination - s.192(3); extends to interpreters/clerks - s.193)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Rule 19 Exceptions",
+          question: "List the six exceptions to client privilege under Rule 19(3).",
+          answer: [
+            "(1) With client's consent after full disclosure; (2) permitted by RPC, required by law, or court order",
+            "(3) client's intention to commit a crime, info necessary to prevent it; (4) necessary to establish/collect fee; (5) necessary to defend himself against an accusation; (6) fact observed showing a crime/fraud since the employment began",
+            "Myers v Elman (1940): instructions given to perpetrate a fraud are not privileged",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Rule 20 - Lawyer as Witness",
+          question: "What is the general rule and the four exceptions allowing a lawyer to act despite being a potential witness?",
+          answer: [
+            "A lawyer is a competent but not compellable witness for his client - s.173 Evidence Act. Must not act where he knows he may be called as a witness - Rule 20(1)",
+            "Exceptions: (a) uncontested/formal matter; (b) no substantial opposing evidence needed; (c) testimony solely on value of legal services; (d) withdrawal would cause substantial hardship due to his distinctive value",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Rule 21 - Withdrawal",
+          question: "List the four grounds for good-cause withdrawal (mnemonic WRAP CUP), and the withdrawal procedure.",
+          answer: [
+            "(a) Conflict of interest between lawyer and client; (b) client insists on an unjust/immoral course; (c) client persists in a frivolous case against advice; (d) client deliberately disregards an obligation to pay fees - Rule 21(2)",
+            "Procedure: reasonable written notice to the client; notify the court if litigation is pending; refund fees not yet earned (quantum meruit) - Rule 21(3)-(4)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Rule 22 - Calling at Client's House",
+          question: "When may a lawyer take instructions outside the law office?",
+          answer: [
+            "Generally should not, except in special/urgent circumstances preventing the client from attending - e.g. client is sick, in custody, of extreme old age, or (per Mayowa's note) national/state security matters concerning a sitting President/Governor",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Rule 23 - Client's Property",
+          question: "What are the three separate accounts required, and the key case on set-off?",
+          answer: [
+            "Must not abuse confidence for personal gain - Rule 23(1); must promptly report and account for client money/property, not mix it with his own - Rule 23(2); NBA v Akintokun",
+            "Requires three separate accounts: personal/office, client, and trust",
+            "A bank cannot set off a lawyer's personal indebtedness against money in his client account unless the indebtedness arose in connection with that account - Re a Solicitor (1977); s.20(1) LPA",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Rule 24 - Cab-Rank Rule",
+          question: "State the cab-rank rule and the WRAP CUP exceptions.",
+          answer: [
+            "A lawyer is duty-bound to accept a brief on payment of a proper professional fee, unless special circumstances justify refusal",
+            "WRAP CUP: Witness-likely; Religious/moral/personal grounds; Area outside his practice (no colleague to pair with); Party (he is himself a party); Conflict of interest; Unwarranted/harassing case; Professional fees not agreed/paid",
+            "He controls incidental matters (trial dates, adjournments) without further client instruction - Adewunmi v Plastex Nig Ltd (striking out an appeal without consent, touching the merits, was wrong)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Rule 25 - Investigation of Facts",
+          question: "Can a lawyer interview the opposing side's witness, and what is prohibited?",
+          answer: [
+            "Yes - may interview without opposing counsel's consent, but must not secrete a witness - Rule 25(1) (distinct from the Rule 19 bar on communicating with a represented party directly)",
+            "Must not bargain with a witness over a fee for testimony, though reasonable expenses may be reimbursed - Rule 25(2); must not advertise for a witness to testify to a particular version of events - Rule 25(3)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Rule 29 - Change of Counsel",
+          question: "What must the new lawyer do when a client changes counsel, and what can the former lawyer keep?",
+          answer: [
+            "New lawyer: give prompt notice to the former lawyer; ensure the former lawyer's earned fees are paid; both notify the court",
+            "Former lawyer must hand over: letters written to third parties at client's direction, copies, and drafts made in the course of business",
+            "Former lawyer may keep: letters the client wrote to him, copies of his own letters, and a lien on the client's papers for unpaid fees",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Professional Negligence",
+          question: "State the standard of care under s.9 LPA, and the two exceptions to liability.",
+          answer: [
+            "A legal practitioner is not immune from liability for negligence; any contractual exclusion is void - s.9(1). Standard: that of a reasonably competent, careful practitioner - Montriou v Jeffereys (1825)",
+            "Exception 1: no liability where acting pro bono - s.9(2)",
+            "Exception 2: no liability for negligence in the conduct of court proceedings (e.g. failure to cross-examine) - s.9(3); Rondel v Worsley (1967)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "AI in Client Work",
+          question: "What is the ethical position on using AI in research or drafting for a client?",
+          answer: [
+            "AI feedback must always be cross-checked for errors before being relied on for legal argument or advice; liability can still arise against the lawyer personally - Rule 16 RPC (competence); s.9 LPA (negligence is not excused by reliance on a tool)",
+            "Signature, seal and stamp remain the lawyer's own responsibility - Rule 10 RPC",
+          ],
+          source: "Lecturer slides",
+        },
+      ],
+    },
+    {
+      id: "professional-ethics-week-6",
+      title: "Week 6: Duties to Court, State, Colleagues and Profession; Contempt",
+      instructions: "Try to answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
+      cards: [
+        {
+          category: "Duty to the Profession",
+          question: "State Rules 1-4 RPC in brief.",
+          answer: [
+            "Rule 1: uphold the rule of law, foster justice, maintain high conduct standards, no conduct unbecoming",
+            "Rule 2: shall not knowingly act to admit an unsuitable person into the profession",
+            "Rule 3: shall not aid a non-lawyer in unauthorised practice, or share fees with a non-lawyer, or frank a non-lawyer's document",
+            "Rule 4: shall not permit professional services to be controlled/exploited by a lay intermediary",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Duty to the State",
+          question: "What is the lawyer's quasi-official position, and what happens if his advice leads to a crime?",
+          answer: [
+            "'The Attorneys are its Ministers' - Crampton J in R v O'Connell",
+            "Duty not to advise or assist in violation of the law - Rule 15; where a lawyer's advice leads to a crime, he becomes implicated in the client's guilt - Goodenough v Spencer; Myers v Elman",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Duty to Court",
+          question: "State the officer-of-court duty (Rule 30) and the modes of address in different courts.",
+          answer: [
+            "Rule 30: a lawyer is an officer of court and must not obstruct, delay or adversely affect the administration of justice",
+            "SC/CA: 'My Lords'/'Your Lordships'; HC Judge (male): 'My Lord'; HC Judge (female): 'My Lady'; Magistrate: 'Your Worship' (Lagos: 'Your Honour'); Area/Customary Court: 'Your Honour'; fellow counsel: 'My Learned Friend'",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Duty to Court",
+          question: "State the candour and fair-dealing duty under Rule 32, and the sub judice duty under Rule 33.",
+          answer: [
+            "Rule 32: must disclose adverse authority known to him and not disclosed by opposing counsel; must not knowingly mislead the court, misquote evidence/authority, or cite overruled/repealed authority as good law",
+            "Rule 33: must not make an extra-judicial statement calculated to prejudice a fair trial while litigation is pending/anticipated. Fair, civil, accurate comment is not a breach - Okoduwa v State",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Duty to Court - Criminal Cases",
+          question: "State the prosecuting counsel's primary duty (Rule 37), and when defending counsel must withdraw.",
+          answer: [
+            "Prosecuting counsel: primary duty is not to convict but to see justice done - Rule 37(6); must not suppress favourable facts, must make timely disclosure - Atanda v AG (1965)",
+            "Defending counsel: must defend regardless of personal opinion as to guilt. Confidential disclosure of guilt alone does not require withdrawal - a not guilty plea merely challenges the prosecution to prove its case",
+            "Must withdraw only if the client insists on giving, or calling, false evidence of innocence - Rule 15(3)(f)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Duty to Colleagues",
+          question: "State Rule 26 (fellowship) and Rule 27 (good faith and fairness).",
+          answer: [
+            "Rule 26: treat one another with respect, fairness, consideration and dignity; all lawyers are equal regardless of rank subject to precedence - Allinson v GMC",
+            "Rule 27: adhere to promises with opposing counsel; do not take undue advantage of an opposing lawyer's predicament (sharp practice); do not covet clients already represented without first notifying the other lawyer",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Duty to Colleagues",
+          question: "State Rule 28 on associating in a matter.",
+          answer: [
+            "It is the client's right to bring in an additional lawyer; a later lawyer must decline if objectionable to the original lawyer, unless he is relieved/withdraws",
+            "Where jointly associated lawyers disagree on a matter vital to the client's interest, the client's decision is final - if a lawyer's overruled judgment makes cooperation impracticable, he must withdraw",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Contempt of Court",
+          question: "Define contempt of court, and distinguish in facie curiae from ex facie curiae.",
+          answer: [
+            "Any conduct that tends to bring the authority/administration of the court into disrepute, or obstructs due administration of justice, or disobeys a court order - Awobokun v Adeyemi. Not every discourteous act is contempt - Izuora v R",
+            "In facie curiae (in the face of the court): dealt with summarily by the presiding judge, or ordinary process; contemnor is put in the dock, not the witness box - Deduwa v The State",
+            "Ex facie curiae (outside the court): must follow ordinary criminal procedure before a different judge, especially where the judge personally attacked is complaining - Boyo v AG Mid-Western State",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Contempt of Court",
+          question: "Distinguish criminal contempt from civil contempt, with examples.",
+          answer: [
+            "Criminal contempt: words/acts obstructing or tending to obstruct justice, or scandalising the court - e.g. calling a judge a liar; publications attacking a judge in a pending matter",
+            "Civil contempt: disobedience of a court order/judgment, private injury, almost always ex facie curiae - e.g. refusing to vacate land under an injunction",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Civil Contempt Procedure",
+          question: "State the four-step procedure for civil contempt.",
+          answer: [
+            "(1) File and serve Form 48 - Notice of Consequence of Disobedience to Court Order",
+            "(2) Contemnor responds within 2 clear days (some texts: a reasonable time to purge)",
+            "(3) On default, file and serve Form 49 - Notice to Show Cause why an Order of Attachment should not be made",
+            "(4) On further default, a bench warrant issues for arrest; bail grantable only by the court whose order was disobeyed",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Proof and Punishment",
+          question: "What is the standard of proof for contempt, and the maximum punishment under Criminal Code vs Penal Code states?",
+          answer: [
+            "Proved beyond reasonable doubt, being penal in character - Awobokun v Adeyemi; Agbachom v The State",
+            "Criminal contempt (Criminal Code states): 3 months - s.133 Criminal Code; Okoma v Udoh",
+            "Criminal contempt (Penal Code states): 6 months or fine, or both - s.155 Penal Code",
+            "Civil contempt: 6 months (Halsbury's) or committal until purged (Ikabala v Ojosipe) - both apply to different fact patterns",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Jurisdiction",
+          question: "Can a Magistrate Court punish contempt committed outside its own face?",
+          answer: [
+            "No - the Magistrate Court has no jurisdiction to punish ex facie contempt; it is tried in the High Court (or above) - Nunku v IGP",
+            "All courts, including Magistrate Courts, may punish contempt in their own face - s.6(6)(a) CFRN",
+          ],
+          source: "Lecturer slides",
+        },
+      ],
+    },
+    {
+      id: "professional-ethics-week-7",
+      title: "Week 7: Anti-Money Laundering and Combating the Financing of Terrorism",
+      instructions: "Try to answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
+      cards: [
+        {
+          category: "Framework",
+          question: "What is the legal framework, and what are the four Rule 55(1)/56(1) objectives?",
+          answer: [
+            "RPC 2023, Chapter 2 (Rules 55-72); Money Laundering (Prevention and Prohibition) Act 2022",
+            "(1) Adherence to the rule of law; (2) protection of client confidentiality while preventing misuse of legal services; (3) self-regulation of the legal profession; (4) adoption of a risk-based approach",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Key Obligations",
+          question: "In which specific transactions does the duty to report/comply arise - Rule 57(1)?",
+          answer: [
+            "Forming legal entities for a client; arranging for another to act as secretary/director of a company; acting as trustee; conducting sale/purchase of real estate; certain advisory services",
+            "Failure to comply is a professional offence. Exception for Notary Public duties and merely certifying certain documents - Rule 57(4)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Record Keeping & Risk",
+          question: "State the record-keeping period, and the risk-based approach rule.",
+          answer: [
+            "Rule 58: maintain up-to-date records of high-risk clients/business, retain for at least 5 years after completion of the transaction",
+            "Rule 61: assess, identify and understand ML risks; take proportionate mitigating measures; consider client, transaction and geographical risk factors - Rule 63",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "High-Risk Clients",
+          question: "Who are considered high-risk clients (Rule 64), and name the risk mitigation strategies.",
+          answer: [
+            "Politically Exposed Persons (PEPs); companies with subsidiaries in high-risk countries; clients from regions known for terrorism or corruption",
+            "Mitigation: staff training; periodic reviews of risk-assessment procedures; internal risk assessment guidelines - Rule 68",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Client Due Diligence",
+          question: "What does CDD involve under Rule 69, and name some red flags.",
+          answer: [
+            "Verify client identity and beneficial ownership; understand the nature/purpose of the business relationship; ongoing monitoring",
+            "Client need not be physically present - due diligence by questions, calls, social media",
+            "Red flags: clients avoiding face-to-face meetings; cash-intensive businesses with no obvious reason; complex corporate structures; intermediaries obscuring beneficial ownership",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Reporting",
+          question: "State the reporting obligations under Rule 71, and the sanctions screening requirement.",
+          answer: [
+            "Report suspicious transactions to the appropriate authorities; comply with Targeted Financial Sanctions mechanisms",
+            "Screen transactions against the UN Consolidated Sanctions List and the Nigerian Sanctions List (www.nigsac.gov.ng) - Rule 60",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "NBAAMLC",
+          question: "What is the role of the NBAAMLC under Rule 73?",
+          answer: [
+            "Advises the NBA on AML implementation; conducts compliance examinations of law firms; reports to SCUML",
+            "Where a client commits money laundering, the lawyer reports to the NBAAMLC, which reports to the NFIU via Suspicious Transaction Reports (STRs) - Rule 71",
+            "Non-compliance is professional misconduct - may lead to disciplinary proceedings and referral to the LPDC - Rule 74",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Case Law",
+          question: "What did NBA v AG Federation & CBN hold about the 2011 Act, and what changed under the 2022 Act?",
+          answer: [
+            "The Federal High Court held s.25 of the Money Laundering (Prohibition) Act 2011 did not apply to lawyers - Mike Ozekhome v FRN is to similar effect",
+            "By the 2022 Act, legal practitioners and notaries are expressly listed under 'designated non-financial businesses and professions' - s.30 - required to register with SCUML and report to SCUML, EFCC and other authorities, subject to Rule 19 RPC/ss.192-193 Evidence Act protections",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Thresholds & Privilege",
+          question: "State the mandatory reporting thresholds (s.11, 2022 Act), and when privilege is excluded (s.11(4)).",
+          answer: [
+            "Report to SCUML within 7 days: any single transaction/funds exceeding ₦5,000,000 (individual) or ₦10,000,000 (body corporate). Fine: ₦250,000-₦1,000,000 per day of continuing contravention",
+            "Privilege excluded for: purchase/sale of property or a business; managing client money/securities/assets; opening/managing bank accounts; creating/managing trusts or companies; anything produced in furtherance of an unlawful act",
+          ],
+          source: "Lecturer slides",
+        },
+      ],
+    },
+    {
+      id: "professional-ethics-week-8",
+      title: "Week 8: Appointment and Discipline of Judicial Officers; Discipline of Legal Practitioners",
+      instructions: "Try to answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
+      cards: [
+        {
+          category: "Who is a Judicial Officer",
+          question: "Define a judicial officer, and who is excluded.",
+          answer: [
+            "One who presides over a superior court of record - s.318(1), s.6(5)(a)-(j) CFRN: SC, CA, FHC, NIC, FCT HC, State HC, Sharia CA, Customary CA - 10 courts in total",
+            "Magistrates, and Judges of Area/Customary Courts, are NOT judicial officers for this purpose - supervised by the High Court, employed by the State JSC",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Qualification",
+          question: "State the minimum post-call standing for SC, CA, FHC and State HC appointments.",
+          answer: [
+            "Supreme Court: 15 years - s.231(3) CFRN",
+            "Court of Appeal: 12 years - s.238(3) CFRN",
+            "Federal High Court: 10 years - s.250(3) CFRN",
+            "FCT/State High Court: 10 years - s.256(3)/271(3) CFRN",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Appointment Procedure",
+          question: "Who appoints the CJN and Justices of the SC, and who confirms?",
+          answer: [
+            "Appointed by the President, on recommendation of the National Judicial Council, confirmed by the Senate",
+            "Similar pattern for CA President/Justices (confirmation only for President); CJ of FHC/FCT HC (confirmation only for CJ)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "NJC Guidelines",
+          question: "Outline the NJC's procedural steps for new state-level judicial appointments.",
+          answer: [
+            "Chairman of SJSC writes to the Governor seeking consent; copy sent to NJC Secretary; head of court calls for nominations",
+            "Candidates shortlisted (double the required number), circulated for comments; shortlisted candidates complete NJC Form A",
+            "SJSC forwards selected names to NJC with supporting documents; NJC interviews and recommends to the Governor/President; appointment with confirmation where required",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Discipline of Judicial Officers",
+          question: "State the three grounds for removal under s.292(1) CFRN (mnemonic MBI).",
+          answer: [
+            "(i) Misconduct; (ii) Breach of the Code of Conduct for Judicial Officers; (iii) Inability to discharge functions (infirmity of mind or body)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Discipline of Judicial Officers",
+          question: "What is the NJC's role in removal, and what did Elelu-Habeeb v AG Federation establish?",
+          answer: [
+            "The NJC cannot itself remove a judicial officer - it can only recommend removal; can itself suspend, warn, retire, or put on a watch list",
+            "NJC's participation/recommendation is a condition precedent to removal - a Governor and House of Assembly cannot remove a Chief Judge without NJC involvement - Elelu-Habeeb v AG Federation",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Discipline of Judicial Officers",
+          question: "State the procedure under the Judicial Discipline Regulations 2017, and the options open to an aggrieved lawyer.",
+          answer: [
+            "Complaint in writing to the NJC Chairman (CJN) within 6 months; assessed by a Preliminary Complaint Assessment Committee; referred to an Investigation Committee; subject officer notified and given opportunity to reply; final decision ranges from dismissal to recommend removal",
+            "Aggrieved lawyer: apply to the judge to recuse himself; petition the Chief Judge for reassignment; proceed and make the misconduct a ground of appeal; or petition the NJC directly",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Retirement Age",
+          question: "State the voluntary and compulsory retirement ages - s.291 CFRN.",
+          answer: [
+            "Supreme Court/Court of Appeal Justices: voluntary at 65, compulsory at 70",
+            "All other superior-court judges: voluntary at 60, compulsory at 65",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Discipline of Lawyers",
+          question: "List the four professional offences under s.12 LPA (mnemonic ICOC).",
+          answer: [
+            "Infamous conduct in a professional respect; Conviction by a Nigerian court (incompatible with status); Obtaining enrolment by fraud; Conduct not amounting to infamous conduct but incompatible with status",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Infamous Conduct",
+          question: "What two conditions must be satisfied for 'infamous conduct', and when should the LPDC stay its hand pending a criminal trial?",
+          answer: [
+            "(i) The conduct is of a serious nature; (ii) committed in the course of practice (while acting or purporting to act in a professional capacity) - Re Idowu; NBA v Edu",
+            "Where the alleged misconduct also discloses a crime, the LPDC should stay its hand pending the criminal outcome - Denloye v MDPDC - but only where the lawyer denies the allegation; if he admits it, or the charge discloses only an RPC breach, the LPDC may proceed - Dongtoe v CSC Plateau State",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "LPDC Procedure",
+          question: "Who may send a complaint to the LPDC, and what documents accompany it (mnemonic SAD)?",
+          answer: [
+            "The CJN; the AGF; the President/Presiding Justice of the CA; the NBA President/branch Chairman; the Chairman of the Body of Benchers; or the LPDC directly",
+            "SAD: Statement of the allegation; Affidavit of facts; Documents/exhibits relied on",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "LPDC Procedure",
+          question: "What is the standard of proof before the LPDC, and why?",
+          answer: [
+            "Balance of probabilities (preponderance of evidence) - not the criminal standard, as LPDC proceedings are not criminal",
+            "The Evidence Act does not apply; parties may appear in person or by counsel; NBA appoints a prosecuting lawyer unconnected with the investigation",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "LPDC Sanctions & Appeals",
+          question: "List the LPDC's sanctions (mnemonic SSAD/L), and the appeal route.",
+          answer: [
+            "Striking off the roll (grievous misconduct only); Suspension for a specified period; Admonition; Direction to refund money/return documents/hand over anything",
+            "Appeals from the LPDC lie directly to the Supreme Court - s.12(7) LPA; Aladejobi v NBA. Must be filed within 28 days of service. Once the SC decides, the LPDC cannot re-entertain",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Restoration to the Roll",
+          question: "What body hears a restoration application, and what factors are considered (mnemonic GRAfit)?",
+          answer: [
+            "Application to the body that imposed the sanction - s.14 LPA",
+            "Gravity of the offence; Remorse between striking off and application; Applicant has become a fit and proper person to be reintegrated",
+            "A high degree of care is exercised before restoration - Re Abuah; Adesanya v AG Federation",
+          ],
+          source: "Lecturer slides",
+        },
+      ],
+    },
+    {
+      id: "professional-ethics-week-9",
+      title: "Week 9: Drafting I - Basic Principles, Stages, Legislative Drafting",
+      instructions: "Try to answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
+      cards: [
+        {
+          category: "Aims of Drafting",
+          question: "What should every draft be?",
+          answer: [
+            "Accurate (covers the client's instructions); complete, precise and clear; written in contemporary English; short and simple",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Five Stages",
+          question: "List the five stages of drafting (mnemonic RADCS).",
+          answer: [
+            "Receiving and understanding the instruction; Analysing, classifying and researching; Designing and planning the draft; Composition; Scrutiny, editing and checking",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Habits to Avoid",
+          question: "List the six drafting habits to avoid.",
+          answer: [
+            "Archaic words ('the said', 'hereinafter'); passive language; verbosity; excessive/intricate expressions; unfamiliar/foreign words; inconsistency (never change a defined term mid-document)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Computation of Time",
+          question: "Table: key time expressions and their legal effect.",
+          answer: [
+            "'ON' - date included; 'FROM' - date excluded; 'BY' - date included; 'AFTER'/'BEFORE' - date excluded; 'WITHIN' - date excluded",
+            "'BETWEEN...TO' - both dates excluded; 'TILL'/'UNTIL' - ambiguous, specify; 'AT THE EXPIRATION OF' - generally included",
+            "'NOT LATER THAN'/'NOT EARLIER THAN' - date included; 'FORTHWITH'/'IMMEDIATELY' - imprecise; avoid 'WITHIN A REASONABLE TIME' - specify a period instead",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Numbering Hierarchy",
+          question: "Give the numbering hierarchy from Section down to sub-sub-paragraph.",
+          answer: [
+            "Section: Arabic numeral, no bracket - 1",
+            "Subsection: Arabic numeral, in bracket - (1)",
+            "Paragraph: lower-case letter, in bracket - (a)",
+            "Sub-paragraph: lower-case Roman numeral, in bracket - (i)",
+            "Sub-sub-paragraph: upper-case letter, in bracket - (A)",
+            "Example: 1(1)(a)(i)(A)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Elements of a Legal Sentence",
+          question: "What are the four CaCoSA elements, with a worked example?",
+          answer: [
+            "Case (circumstance triggering the action); Condition (to be satisfied first); Subject (person conferred with the power); Action (right/power, linked by 'shall'/'may')",
+            "Example: Where any person has obtained a degree in law (case), if he applies to the Law School (condition), the Council of Legal Education (subject) may admit him to the Law School (action)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Key Drafting Words",
+          question: "Distinguish 'shall' from 'may', and 'means' from 'includes'.",
+          answer: [
+            "'Shall'/'Must': mandatory, obligatory - Maiwada v FBN Plc. 'Will'/'May': discretionary - Auchi Polytechnic v Okuoghae",
+            "'Means': closed/restricted definition. 'Includes': open/non-exhaustive definition. Never use 'means' and 'includes' together",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Key Drafting Words",
+          question: "Distinguish 'notwithstanding' from 'subject to' and 'without prejudice to'.",
+          answer: [
+            "'Notwithstanding': overrides the provision referred to - a proviso of superiority",
+            "'Subject to': the opposite - subordinate/inferior to the provision referred to",
+            "'Without prejudice to': the referenced section is unaffected; both provisions run concurrently",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Legislative Drafting",
+          question: "List the four segments of a legislation (mnemonic for Preliminary - LoCEPESI).",
+          answer: [
+            "Preliminary: Long title; Commencement; Enacting formula; Preamble (if any); Establishment clause; Short title; Interpretation section",
+            "Principal provisions: substantive powers/duties; offences and penalties",
+            "Miscellaneous: savings; duration; power to make subsidiary legislation",
+            "Final: schedules; repeals; transitional provisions; citation",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Legislative Drafting",
+          question: "What is a long title, and what case shows it can resolve an ambiguity in the body of the Act?",
+          answer: [
+            "States the scope/purpose of the legislation, in block capitals, comes first. For an Act: 'AN ACT to...'; for a Bill: 'A BILL FOR AN ACT to...'",
+            "Can be used to resolve an ambiguity in the body of the Act - Bello v AG Oyo State (1986)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Legislative Drafting",
+          question: "State the four commencement possibilities, and the enacting formula for the National Assembly.",
+          answer: [
+            "(i) A stated date; (ii) a date to be fixed by a named authority; (iii) on the occurrence of a stated event; (iv) where no provision is made, on the date of assent - s.6 Interpretation Act",
+            "National Assembly: 'ENACTED by the National Assembly of the Federal Republic of Nigeria as follows:'",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Legislative Drafting",
+          question: "What is a schedule, and what case established the incorporation-by-reference doctrine?",
+          answer: [
+            "Banishes bulky technical detail (tables, forms, codes of conduct) from the body of the Act; must be incorporated by reference in a section, and becomes part of the legislation - AG v Lamplough (1878)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Legislative Drafting",
+          question: "List the five features of a good legislation.",
+          answer: [
+            "(1) Must not command the doing of the impossible - lex non cogit ad impossibilia; (2) must not have retrospective application",
+            "(3) Must be of equal application, not targeted at an individual - Lakanmi v AG Western Region; (4) must not be ambiguous; (5) must not oust the jurisdiction of the court",
+          ],
+          source: "Lecturer slides",
+        },
+      ],
+    },
+    {
+      id: "professional-ethics-week-10",
+      title: "Week 10: Drafting II - Letters, Minutes, Memoranda, CV, Legal Opinion",
+      instructions: "Try to answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
+      cards: [
+        {
+          category: "Letters",
+          question: "List the 15 parts of a letter.",
+          answer: [
+            "Letterhead; Reference number; Date; Writer's address (if not on letterhead); Addressee's name/address; Attention; Confidential; Personal; Salutation; Subject matter/heading",
+            "Body; Complimentary close; Signature and name; Enclosure (ENCL); Copy (CC/BC)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Letters",
+          question: "Distinguish 'Yours faithfully' from 'Yours sincerely', and state the signature rule.",
+          answer: [
+            "'Yours faithfully' follows 'Dear Sir/Madam' (general); 'Yours sincerely'/'Yours truly' follows a named salutation",
+            "Write above the typed name; never sign in the firm's name alone - SCC (Nig) Ltd v Ekenma; use 'for'/'PP' when signing on another's behalf",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Special Negotiation Terms",
+          question: "Explain 'subject to contract' and 'without prejudice'.",
+          answer: [
+            "'Subject to contract': parties are not bound by negotiation terms until a formal contract is executed - Tejumola & Sons v UBA; no effect once negotiations are concluded - UBA v Tejumola & Sons",
+            "'Without prejudice': ss.26, 196 Evidence Act - a statement so marked during settlement negotiations is inadmissible; need not be expressly stated unless the maker waives the protection",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Minutes",
+          question: "What is the function of minutes, and list their 12 contents.",
+          answer: [
+            "Record key issues/decisions of a meeting for reference, continuity and evidence; not taken verbatim, only highlights",
+            "Heading; those present; those in attendance; absent/apologies; opening remarks; adoption of agenda; adoption of previous minutes; matters arising; discussion/resolutions; AOB; closing remarks; date and signatures",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Office Memorandum",
+          question: "What distinguishes a memorandum, and what is the From/To convention?",
+          answer: [
+            "An internal written communication (no salutation, no complimentary close). Contents: 'MEMORANDUM' heading; Date; From; To; Subject; Body; Signature",
+            "From higher to lower authority (or peer): 'From' comes first. From lower to higher: 'To' comes first, directing it upward",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "CV",
+          question: "List the four types of CV, and what to leave out.",
+          answer: [
+            "Traditional/chronological; Academic (research-focused); Teaching (targeted, includes extracurricular teaching); Skills-based/functional (useful for employment gaps)",
+            "Leave out: a photo (unless modelling/acting); date/place of birth where not required; religion and marital status (identity-theft and discrimination risk)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "CV",
+          question: "List the 10 structural items of a CV (mnemonic PEWAM/PE WARD).",
+          answer: [
+            "Personal data; Educational background; Professional qualifications; Work experience; Additional professional qualifications; Membership of professional bodies",
+            "Leadership positions; Hobbies/interests (2+); Referees (2+); Signature and date",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Legal Opinion",
+          question: "What is a legal opinion, and how may it be drafted?",
+          answer: [
+            "A written statement by a legal expert on the legality/illegality of an action or answering a specific legal question",
+            "As a letter (where a client requires it) or as a memorandum (where sought internally, e.g. by a superior)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Legal Opinion",
+          question: "List the five layout elements of a legal opinion.",
+          answer: [
+            "(1) Subject matter - the question clearly stated; (2) Statement of facts - material facts needed to answer",
+            "(3) Analysis - applicable law, conditions, client's actual position; (4) Opinion proper - the answer, as short as possible, starting with 'yes'/'no' where feasible",
+            "(5) User disclaimer - based on the law and facts supplied as at the date given; list documents relied on",
+          ],
+          source: "Lecturer slides",
+        },
+      ],
+    },
+    {
+      id: "professional-ethics-week-11",
+      title: "Week 11: Improper Attraction of Business; Interviewing and Counselling Skills",
+      instructions: "Try to answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
+      cards: [
+        {
+          category: "Advertisement vs Soliciting",
+          question: "Distinguish advertisement, soliciting and touting.",
+          answer: [
+            "Advertisement: deliberate promotion of practice through media; permitted if fair and proper - Rule 39(1)",
+            "Soliciting: any statement/conduct calculated to lure a person to brief the lawyer, directly or through touts; prohibited - Rule 39(3)",
+            "Touting: conscious engagement of a third party to secure briefs - Rule 4 RPC",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Unacceptable Advertisement",
+          question: "List the Rule 39(2) prohibitions on advertisement content.",
+          answer: [
+            "Inaccurate or misleading; likely to diminish public confidence or bring the profession into disrepute; compares with or criticises other lawyers; claims about quality/success rate; so frequent/obstructive as to cause annoyance",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Permitted Advertisement",
+          question: "List the permitted forms of advertisement (Rules 39(4), 40-46).",
+          answer: [
+            "Reputable law list/directory; notepaper/envelopes/visiting cards; signs and notices at the office (reasonable size, sober design); writing books/articles (may add professional qualification)",
+            "Notice of change of address; associate/consultant announcement; press/radio/TV (general info only, no individual advice); robes (court use only, except with Bar Council permission)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Instigating Litigation",
+          question: "State Rule 47's prohibitions on fomenting strife.",
+          answer: [
+            "Shall not foment strife or instigate litigation; except for close relations, shall not proffer advice or bring a lawsuit without being consulted - Rule 47(1)",
+            "Shall not (Rule 47(2)): search registries for defects to seek employment; seek out personal-injury claimants; engage an agent to follow up accidents; offer rewards for referrals",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Champerty",
+          question: "Distinguish champerty from a contingent fee arrangement.",
+          answer: [
+            "Champerty: an illegal agreement where a lawyer (or third party with no previous interest) finances a suit, sharing in proceeds if it succeeds - not allowed in Nigeria",
+            "Contingent fee: instigated at the client's instance, not the lawyer's; governed by Rule 50 RPC (reasonable, not vitiated by fraud, not for criminal cases, client advised of effect)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Client Interview",
+          question: "List the purposes of a client interview.",
+          answer: [
+            "Establish the lawyer-client relationship; learn the client's goals and reduce anxiety; enable detailed information gathering",
+            "Help analyse facts and the legal problem; offer appropriate legal advice; pick the best option; fix legal/professional fees",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Client Interview",
+          question: "What is the general rule on venue, and the exceptions - Rule 22 RPC?",
+          answer: [
+            "General rule: interview at the lawyer's law office",
+            "Exceptions: client is sick/bedridden; client is in custody/under house arrest; client is of extreme old age; urgent reasons such as national security (e.g. a sitting President/Governor)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Types of Questions",
+          question: "Distinguish open from closed questions, with advantages/disadvantages of each.",
+          answer: [
+            "Open: don't demand a specific answer, let the client narrate. Advantages: encourages openness/recall; lets interviewer observe. Disadvantages: can encourage rambling; may lack detail",
+            "Closed: demand a specific/'yes or no' answer. Advantages: saves time, gets specifics. Disadvantages: may omit relevant info, risks becoming interrogation",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Interview Models",
+          question: "State Avrom Sherr's three-stage model (the primary model for this course).",
+          answer: [
+            "Listening (welcome, open questions, let client narrate); Questioning (open then closed to fill gaps, summarise to confirm); Advising (give advice, evaluate reaction, identify follow-up work, close)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Interview Models",
+          question: "State the NLS 5-stage model (secondary, more detailed breakdown).",
+          answer: [
+            "Preparation (appointment, client's own preliminary research); Beginning (welcome, confidentiality, fees); Client tells the story; Analysis (merge facts with law, propose remedies, client decides); Conclusion (closing, recap, fees)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Ethical Issues",
+          question: "List the seven ethical issues in client interview.",
+          answer: [
+            "Taking instructions only at the office - Rule 22; privilege/confidence - Rule 19; conflict of interest - Rule 17; informed consent - Rules 17(2), 19(2)(a)",
+            "Competence - Rule 16(a); not advising a client to commit a crime - Rule 15(3)(i); informing the client of ADR options - Rule 15(3)(d)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Counselling",
+          question: "What is counselling, and what must a lawyer never do?",
+          answer: [
+            "Giving legal opinion/advice based on the facts the client has narrated, once interviewing is complete. Should be directive and client-centred - the client decides, though the lawyer may state a preferred option - Rule 15(3)(d)",
+            "Must not counsel a client to commit a crime, corrupt a public officer, or any illegal act - Rule 15(3)(i); must never instigate/sponsor litigation to share proceeds (champerty)",
+          ],
+          source: "Lecturer slides",
+        },
+      ],
+    },
+    {
+      id: "professional-ethics-week-12",
+      title: "Week 12: Legal Research; AI in Research; Closing of Files; Placement Workshop",
+      instructions: "Try to answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
+      cards: [
+        {
+          category: "Legal Research",
+          question: "Define legal research and list its functions.",
+          answer: [
+            "The process of identifying and retrieving information to support legal decision-making. Steps: client interview → processing facts against applicable law → advice or action",
+            "Functions: determines the relevant area of law; acquaints the lawyer with the current position of law; determines whether client has a case; prepares for trial; helps respond to challenges",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Sources of Materials",
+          question: "Distinguish primary, secondary, tertiary and hybrid sources, with examples.",
+          answer: [
+            "Primary: generated by government, mandatory/binding - Constitution, statutes, case law, regulations",
+            "Secondary: commentary about the law, persuasive not binding - textbooks, journals, law dictionaries",
+            "Tertiary: finding tools - law report indexes, encyclopaedias of Nigerian law",
+            "Hybrid: combines elements of the above",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Methods of Research",
+          question: "Distinguish manual from electronic research methods, and name key databases.",
+          answer: [
+            "Manual: physical consultation of law reports, statute books, textbooks",
+            "Electronic: legal databases (LawPavilion, Legalpedia, Westlaw, LexisNexis); virtual/online libraries; general internet search",
+            "Further hints: law/non-law dictionaries; take notes with full citations; consult colleagues on unfamiliar areas",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "AI in Legal Research",
+          question: "State the four cautions on using AI in legal research.",
+          answer: [
+            "(1) Care must always be taken; (2) feedback must be cross-checked for errors before relying on it for legal argument",
+            "(3) Liability can still arise against the lawyer personally for an AI error; (4) signature, seal and stamp remain the lawyer's own responsibility - Rule 10 RPC; Rule 16 RPC competence duty applies",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Closing Files",
+          question: "What is file closure, and describe the procedure.",
+          answer: [
+            "Occurs when the case/matter concludes, or the lawyer-client relationship ends - distinct from the client's own general file",
+            "Procedure: two parallel lines drawn across the file face, 'CLOSED' written between; tied with ribbon, placed in a file case with suit number/parties on the spine; archived on shelf/cabinet/archive room",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Closing Files",
+          question: "List the five matters to deal with at closing, and the retention/destruction rules.",
+          answer: [
+            "Fees - refund of unearned fees/unspent costs; custody of documents - originals returned (photocopies retained, receipt obtained); client's right to original documents; length of retention (no fixed statutory period - a common suggestion is a year longer than the limitation period); self-assessment",
+            "Destruction methods (after reasonable retention): burning; shredding (with a Certificate of Destruction); erasure/deletion of electronic media; a snippet often kept for precedent, with a register of closed files maintained",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Placement Workshop",
+          question: "What is the purpose of the placement workshop, and what does the portfolio contain?",
+          answer: [
+            "Exposes students to real practice in a court or law firm as part of the Bar Part II programme",
+            "Portfolio: a log of activities/dates, reflections on what was learnt, sample work observed/produced (subject to client confidentiality - no identifying client details)",
+            "Code of conduct: punctuality, proper dressing, confidentiality (Rule 19 RPC applies even to student observers), courtesy, no unauthorised disclosure",
+          ],
+          source: "Lecturer slides",
+        },
+      ],
+    },
+    {
+      id: "professional-ethics-week-13",
+      title: "Week 13: ADR - Negotiation, Mediation, Conciliation, ODR",
+      instructions: "Try to answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
+      cards: [
+        {
+          category: "ADR Overview",
+          question: "Define ADR, distinguish court-connected from non-court-connected, and name the methods.",
+          answer: [
+            "Resolution of disputes by methods other than litigation. Court-connected: matter already in court, parties settle out of court. Non-court-connected: parties agree without ever going to court",
+            "Methods: negotiation; mediation; conciliation; arbitration; early neutral evaluation; hybrids",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "ADR Overview",
+          question: "List matters generally not suitable for ADR.",
+          answer: [
+            "Declaration of status in matrimonial causes; declaration of title to land; grievous/non-compoundable criminal offences (e.g. murder)",
+            "Election petitions; enforcement of fundamental human rights; interpretation of statutes/documents; injunctions; judicial review applications",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "ADR Overview",
+          question: "How do the rules/law encourage ADR?",
+          answer: [
+            "Originating processes screened for suitability, referable to a Multi-Door Court House (O.5 r.8 HC Lagos CPR 2019; O.2 r.7 HC FCT CPR 2025)",
+            "Claimants front-load a Pre-Action Protocol/counselling certificate; amicable settlement is a Case Management Conference agenda item; lawyers have a professional duty to advise on ADR - Rule 15(3)(d) RPC",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Negotiation",
+          question: "What is negotiation, and list the four roles of the lawyer in negotiation.",
+          answer: [
+            "A discussion process where parties reach an agreement themselves, without a third-party decision-maker. The most private ADR method; only one usable in both civil and criminal matters (e.g. plea bargaining)",
+            "Adviser; Evaluator; Negotiator; Drafter",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Negotiation",
+          question: "Define BATNA and WATNA.",
+          answer: [
+            "BATNA (Best Alternative To a Negotiated Agreement): a party's best fallback if negotiation fails; informs the bottom line",
+            "WATNA (Worst Alternative To a Negotiated Agreement): the worst-case fallback if negotiation fails; helps appreciate why a negotiated outcome may be preferable",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Negotiation",
+          question: "Distinguish the four negotiating styles.",
+          answer: [
+            "Hard (rigid, prone to deadlock); Firm (determined but fair, most effective); Soft (concedes too easily, open to exploitation)",
+            "Strategies: Competitive/positional (win-lose); Co-operative/problem-solving (win-win, best preserves relationships); Compromising; Accommodating",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Negotiation",
+          question: "List the six stages of negotiation (mnemonic for preparation - P BROS).",
+          answer: [
+            "(1) Preparation/planning (P BROS: Parties and balance of power; BATNA; Real interest; Obstacles; Style/strategy)",
+            "(2) Ice-breaking (preliminary contact, 'without prejudice' at this stage - NBA v Fawehinmi); (3) Agenda setting; (4) Bargaining; (5) Conclusion; (6) Execution",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Mediation",
+          question: "Define mediation, and state the governing law.",
+          answer: [
+            "A voluntary, non-binding, confidential process where a neutral third party (the mediator) facilitates communication to help parties reach their own settlement; cannot impose a decision - s.73(6) AMA 2023",
+            "Governing law: the Arbitration and Mediation Act (AMA) 2023 (repealed the Arbitration and Conciliation Act 2004)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Mediation",
+          question: "State the confidentiality exceptions under s.76 AMA.",
+          answer: [
+            "Confidential unless: parties agree to disclosure; disclosure is required by law; necessary to implement/enforce the settlement agreement; necessary to prevent/reveal a crime or a threat to a party; necessary to protect public order",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Mediation",
+          question: "List the grounds for refusing enforcement of a mediated settlement - s.84 AMA.",
+          answer: [
+            "A party was under incapacity; agreement is void/inoperative/incapable of performance, or not binding/final; obligations already performed or unclear; relief would be contrary to the agreement",
+            "Mediator failed to disclose circumstances raising doubt as to impartiality; or it would be contrary to public policy, or the subject matter is not capable of settlement by mediation",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Conciliation",
+          question: "How does conciliation differ from mediation, and what is its current statutory status?",
+          answer: [
+            "A neutral conciliator meets the parties and may give an opinion on the merits (unlike a mediator, who only facilitates). The conciliator decides/awards nothing, not strictly bound by natural justice",
+            "No longer covered by a separate statute - s.91 AMA 2023 defines 'mediation' to include conciliation ('whether referred to...as mediation, conciliation, or an expression of similar import')",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "ODR",
+          question: "What is Online Dispute Resolution, and name a notable form.",
+          answer: [
+            "An aspect of ADR using technology/the internet, usually through negotiation, mediation or arbitration, or a combination; conducted via video conferencing, telephone, email, instant chat",
+            "Blockchain Arbitration: technology-assisted arbitration for disputes from 'smart contracts', using the blockchain's incorruptible ledger to access contract terms",
+          ],
+          source: "Lecturer slides",
+        },
+      ],
+    },
+    {
+      id: "professional-ethics-week-14",
+      title: "Week 14: Arbitration Practice",
+      instructions: "Try to answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
+      cards: [
+        {
+          category: "Overview",
+          question: "Define arbitration, and state the governing statute.",
+          answer: [
+            "A method of dispute resolution where a dispute is submitted, by agreement, to one or more neutral arbitrators, whose decision (the award) is binding and enforceable like a court judgment - s.57 AMA; Kano State Urban Development Board v Fanz Construction Ltd",
+            "Governing: the Arbitration and Mediation Act (AMA) 2023; plus common law, trade usages, the Lagos State Arbitration Law 2009 (unless parties stipulate otherwise). Where AMA conflicts with a State law, the AMA prevails - Compagnie Generale de Geophysique v Etuk",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Arbitrable vs Non-Arbitrable",
+          question: "Name arbitrable and non-arbitrable matters.",
+          answer: [
+            "Arbitrable: breach of contract; actions in tort; compensation claims; disputes of title to land",
+            "Non-arbitrable: criminal matters; constitutional/statutory interpretation; matrimonial ancillary matters; indictment for a public offence; disputes from an illegal contract; void gaming/wagering agreements - Kano State UDB v Fanz Construction",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Arbitration Agreement",
+          question: "What is the separability doctrine, and what are the Scott v Avery and Atlantic Shipping clauses?",
+          answer: [
+            "Separability - s.14(2) AMA: an arbitration clause survives even if the rest of the contract is void/illegal, discharged or breached - BCC Tropical (Nig) Ltd v Govt of Yobe State",
+            "Scott v Avery clause: requires an award before court proceedings may begin - Scott v Avery (1856)",
+            "Atlantic Shipping clause: bars a claim if an arbitrator is not appointed within a specified time - Atlantic Shipping v Louis Dreyfus (1922)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Arbitration Agreement",
+          question: "What is kompetenz-kompetenz, and the conditions to resort to arbitration?",
+          answer: [
+            "Kompetenz-kompetenz: an arbitral tribunal is competent to rule on questions concerning its own jurisdiction - s.14(1) AMA",
+            "Conditions (Nig. LNG Ltd v African Development Insurance Co Ltd): an agreement/statute compelling arbitration; parties before the court are parties to the agreement; the dispute falls within scope; no sufficient reason against arbitration; stay application made in time under s.5 AMA",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Types of Arbitration",
+          question: "State the five ingredients for a valid customary arbitration - Eke v Okwaranyia.",
+          answer: [
+            "(1) Voluntary submission to arbitration; (2) agreement that the decision be final and binding; (3) arbitration in accordance with the parties' custom/trade; (4) arbitrators reached a decision and published their award; (5) award accepted at the time it was made",
+            "Binding only after signification of acceptance - until then either party may resile - Agu v Ikewibe",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Types of Arbitration",
+          question: "Distinguish domestic from international commercial arbitration, and ad hoc from institutional.",
+          answer: [
+            "Domestic: all parties' places of business are in Nigeria and the arbitration is seated in Nigeria. International: parties' places of business are in different countries, or the subject matter relates to more than one country",
+            "Ad hoc: parties prescribe the mode/rules themselves. Institutional: conducted under a standing institution's rules (ICC, LCIA, AAA, Lagos/Abuja MDCH, UNCITRAL, ICSID)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Arbitrators",
+          question: "State the default number of arbitrators, and the four modes of appointment.",
+          answer: [
+            "Absent agreement, a sole arbitrator - s.6 AMA (current law; note the repealed 2004 Act defaulted to three)",
+            "Modes: (1) by the parties directly; (2) by the arbitrators themselves (each party appoints one, those two appoint the third); (3) by a named institution; (4) by the court - if a party fails to appoint within 30 days, or the two fail to agree on the third within 30 days - s.7(2) AMA",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Arbitrators",
+          question: "List the grounds to challenge an arbitrator, and the challenge procedure.",
+          answer: [
+            "Grounds: lacks agreed qualifications; justifiable doubts as to impartiality/independence; physically/mentally incapable; unreasonable delay causing substantial injustice",
+            "Procedure: written statement of reasons within 14 days of becoming aware; if unsuccessful, request the appointing authority/court to decide within 30 days; the tribunal may continue and even make an award pending that decision",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Proceedings",
+          question: "Outline the procedure for conduct of arbitral proceedings.",
+          answer: [
+            "Claimant submits points of claim → Respondent submits points of defence → Claimant calls and examines witnesses → Respondent does the same → Respondent sums up, Claimant replies → the arbitrator makes an award",
+            "Hearing by oral argument, documents, or both - s.38 AMA. Each party must be treated equally with full opportunity to present its case",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Award & Enforcement",
+          question: "How is an award enforced, and list the common-law grounds for challenging it - Savoia Ltd v Sonubi.",
+          answer: [
+            "Enforcement - s.57 AMA: recognised/enforced like a High Court judgment on application, by motion on notice supported by affidavit, filing the authenticated award and arbitration agreement",
+            "Grounds: failure to comply with the agreement's terms; award against public policy; arbitrator bribed/corrupt; mistook scope of authority; failed to decide all matters referred; breach of natural justice; failure to act fairly to both parties",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Award & Enforcement",
+          question: "What is the time limit to challenge an award, and what is the Award Review Tribunal?",
+          answer: [
+            "Within 3 months from the date of the award (or 30 days of an additional award request being disposed of)",
+            "Parties may instead agree to have the award reviewed by the Award Review Tribunal - s.56 AMA, as an alternative to court challenge",
+            "An award cannot be set aside merely for an error on its face - s.55(2) AMA",
+          ],
+          source: "Lecturer slides",
+        },
+      ],
+    },
+    {
+      id: "professional-ethics-week-15",
+      title: "Week 15: Multi-Door Court House; Law Office Management; ICT & AI",
+      instructions: "Try to answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
+      cards: [
+        {
+          category: "MDCH",
+          question: "What is a Multi-Door Court House, and name examples.",
+          answer: [
+            "A court-connected ADR centre providing a framework for ADR with its own rules; parties can opt for arbitration, mediation, conciliation, negotiation, or neutral evaluation",
+            "Examples: Lagos MDCH (established 2002, Lagos MDC Law 2007); Abuja MDCH; Rivers, Ogun, Plateau MDCH",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Abuja MDCH",
+          question: "Outline the Abuja MDCH arbitration procedure and final award timeline.",
+          answer: [
+            "Commenced by filing written notice of intent to arbitrate; respondent has 10 days to respond; where submitted post-dispute, a joint notice of submission is filed",
+            "Final award must be made within 1 month of conclusion, not later than 3 months in exceptional circumstances - Rule 28. No enforcement procedure in the Abuja Rules - enforcement proceeds under the AMA 2023",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Lagos MDCH",
+          question: "How does Lagos MDCH differ from Abuja on enforcement?",
+          answer: [
+            "An agreement/MOU reached is reduced to writing, signed by parties and the neutral third party, filed at the LMDC, then endorsed by the ADR Judge (or referral judge)",
+            "On endorsement, it becomes a consent judgment of the High Court of Lagos State, enforceable by the sheriffs. A merely-signed (unendorsed) agreement is enforceable only as an ordinary contract - Rule 19 LMDC Rules",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Law Office Management",
+          question: "List the four units of legal practice (mnemonic PASS), with one advantage and one disadvantage each.",
+          answer: [
+            "Sole Practitionership: easy/cheap to set up, but professional isolation and practice ends on death",
+            "Sole Proprietorship: division of labour, but owner bears all cost/risk",
+            "Associateship: cost-sharing with freedom, but rivalry/mistrust among associates",
+            "Partnership: shared responsibility, but one partner's misconduct taints the firm - United Bank of Kuwait v Hammond",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Partnership Restrictions",
+          question: "State Rule 5 RPC restrictions on forming a law partnership.",
+          answer: [
+            "All partners must be lawyers called and admitted to practise in Nigeria; must not partner a non-lawyer - Rule 5(1)",
+            "A serving judicial officer's name must not appear in any firm name; a sole practitioner must not use a name suggesting partnership (e.g. '& Co'); legal practice as a corporation is unlawful - Rule 5(5)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Establishing the Office",
+          question: "Distinguish a loan from an overdraft as sources of funds, and name the factors in choosing premises (mnemonic LCC-S).",
+          answer: [
+            "Loan: fixed repayment period, interest on the whole sum - suits start-up capital. Overdraft: repayable on demand, interest only on the sum drawn - suits working capital",
+            "LCC-S: Location/proximity to court; Capital available; Clientele/accessibility; Serene, neat environment",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "SAN Law Office Requirement",
+          question: "What is required of a SAN applicant's law office?",
+          answer: [
+            "At least 5 full-time junior legal practitioners, in place for at least 5 years (per 2022/2023 Guidelines)",
+            "Factors assessed on inspection: library size/quality; office space/facilities quality; number/remuneration of counsel; support staff quality; maintenance of proper books of account",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Management Functions",
+          question: "List the five management functions.",
+          answer: [
+            "Planning (strategic, tactical, operational); Organising (allocating tasks by aptitude); Co-ordinating (monitoring tasks against strategy); Controlling (monitoring performance against goals); Evaluating (periodic financial auditing)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "ICT",
+          question: "List the four uses of ICT in law office management (mnemonic FileSOC).",
+          answer: [
+            "File management (records, automated files, reminders); Safe keeping of data (accounting systems, back-up); Online library (e-catalogues, research tools); Case management (scheduling, status updates)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "AI in Office Management",
+          question: "What ethical duties apply when using AI in office management?",
+          answer: [
+            "AI output must always be cross-checked for errors before being relied on for legal argument, client advice, or court filings; liability can still arise against the lawyer personally",
+            "Duty of candour (Rule 32 RPC) and competence (Rule 16 RPC) require verification of AI output; signature, seal and stamp remain the lawyer's personal responsibility - Rule 10 RPC",
+          ],
+          source: "Lecturer slides",
+        },
+      ],
+    },
+    {
+      id: "professional-ethics-week-16",
+      title: "Week 16: Remuneration of Legal Practitioners",
+      instructions: "Try to answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
+      cards: [
+        {
+          category: "Overview",
+          question: "State the applicable laws, and the basic entitlement/limit on fees.",
+          answer: [
+            "RPC 2023 (Rules 48-54); s.15 LPA; the Legal Practitioners Remuneration (For Business, Legal Service and Representation) Order 2023 (revoking the 1991 Order)",
+            "Entitled to adequate remuneration - Rule 48(1); must not charge excessive fees or undercut - Rule 52(1), though reduced/no fee for an indigent client (pro bono) is permitted",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Types of Fees",
+          question: "Distinguish contingent fee, scale fee, and quantum meruit fee.",
+          answer: [
+            "Contingent fee: charged only on success, civil matters only (not criminal defence) - Rule 50; must be reasonable, client advised of its effect",
+            "Scale fee: prescribed/fixed per the Remuneration Order for non-contentious work, cannot be varied by agreement",
+            "Quantum meruit fee: fee according to value of work actually performed, used where no fee was agreed or a lawyer is debriefed before completion - SBN Ltd v Opanubi",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Types of Fees",
+          question: "Distinguish fixed fee, hourly fee, percentage fee and appearance fee.",
+          answer: [
+            "Fixed fee: flat rate for a defined, simple, usually non-contentious task",
+            "Hourly: charged per hour/part-hour, common for consultation",
+            "Percentage: percentage of transaction value (conveyancing/debt recovery), subject to taxation - FBN Plc v Ndoma-Egba",
+            "Appearance fee: charged per court appearance, covering transport/incidental costs - Okonedo Egbaregbemi v Julius Berger",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Retainer",
+          question: "Distinguish a general retainer from a special retainer.",
+          answer: [
+            "General retainer: covers the client's work generally - while it subsists, the lawyer must not advise/appear against the retaining client's interest",
+            "Special retainer: covers one particular matter only - the lawyer may act against the client on an unrelated matter, but not the retained matter",
+            "A lawyer must not represent a client for all litigation on a flat lump sum - each matter is separately instructed and remunerated - Rule 49(2)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Factors in Fixing Fees",
+          question: "List the factors in fixing fees for contentious work - Rule 52(2) (mnemonic TEN C³ABS).",
+          answer: [
+            "Time and labour, novelty/difficulty, skill required; employment loss from taking the brief; nature of the employment",
+            "Customary charges of the Bar; amount involved and benefit to the client; brief preclusion; status/character of the engagement",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "2023 Scales",
+          question: "Name the three state bands and the five Scales under the 2023 Remuneration Order.",
+          answer: [
+            "Band 1: most Northern/Eastern states; Band 2: most Southern/Middle Belt states; Band 3: FCT, Lagos",
+            "Scale 1: consultancy/legal opinion; Scale 2: company/business incorporation; Scale 3: litigation; Scale 4: property transactions; Scale 5: other commercial transactions (hourly rates)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Recovery of Fees",
+          question: "State the four-step recovery procedure (mnemonic BiSEC), and the exception to the 1-month wait.",
+          answer: [
+            "Bill of charges (signed); Service on the client; Expiration of 1 calendar month before an action may begin - s.16(2) LPA; Commencement of action at the appropriate High Court",
+            "Exception - s.16(3): on ex parte application, satisfy the court by affidavit a bill was delivered, appears proper, and circumstances suggest the client intends to delay/avoid payment - immediate action may be authorised",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Taxation",
+          question: "State the three stages at which taxation of a bill may be ordered.",
+          answer: [
+            "(1) Within 1 month of service, before an action: client applies, court MUST order taxation (mandatory) - s.17(1)",
+            "(2) After the 1 month, during/before a pending action: either party may apply, court has discretion - s.17(2)",
+            "(3) After judgment / more than 12 months after the bill was paid: generally no order, save for special reasons - s.17(3)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Taxation",
+          question: "Who bears the cost of taxation, and what is the appeal window from the taxing officer's certificate?",
+          answer: [
+            "Costs borne by the lawyer if the taxed amount is reduced by one-sixth or more of the original bill; otherwise borne by the client - s.18(7) LPA",
+            "Appeal from the certificate: within 21 days, to the High Court - s.18(5)",
+          ],
+          source: "Lecturer slides",
+        },
+      ],
+    },
+    {
+      id: "professional-ethics-week-17",
+      title: "Week 17: Legal Practitioners' Accounts and Accounts Rules",
+      instructions: "Try to answer out loud or on paper before revealing. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
+      cards: [
+        {
+          category: "Overview",
+          question: "What is the governing law, and define 'client's money' and 'trust money'.",
+          answer: [
+            "s.20 LPA empowers the GCB to make rules on client-money accounts - the Legal Practitioners Accounts Rules (LPAR) 1964",
+            "Client's money: money held/received on account of a person for whom the lawyer is acting (excludes trust money and the lawyer's own money)",
+            "Trust money: money held/received that is not client money, subject to a trust of which the lawyer is trustee",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Three Obligatory Books",
+          question: "List the three obligatory books of account, and why separation is required.",
+          answer: [
+            "Personal/individual/partnership account (lawyer's own/office/firm money); Client account (all client money, paid in without delay, Rule 3 LPAR); Trust bank account (money of a controlled trust, kept separately per trust)",
+            "Why: keeps client money distinct; shows exactly what belongs to each client; aids financial assessment and tax computation; avoids Rule 23 RPC disciplinary liability",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Client Account",
+          question: "List monies that MUST NOT be paid into a client account - Rule 9 LPAR.",
+          answer: [
+            "Cash received and immediately paid out again in cash; a cheque immediately endorsed to the client without passing through a bank; money paid into a separate account in the client's own name/direction",
+            "Money the client has expressly directed (in writing) not be so paid; money received as reimbursement of a debt acknowledged in writing; money to defray costs; a fee paid for work done",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Client Account",
+          question: "List the grounds for withdrawal from a client account - Rule 7 LPAR, and the mode of withdrawal.",
+          answer: [
+            "Payment to/on behalf of the client; payment of a debt due to the lawyer acknowledged in writing; on client's written authority; payment of the lawyer's costs where a bill was delivered and the client notified; trust money in an unsplit cheque, transferred to the trust account; money paid in by accident",
+            "Mode: by cheque drawn in favour of the lawyer, or transfer to a non-client bank account in the lawyer's name - never cash, to preserve traceability",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Trust Bank Account",
+          question: "State the rule on paying trust money in (Rule 13 LPAR), and the investment rule for trust money.",
+          answer: [
+            "All money held by a solicitor-trustee, other than money properly paid into a client account, must without delay be paid into the trust bank account of that particular trust - Rule 13",
+            "Investment: in securities created by the Federal/State Governments, or companies incorporated under a National/State Act, subject to any consent required for the particular trust",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Books of Account",
+          question: "Distinguish the cash book from the ledger, including the rule of entry for each.",
+          answer: [
+            "Cash book: records day-to-day receipts/payments. Rule: debit the receiver (money received); credit the giver (money paid out)",
+            "Ledger: classifies transactions by heading, the only permanent record. Rule: credit the receiver; debit the giver (the reverse of the cash book rule)",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Classification of Accounts",
+          question: "Distinguish personal, real and nominal accounts, with their entry rules.",
+          answer: [
+            "Personal accounts: in the name of individuals/partnerships/companies",
+            "Real accounts: dealings in property/materials/assets. Rule: debit property acquired, credit property sold",
+            "Nominal accounts: items of expense/income. Rule: debit expenses/losses, credit incomes/gains",
+          ],
+          source: "Lecturer slides",
+        },
+        {
+          category: "Preservation & Inspection",
+          question: "What is the minimum retention period for trust books, and who may require inspection?",
+          answer: [
+            "Every solicitor-trustee must preserve his trust books and accounts for at least 6 years from the last entry - Rule 20(2) LPAR (the matching period for client-account records is a recommended practice, not an express Rule)",
+            "The General Council of the Bar may require production of books/statements for inspection by an appointed accountant, on its own motion, an NBA branch request, or a third-party written complaint - Rule 21",
+          ],
+          source: "Lecturer slides",
+        },
+      ],
+    },
+    {
+      id: "professional-ethics-time-limits",
+      title: "Part 2: Master Table of Time Limits",
+      instructions: "One rule per card, roughly shortest to longest. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
+      cards: [
+        {
+          category: "Time Limits: Days",
+          question: "Time limits: 2-14 days.",
+          answer: [
+            "2 clear days: contemnor's response window after service of Form 48 (civil contempt) - Week 6",
+            "7 days: reporting a transaction above the AML threshold to SCUML - Week 7",
+            "10 days: deemed receipt of an LPAR inspection request sent by registered post - Week 17; Abuja MDCH respondent's time to answer a notice of arbitration - Week 15",
+            "14 days: written statement of reasons to challenge an arbitrator, from becoming aware of the ground - Week 14",
+          ],
+          source: "Part 2 master table",
+        },
+        {
+          category: "Time Limits: 21-30 Days",
+          question: "Time limits: 21-30 days.",
+          answer: [
+            "21 days: appeal from a taxing officer's certificate, to the High Court - Week 16",
+            "28 days: appeal from an LPDC direction, to the Supreme Court - Week 8",
+            "30 days: notification of establishment/change of a law office to the local NBA branch - Weeks 4, 15; originating application forwarded to the LPDC - Week 8; time for a party to appoint an arbitrator before the court may appoint one - Week 14; Abuja MDCH time for parties to appoint an arbitrator before the Centre does - Week 15",
+          ],
+          source: "Part 2 master table",
+        },
+        {
+          category: "Time Limits: 1 Month",
+          question: "Time limits around 1 month.",
+          answer: [
+            "1 month (calendar): minimum wait after service of a bill of charges before an action to recover fees may begin - Weeks 16, 17",
+            "1 month: minimum wait before a client's application for taxation of a bill is a matter of right - Week 16",
+            "1 month: Abuja MDCH time for the final arbitral award (ordinary case) - Week 15",
+          ],
+          source: "Part 2 master table",
+        },
+        {
+          category: "Time Limits: 3 Months+",
+          question: "Time limits from 3 months upward.",
+          answer: [
+            "3 months: time to challenge/set aside an arbitral award from the date of the award - Week 14; Abuja MDCH extended time for the final arbitral award in exceptional circumstances - Week 15; acting appointment of the most senior Justice/Judge/Kadi where headship is vacant - Week 8",
+            "3 years: limitation on prosecution for impersonation of a legal practitioner, from the date of the offence - Week 4",
+            "6 months: maximum imprisonment for civil contempt (Halsbury's figure; cf. indefinite committal until purged) - Week 6; time limit to lodge a complaint against a judicial officer with the NJC - Week 8",
+            "6 years: minimum retention of a solicitor-trustee's books and accounts for a controlled trust - Week 17",
+          ],
+          source: "Part 2 master table",
+        },
+        {
+          category: "Qualification Standing",
+          question: "State the minimum post-call standing for appointment to the High Court, Court of Appeal, and Supreme Court.",
+          answer: [
+            "10 years: High Court (Federal, FCT or State), or Sharia/Customary Court of Appeal - Week 8; also minimum standing for AG of the Federation/State - Week 3; and to apply for conferment of SAN - Week 4",
+            "12 years: Justice of the Court of Appeal - Week 8",
+            "15 years: Justice of the Supreme Court - Week 8",
+          ],
+          source: "Part 2 master table",
+        },
+        {
+          category: "Recurring Annual Dates",
+          question: "State the annual recurring dates for practising fees and CPD.",
+          answer: [
+            "31 March: deadline for payment of annual practising fees - s.8(2) LPA; Rule 9 RPC",
+            "Within 1 month of enrolment: deadline for a newly enrolled lawyer's first practising fee",
+            "Annually: CPD credit-hour requirement (24/18/12 hours by years of standing)",
+          ],
+          source: "Part 2 master table",
+        },
+      ],
+    },
+    {
+      id: "professional-ethics-conflicts",
+      title: "Part 3: Conflicts Between Notes",
+      instructions: "Each card shows where sources disagree and the recommended position for an exam. Keys: Space = reveal, 1 = got it, 2 = review again, arrows = move.",
+      cards: [
+        {
+          category: "Conflicts: History",
+          question: "What are the Week 3 conflicts on Local Attorneys and notable firsts?",
+          answer: [
+            "Whether Local Attorneys ceased to be appointed after 1908 or 1914 differs across the notes - treat 1913 (Osho Davies' failed appeal) as the last refusal, 1914 (Amalgamation) as the era's close",
+            "First female lawyer's surname (Marke/Mark) and Folake Solanke's SAN conferment date (1975 vs 1981) are unsettled - use 1975 for the first SAN overall (Rotimi Williams); flag Solanke's date as unsettled",
+          ],
+          source: "Part 3",
+        },
+        {
+          category: "Conflicts: Fees",
+          question: "What are the Week 4 and Week 8 conflicts on fee figures?",
+          answer: [
+            "Practising fee for 10-14 years post-call: ₦17,500 vs ₦17,000 across different chapters of the same note - use ₦17,500 as the default",
+            "SAN application fees cited at different figures across different years' Guidelines (₦1,000,000 total under 2022 vs ₦600,000+₦200,000 under an earlier edition) - state the year of the Guideline being quoted",
+          ],
+          source: "Part 3",
+        },
+        {
+          category: "Conflicts: Rules 21 vs 29",
+          question: "What is the Week 5 conflict between Rule 21 and Rule 29?",
+          answer: [
+            "Rule 21 (lawyer withdraws, good cause required, written notice given) vs Rule 29 (client changes counsel, no such notice from the lawyer required) - keep the two procedures distinct, do not conflate who is disengaging whom",
+          ],
+          source: "Part 3",
+        },
+        {
+          category: "Conflicts: Drafting & Interview",
+          question: "What are the Week 9-11 conflicts on time expressions and interview models?",
+          answer: [
+            "'AT THE EXPIRATION OF' - unambiguously 'included' (slides) vs sometimes meaning 'at or after' (In the Goods of Ruddy) - default to 'included', note the qualification where case-based discussion is asked",
+            "Whether a legal opinion must always use numbered paragraphs is unsettled - numbering is good practice for multi-issue opinions; a short single-issue opinion may stay in plain prose",
+            "Which client-interview model is primary - Avrom Sherr's 3-stage model, or the 5-stage NLS/PBCAC model - use Avrom Sherr as primary, the 5-stage NLS version as a detailed secondary breakdown",
+          ],
+          source: "Part 3",
+        },
+        {
+          category: "Conflicts: ADR & Arbitration",
+          question: "What are the Week 13-14 conflicts on conciliation and default arbitrator numbers?",
+          answer: [
+            "Whether Conciliation retains any independent statutory basis after the AMA 2023 - treat it as governed, in substance, by the AMA 2023's definition of 'mediation' (s.91), while still describing its distinctive feature (opinion on the merits)",
+            "Default number of arbitrators absent agreement - one (AMA 2023, s.6, current law) vs three (ACA 2004, now repealed) - apply the AMA 2023 position; flag the 2004 position only for questions expressly set under the old Act",
+          ],
+          source: "Part 3",
+        },
+        {
+          category: "Conflicts: Office Management & Accounts",
+          question: "What are the Week 15-17 conflicts on SAN office requirements and account retention?",
+          answer: [
+            "Whether the '5 full-time junior legal practitioners' SAN requirement must also have existed for 5 years is inconsistent across Guideline editions - state the 5-junior-counsel and library requirements as settled, flag the '5 years standing' figure as edition-specific",
+            "Exact monetary figures and state-banding boundaries within the 2023 Remuneration Order's Schedule were not fully reproduced in the source materials - check exact figures against the published Order directly",
+            "Whether client-account records (as opposed to trust records) must also be kept for 6 years - only the 6-year trust-record period is expressly fixed by Rule 20(2) LPAR; the matching client-account period is a recommended practice, not a stated Rule",
+          ],
+          source: "Part 3",
+        },
+        {
+          category: "Conflicts: Contempt Punishment",
+          question: "What is the civil-contempt imprisonment conflict (also flagged in the time-limits table)?",
+          answer: [
+            "Civil-contempt imprisonment given as a flat '6 months' cap (Halsbury's Laws, via Afe Babalola v FEDECO) vs 'committal until purged' (indefinite, conditional) - Ikabala v Ojosipe",
+            "Both apply, to different fact patterns - a court may impose either a fixed term or an indefinite committal depending on the default; do not present '6 months' as a universal statutory cap",
+          ],
+          source: "Part 3",
+        },
+      ],
+    },
+  ],
+},
 };
 
 export default flashcards;

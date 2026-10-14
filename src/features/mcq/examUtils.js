@@ -24,7 +24,7 @@ export function getCompleteExamSessions(mcqQuestions) {
     })
     .sort((a, b) => {
       if (b.year !== a.year) return b.year - a.year;
-      return a.session.localeCompare(b.session);
+      return a.session.localeCompare(b.session, undefined, { numeric: true });
     });
 }
 
