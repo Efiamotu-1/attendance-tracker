@@ -12927,7 +12927,7 @@ const mcqQuestions = {
               c: "Appellant and Respondent",
               d: "Applicant and Respondent",
             },
-            answer: "b",
+            answer: "d",
           },
           {
             id: 3,
@@ -12936,10 +12936,10 @@ const mcqQuestions = {
             options: {
               a: "Motion exparte, supported by an affidavit and a written statement.",
               b: "Motion on notice supported by an affidavit and a witness address",
-              c: "Originating m, supported by affidavit and a written statement",
+              c: "Originating motion, supported by affidavit and a written statement",
               d: "Motion on notice, supported by an affidavit and a written address.",
             },
-            answer: "a",
+            answer: "d",
           },
           {
             id: 4,
