@@ -23220,7 +23220,7 @@ const topicQuizzes = {
           "c": "Scale II",
           "d": "Scale I"
         },
-        "answer": "b"
+        "answer": "c"
       }
     ]
   },
