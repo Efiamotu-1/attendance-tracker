@@ -14434,7 +14434,7 @@ const flashcards = {
           category: "Search of Premises",
           question: "Who may issue a search warrant, and does death/retirement of the issuer invalidate it?",
           answer: [
-            "A Judge, a Magistrate, or a Justice of the Peace (North). A superior police officer may issue one only in limited circumstances - s.146(1) ACJA; s.106 ACJL Lagos; s.156(1) ACJL Kano",
+            "A Judge, a Magistrate, or a Justice of the Peace (North). A superior police officer cannot issue a search warrant - s.146(1) ACJA; s.106 ACJL Lagos; s.156(1) ACJL Kano s.48 Police Act 2020",
             "No - death, resignation or retirement of the issuing authority does not invalidate the warrant; it remains in force until executed or cancelled - s.146(2) ACJA; s.106(2) ACJL Lagos; s.156(2) ACJL Kano",
           ],
           source: "Lecturer slides",
