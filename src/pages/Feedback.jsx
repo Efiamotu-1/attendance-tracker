@@ -328,6 +328,8 @@ function FeedbackDetailModal({
                     ? "Exam Styled MCQ"
                     : item.quiz_type === "topic"
                     ? "Topic Quiz"
+                    : item.quiz_type === "course"
+                    ? "Past Exam (Course)"
                     : item.quiz_type === "draft"
                     ? "Draft"
                     : item.quiz_type === "flashcard"
@@ -351,7 +353,7 @@ function FeedbackDetailModal({
                   {item.question_id}
                 </p>
               )}
-              {item.course_name && item.quiz_type !== "topic" && (
+              {item.course_name && (
                 <p
                   className={`text-xs ${
                     isDarkMode ? "text-dark-300" : "text-gray-700"
@@ -360,15 +362,14 @@ function FeedbackDetailModal({
                   <span className="font-semibold">Course:</span> {item.course_name}
                 </p>
               )}
-              {item.quiz_type === "topic" &&
-                (item.topic_name || item.course_name) && (
+              {item.quiz_type === "topic" && (
                 <p
                   className={`text-xs ${
                     isDarkMode ? "text-dark-300" : "text-gray-700"
                   }`}
                 >
                   <span className="font-semibold">Topic:</span>{" "}
-                  {item.topic_name || item.course_name}
+                  {item.topic_name || "Unknown (not captured for this report)"}
                 </p>
               )}
               {item.exam_session && item.quiz_type !== "topic" && (
@@ -377,13 +378,11 @@ function FeedbackDetailModal({
                     isDarkMode ? "text-dark-300" : "text-gray-700"
                   }`}
                 >
-                  <span className="font-semibold">
-                    {item.quiz_type === "topic" ? "Topic:" : "Session:"}
-                  </span>{" "}
+                  <span className="font-semibold">Session:</span>{" "}
                   {item.exam_session}
                 </p>
               )}
-              {item.topic_id && item.quiz_type !== "topic" && (
+              {item.topic_id && item.quiz_type === "topic" && (
                 <p
                   className={`text-xs ${
                     isDarkMode ? "text-dark-300" : "text-gray-700"

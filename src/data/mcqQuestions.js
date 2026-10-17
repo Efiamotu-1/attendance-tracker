@@ -12999,7 +12999,7 @@ const mcqQuestions = {
               c: "Apply for fast track procedure under Order 56",
               d: "Apply for undefended list procedure under Order 35.",
             },
-            answer: "d",
+            answer: "b",
           },
           {
             id: 9,

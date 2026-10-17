@@ -363,11 +363,12 @@ function McqQuiz() {
   };
 
   const buildQuizContext = () => ({
-    quizType: isExamMode ? "exam" : "topic",
-    examSession: isExamMode
-      ? formatExamSessionLabel(session)
-      : null,
-    courseName: isExamMode ? course?.name : isTopicMode ? course?.name : course?.name,
+    quizType: isExamMode ? "exam" : isTopicMode ? "topic" : "course",
+    examSession:
+      isExamMode || (!isTopicMode && session)
+        ? formatExamSessionLabel(session)
+        : null,
+    courseName: course?.name,
     topicId: isTopicMode ? topic?.id : null,
     topicName: isTopicMode ? topic?.name : null,
     topicSourceRef: isTopicMode ? topic?.sourceRef : null,
