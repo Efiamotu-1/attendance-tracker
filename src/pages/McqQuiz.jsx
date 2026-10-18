@@ -9,6 +9,7 @@ import { useQuizAttempts } from "../features/mcq/useQuizAttempts";
 import { useCreateQuestionReport } from "../features/feedback/useCreateQuestionReport";
 import QuizTimerSettings from "../features/mcq/QuizTimerSettings";
 import QuestionReportModal from "../features/feedback/QuestionReportModal";
+import { formatExamSessionLabel } from "../features/mcq/examUtils";
 import {
   HiOutlineArrowLeft,
   HiOutlineArrowRight,
@@ -24,18 +25,6 @@ import {
   HiOutlineViewColumns,
   HiOutlineQueueList,
 } from "react-icons/hi2";
-
-// Practice sessions (practice-1..practice-8) and Snap Test sessions
-// (snap-test-*) each share a synthetic numeric "year" so they group into
-// their own bucket in the exam-session list (see McqPastQuestions.jsx) — it
-// isn't a real year, so it's never shown to the user. "Practice 1", not
-// "Practice 1 9999"; "Snap Test (Lagos Campus)", not "... 9998".
-const PRACTICE_YEAR = 9999;
-const SNAP_TEST_YEAR = 9998;
-const formatExamSessionLabel = (session) =>
-  session.year === PRACTICE_YEAR || session.year === SNAP_TEST_YEAR
-    ? session.session
-    : `${session.session} ${session.year}`;
 
 function McqQuiz() {
   const { sessionId, courseId, courseSlug, topicId } = useParams();

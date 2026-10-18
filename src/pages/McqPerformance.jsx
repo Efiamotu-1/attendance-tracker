@@ -2,6 +2,7 @@ import React, { useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useTheme } from "../context/ThemeContext";
 import { useQuizAttempts } from "../features/mcq/useQuizAttempts";
+import { formatExamSessionLabel } from "../features/mcq/examUtils";
 import Spinner from "../ui/Spinner";
 import {
   HiOutlineArrowLeft,
@@ -770,7 +771,7 @@ function McqPerformance() {
                   >
                     <div>
                       <p className={`text-sm font-semibold ${isDarkMode ? "text-white" : "text-gray-900"}`}>
-                        {attempt.session} {attempt.year}
+                        {formatExamSessionLabel(attempt)}
                       </p>
                       <p className={`text-[10px] sm:text-xs ${isDarkMode ? "text-dark-500" : "text-gray-500"}`}>
                         Completed {date.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}
@@ -1127,7 +1128,7 @@ function McqPerformance() {
                         isDarkMode ? "text-dark-500" : "text-gray-400"
                       }`}
                     >
-                      {attempt.session} {attempt.year} · {timeAgo}
+                      {formatExamSessionLabel(attempt)} · {timeAgo}
                     </p>
                   </div>
                 </div>

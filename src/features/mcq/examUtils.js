@@ -1,3 +1,19 @@
+// Practice sessions (practice-1..practice-N) and Snap Test sessions
+// (snap-test-*) each share a synthetic numeric "year" so they group into
+// their own bucket in the exam-session list — it isn't a real year, so it
+// must never be appended to the displayed label. "Practice 1", not
+// "Practice 1 9999"; "Snap Test (Lagos Campus)", not "... 9998".
+export const PRACTICE_YEAR = 9999;
+export const SNAP_TEST_YEAR = 9998;
+export const isSyntheticYear = (year) => year === PRACTICE_YEAR || year === SNAP_TEST_YEAR;
+
+// Single source of truth for rendering a session's label. Accepts either
+// { session, year } or the quiz_attempts shape { session, year } directly.
+export function formatExamSessionLabel(session) {
+  if (!session) return "";
+  return isSyntheticYear(session.year) ? session.session : `${session.session} ${session.year}`;
+}
+
 export function getCompleteExamSessions(mcqQuestions) {
   return Object.entries(mcqQuestions)
     .flatMap(([sessionId, session]) => {

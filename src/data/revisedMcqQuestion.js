@@ -20148,6 +20148,1251 @@ const revisedMcqQuestion = {
   ]
 },
 
+  "snap-test-lagos-campus-oct2026": {
+  "year": 9998,
+  "session": "Snap Test (Lagos Campus) — 16 Oct 2026",
+  "examTitle": "Nigerian Law School, Lagos Campus — Snap Test, 16 October 2026",
+  "totalQuestions": 100,
+  "courses": [
+    {
+      "id": "corporate-law-practice",
+      "name": "Corporate Law Practice",
+      "questionsCount": 20,
+      "questions": [
+        {
+          "id": 1,
+          "context": "Crestline Foods Plc's existing management proposes acquiring control using personal funds and external financing. Separately, Crestline plans to acquire a competing cereal manufacturer, Harvest Foods Ltd. Assume this is a large merger subject to FCCPC approval, with no sector exemption. In a separate event, the board unanimously removes Mrs Okafor as a director before her term expires for engaging the external auditor to prepare the annual financial statements without the authority of the board of directors, the directors disclaim responsibility for their preparation.",
+          "question": "The proposed acquisition of control of Crestline by its existing management is best described as:",
+          "options": {
+            "a": "A management buy-in",
+            "b": "A management buy-out",
+            "c": "A share buy-back",
+            "d": "A scheme of arrangement"
+          },
+          "answer": "b"
+        },
+        {
+          "id": 2,
+          "context": "Crestline Foods Plc's existing management proposes acquiring control using personal funds and external financing. Separately, Crestline plans to acquire a competing cereal manufacturer, Harvest Foods Ltd. Assume this is a large merger subject to FCCPC approval, with no sector exemption. In a separate event, the board unanimously removes Mrs Okafor as a director before her term expires for engaging the external auditor to prepare the annual financial statements without the authority of the board of directors, the directors disclaim responsibility for their preparation.",
+          "question": "Crestline's proposed acquisition of Harvest is principally a:",
+          "options": {
+            "a": "Vertical merger",
+            "b": "Conglomerate merger",
+            "c": "Horizontal merger",
+            "d": "Management buy-out"
+          },
+          "answer": "c"
+        },
+        {
+          "id": 3,
+          "context": "Crestline Foods Plc's existing management proposes acquiring control using personal funds and external financing. Separately, Crestline plans to acquire a competing cereal manufacturer, Harvest Foods Ltd. Assume this is a large merger subject to FCCPC approval, with no sector exemption. In a separate event, the board unanimously removes Mrs Okafor as a director before her term expires for engaging the external auditor to prepare the annual financial statements without the authority of the board of directors, the directors disclaim responsibility for their preparation.",
+          "question": "The following regulatory authorities have a responsibility in the proposed acquisition of Harvest Foods Ltd except:",
+          "options": {
+            "a": "The Corporate Affairs Commission",
+            "b": "The Securities and Exchange Commission",
+            "c": "Nigerian Investment Promotion Commission",
+            "d": "The Federal Competition and Consumer Protection Commission"
+          },
+          "answer": "c"
+        },
+        {
+          "id": 4,
+          "context": "Crestline Foods Plc's existing management proposes acquiring control using personal funds and external financing. Separately, Crestline plans to acquire a competing cereal manufacturer, Harvest Foods Ltd. Assume this is a large merger subject to FCCPC approval, with no sector exemption. In a separate event, the board unanimously removes Mrs Okafor as a director before her term expires for engaging the external auditor to prepare the annual financial statements without the authority of the board of directors, the directors disclaim responsibility for their preparation.",
+          "question": "Which of these best addresses Mrs Okafor's removal from the board:",
+          "options": {
+            "a": "Her removal requires an ordinary resolution of members, special notice and her compliance with statutory rights.",
+            "b": "A unanimous board resolution is sufficient for her removal, provided the CAC is notified.",
+            "c": "Her removal requires a special resolution of members because it occurred before her term expires.",
+            "d": "The board resolution becomes sufficient for her removal once members approve the acquisition of Harvest."
+          },
+          "answer": "a"
+        },
+        {
+          "id": 5,
+          "context": "Crestline Foods Plc's existing management proposes acquiring control using personal funds and external financing. Separately, Crestline plans to acquire a competing cereal manufacturer, Harvest Foods Ltd. Assume this is a large merger subject to FCCPC approval, with no sector exemption. In a separate event, the board unanimously removes Mrs Okafor as a director before her term expires for engaging the external auditor to prepare the annual financial statements without the authority of the board of directors, the directors disclaim responsibility for their preparation.",
+          "question": "One of the following is a statutory effect of CAMA 2020 as regards financial statements:",
+          "options": {
+            "a": "Responsibility transfers to the auditor once the engagement letter is signed.",
+            "b": "Responsibility transfers to the audit committee once the auditor accepts the engagement.",
+            "c": "The directors retain their statutory responsibility for preparing the financial statements.",
+            "d": "The directors retain responsibility only if the auditor fails to complete the assignment."
+          },
+          "answer": "c"
+        },
+        {
+          "id": 6,
+          "context": "BlueRock Beverages Plc acquires 60% of the ordinary equity share capital of its bottle supplier, ClearPack Ltd. Both remain separately incorporated. BlueRock finances the acquisition with a loan secured by a registrable factory charge. The documents are stamped but not submitted to the CAC within 90 days; no extension or rectification is obtained. The secretary deliberately denies Sade, who is an ordinary shareholder of the company, service of notice of the general meeting without waiver. BlueRock also withholds her lawfully declared dividend solely because she opposed the acquisition, without any lawful justification.",
+          "question": "All but one best describes Sade as an ordinary shareholder of BlueRock Beverages Plc:",
+          "options": {
+            "a": "She is a contributor to the equity capital of the company",
+            "b": "She has exclusive voting rights",
+            "c": "During liquidation distribution she would rank last",
+            "d": "She is entitled to participate in the distribution of surplus asset during liquidation"
+          },
+          "answer": "b"
+        },
+        {
+          "id": 7,
+          "context": "BlueRock Beverages Plc acquires 60% of the ordinary equity share capital of its bottle supplier, ClearPack Ltd. Both remain separately incorporated. BlueRock finances the acquisition with a loan secured by a registrable factory charge. The documents are stamped but not submitted to the CAC within 90 days; no extension or rectification is obtained. The secretary deliberately denies Sade, who is an ordinary shareholder of the company, service of notice of the general meeting without waiver. BlueRock also withholds her lawfully declared dividend solely because she opposed the acquisition, without any lawful justification.",
+          "question": "Following the acquisition, which statement is most accurate?",
+          "options": {
+            "a": "ClearPack becomes a wholly-owned subsidiary because BlueRock holds a majority interest.",
+            "b": "ClearPack loses its separate legal personality because BlueRock controls its equity.",
+            "c": "BlueRock becomes a subsidiary of ClearPack because it depends on ClearPack's products.",
+            "d": "ClearPack becomes a subsidiary of BlueRock but retains its separate legal personality."
+          },
+          "answer": "d"
+        },
+        {
+          "id": 8,
+          "context": "BlueRock Beverages Plc acquires 60% of the ordinary equity share capital of its bottle supplier, ClearPack Ltd. Both remain separately incorporated. BlueRock finances the acquisition with a loan secured by a registrable factory charge. The documents are stamped but not submitted to the CAC within 90 days; no extension or rectification is obtained. The secretary deliberately denies Sade, who is an ordinary shareholder of the company, service of notice of the general meeting without waiver. BlueRock also withholds her lawfully declared dividend solely because she opposed the acquisition, without any lawful justification.",
+          "question": "One of the following is the effect of failing to register the factory charge within the prescribed period.",
+          "options": {
+            "a": "Stamping preserves the charge against the liquidator and creditors despite non-registration.",
+            "b": "The security is void against the liquidator and creditors, while the repayment obligation survives and the secured money becomes immediately payable.",
+            "c": "Both the charge and the underlying repayment obligation become unenforceable.",
+            "d": "The security remains effective against creditors but becomes unenforceable against BlueRock."
+          },
+          "answer": "b"
+        },
+        {
+          "id": 9,
+          "context": "BlueRock Beverages Plc acquires 60% of the ordinary equity share capital of its bottle supplier, ClearPack Ltd. Both remain separately incorporated. BlueRock finances the acquisition with a loan secured by a registrable factory charge. The documents are stamped but not submitted to the CAC within 90 days; no extension or rectification is obtained. The secretary deliberately denies Sade, who is an ordinary shareholder of the company, service of notice of the general meeting without waiver. BlueRock also withholds her lawfully declared dividend solely because she opposed the acquisition, without any lawful justification.",
+          "question": "Which statement correctly addresses the deliberate exclusion of Sade from receiving notice?",
+          "options": {
+            "a": "The omission is protected because Sade's attendance would not change the voting outcome.",
+            "b": "The omission is protected if the secretary acted on the chairman's instructions.",
+            "c": "The omission invalidates the meeting; it is not an accidental omission protected by CAMA.",
+            "d": "The omission affects only Sade's voting rights and leaves the meeting valid."
+          },
+          "answer": "c"
+        },
+        {
+          "id": 10,
+          "context": "BlueRock Beverages Plc acquires 60% of the ordinary equity share capital of its bottle supplier, ClearPack Ltd. Both remain separately incorporated. BlueRock finances the acquisition with a loan secured by a registrable factory charge. The documents are stamped but not submitted to the CAC within 90 days; no extension or rectification is obtained. The secretary deliberately denies Sade, who is an ordinary shareholder of the company, service of notice of the general meeting without waiver. BlueRock also withholds her lawfully declared dividend solely because she opposed the acquisition, without any lawful justification.",
+          "question": "One of the following does not directly enable Sade to recover her withheld dividend:",
+          "options": {
+            "a": "A personal action",
+            "b": "A derivative action",
+            "c": "An application to cancel BlueRock's acquisition of ClearPack.",
+            "d": "A representative action"
+          },
+          "answer": "bonus"
+        },
+        {
+          "id": 11,
+          "context": "In 2025, BlueWave Technologies Ltd was birthed as a Nigerian startup. It is now seeking to expand into renewable energy. The founders decided not to incorporate another company but to re-register the company as a public company. During incorporation, they admitted a foreign investor from Germany who wanted to hold 40% equity. In 2026, the company has grown rapidly and is preparing for its first Annual General Meeting. However, disputes arose regarding compliance with statutory requirements with regard to the German investor, the incorporation process and corporate meetings.",
+          "question": "Which of the following is not a mandatory requirement for the re-registration of the company under CAMA?",
+          "options": {
+            "a": "Minimum of two shareholders",
+            "b": "At least two directors",
+            "c": "Share capital of not less than ₦2 million",
+            "d": "Registration with the Securities and Exchange Commission (SEC)"
+          },
+          "answer": "d"
+        },
+        {
+          "id": 12,
+          "context": "In 2025, BlueWave Technologies Ltd was birthed as a Nigerian startup. It is now seeking to expand into renewable energy. The founders decided not to incorporate another company but to re-register the company as a public company. During incorporation, they admitted a foreign investor from Germany who wanted to hold 40% equity. In 2026, the company has grown rapidly and is preparing for its first Annual General Meeting. However, disputes arose regarding compliance with statutory requirements with regard to the German investor, the incorporation process and corporate meetings.",
+          "question": "Under Nigerian investment laws, foreign investors may participate in Nigerian companies provided:",
+          "options": {
+            "a": "They hold no more than 25% equity",
+            "b": "They register with the Securities and Exchange Commission (SEC)",
+            "c": "They are restricted to joint ventures only",
+            "d": "They must appoint a Nigerian as managing director"
+          },
+          "answer": "b"
+        },
+        {
+          "id": 13,
+          "context": "In 2025, BlueWave Technologies Ltd was birthed as a Nigerian startup. It is now seeking to expand into renewable energy. The founders decided not to incorporate another company but to re-register the company as a public company. During incorporation, they admitted a foreign investor from Germany who wanted to hold 40% equity. In 2026, the company has grown rapidly and is preparing for its first Annual General Meeting. However, disputes arose regarding compliance with statutory requirements with regard to the German investor, the incorporation process and corporate meetings.",
+          "question": "Before BlueWave Technologies becomes a public company, CAMA requires the first AGM to be held:",
+          "options": {
+            "a": "Within 6 months of incorporation",
+            "b": "Within 9 months of incorporation",
+            "c": "Within 18 months of incorporation",
+            "d": "Within 24 months of incorporation"
+          },
+          "answer": "c"
+        },
+        {
+          "id": 14,
+          "context": "In 2025, BlueWave Technologies Ltd was birthed as a Nigerian startup. It is now seeking to expand into renewable energy. The founders decided not to incorporate another company but to re-register the company as a public company. During incorporation, they admitted a foreign investor from Germany who wanted to hold 40% equity. In 2026, the company has grown rapidly and is preparing for its first Annual General Meeting. However, disputes arose regarding compliance with statutory requirements with regard to the German investor, the incorporation process and corporate meetings.",
+          "question": "What is the minimum statutory notice period for the AGM of BlueWave Technologies Plc under CAMA?",
+          "options": {
+            "a": "7 days",
+            "b": "14 days",
+            "c": "21 days",
+            "d": "30 days"
+          },
+          "answer": "c"
+        },
+        {
+          "id": 15,
+          "context": "In 2025, BlueWave Technologies Ltd was birthed as a Nigerian startup. It is now seeking to expand into renewable energy. The founders decided not to incorporate another company but to re-register the company as a public company. During incorporation, they admitted a foreign investor from Germany who wanted to hold 40% equity. In 2026, the company has grown rapidly and is preparing for its first Annual General Meeting. However, disputes arose regarding compliance with statutory requirements with regard to the German investor, the incorporation process and corporate meetings.",
+          "question": "If BlueWave Technologies Ltd has 50 members, what constitutes a quorum at its AGM under CAMA?",
+          "options": {
+            "a": "2 members personally present",
+            "b": "5 members personally present or represented by proxies",
+            "c": "18 members personally present or represented by proxies",
+            "d": "Majority of directors present"
+          },
+          "answer": "bonus"
+        },
+        {
+          "id": 16,
+          "context": "In 2026, GreenFields Agro Plc, a Nigerian public company, decided to restructure its operations by merging two subsidiaries operating in different sectors. Minority shareholders expressed concern that their interests were being disregarded and that they had not been granted access to any of the statutory records of the company. The directors of the company are also considering restructuring the company to re-position it for better efficiency.",
+          "question": "Which of the following remedies is available to the minority shareholders of GreenFields Agro Plc under CAMA where the majority shareholders act oppressively?",
+          "options": {
+            "a": "Petition to court for winding up on just and equitable grounds",
+            "b": "Automatic right to veto majority decisions",
+            "c": "Right to remove the directors",
+            "d": "Right to demand compulsory buyout of majority shares"
+          },
+          "answer": "a"
+        },
+        {
+          "id": 17,
+          "context": "In 2026, GreenFields Agro Plc, a Nigerian public company, decided to restructure its operations by merging two subsidiaries operating in different sectors. Minority shareholders expressed concern that their interests were being disregarded and that they had not been granted access to any of the statutory records of the company. The directors of the company are also considering restructuring the company to re-position it for better efficiency.",
+          "question": "Which of the following options requires court approval under CAMA?",
+          "options": {
+            "a": "Change of company name",
+            "b": "Merger or arrangement involving restructuring of share capital",
+            "c": "An arrangement on Sale",
+            "d": "Increase in Share Capital"
+          },
+          "answer": "b"
+        },
+        {
+          "id": 18,
+          "context": "In 2026, GreenFields Agro Plc, a Nigerian public company, decided to restructure its operations by merging two subsidiaries operating in different sectors. Minority shareholders expressed concern that their interests were being disregarded and that they had not been granted access to any of the statutory records of the company. The directors of the company are also considering restructuring the company to re-position it for better efficiency.",
+          "question": "Which statutory book is GreenFields Agro Plc required to maintain?",
+          "options": {
+            "a": "Register of members",
+            "b": "Register of auditors",
+            "c": "Register of minority shareholders",
+            "d": "Register of employee"
+          },
+          "answer": "a"
+        },
+        {
+          "id": 19,
+          "context": "In 2026, GreenFields Agro Plc, a Nigerian public company, decided to restructure its operations by merging two subsidiaries operating in different sectors. Minority shareholders expressed concern that their interests were being disregarded and that they had not been granted access to any of the statutory records of the company. The directors of the company are also considering restructuring the company to re-position it for better efficiency.",
+          "question": "If GreenFields Agro Plc undertakes a scheme of arrangement, what protection does CAMA provide to minority shareholders?",
+          "options": {
+            "a": "Their votes are disregarded",
+            "b": "The court must confirm the scheme after approval by a majority in value of shareholders",
+            "c": "They can block the scheme if they hold at least 5% shares",
+            "d": "They automatically receive double dividends"
+          },
+          "answer": "b"
+        },
+        {
+          "id": 20,
+          "context": "In 2026, GreenFields Agro Plc, a Nigerian public company, decided to restructure its operations by merging two subsidiaries operating in different sectors. Minority shareholders expressed concern that their interests were being disregarded and that they had not been granted access to any of the statutory records of the company. The directors of the company are also considering restructuring the company to re-position it for better efficiency.",
+          "question": "GreenFields Agro Plc must file annual returns with the Corporate Affairs Commission (CAC)",
+          "options": {
+            "a": "Every 6 months",
+            "b": "Annually, once every calendar year",
+            "c": "Every 18 months",
+            "d": "Only when profits are declared"
+          },
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "id": "property-law-practice",
+      "name": "Property Law Practice",
+      "questionsCount": 20,
+      "questions": [
+        {
+          "id": 1,
+          "context": "On the 1st of December, 2025, Mr. Obe Obembe married Mrs. Kemi Obembe at the Federal Marriage Registry, Ikoyi, Lagos. Sometime in January 2026, Mr. Obe Obembe contacted his lawyer, Mr. Smart Obilo Esq. to prepare his will wherein he left his entire estate to his wife and his two young children- Kale Obembe and Dorcas Obembe. He also appointed his two young children as the executors of his will. Subsequently, Mr. Obembe was conferred with a chieftaincy title in his village and then contracted a customary marriage with another woman known as Dr. Itama Okiboh in order to announce his new status as a Chief. On his way back to Lagos from his village on the 1st of April, 2026, Mr. Obe Obembe was involved in a ghastly car accident which took his life. After his death, his lawyer only notified the probate registry about the will of Mr. Obe Obembe in his possession sometime in October, 2026 despite becoming aware of the death on the same day it happened.",
+          "question": "Which of the following statement is correct with respect to the effect of the subsequent marriage of Mr. Obembe to his will.",
+          "options": {
+            "a": "The subsequent marriage voids the will",
+            "b": "The subsequent marriage makes the will voidable",
+            "c": "The subsequent marriage has no effect on the will",
+            "d": "The subsequent marriage invalidates only the gifts in the will."
+          },
+          "answer": "c"
+        },
+        {
+          "id": 2,
+          "context": "On the 1st of December, 2025, Mr. Obe Obembe married Mrs. Kemi Obembe at the Federal Marriage Registry, Ikoyi, Lagos. Sometime in January 2026, Mr. Obe Obembe contacted his lawyer, Mr. Smart Obilo Esq. to prepare his will wherein he left his entire estate to his wife and his two young children- Kale Obembe and Dorcas Obembe. He also appointed his two young children as the executors of his will. Subsequently, Mr. Obembe was conferred with a chieftaincy title in his village and then contracted a customary marriage with another woman known as Dr. Itama Okiboh in order to announce his new status as a Chief. On his way back to Lagos from his village on the 1st of April, 2026, Mr. Obe Obembe was involved in a ghastly car accident which took his life. After his death, his lawyer only notified the probate registry about the will of Mr. Obe Obembe in his possession sometime in October, 2026 despite becoming aware of the death on the same day it happened.",
+          "question": "Before Mr. Obe Obembe can validly appoint his children as his executors, the children must be how old?",
+          "options": {
+            "a": "21 years' old",
+            "b": "Above 18 years' old",
+            "c": "18 years' old",
+            "d": "None of the above"
+          },
+          "answer": "d"
+        },
+        {
+          "id": 3,
+          "context": "On the 1st of December, 2025, Mr. Obe Obembe married Mrs. Kemi Obembe at the Federal Marriage Registry, Ikoyi, Lagos. Sometime in January 2026, Mr. Obe Obembe contacted his lawyer, Mr. Smart Obilo Esq. to prepare his will wherein he left his entire estate to his wife and his two young children- Kale Obembe and Dorcas Obembe. He also appointed his two young children as the executors of his will. Subsequently, Mr. Obembe was conferred with a chieftaincy title in his village and then contracted a customary marriage with another woman known as Dr. Itama Okiboh in order to announce his new status as a Chief. On his way back to Lagos from his village on the 1st of April, 2026, Mr. Obe Obembe was involved in a ghastly car accident which took his life. After his death, his lawyer only notified the probate registry about the will of Mr. Obe Obembe in his possession sometime in October, 2026 despite becoming aware of the death on the same day it happened.",
+          "question": "Which of the following is the latest date that Mr. Smart Obilo Esq. is supposed to notify the Probate Registry about the will of Mr. Obembe in his custody?",
+          "options": {
+            "a": "31st July, 2026",
+            "b": "31st June, 2026",
+            "c": "1st August, 2026",
+            "d": "1st July, 2026"
+          },
+          "answer": "d"
+        },
+        {
+          "id": 4,
+          "context": "On the 1st of December, 2025, Mr. Obe Obembe married Mrs. Kemi Obembe at the Federal Marriage Registry, Ikoyi, Lagos. Sometime in January 2026, Mr. Obe Obembe contacted his lawyer, Mr. Smart Obilo Esq. to prepare his will wherein he left his entire estate to his wife and his two young children- Kale Obembe and Dorcas Obembe. He also appointed his two young children as the executors of his will. Subsequently, Mr. Obembe was conferred with a chieftaincy title in his village and then contracted a customary marriage with another woman known as Dr. Itama Okiboh in order to announce his new status as a Chief. On his way back to Lagos from his village on the 1st of April, 2026, Mr. Obe Obembe was involved in a ghastly car accident which took his life. After his death, his lawyer only notified the probate registry about the will of Mr. Obe Obembe in his possession sometime in October, 2026 despite becoming aware of the death on the same day it happened.",
+          "question": "Assuming Mr. Smart Obilo fails to notify the Probate Registry about the will of Mr. Obembe in his custody within the time prescribed, he may be liable to pay a fine in the sum of?",
+          "options": {
+            "a": "₦100,000",
+            "b": "₦20,000",
+            "c": "₦50,000",
+            "d": "₦500,000"
+          },
+          "answer": "c"
+        },
+        {
+          "id": 5,
+          "context": "On the 1st of December, 2025, Mr. Obe Obembe married Mrs. Kemi Obembe at the Federal Marriage Registry, Ikoyi, Lagos. Sometime in January 2026, Mr. Obe Obembe contacted his lawyer, Mr. Smart Obilo Esq. to prepare his will wherein he left his entire estate to his wife and his two young children- Kale Obembe and Dorcas Obembe. He also appointed his two young children as the executors of his will. Subsequently, Mr. Obembe was conferred with a chieftaincy title in his village and then contracted a customary marriage with another woman known as Dr. Itama Okiboh in order to announce his new status as a Chief. On his way back to Lagos from his village on the 1st of April, 2026, Mr. Obe Obembe was involved in a ghastly car accident which took his life. After his death, his lawyer only notified the probate registry about the will of Mr. Obe Obembe in his possession sometime in October, 2026 despite becoming aware of the death on the same day it happened.",
+          "question": "Assuming that after the death of Mr Obembe, his brother without obtaining the necessary grant took steps and began to administer the estate because the executors of the estate were still minors, he may be liable to a fine in the sum of?",
+          "options": {
+            "a": "₦100,000",
+            "b": "₦20,000",
+            "c": "₦50,000",
+            "d": "₦500,000"
+          },
+          "answer": "d"
+        },
+        {
+          "id": 6,
+          "context": "The Aderigba family of Itale Village, Ikorodu, Lagos owns two plots of land situate at Itale Village, Ikorodu, Lagos. Sometime in May, 2024, the family head and other principal family members executed a document in writing in favour of Mr. Kale Aderigba, a principal member of the family authorizing him to grant a term of years in respect of one of the plots of land to Alhaji Kabiri Kabiri and to sell the second plot of land to Mrs. Folake Dami for the sum of ₦150,000,000. Acting on the above authority, Mr. Kale Aderibgbe orally granted a term of 3 years to Alhaji Kabiri Kabiri at the sum of ₦10,000,000 per annum while he also issued just a receipt which acknowledged the payment of the purchase price by Mrs. Folake Dami without more.",
+          "question": "For the sale transaction between the parties to be valid, the payment receipt issued by Mr. Kale must contain all of the following but one?",
+          "options": {
+            "a": "It must disclose the parties",
+            "b": "It must describe the mode of payment",
+            "c": "It must describe the property",
+            "d": "It must disclose the price"
+          },
+          "answer": "b"
+        },
+        {
+          "id": 7,
+          "context": "The Aderigba family of Itale Village, Ikorodu, Lagos owns two plots of land situate at Itale Village, Ikorodu, Lagos. Sometime in May, 2024, the family head and other principal family members executed a document in writing in favour of Mr. Kale Aderigba, a principal member of the family authorizing him to grant a term of years in respect of one of the plots of land to Alhaji Kabiri Kabiri and to sell the second plot of land to Mrs. Folake Dami for the sum of ₦150,000,000. Acting on the above authority, Mr. Kale Aderibgbe orally granted a term of 3 years to Alhaji Kabiri Kabiri at the sum of ₦10,000,000 per annum while he also issued just a receipt which acknowledged the payment of the purchase price by Mrs. Folake Dami without more.",
+          "question": "Assuming Mr. Kale Aderigba eventually sold the plot of land to Mrs. Folake Dami without further obtaining the consent of the family head, which of the following will be the effect of such a sale?",
+          "options": {
+            "a": "It is void and liable to be set aside",
+            "b": "It is voidable at the instance of other members of the family",
+            "c": "It is valid provided the sale was done in good faith",
+            "d": "None of the above"
+          },
+          "answer": "c"
+        },
+        {
+          "id": 8,
+          "context": "The Aderigba family of Itale Village, Ikorodu, Lagos owns two plots of land situate at Itale Village, Ikorodu, Lagos. Sometime in May, 2024, the family head and other principal family members executed a document in writing in favour of Mr. Kale Aderigba, a principal member of the family authorizing him to grant a term of years in respect of one of the plots of land to Alhaji Kabiri Kabiri and to sell the second plot of land to Mrs. Folake Dami for the sum of ₦150,000,000. Acting on the above authority, Mr. Kale Aderibgbe orally granted a term of 3 years to Alhaji Kabiri Kabiri at the sum of ₦10,000,000 per annum while he also issued just a receipt which acknowledged the payment of the purchase price by Mrs. Folake Dami without more.",
+          "question": "For the transaction between the family and Alhaji Kabiri Kabiri to be valid, it must fulfill all of the following conditions except one?",
+          "options": {
+            "a": "It must have been created by Deed",
+            "b": "The best rent obtainable must have been paid",
+            "c": "Possession must have been taken",
+            "d": "The term granted must not exceed 3 years"
+          },
+          "answer": "a"
+        },
+        {
+          "id": 9,
+          "context": "The Aderigba family of Itale Village, Ikorodu, Lagos owns two plots of land situate at Itale Village, Ikorodu, Lagos. Sometime in May, 2024, the family head and other principal family members executed a document in writing in favour of Mr. Kale Aderigba, a principal member of the family authorizing him to grant a term of years in respect of one of the plots of land to Alhaji Kabiri Kabiri and to sell the second plot of land to Mrs. Folake Dami for the sum of ₦150,000,000. Acting on the above authority, Mr. Kale Aderibgbe orally granted a term of 3 years to Alhaji Kabiri Kabiri at the sum of ₦10,000,000 per annum while he also issued just a receipt which acknowledged the payment of the purchase price by Mrs. Folake Dami without more.",
+          "question": "One of the following is correct as an effect of failure to register the document executed by the family in favour of Mr. Kale Aderigba?",
+          "options": {
+            "a": "It is void",
+            "b": "It is admissible in any civil proceedings",
+            "c": "It is not admissible in any proceedings",
+            "d": "It is admissible only to prove payment but not title"
+          },
+          "answer": "c"
+        },
+        {
+          "id": 10,
+          "context": "The Aderigba family of Itale Village, Ikorodu, Lagos owns two plots of land situate at Itale Village, Ikorodu, Lagos. Sometime in May, 2024, the family head and other principal family members executed a document in writing in favour of Mr. Kale Aderigba, a principal member of the family authorizing him to grant a term of years in respect of one of the plots of land to Alhaji Kabiri Kabiri and to sell the second plot of land to Mrs. Folake Dami for the sum of ₦150,000,000. Acting on the above authority, Mr. Kale Aderibgbe orally granted a term of 3 years to Alhaji Kabiri Kabiri at the sum of ₦10,000,000 per annum while he also issued just a receipt which acknowledged the payment of the purchase price by Mrs. Folake Dami without more.",
+          "question": "The registration of the document in question 9 above must be done within what timeframe?",
+          "options": {
+            "a": "Within 30 days after execution",
+            "b": "Within 30 days after Governor's consent",
+            "c": "Within 60 days after execution",
+            "d": "Within 60 days after Governor's consent"
+          },
+          "answer": "d"
+        },
+        {
+          "id": 11,
+          "context": "Chief Adetokunbo Bakare, a property investor, owns a commercial building comprising six floors in Ikeja, Lagos State. On 1 March 2023, he granted BrightPath Technologies Ltd a lease of the entire building for a term of ten years at an annual rent of ₦25 million. The lease contained a covenant prohibiting assignment or subletting without the landlord's prior written consent. In June 2025, BrightPath Technologies Ltd, without obtaining Chief Bakare's consent, purported to sublet two floors of the building to another company, Innovate Nigeria Ltd. When Chief Bakare discovered the arrangement, he instructed his solicitor to advise him on his rights and remedies. In view of the fact that he had a terminal illness, Chief Bakare subsequently made a will and among other provisions, he devised his residential property in Lekki to his daughter, Funke, and directed that the rental income from his commercial properties be paid to his wife for life, after which the properties would pass to his two sons in equal shares. Before executing the will, Chief Bakare sought advice from his solicitor on the formal requirements for a valid will, the legal effect of the dispositions, and the tax implications of his property transactions and estate planning.",
+          "question": "What is the likely consequence of BrightPath Technologies Ltd subletting without consent?",
+          "options": {
+            "a": "The sublease is automatically void.",
+            "b": "The landlord may enforce the covenant and seek forfeiture.",
+            "c": "The sublease extinguishes the head lease.",
+            "d": "The landlord must first prove rent default."
+          },
+          "answer": "b"
+        },
+        {
+          "id": 12,
+          "context": "Chief Adetokunbo Bakare, a property investor, owns a commercial building comprising six floors in Ikeja, Lagos State. On 1 March 2023, he granted BrightPath Technologies Ltd a lease of the entire building for a term of ten years at an annual rent of ₦25 million. The lease contained a covenant prohibiting assignment or subletting without the landlord's prior written consent. In June 2025, BrightPath Technologies Ltd, without obtaining Chief Bakare's consent, purported to sublet two floors of the building to another company, Innovate Nigeria Ltd. When Chief Bakare discovered the arrangement, he instructed his solicitor to advise him on his rights and remedies. In view of the fact that he had a terminal illness, Chief Bakare subsequently made a will and among other provisions, he devised his residential property in Lekki to his daughter, Funke, and directed that the rental income from his commercial properties be paid to his wife for life, after which the properties would pass to his two sons in equal shares. Before executing the will, Chief Bakare sought advice from his solicitor on the formal requirements for a valid will, the legal effect of the dispositions, and the tax implications of his property transactions and estate planning.",
+          "question": "If BrightPath Technologies Ltd instead assigned its entire unexpired lease without consent, which statement is correct?",
+          "options": {
+            "a": "Assignment and subletting are identical.",
+            "b": "Assignment automatically releases the tenant from all obligations.",
+            "c": "Assignment transfers the remaining leasehold interest, subject to applicable law.",
+            "d": "Assignment is always void without consent."
+          },
+          "answer": "c"
+        },
+        {
+          "id": 13,
+          "context": "Chief Adetokunbo Bakare, a property investor, owns a commercial building comprising six floors in Ikeja, Lagos State. On 1 March 2023, he granted BrightPath Technologies Ltd a lease of the entire building for a term of ten years at an annual rent of ₦25 million. The lease contained a covenant prohibiting assignment or subletting without the landlord's prior written consent. In June 2025, BrightPath Technologies Ltd, without obtaining Chief Bakare's consent, purported to sublet two floors of the building to another company, Innovate Nigeria Ltd. When Chief Bakare discovered the arrangement, he instructed his solicitor to advise him on his rights and remedies. In view of the fact that he had a terminal illness, Chief Bakare subsequently made a will and among other provisions, he devised his residential property in Lekki to his daughter, Funke, and directed that the rental income from his commercial properties be paid to his wife for life, after which the properties would pass to his two sons in equal shares. Before executing the will, Chief Bakare sought advice from his solicitor on the formal requirements for a valid will, the legal effect of the dispositions, and the tax implications of his property transactions and estate planning.",
+          "question": "Which is a general statutory requirement for executing a valid will under the applicable Lagos State law?",
+          "options": {
+            "a": "The testator signs before two witnesses present together, who attest in the testator's presence.",
+            "b": "The testator's signature before a notary is sufficient.",
+            "c": "The will must be registered at the Lands Registry.",
+            "d": "One witness is sufficient in every case."
+          },
+          "answer": "a"
+        },
+        {
+          "id": 14,
+          "context": "Chief Adetokunbo Bakare, a property investor, owns a commercial building comprising six floors in Ikeja, Lagos State. On 1 March 2023, he granted BrightPath Technologies Ltd a lease of the entire building for a term of ten years at an annual rent of ₦25 million. The lease contained a covenant prohibiting assignment or subletting without the landlord's prior written consent. In June 2025, BrightPath Technologies Ltd, without obtaining Chief Bakare's consent, purported to sublet two floors of the building to another company, Innovate Nigeria Ltd. When Chief Bakare discovered the arrangement, he instructed his solicitor to advise him on his rights and remedies. In view of the fact that he had a terminal illness, Chief Bakare subsequently made a will and among other provisions, he devised his residential property in Lekki to his daughter, Funke, and directed that the rental income from his commercial properties be paid to his wife for life, after which the properties would pass to his two sons in equal shares. Before executing the will, Chief Bakare sought advice from his solicitor on the formal requirements for a valid will, the legal effect of the dispositions, and the tax implications of his property transactions and estate planning.",
+          "question": "What interests arise from the disposition of the commercial properties to Chief Bakare's wife and subsequently to his sons?",
+          "options": {
+            "a": "The wife takes an absolute interest.",
+            "b": "The sons cannot acquire any interest under the will.",
+            "c": "The wife takes a life interest, with the sons potentially taking the remainder.",
+            "d": "All beneficiaries become joint tenants."
+          },
+          "answer": "c"
+        },
+        {
+          "id": 15,
+          "context": "Chief Adetokunbo Bakare, a property investor, owns a commercial building comprising six floors in Ikeja, Lagos State. On 1 March 2023, he granted BrightPath Technologies Ltd a lease of the entire building for a term of ten years at an annual rent of ₦25 million. The lease contained a covenant prohibiting assignment or subletting without the landlord's prior written consent. In June 2025, BrightPath Technologies Ltd, without obtaining Chief Bakare's consent, purported to sublet two floors of the building to another company, Innovate Nigeria Ltd. When Chief Bakare discovered the arrangement, he instructed his solicitor to advise him on his rights and remedies. In view of the fact that he had a terminal illness, Chief Bakare subsequently made a will and among other provisions, he devised his residential property in Lekki to his daughter, Funke, and directed that the rental income from his commercial properties be paid to his wife for life, after which the properties would pass to his two sons in equal shares. Before executing the will, Chief Bakare sought advice from his solicitor on the formal requirements for a valid will, the legal effect of the dispositions, and the tax implications of his property transactions and estate planning. Also discovered that the deceased's solicitor had prepared a deed relating to the property several years earlier, but it was unclear whether the instrument had been duly stamped and registered under the applicable Lagos State land registration framework. Mr. Okoro has instructed his solicitor to investigate the title, determine the authority of the personal representatives, and advise him on the mortgage and registration issues.",
+          "question": "Which statement best describes the tax implications of Chief Bakare's property transactions?",
+          "options": {
+            "a": "Leases are exempt from all property-related taxes.",
+            "b": "Different tax obligations may arise from rental income, leases and property sales.",
+            "c": "Stamp duties apply only to outright sales.",
+            "d": "Chargeable gains apply to every property held before disposal"
+          },
+          "answer": "b"
+        },
+        {
+          "id": 16,
+          "context": "Mr. Olumide Akinwale, a businessman resident in Lagos, died in January 2025, leaving behind several landed properties. In his will, he appointed his brother, Kunle Akinwale, and his solicitor, Mrs. Bisi Lawal, as executors. Before probate was granted, Kunle, acting alone, entered into an agreement to sell one of the deceased's properties in Surulere to Mr. Femi Okoro. Kunle represented that he had full authority to dispose of the property. Mr. Okoro paid a substantial deposit. Mrs. Lawal subsequently objected to the transaction, explaining that probate had not been granted and that she had not authorized the sale. Further investigations revealed that the Surulere property was subject to a mortgage created by the deceased in favour of Millennium Bank Ltd to secure a substantial loan. Mr. Okoro has informed the Bank that he will be using the most expeditious mode with full trial to recover the money.",
+          "question": "What is the legal position where Kunle enters into a sale agreement before probate is granted?",
+          "options": {
+            "a": "An executor cannot take any step before probate.",
+            "b": "The legal effect depends on the nature of the act and applicable law.",
+            "c": "Appointment as executor authorizes every transaction.",
+            "d": "Every pre-probate sale automatically binds the estate."
+          },
+          "answer": "b"
+        },
+        {
+          "id": 17,
+          "context": "Mr. Olumide Akinwale, a businessman resident in Lagos, died in January 2025, leaving behind several landed properties. In his will, he appointed his brother, Kunle Akinwale, and his solicitor, Mrs. Bisi Lawal, as executors. Before probate was granted, Kunle, acting alone, entered into an agreement to sell one of the deceased's properties in Surulere to Mr. Femi Okoro. Kunle represented that he had full authority to dispose of the property. Mr. Okoro paid a substantial deposit. Mrs. Lawal subsequently objected to the transaction, explaining that probate had not been granted and that she had not authorized the sale. Further investigations revealed that the Surulere property was subject to a mortgage created by the deceased in favour of Millennium Bank Ltd to secure a substantial loan. Mr. Okoro has informed the Bank that he will be using the most expeditious mode with full trial to recover the money.",
+          "question": "Which statement best describes the authority of co-executors in disposing of estate property?",
+          "options": {
+            "a": "The first-named executor always acts alone.",
+            "b": "Executors hold estate assets for their personal benefit.",
+            "c": "Either executor may complete every transaction independently.",
+            "d": "One executor's authority to act alone depends on the nature of the act and applicable law."
+          },
+          "answer": "d"
+        },
+        {
+          "id": 18,
+          "context": "Mr. Olumide Akinwale, a businessman resident in Lagos, died in January 2025, leaving behind several landed properties. In his will, he appointed his brother, Kunle Akinwale, and his solicitor, Mrs. Bisi Lawal, as executors. Before probate was granted, Kunle, acting alone, entered into an agreement to sell one of the deceased's properties in Surulere to Mr. Femi Okoro. Kunle represented that he had full authority to dispose of the property. Mr. Okoro paid a substantial deposit. Mrs. Lawal subsequently objected to the transaction, explaining that probate had not been granted and that she had not authorized the sale. Further investigations revealed that the Surulere property was subject to a mortgage created by the deceased in favour of Millennium Bank Ltd to secure a substantial loan. Mr. Okoro has informed the Bank that he will be using the most expeditious mode with full trial to recover the money.",
+          "question": "What is the likely effect of the existing mortgage on the Surulere property?",
+          "options": {
+            "a": "The bank may enforce its mortgage remedies following default.",
+            "b": "The mortgage ends automatically upon the mortgagor's death.",
+            "c": "The executors automatically become personally liable for the entire debt.",
+            "d": "The will extinguishes the mortgage."
+          },
+          "answer": "a"
+        },
+        {
+          "id": 19,
+          "context": "Mr. Olumide Akinwale, a businessman resident in Lagos, died in January 2025, leaving behind several landed properties. In his will, he appointed his brother, Kunle Akinwale, and his solicitor, Mrs. Bisi Lawal, as executors. Before probate was granted, Kunle, acting alone, entered into an agreement to sell one of the deceased's properties in Surulere to Mr. Femi Okoro. Kunle represented that he had full authority to dispose of the property. Mr. Okoro paid a substantial deposit. Mrs. Lawal subsequently objected to the transaction, explaining that probate had not been granted and that she had not authorized the sale. Further investigations revealed that the Surulere property was subject to a mortgage created by the deceased in favour of Millennium Bank Ltd to secure a substantial loan. Mr. Okoro has informed the Bank that he will be using the most expeditious mode with full trial to recover the money.",
+          "question": "Which statement best describes the effect of registering an instrument under the applicable Lagos State land registration framework?",
+          "options": {
+            "a": "Registration cures every defect in title.",
+            "b": "An unregistered instrument is always void and inadmissible.",
+            "c": "Registration does not necessarily cure defects in the transaction or the grantor's title.",
+            "d": "Registration at the CAC perfects title to land."
+          },
+          "answer": "c"
+        },
+        {
+          "id": 20,
+          "context": "Mr. Olumide Akinwale, a businessman resident in Lagos, died in January 2025, leaving behind several landed properties. In his will, he appointed his brother, Kunle Akinwale, and his solicitor, Mrs. Bisi Lawal, as executors. Before probate was granted, Kunle, acting alone, entered into an agreement to sell one of the deceased's properties in Surulere to Mr. Femi Okoro. Kunle represented that he had full authority to dispose of the property. Mr. Okoro paid a substantial deposit. Mrs. Lawal subsequently objected to the transaction, explaining that probate had not been granted and that she had not authorized the sale. Further investigations revealed that the Surulere property was subject to a mortgage created by the deceased in favour of Millennium Bank Ltd to secure a substantial loan. Mr. Okoro has informed the Bank that he will be using the most expeditious mode with full trial to recover the money.",
+          "question": "What should Mr. Okoro do before proceeding with the purchase?",
+          "options": {
+            "a": "Pay the full price immediately.",
+            "b": "Investigate the title and arrange for the mortgage to be properly discharged or otherwise dealt with.",
+            "c": "Rely solely on Kunle's representations.",
+            "d": "Register the sale agreement and assume that a valid title has been transferred."
+          },
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "id": "civil-litigation",
+      "name": "Civil Litigation",
+      "questionsCount": 20,
+      "questions": [
+        {
+          "id": 1,
+          "context": "Sometime in June 2025, Mr. Olowo, a carpenter based in Surulere, Wuse 2, Abuja, was sued by one of his customers, Nonny, before the High Court of the Federal Capital Territory, Abuja. The Claimant alleged that the Defendant had failed to deliver a piece of furniture as agreed under their contract, despite having received a deposit in November 2024. On Friday, 10 July 2026, judgment was delivered in the suit by Honourable Justice Fred J., who ordered the Defendant to refund the Claimant the sum of ₦50 million paid as a deposit and pay costs of ₦500,000. Dissatisfied with the judgment, the Defendant approached you for legal advice and a review of the judgment.",
+          "question": "Assuming you were engaged today to appeal the entire judgment, what is the first step you are going to take to achieve the Defendant's objective?",
+          "options": {
+            "a": "File a Notice of Appeal at the registry of the trial Court",
+            "b": "File a Notice of Appeal at the registry of the appellate court",
+            "c": "File an application for Leave to appeal",
+            "d": "File an application for extension of time within which he can file his notice of appeal"
+          },
+          "answer": "d"
+        },
+        {
+          "id": 2,
+          "context": "Sometime in June 2025, Mr. Olowo, a carpenter based in Surulere, Wuse 2, Abuja, was sued by one of his customers, Nonny, before the High Court of the Federal Capital Territory, Abuja. The Claimant alleged that the Defendant had failed to deliver a piece of furniture as agreed under their contract, despite having received a deposit in November 2024. On Friday, 10 July 2026, judgment was delivered in the suit by Honourable Justice Fred J., who ordered the Defendant to refund the Claimant the sum of ₦50 million paid as a deposit and pay costs of ₦500,000. Dissatisfied with the judgment, the Defendant approached you for legal advice and a review of the judgment.",
+          "question": "If your instruction is to appeal only against the award of costs today, what is the first step you will take to achieve the defendant's objective?",
+          "options": {
+            "a": "File a notice of motion seeking Trinity prayers at the appellate court",
+            "b": "File a motion on notice for Leave to appeal at the trial court",
+            "c": "Immediately file a Notice of Appeal at the registry of the trial court.",
+            "d": "File a notice of motion for leave to appeal at the appellate court"
+          },
+          "answer": "b"
+        },
+        {
+          "id": 3,
+          "context": "Sometime in June 2025, Mr. Olowo, a carpenter based in Surulere, Wuse 2, Abuja, was sued by one of his customers, Nonny, before the High Court of the Federal Capital Territory, Abuja. The Claimant alleged that the Defendant had failed to deliver a piece of furniture as agreed under their contract, despite having received a deposit in November 2024. On Friday, 10 July 2026, judgment was delivered in the suit by Honourable Justice Fred J., who ordered the Defendant to refund the Claimant the sum of ₦50 million paid as a deposit and pay costs of ₦500,000. Dissatisfied with the judgment, the Defendant approached you for legal advice and a review of the judgment.",
+          "question": "What is the fastest way the Claimant can enforce the judgment:",
+          "options": {
+            "a": "Initiate Garnishee proceedings",
+            "b": "Obtain a Writ of Fieri Facias for attachment of movable properties",
+            "c": "Judgment Summons",
+            "d": "Contempt proceedings"
+          },
+          "answer": "b"
+        },
+        {
+          "id": 4,
+          "context": "Sometime in June 2025, Mr. Olowo, a carpenter based in Surulere, Wuse 2, Abuja, was sued by one of his customers, Nonny, before the High Court of the Federal Capital Territory, Abuja. The Claimant alleged that the Defendant had failed to deliver a piece of furniture as agreed under their contract, despite having received a deposit in November 2024. On Friday, 10 July 2026, judgment was delivered in the suit by Honourable Justice Fred J., who ordered the Defendant to refund the Claimant the sum of ₦50 million paid as a deposit and pay costs of ₦500,000. Dissatisfied with the judgment, the Defendant approached you for legal advice and a review of the judgment.",
+          "question": "What step will you take to prevent the Claimant from taking step(s) in respect of the judgment pending the determination of the appeal?",
+          "options": {
+            "a": "File a motion on notice for perpetual injunction restraining the Claimant from taking any step in respect of the judgment.",
+            "b": "File a motion on notice for a stay of execution of the judgment",
+            "c": "File a notice of motion for injunction restraining the Claimant from taking any step in respect of the judgment pending the determination of the appeal filed.",
+            "d": "File a notice of motion for stay of proceedings pending the determination of the appeal filed."
+          },
+          "answer": "b"
+        },
+        {
+          "id": 5,
+          "context": "Sometime in June 2025, Mr. Olowo, a carpenter based in Surulere, Wuse 2, Abuja, was sued by one of his customers, Nonny, before the High Court of the Federal Capital Territory, Abuja. The Claimant alleged that the Defendant had failed to deliver a piece of furniture as agreed under their contract, despite having received a deposit in November 2024. On Friday, 10 July 2026, judgment was delivered in the suit by Honourable Justice Fred J., who ordered the Defendant to refund the Claimant the sum of ₦50 million paid as a deposit and pay costs of ₦500,000. Dissatisfied with the judgment, the Defendant approached you for legal advice and a review of the judgment.",
+          "question": "The Costs awarded in the case are required to be paid within how many days:",
+          "options": {
+            "a": "Immediately",
+            "b": "Within 7days",
+            "c": "3 days",
+            "d": "3 months"
+          },
+          "answer": "a"
+        },
+        {
+          "id": 6,
+          "context": "Senator Kabiru and Alhaji Tinto contested for the gubernatorial ticket of the People's Conscience Party (PCP) in Kogi State. On July 10, 2026, Alhaji Tinto was declared the winner of the party's gubernatorial primary election. He subsequently contested in the gubernatorial election held on September 9, 2026, but lost to Mr. Ebere, who is an ex-convict. Senator Kabiru believes that he lost his party's gubernatorial ticket because Alhaji Tinto bribed party officials to secure their support. Meanwhile, Alhaji Tinto intends to challenge the outcome of the gubernatorial election because he believes he was the rightful winner of the election. Both Senator Kabiru and Alhaji Tinto subsequently decided to challenge the respective election outcomes.",
+          "question": "Before which judicial forum will Senator Kabiru challenge the outcome of the election:",
+          "options": {
+            "a": "National and State Houses of Assembly Election Tribunal",
+            "b": "Governorship Election Tribunal",
+            "c": "Court of Appeal",
+            "d": "Federal High Court"
+          },
+          "answer": "d"
+        },
+        {
+          "id": 7,
+          "context": "Senator Kabiru and Alhaji Tinto contested for the gubernatorial ticket of the People's Conscience Party (PCP) in Kogi State. On July 10, 2026, Alhaji Tinto was declared the winner of the party's gubernatorial primary election. He subsequently contested in the gubernatorial election held on September 9, 2026, but lost to Mr. Ebere, who is an ex-convict. Senator Kabiru believes that he lost his party's gubernatorial ticket because Alhaji Tinto bribed party officials to secure their support. Meanwhile, Alhaji Tinto intends to challenge the outcome of the gubernatorial election because he believes he was the rightful winner of the election. Both Senator Kabiru and Alhaji Tinto subsequently decided to challenge the respective election outcomes.",
+          "question": "Alhaji Tinto can predicate his action on the following grounds except:",
+          "options": {
+            "a": "That Mr. Ebere is not qualified to participate in the election",
+            "b": "That the election was characterized by corrupt practices",
+            "c": "That the election was characterized by substantial non-compliance",
+            "d": "That he won the majority of lawful votes."
+          },
+          "answer": "a"
+        },
+        {
+          "id": 8,
+          "context": "Senator Kabiru and Alhaji Tinto contested for the gubernatorial ticket of the People's Conscience Party (PCP) in Kogi State. On July 10, 2026, Alhaji Tinto was declared the winner of the party's gubernatorial primary election. He subsequently contested in the gubernatorial election held on September 9, 2026, but lost to Mr. Ebere, who is an ex-convict. Senator Kabiru believes that he lost his party's gubernatorial ticket because Alhaji Tinto bribed party officials to secure their support. Meanwhile, Alhaji Tinto intends to challenge the outcome of the gubernatorial election because he believes he was the rightful winner of the election. Both Senator Kabiru and Alhaji Tinto subsequently decided to challenge the respective election outcomes.",
+          "question": "Assuming the election is to the National Assembly, which of the following court shall have the final decision on the case?",
+          "options": {
+            "a": "Supreme Court",
+            "b": "Court of Appeal",
+            "c": "Federal High Court",
+            "d": "National and State Houses of Assembly Election Tribunal"
+          },
+          "answer": "b"
+        },
+        {
+          "id": 9,
+          "context": "Senator Kabiru and Alhaji Tinto contested for the gubernatorial ticket of the People's Conscience Party (PCP) in Kogi State. On July 10, 2026, Alhaji Tinto was declared the winner of the party's gubernatorial primary election. He subsequently contested in the gubernatorial election held on September 9, 2026, but lost to Mr. Ebere, who is an ex-convict. Senator Kabiru believes that he lost his party's gubernatorial ticket because Alhaji Tinto bribed party officials to secure their support. Meanwhile, Alhaji Tinto intends to challenge the outcome of the gubernatorial election because he believes he was the rightful winner of the election. Both Senator Kabiru and Alhaji Tinto subsequently decided to challenge the respective election outcomes.",
+          "question": "The court with the original jurisdiction to hear the case filed by Alhaji Tinto would be held to have met the minimum quorum, if:",
+          "options": {
+            "a": "The Chairman and one other member are sitting",
+            "b": "The Chairman and two other members are sitting",
+            "c": "Two members of the panel are sitting",
+            "d": "A minimum of one Judge"
+          },
+          "answer": "a"
+        },
+        {
+          "id": 10,
+          "context": "Senator Kabiru and Alhaji Tinto contested for the gubernatorial ticket of the People's Conscience Party (PCP) in Kogi State. On July 10, 2026, Alhaji Tinto was declared the winner of the party's gubernatorial primary election. He subsequently contested in the gubernatorial election held on September 9, 2026, but lost to Mr. Ebere, who is an ex-convict. Senator Kabiru believes that he lost his party's gubernatorial ticket because Alhaji Tinto bribed party officials to secure their support. Meanwhile, Alhaji Tinto intends to challenge the outcome of the gubernatorial election because he believes he was the rightful winner of the election. Both Senator Kabiru and Alhaji Tinto subsequently decided to challenge the respective election outcomes.",
+          "question": "An appeal against the judgment of the case filed by Alhaji Tinto is required to be heard and determined within:",
+          "options": {
+            "a": "180 days",
+            "b": "120 days",
+            "c": "90 days",
+            "d": "60 days"
+          },
+          "answer": "d"
+        },
+        {
+          "id": 11,
+          "context": "Sometime in September, 2026, Flex Bank Plc of Plot 10, Ahmadu Bello Way, Victoria Island, Lagos engaged the legal service of Mr. Damian Gabus Esq. in the recovery of the sum of ₦250,000,000 principal loan plus interest in respect of the mortgage transaction between the Bank and Chief Kuku Douglas which had become due and which Chief Kuku Douglas of No. 31, Allure Crescent, Oceanview Estate, Ikoyi, Lagos has failed to repay despite repeated demands from the Bank. Mr. Damian Gabus has informed the Bank that he will be using the most expeditious mode with full trial to recover the money.",
+          "question": "The action to be instituted in this case will be (i) ----- The originating process to be filed is (ii) ---------- and it must served on the Defendant within ...?",
+          "options": {
+            "a": "(i) Summary Judgment procedure; (ii) Writ of Summons; (iii) 42 days",
+            "b": "(i) Summary Summons procedure; (ii) Claim; (iii) 30 days",
+            "c": "(i) Fast Track procedure; (ii) Writ of Summons; (iii) 14 days",
+            "d": "(i) Fast Track procedure; (ii) Originating Summons; (iii) 21 days"
+          },
+          "answer": "c"
+        },
+        {
+          "id": 12,
+          "context": "Sometime in September, 2026, Flex Bank Plc of Plot 10, Ahmadu Bello Way, Victoria Island, Lagos engaged the legal service of Mr. Damian Gabus Esq. in the recovery of the sum of ₦250,000,000 principal loan plus interest in respect of the mortgage transaction between the Bank and Chief Kuku Douglas which had become due and which Chief Kuku Douglas of No. 31, Allure Crescent, Oceanview Estate, Ikoyi, Lagos has failed to repay despite repeated demands from the Bank. Mr. Damian Gabus has informed the Bank that he will be using the most expeditious mode with full trial to recover the money.",
+          "question": "Upon being served with the originating process in question 11 above, the Defendant has within what time to file his statement of defence?",
+          "options": {
+            "a": "42days",
+            "b": "30 days",
+            "c": "21 days",
+            "d": "14 days"
+          },
+          "answer": "b"
+        },
+        {
+          "id": 13,
+          "context": "Sometime in September, 2026, Flex Bank Plc of Plot 10, Ahmadu Bello Way, Victoria Island, Lagos engaged the legal service of Mr. Damian Gabus Esq. in the recovery of the sum of ₦250,000,000 principal loan plus interest in respect of the mortgage transaction between the Bank and Chief Kuku Douglas which had become due and which Chief Kuku Douglas of No. 31, Allure Crescent, Oceanview Estate, Ikoyi, Lagos has failed to repay despite repeated demands from the Bank. Mr. Damian Gabus has informed the Bank that he will be using the most expeditious mode with full trial to recover the money.",
+          "question": "The Claimant in the above suit shall apply for the Case Management Conference Notice within (i)________ of close of pleadings and the Case Management Conference stage shall be completed within a period of (ii)________",
+          "options": {
+            "a": "(i) 7 days, (ii) 21 days",
+            "b": "(i) 14 days, (ii) 30 days",
+            "c": "(i) 7 days, (ii) 30 days",
+            "d": "(i) 14 days, (ii) 60 days"
+          },
+          "answer": "c"
+        },
+        {
+          "id": 14,
+          "context": "Sometime in September, 2026, Flex Bank Plc of Plot 10, Ahmadu Bello Way, Victoria Island, Lagos engaged the legal service of Mr. Damian Gabus Esq. in the recovery of the sum of ₦250,000,000 principal loan plus interest in respect of the mortgage transaction between the Bank and Chief Kuku Douglas which had become due and which Chief Kuku Douglas of No. 31, Allure Crescent, Oceanview Estate, Ikoyi, Lagos has failed to repay despite repeated demands from the Bank. Mr. Damian Gabus has informed the Bank that he will be using the most expeditious mode with full trial to recover the money.",
+          "question": "Where the Case Management Conference Stage was not able to be completed within the period you identified in question 13 above, the Judge may extend the period for the Case Management Conference for a further period of how long?",
+          "options": {
+            "a": "14 days",
+            "b": "7 days",
+            "c": "30 days",
+            "d": "21 days"
+          },
+          "answer": "a"
+        },
+        {
+          "id": 15,
+          "context": "Sometime in September, 2026, Flex Bank Plc of Plot 10, Ahmadu Bello Way, Victoria Island, Lagos engaged the legal service of Mr. Damian Gabus Esq. in the recovery of the sum of ₦250,000,000 principal loan plus interest in respect of the mortgage transaction between the Bank and Chief Kuku Douglas which had become due and which Chief Kuku Douglas of No. 31, Allure Crescent, Oceanview Estate, Ikoyi, Lagos has failed to repay despite repeated demands from the Bank. Mr. Damian Gabus has informed the Bank that he will be using the most expeditious mode with full trial to recover the money.",
+          "question": "The Judge in the above suit shall endeavour to deliver judgment within what time?",
+          "options": {
+            "a": "90 days after adoption of final addresses",
+            "b": "90 days after close of evidence",
+            "c": "60 days after completing trial",
+            "d": "60 days after close of evidence"
+          },
+          "answer": "c"
+        },
+        {
+          "id": 16,
+          "context": "Chief Sunny Rogers married Alice Kunte at the Marriage Registry, Ikoyi, Lagos on 9th June 2020. They both live in a 4-bedroom duplex at 2 Bells Road, Wuse 2, Abuja which is owned by Chief Sunny Rogers. He rented out his 2-Bedroom boys quarter's to one Ms. Lara Gold who pays an annual rent of ₦3.5 million Naira on the property. She has not paid rent on the property in the last 2 years. Alice Kunte has suddenly been misbehaving in her marriage and keeping late nights. Chief Sunny Rogers got to know that his tenant Lara Gold has been bad influence on his wife and has introduced her to a young man that his wife is now having an affair with. Chief Sunny Rogers is fed up and wants to put an end to the marriage. He also wants to recover possession of his property from Ms. Lara Gold because he believes her bad influence on his wife is the reason for the breakup of his marriage.",
+          "question": "In which Court can he commence the action for dissolution of the marriage with Alice Kunte?",
+          "options": {
+            "a": "Lagos State High Court",
+            "b": "High Court of the Federal Capital Territory Abuja",
+            "c": "Any State High Court",
+            "d": "Either (a) or (b)"
+          },
+          "answer": "c"
+        },
+        {
+          "id": 17,
+          "context": "Chief Sunny Rogers married Alice Kunte at the Marriage Registry, Ikoyi, Lagos on 9th June 2020. They both live in a 4-bedroom duplex at 2 Bells Road, Wuse 2, Abuja which is owned by Chief Sunny Rogers. He rented out his 2-Bedroom boys quarter's to one Ms. Lara Gold who pays an annual rent of ₦3.5 million Naira on the property. She has not paid rent on the property in the last 2 years. Alice Kunte has suddenly been misbehaving in her marriage and keeping late nights. Chief Sunny Rogers got to know that his tenant Lara Gold has been bad influence on his wife and has introduced her to a young man that his wife is now having an affair with. Chief Sunny Rogers is fed up and wants to put an end to the marriage. He also wants to recover possession of his property from Ms. Lara Gold because he believes her bad influence on his wife is the reason for the breakup of his marriage.",
+          "question": "One of the following is not true about the document(s) to be filed when commencing the action in 16 above:",
+          "options": {
+            "a": "Action must be commenced by way of petition",
+            "b": "A photocopy of the marriage certificate must be filed",
+            "c": "Alice Kunte may need to file a discretion statement",
+            "d": "A Verifying affidavit must be filed."
+          },
+          "answer": "b"
+        },
+        {
+          "id": 18,
+          "context": "Chief Sunny Rogers married Alice Kunte at the Marriage Registry, Ikoyi, Lagos on 9th June 2020. They both live in a 4-bedroom duplex at 2 Bells Road, Wuse 2, Abuja which is owned by Chief Sunny Rogers. He rented out his 2-Bedroom boys quarter's to one Ms. Lara Gold who pays an annual rent of ₦3.5 million Naira on the property. She has not paid rent on the property in the last 2 years. Alice Kunte has suddenly been misbehaving in her marriage and keeping late nights. Chief Sunny Rogers got to know that his tenant Lara Gold has been bad influence on his wife and has introduced her to a young man that his wife is now having an affair with. Chief Sunny Rogers is fed up and wants to put an end to the marriage. He also wants to recover possession of his property from Ms. Lara Gold because he believes her bad influence on his wife is the reason for the breakup of his marriage.",
+          "question": "On what ground(s) can Chief Sunny Rogers rely on to put an end to the marriage?",
+          "options": {
+            "a": "That Respondent has behaved in such a way that the Petitioner cannot reasonably live with her",
+            "b": "That the Respondent has committed adultery and the Petitioner finds it intolerable to live with her.",
+            "c": "That the Marriage has broken down irretrievably",
+            "d": "All of the above."
+          },
+          "answer": "c"
+        },
+        {
+          "id": 19,
+          "context": "Chief Sunny Rogers married Alice Kunte at the Marriage Registry, Ikoyi, Lagos on 9th June 2020. They both live in a 4-bedroom duplex at 2 Bells Road, Wuse 2, Abuja which is owned by Chief Sunny Rogers. He rented out his 2-Bedroom boys quarter's to one Ms. Lara Gold who pays an annual rent of ₦3.5 million Naira on the property. She has not paid rent on the property in the last 2 years. Alice Kunte has suddenly been misbehaving in her marriage and keeping late nights. Chief Sunny Rogers got to know that his tenant Lara Gold has been bad influence on his wife and has introduced her to a young man that his wife is now having an affair with. Chief Sunny Rogers is fed up and wants to put an end to the marriage. He also wants to recover possession of his property from Ms. Lara Gold because he believes her bad influence on his wife is the reason for the breakup of his marriage.",
+          "question": "Which of the following step(s) must Chief Sunny Rogers take before he can recover possession of the boys' quarters from Lara Gold?",
+          "options": {
+            "a": "He must serve her with a 6 months' notice to quit which will expire on the eve of the anniversary of the tenancy",
+            "b": "He must serve her with 6 months' notice to quit which can expire either before or after the expiration of the tenancy",
+            "c": "He must give her a 3 months' notice to quit which can expire on the eve of the anniversary of the tenancy",
+            "d": "He must give her a 3 months' notice to quit which can expire either before or after the expiration of the tenancy"
+          },
+          "answer": "a"
+        },
+        {
+          "id": 20,
+          "context": "Chief Sunny Rogers married Alice Kunte at the Marriage Registry, Ikoyi, Lagos on 9th June 2020. They both live in a 4-bedroom duplex at 2 Bells Road, Wuse 2, Abuja which is owned by Chief Sunny Rogers. He rented out his 2-Bedroom boys quarter's to one Ms. Lara Gold who pays an annual rent of ₦3.5 million Naira on the property. She has not paid rent on the property in the last 2 years. Alice Kunte has suddenly been misbehaving in her marriage and keeping late nights. Chief Sunny Rogers got to know that his tenant Lara Gold has been bad influence on his wife and has introduced her to a young man that his wife is now having an affair with. Chief Sunny Rogers is fed up and wants to put an end to the marriage. He also wants to recover possession of his property from Ms. Lara Gold because he believes her bad influence on his wife is the reason for the breakup of his marriage.",
+          "question": "In which Court will the action for recovery of premises be instituted and by what mode?",
+          "options": {
+            "a": "At the High Court by Writ of Summons",
+            "b": "At the District Court by Plaint",
+            "c": "At the Magistrate Court by Claim",
+            "d": "At the Small Claims Court by Claim"
+          },
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "id": "criminal-litigation",
+      "name": "Criminal Litigation",
+      "questionsCount": 20,
+      "questions": [
+        {
+          "id": 1,
+          "context": "On May 3, 2026, Jackman, a 16-year-old, and Jaguda, 34 years old, were arrested by men of the Nigeria Police at Surulere, Lagos, for allegedly robbing Mrs Kakuta while threatening them with a stick and were kept in custody. On July 28, 2026, Jackman's father engaged your services to secure his son's release from custody.",
+          "question": "One of the following is the most appropriate mode of applying for Jackman's bail at the Police Station:",
+          "options": {
+            "a": "Summons for Bail",
+            "b": "Motion on Notice for Bail",
+            "c": "A written letter",
+            "d": "Petition to the Inspector General of Police"
+          },
+          "answer": "c"
+        },
+        {
+          "id": 2,
+          "context": "On May 3, 2026, Jackman, a 16-year-old, and Jaguda, 34 years old, were arrested by men of the Nigeria Police at Surulere, Lagos, for allegedly robbing Mrs Kakuta while threatening them with a stick and were kept in custody. On July 28, 2026, Jackman's father engaged your services to secure his son's release from custody.",
+          "question": "Terms upon which bail may be granted to the alleged offenders in this case upon arraignment in court include the following:",
+          "options": {
+            "a": "Deposit of the alleged stolen property with the Chief Registrar of the Court",
+            "b": "Production of reliable surety",
+            "c": "Prevalence of the offence",
+            "d": "Previous criminal records of the accused person"
+          },
+          "answer": "b"
+        },
+        {
+          "id": 3,
+          "context": "On May 3, 2026, Jackman, a 16-year-old, and Jaguda, 34 years old, were arrested by men of the Nigeria Police at Surulere, Lagos, for allegedly robbing Mrs Kakuta while threatening them with a stick and were kept in custody. On July 28, 2026, Jackman's father engaged your services to secure his son's release from custody.",
+          "question": "One of the following is the most appropriate step to be taken by the Police so as to lawfully detain the suspects in this case beyond the period ordinarily allowed by the Constitution pending conclusion of investigation:",
+          "options": {
+            "a": "Obtain a Warrant of Arrest and detention from the High Court",
+            "b": "Commence trial in Court and ensure that bail is not granted by the Court.",
+            "c": "Arraign them at the Magistrate's Court and obtain the order of the court remanding them in prison pending legal advice from the Attorney General",
+            "d": "Apply for a remand order at the Magistrate's Court."
+          },
+          "answer": "d"
+        },
+        {
+          "id": 4,
+          "context": "On May 3, 2026, Jackman, a 16-year-old, and Jaguda, 34 years old, were arrested by men of the Nigeria Police at Surulere, Lagos, for allegedly robbing Mrs Kakuta while threatening them with a stick and were kept in custody. On July 28, 2026, Jackman's father engaged your services to secure his son's release from custody.",
+          "question": "One of the following is the most reliable means of verifying the age of Jackman:",
+          "options": {
+            "a": "Birth Certificate from any hospital",
+            "b": "Testimony of the neighbours",
+            "c": "Records of the accused person with a government institution",
+            "d": "Medical examination of the accused person at a government hospital"
+          },
+          "answer": "d"
+        },
+        {
+          "id": 5,
+          "context": "On May 3, 2026, Jackman, a 16-year-old, and Jaguda, 34 years old, were arrested by men of the Nigeria Police at Surulere, Lagos, for allegedly robbing Mrs Kakuta while threatening them with a stick and were kept in custody. On July 28, 2026, Jackman's father engaged your services to secure his son's release from custody.",
+          "question": "Which of the following is correct with regard to Jackman's trial:",
+          "options": {
+            "a": "He can be validly tried at the High Court with his co-defendant",
+            "b": "He can only be tried at the Juvenile Court being a minor",
+            "c": "He can only be tried at the High Court if he consents to the trial",
+            "d": "He cannot be tried at the High Court under any circumstances."
+          },
+          "answer": "a"
+        },
+        {
+          "id": 6,
+          "context": "Jagun and his accomplice, Braveheart, were arrested in Oyo State by the Joint Security Task Force for allegedly kidnapping the daughter of the Attorney-General of the Federation from their residence at Banana Island, Lagos State. A search warrant was issued for the search of their apartment at Total Garden Area, Ibadan, Oyo State. The search was carried out by CSP Nkechi, a senior female Police Officer, and two (2) officers guarding the gate to the compound, where some hard drugs were recovered. Jagun and Braveheart were subsequently arraigned before the Oyo State High Court on a single count of kidnapping and assault. The Attorney-General of the Federation intends to prosecute the defendants personally.",
+          "question": "One of the following is correct about the criminal trial of the defendants:",
+          "options": {
+            "a": "The Attorney General of the Federation cannot prosecute the criminal charge under any circumstance",
+            "b": "The Attorney General of the Federation can only prosecute the criminal charge if the charge was signed by the Police or any Federal Law enforcement agency",
+            "c": "The Attorney General of the Federation has an unfettered power to prosecute the criminal charge.",
+            "d": "The Attorney General of the Federation can prosecute the criminal charge only if he obtains the fiat of the Attorney General of Oyo State"
+          },
+          "answer": "c"
+        },
+        {
+          "id": 7,
+          "context": "Jagun and his accomplice, Braveheart, were arrested in Oyo State by the Joint Security Task Force for allegedly kidnapping the daughter of the Attorney-General of the Federation from their residence at Banana Island, Lagos State. A search warrant was issued for the search of their apartment at Total Garden Area, Ibadan, Oyo State. The search was carried out by CSP Nkechi, a senior female Police Officer, and two (2) officers guarding the gate to the compound, where some hard drugs were recovered. Jagun and Braveheart were subsequently arraigned before the Oyo State High Court on a single count of kidnapping and assault. The Attorney-General of the Federation intends to prosecute the defendants personally.",
+          "question": "One of the following is correct about the hard drugs recovered from the defendants' residence:",
+          "options": {
+            "a": "No criminal charge can be brought on them because they are not the subject of the search warrant.",
+            "b": "The hard drugs can only be used as evidence against defendants if they consent at the trial.",
+            "c": "The prosecution can use the hard drugs as evidence against the Defendants subject to the discretion of the court to admit or exclude same",
+            "d": "The prosecution can only rely on the recovered hard drugs as evidence if it establishes that they were kept in proper custody from the time of recovery."
+          },
+          "answer": "c"
+        },
+        {
+          "id": 8,
+          "context": "Jagun and his accomplice, Braveheart, were arrested in Oyo State by the Joint Security Task Force for allegedly kidnapping the daughter of the Attorney-General of the Federation from their residence at Banana Island, Lagos State. A search warrant was issued for the search of their apartment at Total Garden Area, Ibadan, Oyo State. The search was carried out by CSP Nkechi, a senior female Police Officer, and two (2) officers guarding the gate to the compound, where some hard drugs were recovered. Jagun and Braveheart were subsequently arraigned before the Oyo State High Court on a single count of kidnapping and assault. The Attorney-General of the Federation intends to prosecute the defendants personally.",
+          "question": "Assuming Jagun's wife, a Muslim woman in purdah, was at home when the search was to be conducted, which of the following is correct?",
+          "options": {
+            "a": "That fact would not affect the search in this case",
+            "b": "She must be allowed time to withdraw before the search is conducted",
+            "c": "Her room would be exempted from the search by the Police officer.",
+            "d": "None of the above"
+          },
+          "answer": "b"
+        },
+        {
+          "id": 9,
+          "context": "Jagun and his accomplice, Braveheart, were arrested in Oyo State by the Joint Security Task Force for allegedly kidnapping the daughter of the Attorney-General of the Federation from their residence at Banana Island, Lagos State. A search warrant was issued for the search of their apartment at Total Garden Area, Ibadan, Oyo State. The search was carried out by CSP Nkechi, a senior female Police Officer, and two (2) officers guarding the gate to the compound, where some hard drugs were recovered. Jagun and Braveheart were subsequently arraigned before the Oyo State High Court on a single count of kidnapping and assault. The Attorney-General of the Federation intends to prosecute the defendants personally.",
+          "question": "Assuming the alleged offenders were to be tried in Lagos State, which of the following rules of procedure would apply to the case?",
+          "options": {
+            "a": "Administration of the Criminal Justice Law of Lagos State, 2015",
+            "b": "Administration of Criminal Justice Act, 2015.",
+            "c": "Administration of Criminal Justice Law of Lagos State, 2015 as amended in 2021",
+            "d": "Administration of Criminal Justice Law of Lagos State, 2021"
+          },
+          "answer": "c"
+        },
+        {
+          "id": 10,
+          "context": "Jagun and his accomplice, Braveheart, were arrested in Oyo State by the Joint Security Task Force for allegedly kidnapping the daughter of the Attorney-General of the Federation from their residence at Banana Island, Lagos State. A search warrant was issued for the search of their apartment at Total Garden Area, Ibadan, Oyo State. The search was carried out by CSP Nkechi, a senior female Police Officer, and two (2) officers guarding the gate to the compound, where some hard drugs were recovered. Jagun and Braveheart were subsequently arraigned before the Oyo State High Court on a single count of kidnapping and assault. The Attorney-General of the Federation intends to prosecute the defendants personally.",
+          "question": "The Charge Sheet in the case would be held to be defective because:",
+          "options": {
+            "a": "It is bad for duplicity",
+            "b": "It is bad for ambiguity",
+            "c": "It is bad for misjoinder of offences",
+            "d": "It is bad for misjoinder of offenders"
+          },
+          "answer": "a"
+        },
+        {
+          "id": 11,
+          "context": "On the 9 October, 2026, Okoro Esq filed a notice of appeal at the Court of Appeal Lagos Division on behalf of Ibrahim John, Segun Alade, Danjuma Tahir and Peter Nwosu who were his clients at the trial court against their conviction and sentence on the 1 July, 2026. The notice was signed in the name of the law firm Okoro & Partners. Okoro Esq relied on only three grounds of mixed law and facts. Exactly 100 days after the notice, Okoro Esq compiled records of appeal and transmitted same to the Court of Appeal. He filed his brief of argument after 60 days of transmitting the records. The State of Lagos had not filed their brief of argument, hence Okoro argued that this automatically meant that the appeal must be allowed. After the court reserved the matter for judgment, Ibrahim informed Okoro that he no longer wished to Appeal, Okoro then made an oral application to strike out the appeal.",
+          "question": "The notice of appeal in this case is invalid for the following reason:",
+          "options": {
+            "a": "Filing one notice of appeal for 4 appellants",
+            "b": "Signing of the notice of appeal in the name of Okoro & Partners",
+            "c": "Filing the notice of appeal at the Court of Appeal",
+            "d": "All of the above"
+          },
+          "answer": "d"
+        },
+        {
+          "id": 12,
+          "context": "On the 9 October, 2026, Okoro Esq filed a notice of appeal at the Court of Appeal Lagos Division on behalf of Ibrahim John, Segun Alade, Danjuma Tahir and Peter Nwosu who were his clients at the trial court against their conviction and sentence on the 1 July, 2026. The notice was signed in the name of the law firm Okoro & Partners. Okoro Esq relied on only three grounds of mixed law and facts. Exactly 100 days after the notice, Okoro Esq compiled records of appeal and transmitted same to the Court of Appeal. He filed his brief of argument after 60 days of transmitting the records. The State of Lagos had not filed their brief of argument, hence Okoro argued that this automatically meant that the appeal must be allowed. After the court reserved the matter for judgment, Ibrahim informed Okoro that he no longer wished to Appeal, Okoro then made an oral application to strike out the appeal.",
+          "question": "In order to commence a valid appeal as at the date the notice in this case was filed, Okoro Esq. ought to have:",
+          "options": {
+            "a": "filed a motion on notice at the High Court for extension of time to appeal",
+            "b": "filed a motion on notice at the Court of Appeal for extension to time within which to appeal",
+            "c": "filed a motion on notice for trinity prayers at the Court of Appeal",
+            "d": "filed motion on notice for trinity prayers at the Hight Court"
+          },
+          "answer": "b"
+        },
+        {
+          "id": 13,
+          "context": "On the 9 October, 2026, Okoro Esq filed a notice of appeal at the Court of Appeal Lagos Division on behalf of Ibrahim John, Segun Alade, Danjuma Tahir and Peter Nwosu who were his clients at the trial court against their conviction and sentence on the 1 July, 2026. The notice was signed in the name of the law firm Okoro & Partners. Okoro Esq relied on only three grounds of mixed law and facts. Exactly 100 days after the notice, Okoro Esq compiled records of appeal and transmitted same to the Court of Appeal. He filed his brief of argument after 60 days of transmitting the records. The State of Lagos had not filed their brief of argument, hence Okoro argued that this automatically meant that the appeal must be allowed. After the court reserved the matter for judgment, Ibrahim informed Okoro that he no longer wished to Appeal, Okoro then made an oral application to strike out the appeal.",
+          "question": "Which of the statement is correct about the mode of application by Okoro to strike out the appeal?",
+          "options": {
+            "a": "Valid, because Okoro speaks for the clients.",
+            "b": "Invalid because the procedure was wrong.",
+            "c": "Valid, the court can strike out the appeal once they realise that the appeal lacks merit.",
+            "d": "Invalid because the court cannot accept withdrawal once record of appeal has been entered."
+          },
+          "answer": "b"
+        },
+        {
+          "id": 14,
+          "context": "On the 9 October, 2026, Okoro Esq filed a notice of appeal at the Court of Appeal Lagos Division on behalf of Ibrahim John, Segun Alade, Danjuma Tahir and Peter Nwosu who were his clients at the trial court against their conviction and sentence on the 1 July, 2026. The notice was signed in the name of the law firm Okoro & Partners. Okoro Esq relied on only three grounds of mixed law and facts. Exactly 100 days after the notice, Okoro Esq compiled records of appeal and transmitted same to the Court of Appeal. He filed his brief of argument after 60 days of transmitting the records. The State of Lagos had not filed their brief of argument, hence Okoro argued that this automatically meant that the appeal must be allowed. After the court reserved the matter for judgment, Ibrahim informed Okoro that he no longer wished to Appeal, Okoro then made an oral application to strike out the appeal.",
+          "question": "Which of the following is correct regarding the record of appeal and brief of argument in this case?",
+          "options": {
+            "a": "The record ought to have been compiled by the Registrar of the Court of Appeal within 60 days of filing of the notice of appeal",
+            "b": "The appellants' briefs of argument ought to have been filed within 30 days of receiving the record of appeal by the appellants.",
+            "c": "The record was properly compiled by counsel in this case within the time prescribed by the Rules.",
+            "d": "The record ought to have been compiled by the Registrar of the High Court within 60 days of the filing of the notice of appeal."
+          },
+          "answer": "d"
+        },
+        {
+          "id": 15,
+          "context": "On the 9 October, 2026, Okoro Esq filed a notice of appeal at the Court of Appeal Lagos Division on behalf of Ibrahim John, Segun Alade, Danjuma Tahir and Peter Nwosu who were his clients at the trial court against their conviction and sentence on the 1 July, 2026. The notice was signed in the name of the law firm Okoro & Partners. Okoro Esq relied on only three grounds of mixed law and facts. Exactly 100 days after the notice, Okoro Esq compiled records of appeal and transmitted same to the Court of Appeal. He filed his brief of argument after 60 days of transmitting the records. The State of Lagos had not filed their brief of argument, hence Okoro argued that this automatically meant that the appeal must be allowed. After the court reserved the matter for judgment, Ibrahim informed Okoro that he no longer wished to Appeal, Okoro then made an oral application to strike out the appeal.",
+          "question": "Which of the following is the proper way of drafting an omnibus ground of appeal in this case?",
+          "options": {
+            "a": "The judgment of the trial High Court is against the weight of evidence.",
+            "b": "The decision of the trial Court is unreasonable and cannot be supported having regard to the evidence.",
+            "c": "The decision of the trial High Court is unjust and unwarranted.",
+            "d": "The conviction by the trial High Court is a miscarriage of justice."
+          },
+          "answer": "b"
+        },
+        {
+          "id": 16,
+          "context": "Col. Bala Egenti was arrested at Bwari area of the Federal Capital Territory, Abuja, where he led other military officers to prevent officials of the Federal Capital Development Authority from demolishing the property of Senator Oye Ikeme for violating planning laws. Subsequently, Senator Ikeme was arrested where he was addressing a group of supporters for his re-election opposite the gate of Apo Legislative quarters. Col. Bala Egenti and the officers along with Senator Ikeme were arraigned after four years at the High Court of the Federal Capital Territory, Bwari for the murder of an FCDA staff during the brawl that ensued as a result of the encounter. The Court Registrar read the charge to the defendants together and the presiding Judge asked all of them to plead together to the charge. Their application for bail has been refused by the court and their counsel now intends to appeal against the refusal of bail.",
+          "question": "Which of the following statements is correct about the arraignment of Col. Egenti after four years?",
+          "options": {
+            "a": "The case is statute barred because he is subject to service law",
+            "b": "He was validly arraigned in a regular court",
+            "c": "He could as well be validly arraigned in the Court Martial",
+            "d": "He can only be validly arraigned with leave to prefer the charge"
+          },
+          "answer": "b"
+        },
+        {
+          "id": 17,
+          "context": "Col. Bala Egenti was arrested at Bwari area of the Federal Capital Territory, Abuja, where he led other military officers to prevent officials of the Federal Capital Development Authority from demolishing the property of Senator Oye Ikeme for violating planning laws. Subsequently, Senator Ikeme was arrested where he was addressing a group of supporters for his re-election opposite the gate of Apo Legislative quarters. Col. Bala Egenti and the officers along with Senator Ikeme were arraigned after four years at the High Court of the Federal Capital Territory, Bwari for the murder of an FCDA staff during the brawl that ensued as a result of the encounter. The Court Registrar read the charge to the defendants together and the presiding Judge asked all of them to plead together to the charge. Their application for bail has been refused by the court and their counsel now intends to appeal against the refusal of bail.",
+          "question": "Which of the following statements is correct about the place of arrest of Senator Ikeme?",
+          "options": {
+            "a": "The arrest was not valid because he is a member of the legislative house",
+            "b": "The arrest was not valid because it was done within the precincts of the legislative quarters",
+            "c": "The arrest was valid because it was done outside the precincts of the legislative house",
+            "d": "None of the above"
+          },
+          "answer": "c"
+        },
+        {
+          "id": 18,
+          "context": "Col. Bala Egenti was arrested at Bwari area of the Federal Capital Territory, Abuja, where he led other military officers to prevent officials of the Federal Capital Development Authority from demolishing the property of Senator Oye Ikeme for violating planning laws. Subsequently, Senator Ikeme was arrested where he was addressing a group of supporters for his re-election opposite the gate of Apo Legislative quarters. Col. Bala Egenti and the officers along with Senator Ikeme were arraigned after four years at the High Court of the Federal Capital Territory, Bwari for the murder of an FCDA staff during the brawl that ensued as a result of the encounter. The Court Registrar read the charge to the defendants together and the presiding Judge asked all of them to plead together to the charge. Their application for bail has been refused by the court and their counsel now intends to appeal against the refusal of bail.",
+          "question": "Assuming Senator Oye pleaded guilty to the charge, what necessary action is expected from the judge?",
+          "options": {
+            "a": "Enquire into the reason for such plea",
+            "b": "Order a medical examination on his state of mind",
+            "c": "Record a plea of guilty for him",
+            "d": "Record a plea of not guilty for him"
+          },
+          "answer": "d"
+        },
+        {
+          "id": 19,
+          "context": "Col. Bala Egenti was arrested at Bwari area of the Federal Capital Territory, Abuja, where he led other military officers to prevent officials of the Federal Capital Development Authority from demolishing the property of Senator Oye Ikeme for violating planning laws. Subsequently, Senator Ikeme was arrested where he was addressing a group of supporters for his re-election opposite the gate of Apo Legislative quarters. Col. Bala Egenti and the officers along with Senator Ikeme were arraigned after four years at the High Court of the Federal Capital Territory, Bwari for the murder of an FCDA staff during the brawl that ensued as a result of the encounter. The Court Registrar read the charge to the defendants together and the presiding Judge asked all of them to plead together to the charge. Their application for bail has been refused by the court and their counsel now intends to appeal against the refusal of bail.",
+          "question": "Which of the following reasons will nullify the arraignment of Col. Egenti and Senator Oye?",
+          "options": {
+            "a": "Block reading of the charge",
+            "b": "Block plea to the charge",
+            "c": "Both block reading and block plea",
+            "d": "None of the above"
+          },
+          "answer": "b"
+        },
+        {
+          "id": 20,
+          "context": "Col. Bala Egenti was arrested at Bwari area of the Federal Capital Territory, Abuja, where he led other military officers to prevent officials of the Federal Capital Development Authority from demolishing the property of Senator Oye Ikeme for violating planning laws. Subsequently, Senator Ikeme was arrested where he was addressing a group of supporters for his re-election opposite the gate of Apo Legislative quarters. Col. Bala Egenti and the officers along with Senator Ikeme were arraigned after four years at the High Court of the Federal Capital Territory, Bwari for the murder of an FCDA staff during the brawl that ensued as a result of the encounter. The Court Registrar read the charge to the defendants together and the presiding Judge asked all of them to plead together to the charge. Their application for bail has been refused by the court and their counsel now intends to appeal against the refusal of bail.",
+          "question": "What time frame does the defendants in the above scenario have to appeal the ruling refusing their bail application?",
+          "options": {
+            "a": "90 days",
+            "b": "60 days",
+            "c": "3 months",
+            "d": "30 days"
+          },
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "id": "professional-ethics-and-skills",
+      "name": "Professional Ethics and Skills",
+      "questionsCount": 20,
+      "questions": [
+        {
+          "id": 1,
+          "context": "The Clerk of the National Assembly briefed the Law Firm of Etekebe Nkoro (SAN) LP to draft a bill for an Act to regulate the use of social media in Nigeria. In a letter written to the Clerk by the firm to make assurance double sure that the instruction was clearly understood by the firm, the statutory nickname of the proposed bill was suggested. The Learned Silk practices alone with other junior Lawyers in his employment. Although he has a structure that allows any of the juniors to grow into a partner. Being the brief is the first for the Law firm, the learned silk mandated his juniors in chambers to carry out extensive research on legislative drafting and make sure that the firm sustains the confidence of their new all-important client.",
+          "question": "The Statutory nickname of the proposed bill is the same thing as:",
+          "options": {
+            "a": "Marginal Note",
+            "b": "Marginal Reference",
+            "c": "Long Title",
+            "d": "Short Title"
+          },
+          "answer": "d"
+        },
+        {
+          "id": 2,
+          "context": "The Clerk of the National Assembly briefed the Law Firm of Etekebe Nkoro (SAN) LP to draft a bill for an Act to regulate the use of social media in Nigeria. In a letter written to the Clerk by the firm to make assurance double sure that the instruction was clearly understood by the firm, the statutory nickname of the proposed bill was suggested. The Learned Silk practices alone with other junior Lawyers in his employment. Although he has a structure that allows any of the juniors to grow into a partner. Being the brief is the first for the Law firm, the learned silk mandated his juniors in chambers to carry out extensive research on legislative drafting and make sure that the firm sustains the confidence of their new all-important client.",
+          "question": "How would you classify the type of practice of Etekebe Nkoro (SAN) LP?",
+          "options": {
+            "a": "Partnership",
+            "b": "Sole Practitionership",
+            "c": "Associateship",
+            "d": "Sole Proprietorship"
+          },
+          "answer": "d"
+        },
+        {
+          "id": 3,
+          "context": "The Clerk of the National Assembly briefed the Law Firm of Etekebe Nkoro (SAN) LP to draft a bill for an Act to regulate the use of social media in Nigeria. In a letter written to the Clerk by the firm to make assurance double sure that the instruction was clearly understood by the firm, the statutory nickname of the proposed bill was suggested. The Learned Silk practices alone with other junior Lawyers in his employment. Although he has a structure that allows any of the juniors to grow into a partner. Being the brief is the first for the Law firm, the learned silk mandated his juniors in chambers to carry out extensive research on legislative drafting and make sure that the firm sustains the confidence of their new all-important client.",
+          "question": "How do you identify the letter written by the firm to the clerk of the National Assembly?",
+          "options": {
+            "a": "Status update",
+            "b": "Confirmation Letter",
+            "c": "Letter of demand",
+            "d": "Notification Letter"
+          },
+          "answer": "b"
+        },
+        {
+          "id": 4,
+          "context": "The Clerk of the National Assembly briefed the Law Firm of Etekebe Nkoro (SAN) LP to draft a bill for an Act to regulate the use of social media in Nigeria. In a letter written to the Clerk by the firm to make assurance double sure that the instruction was clearly understood by the firm, the statutory nickname of the proposed bill was suggested. The Learned Silk practices alone with other junior Lawyers in his employment. Although he has a structure that allows any of the juniors to grow into a partner. Being the brief is the first for the Law firm, the learned silk mandated his juniors in chambers to carry out extensive research on legislative drafting and make sure that the firm sustains the confidence of their new all-important client.",
+          "question": "Assuming during the research, some Regulations of the National Assembly on Legislative Drafting were consulted, such materials are:",
+          "options": {
+            "a": "Primary source",
+            "b": "Secondary source",
+            "c": "Tertiary source",
+            "d": "None of the above"
+          },
+          "answer": "a"
+        },
+        {
+          "id": 5,
+          "context": "The Clerk of the National Assembly briefed the Law Firm of Etekebe Nkoro (SAN) LP to draft a bill for an Act to regulate the use of social media in Nigeria. In a letter written to the Clerk by the firm to make assurance double sure that the instruction was clearly understood by the firm, the statutory nickname of the proposed bill was suggested. The Learned Silk practices alone with other junior Lawyers in his employment. Although he has a structure that allows any of the juniors to grow into a partner. Being the brief is the first for the Law firm, the learned silk mandated his juniors in chambers to carry out extensive research on legislative drafting and make sure that the firm sustains the confidence of their new all-important client.",
+          "question": "Assuming the Learned Silk communicated his instructions to his Juniors in Chambers through a correspondence, such correspondence will be known as:",
+          "options": {
+            "a": "Notice",
+            "b": "Instruction",
+            "c": "Circular",
+            "d": "Internal Office Memorandum"
+          },
+          "answer": "d"
+        },
+        {
+          "id": 6,
+          "context": "Chief Bayo Omego attended a client interview in the Law Firm of Deka Legal Consult. He was advised to adopt the option of negotiation to stop Ikemba Micro Finance Bank Limited from exercising the option of sale of his property used to secure a loan. Chief Omego was also advised that Alternative Dispute Resolution (ADR) is the way to go now, and that there is ADR options that is close to litigation and will achieve almost the same purpose. During the interview, he was served a cup of coffee and a bottle medium sized eva water.",
+          "question": "Assuming Avrom Sherr's 3 stage model of Legal interview was adopted during Chief Omego's interview, which of the following is the order?",
+          "options": {
+            "a": "Questioning, Listening and advising",
+            "b": "Listening, Advising and questioning",
+            "c": "Advising, Questioning and listening",
+            "d": "None of the above"
+          },
+          "answer": "d"
+        },
+        {
+          "id": 7,
+          "context": "Chief Bayo Omego attended a client interview in the Law Firm of Deka Legal Consult. He was advised to adopt the option of negotiation to stop Ikemba Micro Finance Bank Limited from exercising the option of sale of his property used to secure a loan. Chief Omego was also advised that Alternative Dispute Resolution (ADR) is the way to go now, and that there is ADR options that is close to litigation and will achieve almost the same purpose. During the interview, he was served a cup of coffee and a bottle medium sized eva water.",
+          "question": "The coffee and water served chief Omego during client interview are examples of:",
+          "options": {
+            "a": "Law office supplies",
+            "b": "Law office equipment",
+            "c": "All of the above",
+            "d": "None of the above"
+          },
+          "answer": "d"
+        },
+        {
+          "id": 8,
+          "context": "Chief Bayo Omego attended a client interview in the Law Firm of Deka Legal Consult. He was advised to adopt the option of negotiation to stop Ikemba Micro Finance Bank Limited from exercising the option of sale of his property used to secure a loan. Chief Omego was also advised that Alternative Dispute Resolution (ADR) is the way to go now, and that there is ADR options that is close to litigation and will achieve almost the same purpose. During the interview, he was served a cup of coffee and a bottle medium sized eva water.",
+          "question": "Assuming Deka Legal Consult instigated Chief Omego to sue the Bank instead of encouraging Negotiation, such action is known as:",
+          "options": {
+            "a": "Professional advice",
+            "b": "Legal Opinion",
+            "c": "Champerty",
+            "d": "Being litigious"
+          },
+          "answer": "c"
+        },
+        {
+          "id": 9,
+          "context": "Chief Bayo Omego attended a client interview in the Law Firm of Deka Legal Consult. He was advised to adopt the option of negotiation to stop Ikemba Micro Finance Bank Limited from exercising the option of sale of his property used to secure a loan. Chief Omego was also advised that Alternative Dispute Resolution (ADR) is the way to go now, and that there is ADR options that is close to litigation and will achieve almost the same purpose. During the interview, he was served a cup of coffee and a bottle medium sized eva water.",
+          "question": "Which ADR option is close to litigation as insinuated by Deka Legal Consult?",
+          "options": {
+            "a": "Arbitration",
+            "b": "Conciliation",
+            "c": "Mediation",
+            "d": "Negotiation"
+          },
+          "answer": "a"
+        },
+        {
+          "id": 10,
+          "context": "Chief Bayo Omego attended a client interview in the Law Firm of Deka Legal Consult. He was advised to adopt the option of negotiation to stop Ikemba Micro Finance Bank Limited from exercising the option of sale of his property used to secure a loan. Chief Omego was also advised that Alternative Dispute Resolution (ADR) is the way to go now, and that there is ADR options that is close to litigation and will achieve almost the same purpose. During the interview, he was served a cup of coffee and a bottle medium sized eva water.",
+          "question": "Which of the following statements is correct about Negotiation as an ADR option?",
+          "options": {
+            "a": "Lawyers are not involved in Negotiation",
+            "b": "It requires a third-party neutral",
+            "c": "It is party driven",
+            "d": "None of the above"
+          },
+          "answer": "c"
+        },
+        {
+          "id": 11,
+          "context": "Kunle Adebayo Esq pays Mr. Emeka Johnson a commission for every client referred to his firm, arguing that Rule 39(4) permits it. In the firm, Ibrahim Lawal is asked merely to notarize a Power of Attorney prepared by another lawyer and assumes this triggers Chapter Two of the RPC 2023, while Chiamaka Eze incorporates a company for a client and also manages its funds in her client account, which a junior colleague says falls outside Chapter Two of the Rpc. In court, Hon. Justice Omorodion summarily commits Mr. Anthony Ubah for shouting abuse at the bench, which his counsel, Grace Onyema Esq, says is unlawful, while Hon. Justice Ogbeide wishes to summarily commit Mrs. Funke Bakare for a prejudicial newspaper article published outside court.",
+          "question": "Which of the following correctly identifies the error in Adebayo's argument?",
+          "options": {
+            "a": "He is correct, provided the referral commission does not exceed the maximum fee set by the Legal Practitioners Remuneration Order.",
+            "b": "He is incorrect, it does not extend to paid referral or touting arrangements.",
+            "c": "He is correct, Rule 39(4) permits any arrangement that promotes the lawyer's visibility, including paid referrals.",
+            "d": "He is incorrect, but only because the referral agreement was not reduced to writing."
+          },
+          "answer": "b"
+        },
+        {
+          "id": 12,
+          "context": "Kunle Adebayo Esq pays Mr. Emeka Johnson a commission for every client referred to his firm, arguing that Rule 39(4) permits it. In the firm, Ibrahim Lawal is asked merely to notarize a Power of Attorney prepared by another lawyer and assumes this triggers Chapter Two of the RPC 2023, while Chiamaka Eze incorporates a company for a client and also manages its funds in her client account, which a junior colleague says falls outside Chapter Two of the Rpc. In court, Hon. Justice Omorodion summarily commits Mr. Anthony Ubah for shouting abuse at the bench, which his counsel, Grace Onyema Esq, says is unlawful, while Hon. Justice Ogbeide wishes to summarily commit Mrs. Funke Bakare for a prejudicial newspaper article published outside court.",
+          "question": "Is Ibrahim Lawal's assumption correct?",
+          "options": {
+            "a": "Correct, because Chapter Two applies to every legal practitioner enrolled in Nigeria without exception.",
+            "b": "Incorrect, Rule 57(4) specifically excludes a legal practitioner who merely provides notarial services.",
+            "c": "Correct, because notarization is itself listed as a specified activity triggering AML obligations.",
+            "d": "Incorrect, but only because Power of Attorney documents are entirely outside the scope of the Legal Practitioners Act."
+          },
+          "answer": "b"
+        },
+        {
+          "id": 13,
+          "context": "Kunle Adebayo Esq pays Mr. Emeka Johnson a commission for every client referred to his firm, arguing that Rule 39(4) permits it. In the firm, Ibrahim Lawal is asked merely to notarize a Power of Attorney prepared by another lawyer and assumes this triggers Chapter Two of the RPC 2023, while Chiamaka Eze incorporates a company for a client and also manages its funds in her client account, which a junior colleague says falls outside Chapter Two of the Rpc. In court, Hon. Justice Omorodion summarily commits Mr. Anthony Ubah for shouting abuse at the bench, which his counsel, Grace Onyema Esq, says is unlawful, while Hon. Justice Ogbeide wishes to summarily commit Mrs. Funke Bakare for a prejudicial newspaper article published outside court.",
+          "question": "Is the junior colleague correct about Chiamaka Eze?",
+          "options": {
+            "a": "Correct, AML obligations under the RPC apply only to banks and designated non-bank financial institutions, never to legal practitioners.",
+            "b": "Incorrect, but only because company incorporation alone (without managing funds) would have been enough to trigger the obligation.",
+            "c": "Correct, because managing client funds is expressly excluded from AML scrutiny by solicitor-client privilege.",
+            "d": "Incorrect, because it triggers a legal practitioner's compliance obligations under the rules."
+          },
+          "answer": "d"
+        },
+        {
+          "id": 14,
+          "context": "Kunle Adebayo Esq pays Mr. Emeka Johnson a commission for every client referred to his firm, arguing that Rule 39(4) permits it. In the firm, Ibrahim Lawal is asked merely to notarize a Power of Attorney prepared by another lawyer and assumes this triggers Chapter Two of the RPC 2023, while Chiamaka Eze incorporates a company for a client and also manages its funds in her client account, which a junior colleague says falls outside Chapter Two of the Rpc. In court, Hon. Justice Omorodion summarily commits Mr. Anthony Ubah for shouting abuse at the bench, which his counsel, Grace Onyema Esq, says is unlawful, while Hon. Justice Ogbeide wishes to summarily commit Mrs. Funke Bakare for a prejudicial newspaper article published outside court.",
+          "question": "Is Onyema's objection correct?",
+          "options": {
+            "a": "Her objection is incorrect, a court can deal with contempt committed in facie curiae summarily, without a formal charge or plea.",
+            "b": "Her objection is correct, all contempt proceedings, wherever committed, require a formal charge and plea before conviction.",
+            "c": "Her objection is correct, because only the Court of Appeal or Supreme Court may summarily punish contempt committed in open court.",
+            "d": "Her objection is incorrect, but only because Mr. Ubah is a litigant rather than a legal practitioner."
+          },
+          "answer": "a"
+        },
+        {
+          "id": 15,
+          "context": "Kunle Adebayo Esq pays Mr. Emeka Johnson a commission for every client referred to his firm, arguing that Rule 39(4) permits it. In the firm, Ibrahim Lawal is asked merely to notarize a Power of Attorney prepared by another lawyer and assumes this triggers Chapter Two of the RPC 2023, while Chiamaka Eze incorporates a company for a client and also manages its funds in her client account, which a junior colleague says falls outside Chapter Two of the Rpc. In court, Hon. Justice Omorodion summarily commits Mr. Anthony Ubah for shouting abuse at the bench, which his counsel, Grace Onyema Esq, says is unlawful, while Hon. Justice Ogbeide wishes to summarily commit Mrs. Funke Bakare for a prejudicial newspaper article published outside court.",
+          "question": "Is summary committal the correct procedure for Mrs. Bakare?",
+          "options": {
+            "a": "Correct, all forms of contempt, whether committed inside or outside court, attract the same summary procedure.",
+            "b": "Incorrect, because conduct outside the courtroom can never amount to contempt of court under Nigerian law.",
+            "c": "Correct, provided the article was published by a lawyer rather than a private citizen.",
+            "d": "Incorrect, since this is contempt ex facie curiae, it must follow the full process of a regular trial."
+          },
+          "answer": "d"
+        },
+        {
+          "id": 16,
+          "context": "Mr Peter Lawanson was called to the Nigerian Bar in 1991. He specializes his legal practice in Corporate/Commercial Law. He owns a firm located in the Central Area of Abuja. He built a website for his firm with a bold inscription that reads \"Peter Lawanson & Co (Legal Practitioners) a Law Firm of famous, reputable and excellent Lawyers\". Senator Molly Briggs, a Senator based in Port Harcourt, engaged the services of Mr Peter as the solicitor to his companies in Lagos. He filed an action on behalf of the company against The Nigerian Revenue Commission for excessive tax charge.",
+          "question": "One of the following is not an exclusive right available to Mr Peter as a Legal Practitioner in Nigeria:",
+          "options": {
+            "a": "Franking of Land instruments",
+            "b": "Preparation of wills and other testamentary instruments",
+            "c": "Appointment as Registrar-General of the Corporate Affairs Commission",
+            "d": "Preparation of documents for probate and Letter of Administration"
+          },
+          "answer": "b"
+        },
+        {
+          "id": 17,
+          "context": "Mr Peter Lawanson was called to the Nigerian Bar in 1991. He specializes his legal practice in Corporate/Commercial Law. He owns a firm located in the Central Area of Abuja. He built a website for his firm with a bold inscription that reads \"Peter Lawanson & Co (Legal Practitioners) a Law Firm of famous, reputable and excellent Lawyers\". Senator Molly Briggs, a Senator based in Port Harcourt, engaged the services of Mr Peter as the solicitor to his companies in Lagos. He filed an action on behalf of the company against The Nigerian Revenue Commission for excessive tax charge.",
+          "question": "One of the following is true about the above inscription on the website of Peter Lawanson & Co (Legal Practitioner):",
+          "options": {
+            "a": "It amounts to advertising under the Rules of Professional Conduct and is outrightly prohibited.",
+            "b": "It amounts to advertising under the Rules of Professional Conduct 2023 but falls under the conditions wherein advertising is permissible",
+            "c": "It amounts to soliciting under the Rules of Professional Conduct 2023 and is allowed in certain circumstances",
+            "d": "It amounts to soliciting under the Rules of Professional Conduct 2023 and is expressly prohibited"
+          },
+          "answer": "bonus"
+        },
+        {
+          "id": 18,
+          "context": "Mr Peter Lawanson was called to the Nigerian Bar in 1991. He specializes his legal practice in Corporate/Commercial Law. He owns a firm located in the Central Area of Abuja. He built a website for his firm with a bold inscription that reads \"Peter Lawanson & Co (Legal Practitioners) a Law Firm of famous, reputable and excellent Lawyers\". Senator Molly Briggs, a Senator based in Port Harcourt, engaged the services of Mr Peter as the solicitor to his companies in Lagos. He filed an action on behalf of the company against The Nigerian Revenue Commission for excessive tax charge.",
+          "question": "Assuming Senator Molly Briggs uses the company's property in Lekki, Lagos as collateral for a Loan he wants to obtain from Goldtrust Bank via a mortgage transaction valued at ₦120,000,000. By virtue of the Legal Practitioners Remuneration Order 2023 one of the following is not true:",
+          "options": {
+            "a": "Goldtrust Bank's solicitor will get the full fee calculated using scale 4",
+            "b": "Goldtrust Bank's solicitor will get half of the fee calculated for Senator Molly Briggs' solicitor using scale 4",
+            "c": "Senator Molly Briggs' solicitor will get half of the fee calculated for Goldtrust Bank's solicitor using scale 4",
+            "d": "None of the above"
+          },
+          "answer": "b"
+        },
+        {
+          "id": 19,
+          "context": "Mr Peter Lawanson was called to the Nigerian Bar in 1991. He specializes his legal practice in Corporate/Commercial Law. He owns a firm located in the Central Area of Abuja. He built a website for his firm with a bold inscription that reads \"Peter Lawanson & Co (Legal Practitioners) a Law Firm of famous, reputable and excellent Lawyers\". Senator Molly Briggs, a Senator based in Port Harcourt, engaged the services of Mr Peter as the solicitor to his companies in Lagos. He filed an action on behalf of the company against The Nigerian Revenue Commission for excessive tax charge.",
+          "question": "Assuming Senator Molly Briggs has refused to pay Mr Peter's professional fees for the property transaction, Mr Peter can bring an action for recovery of his professional fees at:",
+          "options": {
+            "a": "The State High Court in Port Harcourt",
+            "b": "The Hight Court of the FCT",
+            "c": "The State High Court of Lagos",
+            "d": "All of the above"
+          },
+          "answer": "d"
+        },
+        {
+          "id": 20,
+          "context": "Mr Peter Lawanson was called to the Nigerian Bar in 1991. He specializes his legal practice in Corporate/Commercial Law. He owns a firm located in the Central Area of Abuja. He built a website for his firm with a bold inscription that reads \"Peter Lawanson & Co (Legal Practitioners) a Law Firm of famous, reputable and excellent Lawyers\". Senator Molly Briggs, a Senator based in Port Harcourt, engaged the services of Mr Peter as the solicitor to his companies in Lagos. He filed an action on behalf of the company against The Nigerian Revenue Commission for excessive tax charge.",
+          "question": "One of the following is not a condition to be fulfilled in Mr. Peter's action for recovery of his fees",
+          "options": {
+            "a": "Preparation of a bill of charges",
+            "b": "Service of the bill of charges",
+            "c": "Taxation of the bill of charges",
+            "d": "One month expiration from the service of the bill"
+          },
+          "answer": "c"
+        }
+      ]
+    }
+  ]
+},
+
+
 };
 
 export default revisedMcqQuestion;

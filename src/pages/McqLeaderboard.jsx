@@ -6,6 +6,7 @@ import {
   useExamLeaderboardSessions,
 } from "../features/mcq/useExamLeaderboard";
 import Spinner from "../ui/Spinner";
+import { formatExamSessionLabel } from "../features/mcq/examUtils";
 import {
   HiOutlineArrowLeft,
   HiOutlineTrophy,
@@ -110,7 +111,7 @@ function McqLeaderboard() {
                     : "bg-gray-100 text-gray-600 hover:bg-gray-200"
                 }`}
               >
-                {s.session} {s.year}
+                {formatExamSessionLabel(s)}
               </button>
             ))}
           </div>
@@ -187,7 +188,7 @@ function McqLeaderboard() {
                           isDarkMode ? "text-dark-500" : "text-gray-400"
                         }`}
                       >
-                        {entry.session} {entry.year} · {entry.attempts} attempt
+                        {formatExamSessionLabel(entry)} · {entry.attempts} attempt
                         {entry.attempts !== 1 ? "s" : ""}
                       </p>
                     </div>

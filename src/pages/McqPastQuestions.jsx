@@ -5,7 +5,13 @@ import mcqQuestions from "../data/mcqQuestions";
 import revisedMcqQuestion from "../data/revisedMcqQuestion";
 import topicQuizzes from "../data/topicQuizzes";
 import { useQuizAttempts } from "../features/mcq/useQuizAttempts";
-import { getCompleteExamSessions, getCompleteExamYears } from "../features/mcq/examUtils";
+import {
+  getCompleteExamSessions,
+  getCompleteExamYears,
+  formatExamSessionLabel,
+  PRACTICE_YEAR,
+  SNAP_TEST_YEAR,
+} from "../features/mcq/examUtils";
 import {
   HiOutlineDocumentArrowDown,
   HiOutlineDocumentText,
@@ -23,17 +29,7 @@ import {
   HiOutlineBookOpen,
 } from "react-icons/hi2";
 
-// Practice sets (built from the 800-question compilation) share a synthetic
-// numeric "year" so they group into their own bucket, sorted ahead of every
-// real exam year — see revisedMcqQuestion.js's "practice-N" entries.
-const PRACTICE_YEAR = 9999;
 const isPracticeYear = (year) => year === PRACTICE_YEAR;
-// Snap Tests (practice "snapshot" tests from various sources, e.g. a Lagos
-// Campus snap test) get their own synthetic bucket too — sorts just after
-// Practice Questions (9999) and before any real year, so new snap tests can
-// be added over time and will all group together under one pill/section,
-// the same way Practice sessions do.
-const SNAP_TEST_YEAR = 9998;
 const isSnapTestYear = (year) => year === SNAP_TEST_YEAR;
 const getExamYearLabel = (year) =>
   isPracticeYear(year) ? "Practice Questions" : isSnapTestYear(year) ? "Snap Tests" : year;
@@ -438,9 +434,7 @@ function McqPastQuestions() {
                           >
                             <div>
                               <p className={`text-sm font-semibold ${isDarkMode ? "text-white" : "text-gray-900"}`}>
-                                {isPracticeYear(year) || isSnapTestYear(year)
-                                  ? session.session
-                                  : `${session.session} ${session.year}`}
+                                {formatExamSessionLabel(session)}
                               </p>
                               <p className={`text-[10px] sm:text-xs ${isDarkMode ? "text-dark-500" : "text-gray-500"}`}>
                                 {session.totalQuestions} questions · 5 courses
@@ -574,7 +568,7 @@ function McqPastQuestions() {
       </div>
 
       {/* ========== STATS BANNER ========== */}
-      <div className="grid grid-cols-3 gap-2 sm:gap-3 mb-5 sm:mb-6">
+      {/* <div className="grid grid-cols-3 gap-2 sm:gap-3 mb-5 sm:mb-6">
         {[
           { label: "Files", value: downloadableFiles.length, icon: "📅" },
           { label: "Quizzes", value: totalQuizzes, icon: "📝" },
@@ -605,10 +599,10 @@ function McqPastQuestions() {
             </p>
           </div>
         ))}
-      </div>
+      </div> */}
 
       {/* ========== SEARCH + FILTERS ========== */}
-      <div
+      {/* <div
         className={`rounded-xl border p-3 sm:p-4 mb-5 sm:mb-6 space-y-2.5 sm:space-y-3 ${
           isDarkMode
             ? "bg-dark-800/30 border-dark-700"
@@ -616,7 +610,7 @@ function McqPastQuestions() {
         }`}
       >
         {/* Search bar */}
-        <div className="relative">
+        {/* <div className="relative">
           <HiOutlineMagnifyingGlass
             className={`absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 sm:w-5 sm:h-5 ${
               isDarkMode ? "text-dark-500" : "text-gray-400"
@@ -633,12 +627,12 @@ function McqPastQuestions() {
                 : "bg-gray-50 border-gray-200 text-gray-900 placeholder-gray-400"
             }`}
           />
-        </div>
+        </div> */}
 
         {/* Filter chips */}
-        <div className="space-y-2">
+        {/* <div className="space-y-2">
           {/* Year filter chips */}
-          <div className="flex items-center gap-1.5 overflow-x-auto pb-0.5 -mx-0.5 px-0.5">
+          {/* <div className="flex items-center gap-1.5 overflow-x-auto pb-0.5 -mx-0.5 px-0.5">
             <HiOutlineFunnel
               className={`w-4 h-4 flex-shrink-0 ${
                 isDarkMode ? "text-dark-500" : "text-gray-400"
@@ -677,12 +671,11 @@ function McqPastQuestions() {
                 </button>
               ))}
             </div>
-          </div>
-
-          {/* Course filter chips */}
+          </div> */}
+{/* 
           <div className="flex items-center gap-1.5 overflow-x-auto pb-0.5 -mx-0.5 px-0.5">
             <div className="w-4 flex-shrink-0" /> {/* Spacer to align with funnel icon */}
-            <div className="flex gap-1.5 flex-nowrap sm:flex-wrap">
+            {/* <div className="flex gap-1.5 flex-nowrap sm:flex-wrap">
               <button
                 onClick={() => setSelectedCourse("all")}
                 className={`px-2.5 sm:px-3 py-1.5 sm:py-1 rounded-full text-xs font-semibold transition-colors whitespace-nowrap ${
@@ -721,10 +714,9 @@ function McqPastQuestions() {
                   </button>
                 );
               })}
-            </div>
+            </div> */}
 
-            {/* Clear filters */}
-            {hasActiveFilters && (
+            {/* {hasActiveFilters && (
               <button
                 onClick={clearFilters}
                 className="flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-semibold text-red-500 bg-red-500/10 hover:bg-red-500/20 transition-colors ml-auto flex-shrink-0"
@@ -732,13 +724,13 @@ function McqPastQuestions() {
                 <HiOutlineXMark className="w-3.5 h-3.5" />
                 Clear
               </button>
-            )}
-          </div>
-        </div>
-      </div>
+            )} */}
+          {/* </div> */} 
+        {/* </div> */} 
+      {/* </div> */} 
 
       {/* ========== RESULTS COUNT ========== */}
-      <div className="flex items-center justify-between mb-3 sm:mb-4">
+      {/* <div className="flex items-center justify-between mb-3 sm:mb-4">
         <p
           className={`text-xs sm:text-sm font-medium ${
             isDarkMode ? "text-dark-400" : "text-gray-500"
@@ -750,10 +742,10 @@ function McqPastQuestions() {
             <span className="text-primary-500"> (filtered)</span>
           )}
         </p>
-      </div>
+      </div> */}
 
       {/* ========== GROUPED QUIZ LIST ========== */}
-      {groupedByYear.length === 0 ? (
+      {/* {groupedByYear.length === 0 ? (
         <div
           className={`text-center py-12 sm:py-16 rounded-xl border ${
             isDarkMode
@@ -788,7 +780,6 @@ function McqPastQuestions() {
 
             return (
               <div key={yearKey}>
-                {/* Year header — collapsible */}
                 <button
                   onClick={() => toggleYearCollapse(yearKey)}
                   className={`w-full flex items-center justify-between px-3 sm:px-4 py-2.5 sm:py-3 rounded-xl mb-2 sm:mb-3 transition-colors group active:scale-[0.99] ${
@@ -838,7 +829,6 @@ function McqPastQuestions() {
                   )}
                 </button>
 
-                {/* Course cards — hidden when collapsed */}
                 {!isCollapsed && (
                   <div className="grid gap-2.5 sm:gap-3 sm:grid-cols-2">
                     {group.quizzes.map((quiz) => {
@@ -910,7 +900,6 @@ function McqPastQuestions() {
                             </div>
                           </div>
 
-                          {/* Best score & attempts badge */}
                           {stats && (
                             <div className="flex items-center gap-2 mb-2 sm:mb-3 flex-wrap">
                               <span
@@ -947,10 +936,10 @@ function McqPastQuestions() {
             );
           })}
         </div>
-      )}
+      )} */}
 
       {/* ========== DOWNLOAD SECTION ========== */}
-      <div className="mt-8 sm:mt-10">
+      {/* <div className="mt-8 sm:mt-10">
         <button
           onClick={() => setShowDownloads(!showDownloads)}
           className={`w-full flex items-center justify-between px-3 sm:px-4 py-2.5 sm:py-3 rounded-xl transition-colors active:scale-[0.99] ${
@@ -1027,7 +1016,7 @@ function McqPastQuestions() {
             ))}
           </div>
         )}
-      </div>
+      </div> */}
     </div>
   );
 }
