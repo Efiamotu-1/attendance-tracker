@@ -21393,6 +21393,1351 @@ const revisedMcqQuestion = {
 },
 
 
+  "snap-test-abuja-campus-may2026": {
+  "year": 9998,
+  "session": "Snap Test (Abuja Campus) — 14 May 2026",
+  "examTitle": "Nigerian Law School, Abuja Campus — Snap Test 2, May 2026",
+  "totalQuestions": 100,
+  "courses": [
+    {
+      "id": "civil-litigation",
+      "name": "Civil Litigation",
+      "questionsCount": 20,
+      "questions": [
+        {
+          "id": 1,
+          "context": "During his brief stay in Bwari as a student of the Nigerian Law School, Aba developed in property and accordingly acquired a parcel of land opposite the Nigerian Law School from the Bwari Area Council, for which a Right of Occupancy was issued to him. During one of his visits to the land, Aba discovered Sanusi had engaged labourers who are digging a building foundation and has now retained your services.",
+          "question": "What application will you make to urgently stop the work and to protect Aba's interest in the land?",
+          "options": {
+            "a": "An application for an interim injunction.",
+            "b": "An application for an interlocutory injunction.",
+            "c": "An application for perpetual injunction.",
+            "d": "Mareva injunction."
+          },
+          "answer": "a",
+          "explanation": "It is a temporary order made urgently, usually ex parte, to preserve the land until the motion on notice is heard."
+        },
+        {
+          "id": 2,
+          "context": "During his brief stay in Bwari as a student of the Nigerian Law School, Aba developed in property and accordingly acquired a parcel of land opposite the Nigerian Law School from the Bwari Area Council, for which a Right of Occupancy was issued to him. During one of his visits to the land, Aba discovered Sanusi had engaged labourers who are digging a building foundation and has now retained your services.",
+          "question": "What will be the life span of the resulting order in (1) above?",
+          "options": {
+            "a": "2 days",
+            "b": "7 days and may be extended for another 7 days.",
+            "c": "8 days",
+            "d": "It will last until the determination of the suit."
+          },
+          "answer": "b",
+          "explanation": "An ex parte order abates after 7 days. The judge may extend it by not more than 7 days (Order 30 r.3(2) Abuja)."
+        },
+        {
+          "id": 3,
+          "context": "During his brief stay in Bwari as a student of the Nigerian Law School, Aba developed in property and accordingly acquired a parcel of land opposite the Nigerian Law School from the Bwari Area Council, for which a Right of Occupancy was issued to him. During one of his visits to the land, Aba discovered Sanusi had engaged labourers who are digging a building foundation and has now retained your services.",
+          "question": "Assuming you had instituted a suit against Sanusi, what application would you file to restrain the ongoing construction pending the determination of the suit?",
+          "options": {
+            "a": "Mandatory injunction",
+            "b": "Interim injunction",
+            "c": "Interlocutory injunction",
+            "d": "Any of (a) or (b) above."
+          },
+          "answer": "c",
+          "explanation": "It is granted on motion on notice after both sides are heard and lasts until the suit is determined."
+        },
+        {
+          "id": 4,
+          "context": "During his brief stay in Bwari as a student of the Nigerian Law School, Aba developed in property and accordingly acquired a parcel of land opposite the Nigerian Law School from the Bwari Area Council, for which a Right of Occupancy was issued to him. During one of his visits to the land, Aba discovered Sanusi had engaged labourers who are digging a building foundation and has now retained your services.",
+          "question": "All but one is the guiding principle in granting or refusing the application in (3) above.",
+          "options": {
+            "a": "Existence of a legal right",
+            "b": "Balance of convenience",
+            "c": "Undertaking as to cost",
+            "d": "Evidence of payment of the filing fee."
+          },
+          "answer": "d",
+          "explanation": "The principles are a legal right, a substantial issue to be tried, balance of convenience, irreparable damage, conduct of the parties and an undertaking as to damages (Obeya Memorial Hospital v AG Federation). A filing fee is not one of them."
+        },
+        {
+          "id": 5,
+          "context": "During his brief stay in Bwari as a student of the Nigerian Law School, Aba developed in property and accordingly acquired a parcel of land opposite the Nigerian Law School from the Bwari Area Council, for which a Right of Occupancy was issued to him. During one of his visits to the land, Aba discovered Sanusi had engaged labourers who are digging a building foundation and has now retained your services.",
+          "question": "Assuming Sanusi, upon being served with the application in 3 above, goes ahead with the construction. As counsel to Aba, what application will you bring?",
+          "options": {
+            "a": "Application for trespass",
+            "b": "Application for an Anton Pillar order",
+            "c": "Application for mandatory injunction",
+            "d": "Quia timet injunction"
+          },
+          "answer": "c",
+          "explanation": "Sanusi went ahead after being served. A mandatory injunction compels him to retrace his steps and restores the status quo (Sulu Gambari v Bukola). Anton Piller is for intellectual property infringement, and quia timet is for threatened harm."
+        },
+        {
+          "id": 6,
+          "context": "Mr. Zamzam Pofi died without leaving a will. On 1st January 2022, he was survived by two children, namely: Rikici Zamzam and Hakuri Zamzam. The title document to his only property is in the possession of his lawyer, Shaakkaa Mnagu. While his letters of administration is being processed, his two sons have been disturbing him to hand over the title document to them. While Rikici Zamzam claims that he is the one entitled to the title document, being the first son of Mr. Zamzam, Hakuri Zamzam argues that he is the one entitled to the title document by Mupun custom.",
+          "question": "What proceedings is referred to in the scenario?",
+          "options": {
+            "a": "Third-party notice.",
+            "b": "Third-party proceedings.",
+            "c": "Stakeholder interpleader.",
+            "d": "Fast-track proceedings."
+          },
+          "answer": "c",
+          "explanation": "The lawyer holds the title document and two persons claim it (Order 26 r.1 Abuja)."
+        },
+        {
+          "id": 7,
+          "context": "Mr. Zamzam Pofi died without leaving a will. On 1st January 2022, he was survived by two children, namely: Rikici Zamzam and Hakuri Zamzam. The title document to his only property is in the possession of his lawyer, Shaakkaa Mnagu. While his letters of administration is being processed, his two sons have been disturbing him to hand over the title document to them. While Rikici Zamzam claims that he is the one entitled to the title document, being the first son of Mr. Zamzam, Hakuri Zamzam argues that he is the one entitled to the title document by Mupun custom.",
+          "question": "Assuming you are Mr. Shaakkaa Mangu, what step will you take to deal with the title document?",
+          "options": {
+            "a": "Destroy the document.",
+            "b": "Surrender it to the police.",
+            "c": "Surrender it to Rikici the eldest son.",
+            "d": "Apply to court for an interpleader for both parties to establish their claims."
+          },
+          "answer": "d",
+          "explanation": "He has no interest in the document, so he asks the court to decide between the claimants."
+        },
+        {
+          "id": 8,
+          "context": "Mr. Zamzam Pofi died without leaving a will. On 1st January 2022, he was survived by two children, namely: Rikici Zamzam and Hakuri Zamzam. The title document to his only property is in the possession of his lawyer, Shaakkaa Mnagu. While his letters of administration is being processed, his two sons have been disturbing him to hand over the title document to them. While Rikici Zamzam claims that he is the one entitled to the title document, being the first son of Mr. Zamzam, Hakuri Zamzam argues that he is the one entitled to the title document by Mupun custom.",
+          "question": "All but one of the following facts must be contained in the affidavit to actualize the step in 7 above.",
+          "options": {
+            "a": "That the applicant has not colluded with any of the claimants.",
+            "b": "That the applicant has no interest in the title document.",
+            "c": "That the applicant is ready to deal with the document as the court may direct.",
+            "d": "That the applicant is an interloper."
+          },
+          "answer": "d",
+          "explanation": "The affidavit must say that the applicant has no interest, has not colluded with any claimant, and will dispose of the document as the court directs."
+        },
+        {
+          "id": 9,
+          "context": "Mr. Zamzam Pofi died without leaving a will. On 1st January 2022, he was survived by two children, namely: Rikici Zamzam and Hakuri Zamzam. The title document to his only property is in the possession of his lawyer, Shaakkaa Mnagu. While his letters of administration is being processed, his two sons have been disturbing him to hand over the title document to them. While Rikici Zamzam claims that he is the one entitled to the title document, being the first son of Mr. Zamzam, Hakuri Zamzam argues that he is the one entitled to the title document by Mupun custom.",
+          "question": "In which court will you initiate the proceedings to deal with the title document?",
+          "options": {
+            "a": "High court.",
+            "b": "Magistrate court.",
+            "c": "District court.",
+            "d": "Customary court."
+          },
+          "answer": "a",
+          "explanation": "Interpleader is brought under the High Court Rules (Order 26 Abuja)."
+        },
+        {
+          "id": 10,
+          "context": "Mr. Zamzam Pofi died without leaving a will. On 1st January 2022, he was survived by two children, namely: Rikici Zamzam and Hakuri Zamzam. The title document to his only property is in the possession of his lawyer, Shaakkaa Mnagu. While his letters of administration is being processed, his two sons have been disturbing him to hand over the title document to them. While Rikici Zamzam claims that he is the one entitled to the title document, being the first son of Mr. Zamzam, Hakuri Zamzam argues that he is the one entitled to the title document by Mupun custom.",
+          "question": "Assuming Rikici Zamzam had filed a suit at the High Court of FCT, Abuja, seeking a declaration that he is entitled to the document. As counsel to Hakuri Zamzam, what application will you bring to prevent Shaakkaa Mangu from handing over the title document to Hakuri Zamzam pending the determination of the suit?",
+          "options": {
+            "a": "File an application for an interim injunction.",
+            "b": "File an application for interlocutory injunction.",
+            "c": "File an application for a stay of proceedings.",
+            "d": "None of the above."
+          },
+          "answer": "b",
+          "explanation": "The order must last until the suit is determined, and the suit is already filed."
+        },
+        {
+          "id": 11,
+          "context": "Alhaji Sani Hassan of No.7 Solomon Lar Way, Maitama, Abuja, is an importer of sport Utility Vehicles (SUVs). In December 2022, to expand his business, he approached Better Bank Plc for a facility of 500 million. The facility was granted to him without any collateral, being a customer of the bank. It was agreed that the facility granted is to be paid back on or before 14th February 2023, failing which the Bank can take legal action to recover the same. Upon the grant of the facility, Alhaji Sani Hassan ordered and paid for the supply of 50 SUV's to be delivered in one week. His business suffered low patronage as a result of the economic meltdown, and he is unable to liquidate the facility granted within the stipulated time. The Bank had written two demand letters to him, but he was unable to comply. You have been approached by the bank to institute an action on its behalf.",
+          "question": "By what means will you help your client recover the facility without trial?",
+          "options": {
+            "a": "Undefended list procedure under Order 35",
+            "b": "Fast-track procedure",
+            "c": "Summary judgment under Order 13",
+            "d": "(a) and (c) above"
+          },
+          "answer": "a",
+          "explanation": "The claim is a debt or liquidated money demand, which is the only kind of claim the undefended list takes, and it is decided without a full trial. The test calls it 'Order 35'. It is Order 34."
+        },
+        {
+          "id": 12,
+          "context": "Alhaji Sani Hassan of No.7 Solomon Lar Way, Maitama, Abuja, is an importer of sport Utility Vehicles (SUVs). In December 2022, to expand his business, he approached Better Bank Plc for a facility of 500 million. The facility was granted to him without any collateral, being a customer of the bank. It was agreed that the facility granted is to be paid back on or before 14th February 2023, failing which the Bank can take legal action to recover the same. Upon the grant of the facility, Alhaji Sani Hassan ordered and paid for the supply of 50 SUV's to be delivered in one week. His business suffered low patronage as a result of the economic meltdown, and he is unable to liquidate the facility granted within the stipulated time. The Bank had written two demand letters to him, but he was unable to comply. You have been approached by the bank to institute an action on its behalf.",
+          "question": "By what means will you help your client recover the facility expeditiously, going into full trial?",
+          "options": {
+            "a": "Summary judgment procedure under Order 11",
+            "b": "Summary judgment procedure under Order 13",
+            "c": "Fast Track Procedure",
+            "d": "Undefended list procedure under Order 35"
+          },
+          "answer": "c",
+          "explanation": "It is the quickest route that still goes to full trial. A ₦500m claim between banker and customer qualifies (Order 41 Abuja)."
+        },
+        {
+          "id": 13,
+          "context": "Alhaji Sani Hassan of No.7 Solomon Lar Way, Maitama, Abuja, is an importer of sport Utility Vehicles (SUVs). In December 2022, to expand his business, he approached Better Bank Plc for a facility of 500 million. The facility was granted to him without any collateral, being a customer of the bank. It was agreed that the facility granted is to be paid back on or before 14th February 2023, failing which the Bank can take legal action to recover the same. Upon the grant of the facility, Alhaji Sani Hassan ordered and paid for the supply of 50 SUV's to be delivered in one week. His business suffered low patronage as a result of the economic meltdown, and he is unable to liquidate the facility granted within the stipulated time. The Bank had written two demand letters to him, but he was unable to comply. You have been approached by the bank to institute an action on its behalf.",
+          "question": "List the processes you will file to actualize the means in (11) above:",
+          "options": {
+            "a": "writ of summons as in form 1, affidavit stating the grounds on which the claim is based, and the deponents believe there is no defence, and the certificate of pre-action counseling in form 6.",
+            "b": "writ of summons, statement of claim, list of witnesses and witnesses' statements on oath.",
+            "c": "writ of summons, statement of claim, application for summary judgment, and affidavit.",
+            "d": "Writ of summons, pre-action counseling certificate, affidavit and an application for summary judgment."
+          },
+          "answer": "a",
+          "explanation": "The undefended list is begun by a writ of summons in Form 1, an affidavit stating the grounds of the claim and the deponent's belief that there is no defence, and the Form 6 certificate of pre-action counselling (Order 34 r.1; Order 2 r.8 Abuja)."
+        },
+        {
+          "id": 14,
+          "context": "Alhaji Sani Hassan of No.7 Solomon Lar Way, Maitama, Abuja, is an importer of sport Utility Vehicles (SUVs). In December 2022, to expand his business, he approached Better Bank Plc for a facility of 500 million. The facility was granted to him without any collateral, being a customer of the bank. It was agreed that the facility granted is to be paid back on or before 14th February 2023, failing which the Bank can take legal action to recover the same. Upon the grant of the facility, Alhaji Sani Hassan ordered and paid for the supply of 50 SUV's to be delivered in one week. His business suffered low patronage as a result of the economic meltdown, and he is unable to liquidate the facility granted within the stipulated time. The Bank had written two demand letters to him, but he was unable to comply. You have been approached by the bank to institute an action on its behalf.",
+          "question": "What other means will you use apart from the means identified in (11) above to achieve the same result?",
+          "options": {
+            "a": "Summary judgment procedure under Order 13",
+            "b": "Summary judgment procedure under Order 11",
+            "c": "Undefended list procedure under Order 35.",
+            "d": "Fast-track procedure"
+          },
+          "answer": "b",
+          "explanation": "The other no-trial route is summary judgment under Order 35 Abuja. The test numbers it 'Order 11', but B is the summary judgment option."
+        },
+        {
+          "id": 15,
+          "context": "Alhaji Sani Hassan of No.7 Solomon Lar Way, Maitama, Abuja, is an importer of sport Utility Vehicles (SUVs). In December 2022, to expand his business, he approached Better Bank Plc for a facility of 500 million. The facility was granted to him without any collateral, being a customer of the bank. It was agreed that the facility granted is to be paid back on or before 14th February 2023, failing which the Bank can take legal action to recover the same. Upon the grant of the facility, Alhaji Sani Hassan ordered and paid for the supply of 50 SUV's to be delivered in one week. His business suffered low patronage as a result of the economic meltdown, and he is unable to liquidate the facility granted within the stipulated time. The Bank had written two demand letters to him, but he was unable to comply. You have been approached by the bank to institute an action on its behalf.",
+          "question": "Assuming you are counsel to Alhaji Sani Hassan, upon being served with the processes listed in (13) above, list the process you will file in your client's defence.",
+          "options": {
+            "a": "Statement of defence, list of witnesses, witnesses' statements on oath, and pre-action counselling certificate.",
+            "b": "notice of intention to defend, affidavit disclosing a defence on the merit, and pre-action counseling certificate as in form 6.",
+            "c": "Statement of defence, list of witnesses, witnesses' statements on oath, pre-action counselling certificate and counter-affidavit against the application for summary judgment",
+            "d": "Counter affidavit, written brief, and statement of defence."
+          },
+          "answer": "b",
+          "explanation": "The undefended-list defendant files a notice of intention to defend with an affidavit disclosing a defence on the merits (Order 34 r.3(1)). The other options are responses to summary judgment or a full trial."
+        },
+        {
+          "id": 16,
+          "context": "Alhaji Sani Hassan of No.7 Solomon Lar Way, Maitama, Abuja, is an importer of sport Utility Vehicles (SUVs). In December 2022, to expand his business, he approached Better Bank Plc for a facility of 500 million. The facility was granted to him without any collateral, being a customer of the bank. It was agreed that the facility granted is to be paid back on or before 14th February 2023, failing which the Bank can take legal action to recover the same. Upon the grant of the facility, Alhaji Sani Hassan ordered and paid for the supply of 50 SUV's to be delivered in one week. His business suffered low patronage as a result of the economic meltdown, and he is unable to liquidate the facility granted within the stipulated time. The Bank had written two demand letters to him, but he was unable to comply. You have been approached by the bank to institute an action on its behalf.",
+          "question": "As counsel to Alhaji Sani Hassan, within what time are you expected to file the processes in (15) above?",
+          "options": {
+            "a": "21 days",
+            "b": "42 days",
+            "c": "14 days",
+            "d": "5 days before the day fixed for hearing."
+          },
+          "answer": "a",
+          "explanation": "The notice must be delivered within 21 days before the day fixed for hearing (Order 34 r.3(1) Abuja)."
+        },
+        {
+          "id": 17,
+          "context": "Alhaji Sani Hassan of No.7 Solomon Lar Way, Maitama, Abuja, is an importer of sport Utility Vehicles (SUVs). In December 2022, to expand his business, he approached Better Bank Plc for a facility of 500 million. The facility was granted to him without any collateral, being a customer of the bank. It was agreed that the facility granted is to be paid back on or before 14th February 2023, failing which the Bank can take legal action to recover the same. Upon the grant of the facility, Alhaji Sani Hassan ordered and paid for the supply of 50 SUV's to be delivered in one week. His business suffered low patronage as a result of the economic meltdown, and he is unable to liquidate the facility granted within the stipulated time. The Bank had written two demand letters to him, but he was unable to comply. You have been approached by the bank to institute an action on its behalf.",
+          "question": "As counsel to Better Bank, having identified the means in (14) above, list the documents you are required to file to actualize the means.",
+          "options": {
+            "a": "Writ of summons, List of documents to be relied on (exhibits), Witnesses' depositions, Application for summary judgment (motion on notice), Affidavit in support stating grounds for belief that there is no defense to the action, Written brief, Pre-action counseling certificate form 06.",
+            "b": "writ of summons as in form 1, affidavit stating the grounds on which the claim is based, and the deponents believe there is no defence, and the certificate of pre-action counseling in form 6.",
+            "c": "writ of summons, statement of claim, application for summary judgment, affidavit, and written brief.",
+            "d": "Statement of defence, list of witnesses, witnesses' statements, pre-action counselling certificate, and counter-affidavit against the application for summary judgment"
+          },
+          "answer": "a",
+          "explanation": "For summary judgment (Order 35 Abuja), the claimant files the writ, list of documents, witnesses' depositions, a motion on notice, an affidavit of belief that there is no defence, a written brief and the Form 6 certificate of pre-action counselling (Order 35 r.1; Order 30 r.1; Order 2 r.8)."
+        },
+        {
+          "id": 18,
+          "context": "Alhaji Sani Hassan of No.7 Solomon Lar Way, Maitama, Abuja, is an importer of sport Utility Vehicles (SUVs). In December 2022, to expand his business, he approached Better Bank Plc for a facility of 500 million. The facility was granted to him without any collateral, being a customer of the bank. It was agreed that the facility granted is to be paid back on or before 14th February 2023, failing which the Bank can take legal action to recover the same. Upon the grant of the facility, Alhaji Sani Hassan ordered and paid for the supply of 50 SUV's to be delivered in one week. His business suffered low patronage as a result of the economic meltdown, and he is unable to liquidate the facility granted within the stipulated time. The Bank had written two demand letters to him, but he was unable to comply. You have been approached by the bank to institute an action on its behalf.",
+          "question": "As counsel to Alhaji Sani Hassan, what are the documents you will file in defence of the documents in (17) above?",
+          "options": {
+            "a": "Statement of defence, Witnesses' depositions, List of copies of documents to be relied on, Counter affidavit in reply to application for summary judgment, Written brief in reply to the application for judgment, Pre-action protocol 01, and Memorandum of appearance.",
+            "b": "Statement of defence, Witnesses' depositions, List of copies of documents to be relied on, Counter affidavit in reply to application for summary judgment, Written brief in reply to the application for judgment, Certificate of pre-action counseling as in form 06, and Memorandum of appearance.",
+            "c": "Statement of defence, list of witnesses, witnesses' statements, pre-action counselling certificate, and counter-affidavit against the application for summary judgment",
+            "d": "Notice of intention to defend and counter affidavit."
+          },
+          "answer": "b",
+          "explanation": "The defendant files a statement of defence, witnesses' depositions, copies of documents, a counter-affidavit, a written brief in reply, the Form 6 certificate and a memorandum of appearance (Order 35 r.4 Abuja). Option A has 'Pre-action protocol 01', which is the Lagos form."
+        },
+        {
+          "id": 19,
+          "context": "Alhaji Sani Hassan of No.7 Solomon Lar Way, Maitama, Abuja, is an importer of sport Utility Vehicles (SUVs). In December 2022, to expand his business, he approached Better Bank Plc for a facility of 500 million. The facility was granted to him without any collateral, being a customer of the bank. It was agreed that the facility granted is to be paid back on or before 14th February 2023, failing which the Bank can take legal action to recover the same. Upon the grant of the facility, Alhaji Sani Hassan ordered and paid for the supply of 50 SUV's to be delivered in one week. His business suffered low patronage as a result of the economic meltdown, and he is unable to liquidate the facility granted within the stipulated time. The Bank had written two demand letters to him, but he was unable to comply. You have been approached by the bank to institute an action on its behalf.",
+          "question": "As counsel to Alhaji Sani Hassan, within what time are you expected to file the processes in (18) above?",
+          "options": {
+            "a": "42 days",
+            "b": "21 days",
+            "c": "5 days before the hearing",
+            "d": "14 days."
+          },
+          "answer": "b",
+          "explanation": "The defendant files his response within the time prescribed for defence (Order 35 r.4), which is 21 days in Abuja."
+        },
+        {
+          "id": 20,
+          "context": "Alhaji Sani Hassan of No.7 Solomon Lar Way, Maitama, Abuja, is an importer of sport Utility Vehicles (SUVs). In December 2022, to expand his business, he approached Better Bank Plc for a facility of 500 million. The facility was granted to him without any collateral, being a customer of the bank. It was agreed that the facility granted is to be paid back on or before 14th February 2023, failing which the Bank can take legal action to recover the same. Upon the grant of the facility, Alhaji Sani Hassan ordered and paid for the supply of 50 SUV's to be delivered in one week. His business suffered low patronage as a result of the economic meltdown, and he is unable to liquidate the facility granted within the stipulated time. The Bank had written two demand letters to him, but he was unable to comply. You have been approached by the bank to institute an action on its behalf.",
+          "question": "Assuming the scenario is in Lagos, by what means will you help your client recover the facility without trial?",
+          "options": {
+            "a": "Summary judgment under Order 11",
+            "b": "Summary judgment under Order 13",
+            "c": "Undefended list procedure under Order 35",
+            "d": "Fast track"
+          },
+          "answer": "b",
+          "explanation": "In Lagos, summary judgment is under Order 13 Lagos."
+        }
+      ]
+    },
+    {
+      "id": "criminal-litigation",
+      "name": "Criminal Litigation",
+      "questionsCount": 20,
+      "questions": [
+        {
+          "id": 1,
+          "context": "The National Agency for the Prohibition of Traffick in Persons (NAPTIP) arrested and detained Orduen Ochogwu on 22nd April 2026 in Kano on suspicion of belonging to a syndicate of human traffickers and advance fee fraudsters. The NAPTIP perceived that it may be unable to complete investigation within seven days. The legal officer of the Agency is considering what to do.",
+          "question": "Assuming the legal officer decides to approach a Magistrate, what legal process would he initiate to enable the agency hold Ochogwu?",
+          "options": {
+            "a": "Production warrant.",
+            "b": "File a charge",
+            "c": "Remand proceeding",
+            "d": "Remand warrant."
+          },
+          "answer": "c",
+          "explanation": "The legal process for holding a suspect beyond the statutory investigation period is 'remand proceedings,' not a 'remand warrant.'"
+        },
+        {
+          "id": 2,
+          "context": "The National Agency for the Prohibition of Traffick in Persons (NAPTIP) arrested and detained Orduen Ochogwu on 22nd April 2026 in Kano on suspicion of belonging to a syndicate of human traffickers and advance fee fraudsters. The NAPTIP perceived that it may be unable to complete investigation within seven days. The legal officer of the Agency is considering what to do.",
+          "question": "If the Magistrate grants the request in 1 above, how many days would the order the court would make last in the first instance?",
+          "options": {
+            "a": "12",
+            "b": "21",
+            "c": "14",
+            "d": "42"
+          },
+          "answer": "c",
+          "explanation": "NAPTIP enforces a federal statute, so ACJA governs nationwide regardless of the arrest occurring in Kano, and ACJA's first-instance remand period is 14 days."
+        },
+        {
+          "id": 3,
+          "context": "The National Agency for the Prohibition of Traffick in Persons (NAPTIP) arrested and detained Orduen Ochogwu on 22nd April 2026 in Kano on suspicion of belonging to a syndicate of human traffickers and advance fee fraudsters. The NAPTIP perceived that it may be unable to complete investigation within seven days. The legal officer of the Agency is considering what to do.",
+          "question": "What process can the Magistrate release to enable the NAPTIP apprehend a member of the syndicate from Lagos?",
+          "options": {
+            "a": "Bail order",
+            "b": "Search warrant",
+            "c": "Arrest warrant",
+            "d": "Remand order."
+          },
+          "answer": "c",
+          "explanation": "An arrest warrant is needed to apprehend a named syndicate member located in a different state."
+        },
+        {
+          "id": 4,
+          "context": "The National Agency for the Prohibition of Traffick in Persons (NAPTIP) arrested and detained Orduen Ochogwu on 22nd April 2026 in Kano on suspicion of belonging to a syndicate of human traffickers and advance fee fraudsters. The NAPTIP perceived that it may be unable to complete investigation within seven days. The legal officer of the Agency is considering what to do.",
+          "question": "What is the gross number of days that the order in question 1 above orders would last if it were Abuja?",
+          "options": {
+            "a": "56",
+            "b": "46",
+            "c": "42",
+            "d": "36"
+          },
+          "answer": "a",
+          "explanation": "The maximum/gross figure under ACJA (14 days plus renewals, capped at 56)."
+        },
+        {
+          "id": 5,
+          "context": "The National Agency for the Prohibition of Traffick in Persons (NAPTIP) arrested and detained Orduen Ochogwu on 22nd April 2026 in Kano on suspicion of belonging to a syndicate of human traffickers and advance fee fraudsters. The NAPTIP perceived that it may be unable to complete investigation within seven days. The legal officer of the Agency is considering what to do.",
+          "question": "Which amongst these is most apposite of the rights of Ochogwu while being detained by the agency.",
+          "options": {
+            "a": "Right to silence",
+            "b": "Right to counsel",
+            "c": "Informed of the offence alleged",
+            "d": "All the above"
+          },
+          "answer": "d",
+          "explanation": "Being informed of the offence, right to silence, and right to counsel are rights that attach on arrest/detention."
+        },
+        {
+          "id": 6,
+          "context": "On 12th March 2026, Okeke Dalyop was arrested by the Nigerian Security and Civil Defence Corps in Abeokuta, Ogun State upon suspicion of being involved in organizing the kidnap of 15 school girls along Abeokuta-Ibadan expressway in from his hide-out in Oyo State and taking them to Abeokuta. In the course of their operation, he and his gang attacked and shot to death five officers of the Nigerian Security and Civil Defence Corps in Abeokuta. He orally admitted his role in the kidnapping, attack and killings to the NCDC in Abeokuta. Okeke Dalyop and the case file were transferred to the the NSCDC in Minna, Niger State after three days in detention in Abeokuta based on intelligence that he and the gang also kidnapped 10 girls on 7th January, 2022 in Minna, Niger State. He made another statement admitting his role and this time implicated Aiyewumi Omoregbe as the financier of his kidnap gang. Aiyewumi Omoregbe was later arrested from his hide-out in Minna Niger State and brought back to Abeokuta.",
+          "question": "A critical requirement of his admission before it can be admissible is that it must be:",
+          "options": {
+            "a": "Confirmed by the prosecution",
+            "b": "Recorded by a senior police officer",
+            "c": "Voluntary",
+            "d": "Made before a magistrate"
+          },
+          "answer": "c",
+          "explanation": "Voluntariness is the critical requirement for a confession's admissibility."
+        },
+        {
+          "id": 7,
+          "context": "On 12th March 2026, Okeke Dalyop was arrested by the Nigerian Security and Civil Defence Corps in Abeokuta, Ogun State upon suspicion of being involved in organizing the kidnap of 15 school girls along Abeokuta-Ibadan expressway in from his hide-out in Oyo State and taking them to Abeokuta. In the course of their operation, he and his gang attacked and shot to death five officers of the Nigerian Security and Civil Defence Corps in Abeokuta. He orally admitted his role in the kidnapping, attack and killings to the NCDC in Abeokuta. Okeke Dalyop and the case file were transferred to the the NSCDC in Minna, Niger State after three days in detention in Abeokuta based on intelligence that he and the gang also kidnapped 10 girls on 7th January, 2022 in Minna, Niger State. He made another statement admitting his role and this time implicated Aiyewumi Omoregbe as the financier of his kidnap gang. Aiyewumi Omoregbe was later arrested from his hide-out in Minna Niger State and brought back to Abeokuta.",
+          "question": "One of these statements is correct about his oral admission:",
+          "options": {
+            "a": "The admission is only admissible if it is written",
+            "b": "His oral admission of crime is admissible in evidence",
+            "c": "His oral admissible can only be proved by video evidence",
+            "d": "His oral admission of guilt must be corroborated by a witness"
+          },
+          "answer": "b",
+          "explanation": "An oral confession of crime is admissible in evidence; Nigerian law doesn't require it to be written, video-recorded, or corroborated."
+        },
+        {
+          "id": 8,
+          "context": "On 12th March 2026, Okeke Dalyop was arrested by the Nigerian Security and Civil Defence Corps in Abeokuta, Ogun State upon suspicion of being involved in organizing the kidnap of 15 school girls along Abeokuta-Ibadan expressway in from his hide-out in Oyo State and taking them to Abeokuta. In the course of their operation, he and his gang attacked and shot to death five officers of the Nigerian Security and Civil Defence Corps in Abeokuta. He orally admitted his role in the kidnapping, attack and killings to the NCDC in Abeokuta. Okeke Dalyop and the case file were transferred to the the NSCDC in Minna, Niger State after three days in detention in Abeokuta based on intelligence that he and the gang also kidnapped 10 girls on 7th January, 2022 in Minna, Niger State. He made another statement admitting his role and this time implicated Aiyewumi Omoregbe as the financier of his kidnap gang. Aiyewumi Omoregbe was later arrested from his hide-out in Minna Niger State and brought back to Abeokuta.",
+          "question": "His admission of crime made in Ogun state is not admissible unless it is:",
+          "options": {
+            "a": "Made before a magistrate",
+            "b": "Video-recorded",
+            "c": "Signed by a witness",
+            "d": "Verified by the DPP"
+          },
+          "answer": "b",
+          "explanation": "Best fit among the options offered, though not fully certain this matches Ogun State's specific wording."
+        },
+        {
+          "id": 9,
+          "context": "On 12th March 2026, Okeke Dalyop was arrested by the Nigerian Security and Civil Defence Corps in Abeokuta, Ogun State upon suspicion of being involved in organizing the kidnap of 15 school girls along Abeokuta-Ibadan expressway in from his hide-out in Oyo State and taking them to Abeokuta. In the course of their operation, he and his gang attacked and shot to death five officers of the Nigerian Security and Civil Defence Corps in Abeokuta. He orally admitted his role in the kidnapping, attack and killings to the NCDC in Abeokuta. Okeke Dalyop and the case file were transferred to the the NSCDC in Minna, Niger State after three days in detention in Abeokuta based on intelligence that he and the gang also kidnapped 10 girls on 7th January, 2022 in Minna, Niger State. He made another statement admitting his role and this time implicated Aiyewumi Omoregbe as the financier of his kidnap gang. Aiyewumi Omoregbe was later arrested from his hide-out in Minna Niger State and brought back to Abeokuta.",
+          "question": "Assuming the Investigating Narcotics Officers did not allow Dalyop sleep throughout the three days in detention in Abeokuta to make him talk, the officer would be liable for:",
+          "options": {
+            "a": "Illegitimate evidence collection",
+            "b": "Denying him sleep",
+            "c": "Loss of evidence",
+            "d": "Inducing false evidence"
+          },
+          "answer": "d",
+          "explanation": "Depriving a suspect of sleep to extract a statement is oppressive interrogation that risks producing an unreliable/false confession."
+        },
+        {
+          "id": 10,
+          "context": "On 12th March 2026, Okeke Dalyop was arrested by the Nigerian Security and Civil Defence Corps in Abeokuta, Ogun State upon suspicion of being involved in organizing the kidnap of 15 school girls along Abeokuta-Ibadan expressway in from his hide-out in Oyo State and taking them to Abeokuta. In the course of their operation, he and his gang attacked and shot to death five officers of the Nigerian Security and Civil Defence Corps in Abeokuta. He orally admitted his role in the kidnapping, attack and killings to the NCDC in Abeokuta. Okeke Dalyop and the case file were transferred to the the NSCDC in Minna, Niger State after three days in detention in Abeokuta based on intelligence that he and the gang also kidnapped 10 girls on 7th January, 2022 in Minna, Niger State. He made another statement admitting his role and this time implicated Aiyewumi Omoregbe as the financier of his kidnap gang. Aiyewumi Omoregbe was later arrested from his hide-out in Minna Niger State and brought back to Abeokuta.",
+          "question": "If at their joint trial Dalyop as witness testified that Aiyewumi Omoregbe was the financier of the gang, his testimony would be:",
+          "options": {
+            "a": "Inadmissible",
+            "b": "Inadmissible unless adopted by Aiyewumi Omoregbe by word or conduct",
+            "c": "Admissible as evidence of a co-accused",
+            "d": "Admissible as retracted confession."
+          },
+          "answer": "b",
+          "explanation": "One co-accused's statement implicating another is evidence only against its maker unless the other adopts it."
+        },
+        {
+          "id": 11,
+          "context": "On 17th April, 2026, Fatima Attah and Binta Joseph while driving in Fatima's 2014 Toyota Camry car, were stopped by the men of National Drug Law Enforcement Agency (NDLEA) along Kubwa Express, Abuja. The male officers thoroughly searched their bodies proceeded to search the car. Substances suspected to be cocaine was recovered from the glove compartment of the car. The two girls objected to the search on the ground that the officers had no search warrant to search the car. They were subsequently arrested, handcuffed and dragged into the patrol vehicle of the NDLEA. Fatima's questions as to the reason for their arrest was met with stony silence. They were locked in a cell for one week at the NDLEA office, Kubwa, after which an identification parade was conducted featuring the two of them with eight other ladies, some fair complexion and others short in height. At the end of another week they were arraigned at the Chief Magistrate Court, Kubwa on a one count charge of possession of cocaine and trafficking in cocaine drafted by an officer of the NDLEA.",
+          "question": "The search of the bodies of Fatima and Binta by the officers of the National Drug Law Enforcement Agency was:",
+          "options": {
+            "a": "Proper in the circumstances",
+            "b": "Proper if there were no female officers around and it was urgent",
+            "c": "Proper because they were suspects",
+            "d": "All of the above."
+          },
+          "answer": "b",
+          "explanation": "Same-sex search is the default rule, with that narrow exception — proper only if there were no female officers available and it was urgent."
+        },
+        {
+          "id": 12,
+          "context": "On 17th April, 2026, Fatima Attah and Binta Joseph while driving in Fatima's 2014 Toyota Camry car, were stopped by the men of National Drug Law Enforcement Agency (NDLEA) along Kubwa Express, Abuja. The male officers thoroughly searched their bodies proceeded to search the car. Substances suspected to be cocaine was recovered from the glove compartment of the car. The two girls objected to the search on the ground that the officers had no search warrant to search the car. They were subsequently arrested, handcuffed and dragged into the patrol vehicle of the NDLEA. Fatima's questions as to the reason for their arrest was met with stony silence. They were locked in a cell for one week at the NDLEA office, Kubwa, after which an identification parade was conducted featuring the two of them with eight other ladies, some fair complexion and others short in height. At the end of another week they were arraigned at the Chief Magistrate Court, Kubwa on a one count charge of possession of cocaine and trafficking in cocaine drafted by an officer of the NDLEA.",
+          "question": "The objection Fatima and Binta to the search of the car is:",
+          "options": {
+            "a": "Invalid as search warrant is not required for the search of the car",
+            "b": "Is valid as search warrant is a necessity",
+            "c": "Is valid because search warrant is necessary for every search",
+            "d": "None of the above"
+          },
+          "answer": "a",
+          "explanation": "No search warrant is required for this kind of vehicle search."
+        },
+        {
+          "id": 13,
+          "context": "On 17th April, 2026, Fatima Attah and Binta Joseph while driving in Fatima's 2014 Toyota Camry car, were stopped by the men of National Drug Law Enforcement Agency (NDLEA) along Kubwa Express, Abuja. The male officers thoroughly searched their bodies proceeded to search the car. Substances suspected to be cocaine was recovered from the glove compartment of the car. The two girls objected to the search on the ground that the officers had no search warrant to search the car. They were subsequently arrested, handcuffed and dragged into the patrol vehicle of the NDLEA. Fatima's questions as to the reason for their arrest was met with stony silence. They were locked in a cell for one week at the NDLEA office, Kubwa, after which an identification parade was conducted featuring the two of them with eight other ladies, some fair complexion and others short in height. At the end of another week they were arraigned at the Chief Magistrate Court, Kubwa on a one count charge of possession of cocaine and trafficking in cocaine drafted by an officer of the NDLEA.",
+          "question": "The NDLEA officers were not obliged to ensure that Fatima and Binta enjoyed at the point of arrest:",
+          "options": {
+            "a": "Right to be informed of the offence",
+            "b": "Right to dignity of human person",
+            "c": "Right to bail",
+            "d": "Right to silence"
+          },
+          "answer": "c",
+          "explanation": "The right to bail doesn't attach automatically at the point of arrest."
+        },
+        {
+          "id": 14,
+          "context": "On 17th April, 2026, Fatima Attah and Binta Joseph while driving in Fatima's 2014 Toyota Camry car, were stopped by the men of National Drug Law Enforcement Agency (NDLEA) along Kubwa Express, Abuja. The male officers thoroughly searched their bodies proceeded to search the car. Substances suspected to be cocaine was recovered from the glove compartment of the car. The two girls objected to the search on the ground that the officers had no search warrant to search the car. They were subsequently arrested, handcuffed and dragged into the patrol vehicle of the NDLEA. Fatima's questions as to the reason for their arrest was met with stony silence. They were locked in a cell for one week at the NDLEA office, Kubwa, after which an identification parade was conducted featuring the two of them with eight other ladies, some fair complexion and others short in height. At the end of another week they were arraigned at the Chief Magistrate Court, Kubwa on a one count charge of possession of cocaine and trafficking in cocaine drafted by an officer of the NDLEA.",
+          "question": "The handcuffing of the two girls would have been proper in all the following circumstances except:",
+          "options": {
+            "a": "They resisted arrest",
+            "b": "They were stubborn",
+            "c": "They were armed",
+            "d": "It is necessary for their protection"
+          },
+          "answer": "b",
+          "explanation": "Mere unco-operative attitude isn't a lawful ground for handcuffing."
+        },
+        {
+          "id": 15,
+          "context": "On 17th April, 2026, Fatima Attah and Binta Joseph while driving in Fatima's 2014 Toyota Camry car, were stopped by the men of National Drug Law Enforcement Agency (NDLEA) along Kubwa Express, Abuja. The male officers thoroughly searched their bodies proceeded to search the car. Substances suspected to be cocaine was recovered from the glove compartment of the car. The two girls objected to the search on the ground that the officers had no search warrant to search the car. They were subsequently arrested, handcuffed and dragged into the patrol vehicle of the NDLEA. Fatima's questions as to the reason for their arrest was met with stony silence. They were locked in a cell for one week at the NDLEA office, Kubwa, after which an identification parade was conducted featuring the two of them with eight other ladies, some fair complexion and others short in height. At the end of another week they were arraigned at the Chief Magistrate Court, Kubwa on a one count charge of possession of cocaine and trafficking in cocaine drafted by an officer of the NDLEA.",
+          "question": "The identification parade conducted by the NDLEA was not necessary because of one of the following:",
+          "options": {
+            "a": "They were arrested at the scene of the crime",
+            "b": "They already knew them as notorious drug peddlers",
+            "c": "They are women",
+            "d": "All of the above"
+          },
+          "answer": "a",
+          "explanation": "They were arrested at the scene of the crime, so identity was never in doubt and no parade was needed."
+        },
+        {
+          "id": 16,
+          "context": "On 17th April, 2026, Fatima Attah and Binta Joseph while driving in Fatima's 2014 Toyota Camry car, were stopped by the men of National Drug Law Enforcement Agency (NDLEA) along Kubwa Express, Abuja. The male officers thoroughly searched their bodies proceeded to search the car. Substances suspected to be cocaine was recovered from the glove compartment of the car. The two girls objected to the search on the ground that the officers had no search warrant to search the car. They were subsequently arrested, handcuffed and dragged into the patrol vehicle of the NDLEA. Fatima's questions as to the reason for their arrest was met with stony silence. They were locked in a cell for one week at the NDLEA office, Kubwa, after which an identification parade was conducted featuring the two of them with eight other ladies, some fair complexion and others short in height. At the end of another week they were arraigned at the Chief Magistrate Court, Kubwa on a one count charge of possession of cocaine and trafficking in cocaine drafted by an officer of the NDLEA.",
+          "question": "The identification parade should have at least:",
+          "options": {
+            "a": "12 persons of similar features must be in the lineup",
+            "b": "10 persons of similar features must be in the lineup",
+            "c": "8 persons of similar features must be in the lineup",
+            "d": "None of the following."
+          },
+          "answer": "c",
+          "explanation": "8 persons of similar features in the lineup."
+        },
+        {
+          "id": 17,
+          "context": "On 17th April, 2026, Fatima Attah and Binta Joseph while driving in Fatima's 2014 Toyota Camry car, were stopped by the men of National Drug Law Enforcement Agency (NDLEA) along Kubwa Express, Abuja. The male officers thoroughly searched their bodies proceeded to search the car. Substances suspected to be cocaine was recovered from the glove compartment of the car. The two girls objected to the search on the ground that the officers had no search warrant to search the car. They were subsequently arrested, handcuffed and dragged into the patrol vehicle of the NDLEA. Fatima's questions as to the reason for their arrest was met with stony silence. They were locked in a cell for one week at the NDLEA office, Kubwa, after which an identification parade was conducted featuring the two of them with eight other ladies, some fair complexion and others short in height. At the end of another week they were arraigned at the Chief Magistrate Court, Kubwa on a one count charge of possession of cocaine and trafficking in cocaine drafted by an officer of the NDLEA.",
+          "question": "One of these is not correct about the charge filed at the Chief Magistrate Court:",
+          "options": {
+            "a": "The charge is invalid because it violates an exception to misjoinder of offences.",
+            "b": "The charge is duplicitous.",
+            "c": "The charge is bad for misjoinder of offenders.",
+            "d": "The charge is ambiguous"
+          },
+          "answer": "c",
+          "explanation": "'Bad for misjoinder of offenders' is the incorrect statement; the real defect is duplicity (two offences in one count), not joinder of offenders."
+        },
+        {
+          "id": 18,
+          "context": "On 17th April, 2026, Fatima Attah and Binta Joseph while driving in Fatima's 2014 Toyota Camry car, were stopped by the men of National Drug Law Enforcement Agency (NDLEA) along Kubwa Express, Abuja. The male officers thoroughly searched their bodies proceeded to search the car. Substances suspected to be cocaine was recovered from the glove compartment of the car. The two girls objected to the search on the ground that the officers had no search warrant to search the car. They were subsequently arrested, handcuffed and dragged into the patrol vehicle of the NDLEA. Fatima's questions as to the reason for their arrest was met with stony silence. They were locked in a cell for one week at the NDLEA office, Kubwa, after which an identification parade was conducted featuring the two of them with eight other ladies, some fair complexion and others short in height. At the end of another week they were arraigned at the Chief Magistrate Court, Kubwa on a one count charge of possession of cocaine and trafficking in cocaine drafted by an officer of the NDLEA.",
+          "question": "The Charge should have been filed at:",
+          "options": {
+            "a": "The High Court of the Federal Capital Territory",
+            "b": "Federal High Court",
+            "c": "National Industrial Court of Nigeria",
+            "d": "FCT High Court or Federal High Court"
+          },
+          "answer": "d",
+          "explanation": "The Magistrate Court has no jurisdiction over this offence; it belongs at the FCT High Court or Federal High Court."
+        },
+        {
+          "id": 19,
+          "context": "On 17th April, 2026, Fatima Attah and Binta Joseph while driving in Fatima's 2014 Toyota Camry car, were stopped by the men of National Drug Law Enforcement Agency (NDLEA) along Kubwa Express, Abuja. The male officers thoroughly searched their bodies proceeded to search the car. Substances suspected to be cocaine was recovered from the glove compartment of the car. The two girls objected to the search on the ground that the officers had no search warrant to search the car. They were subsequently arrested, handcuffed and dragged into the patrol vehicle of the NDLEA. Fatima's questions as to the reason for their arrest was met with stony silence. They were locked in a cell for one week at the NDLEA office, Kubwa, after which an identification parade was conducted featuring the two of them with eight other ladies, some fair complexion and others short in height. At the end of another week they were arraigned at the Chief Magistrate Court, Kubwa on a one count charge of possession of cocaine and trafficking in cocaine drafted by an officer of the NDLEA.",
+          "question": "One of these is not a procedure that an officer of the NDLEA would have followed in the search of car under a warrant.",
+          "options": {
+            "a": "Break in or out of the car if restrained.",
+            "b": "Arrest anyone who interferes with the search.",
+            "c": "Cordon the arrear to prevent ingress and egress during the search.",
+            "d": "Handcuff the ladies during the duration of the search."
+          },
+          "answer": "d",
+          "explanation": "Handcuffing them for the duration of the search isn't a standard search-execution step; it needs its own separate justification."
+        },
+        {
+          "id": 20,
+          "context": "On 17th April, 2026, Fatima Attah and Binta Joseph while driving in Fatima's 2014 Toyota Camry car, were stopped by the men of National Drug Law Enforcement Agency (NDLEA) along Kubwa Express, Abuja. The male officers thoroughly searched their bodies proceeded to search the car. Substances suspected to be cocaine was recovered from the glove compartment of the car. The two girls objected to the search on the ground that the officers had no search warrant to search the car. They were subsequently arrested, handcuffed and dragged into the patrol vehicle of the NDLEA. Fatima's questions as to the reason for their arrest was met with stony silence. They were locked in a cell for one week at the NDLEA office, Kubwa, after which an identification parade was conducted featuring the two of them with eight other ladies, some fair complexion and others short in height. At the end of another week they were arraigned at the Chief Magistrate Court, Kubwa on a one count charge of possession of cocaine and trafficking in cocaine drafted by an officer of the NDLEA.",
+          "question": "If an information was filed in this case the charge ought to have been drafted by",
+          "options": {
+            "a": "The Chairman, NDLEA being the head of the agency",
+            "b": "A law officer in the Attorney-General's office",
+            "c": "A magistrate",
+            "d": "A prosecutor in the NDLEA."
+          },
+          "answer": "b",
+          "explanation": "A law officer in the Attorney-General's office drafts/files an information."
+        }
+      ]
+    },
+    {
+      "id": "corporate-law-practice",
+      "name": "Corporate Law Practice",
+      "questionsCount": 20,
+      "questions": [
+        {
+          "id": 1,
+          "context": "An American Company involved in the manufacture of phones called HighTech LLC is exploring the option of establishing a phone manufacturing company in Nigeria called Top Choice Ltd. They have contacted you as a legal Practitioner to advise them on the proper procedure to take.",
+          "question": "The following documents must be uploaded to the Corporate Affairs Commission website in order to register Top Choice Ltd except-",
+          "options": {
+            "a": "Availability Check and Reservation of Name Form",
+            "b": "Application for Registration of Company",
+            "c": "Particulars of Secretaries and Directors",
+            "d": "Evidence of payment to Corporate Affairs Commission"
+          },
+          "answer": "c",
+          "explanation": "The documents submitted to CAC for incorporation are the name reservation form, the registration form, the stamped memorandum and articles, the filing-fee receipt, the stamp-duty receipt and directors' NINs. Particulars of secretaries and directors are not on that list."
+        },
+        {
+          "id": 2,
+          "context": "An American Company involved in the manufacture of phones called HighTech LLC is exploring the option of establishing a phone manufacturing company in Nigeria called Top Choice Ltd. They have contacted you as a legal Practitioner to advise them on the proper procedure to take.",
+          "question": "Which regulatory body has the responsibility of keeping records of foreign direct investments and foreign portfolio investment in Nigeria",
+          "options": {
+            "a": "Central Bank of Nigeria",
+            "b": "Corporate Affairs Commission",
+            "c": "Securities and Exchange Commission",
+            "d": "National Office for Technology Acquisition and Promotion."
+          },
+          "answer": "c",
+          "explanation": "SEC keeps a separate register for foreign direct and foreign portfolio investment, under the ISA."
+        },
+        {
+          "id": 3,
+          "context": "An American Company involved in the manufacture of phones called HighTech LLC is exploring the option of establishing a phone manufacturing company in Nigeria called Top Choice Ltd. They have contacted you as a legal Practitioner to advise them on the proper procedure to take.",
+          "question": "Top Choice Ltd cannot carry out business contained in the negative list and these businesses include the following except:",
+          "options": {
+            "a": "Production of atomic substances",
+            "b": "Production of uniforms for Nigeria Immigration Service",
+            "c": "Production and dealing in psychotropic substances",
+            "d": "Production and dealing in pharmaceutical business"
+          },
+          "answer": "d",
+          "explanation": "The negative list covers arms and ammunition, narcotics and psychotropic substances, and military and paramilitary uniforms, including immigration. Pharmaceutical business is open to investors. 'Atomic substances' is also not named, so D is the clearer pick."
+        },
+        {
+          "id": 4,
+          "context": "An American Company involved in the manufacture of phones called HighTech LLC is exploring the option of establishing a phone manufacturing company in Nigeria called Top Choice Ltd. They have contacted you as a legal Practitioner to advise them on the proper procedure to take.",
+          "question": "Top Choice Ltd has been able to secure a loan from a bank in America to use for the business in Nigeria. The following are the incentives available for the loan, except-",
+          "options": {
+            "a": "Free repatriation of capital and profit",
+            "b": "Tax relief",
+            "c": "Duty Drawback and Suspension scheme",
+            "d": "Purchase of foreign currency at Central Bank of Nigeria Rate"
+          },
+          "answer": "d",
+          "explanation": "The available incentives are free repatriation of capital and profit, tax relief, and duty drawback or suspension. Buying foreign currency at the CBN rate is not an incentive."
+        },
+        {
+          "id": 5,
+          "context": "An American Company involved in the manufacture of phones called HighTech LLC is exploring the option of establishing a phone manufacturing company in Nigeria called Top Choice Ltd. They have contacted you as a legal Practitioner to advise them on the proper procedure to take.",
+          "question": "Top Choice Ltd is expected to keep all of the following except:",
+          "options": {
+            "a": "Register of Members",
+            "b": "Register of Directors and Secretaries",
+            "c": "Index of Members",
+            "d": "Minute Books"
+          },
+          "answer": "c",
+          "explanation": "A private company need not keep an index of members, because s.111 applies only once members exceed 50. Top Choice is foreign-owned, so it is not a small company and must keep the register of directors and secretaries."
+        },
+        {
+          "id": 6,
+          "context": "Kelly Max PLC was incorporated on the 5th of June, 2021 with the business of manufacturing and distribution of Body Cream. Recently, the company's fortunes began to dwindle. In order to remain as a going concern, the company has resolved to re-register as a private company and change their business object to manufacturing of coconut oil. A member also proposed the removal of a director. They have consulted you to advise them.",
+          "question": "What is the first step Kelly Max PLC would take to re-register as a private company?",
+          "options": {
+            "a": "Issue a Notice of Annual General Meeting",
+            "b": "The Board of Directors would pass a Special Resolution to re-register as a private company",
+            "c": "The Board of Directors would pass a Resolution to re-register as a private company.",
+            "d": "Fill Form CAC 4"
+          },
+          "answer": "c",
+          "explanation": "The first step is the board resolution proposing re-registration as a private company. The special resolution is passed later, at the general meeting."
+        },
+        {
+          "id": 7,
+          "context": "Kelly Max PLC was incorporated on the 5th of June, 2021 with the business of manufacturing and distribution of Body Cream. Recently, the company's fortunes began to dwindle. In order to remain as a going concern, the company has resolved to re-register as a private company and change their business object to manufacturing of coconut oil. A member also proposed the removal of a director. They have consulted you to advise them.",
+          "question": "The special notice for the removal of the director of Kelly Max PLC will be sent to the company not later than -",
+          "options": {
+            "a": "14 days",
+            "b": "21 days",
+            "c": "As the article of the company provides",
+            "d": "28 days"
+          },
+          "answer": "d",
+          "explanation": "Special notice to the company is required at least 28 days before the meeting."
+        },
+        {
+          "id": 8,
+          "context": "Kelly Max PLC was incorporated on the 5th of June, 2021 with the business of manufacturing and distribution of Body Cream. Recently, the company's fortunes began to dwindle. In order to remain as a going concern, the company has resolved to re-register as a private company and change their business object to manufacturing of coconut oil. A member also proposed the removal of a director. They have consulted you to advise them.",
+          "question": "Which of the following statements is true in relation to the re-registration of the company:",
+          "options": {
+            "a": "The dissidents must apply within 29 days of the passing of the resolution",
+            "b": "This type of resolution can only take place in a company limited by shares",
+            "c": "The dissidents must be shown not to have voted in favour of the resolution.",
+            "d": "At least 45 members must apply for the cancellation of the resolution"
+          },
+          "answer": "c",
+          "explanation": "The dissenting members applying to cancel must not have voted in favour. The waiting period is 28 days, not 29, and the headcount route is 50 members, not 45."
+        },
+        {
+          "id": 9,
+          "context": "Kelly Max PLC was incorporated on the 5th of June, 2021 with the business of manufacturing and distribution of Body Cream. Recently, the company's fortunes began to dwindle. In order to remain as a going concern, the company has resolved to re-register as a private company and change their business object to manufacturing of coconut oil. A member also proposed the removal of a director. They have consulted you to advise them.",
+          "question": "The required threshold of persons required to cancel the resolution to re-register the company is:",
+          "options": {
+            "a": "5%",
+            "b": "10%",
+            "c": "15%",
+            "d": "75%"
+          },
+          "answer": "a",
+          "explanation": "5% of the issued share capital (s.64)."
+        },
+        {
+          "id": 10,
+          "context": "Kelly Max PLC was incorporated on the 5th of June, 2021 with the business of manufacturing and distribution of Body Cream. Recently, the company's fortunes began to dwindle. In order to remain as a going concern, the company has resolved to re-register as a private company and change their business object to manufacturing of coconut oil. A member also proposed the removal of a director. They have consulted you to advise them.",
+          "question": "The required threshold of persons required to cancel the resolution to change the objects of the company is:",
+          "options": {
+            "a": "5%",
+            "b": "10%",
+            "c": "15%",
+            "d": "75%"
+          },
+          "answer": "c",
+          "explanation": "15% (s.51(2))."
+        },
+        {
+          "id": 11,
+          "context": "Ben Johnson GTE/LTD is a public company with 4 directors and eight members. The Company secretary sent a notice of AGM by e-mail to all the members without specifying their right to appoint proxy. At the AGM, the directors declared dividend in view of the massive income of the company. The minutes of the meeting was signed and sent to members electronically.",
+          "question": "Who should sign the minutes of an AGM?",
+          "options": {
+            "a": "Chairman and Secretary",
+            "b": "Managing Director",
+            "c": "Chairman and CEO of the Company",
+            "d": "Chairman of that meeting or subsequent meeting"
+          },
+          "answer": "d",
+          "explanation": "The chairman of that meeting or of the next meeting signs the minutes (s.266)."
+        },
+        {
+          "id": 12,
+          "context": "Ben Johnson GTE/LTD is a public company with 4 directors and eight members. The Company secretary sent a notice of AGM by e-mail to all the members without specifying their right to appoint proxy. At the AGM, the directors declared dividend in view of the massive income of the company. The minutes of the meeting was signed and sent to members electronically.",
+          "question": "What is the effect of sending notice of AGM by e-mail to members of the Company?",
+          "options": {
+            "a": "It invalidates the meeting",
+            "b": "It attracts penalty",
+            "c": "It is a valid notice",
+            "d": "It can lead to investigation of the company by CAC"
+          },
+          "answer": "c",
+          "explanation": "Notice by email is valid (s.244(3) and BFA s.12)."
+        },
+        {
+          "id": 13,
+          "context": "Ben Johnson GTE/LTD is a public company with 4 directors and eight members. The Company secretary sent a notice of AGM by e-mail to all the members without specifying their right to appoint proxy. At the AGM, the directors declared dividend in view of the massive income of the company. The minutes of the meeting was signed and sent to members electronically.",
+          "question": "What is the position of CAMA on right to proxy",
+          "options": {
+            "a": "CAMA provides for automatic right",
+            "b": "The right is subject to article of the company",
+            "c": "The right is subject payment of proxy fees",
+            "d": "The right to proxy is at the discretion of the chairman"
+          },
+          "answer": "b",
+          "explanation": "A guarantee company has no proxy right unless its articles give one."
+        },
+        {
+          "id": 14,
+          "context": "Ben Johnson GTE/LTD is a public company with 4 directors and eight members. The Company secretary sent a notice of AGM by e-mail to all the members without specifying their right to appoint proxy. At the AGM, the directors declared dividend in view of the massive income of the company. The minutes of the meeting was signed and sent to members electronically.",
+          "question": "The company will file returns of the meeting to --- and within - days",
+          "options": {
+            "a": "Securities and Exchange Commission - 42 days",
+            "b": "Corporate Affairs Commission - 42 days",
+            "c": "Nigerian Investment Promotion Commission - 42 days",
+            "d": "Securities and Exchange Commission - 42"
+          },
+          "answer": "b",
+          "explanation": "The annual return goes to CAC within 42 days of the AGM."
+        },
+        {
+          "id": 15,
+          "context": "Ben Johnson GTE/LTD is a public company with 4 directors and eight members. The Company secretary sent a notice of AGM by e-mail to all the members without specifying their right to appoint proxy. At the AGM, the directors declared dividend in view of the massive income of the company. The minutes of the meeting was signed and sent to members electronically.",
+          "question": "What is the minimum number of independent directors expected in this company?",
+          "options": {
+            "a": "1",
+            "b": "2",
+            "c": "3",
+            "d": "4"
+          },
+          "answer": "b",
+          "explanation": "Independent directors must be at least one-third of the board (s.275 as amended by the BFA). One-third of 4 directors rounds up to 2."
+        },
+        {
+          "id": 16,
+          "context": "The Annual General Meeting of the company of Limpopo Plc was scheduled to take place on the 22nd of April, 2026. During the Annual General Meeting, it was resolved as follows: (i) That Mr. Jack Levi, a native of California be appointed as the Chairman of the company. (ii) That the company be re-registered as a private company. (iii) That there should be the appointment of a Director to replace Mr. Jay Kay who was removed at the last Annual General Meeting. (iv) That a company secretary be appointed in place of Madam Benita Kofar who recently died from an accident.",
+          "question": "The latest time that the Notice of Meeting of the company should be issued is the:",
+          "options": {
+            "a": "29th of March, 2026",
+            "b": "30th of March, 2026",
+            "c": "31st of March, 2026",
+            "d": "1st of April, 2026"
+          },
+          "answer": "d",
+          "explanation": "1 April 2026, which is 21 days before 22 April."
+        },
+        {
+          "id": 17,
+          "context": "The Annual General Meeting of the company of Limpopo Plc was scheduled to take place on the 22nd of April, 2026. During the Annual General Meeting, it was resolved as follows: (i) That Mr. Jack Levi, a native of California be appointed as the Chairman of the company. (ii) That the company be re-registered as a private company. (iii) That there should be the appointment of a Director to replace Mr. Jay Kay who was removed at the last Annual General Meeting. (iv) That a company secretary be appointed in place of Madam Benita Kofar who recently died from an accident.",
+          "question": "The required permits that Jack Levi needs to apply for includes all the following except:",
+          "options": {
+            "a": "Business Permit",
+            "b": "Expatriate Quota",
+            "c": "Business Visa",
+            "d": "Residence Permit"
+          },
+          "answer": "b",
+          "explanation": "The company applies for the expatriate quota, not the individual."
+        },
+        {
+          "id": 18,
+          "context": "The Annual General Meeting of the company of Limpopo Plc was scheduled to take place on the 22nd of April, 2026. During the Annual General Meeting, it was resolved as follows: (i) That Mr. Jack Levi, a native of California be appointed as the Chairman of the company. (ii) That the company be re-registered as a private company. (iii) That there should be the appointment of a Director to replace Mr. Jay Kay who was removed at the last Annual General Meeting. (iv) That a company secretary be appointed in place of Madam Benita Kofar who recently died from an accident.",
+          "question": "The following persons are disqualified from holding the position of the Director of the company except:",
+          "options": {
+            "a": "J. A Moore, a man suffering from schizophrenia",
+            "b": "The 15-year son of Mr. Emem George, the Chairman of the company",
+            "c": "Chief Olowo-is-important, a former director of Middle Bank disqualified for fraud",
+            "d": "Miss. Pepeye Ajasco, the secretary of Omega Bank Plc who is a shareholder of the company"
+          },
+          "answer": "d",
+          "explanation": "Unsound mind, being under 18, and a fraud disqualification all bar a person from being a director (s.283). A company secretary is not barred."
+        },
+        {
+          "id": 19,
+          "context": "The Annual General Meeting of the company of Limpopo Plc was scheduled to take place on the 22nd of April, 2026. During the Annual General Meeting, it was resolved as follows: (i) That Mr. Jack Levi, a native of California be appointed as the Chairman of the company. (ii) That the company be re-registered as a private company. (iii) That there should be the appointment of a Director to replace Mr. Jay Kay who was removed at the last Annual General Meeting. (iv) That a company secretary be appointed in place of Madam Benita Kofar who recently died from an accident.",
+          "question": "The qualifications of the proposed secretary should be one of the following except:",
+          "options": {
+            "a": "A secretary who has 10 years qualification experience within the last 5 years.",
+            "b": "A member of the Nigerian Bar Association",
+            "c": "A member of the Institute of Chartered Accountants in Nigeria",
+            "d": "A member of the Institute of Chartered Mediators and Conciliators"
+          },
+          "answer": "d",
+          "explanation": "The qualified secretaries of a public company are members of the chartered secretaries' institute, legal practitioners, members of an accountancy body, persons who held the secretary's office of a public company for three of the five preceding years, and qualified firms (s.332). The mediators' institute is not one."
+        },
+        {
+          "id": 20,
+          "context": "The Annual General Meeting of the company of Limpopo Plc was scheduled to take place on the 22nd of April, 2026. During the Annual General Meeting, it was resolved as follows: (i) That Mr. Jack Levi, a native of California be appointed as the Chairman of the company. (ii) That the company be re-registered as a private company. (iii) That there should be the appointment of a Director to replace Mr. Jay Kay who was removed at the last Annual General Meeting. (iv) That a company secretary be appointed in place of Madam Benita Kofar who recently died from an accident.",
+          "question": "In the Notice of the Annual General Meeting that was sent out by the company, the following are the ordinary business of the company except:",
+          "options": {
+            "a": "Presentation of the financial statements and directors and auditors report",
+            "b": "Election of directors in place of those retiring",
+            "c": "Payments of dividends",
+            "d": "Appointment of members of the audit"
+          },
+          "answer": "c",
+          "explanation": "Declaring a dividend, presenting financial statements, electing retiring directors and appointing audit committee members are all ordinary business. 'Payment of dividends' is not."
+        }
+      ]
+    },
+    {
+      "id": "professional-ethics-and-skills",
+      "name": "Professional Ethics and Skills",
+      "questionsCount": 20,
+      "questions": [
+        {
+          "id": 1,
+          "context": "Senator Afrikpa Manuel, a serving senator of the Federal Republic of Nigeria has approached you in your capacity as a legal practitioner to purchase a hotel worth N1 Billion Naira in Abuja on his behalf. He wants the property to be in the name of his 10-year-old son. The purchase money was delivered at your office in cash in its United States Dollars equivalent. Senator Afrikpa Manuel wants the transaction to be shrouded in secrecy and has requested you to swear to an oath of secrecy in this regard.",
+          "question": "The most appropriate step to take in the circumstances of this transaction is to:",
+          "options": {
+            "a": "Obtain relevant information about Senator Afripka Manuel and keep it for five years from the end of the transaction.",
+            "b": "File a suspicious transaction report",
+            "c": "Conduct Client Due Diligence",
+            "d": "Adopt a risk-based approach to the transaction"
+          },
+          "answer": "b",
+          "explanation": "The facts are all red flags: a politically exposed person, a ₦1 billion purchase in cash (US dollars), registered in a 10-year-old's name, wrapped in secrecy. Privilege does not cover property purchases (s. 11(4) Money Laundering Act 2022), so the secrecy oath cannot stand. If your exam answer key favours the process step, C (client due diligence) is the alternative."
+        },
+        {
+          "id": 2,
+          "context": "Senator Afrikpa Manuel, a serving senator of the Federal Republic of Nigeria has approached you in your capacity as a legal practitioner to purchase a hotel worth N1 Billion Naira in Abuja on his behalf. He wants the property to be in the name of his 10-year-old son. The purchase money was delivered at your office in cash in its United States Dollars equivalent. Senator Afrikpa Manuel wants the transaction to be shrouded in secrecy and has requested you to swear to an oath of secrecy in this regard.",
+          "question": "Whichever step you decide to take in the matter, your first point of contact should be:",
+          "options": {
+            "a": "SCUML",
+            "b": "NFIU",
+            "c": "NBAAMLC",
+            "d": "DNFBS"
+          },
+          "answer": "c",
+          "explanation": "A lawyer reports to the Nigerian Bar Association Anti-Money Laundering Committee, not directly to the NFIU or SCUML (Rule 71 RPC)."
+        },
+        {
+          "id": 3,
+          "context": "Senator Afrikpa Manuel, a serving senator of the Federal Republic of Nigeria has approached you in your capacity as a legal practitioner to purchase a hotel worth N1 Billion Naira in Abuja on his behalf. He wants the property to be in the name of his 10-year-old son. The purchase money was delivered at your office in cash in its United States Dollars equivalent. Senator Afrikpa Manuel wants the transaction to be shrouded in secrecy and has requested you to swear to an oath of secrecy in this regard.",
+          "question": "Your first point of contact is under an obligation to forward your concerns to:",
+          "options": {
+            "a": "DNFBS",
+            "b": "NBAAMLC",
+            "c": "NFIU",
+            "d": "SCUML"
+          },
+          "answer": "c",
+          "explanation": "The NBAAMLC forwards the report to the Nigerian Financial Intelligence Unit."
+        },
+        {
+          "id": 4,
+          "context": "Senator Afrikpa Manuel, a serving senator of the Federal Republic of Nigeria has approached you in your capacity as a legal practitioner to purchase a hotel worth N1 Billion Naira in Abuja on his behalf. He wants the property to be in the name of his 10-year-old son. The purchase money was delivered at your office in cash in its United States Dollars equivalent. Senator Afrikpa Manuel wants the transaction to be shrouded in secrecy and has requested you to swear to an oath of secrecy in this regard.",
+          "question": "Senator Afrikpa Manuel in the circumstances of this case is a:",
+          "options": {
+            "a": "Risky Client",
+            "b": "Risk High Client",
+            "c": "High Risk Client",
+            "d": "Risk Worth Client"
+          },
+          "answer": "c",
+          "explanation": "Politically exposed persons are high-risk clients (Rule 64 RPC)."
+        },
+        {
+          "id": 5,
+          "context": "Senator Afrikpa Manuel, a serving senator of the Federal Republic of Nigeria has approached you in your capacity as a legal practitioner to purchase a hotel worth N1 Billion Naira in Abuja on his behalf. He wants the property to be in the name of his 10-year-old son. The purchase money was delivered at your office in cash in its United States Dollars equivalent. Senator Afrikpa Manuel wants the transaction to be shrouded in secrecy and has requested you to swear to an oath of secrecy in this regard.",
+          "question": "Your failure to take the appropriate steps in the circumstances of this case could:",
+          "options": {
+            "a": "Be termed a professional misconduct",
+            "b": "Lead to a potential referral to the LPDC",
+            "c": "Lead to disciplinary proceedings",
+            "d": "All of the above."
+          },
+          "answer": "d",
+          "explanation": "Failing to comply with the anti-money-laundering duties is professional misconduct and can lead to referral to the LPDC and disciplinary proceedings (Rule 74 RPC)."
+        },
+        {
+          "id": 6,
+          "context": "Akani Nevada studied law in the United Kingdom and was called to the Bar by the Benchers of the Inner Temple. He returned to Nigeria and was employed as a lecturer in the Faculty of Social Sciences to teach first year Business Administration students Introduction to Nigeria Law, which he did for ten years. In the course of his interaction with his students, he taught them that there are three eras in the history of the legal profession in Nigeria. Akani Nevada now wants to attend the Nigeria Law School in his quest to qualify as a lawyer in Nigeria.",
+          "question": "Akani Nevada must have qualified as what in the United Kingdom?",
+          "options": {
+            "a": "Barrister and Solicitor",
+            "b": "Solicitor",
+            "c": "Barrister",
+            "d": "Barrister or Solicitor"
+          },
+          "answer": "c",
+          "explanation": "He was called to the Bar by the Benchers of the Inner Temple, an Inn of Court."
+        },
+        {
+          "id": 7,
+          "context": "Akani Nevada studied law in the United Kingdom and was called to the Bar by the Benchers of the Inner Temple. He returned to Nigeria and was employed as a lecturer in the Faculty of Social Sciences to teach first year Business Administration students Introduction to Nigeria Law, which he did for ten years. In the course of his interaction with his students, he taught them that there are three eras in the history of the legal profession in Nigeria. Akani Nevada now wants to attend the Nigeria Law School in his quest to qualify as a lawyer in Nigeria.",
+          "question": "The three eras in the history of the legal profession that Akani Nevada discussed with his students are:",
+          "options": {
+            "a": "1876-1915, 1915-1962, 1962 till date",
+            "b": "1876-1914, 1914-1963, 1963 till date",
+            "c": "1876-1915, 1915-1963, 1963 till date",
+            "d": "1876-1914, 1914-1962, 1962 till date"
+          },
+          "answer": "d",
+          "explanation": "The three eras are the Supreme Court Ordinance 1876 to the 1914 Amalgamation, then 1914 to 1962, then the post-1962 modern era."
+        },
+        {
+          "id": 8,
+          "context": "Akani Nevada studied law in the United Kingdom and was called to the Bar by the Benchers of the Inner Temple. He returned to Nigeria and was employed as a lecturer in the Faculty of Social Sciences to teach first year Business Administration students Introduction to Nigeria Law, which he did for ten years. In the course of his interaction with his students, he taught them that there are three eras in the history of the legal profession in Nigeria. Akani Nevada now wants to attend the Nigeria Law School in his quest to qualify as a lawyer in Nigeria.",
+          "question": "What type of exemption may Akani Nevada be granted upon proper application to the appropriate regulatory body?",
+          "options": {
+            "a": "Full Exemption",
+            "b": "Partial Exemption",
+            "c": "Either (a) or (b) above",
+            "d": "None of (a) or (b) above"
+          },
+          "answer": "d",
+          "explanation": "A partial exemption needs five years teaching law in a university Faculty of Law (common law graduates). He taught in the Faculty of Social Sciences, so neither full nor partial exemption applies."
+        },
+        {
+          "id": 9,
+          "context": "Akani Nevada studied law in the United Kingdom and was called to the Bar by the Benchers of the Inner Temple. He returned to Nigeria and was employed as a lecturer in the Faculty of Social Sciences to teach first year Business Administration students Introduction to Nigeria Law, which he did for ten years. In the course of his interaction with his students, he taught them that there are three eras in the history of the legal profession in Nigeria. Akani Nevada now wants to attend the Nigeria Law School in his quest to qualify as a lawyer in Nigeria.",
+          "question": "Akani Nevada in discussing the recommendations of the Committee set up by the government of the Federation of Nigeria to consider and make recommendations for the future of legal education and admission to practise law, the right of audience before the court and the making of reciprocal arrangements in this connection with other countries must have said that the said Committee is also known as:",
+          "options": {
+            "a": "Onsworth Committee",
+            "b": "Allsworth Committee",
+            "c": "Unsworth Committee",
+            "d": "Nonsworth Committee"
+          },
+          "answer": "c",
+          "explanation": "It was set up in 1959 and chaired by the Attorney-General E.I.G. Unsworth. Its remit matches the question: legal education, right of audience and reciprocity."
+        },
+        {
+          "id": 10,
+          "context": "Akani Nevada studied law in the United Kingdom and was called to the Bar by the Benchers of the Inner Temple. He returned to Nigeria and was employed as a lecturer in the Faculty of Social Sciences to teach first year Business Administration students Introduction to Nigeria Law, which he did for ten years. In the course of his interaction with his students, he taught them that there are three eras in the history of the legal profession in Nigeria. Akani Nevada now wants to attend the Nigeria Law School in his quest to qualify as a lawyer in Nigeria.",
+          "question": "If Akani Nevada is admitted to the Nigerian Law School, and passes all the requisite examinations, the Nigerian Law School would issue him with",
+          "options": {
+            "a": "Qualifying Certificate",
+            "b": "Call to Bar Certificate",
+            "c": "(a) and (b) above",
+            "d": "None of the above"
+          },
+          "answer": "a",
+          "explanation": "The Council of Legal Education issues it on completion of the Law School course; it is then presented to the Benchers for the Call to Bar."
+        },
+        {
+          "id": 11,
+          "context": "Ohio Ade-Texas graduated with a degree in law from a University in Nigeria, he attended the Nigerian Law School, passed the Bar Final Examinations and was called to the Nigerian Bar. After enrolment, he practised law for 10 years and now desires to apply for the rank of Senior Advocate of Nigeria. However, he has pending issues bordering on professional misconduct before the Committee of the body of the highest distinction in the legal profession in Nigeria, which arose from his breach of the provisions of the Legal Practitioners Remuneration for (Business, Legal Service and Representation) Order, 2023.",
+          "question": "The body responsible for the vocational legal education training of Ohio Ade-Texas in Nigeria is:",
+          "options": {
+            "a": "The Nigerian Law School",
+            "b": "The Body of Benchers",
+            "c": "The Council of Legal Education",
+            "d": "All of the above."
+          },
+          "answer": "c",
+          "explanation": "It prescribes the vocational course, and the Nigerian Law School is the school it runs."
+        },
+        {
+          "id": 12,
+          "context": "Ohio Ade-Texas graduated with a degree in law from a University in Nigeria, he attended the Nigerian Law School, passed the Bar Final Examinations and was called to the Nigerian Bar. After enrolment, he practised law for 10 years and now desires to apply for the rank of Senior Advocate of Nigeria. However, he has pending issues bordering on professional misconduct before the Committee of the body of the highest distinction in the legal profession in Nigeria, which arose from his breach of the provisions of the Legal Practitioners Remuneration for (Business, Legal Service and Representation) Order, 2023.",
+          "question": "The body of the highest distinction referred to in the scenario is the:",
+          "options": {
+            "a": "Legal Practitioners Privileges Committee",
+            "b": "Legal Practitioners Disciplinary Committee",
+            "c": "Body of Benchers",
+            "d": "Council of Legal Education"
+          },
+          "answer": "c",
+          "explanation": "It is the body of highest distinction. The Disciplinary Committee (LPDC) is its committee."
+        },
+        {
+          "id": 13,
+          "context": "Ohio Ade-Texas graduated with a degree in law from a University in Nigeria, he attended the Nigerian Law School, passed the Bar Final Examinations and was called to the Nigerian Bar. After enrolment, he practised law for 10 years and now desires to apply for the rank of Senior Advocate of Nigeria. However, he has pending issues bordering on professional misconduct before the Committee of the body of the highest distinction in the legal profession in Nigeria, which arose from his breach of the provisions of the Legal Practitioners Remuneration for (Business, Legal Service and Representation) Order, 2023.",
+          "question": "Which body is responsible for the making of the law breached by Ohio Ade-Texas?",
+          "options": {
+            "a": "General Council of the Bar",
+            "b": "Nigerian Bar Association",
+            "c": "Legal Practitioners Remuneration Committee",
+            "d": "National Judicial Council"
+          },
+          "answer": "c",
+          "explanation": "It makes the Remuneration Order 2023 (s. 15 LPA)."
+        },
+        {
+          "id": 14,
+          "context": "Ohio Ade-Texas graduated with a degree in law from a University in Nigeria, he attended the Nigerian Law School, passed the Bar Final Examinations and was called to the Nigerian Bar. After enrolment, he practised law for 10 years and now desires to apply for the rank of Senior Advocate of Nigeria. However, he has pending issues bordering on professional misconduct before the Committee of the body of the highest distinction in the legal profession in Nigeria, which arose from his breach of the provisions of the Legal Practitioners Remuneration for (Business, Legal Service and Representation) Order, 2023.",
+          "question": "The body that may confer the rank of Senior Advocate of Nigeria on Ohio Ade-Texas upon a successful application to it is the:",
+          "options": {
+            "a": "Legal Practitioners Disciplinary Committee",
+            "b": "Body of Benchers",
+            "c": "Legal Practitioners Privileges Committee",
+            "d": "Legal Practitioners Remuneration Committee"
+          },
+          "answer": "c",
+          "explanation": "It confers the rank of SAN (s. 5(3) LPA)."
+        },
+        {
+          "id": 15,
+          "context": "Ohio Ade-Texas graduated with a degree in law from a University in Nigeria, he attended the Nigerian Law School, passed the Bar Final Examinations and was called to the Nigerian Bar. After enrolment, he practised law for 10 years and now desires to apply for the rank of Senior Advocate of Nigeria. However, he has pending issues bordering on professional misconduct before the Committee of the body of the highest distinction in the legal profession in Nigeria, which arose from his breach of the provisions of the Legal Practitioners Remuneration for (Business, Legal Service and Representation) Order, 2023.",
+          "question": "The body that called Ohio Ade-Texas to the Nigerian Bar is the:",
+          "options": {
+            "a": "Legal Practitioners Disciplinary Committee",
+            "b": "Body of Benchers",
+            "c": "Legal Practitioners Privileges Committee",
+            "d": "Legal Practitioners Remuneration Committee"
+          },
+          "answer": "b",
+          "explanation": "It calls candidates to the Bar."
+        },
+        {
+          "id": 16,
+          "context": "Sequel to his call to the Nigerian Bar and the satisfaction of other post-call requirements, Benji Sanders was briefed by Chief Williams Russell to prepare Chief Russell's Will. Benji Sanders and Chief Russell could not however agree on a fee. Exasperated by Benji Sanders insistence on the amount he has charged, Chief Russell threatened to instruct his Medical Doctor to prepare the Will. Benji Sanders informed Chief Russell that drafting a Will is an exclusive right of a legal practitioner. Benji Sanders was subsequently appointed a Magistrate in his home state.",
+          "question": "The assertion by Benji Sanders that the drafting of a Will is an exclusive right of a legal practitioner is:",
+          "options": {
+            "a": "True",
+            "b": "False",
+            "c": "Inappropriate",
+            "d": "Unprofessional"
+          },
+          "answer": "b",
+          "explanation": "Preparing a Will is not a lawyer's exclusive right. Section 22(1)(d) LPA covers instruments on land, probate and court proceedings, but excludes Wills themselves."
+        },
+        {
+          "id": 17,
+          "context": "Sequel to his call to the Nigerian Bar and the satisfaction of other post-call requirements, Benji Sanders was briefed by Chief Williams Russell to prepare Chief Russell's Will. Benji Sanders and Chief Russell could not however agree on a fee. Exasperated by Benji Sanders insistence on the amount he has charged, Chief Russell threatened to instruct his Medical Doctor to prepare the Will. Benji Sanders informed Chief Russell that drafting a Will is an exclusive right of a legal practitioner. Benji Sanders was subsequently appointed a Magistrate in his home state.",
+          "question": "Assuming the assertion in relation to the preparation of a Will by Benji Sanders is true, preparing it by Chief Russell's Medical Doctor would amount to......under the Legal Practitioners Act:",
+          "options": {
+            "a": "Unprofessional Conduct",
+            "b": "Misconduct",
+            "c": "Impersonation",
+            "d": "All of the above"
+          },
+          "answer": "c",
+          "explanation": "Section 22 LPA creates the offence for non-lawyers who do work reserved to lawyers. 'Misconduct' and 'unprofessional conduct' apply only to lawyers."
+        },
+        {
+          "id": 18,
+          "context": "Sequel to his call to the Nigerian Bar and the satisfaction of other post-call requirements, Benji Sanders was briefed by Chief Williams Russell to prepare Chief Russell's Will. Benji Sanders and Chief Russell could not however agree on a fee. Exasperated by Benji Sanders insistence on the amount he has charged, Chief Russell threatened to instruct his Medical Doctor to prepare the Will. Benji Sanders informed Chief Russell that drafting a Will is an exclusive right of a legal practitioner. Benji Sanders was subsequently appointed a Magistrate in his home state.",
+          "question": "If Benji Sanders prepares the Will as instructed, he is under an obligation to:",
+          "options": {
+            "a": "Notarize it",
+            "b": "Inform the NBA",
+            "c": "Affix his Stamp and Seal",
+            "d": "All of the above."
+          },
+          "answer": "c",
+          "explanation": "Rule 10 RPC requires a lawyer's name, signature, stamp and seal on documents he prepares. A Will does not need notarising or reporting to the NBA."
+        },
+        {
+          "id": 19,
+          "context": "Sequel to his call to the Nigerian Bar and the satisfaction of other post-call requirements, Benji Sanders was briefed by Chief Williams Russell to prepare Chief Russell's Will. Benji Sanders and Chief Russell could not however agree on a fee. Exasperated by Benji Sanders insistence on the amount he has charged, Chief Russell threatened to instruct his Medical Doctor to prepare the Will. Benji Sanders informed Chief Russell that drafting a Will is an exclusive right of a legal practitioner. Benji Sanders was subsequently appointed a Magistrate in his home state.",
+          "question": "Immediately upon his call to the Nigerian Bar, Benji Sanders is expected to pay his Annual Practising Fee:",
+          "options": {
+            "a": "Latest on or before 31st of March of his year of call",
+            "b": "Within one month of his call to the Bar",
+            "c": "Within 30 days of his call to the Bar",
+            "d": "Before the end of the year of his call to the Bar"
+          },
+          "answer": "b",
+          "explanation": "A newly enrolled lawyer pays the first practising fee within one month. C (30 days) is close, but 'one month' is the wording used. The 31 March deadline is for later years."
+        },
+        {
+          "id": 20,
+          "context": "Sequel to his call to the Nigerian Bar and the satisfaction of other post-call requirements, Benji Sanders was briefed by Chief Williams Russell to prepare Chief Russell's Will. Benji Sanders and Chief Russell could not however agree on a fee. Exasperated by Benji Sanders insistence on the amount he has charged, Chief Russell threatened to instruct his Medical Doctor to prepare the Will. Benji Sanders informed Chief Russell that drafting a Will is an exclusive right of a legal practitioner. Benji Sanders was subsequently appointed a Magistrate in his home state.",
+          "question": "As a Magistrate, Benji Sanders is a:",
+          "options": {
+            "a": "Judicial Officer",
+            "b": "Arbiter",
+            "c": "Mediator",
+            "d": "None of the above"
+          },
+          "answer": "d",
+          "explanation": "Magistrates and Area or Customary Court judges are not 'judicial officers' under s. 318 CFRN. They are not arbiters or mediators in this role either. The lecturers flag this as an exam point."
+        }
+      ]
+    },
+    {
+      "id": "property-law-practice",
+      "name": "Property Law Practice",
+      "questionsCount": 20,
+      "questions": [
+        {
+          "id": 1,
+          "context": "Shukrah Hammond of No. 89 Adventure Layout, Sabon Gari, Kano State, entered into a transaction with Nicholas Adah of No. A15 Aviation Street, Zaria, for the exclusive use of a 3-bedroom, Semi Detached Bungalow situate and known as No. 15 Bestline Quarters, Zaria, for a duration of three years commencing from 1st January 2025.",
+          "question": "The transaction entered into by the parties could best be described as:",
+          "options": {
+            "a": "License",
+            "b": "Lease",
+            "c": "Tenancy",
+            "d": "Tenancy-at-Will"
+          },
+          "answer": "c",
+          "explanation": "A grant of 3 years or below, by tenancy agreement, is a tenancy. A lease is a grant above 3 years, by deed. Three years with exclusive possession is therefore a tenancy, and a licence has no exclusive possession."
+        },
+        {
+          "id": 2,
+          "context": "Shukrah Hammond of No. 89 Adventure Layout, Sabon Gari, Kano State, entered into a transaction with Nicholas Adah of No. A15 Aviation Street, Zaria, for the exclusive use of a 3-bedroom, Semi Detached Bungalow situate and known as No. 15 Bestline Quarters, Zaria, for a duration of three years commencing from 1st January 2025.",
+          "question": "Assuming the parties had agreed that Nicholas Adah will pay for the use of the property, information on the consideration to be paid will be contained in the .... Clause.",
+          "options": {
+            "a": "Rebbendum",
+            "b": "Reddendum",
+            "c": "Consideration and Receipt",
+            "d": "Acknowledgment."
+          },
+          "answer": "b",
+          "explanation": "The reddendum is the rent or consideration clause ('yielding and paying…')."
+        },
+        {
+          "id": 3,
+          "context": "Shukrah Hammond of No. 89 Adventure Layout, Sabon Gari, Kano State, entered into a transaction with Nicholas Adah of No. A15 Aviation Street, Zaria, for the exclusive use of a 3-bedroom, Semi Detached Bungalow situate and known as No. 15 Bestline Quarters, Zaria, for a duration of three years commencing from 1st January 2025.",
+          "question": "One of the following is not required in the transaction between the parties:",
+          "options": {
+            "a": "Exclusive possession",
+            "b": "Commencement date",
+            "c": "Governor's consent",
+            "d": "Duration"
+          },
+          "answer": "c",
+          "explanation": "Governor's consent is not required for a lease. Under the Lagos Land Registration Law (LRL), consent is needed only for grants or subleases above 5 years."
+        },
+        {
+          "id": 4,
+          "context": "Shukrah Hammond of No. 89 Adventure Layout, Sabon Gari, Kano State, entered into a transaction with Nicholas Adah of No. A15 Aviation Street, Zaria, for the exclusive use of a 3-bedroom, Semi Detached Bungalow situate and known as No. 15 Bestline Quarters, Zaria, for a duration of three years commencing from 1st January 2025.",
+          "question": "Nicholas Adah's family will not be moving in with him, so he informed Shukrah Hammond of his intention of giving out one of the bedrooms to a colleague from work, but Shukrah Hammond was uncomfortable with that, so he inserted a ......... in the Agreement.",
+          "options": {
+            "a": "Exclusive Possession",
+            "b": "Covenant Against Subletting",
+            "c": "Rent Reversal",
+            "d": "User Covenant"
+          },
+          "answer": "b",
+          "explanation": "Giving a bedroom to a colleague is a sublet, and a covenant against subletting restrains it."
+        },
+        {
+          "id": 5,
+          "context": "Shukrah Hammond of No. 89 Adventure Layout, Sabon Gari, Kano State, entered into a transaction with Nicholas Adah of No. A15 Aviation Street, Zaria, for the exclusive use of a 3-bedroom, Semi Detached Bungalow situate and known as No. 15 Bestline Quarters, Zaria, for a duration of three years commencing from 1st January 2025.",
+          "question": "Shukrah Hammond asked you of the clause to insert in the agreement, should the parties want to renew their relationship at the end of the current term. You advised them to insert a.............in their Agreement.",
+          "options": {
+            "a": "Rent Renew Clause",
+            "b": "Opinion to Renew Clause",
+            "c": "Option to Renew Clause",
+            "d": "Rent Clause"
+          },
+          "answer": "c",
+          "explanation": "It is the lessor's covenant that a new term may be granted at the end of the current one. It is not a rent clause or a rent review."
+        },
+        {
+          "id": 6,
+          "context": "Assuming during your externship placements, the Head of the Chamber where you were placed instructed you to peruse and edit a Deed of Assignment between Dodo Nigeria Ltd and Swarm Belumi in respect of the twin duplex known as No. 12 Angwan Rafi Road, Bauchi, Bauchi State. The said property is covered by Certificate of Occupancy No: 122/DH/456 dated 23rd June 2020 and registered at the Lands Registry in Bauchi as 20/20/2020G",
+          "question": "The clause that shows the extent and quantity of the property sold to Swarm Belumi is",
+          "options": {
+            "a": "Addendum clause",
+            "b": "Abendum clause",
+            "c": "Habendum Clause",
+            "d": "Description Clause"
+          },
+          "answer": "c",
+          "explanation": "The habendum defines the quantum or extent of the interest granted. If the examiner meant the description of the land, the answer would be D (the parcel clause), but that clause is normally called the parcel clause, not a 'Description Clause'."
+        },
+        {
+          "id": 7,
+          "context": "Assuming during your externship placements, the Head of the Chamber where you were placed instructed you to peruse and edit a Deed of Assignment between Dodo Nigeria Ltd and Swarm Belumi in respect of the twin duplex known as No. 12 Angwan Rafi Road, Bauchi, Bauchi State. The said property is covered by Certificate of Occupancy No: 122/DH/456 dated 23rd June 2020 and registered at the Lands Registry in Bauchi as 20/20/2020G",
+          "question": "The clause that connects the parties to the content and covenants in the instrument of conveyance is-",
+          "options": {
+            "a": "Testatum",
+            "b": "Testation",
+            "c": "Attestation",
+            "d": "Testimonium"
+          },
+          "answer": "a",
+          "explanation": "'Now this deed witnesses…' ties the parties to the operative part and its covenants. The testimonium ('In witness of which…') opens the concluding part, and the attestation is the witness's signature."
+        },
+        {
+          "id": 8,
+          "context": "Assuming during your externship placements, the Head of the Chamber where you were placed instructed you to peruse and edit a Deed of Assignment between Dodo Nigeria Ltd and Swarm Belumi in respect of the twin duplex known as No. 12 Angwan Rafi Road, Bauchi, Bauchi State. The said property is covered by Certificate of Occupancy No: 122/DH/456 dated 23rd June 2020 and registered at the Lands Registry in Bauchi as 20/20/2020G",
+          "question": "The registration particulars of the Certificate of Occupancy in this scenario registered at the Lands Registry, Bauchi represents the following order:",
+          "options": {
+            "a": "Number, Page, Volume",
+            "b": "Page, Number, Volume",
+            "c": "Volume, Page, Number",
+            "d": "Number, Volume, Page."
+          },
+          "answer": "a",
+          "explanation": "The registration endorsement reads 'registered as No. 14 at page 14 in Volume 20'. Here, 20/20/2020G is No. 20, Page 20, Volume 2020G."
+        },
+        {
+          "id": 9,
+          "context": "Assuming during your externship placements, the Head of the Chamber where you were placed instructed you to peruse and edit a Deed of Assignment between Dodo Nigeria Ltd and Swarm Belumi in respect of the twin duplex known as No. 12 Angwan Rafi Road, Bauchi, Bauchi State. The said property is covered by Certificate of Occupancy No: 122/DH/456 dated 23rd June 2020 and registered at the Lands Registry in Bauchi as 20/20/2020G",
+          "question": "The presence of one of the following clauses in the deed to be executed would obviate the need for issuance of a separate receipt:",
+          "options": {
+            "a": "Consideration clause",
+            "b": "Recital clause",
+            "c": "Receipt clause",
+            "d": "Execution clause Testatum."
+          },
+          "answer": "c",
+          "explanation": "It dispenses with the need for a separate receipt (s.54 CA / s.92 PCL)."
+        },
+        {
+          "id": 10,
+          "context": "Assuming during your externship placements, the Head of the Chamber where you were placed instructed you to peruse and edit a Deed of Assignment between Dodo Nigeria Ltd and Swarm Belumi in respect of the twin duplex known as No. 12 Angwan Rafi Road, Bauchi, Bauchi State. The said property is covered by Certificate of Occupancy No: 122/DH/456 dated 23rd June 2020 and registered at the Lands Registry in Bauchi as 20/20/2020G",
+          "question": "Assuming the transaction between Dodo Nigeria Ltd and Swarm Belumi is an outright sale of the property, after the contract stage, one of the following does not apply:",
+          "options": {
+            "a": "Dodo Nigeria Ltd becomes a trustee in respect of the property",
+            "b": "Swarm Belumi's death will not affect the transaction",
+            "c": "Swarm Belumi is automatically entitled to possession",
+            "d": "Swarm Belumi acquires equity in respect of the property."
+          },
+          "answer": "c",
+          "explanation": "This does not apply. At contract stage the purchaser is only an equitable owner and takes possession on completion unless the contract says otherwise. The other three do apply: the vendor is a trustee, death does not affect the contract, and the purchaser acquires an equitable interest."
+        },
+        {
+          "id": 11,
+          "context": "Assuming during your externship placements, the Head of the Chamber where you were placed instructed you to peruse and edit a Deed of Assignment between Dodo Nigeria Ltd and Swarm Belumi in respect of the twin duplex known as No. 12 Angwan Rafi Road, Bauchi, Bauchi State. The said property is covered by Certificate of Occupancy No: 122/DH/456 dated 23rd June 2020 and registered at the Lands Registry in Bauchi as 20/20/2020G",
+          "question": "Upon the completion of the transaction between Dodo Nigeria Limited and Swarm Belumi, where Swarm Belumi wants to grant a term of 15 years in favour of Jack and Jill Enterprises, the document to be executed is",
+          "options": {
+            "a": "A lease",
+            "b": "A deed of lease",
+            "c": "A deed of Sub-Lease",
+            "d": "A deed of Under-Lease."
+          },
+          "answer": "c",
+          "explanation": "Swarm Belumi's title rests on a Certificate of Occupancy, so any further lease by him is a sub-lease. A term above 3 years must also be by deed."
+        },
+        {
+          "id": 12,
+          "context": "Mr. Gregory Smith is the Managing Director of Cock-Crow Nigeria Limited (of 29 Marina, Lagos) and on behalf of the Company has concluded negotiations with Kinetics Bank Plc, of 99 Idejo Street, Lagos, for the loan of the sum of =N=200 million naira to enable the company import solar panels from China. The parties agreed to a legal mortgage. Mr. Gregory Smith's property at 238 Masquerade Street, Gbagada Lagos, valued at =N= 400 million will be used to secure the mortgage. Mr. Smith wants his nephew, Reginald Trinidad to represent him in the transaction.",
+          "question": "Perfection of the above transaction includes all the following except",
+          "options": {
+            "a": "Registration with the Mortal and Property Board of Lagos State",
+            "b": "Registration with the Mortgage Board of Lagos State",
+            "c": "Registration under the Lagos Information Ma",
+            "d": "Registration with the Corporate Affairs Commission."
+          },
+          "answer": "a",
+          "explanation": "This body does not exist, and the option looks like a typo. Perfection of a company's legal mortgage in Lagos is Governor's consent, stamping and registration. Registration is at the Lagos Lands Registry through LIMS (the Lagos land information system), with the Lagos State Mortgage Board (s.53 MPL), and with the Corporate Affairs Commission (CAC, within 90 days). The question is poorly worded, since A and B look almost alike."
+        },
+        {
+          "id": 13,
+          "context": "Mr. Gregory Smith is the Managing Director of Cock-Crow Nigeria Limited (of 29 Marina, Lagos) and on behalf of the Company has concluded negotiations with Kinetics Bank Plc, of 99 Idejo Street, Lagos, for the loan of the sum of =N=200 million naira to enable the company import solar panels from China. The parties agreed to a legal mortgage. Mr. Gregory Smith's property at 238 Masquerade Street, Gbagada Lagos, valued at =N= 400 million will be used to secure the mortgage. Mr. Smith wants his nephew, Reginald Trinidad to represent him in the transaction.",
+          "question": "Reginald Trinidad will be empowered to conclude the transaction if all is present except",
+          "options": {
+            "a": "The document appointing him must be in writing",
+            "b": "The document appointing him is a registrable instrument",
+            "c": "Governor's consent must be obtained",
+            "d": "The document appointing him must be by deed."
+          },
+          "answer": "c",
+          "explanation": "The power of attorney must be in writing, by deed, and a registrable instrument (s.56 LRL). The consent is needed for the mortgage itself, not for an ordinary power to conclude it. Consent is endorsed only on powers of attorney relating to transfer of land (s.7 LRL) and on irrevocable ones (s.57)."
+        },
+        {
+          "id": 14,
+          "context": "Mr. Gregory Smith is the Managing Director of Cock-Crow Nigeria Limited (of 29 Marina, Lagos) and on behalf of the Company has concluded negotiations with Kinetics Bank Plc, of 99 Idejo Street, Lagos, for the loan of the sum of =N=200 million naira to enable the company import solar panels from China. The parties agreed to a legal mortgage. Mr. Gregory Smith's property at 238 Masquerade Street, Gbagada Lagos, valued at =N= 400 million will be used to secure the mortgage. Mr. Smith wants his nephew, Reginald Trinidad to represent him in the transaction.",
+          "question": "Upon registration of the document executed in respect of the mortgage, an application for a certified true copy of the deed must be made by completing",
+          "options": {
+            "a": "Form 3",
+            "b": "Form 4",
+            "c": "Form 5",
+            "d": "Form 6"
+          },
+          "answer": "c",
+          "explanation": "LRL s.23 says an application for a certified true copy is made on Form 5. Form 3 is the search application and Form 4 is the search report."
+        },
+        {
+          "id": 15,
+          "context": "Mr. Gregory Smith is the Managing Director of Cock-Crow Nigeria Limited (of 29 Marina, Lagos) and on behalf of the Company has concluded negotiations with Kinetics Bank Plc, of 99 Idejo Street, Lagos, for the loan of the sum of =N=200 million naira to enable the company import solar panels from China. The parties agreed to a legal mortgage. Mr. Gregory Smith's property at 238 Masquerade Street, Gbagada Lagos, valued at =N= 400 million will be used to secure the mortgage. Mr. Smith wants his nephew, Reginald Trinidad to represent him in the transaction.",
+          "question": "All but one are registers kept at the Lagos Registry for purpose of registration by the LIMS",
+          "options": {
+            "a": "Day List",
+            "b": "Register of Mortgages",
+            "c": "Register of Caution",
+            "d": "Nominal Index"
+          },
+          "answer": "d",
+          "explanation": "LRL s.19(1) lists the registers kept in LIMS as the Day List, Mortgages and Caution. The Nominal Index is kept at the registry (s.3(4)(f)) but is not one of the LIMS registers."
+        },
+        {
+          "id": 16,
+          "context": "Mr. Gregory Smith is the Managing Director of Cock-Crow Nigeria Limited (of 29 Marina, Lagos) and on behalf of the Company has concluded negotiations with Kinetics Bank Plc, of 99 Idejo Street, Lagos, for the loan of the sum of =N=200 million naira to enable the company import solar panels from China. The parties agreed to a legal mortgage. Mr. Gregory Smith's property at 238 Masquerade Street, Gbagada Lagos, valued at =N= 400 million will be used to secure the mortgage. Mr. Smith wants his nephew, Reginald Trinidad to represent him in the transaction.",
+          "question": "Where Cock-Crow Nigeria Limited seeks a further sum of =N=150 million, one of the following statements is incorrect",
+          "options": {
+            "a": "Kinetics Bank plc may advance the sum provided a fresh deed is executed by the parties",
+            "b": "Kinetics Bank may advance the additional sum subject to payment of registration fees",
+            "c": "The company may approach another bank subject to the mode of initial transaction between the company and Kinetics Bank",
+            "d": "The company may obtain the additional sum using one of its properties as security for the loan."
+          },
+          "answer": "a",
+          "explanation": "A further advance on the same property by the same parties is 'up-stamping'. It needs extra stamp duty and no Governor's consent, and it can be done by endorsing the earlier deed or by a separate deed (Owoniboys v UBN). A fresh deed is therefore not required. B, C and D are all permitted. In Lagos, the up-stamped deed must be registered."
+        },
+        {
+          "id": 17,
+          "context": "Mr. Gregory Smith is the Managing Director of Cock-Crow Nigeria Limited (of 29 Marina, Lagos) and on behalf of the Company has concluded negotiations with Kinetics Bank Plc, of 99 Idejo Street, Lagos, for the loan of the sum of =N=200 million naira to enable the company import solar panels from China. The parties agreed to a legal mortgage. Mr. Gregory Smith's property at 238 Masquerade Street, Gbagada Lagos, valued at =N= 400 million will be used to secure the mortgage. Mr. Smith wants his nephew, Reginald Trinidad to represent him in the transaction.",
+          "question": "All but one are remedies available to Kinetics Bank PLC in the event of default by the Cock-Crow Limited.",
+          "options": {
+            "a": "Foreclosure",
+            "b": "Sale",
+            "c": "Indemnity",
+            "d": "Appointment of receiver."
+          },
+          "answer": "c",
+          "explanation": "The mortgagee's remedies are suing on the covenant, possession, a receiver, sale and foreclosure."
+        },
+        {
+          "id": 18,
+          "context": "Mr. Gregory Smith is the Managing Director of Cock-Crow Nigeria Limited (of 29 Marina, Lagos) and on behalf of the Company has concluded negotiations with Kinetics Bank Plc, of 99 Idejo Street, Lagos, for the loan of the sum of =N=200 million naira to enable the company import solar panels from China. The parties agreed to a legal mortgage. Mr. Gregory Smith's property at 238 Masquerade Street, Gbagada Lagos, valued at =N= 400 million will be used to secure the mortgage. Mr. Smith wants his nephew, Reginald Trinidad to represent him in the transaction.",
+          "question": "The rights of Cock-Crow Limited include all but",
+          "options": {
+            "a": "Equity of Redemption",
+            "b": "Equity right to redeem",
+            "c": "Legal right to Redeem",
+            "d": "Equitable right to redeem"
+          },
+          "answer": "b",
+          "explanation": "The mortgagor's rights are the equity of redemption, the legal right to redeem and the equitable right to redeem. 'Equity right to redeem' is not one of them, and the wording of the question is poor."
+        },
+        {
+          "id": 19,
+          "context": "Mr. Gregory Smith is the Managing Director of Cock-Crow Nigeria Limited (of 29 Marina, Lagos) and on behalf of the Company has concluded negotiations with Kinetics Bank Plc, of 99 Idejo Street, Lagos, for the loan of the sum of =N=200 million naira to enable the company import solar panels from China. The parties agreed to a legal mortgage. Mr. Gregory Smith's property at 238 Masquerade Street, Gbagada Lagos, valued at =N= 400 million will be used to secure the mortgage. Mr. Smith wants his nephew, Reginald Trinidad to represent him in the transaction.",
+          "question": "Kinetics Bank Plc's right of sale becomes exercisable when:",
+          "options": {
+            "a": "Notice requiring payment of the loan has been served on the mortgagor, and he is in default for 3 months.",
+            "b": "Some interest under the loan mortgage is in arrears and unpaid for 2 months.",
+            "c": "There has been a breach of a covenant in the mortgage.",
+            "d": "All of the above."
+          },
+          "answer": "d",
+          "explanation": "This is the likely key: notice and 3 months' default, 2 months' interest arrears, or breach of a covenant. But the facts are in Lagos, where s.37 MPL fixes 2 months, not 3. Strictly, option A is wrong in Lagos, so no option is fully correct."
+        },
+        {
+          "id": 20,
+          "context": "Mr. Gregory Smith is the Managing Director of Cock-Crow Nigeria Limited (of 29 Marina, Lagos) and on behalf of the Company has concluded negotiations with Kinetics Bank Plc, of 99 Idejo Street, Lagos, for the loan of the sum of =N=200 million naira to enable the company import solar panels from China. The parties agreed to a legal mortgage. Mr. Gregory Smith's property at 238 Masquerade Street, Gbagada Lagos, valued at =N= 400 million will be used to secure the mortgage. Mr. Smith wants his nephew, Reginald Trinidad to represent him in the transaction.",
+          "question": "All but one are covenants that may be included in the deed of legal mortgage",
+          "options": {
+            "a": "Covenant to pay principal and interest",
+            "b": "Covenant to insure",
+            "c": "Covenant to renew",
+            "d": "Covenant to repair"
+          },
+          "answer": "c",
+          "explanation": "A mortgage deed contains covenants to pay, insure and repair. A covenant to renew belongs in a lease."
+        }
+      ]
+    }
+  ]
+},
+
+
 };
 
 export default revisedMcqQuestion;
