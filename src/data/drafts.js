@@ -782,6 +782,379 @@ const drafts = {
           { t: "para", text: "That you, Shittu Rahmah, on [date] at [place], in the Federal Capital Territory Magisterial District, [act], and thereby committing the offence of [offence], punishable under section ____ of ____." },
         ],
       },
+
+      {
+        id: "summons-to-defendant",
+        title: "Summons to Defendant",
+        red: false,
+        category: "Summons & Warrants",
+        scenario:
+          "A complaint under oath was made by Usman Maigoro on 13th August 2025 that Isah Muhammed of No 12 Kubwa Road, Maitama, Abuja unlawfully stole a necklace belonging to Chief Adekunle Hassan during the Community Festival. Draft the summons to the defendant, requiring him to appear before the High Court of Lagos State, Lagos Judicial Division, on 27th April 2025 at 9:00 a.m., issued by Judge Ejo Ola, dated 26th April 2025.",
+        note: "If the name of the Judge or Magistrate is not stated in the scenario, just use 'Judge' or 'Magistrate'.",
+        keyPoints: [
+          "Court heading: court and judicial division and 'Holden at' town, centred, no Charge No.",
+          "Heading 'SUMMONS TO DEFENDANT'",
+          "'TO:' followed by the defendant's full name and address",
+          "States that a complaint under oath has been made, naming the complainant, the date, and reciting the allegation against the defendant",
+          "'You are hereby summoned to appear before the [court] sitting at [judicial division] on the [date] at the hour of [time] in the morning or so soon thereafter to answer the said complaint'",
+          "Dated, and signed by the Judge or Magistrate (by name if given in the scenario, else just 'Judge' or 'Magistrate')",
+        ],
+        verify: ["Isah Muhammed (defendant's name)", "Usman Maigoro (complainant's name)", "Judge Ejo Ola (signatory's name)"],
+        blocks: [
+          { t: "heading", align: "left", lines: ["SUMMONS"] },
+          {
+            t: "courtheading",
+            lines: [
+              "IN THE HIGH COURT OF LAGOS STATE",
+              "IN THE LAGOS JUDICIAL DIVISION",
+              "HOLDEN AT LAGOS",
+            ],
+          },
+          { t: "heading", align: "center", lines: ["SUMMONS TO DEFENDANT"] },
+          { t: "salutation", text: "TO:" },
+          { t: "para", text: "Isah Muhammed of No 12 Kubwa Road, Maitama, Abuja." },
+          {
+            t: "para",
+            text: "Complaint under oath has been made this day by Usman Maigoro on the 13th day of August, 2025 that you, Isah Muhammed, unlawfully stole a necklace belonging to Chief Adekunle Hassan during the Community Festival.",
+          },
+          {
+            t: "para",
+            text: "You are hereby summoned to appear before the High Court of Lagos sitting at Lagos Judicial Division on the 27th day of April, 2025 at the hour of 9:00 o'clock in the morning or so soon thereafter to answer the said complaint.",
+          },
+          { t: "line", align: "center", text: "Dated this 26th day of April, 2025" },
+          {
+            t: "signoff",
+            align: "right",
+            closing: "",
+            sign: true,
+            lines: ["Judge Ejo Ola"],
+          },
+        ],
+      },
+
+      {
+        id: "search-warrant",
+        title: "Search Warrant",
+        red: false,
+        category: "Summons & Warrants",
+        scenario:
+          "Following investigation of Mr Tunde Akinola of No 44 Kuku Street, Bagada, Lagos, for being in possession of a valuable gold necklace valued at ₦2,000,000, on the complaint of Chief Adekunle Hassan made on 29th April 2025, draft the search warrant addressed to Inspector John Bosco, before the Magistrate Court of Lagos, Ikeja Magisterial District, dated 30th April 2025, signed by the Magistrate.",
+        note: null,
+        keyPoints: [
+          "Court heading: court and magisterial district and 'Holden at' town, centred, no Charge No.",
+          "Heading 'SEARCH WARRANT'",
+          "'TO:' naming the police officer directed to execute it",
+          "Recites the investigation, the suspect's name and address, the item sought, its value, and the complainant and date of the complaint",
+          "Commands the officer to search the suspect's premises and to bring the item before the court to aid the trial of the case according to law",
+          "Dated, and signed by the Magistrate",
+        ],
+        verify: ["Inspector John Bosco (officer's name)", "Mr Tunde Akinola (suspect's name)"],
+        blocks: [
+          { t: "heading", align: "left", lines: ["SEARCH WARRANT"] },
+          {
+            t: "courtheading",
+            lines: [
+              "IN THE MAGISTRATE COURT OF LAGOS",
+              "IN THE IKEJA MAGISTERIAL DISTRICT",
+              "HOLDEN AT IKEJA",
+            ],
+          },
+          { t: "heading", align: "center", lines: ["SEARCH WARRANT"] },
+          { t: "salutation", text: "TO: Inspector John Bosco" },
+          {
+            t: "para",
+            text: "Following the investigation of Mr Tunde Akinola of No 44 Kuku Street, Bagada, Lagos of being in possession of a valuable gold necklace valued at Two Million Naira (₦2,000,000) on the complaint of Chief Adekunle Hassan made on the 29th day of April 2025, you are therefore commanded to search the premises of the suspect and to bring the necklace described above before the Ikeja Magisterial Court sitting at Ikeja forthwith to aid the trial of the case according to law.",
+          },
+          { t: "line", align: "center", text: "Dated this 30th day of April, 2025" },
+          {
+            t: "signoff",
+            align: "right",
+            closing: "",
+            sign: true,
+            lines: ["Magistrate"],
+          },
+        ],
+      },
+
+      {
+        id: "warrant-of-arrest-first-instance",
+        title: "Warrant of Arrest of a Defendant at First Instance",
+        red: false,
+        category: "Summons & Warrants",
+        scenario:
+          "A complaint has been made against Isah Muhammed by Usman Maigoro on 13th August 2025 that Isah Muhammed stole a necklace belonging to Chief Adekunle Hassan during the Community Festival, contrary to the Criminal Law of Lagos State. Draft the warrant of arrest addressed to Inspector Audu Dameus, before the High Court of the Federal Capital Territory, Bwari Judicial Division, dated 15th January 2026, signed by the Judge.",
+        note: null,
+        keyPoints: [
+          "Court heading: court and judicial division and 'Holden at' town, centred, no Charge No.",
+          "Heading 'WARRANT OF ARREST OF DEFENDANT AT FIRST INSTANCE'",
+          "'TO:' naming the police officer directed to execute it",
+          "Recites that a complaint has been made against the defendant, naming the complainant, the date, the allegation and the law contravened",
+          "Commands the officer to bring the defendant before the court to answer the complaint and be dealt with according to law",
+          "Dated, and signed by the Judge",
+        ],
+        verify: ["Inspector Audu Dameus (officer's name)", "Isah Muhammed (defendant's name)"],
+        blocks: [
+          { t: "heading", align: "left", lines: ["WARRANT OF ARREST OF A DEFENDANT AT FIRST INSTANCE"] },
+          {
+            t: "courtheading",
+            lines: [
+              "IN THE HIGH COURT OF THE FEDERAL CAPITAL TERRITORY",
+              "IN THE BWARI JUDICIAL DIVISION",
+              "HOLDEN AT BWARI",
+            ],
+          },
+          { t: "heading", align: "center", lines: ["WARRANT OF ARREST OF DEFENDANT AT FIRST INSTANCE"] },
+          { t: "salutation", text: "TO: Inspector Audu Dameus" },
+          {
+            t: "para",
+            text: "Complaint has been made against Isah Muhammed, called the Defendant, by Usman Maigoro on the 13th day of August 2025 that the said Isah Muhammed stole a necklace belonging to Chief Adekunle Hassan during the Community Festival, which is contrary to the Criminal Law of Lagos State.",
+          },
+          {
+            t: "para",
+            text: "You are therefore commanded to bring the Defendant before the High Court of the Federal Capital Territory, Bwari Judicial Division, forthwith to answer to the said complaint and be dealt with according to law.",
+          },
+          { t: "line", align: "center", text: "Dated this 15th day of January, 2026" },
+          {
+            t: "signoff",
+            align: "right",
+            closing: "",
+            sign: true,
+            lines: ["Judge"],
+          },
+        ],
+      },
+
+      {
+        id: "charge-high-court-fct",
+        title: "Charge — High Court of the FCT, Abuja",
+        red: false,
+        category: "Charges",
+        scenario:
+          "Mumuni Ahmed is to be charged before the High Court of the Federal Capital Territory, Abuja, Wuse Judicial Division, at a session on 13th September 2025, the court informed by the Attorney-General of the Federation on behalf of the Federal Republic of Nigeria, drawn up by Ahmed Bashir, Senior State Counsel for the Attorney-General of the Federation.",
+        note: "We are drafting an Information.",
+        keyPoints: [
+          "Court heading: 'IN THE HIGH COURT OF THE FEDERAL CAPITAL TERRITORY, ABUJA', the judicial division and 'Holden at' town, centred, with the Charge No. at the top right",
+          "BETWEEN the Federal Republic of Nigeria as Complainant AND the defendant's full name as Defendant",
+          "Opening paragraph: 'At the session holding at the High Court of the Federal Capital Territory, Abuja on the [date], the court is informed by the Attorney-General of the Federation on behalf of the Federal Republic of Nigeria that you [defendant] is charged with the following offences'",
+          "Each offence headed 'COUNT ONE', 'COUNT TWO' etc., each with a 'Statement of Offence' and 'Particulars of Offence'",
+          "Dated, and signed using the exact name and designation given in the scenario",
+        ],
+        verify: ["Ahmed Bashir (signatory's name)", "Statement and Particulars of Offence are blank templates in the scan; fill with the facts given in any scenario"],
+        blocks: [
+          { t: "heading", align: "left", lines: ["CHARGE — HIGH COURT OF THE FCT, ABUJA"] },
+          {
+            t: "courtheading",
+            chargeNo: "",
+            lines: [
+              "IN THE HIGH COURT OF THE FEDERAL CAPITAL TERRITORY, ABUJA",
+              "IN THE WUSE JUDICIAL DIVISION",
+              "HOLDEN AT WUSE",
+            ],
+          },
+          {
+            t: "parties",
+            rows: [
+              ["THE FEDERAL REPUBLIC OF NIGERIA", "COMPLAINANT"],
+              ["MUMUNI AHMED", "DEFENDANT"],
+            ],
+          },
+          {
+            t: "para",
+            text: "At the session holding at the High Court of the Federal Capital Territory, Abuja on the 13th day of September 2025, the Court is informed by the Attorney-General of the Federation on behalf of the Federal Republic of Nigeria that you, Mumuni Ahmed, is charged with the following offences.",
+          },
+          { t: "heading", align: "left", lines: ["COUNT ONE"] },
+          { t: "line", text: "Statement of Offence" },
+          { t: "para", text: "____" },
+          { t: "line", text: "Particulars of Offence" },
+          { t: "para", text: "____" },
+          { t: "line", align: "center", text: "Dated this 13th day of September, 2025" },
+          {
+            t: "signoff",
+            align: "right",
+            closing: "",
+            sign: true,
+            lines: ["Ahmed Bashir", "Senior State Counsel", "For: Attorney-General of the Federation"],
+          },
+        ],
+      },
+
+      {
+        id: "charge-high-court-south-other-states",
+        title: "Charge — High Court of the South (Other States, not Lagos)",
+        red: false,
+        category: "Charges",
+        scenario:
+          "Ojo Abiodun is to be charged before the High Court of Ondo State, Akure Judicial Division, Holden at Akure, on a charge brought by the State.",
+        note: "The format of the rest of the draft is the same as the High Court of Lagos State.",
+        keyPoints: [
+          "Court heading: court of the named State and judicial division and 'Holden at' town, centred, with the Charge No. at the top right",
+          "BETWEEN 'THE STATE' as Complainant AND the defendant's full name as Defendant",
+          "The rest of the draft (opening paragraph, counts, statement and particulars of offence, dating and signature) follows the same format as the High Court of Lagos State charge",
+        ],
+        verify: ["This is a template page in the scan showing only the heading and parties; fill the body with the facts given in any scenario"],
+        blocks: [
+          { t: "heading", align: "left", lines: ["CHARGE — HIGH COURT OF THE SOUTH (OTHER STATES, NOT LAGOS)"] },
+          {
+            t: "courtheading",
+            chargeNo: "",
+            lines: [
+              "IN THE HIGH COURT OF ONDO STATE",
+              "IN THE AKURE JUDICIAL DIVISION",
+              "HOLDEN AT AKURE",
+            ],
+          },
+          {
+            t: "parties",
+            rows: [
+              ["THE STATE", "COMPLAINANT"],
+              ["OJO ABIODUN", "DEFENDANT"],
+            ],
+          },
+        ],
+      },
+
+      {
+        id: "charge-high-court-north",
+        title: "Charge — High Court in the North",
+        red: false,
+        category: "Charges",
+        scenario:
+          "Faith Orezi is to be charged before the High Court of Zamfara State, Zamfara Judicial Division, Holden at Zamfara, on a two-count charge brought by the State, drawn up by Umar Usman, Senior State Counsel for the Attorney-General of the State, dated 16th October 2026.",
+        note: "We are drafting a charge. The format for the High Court in the North is the same as that of the Federal High Court; the only difference is that it is 'CHARGE' for the High Court in the North while it is 'COUNT' in the Federal High Court.",
+        keyPoints: [
+          "Court heading: court of the named State and judicial division and 'Holden at' town, centred, with the Charge No. at the top right",
+          "BETWEEN 'THE STATE' as Complainant AND the defendant's full name as Defendant",
+          "Each offence headed 'CHARGE 1', 'CHARGE 2' etc. (not 'COUNT' as in the Federal High Court)",
+          "Dated, and signed using the exact name and designation given in the scenario",
+        ],
+        verify: ["Umar Usman (signatory's name)", "Charge 1 and Charge 2 are blank templates in the scan; fill with the facts given in any scenario"],
+        blocks: [
+          { t: "heading", align: "left", lines: ["CHARGE — HIGH COURT IN THE NORTH"] },
+          {
+            t: "courtheading",
+            chargeNo: "",
+            lines: [
+              "IN THE HIGH COURT OF ZAMFARA STATE",
+              "IN THE ZAMFARA JUDICIAL DIVISION",
+              "HOLDEN AT ZAMFARA",
+            ],
+          },
+          {
+            t: "parties",
+            rows: [
+              ["THE STATE", "COMPLAINANT"],
+              ["FAITH OREZI", "DEFENDANT"],
+            ],
+          },
+          { t: "heading", align: "left", lines: ["CHARGE 1"] },
+          { t: "para", text: "____" },
+          { t: "heading", align: "left", lines: ["CHARGE 2"] },
+          { t: "para", text: "____" },
+          { t: "line", align: "center", text: "Dated this 16th day of October, 2026" },
+          {
+            t: "signoff",
+            align: "right",
+            closing: "",
+            sign: true,
+            lines: ["Umar Usman", "Senior State Counsel", "For: Attorney-General of the State"],
+          },
+        ],
+      },
+
+      {
+        id: "charge-national-industrial-court",
+        title: "Charge — National Industrial Court",
+        red: false,
+        category: "Charges",
+        scenario:
+          "Anantica Williams is to be charged before the National Industrial Court of Nigeria, Ogun State Judicial Division, Holden at Abeokuta, on a charge brought on behalf of the Federal Republic of Nigeria.",
+        note: "We are drafting a charge. It is the same format as the Code of Conduct Tribunal.",
+        keyPoints: [
+          "Court heading: 'IN THE NATIONAL INDUSTRIAL COURT OF NIGERIA', the judicial division and 'Holden at' town, centred, with the Charge No. at the top right",
+          "BETWEEN the Federal Republic of Nigeria as Complainant AND the defendant's full name as Defendant",
+          "Same format as the Code of Conduct Tribunal: opening paragraph, counts headed 'COUNT ONE' etc., each with a statement and particulars of offence",
+        ],
+        verify: ["This is a template page in the scan showing only the heading and parties; fill the body with the facts given in any scenario"],
+        blocks: [
+          { t: "heading", align: "left", lines: ["CHARGE — NATIONAL INDUSTRIAL COURT"] },
+          {
+            t: "courtheading",
+            chargeNo: "",
+            lines: [
+              "IN THE NATIONAL INDUSTRIAL COURT OF NIGERIA",
+              "IN THE OGUN STATE JUDICIAL DIVISION",
+              "HOLDEN AT ABEOKUTA",
+            ],
+          },
+          {
+            t: "parties",
+            rows: [
+              ["THE FEDERAL REPUBLIC OF NIGERIA", "COMPLAINANT"],
+              ["ANANTICA WILLIAMS", "DEFENDANT"],
+            ],
+          },
+        ],
+      },
+
+      {
+        id: "charge-high-court-lagos",
+        title: "Charge — High Court of Lagos State",
+        red: false,
+        category: "Charges",
+        scenario:
+          "Festus Amao is to be charged before the High Court of Lagos State, Ikeja Judicial Division, at a session on 30th September 2026, the court informed by the Attorney-General of the State on behalf of the State, on a count of armed robbery: that on 5th July 2026 at No 20 Sani Abacha Road, Lekki, Lagos State, in the Ikeja Judicial Division, whilst armed with AK-47 rifles, Festus Amao robbed the property of Katsgo Bank Plc of the sum of twenty million naira (₦20,000,000), contrary to section 297(2) of the Criminal Law of Lagos State 2015. Drawn up by Muslim Haruna, Principal State Counsel for the Attorney-General of the State.",
+        note: "The acronyms used here are OP and DDPOP. We are drafting an Information, which is a two-paragraph draft (Statement of Offence [OP] and Particulars of Offence). O — Offence; P — Punishment section. D — Defendant; D — Date of the commission of the offence (if no specific date is given in the scenario, use 'on or about'); P — Place the offence was committed, including the judicial division (for cross-over offences committed across various states, state the place where the offence was committed and say 'within the jurisdiction of this court', e.g. at No 10 Victoria Island, within the jurisdiction of this court); D — Description of the offence, describing how it was done (e.g. for murder write 'murdered Mr Ben', for manslaughter write 'unlawfully killed Mr Bob', for armed robbery write 'while armed robbed Mr Sam of fifty million naira (₦50,000,000)'); P — the person the offence was committed against. If there is more than one defendant, the opening line becomes 'That you: 1. ... 2. ... 3. ... are charged with the following offence(s)'.",
+        keyPoints: [
+          "Court heading: 'IN THE HIGH COURT OF LAGOS STATE', the judicial division and 'Holden at' town, centred, with the Charge No. at the top right",
+          "BETWEEN 'THE STATE OF LAGOS' as Complainant AND the defendant's full name as Defendant",
+          "Opening paragraph: 'At the session holding at the High Court of Lagos State, on the [date], the court is informed by the Attorney-General of the State on behalf of the State that you [defendant] is charged with the following offences'",
+          "Where there is more than one defendant: 'That you: 1. [name] 2. [name] 3. [name] are charged with the following offence(s)'",
+          "Each offence headed 'COUNT 1', 'COUNT 2' etc., each with a 'Statement of Offence' naming the offence and the section, and 'Particulars of Offence' describing the date, place, act and victim using DDPOP",
+          "Dated, and signed using the exact name and designation given in the scenario",
+        ],
+        verify: ["Muslim Haruna (signatory's name)", "Katsgo Bank Plc (victim's name — confirm spelling against the scan)"],
+        blocks: [
+          { t: "heading", align: "left", lines: ["CHARGE — HIGH COURT OF LAGOS STATE"] },
+          {
+            t: "courtheading",
+            chargeNo: "",
+            lines: [
+              "IN THE HIGH COURT OF LAGOS STATE",
+              "IN THE IKEJA JUDICIAL DIVISION",
+              "HOLDEN AT IKEJA",
+            ],
+          },
+          {
+            t: "parties",
+            rows: [
+              ["THE STATE OF LAGOS", "COMPLAINANT"],
+              ["FESTUS AMAO", "DEFENDANT"],
+            ],
+          },
+          {
+            t: "para",
+            text: "At the session holding at the High Court of Lagos State, on the 30th day of September, 2026, the Court is informed by the Attorney-General of the State on behalf of the State that you, Festus Amao, is charged with the following offences.",
+          },
+          { t: "heading", align: "left", lines: ["COUNT 1"] },
+          { t: "line", text: "Statement of Offence" },
+          { t: "para", text: "Armed robbery, contrary to section 297(2) of the Criminal Law of Lagos State, 2015." },
+          { t: "line", text: "Particulars of Offence" },
+          {
+            t: "para",
+            text: "Festus Amao, on the 5th July, 2026, at No 20 Sani Abacha Road, Lekki, Lagos State, in the Ikeja Judicial Division, whilst armed with AK-47 rifles, robbed the property of Katsgo Bank Plc of the sum of twenty million naira (₦20,000,000).",
+          },
+          { t: "heading", align: "left", lines: ["COUNT 2"] },
+          { t: "para", text: "____" },
+          { t: "line", align: "center", text: "Dated this 2nd day of October, 2026" },
+          {
+            t: "signoff",
+            align: "right",
+            closing: "",
+            sign: true,
+            lines: ["Muslim Haruna", "Principal State Counsel", "For: Attorney-General of the State"],
+          },
+        ],
+      },
     ],
   },
   "corporate-law-practice": {
