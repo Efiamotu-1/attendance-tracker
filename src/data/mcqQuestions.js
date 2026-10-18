@@ -5063,7 +5063,7 @@ const mcqQuestions = {
               c: "The seat was reserved for Senior Advocates, life Benchers and Attorneys-General",
               d: "The seat was reserved for Senior Advocates, life Benchers Attorneys-General and Notary Publics.",
             },
-            answer: "b",
+            answer: "c",
           },
           {
             id: 14,
@@ -13023,7 +13023,7 @@ const mcqQuestions = {
               c: "Summons on Notice",
               d: "Notice of Motion",
             },
-            answer: "a",
+            answer: "b",
           },
           {
             id: 11,
@@ -13035,7 +13035,7 @@ const mcqQuestions = {
               c: "Writ of summons",
               d: "Petition.",
             },
-            answer: "a",
+            answer: "c",
           },
           {
             id: 12,
@@ -13047,7 +13047,7 @@ const mcqQuestions = {
               c: "Copies of documents to be relied upon.",
               d: "Statement on oath of the witnesses",
             },
-            answer: "b",
+            answer: "a",
           },
           {
             id: 13,
@@ -13059,7 +13059,7 @@ const mcqQuestions = {
               c: "6 months renewable for two periods of 3 months each.",
               d: "3 months, renewable for subsequent period of 3 months.",
             },
-            answer: "a",
+            answer: "c",
           },
           {
             id: 14,
@@ -13071,7 +13071,7 @@ const mcqQuestions = {
               c: "Cost of the action",
               d: "The particulars of the claim.",
             },
-            answer: "bonus",
+            answer: "c",
           },
           {
             id: 15,
@@ -13095,7 +13095,7 @@ const mcqQuestions = {
               c: "High Court of Adamawa State.",
               d: "All of the above.",
             },
-            answer: "c",
+            answer: "d",
           },
           {
             id: 17,
@@ -13119,7 +13119,7 @@ const mcqQuestions = {
               c: "Where the marriage is conducted.",
               d: "Where she is residing",
             },
-            answer: "bonus",
+            answer: "b",
           },
           {
             id: 19,
@@ -13131,7 +13131,7 @@ const mcqQuestions = {
               c: "Certificate relating to Reconciliation.",
               d: "Marriage certificate.",
             },
-            answer: "a",
+            answer: "b",
           },
           {
             id: 20,
@@ -13143,7 +13143,7 @@ const mcqQuestions = {
               c: "Striking of name.",
               d: "Judicial separation.",
             },
-            answer: "d",
+            answer: "a",
           },
         ],
       },

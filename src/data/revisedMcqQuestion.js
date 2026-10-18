@@ -11929,7 +11929,7 @@ const revisedMcqQuestion = {
               c: "Client Account",
               d: "None of the Above",
             },
-            answer: "d",
+            answer: "c",
           },
           {
             id: 2,
@@ -12073,7 +12073,7 @@ const revisedMcqQuestion = {
               c: "The seat was reserved for Senior Advocates, life Benchers and Attorneys-General",
               d: "The seat was reserved for Senior Advocates, life Benchers Attorneys-General and Notary Publics.",
             },
-            answer: "b",
+            answer: "c",
           },
           {
             id: 14,
