@@ -36,7 +36,7 @@ const drafts = {
       {
         id: "arbitration-clause",
         title: "Arbitration Clause",
-        red: true,
+        red: false,
         category: "Clauses",
         scenario:
           "Riggs Nigeria Limited (No 2 Ajayi Street, Lagos) and Palmer Nigeria Plc (No 4 Ijana Avenue, Ikeja, Lagos) are signing an agreement. Draft the arbitration clause: arbitration first, governed by the Arbitration and Mediation Act 2023, English language, one arbitrator appointed by each party from the Institute of Chartered Arbitrators of Nigeria, seat in Lagos State, award within six months unless extended.",
@@ -72,7 +72,7 @@ const drafts = {
       {
         id: "application-for-adjournment",
         title: "Application for Adjournment",
-        red: true,
+        red: false,
         category: "Letters",
         scenario:
           "You are Martin Ojo of Star Chambers & Co, counsel for the plaintiff in Leventis Motors Limited v John Agbua. The matter is listed for continuation of hearing on 17th May 2026 at the High Court, Maitama, Abuja, but you have another matter the same day at the Court of Appeal, Abuja. Write to the Registrar applying for an adjournment to 20th or 27th May 2026.",
@@ -137,7 +137,7 @@ const drafts = {
       {
         id: "application-letter-for-employment",
         title: "Application Letter for Employment",
-        red: true,
+        red: false,
         category: "Letters",
         scenario:
           "You are Chidi Obinna Adeyanju, called to the Bar in 2001, principal partner of Adeyanju & Associates, Kaduna, with a Chartered Institute of Arbitrators (UK) certificate. The Nigerian Law School has invited lawyers to apply as part-time lecturers. Write the application to the Director-General, enclosing your CV.",
@@ -186,7 +186,7 @@ const drafts = {
       {
         id: "curriculum-vitae",
         title: "Curriculum Vitae",
-        red: true,
+        red: false,
         category: "Letters",
         scenario:
           "Prepare the Curriculum Vitae of Chidi Obinna Adeyanju (born 14 March 1975, Enugu; called to the Bar 2001) to accompany the application for appointment as a part-time lecturer. Use the thirteen standard headings in order.",
@@ -316,7 +316,7 @@ const drafts = {
       {
         id: "letter-of-demand",
         title: "Letter of Demand",
-        red: true,
+        red: false,
         category: "Letters",
         scenario:
           "Mrs Ariyo Jonat lent Mr Bernard Williams (No 6 Ishola Street, Akure, Ondo State) N20,000,000 on 4th May 2026, repayable not later than 25th June 2026. He has defaulted. You are Albert Jones, solicitor at Omolasie & Co Chambers, Akure. Write the letter of demand giving seven working days.",
@@ -368,7 +368,7 @@ const drafts = {
       {
         id: "internal-memorandum-mock-trial",
         title: "Internal Memorandum",
-        red: true,
+        red: false,
         category: "Memoranda",
         scenario:
           "You are Musa Chukwudi Ela, supervisor of Criminal Mock Trial Group 1 at the Nigerian Law School, Abuja Campus. Write the internal memorandum to the Head of Academics, dated 19th August 2017, reporting on the group's activities in the 2016/2017 mock trials (rehearsals from 2 August, trial on 8-9 August, presided over by Hon. Justice V.B Ashi at the Multipurpose Hall).",
@@ -463,7 +463,7 @@ const drafts = {
       {
         id: "negotiation-letter",
         title: "Negotiation Letter / Letter of Settlement Terms",
-        red: true,
+        red: false,
         category: "Letters",
         scenario:
           "Mr Bernard Williams does not dispute the N20,000,000 debt claimed in the Letter of Demand dated 20th July 2026 but cannot pay it at once. You are Benson Kalu of Benson Kalu Law Firm, Abuja. Reply on his behalf proposing four equal monthly instalments of N5,000,000 from 1st August 2026.",
@@ -522,7 +522,7 @@ const drafts = {
       {
         id: "confirmation-of-instructions",
         title: "Confirmation of Instructions",
-        red: true,
+        red: false,
         category: "Letters",
         scenario:
           "On 16th July 2026 Mr Badmus Stanley (No 10 Supra Street, Ikeja, Lagos) orally instructed Star Chambers & Co to (1) sue Sharon James Limited for N20,000,000 and (2) prepare a power of attorney authorising Mr Dele Ali to sell his house at No 5 Delapo Close, Ibadan for not less than N50,000,000. You are Adebowale Omolara, junior associate. Write to confirm the instructions in writing.",
@@ -1163,7 +1163,7 @@ const drafts = {
       {
         id: "application-for-registration-of-a-company",
         title: "Application for Registration of a Company",
-        red: true,
+        red: false,
         category: "Letters",
         scenario:
           "Adeyemi & Partners act for the promoters of Greenfield Agro Limited. The name was approved and reserved by the CAC on 28th September 2026. The company will carry on crop farming and the processing and sale of agricultural produce, registered office at 23 Adeola Odeku Street, Victoria Island, Lagos, share capital N1,000,000 divided into 1,000,000 ordinary shares of N1 each, taken up by Mr Tunde Bakare (600,000 shares) and Mrs Ngozi Eze (400,000 shares), who will also be the first directors; Mrs Amina Yusuf will be company secretary. Write to the Registrar-General applying for registration, pursuant to section 36 CAMA 2020, dated 6th October 2026.",
@@ -1243,7 +1243,7 @@ const drafts = {
       {
         id: "application-for-re-registration-public-to-private",
         title: "Application for Re-registration (Public — Private)",
-        red: true,
+        red: false,
         category: "Letters",
         scenario:
           "Pinacle Logistics Plc (RC No. 998321) no longer requires funds from the public and wants to avoid the cost of public-company regulation; its members also wish to restrict share transfers. A special resolution authorising re-registration as a private company was passed on 1st September 2026; 28 days have elapsed with no application to the Federal High Court for its cancellation. The company secretary, Mr Chidi Okonkwo, applies for consent to re-register as Pinacle Logistics Limited pursuant to section 63 CAMA 2020, dated 6th October 2026.",
@@ -1325,7 +1325,7 @@ const drafts = {
       {
         id: "application-for-re-registration-private-to-public",
         title: "Application for Re-registration (Private — Public)",
-        red: true,
+        red: false,
         category: "Letters",
         scenario:
           "Sunrise Foods Nigeria Limited (RC No. 1107542) wants to raise additional capital from the public and enhance its standing with financial institutions and trade partners. It has never been re-registered as an unlimited company; its allotted share capital of N10,000,000 is above the statutory minimum and has been paid up in full; its balance sheet was prepared not more than seven months before this application. A special resolution authorising re-registration as a public company was passed on 28th September 2026. The company secretary, Mrs Folake Abati, applies for consent to re-register as Sunrise Foods Nigeria Plc pursuant to section 56 CAMA 2020, dated 6th October 2026.",
@@ -1410,7 +1410,7 @@ const drafts = {
       {
         id: "application-to-conduct-corporate-search",
         title: "Application to Conduct Corporate Search",
-        red: true,
+        red: false,
         category: "Letters",
         scenario:
           "Adeyemi & Partners act as external solicitors to Zenith Bank Plc, which intends to open and operate an account for Beach Seats Limited. Write to the Registrar-General seeking permission to conduct a corporate search on Beach Seats Limited, which claims to be a Nigerian company registered under CAMA 2020, dated 6th October 2026, enclosing evidence of payment of search fees, fees for certified true copies, and evidence of annual returns filed.",
@@ -1475,7 +1475,7 @@ const drafts = {
       {
         id: "corporate-search-report-covering-letter",
         title: "Corporate Search Report (Covering Letter)",
-        red: true,
+        red: false,
         category: "Letters",
         note: "There are two ways of drafting a corporate search report: draft a covering letter and attach the search report to it, or put the search report in the covering letter. The first is the preferred approach. When replying to a letter with a letter, the replying letter will have 'RE:'.",
         scenario:
@@ -1623,7 +1623,7 @@ const drafts = {
       {
         id: "ordinary-resolution-ratifying-director-casual-vacancy",
         title: "Ordinary Resolution for the Ratification/Approval of a New Director That Was Used to Fill Casual Vacancy",
-        red: true,
+        red: false,
         category: "Resolutions",
         scenario:
           "At the Annual General Meeting of Unity Global Plc held on 20th May 2026 at Eko Hotel & Suites, members ratified the appointment of Mr Olowokure Basit of 17 Isalu Street, Ikoyi, Lagos as a director, filling the position and office of Mr Dapo Ajayi, the deceased director, pursuant to section 274 CAMA 2020. Draft the resolution, dated 12th June 2026, signed by Mr Ifechukwu Dubem (Director) and Mrs Rose Omosuyi (Company Secretary).",
@@ -1682,7 +1682,7 @@ const drafts = {
       {
         id: "board-resolution-casual-vacancy",
         title: "Board Resolution to Fill Casual Vacancy",
-        red: true,
+        red: false,
         category: "Resolutions",
         scenario:
           "At a board meeting of Unity Global Plc held on 19th July 2026 at the board conference room in the company's registered address, the board resolved to appoint Mr Olowokure Basit of 17 Isalu Street, Ikoyi, Lagos as a director in place of Mr Dapo Ajayi, the deceased director, until the next general meeting, pursuant to section 274 CAMA 2020. Draft the resolution, dated 19th July 2026, signed by Mr Ifechukwu Dubem (Director) and Mrs Rose Omosuyi (Company Secretary).",
@@ -1740,7 +1740,7 @@ const drafts = {
       {
         id: "ordinary-resolution-removal-of-director",
         title: "Ordinary Resolution for Removal of a Director",
-        red: true,
+        red: false,
         category: "Resolutions",
         scenario:
           "At the Annual General Meeting of Unity Global Plc held on 20th May 2026 at Eko Hotel & Suites, members resolved to remove Mr Joe Boy as a director, and to appoint Mr Eazi Otedola of 6a Banana Island, Victoria Island, Lagos as a director in his place, to hold office only for as long as Mr Joe Boy would have held office if he had not been removed, pursuant to section 288 CAMA 2020. Draft the resolution, dated 12th May 2026, signed by Mr Ifechukwu Dubem (Director) and Mrs Rose Omosuyi (Company Secretary).",
@@ -1799,7 +1799,7 @@ const drafts = {
       {
         id: "ordinary-resolution-appointing-a-director",
         title: "Ordinary Resolution for Appointing a Director",
-        red: true,
+        red: false,
         category: "Resolutions",
         scenario:
           "At a general meeting of Unity Global Plc held on 20th May 2026 at Eko Hotel & Suites, members resolved to appoint Mrs Aisha Balarabe of 12 Mojunmola Avenue, Ogudu, Lagos as an independent non-executive director, pursuant to section 273 CAMA 2020. Draft the resolution, dated 6th May 2026, signed by Mr Ifechukwu Dubem (Director) and Mrs Rose Omosuyi (Company Secretary).",
@@ -1857,7 +1857,7 @@ const drafts = {
       {
         id: "memorandum-of-association",
         title: "Memorandum of Association",
-        red: true,
+        red: false,
         category: "Constitutional Documents",
         scenario:
           "Draft the Memorandum of Association of Lammens Publishing Limited, a private company limited by shares, registered office in Lagos, carrying on the business of printing, publishing and marketing books, pamphlets, magazines and newspapers; also to supply and distribute its printed and published documents and to market its publications; and to undertake all other lawful objects. Issued share capital N2,000,000 divided into 2,000,000 ordinary shares of N1 each, the sole subscriber being Kehinde Sekoni, a pharmacist of 10 Dauda Street, Ogudu, taking up 1,000,000 ordinary shares of N1 each, dated 27th June 2026.",
@@ -1935,7 +1935,7 @@ const drafts = {
       {
         id: "memorandum-of-association-company-limited-by-guarantee",
         title: "Memorandum of Association (Company Limited by Guarantee)",
-        red: true,
+        red: false,
         category: "Constitutional Documents",
         scenario:
           "Draft the Memorandum of Association of a company limited by guarantee — e.g. a non-profit set up to further a charitable, educational or similar aim. Unlike a company limited by shares, it has no Share Capital Clause: instead it has a Special Clause (restricting how income/property may be used, and what happens to surplus property on winding up) and a Guarantee Clause (each member's contribution if the company is wound up). The Subscription Clause also reads differently: subscribers agree to 'undertake' an amount, not to 'take' shares.",
@@ -2006,6 +2006,506 @@ const drafts = {
           { t: "line", align: "center", text: "Dated this ________ day of ________ 20__" },
           { t: "line", text: "ATTESTATION CLAUSE" },
           { t: "items", items: ["Name: ________", "Address: ________", "Occupation: ________", "Signature: ________"] },
+        ],
+      },
+
+      {
+        id: "ordinary-resolution-appointing-auditor",
+        title: "Ordinary Resolution Appointing Auditor",
+        red: false,
+        category: "Resolutions",
+        scenario:
+          "At the 2nd Annual General Meeting of the shareholders of Wura Textiles Ltd held on 15th May at the company's registered office at No 6 Yewa Street, Ugbe, Abuja, members resolved to appoint Mr Ojo Brandon as auditor of the company pursuant to section 401 CAMA 2020, and that the company secretary should take all steps to file this resolution with the Corporate Affairs Commission. Dated 20th June 2026.",
+        keyPoints: [
+          "Heading states the resolution is for appointing an auditor",
+          "Letterhead (with the company's RC number), heading citing the applicable section (s.401 CAMA 2020)",
+          "Names the AGM, the date and venue at which it was proposed and duly passed",
+          "Numbered clauses: (1) appointing the named auditor from the date of the resolution; (2) directing the company secretary to file the resolution with the Corporate Affairs Commission",
+          "Dated",
+          "Signed by a director on the left and the company secretary on the right, each with their own signature line",
+        ],
+        verify: ["Mr Ojo Brandon (auditor's name)"],
+        blocks: [
+          {
+            t: "letterhead",
+            lines: [
+              "WURA TEXTILES LTD",
+              "2 Salomon Road, Ikeja, Lagos",
+              "07066554433, wurat@info.com, www.wurat.com",
+              "RC NO: 121563",
+            ],
+          },
+          { t: "refs" },
+          {
+            t: "heading",
+            align: "left",
+            lines: [
+              "ORDINARY RESOLUTION APPOINTING AUDITOR PURSUANT TO",
+              "SECTION 401 OF COMPANIES AND ALLIED MATTERS ACT 2020",
+            ],
+          },
+          {
+            t: "para",
+            text: "At the 2nd Annual General Meeting of the shareholders of the above named company held on the 15th day of May at the company's registered office at No 6 Yewa Street, Ugbe, Abuja, the following resolutions were proposed and duly passed.",
+          },
+          {
+            t: "numbered",
+            items: [
+              "That Mr Ojo Brandon is appointed auditor of this company from the date of this resolution.",
+              "That the company secretary should take all steps to file this resolution with the Corporate Affairs Commission.",
+            ],
+          },
+          { t: "line", align: "center", text: "Dated this 20th day of June, 2026" },
+          {
+            t: "signoffPair",
+            people: [
+              ["________", "Director"],
+              ["________", "Secretary"],
+            ],
+          },
+        ],
+      },
+
+      {
+        id: "board-resolution-appointing-first-auditor",
+        title: "Board Resolution Appointing the First Auditor Before 1st AGM",
+        red: false,
+        category: "Resolutions",
+        scenario:
+          "At the first board of directors meeting of Wura Textiles Ltd held on 12th May 2026 at the company's registered office at No 6 Yewa Street, Ugbe, Abuja, the board resolved to appoint Mrs Tricia Ipaye as the auditor of the company pursuant to section 401(5) CAMA 2020 as amended.",
+        keyPoints: [
+          "Heading states the resolution is for appointing the first auditor before the first AGM",
+          "Letterhead (with the company's RC number), heading citing the applicable section (s.401(5) CAMA 2020 as amended)",
+          "Names the board meeting, the date and venue at which it was proposed and passed",
+          "'That:' followed by the clause appointing the named auditor",
+          "Dated",
+          "Signed by a director on the left and the company secretary on the right, each with their own signature line",
+        ],
+        verify: ["Mrs Tricia Ipaye (first auditor's name)"],
+        blocks: [
+          {
+            t: "letterhead",
+            lines: [
+              "WURA TEXTILES LTD",
+              "2 Salomon Road, Ikeja, Lagos",
+              "07066554433, wurat@info.com, www.wurat.com",
+              "RC NO: 071526",
+            ],
+          },
+          { t: "refs" },
+          {
+            t: "heading",
+            align: "left",
+            lines: [
+              "BOARD RESOLUTION, APPOINTMENT OF THE FIRST AUDITOR",
+              "PURSUANT TO SECTION 401(5) OF COMPANIES AND ALLIED",
+              "MATTERS ACT 2020 AS AMENDED",
+            ],
+          },
+          {
+            t: "para",
+            text: "At the first board of directors meeting of the above named company held on the 12th day of May 2026, at the company's registered office at No 6 Yewa Street, Ugbe, Abuja, the following was proposed and passed.",
+          },
+          { t: "line", text: "That:" },
+          {
+            t: "para",
+            text: "Mrs Tricia Ipaye be and is hereby appointed as the auditor of the company.",
+          },
+          { t: "line", align: "center", text: "Dated this 15th day of May 2026" },
+          {
+            t: "signoffPair",
+            people: [
+              ["________", "Director"],
+              ["________", "Secretary"],
+            ],
+          },
+        ],
+      },
+
+      {
+        id: "board-resolution-removal-of-company-secretary",
+        title: "Board Resolution for the Removal of Company Secretary",
+        red: false,
+        category: "Resolutions",
+        scenario:
+          "At the 6th board of directors meeting of Kilomene & Co Ltd held at the conference hall of the company's registered office at No 10 Rumoroko Close, Old School Road, Ikeja on 30th June 2024, the board resolved to remove Mrs Chika Weze as company secretary pursuant to section 333 CAMA 2020 as amended.",
+        keyPoints: [
+          "Heading states the resolution is for removal of the company secretary",
+          "Letterhead (with the company's RC number), heading citing the applicable section (s.333 CAMA 2020 as amended)",
+          "Names the board meeting number, the date and venue at which it was proposed and duly passed",
+          "States plainly that the named person be removed as company secretary of the company",
+          "Dated",
+          "Signed by a director on the left and the company secretary (of the secretary role being filled going forward) on the right",
+        ],
+        verify: ["Mrs Chika Weze (company secretary being removed)"],
+        blocks: [
+          {
+            t: "letterhead",
+            lines: [
+              "KILOMENE & CO LTD",
+              "No 12 Sagamu Close, Ipaja, Lagos",
+              "07055443322, kilolo@gmail.com, www.kilo.com",
+              "RC NO: 49390",
+            ],
+          },
+          { t: "refs" },
+          {
+            t: "heading",
+            align: "left",
+            lines: [
+              "BOARD RESOLUTION FOR THE REMOVAL OF MRS CHIKA WEZE AS",
+              "COMPANY SECRETARY PURSUANT TO SECTION 333 OF THE",
+              "COMPANIES AND ALLIED MATTERS ACT 2020 AS AMENDED",
+            ],
+          },
+          {
+            t: "para",
+            text: "At the 6th board of directors meeting of the company held at the conference hall of the company's registered office at No 10 Rumoroko Close, Old School Road, Ikeja on the 30th day of June 2024, the following resolution was proposed and duly passed.",
+          },
+          {
+            t: "para",
+            text: "That Mrs Chika Weze be removed as the company secretary of the company.",
+          },
+          { t: "line", align: "center", text: "Dated this 16th day of November, 2026" },
+          {
+            t: "signoffPair",
+            people: [
+              ["________", "Director"],
+              ["________", "Secretary"],
+            ],
+          },
+        ],
+      },
+
+      {
+        id: "board-resolution-appointing-company-secretary",
+        title: "Board Resolution to Appoint a Company Secretary",
+        red: false,
+        category: "Resolutions",
+        scenario:
+          "At the board of directors meeting of Kilomene & Co Ltd, the board resolved to appoint Mr Kene Amadiobi, a chartered secretary of 92 Zane Street, Agungi, Lagos, as company secretary pursuant to section 333 CAMA 2020. Dated 12th June 2026.",
+        keyPoints: [
+          "Heading states the resolution is to appoint a company secretary",
+          "Letterhead, heading citing the applicable section (s.333 CAMA 2020)",
+          "Names the board meeting at which it was proposed",
+          "'That:' followed by a numbered clause appointing the named person (stating their qualification, e.g. a chartered secretary) as company secretary",
+          "Dated",
+          "Signed by a director on the left and the (incoming/outgoing) secretary on the right",
+        ],
+        verify: ["Mr Kene Amadiobi (new company secretary's name/address/qualification)"],
+        blocks: [
+          {
+            t: "letterhead",
+            lines: [
+              "KILOMENE & CO LTD",
+              "No 12 Sagamu Close, Ipaja, Lagos",
+              "07055443322, kilolo@gmail.com, www.kilo.com",
+              "RC NO: 49390",
+            ],
+          },
+          { t: "refs" },
+          {
+            t: "heading",
+            align: "left",
+            lines: [
+              "BOARD RESOLUTION TO APPOINT MR KENE AMADIOBI AS THE",
+              "COMPANY SECRETARY OF KILOMENE & CO LTD PURSUANT TO",
+              "SECTION 333 OF THE COMPANIES AND ALLIED MATTERS ACT 2020",
+            ],
+          },
+          { t: "para", text: "At the Board of Directors meeting of the company held on ________, the following was proposed and passed." },
+          { t: "line", text: "That:" },
+          {
+            t: "numbered",
+            items: [
+              "Mr Kene Amadiobi, a chartered secretary of 92 Zane Street, Agungi, Lagos, be and is hereby appointed a secretary of the company.",
+            ],
+          },
+          { t: "line", align: "center", text: "Dated this 12th day of June, 2026" },
+          {
+            t: "signoffPair",
+            people: [
+              ["________", "Director"],
+              ["________", "Secretary"],
+            ],
+          },
+        ],
+      },
+
+      {
+        id: "notice-of-egm-convened-by-requisitionist",
+        title: "Notice of EGM Convened by Requisitionist After Directors Ignored the Requisition",
+        red: false,
+        category: "Notices",
+        scenario:
+          "The directors of First Place Nigeria Plc failed to convene a meeting within 21 days from deposit of the requisition at the company's registered office on 3rd April 2026. The requisitionist, Mr Otonoa, a member holding not less than one-tenth of the paid up capital, convenes an Extra-Ordinary General Meeting pursuant to section 239 CAMA 2020 as amended, to be held at the company's registered address, No 12 Park View Estate, Garki, Abuja, on 23rd May 2026 at 9:00am, to transact special business: appointment of new directors, increment of share capital, and alteration of the company's object clause.",
+        keyPoints: [
+          "Heading states this is a notice of EGM convened by requisitionist after the directors ignored the requisition",
+          "Letterhead (with the company's RC number)",
+          "Heading citing the applicable section (s.239 CAMA 2020 as amended)",
+          "Recites that the EGM is convened by the requisitionists pursuant to s.239(4) CAMA, following the directors' failure to convene a meeting within 21 days of deposit of the requisition, and gives the date the requisition was deposited",
+          "States the date, venue and time of the meeting",
+          "Lists the special business to be transacted",
+          "Dated, signed 'By Order of the Requisitionist' by the requisitionist, naming their qualifying capacity (a member holding not less than one-tenth of the paid up capital)",
+        ],
+        verify: ["Mr Otonoa (requisitionist's name)"],
+        blocks: [
+          {
+            t: "letterhead",
+            lines: [
+              "FIRST PLACE NIGERIA PLC",
+              "No 12 Park View Estate, Garki, Abuja",
+              "08055664422, info@fp.co, www.firstplace.ng",
+              "RC NO: 138645",
+            ],
+          },
+          { t: "refs" },
+          {
+            t: "heading",
+            align: "left",
+            lines: [
+              "NOTICE OF EXTRA-ORDINARY GENERAL MEETING CONVENED BY",
+              "REQUISITIONISTS PURSUANT TO SECTION 239 OF THE COMPANIES",
+              "AND ALLIED MATTERS ACT 2020 AS AMENDED",
+            ],
+          },
+          {
+            t: "para",
+            text: "NOTICE IS HEREBY GIVEN that an Extra-Ordinary General Meeting of the above named company, convened by the requisitionists pursuant to section 239(4) of the Companies and Allied Matters Act 2020, following the failure of the directors to convene a meeting within 21 days from deposit of the requisition at the registered office of the company on the 3rd day of April 2026, will be held at the company's registered address, No 12 Park View Estate, Garki, Abuja, on the 23rd day of May 2026, at 9:00am to transact the following business.",
+          },
+          { t: "line", text: "SPECIAL BUSINESS" },
+          {
+            t: "numbered",
+            items: [
+              "Appointment of New Directors.",
+              "Increment of Share Capital.",
+              "Alteration of the Company's Object Clause.",
+            ],
+          },
+          { t: "line", align: "center", text: "Dated this 2nd day of May 2026" },
+          { t: "line", text: "By Order of the Requisitionist" },
+          {
+            t: "signoffPair",
+            people: [["Mr Otonoa", "(Member holding not less than one-tenth of the paid up capital)"]],
+          },
+        ],
+      },
+
+      {
+        id: "notice-of-statutory-meeting",
+        title: "Notice of Statutory Meeting",
+        red: false,
+        category: "Notices",
+        scenario:
+          "Draft a notice of statutory meeting pursuant to section 235 CAMA 2020 as amended, with ordinary business comprising adoption of the statutory report and any matters arising from it, dated 7th October 2026, by order of the board of directors.",
+        keyPoints: [
+          "Heading states this is a notice of statutory meeting",
+          "Letterhead, heading citing the applicable section (s.235 CAMA 2020 as amended)",
+          "Recites 'NOTICE IS HEREBY GIVEN that the statutory meeting...' stating the date, venue and time of the meeting",
+          "Lists the ordinary business: adoption of the statutory report, and any matters arising from the statutory report",
+          "Dated, signed 'By order of the board of directors' and by the company secretary",
+        ],
+        verify: [],
+        blocks: [
+          { t: "heading", align: "center", lines: ["LETTERHEAD"] },
+          {
+            t: "heading",
+            align: "left",
+            lines: [
+              "NOTICE OF STATUTORY MEETING PURSUANT TO SECTION 235",
+              "OF THE COMPANIES AND ALLIED MATTERS ACT 2020 AS AMENDED",
+            ],
+          },
+          {
+            t: "para",
+            text: "NOTICE IS HEREBY GIVEN that the statutory meeting of the company will be held on ________ at ________ to transact the following business.",
+          },
+          {
+            t: "numbered",
+            items: ["Adoption of statutory report.", "Any matters arising from statutory report."],
+          },
+          { t: "line", text: "NOTE:" },
+          { t: "line", align: "center", text: "Dated this 7th day of October 2026" },
+          { t: "line", text: "By order of the board of directors" },
+          { t: "signoffPair", people: [["Mrs Okeli", "Company secretary"]] },
+        ],
+      },
+
+      {
+        id: "notice-of-first-annual-general-meeting",
+        title: "Notice of First Annual General Meeting",
+        red: false,
+        category: "Notices",
+        scenario:
+          "Draft a notice of the First Annual General Meeting of Orange Town Plc pursuant to section 237 CAMA 2020 as amended, to be held 6th December 2026 at the conference hall in the Orange Town office, 20 Sango Street, Ogun, at 10:00am (West African time), transacting both ordinary business (presentation of financial statement with directors' and auditors' reports, declaration of dividend, appointment of audit committee members, election of directors in place of retiring ones (plc only), disclosure of managers' remuneration, appointment and remuneration of auditors) and special business (removal of company secretary, appointment of new director Mrs Zita Ezeh, fixing remuneration of executive directors, alteration of object clause to include 'carbon credit training'). Includes proxy note and register-closure note.",
+        keyPoints: [
+          "Heading states this is a notice of a general meeting/first AGM",
+          "When drafting Ordinary General Meeting notice, don't put 'ORDINARY BUSINESS' as a separate heading — put the ordinary business in the scenario first, then write the other ordinary business",
+          "Whether to include Special Business depends on the scenario — if there is special business, include it; if none, omit it",
+          "The date of the notice must comply with the statutory notice period (e.g. 21 days for an AGM) before the date of the actual meeting",
+          "Letterhead (with the company's RC number), heading citing the applicable section (s.237 CAMA 2020 as amended)",
+          "Recites that the First AGM will be held, giving date, venue and time, to transact the following business",
+          "Ordinary Business list (s.238 CAMA): presentation of financial statement with directors'/auditors' reports; declaration of dividend; appointment of audit committee members; election of directors in place of those retiring (plc only); disclosure of managers' remuneration; appointment and remuneration of auditors",
+          "Special Business list (if any): e.g. removal of company secretary, appointment of a new director, fixing remuneration of executive directors, alteration of the object clause",
+          "Proxy Note: a member entitled to attend and vote may appoint a proxy; the instrument of appointment must be submitted to the company's head office not later than 48 hours before the meeting",
+          "Register-closure Note: states the dates the register of members will be closed, to collate names in preparation for the meeting",
+          "Dated, signed 'By Order of the Board of Directors' and by the company secretary",
+        ],
+        verify: ["Mrs Zita Ezeh (new director being appointed as special business)"],
+        blocks: [
+          {
+            t: "letterhead",
+            lines: [
+              "ORANGE TOWN PLC",
+              "16 Old Boys Road, Abeokuta, Ogun State",
+              "09022334455, oranget@info.com, www.oranget.com",
+              "RC NO: 129120",
+            ],
+          },
+          { t: "refs" },
+          {
+            t: "heading",
+            align: "left",
+            lines: [
+              "NOTICE OF FIRST ANNUAL GENERAL MEETING OF ORANGE TOWN",
+              "PLC PURSUANT TO SECTION 237 OF THE COMPANIES AND ALLIED",
+              "MATTERS ACT 2020 AS AMENDED",
+            ],
+          },
+          {
+            t: "para",
+            text: "NOTICE IS HEREBY GIVEN that the First Annual General Meeting of Orange Town Plc will hold on the 6th day of December 2026 at the Conference Hall in the Orange Town office at 20 Sango Street, Ogun, by 10:00am (West African time) to transact the following business.",
+          },
+          { t: "line", text: "ORDINARY BUSINESS (Sec 238 CAMA)" },
+          {
+            t: "numbered",
+            items: [
+              "Presentation of Financial Statement accompanied by Directors' Report and Auditor's Report.",
+              "Declaration of Dividend.",
+              "Appointment of Members of the Audit Committee.",
+              "Election of Directors in place of those retiring (plc only).",
+              "Disclosure of the Remuneration of the Managers.",
+              "Appointment and Remuneration of Auditors.",
+            ],
+          },
+          { t: "line", text: "SPECIAL BUSINESS" },
+          {
+            t: "numbered",
+            items: [
+              "Removal of Company Secretary.",
+              "Appointment of a new director, Mrs Zita Ezeh.",
+              "Fixing the remuneration of executive directors.",
+              "Alteration of the object clause of the company to include \"carbon credit training\".",
+            ],
+          },
+          { t: "line", text: "NOTE:" },
+          {
+            t: "para",
+            text: "A member entitled to attend and vote at the meeting is entitled to appoint a proxy or proxies to attend and vote in his stead. If a member is appointing a proxy, an instrument of appointment of the proxy must be submitted to the head office of the company not later than 48 hours before the meeting.",
+          },
+          { t: "line", text: "NOTE:" },
+          {
+            t: "para",
+            text: "The register of members will be closed from the 6th day of November 2025 to 6th day of December 2025 in order to collate the names of members in preparation for the general meeting.",
+          },
+          { t: "line", align: "center", text: "Dated this 6th day of November 2025" },
+          { t: "line", text: "By: Order of the Board of Directors" },
+          { t: "signoffPair", people: [["Amy Okoli", "Company secretary"]] },
+        ],
+      },
+
+      {
+        id: "notice-of-first-board-meeting",
+        title: "Notice of First Board Meeting",
+        red: false,
+        category: "Notices",
+        scenario:
+          "Draft a notice of the first meeting of the board of directors of Kilomene & Co Ltd pursuant to section 289(1) CAMA 2020 as amended, to be held 25th November 2025 at 12:00pm (West African time) at Eko Hotel and Suites, to transact: appointment of chairman, appointment of first auditors, appointment of bankers, adoption of common seal; plus the standard agenda items — preliminary matters, ratification of pre-incorporation contracts, appointment of key officers (chairman, secretary, first auditor, solicitors, company bankers, managing director), financial and capital structure matters, operational matters, other business, and adjournment.",
+        keyPoints: [
+          "Heading states this is a notice of first board meeting",
+          "Letterhead (with the company's RC number), heading citing the applicable section (s.289(1) CAMA 2020 as amended)",
+          "Recites that the first meeting of the Board of Directors will be held, giving date, venue and time (West African time), to transact the business listed",
+          "Standard first-board-meeting agenda: (1) Preliminary Matters — apologies for absence, establishment of quorum; (2) Ratification of Pre-Incorporation Contracts; (3) Appointment of Key Officers — chairman, company secretary, first auditor, solicitors, company bankers, managing director; (4) Financial and Capital Structure Matters — adoption of the dates of the financial year, approval and allotment of shares; (5) Operational Matters — consideration of any urgent operational matters requiring board decision; (6) Other Business; (7) Adjournment — determination of the date for the next board meeting",
+          "Dated, signed 'By Order of the Board of Directors' and by the company secretary",
+        ],
+        verify: [],
+        blocks: [
+          {
+            t: "letterhead",
+            lines: [
+              "KILOMENE & CO LTD",
+              "No 12 Sagamu Close, Ipaja, Lagos",
+              "07055443322, kilolo@gmail.com, www.kilo.com",
+              "RC NO: 49390",
+            ],
+          },
+          { t: "refs" },
+          {
+            t: "heading",
+            align: "left",
+            lines: [
+              "NOTICE OF FIRST BOARD MEETING OF KILOMENE & CO LTD",
+              "PURSUANT TO SECTION 289(1) OF THE COMPANIES AND",
+              "ALLIED MATTERS ACT 2020 AS AMENDED",
+            ],
+          },
+          {
+            t: "para",
+            text: "NOTICE IS HEREBY GIVEN that the first meeting of the Board of Directors of the above named company will be held on the 25th day of November 2025 by 12:00pm (West African time) at Eko Hotel and Suites to transact the following business:",
+          },
+          {
+            t: "numbered",
+            items: [
+              "Appointment of Chairman.",
+              "Appointment of First Auditors.",
+              "Appointment of Bankers of the Company.",
+              "Adoption of Company's Common Seal.",
+            ],
+          },
+          { t: "line", text: "1. Preliminary Matters:" },
+          { t: "items", items: ["(a) Apologies for absence.", "(b) Establishment of Quorum."] },
+          { t: "line", text: "2. Ratification of Pre-Incorporation Contracts:" },
+          {
+            t: "items",
+            items: [
+              "(a) Consider and ratify any contracts entered into on behalf of the company before incorporation.",
+            ],
+          },
+          { t: "line", text: "3. Appointment of Key Officers:" },
+          {
+            t: "items",
+            items: [
+              "(a) Election of Chairman of the Board of Directors.",
+              "(b) Appointment of Company Secretary.",
+              "(c) Appointment of First Auditor.",
+              "(d) Appointment of the Solicitors.",
+              "(e) Appointment of Company Bankers.",
+              "(f) Appointment of Managing Director.",
+            ],
+          },
+          { t: "line", text: "4. Financial and Capital Structure Matters:" },
+          {
+            t: "items",
+            items: [
+              "(a) Adoption of the dates of the Financial year.",
+              "(b) Approval and allotment of shares.",
+            ],
+          },
+          { t: "line", text: "5. Operational Matters:" },
+          {
+            t: "items",
+            items: ["(a) Consideration of any urgent operational matters requiring board decision."],
+          },
+          { t: "line", text: "6. Other Business:" },
+          {
+            t: "items",
+            items: ["(a) Any other business that may properly be transacted at this meeting."],
+          },
+          { t: "line", text: "7. Adjournment:" },
+          { t: "items", items: ["(a) Determination of the date for the next board meeting."] },
+          { t: "line", align: "center", text: "Dated this 2nd day of June, 2026" },
+          { t: "line", text: "By Order of the Board of Directors" },
+          { t: "signoffPair", people: [["Amy Okoli", "Company secretary"]] },
         ],
       },
     ],

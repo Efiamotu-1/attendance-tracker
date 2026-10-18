@@ -17,6 +17,8 @@ import {
   HiOutlineBars3BottomRight,
   HiOutlineBars4,
   HiOutlineFlag,
+  HiOutlineMagnifyingGlass,
+  HiOutlineXMark,
 } from "react-icons/hi2";
 
 const courseEntries = Object.entries(drafts); // [[courseId, {courseName, drafts}], ...]
@@ -378,6 +380,24 @@ function Drafts() {
   const navigate = useNavigate();
   const [activeCourseId, setActiveCourseId] = useState(courseEntries[0]?.[0] ?? null);
   const [activeDraft, setActiveDraft] = useState(null);
+  const [search, setSearch] = useState("");
+  const [activeCategory, setActiveCategory] = useState(null);
+
+  const activeCourse = courseEntries.find(([id]) => id === activeCourseId)?.[1];
+
+  const categories = useMemo(() => {
+    const set = new Set((activeCourse?.drafts ?? []).map((d) => d.category).filter(Boolean));
+    return Array.from(set);
+  }, [activeCourse]);
+
+  const visibleDrafts = useMemo(() => {
+    const q = search.trim().toLowerCase();
+    return (activeCourse?.drafts ?? []).filter((d) => {
+      if (activeCategory && d.category !== activeCategory) return false;
+      if (!q) return true;
+      return d.title.toLowerCase().includes(q) || (d.category ?? "").toLowerCase().includes(q);
+    });
+  }, [activeCourse, search, activeCategory]);
 
   if (activeDraft) {
     const activeCourseForDraft = courseEntries.find(([id]) => id === activeCourseId)?.[1];
@@ -390,8 +410,6 @@ function Drafts() {
       />
     );
   }
-
-  const activeCourse = courseEntries.find(([id]) => id === activeCourseId)?.[1];
 
   return (
     <div className="px-3 sm:px-6 py-5 sm:py-6 max-w-3xl mx-auto">
@@ -441,7 +459,11 @@ function Drafts() {
             return (
               <button
                 key={id}
-                onClick={() => setActiveCourseId(id)}
+                onClick={() => {
+                  setActiveCourseId(id);
+                  setActiveCategory(null);
+                  setSearch("");
+                }}
                 className={`px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold whitespace-nowrap transition-colors flex items-center gap-1.5 ${
                   activeCourseId === id
                     ? "bg-primary-500 text-white shadow-md shadow-primary-500/20"
@@ -470,6 +492,72 @@ function Drafts() {
         </div>
       </div>
 
+      {/* Search + category filters */}
+      {activeCourse && activeCourse.drafts.length > 0 && (
+        <div className="mb-4 sm:mb-5 space-y-2.5">
+          <div className="relative">
+            <HiOutlineMagnifyingGlass
+              className={`w-4 h-4 absolute left-3.5 top-1/2 -translate-y-1/2 ${
+                isDarkMode ? "text-dark-500" : "text-gray-400"
+              }`}
+            />
+            <input
+              type="text"
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              placeholder="Search drafts..."
+              className={`w-full pl-10 pr-9 py-2.5 rounded-xl text-sm border outline-none transition-colors ${
+                isDarkMode
+                  ? "bg-dark-800/60 border-dark-700 text-white placeholder-dark-500 focus:border-primary-500/50"
+                  : "bg-white border-gray-200 text-gray-900 placeholder-gray-400 focus:border-primary-300"
+              }`}
+            />
+            {search && (
+              <button
+                onClick={() => setSearch("")}
+                className={`absolute right-3 top-1/2 -translate-y-1/2 ${
+                  isDarkMode ? "text-dark-500 hover:text-white" : "text-gray-400 hover:text-gray-700"
+                }`}
+              >
+                <HiOutlineXMark className="w-4 h-4" />
+              </button>
+            )}
+          </div>
+
+          {categories.length > 1 && (
+            <div className="flex gap-1.5 overflow-x-auto -mx-0.5 px-0.5 pb-0.5">
+              <button
+                onClick={() => setActiveCategory(null)}
+                className={`px-3 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap transition-colors ${
+                  activeCategory === null
+                    ? "bg-primary-500 text-white"
+                    : isDarkMode
+                    ? "bg-dark-800/60 text-dark-300 hover:bg-dark-700 border border-dark-700"
+                    : "bg-white text-gray-600 hover:bg-gray-50 border border-gray-200"
+                }`}
+              >
+                All
+              </button>
+              {categories.map((c) => (
+                <button
+                  key={c}
+                  onClick={() => setActiveCategory(c)}
+                  className={`px-3 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap transition-colors ${
+                    activeCategory === c
+                      ? "bg-primary-500 text-white"
+                      : isDarkMode
+                      ? "bg-dark-800/60 text-dark-300 hover:bg-dark-700 border border-dark-700"
+                      : "bg-white text-gray-600 hover:bg-gray-50 border border-gray-200"
+                  }`}
+                >
+                  {c}
+                </button>
+              ))}
+            </div>
+          )}
+        </div>
+      )}
+
       {/* Draft list for active course */}
       {!activeCourse || activeCourse.drafts.length === 0 ? (
         <div
@@ -487,9 +575,25 @@ function Drafts() {
             Practice drafts for this course are coming soon.
           </p>
         </div>
+      ) : visibleDrafts.length === 0 ? (
+        <div
+          className={`rounded-2xl border p-8 sm:p-10 text-center ${
+            isDarkMode ? "bg-dark-800/50 border-dark-700" : "bg-white border-gray-200"
+          }`}
+        >
+          <div className={`inline-flex p-3 rounded-2xl mb-3 ${isDarkMode ? "bg-dark-700" : "bg-gray-100"}`}>
+            <HiOutlineMagnifyingGlass className={`w-6 h-6 ${isDarkMode ? "text-dark-400" : "text-gray-400"}`} />
+          </div>
+          <h2 className={`text-base font-bold mb-1 ${isDarkMode ? "text-white" : "text-gray-900"}`}>
+            No drafts match your search
+          </h2>
+          <p className={`text-xs sm:text-sm ${isDarkMode ? "text-dark-400" : "text-gray-500"}`}>
+            Try a different keyword or clear the category filter.
+          </p>
+        </div>
       ) : (
         <div className="space-y-2.5">
-          {activeCourse.drafts.map((d) => (
+          {visibleDrafts.map((d) => (
             <button
               key={d.id}
               onClick={() => setActiveDraft(d)}
@@ -504,11 +608,7 @@ function Drafts() {
                   <HiOutlineDocumentText className="w-5 h-5 text-primary-500" />
                 </div>
                 <div className="min-w-0">
-                  <p
-                    className={`text-sm font-semibold truncate ${
-                      d.red ? "text-red-500" : isDarkMode ? "text-white" : "text-gray-900"
-                    }`}
-                  >
+                  <p className={`text-sm font-semibold truncate ${isDarkMode ? "text-white" : "text-gray-900"}`}>
                     {d.title}
                   </p>
                   <p className={`text-xs mt-0.5 ${isDarkMode ? "text-dark-400" : "text-gray-500"}`}>{d.category}</p>
