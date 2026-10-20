@@ -22737,6 +22737,9714 @@ const revisedMcqQuestion = {
   ]
 },
 
+  "cpc-1": {
+    "year": 9997,
+    "session": "CPC Test 1",
+    "examTitle": "Pre-Bar Style MCQ — Corporate, Criminal, Ethics (CPC) Test 1",
+    "totalQuestions": 60,
+    "courses": [
+      {
+        "id": "corporate-law-practice",
+        "name": "Corporate Law Practice",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "Titan Group wants to acquire 35% of the voting shares of Silver Plc, a public company, by a takeover bid. Its solicitor outlines the SEC process and what happens if the SEC refuses.",
+            "question": "A takeover bid is compelled where the share threshold is now",
+            "options": {
+              "a": "Acquisition of 10% or more of the voting shares of a public company",
+              "b": "Acquisition of 75% or more of the voting shares of a public company",
+              "c": "Acquisition of 30% or more of the voting shares of a public company",
+              "d": "Acquisition of 50% or more of the voting shares of a public company"
+            },
+            "answer": "c",
+            "explanation": "The threshold under ISA 2025 is 30% or more."
+          },
+          {
+            "id": 2,
+            "context": "Titan Group wants to acquire 35% of the voting shares of Silver Plc, a public company, by a takeover bid. Its solicitor outlines the SEC process and what happens if the SEC refuses.",
+            "question": "The SEC's authority to proceed with a bid lasts",
+            "options": {
+              "a": "For 30 days only and is not open to any renewal",
+              "b": "For 3 months and may be renewed before it expires",
+              "c": "For 12 months from the date the bid is registered",
+              "d": "For 1 month and must be renewed by the bidder's board"
+            },
+            "answer": "b",
+            "explanation": "It lasts 3 months, renewable on application before it expires."
+          },
+          {
+            "id": 3,
+            "context": "Titan Group wants to acquire 35% of the voting shares of Silver Plc, a public company, by a takeover bid. Its solicitor outlines the SEC process and what happens if the SEC refuses.",
+            "question": "Acquiring less than 30% of the voting rights of a public company is",
+            "options": {
+              "a": "Treated as an acquisition and not as a takeover bid",
+              "b": "Treated as a takeover bid needing the SEC's approval",
+              "c": "Treated as an arrangement on sale of the company",
+              "d": "Treated as a merger needing approval of the FCCPC"
+            },
+            "answer": "a",
+            "explanation": "Below 30% the transaction is an acquisition (Rule 421)."
+          },
+          {
+            "id": 4,
+            "context": "Titan Group wants to acquire 35% of the voting shares of Silver Plc, a public company, by a takeover bid. Its solicitor outlines the SEC process and what happens if the SEC refuses.",
+            "question": "To compel dissenters to sell, the offer must be accepted by not less than",
+            "options": {
+              "a": "60% of the shares offered",
+              "b": "50% of the shares offered",
+              "c": "75% of the shares offered",
+              "d": "90% of the shares offered"
+            },
+            "answer": "d",
+            "explanation": "The offer must be accepted by not less than 90% (ss.146-147)."
+          },
+          {
+            "id": 5,
+            "context": "Titan Group wants to acquire 35% of the voting shares of Silver Plc, a public company, by a takeover bid. Its solicitor outlines the SEC process and what happens if the SEC refuses.",
+            "question": "If the SEC refuses to register a takeover bid, the bidder may appeal to the IST within",
+            "options": {
+              "a": "90 days of the SEC's refusal",
+              "b": "14 days of the SEC's refusal",
+              "c": "7 days of the SEC's refusal",
+              "d": "30 days of the SEC's refusal"
+            },
+            "answer": "d",
+            "explanation": "Rule 448(5) allows an appeal to the Investments and Securities Tribunal within 30 days."
+          },
+          {
+            "id": 6,
+            "context": "Nigerian Steel Plc, a public company, is forming its audit committee ahead of the AGM. A shareholder asks about its make-up, who may be nominated and how the members are elected.",
+            "question": "An audit committee is compulsory for",
+            "options": {
+              "a": "Small companies, because their shareholders are few and know the management",
+              "b": "Partnerships, because the partners are agents of one another in the firm",
+              "c": "Public companies, because their members are many and cannot all supervise",
+              "d": "All private companies, because the directors own most of the shares"
+            },
+            "answer": "c",
+            "explanation": "Public companies must have an audit committee (s.404)."
+          },
+          {
+            "id": 7,
+            "context": "Nigerian Steel Plc, a public company, is forming its audit committee ahead of the AGM. A shareholder asks about its make-up, who may be nominated and how the members are elected.",
+            "question": "The audit committee is made up of",
+            "options": {
+              "a": "The company's auditors together with its managing director and secretary",
+              "b": "Two shareholders and three directors chosen by the board of directors",
+              "c": "Five executive directors elected by the members at the annual meeting",
+              "d": "Three shareholder members and two non-executive directors of the company"
+            },
+            "answer": "d",
+            "explanation": "Five members: 3 shareholder members and 2 non-executive directors."
+          },
+          {
+            "id": 8,
+            "context": "Nigerian Steel Plc, a public company, is forming its audit committee ahead of the AGM. A shareholder asks about its make-up, who may be nominated and how the members are elected.",
+            "question": "A nomination to the audit committee is made by written notice to the secretary at least",
+            "options": {
+              "a": "7 days before the AGM",
+              "b": "28 days before the AGM",
+              "c": "21 days before the AGM",
+              "d": "14 days before the AGM"
+            },
+            "answer": "c",
+            "explanation": "Nomination is at least 21 days before the AGM; late nominations are invalid."
+          },
+          {
+            "id": 9,
+            "context": "Nigerian Steel Plc, a public company, is forming its audit committee ahead of the AGM. A shareholder asks about its make-up, who may be nominated and how the members are elected.",
+            "question": "The audit committee members are elected by",
+            "options": {
+              "a": "A show of hands at the meeting, since a poll is not allowed",
+              "b": "A poll taken at the meeting, since a show of hands is not allowed",
+              "c": "A written ballot circulated to all members after the meeting closes",
+              "d": "A decision of the board after consulting the company's auditors"
+            },
+            "answer": "a",
+            "explanation": "A poll is prohibited; election is by show of hands."
+          },
+          {
+            "id": 10,
+            "context": "Nigerian Steel Plc, a public company, is forming its audit committee ahead of the AGM. A shareholder asks about its make-up, who may be nominated and how the members are elected.",
+            "question": "The functions of an audit committee include all the following except",
+            "options": {
+              "a": "Declaring the final dividend payable to members for the financial year",
+              "b": "Reviewing the scope and planning of the audit before it starts",
+              "c": "Recommending to the members the remuneration payable to the auditors",
+              "d": "Keeping the company's internal controls under continuous review"
+            },
+            "answer": "a",
+            "explanation": "Declaring dividends belongs to the general meeting, not the audit committee."
+          },
+          {
+            "id": 11,
+            "context": "At the general meeting of Prime Estates Ltd only a few members turned up, some members sent proxies and one member walked out during the meeting. The chairman needs to know the quorum rules and how proxies work.",
+            "question": "Where the articles are silent, the quorum for a company with 6 or fewer members is",
+            "options": {
+              "a": "One member present in person, since the articles are silent",
+              "b": "Three members present in person or by proxy at the meeting",
+              "c": "Two members present in person or by proxy at the meeting",
+              "d": "Four members present in person or by proxy at the meeting"
+            },
+            "answer": "c",
+            "explanation": "Where the company has 6 or fewer members the quorum is 2."
+          },
+          {
+            "id": 12,
+            "context": "At the general meeting of Prime Estates Ltd only a few members turned up, some members sent proxies and one member walked out during the meeting. The chairman needs to know the quorum rules and how proxies work.",
+            "question": "For a company with 90 members and silent articles, the quorum is",
+            "options": {
+              "a": "One-third of the members, which is 30 members in this company",
+              "b": "One-half of the members, which is 45 members in this company",
+              "c": "25 members, being the ceiling where the company has 90 members",
+              "d": "15 members, being one-sixth of the members of this company"
+            },
+            "answer": "c",
+            "explanation": "The quorum is one-third or 25, whichever is less; with 90 or more members it is 25."
+          },
+          {
+            "id": 13,
+            "context": "At the general meeting of Prime Estates Ltd only a few members turned up, some members sent proxies and one member walked out during the meeting. The chairman needs to know the quorum rules and how proxies work.",
+            "question": "A proxy must be deposited at least",
+            "options": {
+              "a": "3 days before the meeting is to be held",
+              "b": "48 hours before the meeting is to be held",
+              "c": "7 days before the meeting is to be held",
+              "d": "24 hours after the meeting has been held"
+            },
+            "answer": "b",
+            "explanation": "A proxy is deposited at least 48 hours before the meeting, or 24 hours if voting is by poll."
+          },
+          {
+            "id": 14,
+            "context": "At the general meeting of Prime Estates Ltd only a few members turned up, some members sent proxies and one member walked out during the meeting. The chairman needs to know the quorum rules and how proxies work.",
+            "question": "Where voting will be by poll, a proxy may be deposited at least",
+            "options": {
+              "a": "7 days before the poll is taken",
+              "b": "1 hour before the poll is taken",
+              "c": "48 hours before the poll is taken",
+              "d": "24 hours before the poll is taken"
+            },
+            "answer": "d",
+            "explanation": "For a poll the deposit time is 24 hours (s.254(7))."
+          },
+          {
+            "id": 15,
+            "context": "At the general meeting of Prime Estates Ltd only a few members turned up, some members sent proxies and one member walked out during the meeting. The chairman needs to know the quorum rules and how proxies work.",
+            "question": "The right to appoint a proxy must be stated in",
+            "options": {
+              "a": "The register of members kept at the registered office of the company",
+              "b": "The notice of the meeting sent to every member entitled to attend",
+              "c": "The auditor's report presented to the members at the annual meeting",
+              "d": "The annual return filed by the company with the Commission each year"
+            },
+            "answer": "b",
+            "explanation": "Section 254(2) requires the notice of meeting of a company limited by shares to state the right to appoint a proxy."
+          },
+          {
+            "id": 16,
+            "context": "Supreme Fabrics Ltd owes a supplier N5 million. The supplier served a written demand and, after waiting, now presents a winding-up petition. The company says the debt is disputed. A lawyer explains who can petition, the grounds and the effect of a winding-up order.",
+            "question": "The following may petition for the winding up of a company except",
+            "options": {
+              "a": "The company itself, acting through a resolution of its members",
+              "b": "A contributory of the company who holds fully paid shares in it",
+              "c": "A creditor of the company, including a contingent creditor of it",
+              "d": "A debtor of the company who owes it money on a trade account"
+            },
+            "answer": "d",
+            "explanation": "Petitioners include the company, creditors, the official receiver, contributories, the CAC and others; a debtor has no standing."
+          },
+          {
+            "id": 17,
+            "context": "Supreme Fabrics Ltd owes a supplier N5 million. The supplier served a written demand and, after waiting, now presents a winding-up petition. The company says the debt is disputed. A lawyer explains who can petition, the grounds and the effect of a winding-up order.",
+            "question": "Under the statutory demand rule, the company is deemed unable to pay if it neglects to pay for",
+            "options": {
+              "a": "2 months after service of the demand",
+              "b": "3 weeks after service of the demand",
+              "c": "14 days after service of the demand",
+              "d": "7 days after service of the demand"
+            },
+            "answer": "b",
+            "explanation": "It must neglect to pay or compound for 3 weeks after the statutory demand."
+          },
+          {
+            "id": 18,
+            "context": "Supreme Fabrics Ltd owes a supplier N5 million. The supplier served a written demand and, after waiting, now presents a winding-up petition. The company says the debt is disputed. A lawyer explains who can petition, the grounds and the effect of a winding-up order.",
+            "question": "A debt supporting a winding-up petition must be",
+            "options": {
+              "a": "A debt that is liquidated, due and not disputed by the company",
+              "b": "A debt that is disputed in good faith on substantial grounds",
+              "c": "A debt that is contingent on an event that has not happened",
+              "d": "A debt that is unliquidated and still to be assessed by a court"
+            },
+            "answer": "a",
+            "explanation": "A disputed debt defeats the petition (Onoche v Alan Dick)."
+          },
+          {
+            "id": 19,
+            "context": "Supreme Fabrics Ltd owes a supplier N5 million. The supplier served a written demand and, after waiting, now presents a winding-up petition. The company says the debt is disputed. A lawyer explains who can petition, the grounds and the effect of a winding-up order.",
+            "question": "A petition for default in the statutory meeting or report may be presented by",
+            "options": {
+              "a": "The Commission alone, on its own motion after inspecting the company's returns",
+              "b": "A shareholder of a public company, and no other person may do so",
+              "c": "The auditor of the company, on discovering that no report was filed",
+              "d": "Any creditor of the company who is owed more than the statutory sum"
+            },
+            "answer": "b",
+            "explanation": "It applies to public companies only and only a shareholder may petition."
+          },
+          {
+            "id": 20,
+            "context": "Supreme Fabrics Ltd owes a supplier N5 million. The supplier served a written demand and, after waiting, now presents a winding-up petition. The company says the debt is disputed. A lawyer explains who can petition, the grounds and the effect of a winding-up order.",
+            "question": "To petition as a contributory, a member must have held his shares for at least",
+            "options": {
+              "a": "A holder who held the shares 6 months in the 18 months before winding up",
+              "b": "A holder who has held the shares for at least 2 years",
+              "c": "A holder who has held the shares for at least 12 months",
+              "d": "A holder who has held the shares for at least 3 months"
+            },
+            "answer": "a",
+            "explanation": "A contributory must have held the allotted shares at least 6 months in the 18 months before winding up."
+          }
+        ]
+      },
+      {
+        "id": "criminal-litigation",
+        "name": "Criminal Litigation",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "In a trial for armed robbery, the prosecution wants to rely on the evidence of Mr Tayo, who took part in the robbery, and of a child of 12. The court asks about corroboration.",
+            "question": "Corroboration is evidence that",
+            "options": {
+              "a": "Proves the commission of the crime charged against someone",
+              "b": "Is given by the defendant in his own defence",
+              "c": "Is hearsay and is admitted under a statutory exception",
+              "d": "Connects the defendant with the crime charged"
+            },
+            "answer": "d",
+            "explanation": "Okabichi v State; Ogugu v State."
+          },
+          {
+            "id": 2,
+            "context": "In a trial for armed robbery, the prosecution wants to rely on the evidence of Mr Tayo, who took part in the robbery, and of a child of 12. The court asks about corroboration.",
+            "question": "The offences requiring more than one witness include all of these except",
+            "options": {
+              "a": "Road traffic offences, such as speeding, for which one witness is not enough",
+              "b": "Stealing, for which the court may convict on one credible witness",
+              "c": "Perjury, for which the Evidence Act requires more than one witness",
+              "d": "Treason, for which the Evidence Act requires more than one witness"
+            },
+            "answer": "b",
+            "explanation": "Exceptions are treason, perjury, road traffic offences and seditious words."
+          },
+          {
+            "id": 3,
+            "context": "In a trial for armed robbery, the prosecution wants to rely on the evidence of Mr Tayo, who took part in the robbery, and of a child of 12. The court asks about corroboration.",
+            "question": "The evidence of an accomplice requires",
+            "options": {
+              "a": "No warning at all, since the court may act on it freely",
+              "b": "Corroboration as a rule of law, without which no conviction can stand",
+              "c": "A mandatory warning by the judge of the danger of acting on it",
+              "d": "Corroboration given on oath by a witness who is not an accomplice"
+            },
+            "answer": "c",
+            "explanation": "Bello v State; proviso to s.198."
+          },
+          {
+            "id": 4,
+            "context": "In a trial for armed robbery, the prosecution wants to rely on the evidence of Mr Tayo, who took part in the robbery, and of a child of 12. The court asks about corroboration.",
+            "question": "An accomplice's evidence cannot corroborate",
+            "options": {
+              "a": "The evidence of another accomplice, since both are tainted witnesses",
+              "b": "The evidence of a police officer who took part in the arrest",
+              "c": "The evidence of a neutral witness who has no interest in the case",
+              "d": "The evidence of the victim of the offence charged against the defendant"
+            },
+            "answer": "a",
+            "explanation": "His evidence cannot corroborate another accomplice's."
+          },
+          {
+            "id": 5,
+            "context": "In a trial for armed robbery, the prosecution wants to rely on the evidence of Mr Tayo, who took part in the robbery, and of a child of 12. The court asks about corroboration.",
+            "question": "A co-defendant may testify for the prosecution only after",
+            "options": {
+              "a": "The judge consents after the defendant has opened his defence",
+              "b": "The prosecution closes its case against the other defendants",
+              "c": "The trial of all the defendants has come to an end",
+              "d": "His own guilty plea, conviction or sentence in respect of the offence"
+            },
+            "answer": "d",
+            "explanation": "Umole v IGP."
+          },
+          {
+            "id": 6,
+            "context": "Counsel for a convict plans a combined application at the Court of Appeal for leave and extension of time, and the respondent files a preliminary objection. Both sides prepare briefs of argument.",
+            "question": "The trinity prayers include all of these except",
+            "options": {
+              "a": "An order for a stay of execution of the judgment appealed against",
+              "b": "An order granting leave to appeal against the judgment of the court",
+              "c": "An order extending the time within which to file the notice of appeal",
+              "d": "An order extending the time within which to seek leave to appeal"
+            },
+            "answer": "a",
+            "explanation": "Odofin v Agu."
+          },
+          {
+            "id": 7,
+            "context": "Counsel for a convict plans a combined application at the Court of Appeal for leave and extension of time, and the respondent files a preliminary objection. Both sides prepare briefs of argument.",
+            "question": "Where the trial court rejects leave, the same application must be made to the Court of Appeal within",
+            "options": {
+              "a": "14 days of the refusal of leave by the trial court",
+              "b": "30 days of the refusal of leave by the trial court",
+              "c": "7 days of the refusal of leave by the trial court",
+              "d": "90 days of the refusal of leave by the trial court"
+            },
+            "answer": "a",
+            "explanation": "Within 14 days."
+          },
+          {
+            "id": 8,
+            "context": "Counsel for a convict plans a combined application at the Court of Appeal for leave and extension of time, and the respondent files a preliminary objection. Both sides prepare briefs of argument.",
+            "question": "Briefs of argument are heard under",
+            "options": {
+              "a": "Order 25 of the Court of Appeal Rules 2021, on briefs of argument",
+              "b": "Order 5 of the Court of Appeal Rules 2021, on briefs of argument",
+              "c": "Order 1 of the Court of Appeal Rules 2021, on briefs of argument",
+              "d": "Order 19 of the Court of Appeal Rules 2021, on briefs of argument"
+            },
+            "answer": "d",
+            "explanation": "Briefs are 'luminous, not voluminous'."
+          },
+          {
+            "id": 9,
+            "context": "Counsel for a convict plans a combined application at the Court of Appeal for leave and extension of time, and the respondent files a preliminary objection. Both sides prepare briefs of argument.",
+            "question": "An appellant in default of his brief is",
+            "options": {
+              "a": "Awarded the costs of the appeal because the respondent filed late",
+              "b": "Granted a fresh extension of time to file the brief of argument",
+              "c": "Dismissed for want of diligent prosecution, which is a final order",
+              "d": "Relisted so that he may file the brief on a later date"
+            },
+            "answer": "c",
+            "explanation": "Final, cannot be relisted - Kashim v State."
+          },
+          {
+            "id": 10,
+            "context": "Counsel for a convict plans a combined application at the Court of Appeal for leave and extension of time, and the respondent files a preliminary objection. Both sides prepare briefs of argument.",
+            "question": "A preliminary objection attacks",
+            "options": {
+              "a": "One specific ground of appeal that is said to be incompetent",
+              "b": "The record of appeal that was compiled by the registry",
+              "c": "The competence of the whole appeal, which is the basis of the objection",
+              "d": "The costs awarded by the trial court against the appellant"
+            },
+            "answer": "c",
+            "explanation": "Audu v Gideon (2015)."
+          },
+          {
+            "id": 11,
+            "context": "A judge delivers judgment in a murder trial and sentences the convict. The registrar notes the rules on judgment, allocutus and sentence for a trainee.",
+            "question": "A valid judgment must do all of these except",
+            "options": {
+              "a": "State the decision of the court on the point for determination",
+              "b": "Give the reasons for the decision of the court on that point",
+              "c": "Be signed by the prosecutor as well as by the judge",
+              "d": "Be in writing, dated, and signed or sealed by the judge"
+            },
+            "answer": "c",
+            "explanation": "A valid judgment is in writing, states the point, decision and reasons, and is dated and signed or sealed."
+          },
+          {
+            "id": 12,
+            "context": "A judge delivers judgment in a murder trial and sentences the convict. The registrar notes the rules on judgment, allocutus and sentence for a trainee.",
+            "question": "Which of these is NOT true of allocutus?",
+            "options": {
+              "a": "It is a plea for mercy made on behalf of the convict",
+              "b": "It is cross-examinable by the prosecution after it is made",
+              "c": "It is made after the conviction of the defendant by the court",
+              "d": "It is an unsworn statement made by the convict or his counsel"
+            },
+            "answer": "b",
+            "explanation": "It is not cross-examinable."
+          },
+          {
+            "id": 13,
+            "context": "A judge delivers judgment in a murder trial and sentences the convict. The registrar notes the rules on judgment, allocutus and sentence for a trainee.",
+            "question": "Which of these is NOT true of a pregnant woman convicted of a capital offence in Lagos?",
+            "options": {
+              "a": "The rule applies where the offence charged is a capital offence",
+              "b": "She is sentenced to death, as in the case of any other convict",
+              "c": "She gets life imprisonment in place of the sentence of death",
+              "d": "Section 302(2) of the Lagos Administration of Criminal Justice Law applies"
+            },
+            "answer": "b",
+            "explanation": "ACJL Lagos → life imprisonment."
+          },
+          {
+            "id": 14,
+            "context": "A judge delivers judgment in a murder trial and sentences the convict. The registrar notes the rules on judgment, allocutus and sentence for a trainee.",
+            "question": "Suspended sentence is prohibited for all of these except",
+            "options": {
+              "a": "Offences carrying a punishment of imprisonment for more than 3 years",
+              "b": "Sexual offences, whatever the punishment prescribed for them by law",
+              "c": "Offences relating to arms or weapons, whatever the punishment prescribed",
+              "d": "Stealing, where the offence carries imprisonment for 2 years"
+            },
+            "answer": "d",
+            "explanation": "Section 460(3) ACJA."
+          },
+          {
+            "id": 15,
+            "context": "A judge delivers judgment in a murder trial and sentences the convict. The registrar notes the rules on judgment, allocutus and sentence for a trainee.",
+            "question": "Which of these is NOT true of a fine?",
+            "options": {
+              "a": "It is provided for in section 427 of the Administration of Criminal Justice Act",
+              "b": "In default of payment the convict may be sent to further imprisonment",
+              "c": "It may be imposed alone or together with a term of imprisonment",
+              "d": "The whole of the proceeds goes to the victim and nothing to the State"
+            },
+            "answer": "d",
+            "explanation": "Proceeds go first to the victim/informant (expenses/fees), remainder to general revenue."
+          },
+          {
+            "id": 16,
+            "context": "A student compares the Area Court, the Magistrate Court, the Sharia Court and the right of senior counsel to appear in each. He asks what limits each court has.",
+            "question": "An appeal from an Area Court goes to",
+            "options": {
+              "a": "The Court Martial, which is the next court above the Area Court",
+              "b": "The Upper Area Court, and then the State High Court",
+              "c": "The Magistrate Court within the same judicial division as the Area Court",
+              "d": "The Supreme Court, which hears appeals from all courts directly"
+            },
+            "answer": "b",
+            "explanation": "Appeal goes to the Upper Area Court and then the State High Court."
+          },
+          {
+            "id": 17,
+            "context": "A student compares the Area Court, the Magistrate Court, the Sharia Court and the right of senior counsel to appear in each. He asks what limits each court has.",
+            "question": "In Lagos a Magistrate Court cannot impose a sentence over",
+            "options": {
+              "a": "A term of more than 14 years, nor may it try a capital offence",
+              "b": "A term of more than 3 years, nor may it try a capital offence",
+              "c": "A term of more than 20 years, nor may it try a capital offence",
+              "d": "A term of more than 7 years, nor may it try a capital offence"
+            },
+            "answer": "a",
+            "explanation": "In Lagos a Magistrate cannot impose over 14 years nor try a capital offence."
+          },
+          {
+            "id": 18,
+            "context": "A student compares the Area Court, the Magistrate Court, the Sharia Court and the right of senior counsel to appear in each. He asks what limits each court has.",
+            "question": "A Magistrate tries an indictable offence only with",
+            "options": {
+              "a": "The consent of the defendant, given when he is asked to elect",
+              "b": "The approval of the Governor, given by his Attorney-General",
+              "c": "The approval of the police, given by the Commissioner of Police",
+              "d": "The consent of the prosecutor, given when the charge is filed"
+            },
+            "answer": "a",
+            "explanation": "The Magistrate needs the defendant's consent (election) before trying an indictable offence."
+          },
+          {
+            "id": 19,
+            "context": "A student compares the Area Court, the Magistrate Court, the Sharia Court and the right of senior counsel to appear in each. He asks what limits each court has.",
+            "question": "A Sharia Court at first instance sits with",
+            "options": {
+              "a": "Five Alkalis sitting together to hear and decide the case",
+              "b": "One Alkali, with two Alkalis sitting on an appeal",
+              "c": "A judge of the High Court, with the Grand Kadi as assessor",
+              "d": "Three Alkalis sitting together to hear and decide the case"
+            },
+            "answer": "b",
+            "explanation": "One Alkali sits (two on appeal)."
+          },
+          {
+            "id": 20,
+            "context": "A student compares the Area Court, the Magistrate Court, the Sharia Court and the right of senior counsel to appear in each. He asks what limits each court has.",
+            "question": "A Senior Advocate of Nigeria cannot appear as counsel in",
+            "options": {
+              "a": "The High Court of a State, where he may appear for the defence",
+              "b": "The Court of Appeal, where he may appear for either party",
+              "c": "The Area Court, where legal practitioners are not generally allowed",
+              "d": "The Supreme Court, where he may appear for either party"
+            },
+            "answer": "c",
+            "explanation": "A SAN cannot appear in the Area Court (Registered Trustees v ECWA)."
+          }
+        ]
+      },
+      {
+        "id": "professional-ethics",
+        "name": "Professional Ethics and Skills",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "A non-lawyer prepares a conveyance for a fee and calls himself 'barrister'. Another prepares his own tenancy instrument. A third drafts a will for a fee. The NBA wants to know which acts are offences.",
+            "question": "Preparing an instrument relating to immovable property for a fee by a non-lawyer is",
+            "options": {
+              "a": "Lawful, provided that the instrument is short and simple",
+              "b": "Lawful if the property concerned is of small value",
+              "c": "An offence under section 22(1)(d) of the Legal Practitioners Act",
+              "d": "Lawful in the Northern States where the law differs"
+            },
+            "answer": "c",
+            "explanation": "Section 22(1)(d) LPA."
+          },
+          {
+            "id": 2,
+            "context": "A non-lawyer prepares a conveyance for a fee and calls himself 'barrister'. Another prepares his own tenancy instrument. A third drafts a will for a fee. The NBA wants to know which acts are offences.",
+            "question": "A non-lawyer may lawfully prepare",
+            "options": {
+              "a": "A probate application for the estate of a deceased person",
+              "b": "A writ of summons for use in any court",
+              "c": "Any court process to be filed in a superior court",
+              "d": "An instrument to which he himself is a party"
+            },
+            "answer": "d",
+            "explanation": "Section 22(4)(b) LPA."
+          },
+          {
+            "id": 3,
+            "context": "A non-lawyer prepares a conveyance for a fee and calls himself 'barrister'. Another prepares his own tenancy instrument. A third drafts a will for a fee. The NBA wants to know which acts are offences.",
+            "question": "Wills are",
+            "options": {
+              "a": "Included among the exclusive rights of legal practitioners",
+              "b": "Reserved exclusively for Senior Advocates of Nigeria",
+              "c": "Reserved exclusively for notaries public in Nigeria",
+              "d": "Excluded from the exclusive rights of legal practitioners"
+            },
+            "answer": "d",
+            "explanation": "Section 22(4)(e) LPA."
+          },
+          {
+            "id": 4,
+            "context": "A non-lawyer prepares a conveyance for a fee and calls himself 'barrister'. Another prepares his own tenancy instrument. A third drafts a will for a fee. The NBA wants to know which acts are offences.",
+            "question": "The penalty for impersonation under s.22(a) LPA is",
+            "options": {
+              "a": "A caution administered by the Legal Practitioners Disciplinary Committee only",
+              "b": "Life imprisonment without the option of a fine, on conviction by the court",
+              "c": "A fine of ₦1 million or imprisonment for 5 years, or both",
+              "d": "A fine of up to ₦200 or imprisonment up to 2 years, or both"
+            },
+            "answer": "d",
+            "explanation": "Section 22."
+          },
+          {
+            "id": 5,
+            "context": "A non-lawyer prepares a conveyance for a fee and calls himself 'barrister'. Another prepares his own tenancy instrument. A third drafts a will for a fee. The NBA wants to know which acts are offences.",
+            "question": "The limitation period for prosecutions under s.22 LPA is",
+            "options": {
+              "a": "A period of one year, as provided in the Act",
+              "b": "A period of three years, as provided in section 22(6)",
+              "c": "A period of six months, as provided in the Act",
+              "d": "A period of seven years, as provided in the Act"
+            },
+            "answer": "b",
+            "explanation": "Section 22(6) LPA."
+          },
+          {
+            "id": 6,
+            "context": "A lawyer calls a High Court judge a liar in a published article during a pending case. Another lawyer ignores a mandatory injunction. The judge asks how each contempt is dealt with.",
+            "question": "Calling a judge a liar in a published article is",
+            "options": {
+              "a": "Not contempt at all, since it is only a published opinion",
+              "b": "Civil contempt, since it concerns the pending case between parties",
+              "c": "Criminal contempt, since calling a judge a liar is such contempt",
+              "d": "A civil wrong for which the judge may sue for damages"
+            },
+            "answer": "c",
+            "explanation": "Criminal contempt includes calling a judge a liar or incompetent."
+          },
+          {
+            "id": 7,
+            "context": "A lawyer calls a High Court judge a liar in a published article during a pending case. Another lawyer ignores a mandatory injunction. The judge asks how each contempt is dealt with.",
+            "question": "Disobedience of a court order involving private injury is",
+            "options": {
+              "a": "Civil contempt, which is almost always committed outside the court",
+              "b": "Perjury, which is committed by a false statement made on oath",
+              "c": "Criminal libel, which is committed by defaming another person",
+              "d": "Criminal contempt, which is committed in the face of the court"
+            },
+            "answer": "a",
+            "explanation": "Almost always ex facie curiae."
+          },
+          {
+            "id": 8,
+            "context": "A lawyer calls a High Court judge a liar in a published article during a pending case. Another lawyer ignores a mandatory injunction. The judge asks how each contempt is dealt with.",
+            "question": "Contempt in the face of the court may be dealt with",
+            "options": {
+              "a": "Only by the police, who must arrest and charge him",
+              "b": "Summarily by the presiding judge, or by the ordinary trial process",
+              "c": "Only by the Attorney-General, who must prosecute him in court",
+              "d": "Only by arrest and charge followed by a full trial"
+            },
+            "answer": "b",
+            "explanation": "Or by the ordinary arrest-charge-trial process at the judge's election."
+          },
+          {
+            "id": 9,
+            "context": "A lawyer calls a High Court judge a liar in a published article during a pending case. Another lawyer ignores a mandatory injunction. The judge asks how each contempt is dealt with.",
+            "question": "The contemnor in a summary trial is placed in",
+            "options": {
+              "a": "The dock, so as to preserve his right to silence",
+              "b": "The registry of the court, while the judge decides the matter",
+              "c": "The gallery of the court, among the members of the public",
+              "d": "The witness box, to answer questions put by the judge"
+            },
+            "answer": "a",
+            "explanation": "To preserve the right to silence - s.36(11) CFRN."
+          },
+          {
+            "id": 10,
+            "context": "A lawyer calls a High Court judge a liar in a published article during a pending case. Another lawyer ignores a mandatory injunction. The judge asks how each contempt is dealt with.",
+            "question": "Contempt, civil or criminal, is proved",
+            "options": {
+              "a": "On prima facie evidence of the act complained of",
+              "b": "On the balance of probabilities, as in other civil matters",
+              "c": "Beyond reasonable doubt, since it is penal in character",
+              "d": "On the belief of the judge before whom it occurs"
+            },
+            "answer": "c",
+            "explanation": "It is penal in character."
+          },
+          {
+            "id": 11,
+            "context": "A client who is unhappy with his lawyer's progress instructs a new lawyer. The former lawyer holds the client's file and has unpaid fees. The new lawyer asks what to do under the RPC.",
+            "question": "A client may change his lawyer",
+            "options": {
+              "a": "Only after judgment has been delivered in the case",
+              "b": "At any time, with or without cause, under Rule 18(1)",
+              "c": "Only with good cause shown to the court for the change",
+              "d": "Only with the leave of the court hearing the case"
+            },
+            "answer": "b",
+            "explanation": "Rule 18(1) RPC."
+          },
+          {
+            "id": 12,
+            "context": "A client who is unhappy with his lawyer's progress instructs a new lawyer. The former lawyer holds the client's file and has unpaid fees. The new lawyer asks what to do under the RPC.",
+            "question": "The new lawyer must do all of these except",
+            "options": {
+              "a": "Notify the court of the change of counsel in the case",
+              "b": "Give prompt notice of the change to the former lawyer",
+              "c": "Pay the former lawyer's unpaid fees out of his own pocket",
+              "d": "Ensure that the former lawyer's earned fees are paid"
+            },
+            "answer": "c",
+            "explanation": "Rule 29 RPC."
+          },
+          {
+            "id": 13,
+            "context": "A client who is unhappy with his lawyer's progress instructs a new lawyer. The former lawyer holds the client's file and has unpaid fees. The new lawyer asks what to do under the RPC.",
+            "question": "The former lawyer is entitled to keep",
+            "options": {
+              "a": "All the client's documents, whether or not his fees are paid",
+              "b": "Letters written to third parties on behalf of the client",
+              "c": "Drafts and copies of the work done for the client",
+              "d": "A lien on the client's papers for his unpaid fees"
+            },
+            "answer": "d",
+            "explanation": "Rule 29."
+          },
+          {
+            "id": 14,
+            "context": "A client who is unhappy with his lawyer's progress instructs a new lawyer. The former lawyer holds the client's file and has unpaid fees. The new lawyer asks what to do under the RPC.",
+            "question": "In a change of counsel under Rule 29, the former lawyer",
+            "options": {
+              "a": "Need not give written notice of withdrawal to the client",
+              "b": "Must refund all the fees paid to him by the client",
+              "c": "Must give written notice of withdrawal to the client",
+              "d": "Must apply to the court for leave to withdraw"
+            },
+            "answer": "a",
+            "explanation": "No written notice from the lawyer is required there."
+          },
+          {
+            "id": 15,
+            "context": "A client who is unhappy with his lawyer's progress instructs a new lawyer. The former lawyer holds the client's file and has unpaid fees. The new lawyer asks what to do under the RPC.",
+            "question": "Important agreements with the client should, as far as possible, be",
+            "options": {
+              "a": "Reduced to writing as far as possible",
+              "b": "Registered at the court registry to make them binding",
+              "c": "Made orally, so as to keep the relationship informal",
+              "d": "Kept secret from the court and from third parties"
+            },
+            "answer": "a",
+            "explanation": "Rule 18(2) RPC."
+          },
+          {
+            "id": 16,
+            "context": "A senior associate asks trainee lawyers to review a draft lease and a statute for drafting errors. The trainees must identify which statements about legal drafting are wrong.",
+            "question": "Which of these is NOT true of drafting?",
+            "options": {
+              "a": "Changing a defined term in the middle of the document is good practice",
+              "b": "Plain words are preferred to difficult words in a draft",
+              "c": "A second person should review the draft before it is issued",
+              "d": "A defined term should be used consistently throughout the document"
+            },
+            "answer": "a",
+            "explanation": "Inconsistency is a habit to avoid."
+          },
+          {
+            "id": 17,
+            "context": "A senior associate asks trainee lawyers to review a draft lease and a statute for drafting errors. The trainees must identify which statements about legal drafting are wrong.",
+            "question": "Which of these is NOT true of 'on' a date?",
+            "options": {
+              "a": "It is clear on the face of the document",
+              "b": "It excludes the date mentioned in the document",
+              "c": "It includes the date mentioned in the document",
+              "d": "It is unambiguous in its meaning to the reader"
+            },
+            "answer": "b",
+            "explanation": "Date mentioned is included."
+          },
+          {
+            "id": 18,
+            "context": "A senior associate asks trainee lawyers to review a draft lease and a statute for drafting errors. The trainees must identify which statements about legal drafting are wrong.",
+            "question": "Which of these is NOT true of 'till' or 'until'?",
+            "options": {
+              "a": "It needs clarification by the drafter before it is used",
+              "b": "The drafter should say 'till and including' the date",
+              "c": "It is ambiguous as to whether the date is included",
+              "d": "It is clear as to whether the date is included"
+            },
+            "answer": "d",
+            "explanation": "Use 'till and including' or 'till but excluding'."
+          },
+          {
+            "id": 19,
+            "context": "A senior associate asks trainee lawyers to review a draft lease and a statute for drafting errors. The trainees must identify which statements about legal drafting are wrong.",
+            "question": "Which of these is NOT true of marginal notes?",
+            "options": {
+              "a": "They do not form part of the law itself",
+              "b": "They form part of the law itself",
+              "c": "Courts have referred to them in some cases",
+              "d": "They are placed in the margin of the statute"
+            },
+            "answer": "b",
+            "explanation": "Uwaifo v AG Bendel State."
+          },
+          {
+            "id": 20,
+            "context": "A senior associate asks trainee lawyers to review a draft lease and a statute for drafting errors. The trainees must identify which statements about legal drafting are wrong.",
+            "question": "Good legislation does NOT",
+            "options": {
+              "a": "Be accessible to the people whom it governs",
+              "b": "Use simple words in place of difficult words",
+              "c": "Oust the jurisdiction of the courts of the land",
+              "d": "Be certain in the meaning of its provisions"
+            },
+            "answer": "c",
+            "explanation": "Features of good legislation."
+          }
+        ]
+      }
+    ]
+  },
+  "cpc-2": {
+    "year": 9997,
+    "session": "CPC Test 2",
+    "examTitle": "Pre-Bar Style MCQ — Corporate, Criminal, Ethics (CPC) Test 2",
+    "totalQuestions": 60,
+    "courses": [
+      {
+        "id": "corporate-law-practice",
+        "name": "Corporate Law Practice",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "Hull Limited was incorporated in 2023 to carry on animal husbandry. Its members now want to re- register it as a public company so that it can invite the public to subscribe for its shares. Its allotted share capital is ₦3 million and its last balance sheet is 5 months old.",
+            "question": "The conversion of a private company to a public company is by",
+            "options": {
+              "a": "A special resolution of the members passed on 21 days' notice",
+              "b": "An ordinary resolution of the members passed on 14 days' notice",
+              "c": "A resolution of the board alone, without any meeting of members",
+              "d": "A written resolution signed by the directors of the company only"
+            },
+            "answer": "a",
+            "explanation": "Private to public (ss.56-62): special resolution; 21 days' notice."
+          },
+          {
+            "id": 2,
+            "context": "Hull Limited was incorporated in 2023 to carry on animal husbandry. Its members now want to re- register it as a public company so that it can invite the public to subscribe for its shares. Its allotted share capital is ₦3 million and its last balance sheet is 5 months old.",
+            "question": "The allotted share capital of the company must not be below",
+            "options": {
+              "a": "₦2 million, being the minimum for a public company",
+              "b": "₦10 million, being the minimum for a public company",
+              "c": "₦100,000, being the minimum for a private company",
+              "d": "₦500,000, being the minimum for a public company"
+            },
+            "answer": "a",
+            "explanation": "Conditions: allotted share capital not below ₦2m."
+          },
+          {
+            "id": 3,
+            "context": "Hull Limited was incorporated in 2023 to carry on animal husbandry. Its members now want to re- register it as a public company so that it can invite the public to subscribe for its shares. Its allotted share capital is ₦3 million and its last balance sheet is 5 months old.",
+            "question": "How old may the balance sheet filed for the conversion be at most?",
+            "options": {
+              "a": "A balance sheet that is not more than 12 months old",
+              "b": "A balance sheet that is not more than 7 months old",
+              "c": "A balance sheet that is not more than 3 months old",
+              "d": "A balance sheet that is not more than 1 month old"
+            },
+            "answer": "b",
+            "explanation": "A balance sheet not more than 7 months old is required."
+          },
+          {
+            "id": 4,
+            "context": "Hull Limited was incorporated in 2023 to carry on animal husbandry. Its members now want to re- register it as a public company so that it can invite the public to subscribe for its shares. Its allotted share capital is ₦3 million and its last balance sheet is 5 months old.",
+            "question": "Re-registration as a public company has the following consequences except",
+            "options": {
+              "a": "The 50-member limit on the company no longer applies to it",
+              "b": "A fresh certificate of incorporation is issued to the company",
+              "c": "The name of the company changes from Ltd to the word Plc",
+              "d": "The company must issue new shares to the public to complete it"
+            },
+            "answer": "d",
+            "explanation": "On conversion the memorandum is altered (Ltd to Plc, capital, removal of the 50-member limit and share transfer restrictions) and a new certificate is issued; no new issue of shares is required."
+          },
+          {
+            "id": 5,
+            "context": "Hull Limited was incorporated in 2023 to carry on animal husbandry. Its members now want to re- register it as a public company so that it can invite the public to subscribe for its shares. Its allotted share capital is ₦3 million and its last balance sheet is 5 months old.",
+            "question": "The conversion of a company from one status to another is made on Form",
+            "options": {
+              "a": "CAC 1, which is the form for incorporating a new company",
+              "b": "CAC 3, which is the form for a change of directors",
+              "c": "CAC 6, which is the form for a notice of the address",
+              "d": "CAC 4, which is the form for conversion and re-registration"
+            },
+            "answer": "d",
+            "explanation": "Conversion and re-registration are all on Form CAC 4."
+          },
+          {
+            "id": 6,
+            "context": "Segun, Dayo and Femi carry on business as partners in a hardware shop without any written agreement. Femi has just died and the surviving partners want to know the legal position. Their lawyer advises them to have a formal partnership deed in future.",
+            "question": "Where the partnership deed is silent, profits are shared",
+            "options": {
+              "a": "Equally among the partners, whatever each has contributed to the firm",
+              "b": "In proportion to the seniority of each partner in the firm",
+              "c": "In proportion to the age of each partner at the date of the deed",
+              "d": "In proportion to the capital each partner has put into the firm"
+            },
+            "answer": "a",
+            "explanation": "Where a deed is silent: equal profit sharing, equal loss sharing, equal capital contribution."
+          },
+          {
+            "id": 7,
+            "context": "Segun, Dayo and Femi carry on business as partners in a hardware shop without any written agreement. Femi has just died and the surviving partners want to know the legal position. Their lawyer advises them to have a formal partnership deed in future.",
+            "question": "Where there is no agreement, the death of a partner",
+            "options": {
+              "a": "It dissolves the partnership, unless the deed provides otherwise",
+              "b": "It transfers his interest to the Corporate Affairs Commission",
+              "c": "It dissolves the partnership only after six months from the death",
+              "d": "It has no effect on the partnership, which carries on as before"
+            },
+            "answer": "a",
+            "explanation": "Where the deed is silent, death of a partner dissolves the partnership."
+          },
+          {
+            "id": 8,
+            "context": "Segun, Dayo and Femi carry on business as partners in a hardware shop without any written agreement. Femi has just died and the surviving partners want to know the legal position. Their lawyer advises them to have a formal partnership deed in future.",
+            "question": "The following are reasons for having a partnership deed except",
+            "options": {
+              "a": "To override the presumptions of the common law that would apply",
+              "b": "To assist the partners in opening a bank account for the firm",
+              "c": "To provide evidence of the terms agreed upon by the partners",
+              "d": "To give the firm a legal personality separate from the partners"
+            },
+            "answer": "d",
+            "explanation": "Reasons for a deed: evidence, overriding presumptions, bank account, contracts, tax; the lack of separate personality is a disadvantage of partnership."
+          },
+          {
+            "id": 9,
+            "context": "Segun, Dayo and Femi carry on business as partners in a hardware shop without any written agreement. Femi has just died and the surviving partners want to know the legal position. Their lawyer advises them to have a formal partnership deed in future.",
+            "question": "On dissolution of a partnership, the first claim on the assets is",
+            "options": {
+              "a": "Debts owed by the firm to outsiders who are not partners",
+              "b": "Return of the capital contributed by each of the partners",
+              "c": "Advances made by the partners to the firm over the years",
+              "d": "The surplus shared in the profit-sharing ratio of the partners"
+            },
+            "answer": "a",
+            "explanation": "Assets are applied: (1) debts to outsiders; (2) advances by partners; (3) return of capital; (4) surplus in the profit-sharing ratio."
+          },
+          {
+            "id": 10,
+            "context": "Segun, Dayo and Femi carry on business as partners in a hardware shop without any written agreement. Femi has just died and the surviving partners want to know the legal position. Their lawyer advises them to have a formal partnership deed in future.",
+            "question": "What is the number of persons above which a partnership must be registered as a company?",
+            "options": {
+              "a": "More than 7 persons, since seven is the minimum for a company",
+              "b": "More than 50 persons, since fifty is the limit for a private company",
+              "c": "More than 20 persons, unless it is registered as a company",
+              "d": "More than 10 persons, unless it is registered as a company"
+            },
+            "answer": "c",
+            "explanation": "A partnership over 20 persons cannot carry on business unless registered as a company (s.19)."
+          },
+          {
+            "id": 11,
+            "context": "Dolphin Engineering Ltd, a foreign firm, has been invited by the Federal Government to build a single bridge. It wants to know if it must incorporate locally or can be exempted, whom to apply to, and what it must do after the exemption is granted.",
+            "question": "The following are categories of exempted foreign companies except",
+            "options": {
+              "a": "A company invited by the Federal Government to execute a specified project",
+              "b": "A company executing a project financed by a donor-funded loan",
+              "c": "A foreign company carrying on general retail trade in Nigeria",
+              "d": "A company exempted from incorporation by a treaty to which Nigeria is party"
+            },
+            "answer": "c",
+            "explanation": "Exempted companies include invited companies, loan projects, export promoters, consultants and treaty companies; general retail trade is not covered."
+          },
+          {
+            "id": 12,
+            "context": "Dolphin Engineering Ltd, a foreign firm, has been invited by the Federal Government to build a single bridge. It wants to know if it must incorporate locally or can be exempted, whom to apply to, and what it must do after the exemption is granted.",
+            "question": "The application for exemption is made to",
+            "options": {
+              "a": "The Governor of the Central Bank of Nigeria",
+              "b": "The Attorney-General of the Federation",
+              "c": "The Registrar of the Corporate Affairs Commission",
+              "d": "The Minister of Trade, Industry and Investment"
+            },
+            "answer": "d",
+            "explanation": "Exemption is by application to the Minister of Trade, Industry and Investment."
+          },
+          {
+            "id": 13,
+            "context": "Dolphin Engineering Ltd, a foreign firm, has been invited by the Federal Government to build a single bridge. It wants to know if it must incorporate locally or can be exempted, whom to apply to, and what it must do after the exemption is granted.",
+            "question": "After exemption, the company must serve Form CAC 23 on the CAC within",
+            "options": {
+              "a": "Serve Form CAC 23 on the Commission within 90 days",
+              "b": "Serve Form CAC 23 on the Commission within 30 days",
+              "c": "Serve Form CAC 23 on the Commission within 7 days",
+              "d": "Serve Form CAC 23 on the Commission within 14 days"
+            },
+            "answer": "b",
+            "explanation": "Form CAC 23 is served within 30 days with a daily penalty for default."
+          },
+          {
+            "id": 14,
+            "context": "Dolphin Engineering Ltd, a foreign firm, has been invited by the Federal Government to build a single bridge. It wants to know if it must incorporate locally or can be exempted, whom to apply to, and what it must do after the exemption is granted.",
+            "question": "The annual report of an exempted company is filed on",
+            "options": {
+              "a": "Form CAC 4, filed each year with the Commission",
+              "b": "Form CAC 24, filed each year with the Commission",
+              "c": "Form CAC 21, filed each year with the Commission",
+              "d": "Form CAC 23, filed each year with the Commission"
+            },
+            "answer": "b",
+            "explanation": "CAC 24 is the annual report of exempted companies; CAC 21 is for registered companies."
+          },
+          {
+            "id": 15,
+            "context": "Dolphin Engineering Ltd, a foreign firm, has been invited by the Federal Government to build a single bridge. It wants to know if it must incorporate locally or can be exempted, whom to apply to, and what it must do after the exemption is granted.",
+            "question": "An exempted foreign company has the status of",
+            "options": {
+              "a": "A company limited by guarantee",
+              "b": "A public company limited by shares",
+              "c": "An unregistered company in Nigeria",
+              "d": "A registered company in Nigeria"
+            },
+            "answer": "c",
+            "explanation": "Under s.82 an exempted company has the status of an unregistered company."
+          },
+          {
+            "id": 16,
+            "context": "After a complaint by shareholders of Eagle Insurance Plc, the CAC appoints inspectors. A shareholder wants to know the weight of the report, the protection of staff who help and other ways minorities are protected.",
+            "question": "Inspectors for an investigation are appointed by",
+            "options": {
+              "a": "The auditor of the company concerned",
+              "b": "The Corporate Affairs Commission",
+              "c": "The board of the company concerned",
+              "d": "The majority shareholders of the company"
+            },
+            "answer": "b",
+            "explanation": "The CAC appoints competent inspectors."
+          },
+          {
+            "id": 17,
+            "context": "After a complaint by shareholders of Eagle Insurance Plc, the CAC appoints inspectors. A shareholder wants to know the weight of the report, the protection of staff who help and other ways minorities are protected.",
+            "question": "The inspectors' report is",
+            "options": {
+              "a": "A resolution of the company, binding on its directors and members",
+              "b": "A binding judgment of the court that appoints the inspectors",
+              "c": "Merely the opinion of the inspectors, which binds no one",
+              "d": "An order of the court enforceable against the company's officers"
+            },
+            "answer": "c",
+            "explanation": "It is only the inspectors' opinion, though a certified copy is admissible as evidence of that opinion."
+          },
+          {
+            "id": 18,
+            "context": "After a complaint by shareholders of Eagle Insurance Plc, the CAC appoints inspectors. A shareholder wants to know the weight of the report, the protection of staff who help and other ways minorities are protected.",
+            "question": "An employee dismissed without cause for helping the inspectors is entitled to",
+            "options": {
+              "a": "Double his salary for the period of the unlawful dismissal",
+              "b": "Compensation for the dismissal, but not reinstatement in his job",
+              "c": "Reinstatement in his former post with full back pay and benefits",
+              "d": "Nothing, since the inspectors are not his employer at law"
+            },
+            "answer": "b",
+            "explanation": "Such an employee gets compensation and not reinstatement."
+          },
+          {
+            "id": 19,
+            "context": "After a complaint by shareholders of Eagle Insurance Plc, the CAC appoints inspectors. A shareholder wants to know the weight of the report, the protection of staff who help and other ways minorities are protected.",
+            "question": "To cancel a variation of class rights, an applicant must hold at least",
+            "options": {
+              "a": "One-tenth of the issued shares of the company as a whole",
+              "b": "5% of the issued shares of the class concerned",
+              "c": "15% of the issued shares of the class concerned",
+              "d": "50% of the issued shares of the class concerned"
+            },
+            "answer": "c",
+            "explanation": "Holders of at least 15% of the class who did not vote for the variation may apply to cancel it."
+          },
+          {
+            "id": 20,
+            "context": "After a complaint by shareholders of Eagle Insurance Plc, the CAC appoints inspectors. A shareholder wants to know the weight of the report, the protection of staff who help and other ways minorities are protected.",
+            "question": "To cancel an alteration of objects, an application to the court may be made by holders of at least",
+            "options": {
+              "a": "Holders of one-tenth of the shares in the company",
+              "b": "Holders of one-third of the shares in the company",
+              "c": "Holders of 5% of the shares in the company",
+              "d": "Holders of 15% in nominal value of the issued share capital"
+            },
+            "answer": "d",
+            "explanation": "Holders of at least 15% of the issued share capital may apply to the Federal High Court."
+          }
+        ]
+      },
+      {
+        "id": "criminal-litigation",
+        "name": "Criminal Litigation",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "A plea bargain is proposed in a fraud trial. The prosecutor, the victim and the defendant's counsel meet, and the judge is invited to attend. The registrar notes what is and is not allowed.",
+            "question": "Which of these is NOT true of a plea bargain?",
+            "options": {
+              "a": "It needs no consent from the victim, since the State is the complainant",
+              "b": "It is governed by section 270 of the Administration of Criminal Justice Act",
+              "c": "The consent of the victim is required before it may be made",
+              "d": "The judge confirms that the defendant entered into it voluntarily"
+            },
+            "answer": "a",
+            "explanation": "Requires victim's consent."
+          },
+          {
+            "id": 2,
+            "context": "A plea bargain is proposed in a fraud trial. The prosecutor, the victim and the defendant's counsel meet, and the judge is invited to attend. The registrar notes what is and is not allowed.",
+            "question": "In a plea bargain, the judge does NOT",
+            "options": {
+              "a": "Confirm that the defendant entered into the agreement voluntarily",
+              "b": "Take part in the negotiation between the prosecutor and the defendant",
+              "c": "Order the defendant to pay compensation to the victim of the offence",
+              "d": "Convict the defendant if he is satisfied that it was voluntary"
+            },
+            "answer": "b",
+            "explanation": "The judge does not participate but confirms voluntariness."
+          },
+          {
+            "id": 3,
+            "context": "A plea bargain is proposed in a fraud trial. The prosecutor, the victim and the defendant's counsel meet, and the judge is invited to attend. The registrar notes what is and is not allowed.",
+            "question": "The public interest factors in s.270(5) ACJA include all of these except",
+            "options": {
+              "a": "The remorse of the defendant and the restitution he has made",
+              "b": "The cooperation of the defendant with the authorities in the case",
+              "c": "The costs and delay of a trial that would be avoided",
+              "d": "The social status of the defendant in the community he lives in"
+            },
+            "answer": "d",
+            "explanation": "Factors in s.270(5)."
+          },
+          {
+            "id": 4,
+            "context": "A plea bargain is proposed in a fraud trial. The prosecutor, the victim and the defendant's counsel meet, and the judge is invited to attend. The registrar notes what is and is not allowed.",
+            "question": "Which of these is NOT true of standing mute?",
+            "options": {
+              "a": "Malicious muteness results in a plea of not guilty being entered",
+              "b": "Muteness by the visitation of God involves insanity or deafness",
+              "c": "The court holds an enquiry into the cause of the muteness",
+              "d": "Malicious muteness stops the trial until the defendant agrees to plead"
+            },
+            "answer": "d",
+            "explanation": "Malicious → not guilty entered, trial proceeds."
+          },
+          {
+            "id": 5,
+            "context": "A plea bargain is proposed in a fraud trial. The prosecutor, the victim and the defendant's counsel meet, and the judge is invited to attend. The registrar notes what is and is not allowed.",
+            "question": "All of these are true of the bar plea except",
+            "options": {
+              "a": "It applies to an earlier acquittal or conviction by a foreign court",
+              "b": "A trial ended by a nolle prosequi will support the plea",
+              "c": "The defendant must prove all four conditions of the plea himself",
+              "d": "The court tries the plea first before the defendant is asked to plead"
+            },
+            "answer": "b",
+            "explanation": "A trial terminated by nolle prosequi cannot sustain the plea."
+          },
+          {
+            "id": 6,
+            "context": "Counsel for Mr Ike argues that the High Court has no power to try his client because the trial began without a proper charge, and because the parties had agreed to sit in a particular court. The judge reviews the meaning and sources of jurisdiction.",
+            "question": "A court has jurisdiction under Madukolu v Nkemdilim if all these are present except",
+            "options": {
+              "a": "The subject matter of the case is within its jurisdiction",
+              "b": "The case was begun by due process of law and in the proper form",
+              "c": "The court is properly constituted as to its members and number",
+              "d": "The parties have agreed that the court should hear and decide the case"
+            },
+            "answer": "d",
+            "explanation": "The three Madukolu determinants are proper constitution, subject matter and due process; agreement is not one."
+          },
+          {
+            "id": 7,
+            "context": "Counsel for Mr Ike argues that the High Court has no power to try his client because the trial began without a proper charge, and because the parties had agreed to sit in a particular court. The judge reviews the meaning and sources of jurisdiction.",
+            "question": "Jurisdiction of a court can never be conferred by",
+            "options": {
+              "a": "The Constitution of the Federal Republic of Nigeria in appropriate cases",
+              "b": "A statute enacted by the National Assembly or a State House",
+              "c": "A rule of court made under the authority of the Constitution",
+              "d": "The agreement of the parties, who may not give it to the court"
+            },
+            "answer": "d",
+            "explanation": "Jurisdiction exists only by Constitution, statute or rule, never by agreement."
+          },
+          {
+            "id": 8,
+            "context": "Counsel for Mr Ike argues that the High Court has no power to try his client because the trial began without a proper charge, and because the parties had agreed to sit in a particular court. The judge reviews the meaning and sources of jurisdiction.",
+            "question": "A High Court is properly constituted with as few as",
+            "options": {
+              "a": "Seven judges, as required for the Supreme Court sitting on a constitutional matter",
+              "b": "Three judges, as required for the Court of Appeal sitting on an appeal",
+              "c": "One judge, since a High Court may sit with a single judge",
+              "d": "Five judges, as required for the Court of Appeal sitting on a case"
+            },
+            "answer": "c",
+            "explanation": "A High Court may sit with one judge."
+          },
+          {
+            "id": 9,
+            "context": "Counsel for Mr Ike argues that the High Court has no power to try his client because the trial began without a proper charge, and because the parties had agreed to sit in a particular court. The judge reviews the meaning and sources of jurisdiction.",
+            "question": "The National Industrial Court must not be constituted by more than",
+            "options": {
+              "a": "One judge, since the court may sit with a single judge only",
+              "b": "Three judges, since the Constitution fixes that as the greatest number",
+              "c": "Five judges, since the court is of the same rank as the High Court",
+              "d": "Seven judges, since the court has a final jurisdiction in labour matters"
+            },
+            "answer": "b",
+            "explanation": "The NIC must not exceed three."
+          },
+          {
+            "id": 10,
+            "context": "Counsel for Mr Ike argues that the High Court has no power to try his client because the trial began without a proper charge, and because the parties had agreed to sit in a particular court. The judge reviews the meaning and sources of jurisdiction.",
+            "question": "A want of substantive jurisdiction",
+            "options": {
+              "a": "It can be cured by amendment of the charge by the prosecutor",
+              "b": "It cannot be waived by the parties, since it goes to the root of the case",
+              "c": "It can be waived by the accused if he does not object",
+              "d": "It can be cured by the prosecutor if he files a fresh charge"
+            },
+            "answer": "b",
+            "explanation": "A want of subject-matter jurisdiction cannot be waived; procedural defects may be."
+          },
+          {
+            "id": 11,
+            "context": "Police officers arrested Tunde on suspicion of possessing stolen phones. At the station a female suspect arrested with him was also searched, and an inventory of the items found was prepared. Their lawyer reviews the rules on search of persons.",
+            "question": "An arrested person may be searched",
+            "options": {
+              "a": "Only with a warrant issued by a magistrate or a judge",
+              "b": "Only in the open court after he has been arraigned there",
+              "c": "Without a warrant, since the power arises from the arrest itself",
+              "d": "Only with an order of court made on the application of the police"
+            },
+            "answer": "c",
+            "explanation": "An arrested person may be searched without a warrant (s.9(1) ACJA)."
+          },
+          {
+            "id": 12,
+            "context": "Police officers arrested Tunde on suspicion of possessing stolen phones. At the station a female suspect arrested with him was also searched, and an inventory of the items found was prepared. Their lawyer reviews the rules on search of persons.",
+            "question": "A woman suspect should be searched by",
+            "options": {
+              "a": "A man, who is of the rank of an inspector or above",
+              "b": "Any officer of the police who is available at the station",
+              "c": "A woman, since the rule is that the search be by the same sex",
+              "d": "A private person who is invited by the police to do it"
+            },
+            "answer": "c",
+            "explanation": "The rule is same-sex search: woman by woman, man by man."
+          },
+          {
+            "id": 13,
+            "context": "Police officers arrested Tunde on suspicion of possessing stolen phones. At the station a female suspect arrested with him was also searched, and an inventory of the items found was prepared. Their lawyer reviews the rules on search of persons.",
+            "question": "An intimate search must be carried out by a person of the same sex and at",
+            "options": {
+              "a": "A market place or other public place where the suspect was found",
+              "b": "A police station or a hospital, or a similar place that is suitable",
+              "c": "A public road, provided that it is screened off from passers-by",
+              "d": "The suspect's home, provided that a relative of his is present"
+            },
+            "answer": "b",
+            "explanation": "Intimate search is same-sex only, at a police station, hospital or similar venue."
+          },
+          {
+            "id": 14,
+            "context": "Police officers arrested Tunde on suspicion of possessing stolen phones. At the station a female suspect arrested with him was also searched, and an inventory of the items found was prepared. Their lawyer reviews the rules on search of persons.",
+            "question": "Under s.54 Police Act, the following are unacceptable grounds for a search except",
+            "options": {
+              "a": "The suspect's skin colour or his tattoos, or other marks on his body",
+              "b": "The hairstyle of the suspect, however unusual it may appear to the officer",
+              "c": "The age of the suspect, however young or old he may appear to be",
+              "d": "A reasonable suspicion that the suspect is carrying stolen items"
+            },
+            "answer": "d",
+            "explanation": "Hairstyle, dressing, skin colour or tattoos, age and previous conviction are not grounds."
+          },
+          {
+            "id": 15,
+            "context": "Police officers arrested Tunde on suspicion of possessing stolen phones. At the station a female suspect arrested with him was also searched, and an inventory of the items found was prepared. Their lawyer reviews the rules on search of persons.",
+            "question": "If the arrested person refuses to sign the inventory of recovered items, the inventory is",
+            "options": {
+              "a": "Still valid, since a refusal to sign does not affect it",
+              "b": "Inadmissible in evidence at the trial of the suspect",
+              "c": "Void and cannot be used by the prosecution at trial",
+              "d": "Invalid unless it is later signed by two witnesses"
+            },
+            "answer": "a",
+            "explanation": "Failure to sign does not invalidate the inventory."
+          },
+          {
+            "id": 16,
+            "context": "The prosecution discovers that the count against Mr Obi should have named a different section of the law. The prosecutor wants to amend before plea and later, after plea, wants to amend again.",
+            "question": "A charge may be amended at any stage",
+            "options": {
+              "a": "At any stage before judgment, by the court or by the prosecution",
+              "b": "Only before the plea of the defendant is taken in the case",
+              "c": "Only after the plea of the defendant has been taken in the case",
+              "d": "At any stage, including after judgment has been delivered by the court"
+            },
+            "answer": "a",
+            "explanation": "The court and the prosecution may alter, amend or add to a charge at any stage before judgment."
+          },
+          {
+            "id": 17,
+            "context": "The prosecution discovers that the count against Mr Obi should have named a different section of the law. The prosecutor wants to amend before plea and later, after plea, wants to amend again.",
+            "question": "The court may amend a defective charge",
+            "options": {
+              "a": "On its own motion, where it finds that the charge is defective",
+              "b": "Only on the application of the Attorney-General made to the court",
+              "c": "Never, since the charge belongs to the prosecution and not to the court",
+              "d": "Only on the application of the defendant made through his counsel"
+            },
+            "answer": "a",
+            "explanation": "The court may amend of its own motion where the charge is defective."
+          },
+          {
+            "id": 18,
+            "context": "The prosecution discovers that the count against Mr Obi should have named a different section of the law. The prosecutor wants to amend before plea and later, after plea, wants to amend again.",
+            "question": "In a Magistrate Court in the South, before plea an entirely new charge may be substituted",
+            "options": {
+              "a": "Only with the consent of the Attorney-General of the State",
+              "b": "Only after the plea of the defendant has been taken by the court",
+              "c": "Without the leave of the court, the framer informing the registrar",
+              "d": "Only with the consent of the defendant given through his counsel"
+            },
+            "answer": "c",
+            "explanation": "Before plea an entirely new charge may be substituted without leave, the framer informing the registrar."
+          },
+          {
+            "id": 19,
+            "context": "The prosecution discovers that the count against Mr Obi should have named a different section of the law. The prosecutor wants to amend before plea and later, after plea, wants to amend again.",
+            "question": "An amendment from stealing to murder",
+            "options": {
+              "a": "Is allowed as of right, since the prosecution is the master of the charge",
+              "b": "Is allowed before the plea of the defendant is taken, but not after",
+              "c": "Cannot be allowed, since the new charge would not relate to the original",
+              "d": "Is allowed if the Attorney-General agrees to the change of the charge"
+            },
+            "answer": "c",
+            "explanation": "The amendment must relate to the original charge and cause no injustice."
+          },
+          {
+            "id": 20,
+            "context": "The prosecution discovers that the count against Mr Obi should have named a different section of the law. The prosecutor wants to amend before plea and later, after plea, wants to amend again.",
+            "question": "After plea, an amendment may be made on",
+            "options": {
+              "a": "An oral application, since no formal application is strictly required",
+              "b": "An order of the Chief Judge made on the application of the prosecution",
+              "c": "A written application only, supported by an affidavit of the prosecutor",
+              "d": "A petition addressed to the Chief Judge of the State concerned"
+            },
+            "answer": "a",
+            "explanation": "No formal application is strictly required; an oral application may suffice."
+          }
+        ]
+      },
+      {
+        "id": "professional-ethics",
+        "name": "Professional Ethics and Skills",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "A lawyer wants to withdraw from a case because the client will not pay fees and has rejected his advice to abandon a frivolous claim. He plans to leave without notice.",
+            "question": "A lawyer must not withdraw from employment except for",
+            "options": {
+              "a": "A holiday which the lawyer has planned in advance",
+              "b": "Good cause, as provided in Rule 21(1) of the RPC",
+              "c": "A better offer of work from another client",
+              "d": "The convenience of the lawyer in the conduct of the case"
+            },
+            "answer": "b",
+            "explanation": "Rule 21(1) RPC."
+          },
+          {
+            "id": 2,
+            "context": "A lawyer wants to withdraw from a case because the client will not pay fees and has rejected his advice to abandon a frivolous claim. He plans to leave without notice.",
+            "question": "Good cause includes all of these except",
+            "options": {
+              "a": "A conflict of interest between the lawyer and the client",
+              "b": "The client insists on pursuing an unjust course",
+              "c": "The client persists in a frivolous case against advice",
+              "d": "The case is difficult for the lawyer to handle"
+            },
+            "answer": "d",
+            "explanation": "Rule 21(2)."
+          },
+          {
+            "id": 3,
+            "context": "A lawyer wants to withdraw from a case because the client will not pay fees and has rejected his advice to abandon a frivolous claim. He plans to leave without notice.",
+            "question": "On withdrawal, the lawyer must give the client",
+            "options": {
+              "a": "No notice at all, if the lawyer has good cause",
+              "b": "A fine, as compensation for the withdrawal of the lawyer",
+              "c": "Reasonable written notice of the intended withdrawal",
+              "d": "Oral notice only, given at the next hearing of the case"
+            },
+            "answer": "c",
+            "explanation": "Rule 21(3)."
+          },
+          {
+            "id": 4,
+            "context": "A lawyer wants to withdraw from a case because the client will not pay fees and has rejected his advice to abandon a frivolous claim. He plans to leave without notice.",
+            "question": "The lawyer must refund",
+            "options": {
+              "a": "Only half of the fees paid, whatever the work done",
+              "b": "The portion of the fees that he has not yet earned",
+              "c": "All the fees paid by the client, whatever the work done",
+              "d": "No fees at all, since fees once paid are not refundable"
+            },
+            "answer": "b",
+            "explanation": "Rule 21(4) - on a quantum meruit basis."
+          },
+          {
+            "id": 5,
+            "context": "A lawyer wants to withdraw from a case because the client will not pay fees and has rejected his advice to abandon a frivolous claim. He plans to leave without notice.",
+            "question": "A lawyer should not take instructions at a client's home unless",
+            "options": {
+              "a": "The client lives within a short distance of the office",
+              "b": "The lawyer is too busy to receive the client in the office",
+              "c": "The client is rich and can pay a higher fee",
+              "d": "The client is sick, in custody or of extreme old age"
+            },
+            "answer": "d",
+            "explanation": "Rule 22 RPC."
+          },
+          {
+            "id": 6,
+            "context": "A client arrives at Barrister Ife's office for the first time. She is nervous. The lawyer plans the interview and decides on the questions and the model to follow.",
+            "question": "The purposes of a client interview include all of these except",
+            "options": {
+              "a": "To learn the goals which the client wishes to achieve",
+              "b": "To fix the fees which the client will pay",
+              "c": "To persuade the client to sue in every case",
+              "d": "To establish the lawyer-client relationship with the client"
+            },
+            "answer": "c",
+            "explanation": "Purposes of an interview."
+          },
+          {
+            "id": 7,
+            "context": "A client arrives at Barrister Ife's office for the first time. She is nervous. The lawyer plans the interview and decides on the questions and the model to follow.",
+            "question": "The general venue for interviews is",
+            "options": {
+              "a": "The lawyer's law office, under Rule 22 of the RPC",
+              "b": "The court premises where the matter will be heard",
+              "c": "The home of the client, wherever the client lives",
+              "d": "A restaurant chosen by the client for the meeting"
+            },
+            "answer": "a",
+            "explanation": "Rule 22 RPC."
+          },
+          {
+            "id": 8,
+            "context": "A client arrives at Barrister Ife's office for the first time. She is nervous. The lawyer plans the interview and decides on the questions and the model to follow.",
+            "question": "An exception to the venue rule applies where the client is",
+            "options": {
+              "a": "Far away from the lawyer's office, in another State",
+              "b": "Wealthy and able to pay higher fees to the lawyer",
+              "c": "Bedridden, being sick and unable to come to the office",
+              "d": "Busy with his business and unable to leave it"
+            },
+            "answer": "c",
+            "explanation": "Sick, in custody, very old, or urgent national security."
+          },
+          {
+            "id": 9,
+            "context": "A client arrives at Barrister Ife's office for the first time. She is nervous. The lawyer plans the interview and decides on the questions and the model to follow.",
+            "question": "Open questions have the disadvantage of",
+            "options": {
+              "a": "Filling the gaps in the facts which the client has left",
+              "b": "Encouraging the client to ramble away from the point",
+              "c": "Gaining specific details from the client on the facts",
+              "d": "Saving time in the course of the interview"
+            },
+            "answer": "b",
+            "explanation": "Open questions let the client narrate but may ramble."
+          },
+          {
+            "id": 10,
+            "context": "A client arrives at Barrister Ife's office for the first time. She is nervous. The lawyer plans the interview and decides on the questions and the model to follow.",
+            "question": "Closed questions risk",
+            "options": {
+              "a": "Turning the interview into an interrogation of the client",
+              "b": "Encouraging openness in the client during the interview",
+              "c": "Letting the client narrate the facts in his own words",
+              "d": "Wasting time in the course of the interview"
+            },
+            "answer": "a",
+            "explanation": "Closed questions."
+          },
+          {
+            "id": 11,
+            "context": "Counsel is addressing a Federal High Court Judge who is a woman, and a Magistrate in Lagos. He is unsure about forms of address and dress for superior courts.",
+            "question": "A female High Court Judge is addressed as",
+            "options": {
+              "a": "Your Worship, as in the lower courts of the land",
+              "b": "Your Honour, as in the Magistrate Courts of Lagos",
+              "c": "My Lord, as for a male judge of the High Court",
+              "d": "My Lady, under Rule 36(c) of the RPC"
+            },
+            "answer": "d",
+            "explanation": "Rule 36(c) RPC."
+          },
+          {
+            "id": 12,
+            "context": "Counsel is addressing a Federal High Court Judge who is a woman, and a Magistrate in Lagos. He is unsure about forms of address and dress for superior courts.",
+            "question": "The Court of Appeal is addressed as",
+            "options": {
+              "a": "Your Honour, as for a Magistrate in Lagos State",
+              "b": "Sir, as for a person holding a high public office",
+              "c": "Your Worship, as for a Magistrate in other places",
+              "d": "My Lords, or Your Lordships, as for the superior courts"
+            },
+            "answer": "d",
+            "explanation": "SC/CA: 'My Lords'/'Your Lordships'."
+          },
+          {
+            "id": 13,
+            "context": "Counsel is addressing a Federal High Court Judge who is a woman, and a Magistrate in Lagos. He is unsure about forms of address and dress for superior courts.",
+            "question": "In Lagos, a Magistrate is addressed as",
+            "options": {
+              "a": "My Lord, as for a Judge of the High Court",
+              "b": "My Lady, as for a female Judge of the High Court",
+              "c": "Your Honour, under section 352 of the ACJL Lagos 2011",
+              "d": "Your Worship, as in the other places of Nigeria"
+            },
+            "answer": "c",
+            "explanation": "Section 352 ACJL Lagos 2011."
+          },
+          {
+            "id": 14,
+            "context": "Counsel is addressing a Federal High Court Judge who is a woman, and a Magistrate in Lagos. He is unsure about forms of address and dress for superior courts.",
+            "question": "Fellow counsel is addressed in court as",
+            "options": {
+              "a": "My Learned Brother, as judges address each other",
+              "b": "Dear colleague, as in the letters written by lawyers",
+              "c": "My Brother, as in the usual phrase of the Bar",
+              "d": "My Learned Friend, as counsel address each other"
+            },
+            "answer": "d",
+            "explanation": "Judges to each other: 'My Learned Brother'."
+          },
+          {
+            "id": 15,
+            "context": "Counsel is addressing a Federal High Court Judge who is a woman, and a Magistrate in Lagos. He is unsure about forms of address and dress for superior courts.",
+            "question": "Inferior courts require",
+            "options": {
+              "a": "No wig and gown, since these are for superior courts",
+              "b": "Bands only, worn over a plain dark suit",
+              "c": "A red gown worn over a dark suit",
+              "d": "Wig and gown, as in the superior courts"
+            },
+            "answer": "a",
+            "explanation": "Superior courts: dark suit, wig and gown."
+          },
+          {
+            "id": 16,
+            "context": "Amina has completed the Nigerian Law School course and passed her exams. She asks what is required for her Call to the Bar and for her enrolment at the Supreme Court.",
+            "question": "To be entitled to practise generally, a person's name must be on",
+            "options": {
+              "a": "The register of members kept by the Nigerian Bar Association",
+              "b": "The roll of legal practitioners kept by the Chief Registrar",
+              "c": "The register of the continuing legal education programme",
+              "d": "The list of the members of the Body of Benchers"
+            },
+            "answer": "b",
+            "explanation": "The roll kept by the Chief Registrar of the Supreme Court."
+          },
+          {
+            "id": 17,
+            "context": "Amina has completed the Nigerian Law School course and passed her exams. She asks what is required for her Call to the Bar and for her enrolment at the Supreme Court.",
+            "question": "The conditions to be called to the Bar include all of these except",
+            "options": {
+              "a": "A qualifying certificate issued by the Council of Legal Education",
+              "b": "Citizenship of Nigeria, subject to the 1992 decrees",
+              "c": "Membership of the Nigerian Bar Association at the time of call",
+              "d": "Good character, shown to the satisfaction of the Benchers"
+            },
+            "answer": "c",
+            "explanation": "Section 4(1) LPA."
+          },
+          {
+            "id": 18,
+            "context": "Amina has completed the Nigerian Law School course and passed her exams. She asks what is required for her Call to the Bar and for her enrolment at the Supreme Court.",
+            "question": "Good character is usually shown by a sponsorship form signed by at least",
+            "options": {
+              "a": "Two members of the Body of Benchers",
+              "b": "One member of the Body of Benchers",
+              "c": "Three members of the Body of Benchers",
+              "d": "Five members of the Body of Benchers"
+            },
+            "answer": "a",
+            "explanation": "At least 2 members of the Body of Benchers."
+          },
+          {
+            "id": 19,
+            "context": "Amina has completed the Nigerian Law School course and passed her exams. She asks what is required for her Call to the Bar and for her enrolment at the Supreme Court.",
+            "question": "The qualifying certificate is issued by",
+            "options": {
+              "a": "The Chief Registrar of the Supreme Court of Nigeria",
+              "b": "The Council of Legal Education, under section 5 of its Act",
+              "c": "The Nigerian Bar Association through its National Executive",
+              "d": "The Body of Benchers through its Secretary"
+            },
+            "answer": "b",
+            "explanation": "Section 5 Legal Education Act."
+          },
+          {
+            "id": 20,
+            "context": "Amina has completed the Nigerian Law School course and passed her exams. She asks what is required for her Call to the Bar and for her enrolment at the Supreme Court.",
+            "question": "To be enrolled at the Supreme Court, a person must produce to the Chief Registrar",
+            "options": {
+              "a": "His certificate of call to the Bar, under section 7(1)",
+              "b": "His qualifying certificate issued by the Council of Legal Education",
+              "c": "His university degree in law from a recognised university",
+              "d": "His NYSC certificate showing completion of national service"
+            },
+            "answer": "a",
+            "explanation": "Section 7(1) LPA."
+          }
+        ]
+      }
+    ]
+  },
+  "cpc-3": {
+    "year": 9997,
+    "session": "CPC Test 3",
+    "examTitle": "Pre-Bar Style MCQ — Corporate, Criminal, Ethics (CPC) Test 3",
+    "totalQuestions": 60,
+    "courses": [
+      {
+        "id": "corporate-law-practice",
+        "name": "Corporate Law Practice",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "Chidi Eze and Musa Bello started a catering business on 1 March 2026 under the name 'Tasty Bites'. They have not registered the name. Mrs Ojo later refused to pay for a catering contract and the partners want to sue her. They are also unsure whether the business name makes them a legal person.",
+            "question": "Registration of the name 'Tasty Bites' is required because",
+            "options": {
+              "a": "The business has two owners who carry it on together for profit",
+              "b": "The name is not the true surnames or forenames or initials of the owners",
+              "c": "The name has more than one word in it, which is unusual for a firm",
+              "d": "The business is a partnership and every partnership must be registered"
+            },
+            "answer": "b",
+            "explanation": "Registration is required if the name is not the true surname(s)/forename(s) or initials of the owners (s.814(1))."
+          },
+          {
+            "id": 2,
+            "context": "Chidi Eze and Musa Bello started a catering business on 1 March 2026 under the name 'Tasty Bites'. They have not registered the name. Mrs Ojo later refused to pay for a catering contract and the partners want to sue her. They are also unsure whether the business name makes them a legal person.",
+            "question": "Within what period from the commencement of business should the partners have registered the name?",
+            "options": {
+              "a": "Within 28 days of the commencement of the business concerned",
+              "b": "Within 3 months of the commencement of the business concerned",
+              "c": "Within 21 days of the commencement of the business concerned",
+              "d": "Within 14 days of the commencement of the business concerned"
+            },
+            "answer": "a",
+            "explanation": "Register within 28 days of commencement of business (s.815(1))."
+          },
+          {
+            "id": 3,
+            "context": "Chidi Eze and Musa Bello started a catering business on 1 March 2026 under the name 'Tasty Bites'. They have not registered the name. Mrs Ojo later refused to pay for a catering contract and the partners want to sue her. They are also unsure whether the business name makes them a legal person.",
+            "question": "Failure to register a registrable business name has the following effects except",
+            "options": {
+              "a": "The defaulter cannot sue to enforce any right arising from the contract",
+              "b": "The failure to register is a criminal offence punishable by a fine",
+              "c": "The other party to the contract may still enforce it against the defaulter",
+              "d": "The contract with Mrs Ojo is void and cannot be enforced by anyone"
+            },
+            "answer": "d",
+            "explanation": "Contracts are unenforceable by the defaulter, not void; the defaulter cannot sue (Alowonle v Bello) and the other party may enforce."
+          },
+          {
+            "id": 4,
+            "context": "Chidi Eze and Musa Bello started a catering business on 1 March 2026 under the name 'Tasty Bites'. They have not registered the name. Mrs Ojo later refused to pay for a catering contract and the partners want to sue her. They are also unsure whether the business name makes them a legal person.",
+            "question": "The partners may seek relief from the disability of non-registration from",
+            "options": {
+              "a": "The Chief Judge of the State where the business is carried on",
+              "b": "The Registrar-General of the Corporate Affairs Commission on application",
+              "c": "The High Court, if the default was accidental or the relief is just",
+              "d": "The Court of Appeal, on an appeal from the Commission's refusal to register"
+            },
+            "answer": "c",
+            "explanation": "Relief under s.821 is from the High Court where default was accidental, just and equitable or for other sufficient cause."
+          },
+          {
+            "id": 5,
+            "context": "Chidi Eze and Musa Bello started a catering business on 1 March 2026 under the name 'Tasty Bites'. They have not registered the name. Mrs Ojo later refused to pay for a catering contract and the partners want to sue her. They are also unsure whether the business name makes them a legal person.",
+            "question": "A registered business name is",
+            "options": {
+              "a": "A legal person capable of owning property in its own name",
+              "b": "Not a legal person, since it merely tells the public who trades",
+              "c": "A separate taxable company with perpetual succession of its own",
+              "d": "A body corporate that may sue and be sued in the business name"
+            },
+            "answer": "b",
+            "explanation": "A business name is not a legal person (Domingo v The Queen); registration only tells the public who trades under the name."
+          },
+          {
+            "id": 6,
+            "context": "The board of Kano Textiles Plc must appoint auditors, and one shareholder wants to replace the current auditor. The secretary reviews who may be an auditor, how an auditor is appointed and removed and how one may resign.",
+            "question": "The first auditors of a company are appointed by",
+            "options": {
+              "a": "The court, on the application of the first members of the company",
+              "b": "The directors, before the company commences business",
+              "c": "The members at the first annual general meeting of the company",
+              "d": "The Corporate Affairs Commission, after the company has been registered"
+            },
+            "answer": "b",
+            "explanation": "First auditors are appointed by the directors before the company commences business."
+          },
+          {
+            "id": 7,
+            "context": "The board of Kano Textiles Plc must appoint auditors, and one shareholder wants to replace the current auditor. The secretary reviews who may be an auditor, how an auditor is appointed and removed and how one may resign.",
+            "question": "A member who wants to nominate a new auditor must give the company notice at least",
+            "options": {
+              "a": "7 days before the meeting at which the nomination is made",
+              "b": "21 days before the meeting at which the nomination is made",
+              "c": "14 days before the meeting at which the nomination is made",
+              "d": "28 days before the meeting at which the nomination is made"
+            },
+            "answer": "c",
+            "explanation": "Section 401(5)(a) requires 14 days' notice of nomination."
+          },
+          {
+            "id": 8,
+            "context": "The board of Kano Textiles Plc must appoint auditors, and one shareholder wants to replace the current auditor. The secretary reviews who may be an auditor, how an auditor is appointed and removed and how one may resign.",
+            "question": "The following are disqualified from being auditors except",
+            "options": {
+              "a": "A partner of an officer of the company concerned",
+              "b": "An independent member of a recognised accountancy body in Nigeria",
+              "c": "A body corporate, whether or not it carries on an accountancy practice",
+              "d": "An officer or servant of the company whose accounts are to be audited"
+            },
+            "answer": "b",
+            "explanation": "An officer or servant, their partners or employees, and bodies corporate cannot be auditors."
+          },
+          {
+            "id": 9,
+            "context": "The board of Kano Textiles Plc must appoint auditors, and one shareholder wants to replace the current auditor. The secretary reviews who may be an auditor, how an auditor is appointed and removed and how one may resign.",
+            "question": "An auditor may be removed by",
+            "options": {
+              "a": "A special resolution passed on 7 days' notice to the members",
+              "b": "The secretary of the company, acting on the advice of the directors",
+              "c": "An ordinary resolution passed on special notice of 28 days to members",
+              "d": "The board alone, if it considers the auditor's work unsatisfactory"
+            },
+            "answer": "c",
+            "explanation": "Removal is by ordinary resolution with special notice of 28 days."
+          },
+          {
+            "id": 10,
+            "context": "The board of Kano Textiles Plc must appoint auditors, and one shareholder wants to replace the current auditor. The secretary reviews who may be an auditor, how an auditor is appointed and removed and how one may resign.",
+            "question": "A resigning auditor must send a copy of the resignation notice to the CAC within",
+            "options": {
+              "a": "21 days of delivering the notice to the company",
+              "b": "7 days of delivering the notice to the company",
+              "c": "28 days of delivering the notice to the company",
+              "d": "14 days of delivering the notice to the company"
+            },
+            "answer": "d",
+            "explanation": "A copy goes to the CAC within 14 days of deposit (s.412(3))."
+          },
+          {
+            "id": 11,
+            "context": "Sunrise Foods Limited was incorporated last week and is about to start business. Its secretary, Mrs Ada, is going through the things that must be done before the company commences business. She has also been told that a company must keep certain statutory books and, if it is a bank, file a statement of affairs.",
+            "question": "The following are preliminary steps before commencing business except",
+            "options": {
+              "a": "Keeping of the statutory books and registers at the registered office",
+              "b": "Publication of the company's name outside its place of business",
+              "c": "Display of the certificate of incorporation at the registered office",
+              "d": "Payment of a dividend to the first members of the company"
+            },
+            "answer": "d",
+            "explanation": "The three preliminaries are publication of name, display of the certificate and keeping statutory books."
+          },
+          {
+            "id": 12,
+            "context": "Sunrise Foods Limited was incorporated last week and is about to start business. Its secretary, Mrs Ada, is going through the things that must be done before the company commences business. She has also been told that a company must keep certain statutory books and, if it is a bank, file a statement of affairs.",
+            "question": "The company's name and registration number must be painted or affixed",
+            "options": {
+              "a": "Outside every office or place of business of the company",
+              "b": "Outside the registered office of the company only, and nowhere else",
+              "c": "On the cars used by the directors in the company's business",
+              "d": "In the Gazette only, within 14 days of the date of incorporation"
+            },
+            "answer": "a",
+            "explanation": "Under s.729(1) the name and RC number must be painted or affixed outside every office or place of business."
+          },
+          {
+            "id": 13,
+            "context": "Sunrise Foods Limited was incorporated last week and is about to start business. Its secretary, Mrs Ada, is going through the things that must be done before the company commences business. She has also been told that a company must keep certain statutory books and, if it is a bank, file a statement of affairs.",
+            "question": "The company's name must appear on all the following except",
+            "options": {
+              "a": "Cheques and invoices issued in the course of the company's business",
+              "b": "The personal social media accounts of the directors of the company",
+              "c": "Business letters sent out by or on behalf of the company concerned",
+              "d": "Receipts and letters of credit signed on behalf of the company concerned"
+            },
+            "answer": "b",
+            "explanation": "The name and RC number must appear on business letters, notices, adverts, bills of exchange, cheques, orders, invoices, receipts and letters of credit."
+          },
+          {
+            "id": 14,
+            "context": "Sunrise Foods Limited was incorporated last week and is about to start business. Its secretary, Mrs Ada, is going through the things that must be done before the company commences business. She has also been told that a company must keep certain statutory books and, if it is a bank, file a statement of affairs.",
+            "question": "A director who signs a cheque on which the company's name is omitted is",
+            "options": {
+              "a": "Personally liable to the holder unless the company pays it",
+              "b": "Liable only after the company has gone into winding up",
+              "c": "Not liable at all, since he signed on behalf of the company",
+              "d": "Liable only to the Commission and not to the holder of it"
+            },
+            "answer": "a",
+            "explanation": "A person who uses a bill, cheque or seal without the name is personally liable to the holder unless the company pays (s.729(3))."
+          },
+          {
+            "id": 15,
+            "context": "Sunrise Foods Limited was incorporated last week and is about to start business. Its secretary, Mrs Ada, is going through the things that must be done before the company commences business. She has also been told that a company must keep certain statutory books and, if it is a bank, file a statement of affairs.",
+            "question": "A statement of affairs is required to be filed only by",
+            "options": {
+              "a": "All companies, whether public or private, once every financial year",
+              "b": "Public companies only, within three months of the annual meeting",
+              "c": "Banking and insurance companies only, as the Act expressly provides",
+              "d": "Small companies only, in place of the full audited accounts"
+            },
+            "answer": "c",
+            "explanation": "Statement of affairs (s.733): banking and insurance companies only."
+          },
+          {
+            "id": 16,
+            "context": "First Bank lends to Delta Mills Ltd and takes a floating charge over its stock and a fixed charge over its factory land. A later lender also takes a charge on the factory. Counsel for the bank explains how the charges rank and when the floating charge bites.",
+            "question": "A floating charge is a charge on assets of a class that",
+            "options": {
+              "a": "Changes from time to time in the ordinary course of business",
+              "b": "Must be registered at the Land Registry and nowhere else",
+              "c": "Cannot be sold by the company without the lender's consent",
+              "d": "Are fixed once and for all and cannot be changed or sold"
+            },
+            "answer": "a",
+            "explanation": "Per Re Yorkshire Woolcombers the class changes in the ordinary course until the creditor acts."
+          },
+          {
+            "id": 17,
+            "context": "First Bank lends to Delta Mills Ltd and takes a floating charge over its stock and a fixed charge over its factory land. A later lender also takes a charge on the factory. Counsel for the bank explains how the charges rank and when the floating charge bites.",
+            "question": "As between a fixed and a floating charge on the same property, generally",
+            "options": {
+              "a": "The fixed charge ranks first, since it attaches to the asset at once",
+              "b": "The floating charge ranks first, since it was created over the whole undertaking",
+              "c": "The charge created later in time ranks first as the more recent",
+              "d": "The two charges rank equally and share the proceeds of sale in proportion"
+            },
+            "answer": "a",
+            "explanation": "A fixed charge generally beats a floating charge (s.204)."
+          },
+          {
+            "id": 18,
+            "context": "First Bank lends to Delta Mills Ltd and takes a floating charge over its stock and a fixed charge over its factory land. A later lender also takes a charge on the factory. Counsel for the bank explains how the charges rank and when the floating charge bites.",
+            "question": "A floating charge crystallises on all the following except",
+            "options": {
+              "a": "The court appoints a receiver over the assets of the company",
+              "b": "The holder of the charge appoints a receiver over the assets",
+              "c": "The company goes into liquidation and its affairs are wound up",
+              "d": "The company holds its annual general meeting and approves its accounts"
+            },
+            "answer": "d",
+            "explanation": "Crystallisation occurs on appointment of a receiver, court appointment, or liquidation."
+          },
+          {
+            "id": 19,
+            "context": "First Bank lends to Delta Mills Ltd and takes a floating charge over its stock and a fixed charge over its factory land. A later lender also takes a charge on the factory. Counsel for the bank explains how the charges rank and when the floating charge bites.",
+            "question": "A fixed charge over land also requires",
+            "options": {
+              "a": "A court judgment confirming the fixed charge over the land",
+              "b": "An audit certificate showing the value of the land charged",
+              "c": "The consent of the Governor of the State where the land is",
+              "d": "The consent of the SEC to the creation of a charge over land"
+            },
+            "answer": "c",
+            "explanation": "Governor's consent is needed for a charge on land."
+          },
+          {
+            "id": 20,
+            "context": "First Bank lends to Delta Mills Ltd and takes a floating charge over its stock and a fixed charge over its factory land. A later lender also takes a charge on the factory. Counsel for the bank explains how the charges rank and when the floating charge bites.",
+            "question": "Registration of a floating charge at the CAC is",
+            "options": {
+              "a": "Notice to the company only, and to no other person",
+              "b": "Valid for 90 days only, after which it must be renewed",
+              "c": "Not required at all where the lender is a bank",
+              "d": "Deemed notice of the charge to any later chargee over the assets"
+            },
+            "answer": "d",
+            "explanation": "Registration at the CAC is deemed notice to later chargees."
+          }
+        ]
+      },
+      {
+        "id": "criminal-litigation",
+        "name": "Criminal Litigation",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "Mr Segun applies for an adjournment to secure a material witness and another to secure his counsel. The judge refuses both and recites that the defendant has had five adjournments already.",
+            "question": "To get an adjournment to secure a witness, the defendant must satisfy the court of",
+            "options": {
+              "a": "The prosecution's consent, which must be given in writing to the court",
+              "b": "Any one of the conditions laid down by the court in such cases",
+              "c": "All four conditions laid down by the court in such cases",
+              "d": "Two of the four conditions laid down by the court in such cases"
+            },
+            "answer": "c",
+            "explanation": "All four conditions must be shown (Yanor v State)."
+          },
+          {
+            "id": 2,
+            "context": "Mr Segun applies for an adjournment to secure a material witness and another to secure his counsel. The judge refuses both and recites that the defendant has had five adjournments already.",
+            "question": "The conditions for an adjournment to secure a witness include all of these except",
+            "options": {
+              "a": "That the witness is a relative of the defendant and will attend",
+              "b": "That the witness is a material witness whose evidence is needed",
+              "c": "That the defendant has not been negligent in securing the witness",
+              "d": "That a reason is given for the adjournment that is asked for"
+            },
+            "answer": "a",
+            "explanation": "Conditions: reason, witness is material, no negligence, reasonable expectation of attendance."
+          },
+          {
+            "id": 3,
+            "context": "Mr Segun applies for an adjournment to secure a material witness and another to secure his counsel. The judge refuses both and recites that the defendant has had five adjournments already.",
+            "question": "In a capital offence, if defence counsel is absent, the court must",
+            "options": {
+              "a": "Proceed with the trial and let the defendant defend himself in person",
+              "b": "Appoint the prosecutor to look after the interest of the defendant",
+              "c": "Strike out the case, since the defendant has no counsel at all",
+              "d": "Adjourn the case, since the defendant must be represented by counsel"
+            },
+            "answer": "d",
+            "explanation": "Udo v State (1988): in a capital offence, the court must adjourn."
+          },
+          {
+            "id": 4,
+            "context": "Mr Segun applies for an adjournment to secure a material witness and another to secure his counsel. The judge refuses both and recites that the defendant has had five adjournments already.",
+            "question": "Under s.396 ACJA, a defendant is ordinarily entitled to only how many adjournments?",
+            "options": {
+              "a": "10 adjournments, each not exceeding 14 working days at a time",
+              "b": "7 adjournments, each not exceeding 14 working days at a time",
+              "c": "5 adjournments, each not exceeding 14 working days at a time",
+              "d": "3 adjournments, each not exceeding 14 working days at a time"
+            },
+            "answer": "c",
+            "explanation": "Five adjournments, each not exceeding 14 working days."
+          },
+          {
+            "id": 5,
+            "context": "Mr Segun applies for an adjournment to secure a material witness and another to secure his counsel. The judge refuses both and recites that the defendant has had five adjournments already.",
+            "question": "After the five adjournments, further adjournments are at intervals not exceeding",
+            "options": {
+              "a": "30 days between one hearing and the next",
+              "b": "7 days between one hearing and the next",
+              "c": "14 days between one hearing and the next",
+              "d": "21 days between one hearing and the next"
+            },
+            "answer": "b",
+            "explanation": "Further adjournments are at intervals not exceeding 7 days."
+          },
+          {
+            "id": 6,
+            "context": "In a trial for assault, defence counsel cross-examines a prosecution witness aggressively, asks scandalous questions, and then asks one question too many. The judge intervenes.",
+            "question": "Leading questions in cross-examination are",
+            "options": {
+              "a": "Disallowed, since only the party calling the witness may lead",
+              "b": "Allowed, since cross-examination is meant to test the witness",
+              "c": "Allowed in capital cases only and are barred in other cases",
+              "d": "Allowed only with the leave of the judge hearing the case"
+            },
+            "answer": "b",
+            "explanation": "Section 221(3)."
+          },
+          {
+            "id": 7,
+            "context": "In a trial for assault, defence counsel cross-examines a prosecution witness aggressively, asks scandalous questions, and then asks one question too many. The judge intervenes.",
+            "question": "The questions a court may disallow in cross-examination include all of these except",
+            "options": {
+              "a": "Questions that are indecent or scandalous in the nature of their content",
+              "b": "Questions that are insulting or annoying to the witness being questioned",
+              "c": "Questions that are irrelevant to the issues arising in the case",
+              "d": "Closed questions, which call for a short answer of yes or no"
+            },
+            "answer": "d",
+            "explanation": "Sections 227, 228, 224."
+          },
+          {
+            "id": 8,
+            "context": "In a trial for assault, defence counsel cross-examines a prosecution witness aggressively, asks scandalous questions, and then asks one question too many. The judge intervenes.",
+            "question": "The limit of cross-examination is",
+            "options": {
+              "a": "The sky, since counsel may ask any question he pleases of a witness",
+              "b": "Time, since the court may bring it to an end when it is late",
+              "c": "Relevancy, since the questions must relate to the matters in issue",
+              "d": "The patience of the judge, who may stop counsel whenever he wishes"
+            },
+            "answer": "c",
+            "explanation": "Isheno v Julius Berger (2008)."
+          },
+          {
+            "id": 9,
+            "context": "In a trial for assault, defence counsel cross-examines a prosecution witness aggressively, asks scandalous questions, and then asks one question too many. The judge intervenes.",
+            "question": "Failing to cross-examine where warranted may leave the evidence",
+            "options": {
+              "a": "Is void and must be struck out of the record",
+              "b": "Is excluded and may not be relied on by the court",
+              "c": "Is improved and carries greater weight with the court",
+              "d": "Is uncontroverted and may be acted on by the court"
+            },
+            "answer": "d",
+            "explanation": "Ukpong v State (2026)."
+          },
+          {
+            "id": 10,
+            "context": "In a trial for assault, defence counsel cross-examines a prosecution witness aggressively, asks scandalous questions, and then asks one question too many. The judge intervenes.",
+            "question": "The purposes of cross-examination include all of these except",
+            "options": {
+              "a": "To elicit facts that are favourable to the party cross-examining",
+              "b": "To test the credibility of the witness who gave evidence in chief",
+              "c": "To contradict or weaken the evidence that the witness gave in chief",
+              "d": "To restate the evidence in chief in the witness's own words"
+            },
+            "answer": "d",
+            "explanation": "Section 223 lists purposes."
+          },
+          {
+            "id": 11,
+            "context": "Mr Badmus is being prosecuted by the police for an offence under a federal law in a State court. The Attorney-General of the State is considering taking over the case and asks about the extent of his powers.",
+            "question": "To be Attorney-General, a person must have post-call experience of at least",
+            "options": {
+              "a": "5 years' post-call experience, which is the least for any office",
+              "b": "7 years' post-call experience, which is the least for any office",
+              "c": "15 years' post-call experience, which is required for a judge",
+              "d": "10 years' post-call experience, as the Constitution requires"
+            },
+            "answer": "d",
+            "explanation": "Sections 150 and 195(2) CFRN require 10 years' post-call experience."
+          },
+          {
+            "id": 12,
+            "context": "Mr Badmus is being prosecuted by the police for an offence under a federal law in a State court. The Attorney-General of the State is considering taking over the case and asks about the extent of his powers.",
+            "question": "The power of the Attorney-General to institute proceedings extends to every court except",
+            "options": {
+              "a": "The Magistrate Court, since it is a court of summary jurisdiction",
+              "b": "The Court Martial, which is outside his power to institute or take over",
+              "c": "The High Court, since it is the court of general jurisdiction",
+              "d": "The Court of Appeal, since it hears appeals from the High Court"
+            },
+            "answer": "b",
+            "explanation": "The AG's power is unfettered before any court except the Court Martial (Akpa v State)."
+          },
+          {
+            "id": 13,
+            "context": "Mr Badmus is being prosecuted by the police for an offence under a federal law in a State court. The Attorney-General of the State is considering taking over the case and asks about the extent of his powers.",
+            "question": "A State Attorney-General may prosecute a federal offence if he",
+            "options": {
+              "a": "Obtains an order of the Governor of the State to do so",
+              "b": "Obtains a fiat from the Attorney-General of the Federation",
+              "c": "Obtains an order of the court before which the case is to be tried",
+              "d": "Obtains the consent of the Inspector-General of Police to do so"
+            },
+            "answer": "b",
+            "explanation": "He may do so if the federal law operates as a State offence or he obtains the AGF's fiat."
+          },
+          {
+            "id": 14,
+            "context": "Mr Badmus is being prosecuted by the police for an offence under a federal law in a State court. The Attorney-General of the State is considering taking over the case and asks about the extent of his powers.",
+            "question": "The Attorney-General may take over proceedings instituted by",
+            "options": {
+              "a": "Private persons, who are not lawyers",
+              "b": "The Customs Service, which is a body",
+              "c": "Any other authority or person",
+              "d": "The police, who are subordinate to him"
+            },
+            "answer": "c",
+            "explanation": "He may take over and continue proceedings instituted by any other authority or person."
+          },
+          {
+            "id": 15,
+            "context": "Mr Badmus is being prosecuted by the police for an offence under a federal law in a State court. The Attorney-General of the State is considering taking over the case and asks about the extent of his powers.",
+            "question": "Having instituted proceedings, the Attorney-General may",
+            "options": {
+              "a": "Hire a private legal practitioner to conduct them on behalf of the State",
+              "b": "Delegate the conduct of them only to the judges of the High Court",
+              "c": "Not delegate the conduct of them at all, since the power is personal",
+              "d": "Delegate the conduct of them only to officers of the police force"
+            },
+            "answer": "a",
+            "explanation": "He may hire a private legal practitioner to conduct proceedings on the State's behalf."
+          },
+          {
+            "id": 16,
+            "context": "A police team executes a search warrant at Mr Yusuf's house in Kano. They take away stolen laptops named in the warrant and also documents that were not mentioned in it. His lawyer challenges the search.",
+            "question": "In executing the warrant, the officer must",
+            "options": {
+              "a": "Hide the warrant until the search has been completed and the property seized",
+              "b": "Identify himself, show the warrant and give the occupier a copy of it",
+              "c": "Search the premises first and explain what he is doing afterwards",
+              "d": "Wait for the registrar of the court to come and supervise the search"
+            },
+            "answer": "b",
+            "explanation": "Section 59(4) Police Act requires the officer to identify himself, show the warrant and give the occupier a copy."
+          },
+          {
+            "id": 17,
+            "context": "A police team executes a search warrant at Mr Yusuf's house in Kano. They take away stolen laptops named in the warrant and also documents that were not mentioned in it. His lawyer challenges the search.",
+            "question": "In the North and FCT a search should be done in the presence of the occupant and",
+            "options": {
+              "a": "2 witnesses, unless the court directs otherwise in the case",
+              "b": "1 witness, unless the court directs otherwise in the case",
+              "c": "A magistrate, unless the court directs otherwise in the case",
+              "d": "The prosecutor, unless the court directs otherwise in the case"
+            },
+            "answer": "a",
+            "explanation": "Presence of the occupant and 2 witnesses is required unless the court directs otherwise."
+          },
+          {
+            "id": 18,
+            "context": "A police team executes a search warrant at Mr Yusuf's house in Kano. They take away stolen laptops named in the warrant and also documents that were not mentioned in it. His lawyer challenges the search.",
+            "question": "Items seized beyond the scope of the warrant are",
+            "options": {
+              "a": "Generally admissible, subject to the provisions of sections 14 and 15 Evidence Act",
+              "b": "Void in evidence, since the officer acted outside the terms of the warrant",
+              "c": "Always inadmissible, whatever the court may think of the circumstances",
+              "d": "Automatically returned to the owner without being used in evidence"
+            },
+            "answer": "a",
+            "explanation": "Both improperly and illegally obtained evidence are generally admissible, subject to ss.14-15 Evidence Act."
+          },
+          {
+            "id": 19,
+            "context": "A police team executes a search warrant at Mr Yusuf's house in Kano. They take away stolen laptops named in the warrant and also documents that were not mentioned in it. His lawyer challenges the search.",
+            "question": "Admissibility of improperly obtained evidence is governed by",
+            "options": {
+              "a": "Sections 14 and 15 of the Evidence Act 2011, which weigh desirability",
+              "b": "Section 36 of the Constitution, which guarantees the right to fair hearing",
+              "c": "Section 9 of the Administration of Criminal Justice Act, on search",
+              "d": "The Police Act only, which sets out the powers of an officer"
+            },
+            "answer": "a",
+            "explanation": "The court weighs desirability against undesirability under ss.14-15 Evidence Act 2011."
+          },
+          {
+            "id": 20,
+            "context": "A police team executes a search warrant at Mr Yusuf's house in Kano. They take away stolen laptops named in the warrant and also documents that were not mentioned in it. His lawyer challenges the search.",
+            "question": "A search warrant may not be executed within a Legislative House unless",
+            "options": {
+              "a": "The President of the Federal Republic gives a direction to that effect",
+              "b": "The court is sitting and the warrant was issued in open court",
+              "c": "The presiding officer of the Legislative House gives his consent",
+              "d": "The commissioner of police agrees that the warrant may be executed"
+            },
+            "answer": "c",
+            "explanation": "No warrant may be executed in the chambers or precincts without the presiding officer's consent."
+          }
+        ]
+      },
+      {
+        "id": "professional-ethics",
+        "name": "Professional Ethics and Skills",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "A Managing Partner circulates an office memo to a junior associate. A junior associate writes a memo to the Managing Partner. A graduate prepares a CV for a law firm.",
+            "question": "An office memorandum has",
+            "options": {
+              "a": "A complimentary close such as 'Yours faithfully' at its end",
+              "b": "A salutation such as 'Dear Sir' at its beginning",
+              "c": "No salutation and no complimentary close, being internal",
+              "d": "A signature block with the seal of the firm"
+            },
+            "answer": "c",
+            "explanation": "It is an internal written communication."
+          },
+          {
+            "id": 2,
+            "context": "A Managing Partner circulates an office memo to a junior associate. A junior associate writes a memo to the Managing Partner. A graduate prepares a CV for a law firm.",
+            "question": "When a memo goes from a higher to a lower authority, the order is",
+            "options": {
+              "a": "'To' first, followed by the other headings of the memo",
+              "b": "'Date' first, followed by the other headings of the memo",
+              "c": "'Subject' first, followed by the other headings of the memo",
+              "d": "'From' first, followed by the other headings of the memo"
+            },
+            "answer": "d",
+            "explanation": "A lower-to-higher memo puts 'To' first."
+          },
+          {
+            "id": 3,
+            "context": "A Managing Partner circulates an office memo to a junior associate. A junior associate writes a memo to the Managing Partner. A graduate prepares a CV for a law firm.",
+            "question": "A CV should leave out all of these except",
+            "options": {
+              "a": "The religion of the applicant as stated in his CV",
+              "b": "The referees who can speak for the applicant in his CV",
+              "c": "A photograph of the applicant as shown in his CV",
+              "d": "The marital status of the applicant as stated in his CV"
+            },
+            "answer": "b",
+            "explanation": "Leave out photo, religion and marital status."
+          },
+          {
+            "id": 4,
+            "context": "A Managing Partner circulates an office memo to a junior associate. A junior associate writes a memo to the Managing Partner. A graduate prepares a CV for a law firm.",
+            "question": "The CV hobbies and interests should be at least",
+            "options": {
+              "a": "Two hobbies or interests listed in the CV",
+              "b": "Three hobbies or interests listed in the CV",
+              "c": "Five hobbies or interests listed in the CV",
+              "d": "One hobby or interest only, listed in the CV"
+            },
+            "answer": "a",
+            "explanation": "At least 2."
+          },
+          {
+            "id": 5,
+            "context": "A Managing Partner circulates an office memo to a junior associate. A junior associate writes a memo to the Managing Partner. A graduate prepares a CV for a law firm.",
+            "question": "A cover letter",
+            "options": {
+              "a": "Includes a photo of the applicant in the first paragraph",
+              "b": "Is not a repetition of the contents of the CV",
+              "c": "Repeats the contents of the CV in full",
+              "d": "Replaces the CV in an application for a job"
+            },
+            "answer": "b",
+            "explanation": "Tailor it to the job description."
+          },
+          {
+            "id": 6,
+            "context": "A party resists enforcement of a mediated settlement agreement on the ground that the mediator failed to disclose a relationship with the other side. A conciliator is also involved in a related dispute.",
+            "question": "Grounds for refusing enforcement under s.84 AMA include",
+            "options": {
+              "a": "The age of the party resisting enforcement of the agreement",
+              "b": "The gender of the mediator who conducted the mediation",
+              "c": "The weather on the day on which the mediation was held",
+              "d": "A mediator's undisclosed circumstances raising doubt about impartiality"
+            },
+            "answer": "d",
+            "explanation": "Also incapacity, public policy, etc."
+          },
+          {
+            "id": 7,
+            "context": "A party resists enforcement of a mediated settlement agreement on the ground that the mediator failed to disclose a relationship with the other side. A conciliator is also involved in a related dispute.",
+            "question": "A conciliator, unlike a mediator, may",
+            "options": {
+              "a": "Impose a binding decision on the parties to the dispute",
+              "b": "Award damages to the party who is injured",
+              "c": "Issue an injunction against a party to the dispute",
+              "d": "Give an opinion on the merits of the dispute"
+            },
+            "answer": "d",
+            "explanation": "A mediator only facilitates."
+          },
+          {
+            "id": 8,
+            "context": "A party resists enforcement of a mediated settlement agreement on the ground that the mediator failed to disclose a relationship with the other side. A conciliator is also involved in a related dispute.",
+            "question": "A conciliator decides and awards",
+            "options": {
+              "a": "Costs against the party that loses the dispute",
+              "b": "Nothing, since a conciliator does not decide the dispute",
+              "c": "Specific performance of the terms of the contract",
+              "d": "Damages to the party that has been injured"
+            },
+            "answer": "b",
+            "explanation": "Conciliator does not decide."
+          },
+          {
+            "id": 9,
+            "context": "A party resists enforcement of a mediated settlement agreement on the ground that the mediator failed to disclose a relationship with the other side. A conciliator is also involved in a related dispute.",
+            "question": "Under the AMA 2023, 'mediation' is defined to include",
+            "options": {
+              "a": "Litigation conducted before the courts of law",
+              "b": "Arbitration conducted before an arbitral tribunal",
+              "c": "Conciliation, as defined in section 91 of the AMA",
+              "d": "Adjudication conducted by an adjudicator appointed by the court"
+            },
+            "answer": "c",
+            "explanation": "Section 91 AMA."
+          },
+          {
+            "id": 10,
+            "context": "A party resists enforcement of a mediated settlement agreement on the ground that the mediator failed to disclose a relationship with the other side. A conciliator is also involved in a related dispute.",
+            "question": "Forms of ODR do NOT include",
+            "options": {
+              "a": "Technology-assisted negotiation conducted over the internet between the parties",
+              "b": "A physical hearing in a courtroom before a judge",
+              "c": "Online arbitration conducted over the internet between the parties",
+              "d": "Online mediation conducted over the internet between the parties"
+            },
+            "answer": "b",
+            "explanation": "ODR uses the internet."
+          },
+          {
+            "id": 11,
+            "context": "A law firm in Lagos forms companies and holds client money for property deals. The compliance officer tests each lawyer on the AML rules in the RPC 2023 and the Money Laundering Act, asking which statement is false.",
+            "question": "The AML duties apply to all of these transactions except",
+            "options": {
+              "a": "Buying or selling real estate for a client",
+              "b": "Forming legal entities for a client of the firm",
+              "c": "Managing the money belonging to a client of the firm",
+              "d": "Giving legal advice to a client on a lawsuit"
+            },
+            "answer": "d",
+            "explanation": "Rule 57(1) RPC lists the specified transactions."
+          },
+          {
+            "id": 12,
+            "context": "A law firm in Lagos forms companies and holds client money for property deals. The compliance officer tests each lawyer on the AML rules in the RPC 2023 and the Money Laundering Act, asking which statement is false.",
+            "question": "Which of these is NOT true of CDD?",
+            "options": {
+              "a": "The client need not be present for it",
+              "b": "It may be done by questions put in calls",
+              "c": "The client must be physically present at the firm",
+              "d": "It may use information obtained from social media"
+            },
+            "answer": "c",
+            "explanation": "Due diligence can be done by questions, calls and social media."
+          },
+          {
+            "id": 13,
+            "context": "A law firm in Lagos forms companies and holds client money for property deals. The compliance officer tests each lawyer on the AML rules in the RPC 2023 and the Money Laundering Act, asking which statement is false.",
+            "question": "The NBAAMLC does all of these except",
+            "options": {
+              "a": "Monitor the compliance of lawyers with the AML rules",
+              "b": "Disbar lawyers who break the AML rules",
+              "c": "Supervise the AML compliance of lawyers in practice",
+              "d": "Issue guidance to lawyers on the AML rules"
+            },
+            "answer": "b",
+            "explanation": "Rule 73 RPC."
+          },
+          {
+            "id": 14,
+            "context": "A law firm in Lagos forms companies and holds client money for property deals. The compliance officer tests each lawyer on the AML rules in the RPC 2023 and the Money Laundering Act, asking which statement is false.",
+            "question": "Which of these is NOT true of a law firm's screening of clients?",
+            "options": {
+              "a": "It is required against the Nigerian Sanctions List",
+              "b": "It is required against the UN Consolidated List",
+              "c": "It is optional, being left to the choice of the firm",
+              "d": "It is provided for under Rule 60 of the RPC"
+            },
+            "answer": "c",
+            "explanation": "A law firm must screen clients against the lists."
+          },
+          {
+            "id": 15,
+            "context": "A law firm in Lagos forms companies and holds client money for property deals. The compliance officer tests each lawyer on the AML rules in the RPC 2023 and the Money Laundering Act, asking which statement is false.",
+            "question": "Which of these is NOT true of the Money Laundering Act 2022?",
+            "options": {
+              "a": "It excludes legal practitioners from its coverage",
+              "b": "It sets a threshold for individuals under the Act",
+              "c": "It lists legal practitioners as designated non-financial businesses",
+              "d": "It is a source of AML duties for lawyers"
+            },
+            "answer": "a",
+            "explanation": "Section 30 lists legal practitioners as DNFBPs."
+          },
+          {
+            "id": 16,
+            "context": "A law student compares the different models of client interview, while a lawyer counsels a client who wants to bribe a public officer to win a contract. He also advises the client on ADR options.",
+            "question": "Avrom Sherr's model has how many stages?",
+            "options": {
+              "a": "Three stages, namely listening, questioning and advising",
+              "b": "Five stages, from greeting the client to closing the interview",
+              "c": "Seven stages, from preparing for the interview to reflecting",
+              "d": "Eleven stages, from preparation to housekeeping after the interview"
+            },
+            "answer": "a",
+            "explanation": "Listening, questioning, advising."
+          },
+          {
+            "id": 17,
+            "context": "A law student compares the different models of client interview, while a lawyer counsels a client who wants to bribe a public officer to win a contract. He also advises the client on ADR options.",
+            "question": "Chay and Smith's model has",
+            "options": {
+              "a": "Eleven stages, from preparation to housekeeping after the interview",
+              "b": "Three stages, namely listening, questioning and advising",
+              "c": "Five stages, from greeting the client to closing the interview",
+              "d": "Seven stages, from preparing for the interview to reflecting"
+            },
+            "answer": "d",
+            "explanation": "Preparing to reflecting."
+          },
+          {
+            "id": 18,
+            "context": "A law student compares the different models of client interview, while a lawyer counsels a client who wants to bribe a public officer to win a contract. He also advises the client on ADR options.",
+            "question": "Brayne and Grimes's model has",
+            "options": {
+              "a": "Eleven stages, from preparation to housekeeping after the interview",
+              "b": "Three stages, namely listening, questioning and advising",
+              "c": "Seven stages, from preparing for the interview to reflecting",
+              "d": "Five stages, from greeting the client to closing the interview"
+            },
+            "answer": "a",
+            "explanation": "Preparation to housekeeping."
+          },
+          {
+            "id": 19,
+            "context": "A law student compares the different models of client interview, while a lawyer counsels a client who wants to bribe a public officer to win a contract. He also advises the client on ADR options.",
+            "question": "A lawyer must not counsel a client to",
+            "options": {
+              "a": "Mediate the dispute with the other party",
+              "b": "Sue the other party in a court of law",
+              "c": "Commit a crime or corrupt a public officer",
+              "d": "Settle the dispute through ADR with the other party"
+            },
+            "answer": "c",
+            "explanation": "Rule 15(3)(i) RPC."
+          },
+          {
+            "id": 20,
+            "context": "A law student compares the different models of client interview, while a lawyer counsels a client who wants to bribe a public officer to win a contract. He also advises the client on ADR options.",
+            "question": "In counselling, the final decision belongs to",
+            "options": {
+              "a": "The client, though the lawyer may state his preferred option",
+              "b": "The lawyer, who has the skill to decide the matter",
+              "c": "The NBA, which regulates the practice of the profession",
+              "d": "The court, which supervises the conduct of the lawyer"
+            },
+            "answer": "a",
+            "explanation": "The lawyer may state his preferred option."
+          }
+        ]
+      }
+    ]
+  },
+  "cpc-4": {
+    "year": 9997,
+    "session": "CPC Test 4",
+    "examTitle": "Pre-Bar Style MCQ — Corporate, Criminal, Ethics (CPC) Test 4",
+    "totalQuestions": 60,
+    "courses": [
+      {
+        "id": "corporate-law-practice",
+        "name": "Corporate Law Practice",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "At the end of a stormy meeting of Oriental Foods Ltd, members vote on several resolutions, a poll is demanded, and an ordinary and a special resolution are both proposed. The chairman asks the secretary to explain the rules.",
+            "question": "A poll may be demanded by all the following except",
+            "options": {
+              "a": "At least 3 members present at the meeting who are entitled to vote",
+              "b": "One member holding 1% of the votes entitled to be cast",
+              "c": "Members holding one-tenth of the total voting rights of all members",
+              "d": "The chairman of the meeting, whether or not any member asks for it"
+            },
+            "answer": "b",
+            "explanation": "A poll may be demanded by the chairman, at least 3 members, or members with one-tenth of the voting rights."
+          },
+          {
+            "id": 2,
+            "context": "At the end of a stormy meeting of Oriental Foods Ltd, members vote on several resolutions, a poll is demanded, and an ordinary and a special resolution are both proposed. The chairman asks the secretary to explain the rules.",
+            "question": "A special resolution needs at least",
+            "options": {
+              "a": "66% of the votes cast by members entitled to vote",
+              "b": "50% of the votes cast by members entitled to vote",
+              "c": "90% of the votes cast by members entitled to vote",
+              "d": "75% of the votes cast by members entitled to vote"
+            },
+            "answer": "d",
+            "explanation": "A special resolution needs at least 75% of the votes cast."
+          },
+          {
+            "id": 3,
+            "context": "At the end of a stormy meeting of Oriental Foods Ltd, members vote on several resolutions, a poll is demanded, and an ordinary and a special resolution are both proposed. The chairman asks the secretary to explain the rules.",
+            "question": "A special resolution must be filed with the CAC within",
+            "options": {
+              "a": "30 days after the date on which the resolution is passed",
+              "b": "21 days after the date on which the resolution is passed",
+              "c": "15 days after the date on which the resolution is passed",
+              "d": "7 days after the date on which the resolution is passed"
+            },
+            "answer": "c",
+            "explanation": "Section 262 requires filing within 15 days."
+          },
+          {
+            "id": 4,
+            "context": "At the end of a stormy meeting of Oriental Foods Ltd, members vote on several resolutions, a poll is demanded, and an ordinary and a special resolution are both proposed. The chairman asks the secretary to explain the rules.",
+            "question": "Special notice of 28 days is required for all the following except",
+            "options": {
+              "a": "A resolution to remove a director before the end of his term",
+              "b": "A resolution declaring a dividend payable to the members of the company",
+              "c": "A resolution to appoint a life director to the board of the company",
+              "d": "A resolution to remove the auditor of the company before the end of his term"
+            },
+            "answer": "b",
+            "explanation": "Special notice is for removing a director or auditor, appointing a person aged 70+ and appointing a life director; not dividends."
+          },
+          {
+            "id": 5,
+            "context": "At the end of a stormy meeting of Oriental Foods Ltd, members vote on several resolutions, a poll is demanded, and an ordinary and a special resolution are both proposed. The chairman asks the secretary to explain the rules.",
+            "question": "Fresh notice of an adjourned meeting is not needed if it is adjourned for not more than",
+            "options": {
+              "a": "60 days, whatever the reason for the adjournment",
+              "b": "7 days, whatever the reason for the adjournment",
+              "c": "14 days, whatever the reason for the adjournment",
+              "d": "30 days, whatever the reason for the adjournment"
+            },
+            "answer": "d",
+            "explanation": "No notice is needed if the adjournment is for not more than 30 days (s.264(2))."
+          },
+          {
+            "id": 6,
+            "context": "Mr Ali has a dispute over the name of a private company and the removal of a director, and the CAC refers it to its own Administrative Proceedings Committee. He asks who sits on it, what it can decide and where an appeal goes.",
+            "question": "The CAC Administrative Proceedings Committee is chaired by",
+            "options": {
+              "a": "The Attorney-General of the Federation, who is the chief law officer",
+              "b": "The Registrar-General of the Corporate Affairs Commission by virtue of office",
+              "c": "The Minister of Trade, Industry and Investment by virtue of his office",
+              "d": "A judge of the High Court nominated by the Chief Judge"
+            },
+            "answer": "b",
+            "explanation": "The Registrar-General is chairman under s.851(1)."
+          },
+          {
+            "id": 7,
+            "context": "Mr Ali has a dispute over the name of a private company and the removal of a director, and the CAC refers it to its own Administrative Proceedings Committee. He asks who sits on it, what it can decide and where an appeal goes.",
+            "question": "The quorum of the CAC Administrative Proceedings Committee is",
+            "options": {
+              "a": "Six members, being a clear majority of the committee as constituted",
+              "b": "Four members, being a majority of the seven members of the committee",
+              "c": "Seven members, being all of the members of the committee as constituted",
+              "d": "Two members, being the chairman and one other member of the committee"
+            },
+            "answer": "b",
+            "explanation": "The quorum is 4 of its 7 members."
+          },
+          {
+            "id": 8,
+            "context": "Mr Ali has a dispute over the name of a private company and the removal of a director, and the CAC refers it to its own Administrative Proceedings Committee. He asks who sits on it, what it can decide and where an appeal goes.",
+            "question": "The CAC committee can decide all these matters except",
+            "options": {
+              "a": "Disputes over shares in private companies and their registers of members",
+              "b": "Disputes over shares in public companies, which go under the ISA and SEC",
+              "c": "Disputes over the names of companies and their registration by the Commission",
+              "d": "Disputes over the removal of directors of a company by its members"
+            },
+            "answer": "b",
+            "explanation": "Public company shares go under the ISA and SEC; the CAC committee handles names, private- company shares and directors."
+          },
+          {
+            "id": 9,
+            "context": "Mr Ali has a dispute over the name of a private company and the removal of a director, and the CAC refers it to its own Administrative Proceedings Committee. He asks who sits on it, what it can decide and where an appeal goes.",
+            "question": "An appeal from the CAC committee lies to",
+            "options": {
+              "a": "The Federal High Court, which hears the appeal from the committee",
+              "b": "The Supreme Court, which hears the appeal directly from the committee",
+              "c": "The Investments and Securities Tribunal, which hears the appeal in the first place",
+              "d": "The Court of Appeal, which hears the appeal directly from the committee"
+            },
+            "answer": "a",
+            "explanation": "Appeal goes to the Federal High Court, in contrast to the IST where it goes to the Court of Appeal."
+          },
+          {
+            "id": 10,
+            "context": "Mr Ali has a dispute over the name of a private company and the removal of a director, and the CAC refers it to its own Administrative Proceedings Committee. He asks who sits on it, what it can decide and where an appeal goes.",
+            "question": "Decisions of the CAC committee need confirmation by",
+            "options": {
+              "a": "The Governing Board of the Corporate Affairs Commission",
+              "b": "The Minister of Trade, Industry and Investment",
+              "c": "The President of the Federal Republic of Nigeria",
+              "d": "The Securities and Exchange Commission"
+            },
+            "answer": "a",
+            "explanation": "The decisions need confirmation by the CAC Governing Board."
+          },
+          {
+            "id": 11,
+            "context": "Chief Okon plans a company with a foreign partner and has begun to sign contracts on its behalf before the company exists. The foreign partner's expatriate staff will come in under the quota system. Their lawyer explains the immigration rules and the position of promoters.",
+            "question": "The expatriate quota is the duty of",
+            "options": {
+              "a": "The Nigeria Investment Promotion Commission, which grants it on application",
+              "b": "The expatriate employee, who must obtain it before he starts work",
+              "c": "The company, which must obtain it for the expatriates it employs",
+              "d": "The Immigration Service, which issues it on the employee's own request"
+            },
+            "answer": "c",
+            "explanation": "Per Oilfields Supply Centre v Johnson, obtaining the quota is the duty of the company, not the employee."
+          },
+          {
+            "id": 12,
+            "context": "Chief Okon plans a company with a foreign partner and has begun to sign contracts on its behalf before the company exists. The foreign partner's expatriate staff will come in under the quota system. Their lawyer explains the immigration rules and the position of promoters.",
+            "question": "A Permanent Until Reviewed quota position is given to",
+            "options": {
+              "a": "The chairman or the managing director of the company only",
+              "b": "All senior staff of the company who hold a degree",
+              "c": "Any employee who has served the company for five years",
+              "d": "Every director of the company, whether executive or non-executive"
+            },
+            "answer": "a",
+            "explanation": "PUR is for the chairman or MD only; other directors and staff get temporary quota."
+          },
+          {
+            "id": 13,
+            "context": "Chief Okon plans a company with a foreign partner and has begun to sign contracts on its behalf before the company exists. The foreign partner's expatriate staff will come in under the quota system. Their lawyer explains the immigration rules and the position of promoters.",
+            "question": "CERPAC is required of all the following except",
+            "options": {
+              "a": "An expatriate engineer resident in Nigeria for more than 56 days",
+              "b": "A foreign investor resident in Nigeria for more than 56 days",
+              "c": "An expatriate manager resident in Nigeria for more than 56 days",
+              "d": "A citizen of an ECOWAS member State who is resident in Nigeria"
+            },
+            "answer": "d",
+            "explanation": "CERPAC is not for ECOWAS citizens, diplomats and children under 15."
+          },
+          {
+            "id": 14,
+            "context": "Chief Okon plans a company with a foreign partner and has begun to sign contracts on its behalf before the company exists. The foreign partner's expatriate staff will come in under the quota system. Their lawyer explains the immigration rules and the position of promoters.",
+            "question": "Under s.96(2) CAMA, until a pre-incorporation contract is ratified, who is personally bound?",
+            "options": {
+              "a": "The Corporate Affairs Commission, which registers the company in due course",
+              "b": "No one at all, since the company does not yet exist at law",
+              "c": "The creditors of the promoter, who made the contract with the third party",
+              "d": "The person who acted for the company, unless the parties agree otherwise"
+            },
+            "answer": "d",
+            "explanation": "Until ratification the person who acted is personally bound unless otherwise agreed."
+          },
+          {
+            "id": 15,
+            "context": "Chief Okon plans a company with a foreign partner and has begun to sign contracts on its behalf before the company exists. The foreign partner's expatriate staff will come in under the quota system. Their lawyer explains the immigration rules and the position of promoters.",
+            "question": "Which of the following is NOT a promoter?",
+            "options": {
+              "a": "A lawyer who only advises the founders in his professional capacity",
+              "b": "A lawyer who takes shares in the company in place of his fees",
+              "c": "A person who undertakes to form a company for a particular project",
+              "d": "A person who takes the necessary steps to form a company"
+            },
+            "answer": "a",
+            "explanation": "Professionals merely acting in their capacity are not promoters, except a lawyer who takes shares in lieu of fees."
+          },
+          {
+            "id": 16,
+            "context": "Bright Star Limited filed its incorporation documents with the Corporate Affairs Commission through the online portal. The Commission refused registration on the ground that the memorandum was not in compliance with the Act. The promoters' lawyer wants to know the steps already taken, the grounds for refusal and what to do next.",
+            "question": "After taking instructions, the first step in incorporating a company is",
+            "options": {
+              "a": "Filing of the memorandum and articles of association with the Commission",
+              "b": "Downloading of the certificate of incorporation from the Commission's portal",
+              "c": "An availability check and reservation of the proposed name of the company",
+              "d": "Payment of the stamp duties on the memorandum of the company"
+            },
+            "answer": "c",
+            "explanation": "The steps start with instructions, then the availability check and reservation of name (Form CAC 1)."
+          },
+          {
+            "id": 17,
+            "context": "Bright Star Limited filed its incorporation documents with the Corporate Affairs Commission through the online portal. The Commission refused registration on the ground that the memorandum was not in compliance with the Act. The promoters' lawyer wants to know the steps already taken, the grounds for refusal and what to do next.",
+            "question": "Within what period of registration should the incorporation documents be downloaded, after which a fee applies?",
+            "options": {
+              "a": "Within 30 days of registration, after which a fee will apply",
+              "b": "Within 21 days of registration, after which a fee will apply",
+              "c": "Within 7 days of registration, after which a fee will apply",
+              "d": "Within 14 days of registration, after which a fee will apply"
+            },
+            "answer": "c",
+            "explanation": "Download within 7 days of registration, after which a fee applies."
+          },
+          {
+            "id": 18,
+            "context": "Bright Star Limited filed its incorporation documents with the Corporate Affairs Commission through the online portal. The Commission refused registration on the ground that the memorandum was not in compliance with the Act. The promoters' lawyer wants to know the steps already taken, the grounds for refusal and what to do next.",
+            "question": "The CAC may refuse registration on the following grounds except",
+            "options": {
+              "a": "The object of the company is illegal or contrary to public policy",
+              "b": "The memorandum or articles do not comply with the Act",
+              "c": "A subscriber to the memorandum is a person disqualified by law",
+              "d": "All the promoters of the company come from one state"
+            },
+            "answer": "d",
+            "explanation": "Grounds (NIDE): non-compliant memorandum/articles, illegal object, disqualified subscriber, and existing name or trademark conflict or other law not complied with."
+          },
+          {
+            "id": 19,
+            "context": "Bright Star Limited filed its incorporation documents with the Corporate Affairs Commission through the online portal. The Commission refused registration on the ground that the memorandum was not in compliance with the Act. The promoters' lawyer wants to know the steps already taken, the grounds for refusal and what to do next.",
+            "question": "Within what period of receiving the company's notice must the CAC apply to court for directions after a refusal?",
+            "options": {
+              "a": "Within 21 days of receiving the company's notice requiring it to do so",
+              "b": "Within 7 days of receiving the company's notice requiring it to do so",
+              "c": "Within 30 days of receiving the company's notice requiring it to do so",
+              "d": "Within 14 days of receiving the company's notice requiring it to do so"
+            },
+            "answer": "a",
+            "explanation": "After refusal the company gives notice requiring the CAC to apply to court; CAC must apply within 21 days of receiving the notice."
+          },
+          {
+            "id": 20,
+            "context": "Bright Star Limited filed its incorporation documents with the Corporate Affairs Commission through the online portal. The Commission refused registration on the ground that the memorandum was not in compliance with the Act. The promoters' lawyer wants to know the steps already taken, the grounds for refusal and what to do next.",
+            "question": "A company becomes a body corporate from",
+            "options": {
+              "a": "The date of the first board meeting held after the application",
+              "b": "The date on which the application was filed with the Commission",
+              "c": "The date appearing on the certificate of incorporation issued to it",
+              "d": "The date on which the proposed name was reserved by the promoters"
+            },
+            "answer": "c",
+            "explanation": "The company is a body corporate from the date on the certificate (s.42)."
+          }
+        ]
+      },
+      {
+        "id": "criminal-litigation",
+        "name": "Criminal Litigation",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "A High Court judge hears bail applications from a murder suspect, a man charged with a felony and a man charged with a misdemeanour. The registrar notes the rules that apply in each case.",
+            "question": "Which of these is NOT true of bail in a capital offence?",
+            "options": {
+              "a": "Delay of more than one year in the prosecution may count under the ACJA",
+              "b": "Special circumstances must be shown before the court will grant it",
+              "c": "A Magistrate may grant it, since he has jurisdiction over such offences",
+              "d": "Only a High Court judge may grant it, and then in special circumstances"
+            },
+            "answer": "c",
+            "explanation": "Only a High Court Judge may grant bail in capital offences, in special circumstances."
+          },
+          {
+            "id": 2,
+            "context": "A High Court judge hears bail applications from a murder suspect, a man charged with a felony and a man charged with a misdemeanour. The registrar notes the rules that apply in each case.",
+            "question": "Which of these is NOT true of bail for a misdemeanour?",
+            "options": {
+              "a": "It is refused as of course, unless the court sees a reason to grant it",
+              "b": "The court may see a reason to refuse it in a proper case",
+              "c": "The offence carries a punishment of under 3 years' imprisonment",
+              "d": "It is granted as of course, unless the court sees a reason otherwise"
+            },
+            "answer": "a",
+            "explanation": "Bail is granted as of course, unless the court sees reason otherwise."
+          },
+          {
+            "id": 3,
+            "context": "A High Court judge hears bail applications from a murder suspect, a man charged with a felony and a man charged with a misdemeanour. The registrar notes the rules that apply in each case.",
+            "question": "Special circumstances in a capital case include all of these except",
+            "options": {
+              "a": "Any other circumstance that the judge considers to be exceptional",
+              "b": "Ill-health certified by a qualified practitioner at a government hospital",
+              "c": "Extraordinary delay in the investigation or prosecution of the case",
+              "d": "The accused's high social standing or his position in his community"
+            },
+            "answer": "d",
+            "explanation": "The special circumstances are ill-health, extraordinary delay and other exceptional circumstances."
+          },
+          {
+            "id": 4,
+            "context": "A High Court judge hears bail applications from a murder suspect, a man charged with a felony and a man charged with a misdemeanour. The registrar notes the rules that apply in each case.",
+            "question": "Which of these is NOT true of a bail application procedure?",
+            "options": {
+              "a": "A refusal by the Magistrate is not appealable to any higher court",
+              "b": "A refusal by the Magistrate is appealable to the High Court",
+              "c": "A fresh application is made to a judge of the High Court",
+              "d": "A bail summons opens with the words 'Let all parties' and is heard in chambers"
+            },
+            "answer": "b",
+            "explanation": "A Magistrate's refusal is not appealable; a fresh application is made to a High Court judge."
+          },
+          {
+            "id": 5,
+            "context": "A High Court judge hears bail applications from a murder suspect, a man charged with a felony and a man charged with a misdemeanour. The registrar notes the rules that apply in each case.",
+            "question": "A surety may NOT be",
+            "options": {
+              "a": "Asked to show that he is of good character and standing",
+              "b": "Prosecuted criminally merely because the defendant failed to appear in court",
+              "c": "A woman, including a woman who is pregnant at the time",
+              "d": "Required to have a known place of abode within the jurisdiction"
+            },
+            "answer": "b",
+            "explanation": "A surety cannot be criminally prosecuted merely for failing to produce the defendant."
+          },
+          {
+            "id": 6,
+            "context": "Mr Sani is charged with sedition which allegedly happened over a year ago. At arraignment, his lawyer wants to take a preliminary objection. Another co-accused has been previously tried and acquitted of a similar offence.",
+            "question": "The limitation period for sedition is",
+            "options": {
+              "a": "7 years from the date of commission of the offence of sedition",
+              "b": "6 months from the date of commission of the offence of sedition",
+              "c": "3 months from the date of commission of the offence of sedition",
+              "d": "2 years from the date of commission of the offence of sedition"
+            },
+            "answer": "b",
+            "explanation": "6 months - s.52/s.54 Criminal Code."
+          },
+          {
+            "id": 7,
+            "context": "Mr Sani is charged with sedition which allegedly happened over a year ago. At arraignment, his lawyer wants to take a preliminary objection. Another co-accused has been previously tried and acquitted of a similar offence.",
+            "question": "The limitation period for treason is",
+            "options": {
+              "a": "2 years from the date of the commission of the offence of treason",
+              "b": "6 months from the date of the commission of the offence of treason",
+              "c": "3 months from the date of the commission of the offence of treason",
+              "d": "2 months from the date of the commission of the offence of treason"
+            },
+            "answer": "a",
+            "explanation": "2 years."
+          },
+          {
+            "id": 8,
+            "context": "Mr Sani is charged with sedition which allegedly happened over a year ago. At arraignment, his lawyer wants to take a preliminary objection. Another co-accused has been previously tried and acquitted of a similar offence.",
+            "question": "Failure to raise a preliminary objection before plea is taken is deemed",
+            "options": {
+              "a": "A fresh charge, to which the defendant must plead afresh in court",
+              "b": "A confession of guilt by the defendant, which the court may act on",
+              "c": "A submission to the jurisdiction of the court in the case",
+              "d": "An appeal against the decision of the court on jurisdiction"
+            },
+            "answer": "c",
+            "explanation": "Deemed submission to jurisdiction."
+          },
+          {
+            "id": 9,
+            "context": "Mr Sani is charged with sedition which allegedly happened over a year ago. At arraignment, his lawyer wants to take a preliminary objection. Another co-accused has been previously tried and acquitted of a similar offence.",
+            "question": "The Madukolu v Nkemdilim conditions include all of these except",
+            "options": {
+              "a": "That the court is properly constituted as to number and qualification",
+              "b": "That the subject-matter of the case is within the jurisdiction of the court",
+              "c": "That the action was initiated by due process and conditions precedent met",
+              "d": "That the defendant is present in court throughout the whole of the trial"
+            },
+            "answer": "d",
+            "explanation": "Four components: constitution, subject-matter, due process, conditions precedent."
+          },
+          {
+            "id": 10,
+            "context": "Mr Sani is charged with sedition which allegedly happened over a year ago. At arraignment, his lawyer wants to take a preliminary objection. Another co-accused has been previously tried and acquitted of a similar offence.",
+            "question": "The conditions for the bar plea must be proved by",
+            "options": {
+              "a": "The judge, who must satisfy himself before the defendant is called on",
+              "b": "The defendant, who must prove all four of the conditions himself",
+              "c": "The registrar, who keeps the record of the earlier trial",
+              "d": "The prosecution, who must show that the earlier trial does not bar it"
+            },
+            "answer": "b",
+            "explanation": "The defendant must prove all four conditions."
+          },
+          {
+            "id": 11,
+            "context": "A bank clerk is charged in one count with stealing money on many occasions and in another count with stealing goods. The defence says the counts are duplicitous and ambiguous.",
+            "question": "Each count of a charge must disclose",
+            "options": {
+              "a": "The name of the prosecutor, which must appear in each count",
+              "b": "The sentence that the defendant is liable to if he is convicted",
+              "c": "Several offences, which may be joined in one count for convenience",
+              "d": "One offence only, since a count may not charge more than one offence"
+            },
+            "answer": "d",
+            "explanation": "The rule against duplicity: each count discloses one offence only."
+          },
+          {
+            "id": 12,
+            "context": "A bank clerk is charged in one count with stealing money on many occasions and in another count with stealing goods. The defence says the counts are duplicitous and ambiguous.",
+            "question": "A general deficiency may be charged in one count by an aggregate sum, but only for",
+            "options": {
+              "a": "Money, but not goods, since the exception applies only to money",
+              "b": "Vehicles, which may be charged in one count by their total value",
+              "c": "Land, which may be charged in one count by its total value",
+              "d": "Goods, but not money, since the exception applies only to goods"
+            },
+            "answer": "a",
+            "explanation": "The exception applies only to money, not goods (The Queen v Ugwu)."
+          },
+          {
+            "id": 13,
+            "context": "A bank clerk is charged in one count with stealing money on many occasions and in another count with stealing goods. The defence says the counts are duplicitous and ambiguous.",
+            "question": "Where money in different currencies is involved, the charge must",
+            "options": {
+              "a": "Omit the amount from the count, and state it in the proof of evidence",
+              "b": "Convert the amounts to naira and state the total in one count",
+              "c": "Use one count for all the currencies, stating the total of them",
+              "d": "Use separate counts for each of the currencies involved in the offence"
+            },
+            "answer": "d",
+            "explanation": "Different currencies must be specified in separate counts."
+          },
+          {
+            "id": 14,
+            "context": "A bank clerk is charged in one count with stealing money on many occasions and in another count with stealing goods. The defence says the counts are duplicitous and ambiguous.",
+            "question": "The rule against ambiguity is",
+            "options": {
+              "a": "It applies to the court only and not to the prosecution",
+              "b": "It is subject to many exceptions, as is the rule against duplicity",
+              "c": "It does not apply to the counts of a charge or an information",
+              "d": "It is the only rule of charge drafting that has no exception"
+            },
+            "answer": "d",
+            "explanation": "It is the only rule with no exceptions and attaches to each count."
+          },
+          {
+            "id": 15,
+            "context": "A bank clerk is charged in one count with stealing money on many occasions and in another count with stealing goods. The defence says the counts are duplicitous and ambiguous.",
+            "question": "Overt acts in treason may be",
+            "options": {
+              "a": "They may be charged together in one count of the charge",
+              "b": "They may be charged only singly, each in a separate count",
+              "c": "They are left to the jury to decide at the end of the trial",
+              "d": "They may be omitted from the charge and proved at the trial"
+            },
+            "answer": "a",
+            "explanation": "R v Omisade: overt acts in treason may be charged together in one count."
+          },
+          {
+            "id": 16,
+            "context": "Mrs Ada, who is pregnant, is convicted of murder in Lagos. In another case, a 16-year-old is convicted of murder. The judge considers the sentences available and the mode of execution.",
+            "question": "Under the ACJL Lagos, a pregnant woman convicted of a capital offence gets",
+            "options": {
+              "a": "A fine in place of the death sentence otherwise provided for",
+              "b": "Death by hanging, as in the case of any other woman convict",
+              "c": "Life imprisonment in place of the sentence of death, under section 302(2)",
+              "d": "Probation, after the court has received a report from a probation officer"
+            },
+            "answer": "c",
+            "explanation": "Section 302(2) ACJL Lagos."
+          },
+          {
+            "id": 17,
+            "context": "Mrs Ada, who is pregnant, is convicted of murder in Lagos. In another case, a 16-year-old is convicted of murder. The judge considers the sentences available and the mode of execution.",
+            "question": "A young person (14 to under 18) cannot be sentenced to",
+            "options": {
+              "a": "Detention, which is available for a person of that age",
+              "b": "Probation, which is available for a person of that age",
+              "c": "Death, which the law forbids for a person of that age",
+              "d": "Imprisonment, which is available for a person of that age"
+            },
+            "answer": "c",
+            "explanation": "Section 302(3) ACJL Lagos."
+          },
+          {
+            "id": 18,
+            "context": "Mrs Ada, who is pregnant, is convicted of murder in Lagos. In another case, a 16-year-old is convicted of murder. The judge considers the sentences available and the mode of execution.",
+            "question": "Armed robbery under the Robbery and Firearms Act is punishable by",
+            "options": {
+              "a": "Hanging, which the Act provides for every armed robbery of any kind",
+              "b": "Death by firing squad, as provided in the Robbery and Firearms Act",
+              "c": "Stoning, which the Act provides for armed robbery by a group",
+              "d": "Lethal injection, which the Act provides for armed robbery of any kind"
+            },
+            "answer": "b",
+            "explanation": "Section 1(2) of the Act."
+          },
+          {
+            "id": 19,
+            "context": "Mrs Ada, who is pregnant, is convicted of murder in Lagos. In another case, a 16-year-old is convicted of murder. The judge considers the sentences available and the mode of execution.",
+            "question": "The prerogative of mercy is exercised by petition to",
+            "options": {
+              "a": "The President or the Governor, as the case may be",
+              "b": "The Attorney-General alone, who then advises the court",
+              "c": "The Supreme Court, which may then vary the sentence",
+              "d": "The Chief Judge, who then refers it to the Council"
+            },
+            "answer": "a",
+            "explanation": "Sections 175, 212 CFRN."
+          },
+          {
+            "id": 20,
+            "context": "Mrs Ada, who is pregnant, is convicted of murder in Lagos. In another case, a 16-year-old is convicted of murder. The judge considers the sentences available and the mode of execution.",
+            "question": "The Council of State may NOT",
+            "options": {
+              "a": "Commute the sentence to a fixed term of imprisonment",
+              "b": "Commute the sentence of death to life imprisonment",
+              "c": "Order a retrial of the convict before another court of law",
+              "d": "Advise the grant of a pardon to the convict on petition"
+            },
+            "answer": "c",
+            "explanation": "Options: pardon, commutation to life or term, or sentence carried out."
+          }
+        ]
+      },
+      {
+        "id": "professional-ethics",
+        "name": "Professional Ethics and Skills",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "The President wishes to appoint a new Chief Justice of Nigeria and a new Chief Judge of a State. A Senator asks who recommends and who confirms each appointment.",
+            "question": "Justices of the Supreme Court are appointed by the President on the recommendation of",
+            "options": {
+              "a": "The Nigerian Bar Association through its National Executive",
+              "b": "The Body of Benchers through its Secretary",
+              "c": "The National Judicial Council, under section 231 of the Constitution",
+              "d": "The Senate of the Federal Republic of Nigeria"
+            },
+            "answer": "c",
+            "explanation": "Section 231 CFRN."
+          },
+          {
+            "id": 2,
+            "context": "The President wishes to appoint a new Chief Justice of Nigeria and a new Chief Judge of a State. A Senator asks who recommends and who confirms each appointment.",
+            "question": "The CJN's appointment is confirmed by",
+            "options": {
+              "a": "The Nigerian Bar Association through its National Executive",
+              "b": "The House of Representatives sitting in plenary",
+              "c": "The Council of State presided over by the President",
+              "d": "The Senate of the National Assembly of Nigeria"
+            },
+            "answer": "d",
+            "explanation": "Senate confirmation."
+          },
+          {
+            "id": 3,
+            "context": "The President wishes to appoint a new Chief Justice of Nigeria and a new Chief Judge of a State. A Senator asks who recommends and who confirms each appointment.",
+            "question": "A Chief Judge of a State is appointed by",
+            "options": {
+              "a": "The Chief Justice of Nigeria, with confirmation by the Senate",
+              "b": "The Senate, with confirmation by the National Judicial Council",
+              "c": "The Governor, on the NJC's recommendation, with House of Assembly confirmation",
+              "d": "The President, on the NJC's recommendation, with Senate confirmation"
+            },
+            "answer": "c",
+            "explanation": "Section 271 CFRN."
+          },
+          {
+            "id": 4,
+            "context": "The President wishes to appoint a new Chief Justice of Nigeria and a new Chief Judge of a State. A Senator asks who recommends and who confirms each appointment.",
+            "question": "Confirmation is required for all of these except",
+            "options": {
+              "a": "The Chief Justice of Nigeria, as head of the Supreme Court",
+              "b": "The President of the Court of Appeal, as head of that court",
+              "c": "Ordinary Justices of the Court of Appeal in that court",
+              "d": "The Chief Judge of the Federal High Court, as head of it"
+            },
+            "answer": "c",
+            "explanation": "Only the head of court needs confirmation."
+          },
+          {
+            "id": 5,
+            "context": "The President wishes to appoint a new Chief Justice of Nigeria and a new Chief Judge of a State. A Senator asks who recommends and who confirms each appointment.",
+            "question": "To fill a temporary vacancy in headship, the most senior Justice acts for",
+            "options": {
+              "a": "For three months, and no longer, unless he is reappointed",
+              "b": "For six months, and no longer, unless he is reappointed",
+              "c": "For one month, and no longer, unless he is reappointed",
+              "d": "For one year, and no longer, unless he is reappointed"
+            },
+            "answer": "a",
+            "explanation": "Reappointment beyond that requires an NJC recommendation."
+          },
+          {
+            "id": 6,
+            "context": "A judicial officer is accused of misconduct. The NJC receives a petition, and the LPDC takes up another lawyer's case. A student must identify which of the statements about these bodies is wrong.",
+            "question": "Which of these is NOT true of the NJC?",
+            "options": {
+              "a": "It can remove a judge from office by itself",
+              "b": "It can warn a judge who has misbehaved",
+              "c": "It can recommend the removal of a judge",
+              "d": "It can put a judge on a watch list"
+            },
+            "answer": "a",
+            "explanation": "It can only recommend removal."
+          },
+          {
+            "id": 7,
+            "context": "A judicial officer is accused of misconduct. The NJC receives a petition, and the LPDC takes up another lawyer's case. A student must identify which of the statements about these bodies is wrong.",
+            "question": "Supreme Court Justices retire compulsorily at",
+            "options": {
+              "a": "Sixty years of age, under section 291 of the Constitution",
+              "b": "Seventy-five years of age, under section 291 of the Constitution",
+              "c": "Sixty-five years of age, under section 291 of the Constitution",
+              "d": "Seventy years of age, under section 291 of the Constitution"
+            },
+            "answer": "d",
+            "explanation": "Section 291 CFRN."
+          },
+          {
+            "id": 8,
+            "context": "A judicial officer is accused of misconduct. The NJC receives a petition, and the LPDC takes up another lawyer's case. A student must identify which of the statements about these bodies is wrong.",
+            "question": "Which of these is NOT one of the professional offences under s.12 LPA?",
+            "options": {
+              "a": "Conviction for an offence by a court of law",
+              "b": "Late payment of practising fees by the lawyer",
+              "c": "Infamous conduct in a professional respect",
+              "d": "Obtaining registration as a lawyer by fraud"
+            },
+            "answer": "b",
+            "explanation": "Mnemonic ICOC."
+          },
+          {
+            "id": 9,
+            "context": "A judicial officer is accused of misconduct. The NJC receives a petition, and the LPDC takes up another lawyer's case. A student must identify which of the statements about these bodies is wrong.",
+            "question": "The documents accompanying an LPDC application include all of these except",
+            "options": {
+              "a": "Documents on which the applicant intends to rely",
+              "b": "A sworn declaration by the lawyer complained against",
+              "c": "An affidavit in support of the application",
+              "d": "A statement setting out the complaint of the applicant"
+            },
+            "answer": "b",
+            "explanation": "SAD: Statement, Affidavit, Documents."
+          },
+          {
+            "id": 10,
+            "context": "A judicial officer is accused of misconduct. The NJC receives a petition, and the LPDC takes up another lawyer's case. A student must identify which of the statements about these bodies is wrong.",
+            "question": "Which of these is NOT true of LPDC proceedings?",
+            "options": {
+              "a": "The Evidence Act does not apply to the hearing",
+              "b": "They are not criminal proceedings in nature",
+              "c": "The Evidence Act applies to the hearing",
+              "d": "An appeal lies from its decision to the Supreme Court"
+            },
+            "answer": "c",
+            "explanation": "The Evidence Act does not apply at LPDC hearings."
+          },
+          {
+            "id": 11,
+            "context": "A foreign lawyer from a country with a legal system similar to Nigeria's has been briefed to appear in one case in Lagos. The client asks how he may be allowed to practise.",
+            "question": "Such a lawyer may practise in Nigeria by",
+            "options": {
+              "a": "Automatic admission to practise on his arrival in Nigeria",
+              "b": "A warrant from the Chief Justice for the particular proceedings",
+              "c": "Enrolment by the Bar Council as a foreign lawyer",
+              "d": "A licence from the Attorney-General of the Federation"
+            },
+            "answer": "b",
+            "explanation": "Section 2(2) LPA."
+          },
+          {
+            "id": 12,
+            "context": "A foreign lawyer from a country with a legal system similar to Nigeria's has been briefed to appear in one case in Lagos. The client asks how he may be allowed to practise.",
+            "question": "The warrant authorises him to practise as",
+            "options": {
+              "a": "A barrister only, for the proceedings and any appeal",
+              "b": "A barrister and solicitor in all courts of the land",
+              "c": "A notary public in all the courts of the land",
+              "d": "A solicitor only, for the proceedings and any appeal"
+            },
+            "answer": "a",
+            "explanation": "A barrister only, for the proceedings and any appeal from them."
+          },
+          {
+            "id": 13,
+            "context": "A foreign lawyer from a country with a legal system similar to Nigeria's has been briefed to appear in one case in Lagos. The client asks how he may be allowed to practise.",
+            "question": "A warrant under s.2(2) LPA does not override",
+            "options": {
+              "a": "The court fees payable in the proceedings",
+              "b": "Other legal disabilities, such as visa requirements",
+              "c": "The directions given by the judge in court",
+              "d": "The case file kept by the registrar of the court"
+            },
+            "answer": "b",
+            "explanation": "Awolowo v Minister of Internal Affairs."
+          },
+          {
+            "id": 14,
+            "context": "A foreign lawyer from a country with a legal system similar to Nigeria's has been briefed to appear in one case in Lagos. The client asks how he may be allowed to practise.",
+            "question": "A person entitled to practise by virtue of office may practise",
+            "options": {
+              "a": "Privately, for any client who engages his services",
+              "b": "After retirement from that office, for his own benefit",
+              "c": "In any court in Nigeria, as a legal practitioner",
+              "d": "Only while in that office and for its purposes"
+            },
+            "answer": "d",
+            "explanation": "Section 2(3) LPA."
+          },
+          {
+            "id": 15,
+            "context": "A foreign lawyer from a country with a legal system similar to Nigeria's has been briefed to appear in one case in Lagos. The client asks how he may be allowed to practise.",
+            "question": "Persons entitled to practise by virtue of office include all of these except",
+            "options": {
+              "a": "The Attorney-General, who is the chief law officer",
+              "b": "The Solicitor-General, who is the deputy of the Attorney-General",
+              "c": "The Director of Public Prosecutions, who prosecutes offences",
+              "d": "A private legal practitioner practising in his own chambers"
+            },
+            "answer": "d",
+            "explanation": "Section 2(3) LPA."
+          },
+          {
+            "id": 16,
+            "context": "A dispute arises over a contract breach, a criminal charge, a divorce petition, and a gaming wager. The parties ask which matters can be referred to arbitration.",
+            "question": "Arbitrable matters include all of these except",
+            "options": {
+              "a": "Actions in tort brought by one party against another",
+              "b": "Claims for breach of a commercial contract",
+              "c": "Disputes over title to land between two parties",
+              "d": "Criminal matters, which are not arbitrable in law"
+            },
+            "answer": "d",
+            "explanation": "Non-arbitrable: criminal matters, constitutional interpretation, illegal contracts, status."
+          },
+          {
+            "id": 17,
+            "context": "A dispute arises over a contract breach, a criminal charge, a divorce petition, and a gaming wager. The parties ask which matters can be referred to arbitration.",
+            "question": "Disputes leading to a change of status, such as divorce petitions, are",
+            "options": {
+              "a": "Arbitrable, since the parties may agree to refer them",
+              "b": "Arbitrable by the consent of both parties to the dispute",
+              "c": "Non-arbitrable, since they lead to a change of status",
+              "d": "Arbitrable in the Northern States only, and not elsewhere"
+            },
+            "answer": "c",
+            "explanation": "Non-arbitrable."
+          },
+          {
+            "id": 18,
+            "context": "A dispute arises over a contract breach, a criminal charge, a divorce petition, and a gaming wager. The parties ask which matters can be referred to arbitration.",
+            "question": "Disputes under a void gaming or wagering agreement are",
+            "options": {
+              "a": "Non-arbitrable, as held in Kano State Urban Development Board v Fanz",
+              "b": "Arbitrable, as they arise from an agreement of the parties",
+              "c": "Arbitrable in Lagos State, though not in other States",
+              "d": "Arbitrable with the consent of both parties to the agreement"
+            },
+            "answer": "a",
+            "explanation": "Kano State Urban Development Board v Fanz."
+          },
+          {
+            "id": 19,
+            "context": "A dispute arises over a contract breach, a criminal charge, a divorce petition, and a gaming wager. The parties ask which matters can be referred to arbitration.",
+            "question": "Arbitration is a method in which the award is",
+            "options": {
+              "a": "Binding and enforceable like a judgment of a court",
+              "b": "Subject to the approval of the mediator in the matter",
+              "c": "Non-binding unless a court confirms it on application",
+              "d": "Merely advisory to the parties in the dispute"
+            },
+            "answer": "a",
+            "explanation": "Section 57 AMA."
+          },
+          {
+            "id": 20,
+            "context": "A dispute arises over a contract breach, a criminal charge, a divorce petition, and a gaming wager. The parties ask which matters can be referred to arbitration.",
+            "question": "In arbitration, the parties control",
+            "options": {
+              "a": "The outcome of the dispute, and not the process",
+              "b": "The process, and not the outcome of the dispute",
+              "c": "Neither the process nor the outcome of the dispute",
+              "d": "The enforcement of the award, and not the process"
+            },
+            "answer": "b",
+            "explanation": "Arbitration meaning."
+          }
+        ]
+      }
+    ]
+  },
+  "cpc-5": {
+    "year": 9997,
+    "session": "CPC Test 5",
+    "examTitle": "Pre-Bar Style MCQ — Corporate, Criminal, Ethics (CPC) Test 5",
+    "totalQuestions": 60,
+    "courses": [
+      {
+        "id": "corporate-law-practice",
+        "name": "Corporate Law Practice",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "Quick Loans Ltd wants to raise funds by issuing shares. Its lawyer reviews the classes of shares the company may issue, those the law forbids, and how premium and discount are treated.",
+            "question": "Which of these is prohibited?",
+            "options": {
+              "a": "Non-voting shares, which the Act prohibits except in narrow cases",
+              "b": "Preference shares carrying a fixed rate of dividend on their face value",
+              "c": "Redeemable preference shares that the company may redeem at a set time",
+              "d": "Ordinary shares carrying one vote for each share held by the member"
+            },
+            "answer": "a",
+            "explanation": "Section 140 prohibits non-voting and weighted shares (with narrow exceptions for preference shares)."
+          },
+          {
+            "id": 2,
+            "context": "Quick Loans Ltd wants to raise funds by issuing shares. Its lawyer reviews the classes of shares the company may issue, those the law forbids, and how premium and discount are treated.",
+            "question": "Preference shares are presumed to be",
+            "options": {
+              "a": "Cumulative unless the terms of issue state that they are not",
+              "b": "Voting on every matter put to the members at a general meeting",
+              "c": "Irredeemable unless the articles expressly provide for their redemption",
+              "d": "Non-cumulative unless the terms of issue state that they are cumulative"
+            },
+            "answer": "a",
+            "explanation": "They are presumed cumulative unless stated to be non-cumulative."
+          },
+          {
+            "id": 3,
+            "context": "Quick Loans Ltd wants to raise funds by issuing shares. Its lawyer reviews the classes of shares the company may issue, those the law forbids, and how premium and discount are treated.",
+            "question": "Bearer shares are",
+            "options": {
+              "a": "Allowed in public companies with the consent of the SEC",
+              "b": "Allowed in private companies that have not more than 50 members",
+              "c": "Allowed in public companies that are listed on the Exchange",
+              "d": "Prohibited in every company, whether public or private, by the Act"
+            },
+            "answer": "d",
+            "explanation": "Bearer shares are prohibited (s.174)."
+          },
+          {
+            "id": 4,
+            "context": "Quick Loans Ltd wants to raise funds by issuing shares. Its lawyer reviews the classes of shares the company may issue, those the law forbids, and how premium and discount are treated.",
+            "question": "Share premium may be used for all the following except",
+            "options": {
+              "a": "Paying the premium payable on the redemption of the company's shares",
+              "b": "Paying up unissued shares to be allotted to members as bonus shares",
+              "c": "Writing off the preliminary expenses incurred in forming the company",
+              "d": "Paying a dividend to the members out of the share premium account"
+            },
+            "answer": "d",
+            "explanation": "Section 145(4) lists bonus shares, preliminary expenses, issue expenses and redemption premium."
+          },
+          {
+            "id": 5,
+            "context": "Quick Loans Ltd wants to raise funds by issuing shares. Its lawyer reviews the classes of shares the company may issue, those the law forbids, and how premium and discount are treated.",
+            "question": "Shares may not be issued",
+            "options": {
+              "a": "At a premium over the nominal value of the share issued",
+              "b": "At par, being the nominal value of the share issued",
+              "c": "As fully paid bonus shares out of the company's reserves",
+              "d": "At a discount to the nominal value of the share issued"
+            },
+            "answer": "d",
+            "explanation": "Issue at a discount is unlawful; shares must be issued at not less than par (s.146)."
+          },
+          {
+            "id": 6,
+            "context": "Metro Pharma Plc is closing its books for the year. The finance director asks the company secretary how long records must be kept, who signs the accounts, when they go to members and what the accounts must contain.",
+            "question": "Accounting records must be preserved for",
+            "options": {
+              "a": "For 10 years from the date on which they were made",
+              "b": "For 6 years from the date on which they were made",
+              "c": "For 3 years from the date on which they were made",
+              "d": "For 12 years from the date on which they were made"
+            },
+            "answer": "b",
+            "explanation": "Records are preserved for 6 years from the date made (s.375)."
+          },
+          {
+            "id": 7,
+            "context": "Metro Pharma Plc is closing its books for the year. The finance director asks the company secretary how long records must be kept, who signs the accounts, when they go to members and what the accounts must contain.",
+            "question": "The balance sheet is signed on behalf of the board by",
+            "options": {
+              "a": "Two directors, one of whom may be the managing director",
+              "b": "The secretary of the company alone, on the directors' behalf",
+              "c": "The auditor of the company, after he has made his report",
+              "d": "The chairman of the company alone, on the directors' behalf"
+            },
+            "answer": "a",
+            "explanation": "Section 386 requires two directors, one of whom may be the MD."
+          },
+          {
+            "id": 8,
+            "context": "Metro Pharma Plc is closing its books for the year. The finance director asks the company secretary how long records must be kept, who signs the accounts, when they go to members and what the accounts must contain.",
+            "question": "Financial statements must be sent to members at least",
+            "options": {
+              "a": "7 days before the annual general meeting at which they are laid",
+              "b": "28 days before the annual general meeting at which they are laid",
+              "c": "21 days before the annual general meeting at which they are laid",
+              "d": "14 days before the annual general meeting at which they are laid"
+            },
+            "answer": "c",
+            "explanation": "They are sent at least 21 days before the AGM (s.387)."
+          },
+          {
+            "id": 9,
+            "context": "Metro Pharma Plc is closing its books for the year. The finance director asks the company secretary how long records must be kept, who signs the accounts, when they go to members and what the accounts must contain.",
+            "question": "Statements laid at an AGM must be made up to a date not more than",
+            "options": {
+              "a": "6 months before the date of the meeting",
+              "b": "12 months before the date of the meeting",
+              "c": "9 months before the date of the meeting",
+              "d": "3 months before the date of the meeting"
+            },
+            "answer": "c",
+            "explanation": "Section 388 requires statements made up to a date not more than 9 months before the meeting."
+          },
+          {
+            "id": 10,
+            "context": "Metro Pharma Plc is closing its books for the year. The finance director asks the company secretary how long records must be kept, who signs the accounts, when they go to members and what the accounts must contain.",
+            "question": "Financial statements include all the following except",
+            "options": {
+              "a": "The report of the auditors on the accounts of the company",
+              "b": "The balance sheet of the company as at the end of the year",
+              "c": "The register of members that the company is required to keep",
+              "d": "The profit and loss account of the company for the year"
+            },
+            "answer": "c",
+            "explanation": "Contents are the balance sheet, P&L, notes, directors' and auditors' reports; the register of members is a statutory book."
+          },
+          {
+            "id": 11,
+            "context": "Two companies, Alpha Plc and Beta Plc, are merging under a scheme sanctioned by the court. The secretary lists the approvals and filings and explains how failing banks are rescued by purchase and assumption.",
+            "question": "The separate court-ordered meetings approve the scheme by at least",
+            "options": {
+              "a": "Approval by all the members of each class of the companies",
+              "b": "Approval by two-thirds in number of the members present and voting",
+              "c": "Approval by one-half in number of the members present and voting",
+              "d": "Approval by three-quarters in value of the members present and voting"
+            },
+            "answer": "d",
+            "explanation": "Minutes must show approval by at least three-quarters in value of shares present and voting."
+          },
+          {
+            "id": 12,
+            "context": "Two companies, Alpha Plc and Beta Plc, are merging under a scheme sanctioned by the court. The secretary lists the approvals and filings and explains how failing banks are rescued by purchase and assumption.",
+            "question": "The sanctioning order is filed with the CAC within",
+            "options": {
+              "a": "3 months of the date on which the order is made",
+              "b": "15 days of the date on which the order is made",
+              "c": "30 days of the date on which the order is made",
+              "d": "7 days of the date on which the order is made"
+            },
+            "answer": "b",
+            "explanation": "The order is filed with the CAC within 15 days and with the SEC within 7 days."
+          },
+          {
+            "id": 13,
+            "context": "Two companies, Alpha Plc and Beta Plc, are merging under a scheme sanctioned by the court. The secretary lists the approvals and filings and explains how failing banks are rescued by purchase and assumption.",
+            "question": "Purchase and assumption is used to rescue",
+            "options": {
+              "a": "Government ministries and agencies that are failing to meet their targets",
+              "b": "Failing institutions, often banks, regulated by the NDIC and the CBN",
+              "c": "Foreign embassies and missions whose funds are held in Nigeria",
+              "d": "Healthy private companies that wish to expand into new markets"
+            },
+            "answer": "b",
+            "explanation": "P&A is used for failing institutions, often banks, regulated by NDIC and CBN."
+          },
+          {
+            "id": 14,
+            "context": "Two companies, Alpha Plc and Beta Plc, are merging under a scheme sanctioned by the court. The secretary lists the approvals and filings and explains how failing banks are rescued by purchase and assumption.",
+            "question": "In cherry picking, the healthy company",
+            "options": {
+              "a": "It merges with the failed company on equal terms as to its assets",
+              "b": "It does not take over the liabilities of the failed company",
+              "c": "It takes over all the liabilities of the failed company as well",
+              "d": "It buys only the shares of the failed company from its members"
+            },
+            "answer": "b",
+            "explanation": "Cherry picking means the healthy company does not take the failed company's liabilities."
+          },
+          {
+            "id": 15,
+            "context": "Two companies, Alpha Plc and Beta Plc, are merging under a scheme sanctioned by the court. The secretary lists the approvals and filings and explains how failing banks are rescued by purchase and assumption.",
+            "question": "Legal due diligence covers all the following except",
+            "options": {
+              "a": "The personal social media accounts of the owner of the business",
+              "b": "The contracts of employment of the employees of the business",
+              "c": "The ownership of the business and of the assets it uses",
+              "d": "The analysis of the litigation in which the business is involved"
+            },
+            "answer": "a",
+            "explanation": "Heads include ownership, business profile, employees, IP, litigation and CAC searches."
+          },
+          {
+            "id": 16,
+            "context": "Delta Mills Ltd defaults on its loan. The debenture holder is considering what to do: sue, appoint a receiver, foreclose or sell. His lawyer lists the remedies and warns about their limits.",
+            "question": "The remedies of a debenture holder are",
+            "options": {
+              "a": "Cumulative and not alternative, so he may pursue them together",
+              "b": "Alternative and not cumulative, so he must elect one of them",
+              "c": "Limited to one remedy only, which he must choose at the outset",
+              "d": "Available only after the company has gone into winding up"
+            },
+            "answer": "a",
+            "explanation": "The holder's powers are cumulative, not alternative."
+          },
+          {
+            "id": 17,
+            "context": "Delta Mills Ltd defaults on its loan. The debenture holder is considering what to do: sue, appoint a receiver, foreclose or sell. His lawyer lists the remedies and warns about their limits.",
+            "question": "A debenture holder's remedies include all the following except",
+            "options": {
+              "a": "Suing the company for the principal and interest due on the debenture",
+              "b": "Appointing a receiver over the property charged by the debenture",
+              "c": "Foreclosing on the property charged to the debenture holders",
+              "d": "Dismissing the directors and appointing new ones in their place"
+            },
+            "answer": "d",
+            "explanation": "Remedies include action, winding-up petition, receiver, foreclosure and sale; dismissing directors is not one."
+          },
+          {
+            "id": 18,
+            "context": "Delta Mills Ltd defaults on its loan. The debenture holder is considering what to do: sue, appoint a receiver, foreclose or sell. His lawyer lists the remedies and warns about their limits.",
+            "question": "In a foreclosure action, the parties must include",
+            "options": {
+              "a": "The Corporate Affairs Commission, as the registrar of charges",
+              "b": "All the debenture holders of every class of the company",
+              "c": "The Attorney-General of the Federation, as the chief law officer",
+              "d": "Only the largest holder of the debentures issued by the company"
+            },
+            "answer": "b",
+            "explanation": "All debenture holders of every class must be parties."
+          },
+          {
+            "id": 19,
+            "context": "Delta Mills Ltd defaults on its loan. The debenture holder is considering what to do: sue, appoint a receiver, foreclose or sell. His lawyer lists the remedies and warns about their limits.",
+            "question": "A sale of the business by a receiver",
+            "options": {
+              "a": "It needs the vote of the employees of the company before it is made",
+              "b": "It continues all the contracts of the employees on the same terms",
+              "c": "It ends the contracts of service of the employees of the company",
+              "d": "It is void unless the court has first approved the sale"
+            },
+            "answer": "c",
+            "explanation": "A sale by a receiver ends employees' contracts of service."
+          },
+          {
+            "id": 20,
+            "context": "Delta Mills Ltd defaults on its loan. The debenture holder is considering what to do: sue, appoint a receiver, foreclose or sell. His lawyer lists the remedies and warns about their limits.",
+            "question": "A receiver's powers include taking possession of the property, even",
+            "options": {
+              "a": "After the members have passed a resolution authorising him to do so",
+              "b": "Under a court order only, and by no other means at all",
+              "c": "By force where necessary, since his powers are wide",
+              "d": "With the consent of the Commission given before he does so"
+            },
+            "answer": "c",
+            "explanation": "The receiver's powers are wide, including possession even by force (Awojugbagbe v Chinukwe)."
+          }
+        ]
+      },
+      {
+        "id": "criminal-litigation",
+        "name": "Criminal Litigation",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "In a trial for theft, the defendant gives evidence of his own good character. The prosecutor wants to prove his previous conviction. The court also notes that a child aged six is among the accused.",
+            "question": "Bad character evidence is generally",
+            "options": {
+              "a": "Inadmissible, except in the cases listed in the Evidence Act",
+              "b": "Conclusive proof of the guilt of the defendant on the charge",
+              "c": "Admissible for the judge only and not for the jury or assessors",
+              "d": "Admissible in every case where the defendant is on trial"
+            },
+            "answer": "a",
+            "explanation": "Except in the listed cases."
+          },
+          {
+            "id": 2,
+            "context": "In a trial for theft, the defendant gives evidence of his own good character. The prosecutor wants to prove his previous conviction. The court also notes that a child aged six is among the accused.",
+            "question": "Bad character evidence is admissible where",
+            "options": {
+              "a": "The witness for the prosecution dislikes the defendant on the stand",
+              "b": "The defendant has given evidence of his own good character",
+              "c": "The registrar of the court requests that it be put in",
+              "d": "The judge asks for it before he gives his judgment"
+            },
+            "answer": "b",
+            "explanation": "Section 82(2)."
+          },
+          {
+            "id": 3,
+            "context": "In a trial for theft, the defendant gives evidence of his own good character. The prosecutor wants to prove his previous conviction. The court also notes that a child aged six is among the accused.",
+            "question": "Previous convictions may be proved by a certificate from all of these except",
+            "options": {
+              "a": "A records officer of the custodial centre where the convict served",
+              "b": "A police officer in charge of the case against the convict",
+              "c": "A clerk of the customary court that convicted the person",
+              "d": "A registrar or other officer of the court that convicted him"
+            },
+            "answer": "b",
+            "explanation": "Section 248(1)."
+          },
+          {
+            "id": 4,
+            "context": "In a trial for theft, the defendant gives evidence of his own good character. The prosecutor wants to prove his previous conviction. The court also notes that a child aged six is among the accused.",
+            "question": "A child under seven is",
+            "options": {
+              "a": "Presumed capable of all offences, like any other person in the dock",
+              "b": "Capable of all offences, but liable to lesser punishment than an adult",
+              "c": "Rebuttably incapable of crime, since the State may prove capacity",
+              "d": "Irrebuttably presumed to be incapable of committing any crime at all"
+            },
+            "answer": "d",
+            "explanation": "Irrebuttable presumption."
+          },
+          {
+            "id": 5,
+            "context": "In a trial for theft, the defendant gives evidence of his own good character. The prosecutor wants to prove his previous conviction. The court also notes that a child aged six is among the accused.",
+            "question": "Which of these is a rebuttable presumption?",
+            "options": {
+              "a": "The presumption of the sanity of every person who is charged",
+              "b": "The presumption that every judgment is conclusive of matters it decides",
+              "c": "The presumption that a child under 7 is incapable of crime",
+              "d": "The presumption that a male under 12 is incapable of certain offences"
+            },
+            "answer": "a",
+            "explanation": "Rebuttable: innocence, sanity, marriage, death, receiving stolen property."
+          },
+          {
+            "id": 6,
+            "context": "The prosecution closes its case in a theft trial. Counsel for the defence considers the options. The judge reminds counsel of the law on no case submissions.",
+            "question": "The defendant's options at the close of the prosecution's case do NOT include",
+            "options": {
+              "a": "Entering his defence and calling evidence in support of it",
+              "b": "Resting his case on the evidence led by the prosecution",
+              "c": "Pleading guilty as of right at that stage of the trial",
+              "d": "Making a no case submission to the court at that stage"
+            },
+            "answer": "c",
+            "explanation": "The three options: no case submission; rest on prosecution's case; enter defence."
+          },
+          {
+            "id": 7,
+            "context": "The prosecution closes its case in a theft trial. Counsel for the defence considers the options. The judge reminds counsel of the law on no case submissions.",
+            "question": "A no case submission succeeds in all of these cases except",
+            "options": {
+              "a": "The prosecution evidence is so discredited as to be worthless",
+              "b": "The prosecution evidence is so unreliable that no tribunal could convict",
+              "c": "There is no evidence on an essential element of the offence",
+              "d": "The defendant is a first-time offender with no previous conviction"
+            },
+            "answer": "d",
+            "explanation": "The three grounds in the Practice Note of 1962."
+          },
+          {
+            "id": 8,
+            "context": "The prosecution closes its case in a theft trial. Counsel for the defence considers the options. The judge reminds counsel of the law on no case submissions.",
+            "question": "At the no case stage, the court does NOT",
+            "options": {
+              "a": "Evaluate the credibility of the witnesses called by the prosecution",
+              "b": "Rule separately on each count of the charge before the court",
+              "c": "Determine whether a prima facie case has been made out",
+              "d": "Give a brief ruling, without commenting on the evidence led"
+            },
+            "answer": "a",
+            "explanation": "Credibility is for the end of trial."
+          },
+          {
+            "id": 9,
+            "context": "The prosecution closes its case in a theft trial. Counsel for the defence considers the options. The judge reminds counsel of the law on no case submissions.",
+            "question": "Which of these is NOT true of resting the case on the prosecution's?",
+            "options": {
+              "a": "The defendant may later adduce evidence in his own defence",
+              "b": "The defendant cannot later adduce evidence in his own defence",
+              "c": "The defendant may be convicted on the prosecution's evidence alone",
+              "d": "The court delivers a considered judgment and not merely a ruling"
+            },
+            "answer": "a",
+            "explanation": "Sulaiman v The State."
+          },
+          {
+            "id": 10,
+            "context": "The prosecution closes its case in a theft trial. Counsel for the defence considers the options. The judge reminds counsel of the law on no case submissions.",
+            "question": "Which of these is NOT true of the ex improviso rule?",
+            "options": {
+              "a": "It is codified in section 361 of the Administration of Criminal Justice Act",
+              "b": "The prosecution may recall witnesses freely, without the leave of the court",
+              "c": "Leave of the court is needed before the prosecution may adduce evidence",
+              "d": "The new matter must be one that no human ingenuity could have anticipated"
+            },
+            "answer": "b",
+            "explanation": "The prosecution may adduce evidence only with leave."
+          },
+          {
+            "id": 11,
+            "context": "An officer of the Nigerian Army is tried by a General Court Martial for a civil offence. His lawyer examines the composition, voting and time limit of the court and the appeal.",
+            "question": "A General Court Martial consists of a President and at least",
+            "options": {
+              "a": "10 members, who sit with a judge advocate",
+              "b": "4 members, who sit with a judge advocate",
+              "c": "2 members, who sit with a judge advocate",
+              "d": "6 members, who sit with a judge advocate"
+            },
+            "answer": "b",
+            "explanation": "GCM: President and at least 4 members; SCM: President and at least 2."
+          },
+          {
+            "id": 12,
+            "context": "An officer of the Nigerian Army is tried by a General Court Martial for a civil offence. His lawyer examines the composition, voting and time limit of the court and the appeal.",
+            "question": "A General Court Martial of fewer than 7 members cannot impose",
+            "options": {
+              "a": "Dismissal from the service, which is the usual penalty for an officer",
+              "b": "A sentence of death, which needs seven or more members to impose",
+              "c": "Imprisonment for a term of years, which a court of any size may impose",
+              "d": "A fine, which a court of any size may impose on the accused"
+            },
+            "answer": "b",
+            "explanation": "A GCM of fewer than 7 members cannot impose death (s.130(1) AFA)."
+          },
+          {
+            "id": 13,
+            "context": "An officer of the Nigerian Army is tried by a General Court Martial for a civil offence. His lawyer examines the composition, voting and time limit of the court and the appeal.",
+            "question": "On findings, an equality of votes means",
+            "options": {
+              "a": "The accused is acquitted, since the doubt is resolved in his favour",
+              "b": "The accused is convicted, since the President has a casting vote",
+              "c": "A re-vote is taken until a majority is formed for one finding",
+              "d": "The President decides the finding by his own casting vote alone"
+            },
+            "answer": "a",
+            "explanation": "On findings, equality of votes means outright acquittal."
+          },
+          {
+            "id": 14,
+            "context": "An officer of the Nigerian Army is tried by a General Court Martial for a civil offence. His lawyer examines the composition, voting and time limit of the court and the appeal.",
+            "question": "A death sentence by a Court Martial requires",
+            "options": {
+              "a": "A simple majority of the members who sit in the trial",
+              "b": "The President alone, who then confirms it to the Army Council",
+              "c": "The concurrence of every member of the court who sits in the trial",
+              "d": "Two-thirds of the members of the court who sit in the trial"
+            },
+            "answer": "c",
+            "explanation": "Death requires the concurrence of every member."
+          },
+          {
+            "id": 15,
+            "context": "An officer of the Nigerian Army is tried by a General Court Martial for a civil offence. His lawyer examines the composition, voting and time limit of the court and the appeal.",
+            "question": "A Court Martial trial must commence within",
+            "options": {
+              "a": "6 months of the commission of the offence charged",
+              "b": "1 year of the commission of the offence charged",
+              "c": "3 years of the commission of the offence charged",
+              "d": "10 years of the commission of the offence charged"
+            },
+            "answer": "c",
+            "explanation": "Trial must commence within 3 years while the accused is subject to service law (s.169 AFA)."
+          },
+          {
+            "id": 16,
+            "context": "Mr Wale, a Yoruba farmer, is tried in English before a High Court on a charge of stealing. He did not ask for an interpreter at trial but raises the issue for the first time on appeal, claiming it is fundamental.",
+            "question": "The duty to raise the need for an interpreter rests on",
+            "options": {
+              "a": "The judge alone, who must raise it as soon as he sees the defendant",
+              "b": "The prosecutor, who must raise it before the defendant is arraigned",
+              "c": "The registrar, who must raise it when the charge is read out",
+              "d": "The defendant or his counsel, who must raise it at the earliest opportunity"
+            },
+            "answer": "d",
+            "explanation": "The duty rests on the defendant/counsel at the earliest opportunity."
+          },
+          {
+            "id": 17,
+            "context": "Mr Wale, a Yoruba farmer, is tried in English before a High Court on a charge of stealing. He did not ask for an interpreter at trial but raises the issue for the first time on appeal, claiming it is fundamental.",
+            "question": "Where the defendant understands English, lack of an interpreter",
+            "options": {
+              "a": "It vitiates the whole trial, since the defendant could not follow it",
+              "b": "It amounts to bias on the part of the judge and the trial court",
+              "c": "It is not a fundamental flaw, since the defendant followed the proceedings",
+              "d": "It is a ground of nullity, even though he understood the proceedings"
+            },
+            "answer": "c",
+            "explanation": "It is not a fundamental flaw."
+          },
+          {
+            "id": 18,
+            "context": "Mr Wale, a Yoruba farmer, is tried in English before a High Court on a charge of stealing. He did not ask for an interpreter at trial but raises the issue for the first time on appeal, claiming it is fundamental.",
+            "question": "The interpreter provided must be",
+            "options": {
+              "a": "A lawyer who is licensed by the Council of Legal Education to act",
+              "b": "A relative of the defendant who speaks his language very well",
+              "c": "A police officer who is attached to the court by the Commissioner",
+              "d": "A competent person who speaks the language of the defendant well"
+            },
+            "answer": "d",
+            "explanation": "The interpreter must be competent."
+          },
+          {
+            "id": 19,
+            "context": "Mr Wale, a Yoruba farmer, is tried in English before a High Court on a charge of stealing. He did not ask for an interpreter at trial but raises the issue for the first time on appeal, claiming it is fundamental.",
+            "question": "The right to an interpreter is in",
+            "options": {
+              "a": "Section 35 of the Constitution, on the right to personal liberty",
+              "b": "Section 36(6)(a) of the Constitution, on information about the charge",
+              "c": "Section 36(6)(e) of the Constitution, on the right to an interpreter",
+              "d": "Section 36(4) of the Constitution, on the right to a fair hearing"
+            },
+            "answer": "c",
+            "explanation": "Section 36(6)(e)."
+          },
+          {
+            "id": 20,
+            "context": "Mr Wale, a Yoruba farmer, is tried in English before a High Court on a charge of stealing. He did not ask for an interpreter at trial but raises the issue for the first time on appeal, claiming it is fundamental.",
+            "question": "The interpreter is provided",
+            "options": {
+              "a": "At the defendant's own cost, which is later recovered from him",
+              "b": "At the discretion of the State, which pays only where it chooses",
+              "c": "At the witness's cost, which is later recovered from the party",
+              "d": "Free of charge to the defendant, who does not understand English"
+            },
+            "answer": "d",
+            "explanation": "A free interpreter."
+          }
+        ]
+      },
+      {
+        "id": "professional-ethics",
+        "name": "Professional Ethics and Skills",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "Parties to a commercial dispute approach the Abuja Multi-Door Court House to arbitrate. The claimant files a notice. The respondent asks about time to respond and the number of arbitrators.",
+            "question": "The respondent at the Abuja MDCH has how long to respond to a notice of arbitration?",
+            "options": {
+              "a": "Seven days, as provided in Rule 4 of the Abuja MDCH Rules",
+              "b": "Fourteen days, as provided in Rule 4 of the Abuja MDCH Rules",
+              "c": "Thirty days, as provided in Rule 4 of the Abuja MDCH Rules",
+              "d": "Ten days, as provided in Rule 4 of the Abuja MDCH Rules"
+            },
+            "answer": "d",
+            "explanation": "Rule 4 Abuja MDCH Rules."
+          },
+          {
+            "id": 2,
+            "context": "Parties to a commercial dispute approach the Abuja Multi-Door Court House to arbitrate. The claimant files a notice. The respondent asks about time to respond and the number of arbitrators.",
+            "question": "Where the parties do not agree on the number of arbitrators at the Abuja MDCH",
+            "options": {
+              "a": "Two arbitrators are appointed to hear the dispute between them",
+              "b": "Three arbitrators are appointed to hear the dispute between them",
+              "c": "Only one arbitrator is appointed to hear the dispute between them",
+              "d": "No arbitrator is appointed and the claim lapses for want of agreement"
+            },
+            "answer": "c",
+            "explanation": "Abuja MDCH arbitration procedure."
+          },
+          {
+            "id": 3,
+            "context": "Parties to a commercial dispute approach the Abuja Multi-Door Court House to arbitrate. The claimant files a notice. The respondent asks about time to respond and the number of arbitrators.",
+            "question": "The final award at the Abuja MDCH is made within",
+            "options": {
+              "a": "Seven days of the conclusion of the arbitration proceedings",
+              "b": "One year of the conclusion of the arbitration proceedings",
+              "c": "One month of the conclusion of the arbitration proceedings",
+              "d": "Six months of the conclusion of the arbitration proceedings"
+            },
+            "answer": "c",
+            "explanation": "Not later than 3 months in exceptional circumstances."
+          },
+          {
+            "id": 4,
+            "context": "Parties to a commercial dispute approach the Abuja Multi-Door Court House to arbitrate. The claimant files a notice. The respondent asks about time to respond and the number of arbitrators.",
+            "question": "The Abuja MDCH Rules contain",
+            "options": {
+              "a": "No enforcement procedure, since enforcement is left to the AMA 2023",
+              "b": "A full enforcement procedure of their own for all awards",
+              "c": "Enforcement by sheriffs appointed by the centre for that purpose",
+              "d": "Enforcement by the police on the order of the centre"
+            },
+            "answer": "a",
+            "explanation": "Enforcement proceeds under the AMA 2023."
+          },
+          {
+            "id": 5,
+            "context": "Parties to a commercial dispute approach the Abuja Multi-Door Court House to arbitrate. The claimant files a notice. The respondent asks about time to respond and the number of arbitrators.",
+            "question": "A mediator at the Abuja MDCH",
+            "options": {
+              "a": "Imposes a decision on the parties to the dispute",
+              "b": "Orders costs against the party who is at fault",
+              "c": "Awards damages to the party who is injured",
+              "d": "Does not impose a decision but gets the parties to negotiate"
+            },
+            "answer": "d",
+            "explanation": "His role is to get the parties to negotiate reasonably."
+          },
+          {
+            "id": 6,
+            "context": "Barrister Obi is researching a statute and a case law point for a client. He uses a textbook, a law dictionary, LawPavilion and a law report index. He also asks a chatbot to supply authorities.",
+            "question": "Primary sources of law include all of these except",
+            "options": {
+              "a": "Statutes enacted by the legislature of the country",
+              "b": "Case law decided by the courts of the country",
+              "c": "Textbooks written by legal authors on the law",
+              "d": "The Constitution of the Federal Republic of Nigeria"
+            },
+            "answer": "c",
+            "explanation": "Textbooks are secondary sources."
+          },
+          {
+            "id": 7,
+            "context": "Barrister Obi is researching a statute and a case law point for a client. He uses a textbook, a law dictionary, LawPavilion and a law report index. He also asks a chatbot to supply authorities.",
+            "question": "Secondary sources are",
+            "options": {
+              "a": "Rules of court made by the judiciary of the country",
+              "b": "Generated by government through its legislature",
+              "c": "Persuasive but not binding on the courts",
+              "d": "Binding on all the courts of the land"
+            },
+            "answer": "c",
+            "explanation": "Books and commentary about the law."
+          },
+          {
+            "id": 8,
+            "context": "Barrister Obi is researching a statute and a case law point for a client. He uses a textbook, a law dictionary, LawPavilion and a law report index. He also asks a chatbot to supply authorities.",
+            "question": "Tertiary sources",
+            "options": {
+              "a": "Direct the researcher to where the law is found",
+              "b": "Make the law that binds the courts",
+              "c": "Bind the court in which they are cited",
+              "d": "Are statutes enacted by the National Assembly"
+            },
+            "answer": "a",
+            "explanation": "Finding tools such as indexes."
+          },
+          {
+            "id": 9,
+            "context": "Barrister Obi is researching a statute and a case law point for a client. He uses a textbook, a law dictionary, LawPavilion and a law report index. He also asks a chatbot to supply authorities.",
+            "question": "Electronic legal research uses",
+            "options": {
+              "a": "Only manual books kept in the library of chambers",
+              "b": "Databases such as LawPavilion, Legalpedia, Westlaw and LexisNexis",
+              "c": "Only law dictionaries kept in the chambers",
+              "d": "Only the Gazette published by the government"
+            },
+            "answer": "b",
+            "explanation": "Also Westlaw and LexisNexis."
+          },
+          {
+            "id": 10,
+            "context": "Barrister Obi is researching a statute and a case law point for a client. He uses a textbook, a law dictionary, LawPavilion and a law report index. He also asks a chatbot to supply authorities.",
+            "question": "The sources of Nigerian law do NOT include",
+            "options": {
+              "a": "Nigerian legislation enacted by the legislature",
+              "b": "Foreign arbitral awards as binding precedent in the courts",
+              "c": "Customary law of the people in the community",
+              "d": "Received English Law applied by the courts"
+            },
+            "answer": "b",
+            "explanation": "Received English Law; legislation; case law; customary law; Islamic law."
+          },
+          {
+            "id": 11,
+            "context": "A SAN is briefed in a civil case before the High Court without a junior and in a case before an Area Court. A lawyer employed by a company is asked to appear for his employer.",
+            "question": "A SAN may not appear in a civil matter before a superior court without",
+            "options": {
+              "a": "A junior or another SAN appearing with him in the case",
+              "b": "The written consent of the client for the appearance",
+              "c": "The approval of the Chief Judge of the court",
+              "d": "The permission of the Bar Council in the matter"
+            },
+            "answer": "a",
+            "explanation": "Section 5(8) LPA; SAN Rules; criminal matters are excepted."
+          },
+          {
+            "id": 12,
+            "context": "A SAN is briefed in a civil case before the High Court without a junior and in a case before an Area Court. A lawyer employed by a company is asked to appear for his employer.",
+            "question": "A SAN may not appear in or sign processes for",
+            "options": {
+              "a": "The Federal High Court, which is a superior court of record",
+              "b": "The Supreme Court, which is the highest court of the land",
+              "c": "An inferior court, as held in ECWA v Ijesha",
+              "d": "The Court of Appeal, which is a superior court of record"
+            },
+            "answer": "c",
+            "explanation": "Registered Trustees of ECWA v Ijesha."
+          },
+          {
+            "id": 13,
+            "context": "A SAN is briefed in a civil case before the High Court without a junior and in a case before an Area Court. A lawyer employed by a company is asked to appear for his employer.",
+            "question": "A lawyer in salaried employment may not appear in court for his employer except",
+            "options": {
+              "a": "As a shareholder of the company that employs him",
+              "b": "As a Government legal officer, under Rule 8 of the RPC",
+              "c": "As a chief executive of the company that employs him",
+              "d": "As a director of the company that employs him"
+            },
+            "answer": "b",
+            "explanation": "Rule 8 RPC."
+          },
+          {
+            "id": 14,
+            "context": "A SAN is briefed in a civil case before the High Court without a junior and in a case before an Area Court. A lawyer employed by a company is asked to appear for his employer.",
+            "question": "The CPD hours required annually for a lawyer called for more than 10 years are",
+            "options": {
+              "a": "Eighteen hours of continuing professional development in each year",
+              "b": "Six hours of continuing professional development in each year",
+              "c": "Twenty-four hours of continuing professional development in each year",
+              "d": "Twelve hours of continuing professional development in each year"
+            },
+            "answer": "d",
+            "explanation": "Rule 11 RPC."
+          },
+          {
+            "id": 15,
+            "context": "A SAN is briefed in a civil case before the High Court without a junior and in a case before an Area Court. A lawyer employed by a company is asked to appear for his employer.",
+            "question": "A lawyer setting up a law office must notify the local NBA branch within",
+            "options": {
+              "a": "Fourteen days of the setting up of the law office",
+              "b": "Thirty days of the setting up of the law office",
+              "c": "Seven days of the setting up of the law office",
+              "d": "Ninety days of the setting up of the law office"
+            },
+            "answer": "b",
+            "explanation": "Rule 13 RPC."
+          },
+          {
+            "id": 16,
+            "context": "Barrister Femi drafts a lease. In the first clause he calls the parties 'landlord' and 'tenant'; in a later clause he calls them 'lessor' and 'lessee'. He also uses 'hereinafter' and 'witnesseth'.",
+            "question": "Every draft should be all of these except",
+            "options": {
+              "a": "Complete, precise and clear in its expression of the matter",
+              "b": "Elaborate and wordy in its expression of the matter",
+              "c": "Accurate in its statement of the facts and the law",
+              "d": "Short and simple in its expression of the matter"
+            },
+            "answer": "b",
+            "explanation": "Aims of legal drafting."
+          },
+          {
+            "id": 17,
+            "context": "Barrister Femi drafts a lease. In the first clause he calls the parties 'landlord' and 'tenant'; in a later clause he calls them 'lessor' and 'lessee'. He also uses 'hereinafter' and 'witnesseth'.",
+            "question": "Changing a defined term mid-document",
+            "options": {
+              "a": "Harmless, since the parties know who is meant in the draft",
+              "b": "An improvement of the style of the whole document",
+              "c": "Required for the sake of variety in the draft",
+              "d": "A signal of a change of meaning in the draft"
+            },
+            "answer": "d",
+            "explanation": "Inconsistency is a habit to avoid."
+          },
+          {
+            "id": 18,
+            "context": "Barrister Femi drafts a lease. In the first clause he calls the parties 'landlord' and 'tenant'; in a later clause he calls them 'lessor' and 'lessee'. He also uses 'hereinafter' and 'witnesseth'.",
+            "question": "Archaic words such as 'hereinafter' and 'witnesseth' are",
+            "options": {
+              "a": "Habits to avoid in modern legal drafting generally",
+              "b": "Neutral in their effect on the clarity of the draft",
+              "c": "Recommended for the formality of a legal document",
+              "d": "Required in all formal legal documents without exception"
+            },
+            "answer": "a",
+            "explanation": "Drafting habits to avoid."
+          },
+          {
+            "id": 19,
+            "context": "Barrister Femi drafts a lease. In the first clause he calls the parties 'landlord' and 'tenant'; in a later clause he calls them 'lessor' and 'lessee'. He also uses 'hereinafter' and 'witnesseth'.",
+            "question": "The active voice is preferred, so the draftsman writes",
+            "options": {
+              "a": "The cheque was authorised by the Director of the company",
+              "b": "The cheque, having been authorised by the Director, was issued",
+              "c": "By the Director of the company, the cheque was authorised",
+              "d": "The Director of the company authorised the cheque"
+            },
+            "answer": "d",
+            "explanation": "Passive language is to be avoided."
+          },
+          {
+            "id": 20,
+            "context": "Barrister Femi drafts a lease. In the first clause he calls the parties 'landlord' and 'tenant'; in a later clause he calls them 'lessor' and 'lessee'. He also uses 'hereinafter' and 'witnesseth'.",
+            "question": "'It shall be lawful for' is simplified to",
+            "options": {
+              "a": "'Shall', which is the single word that replaces it",
+              "b": "'May', which is the single word that replaces it",
+              "c": "'Will', which is the single word that replaces it",
+              "d": "'Could', which is the single word that replaces it"
+            },
+            "answer": "a",
+            "explanation": "Excessive and intricate expressions."
+          }
+        ]
+      }
+    ]
+  },
+  "cpc-6": {
+    "year": 9997,
+    "session": "CPC Test 6",
+    "examTitle": "Pre-Bar Style MCQ — Corporate, Criminal, Ethics (CPC) Test 6",
+    "totalQuestions": 60,
+    "courses": [
+      {
+        "id": "corporate-law-practice",
+        "name": "Corporate Law Practice",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "Crest Plc was incorporated this year as a public company. Its secretary is planning the first meetings of the company and must decide which meeting comes first, what the report must contain and how soon the first annual general meeting must be held.",
+            "question": "The statutory meeting is held by",
+            "options": {
+              "a": "Private companies only, held within 3 months of their incorporation",
+              "b": "All companies, held within 18 months of their incorporation",
+              "c": "Public companies only, held once within 6 months of incorporation",
+              "d": "All companies, held within 6 months of their incorporation"
+            },
+            "answer": "c",
+            "explanation": "The statutory meeting is compulsory for public companies, held once within 6 months of incorporation."
+          },
+          {
+            "id": 2,
+            "context": "Crest Plc was incorporated this year as a public company. Its secretary is planning the first meetings of the company and must decide which meeting comes first, what the report must contain and how soon the first annual general meeting must be held.",
+            "question": "The statutory report is sent to the members at least",
+            "options": {
+              "a": "14 days before the statutory meeting, to members and the Commission",
+              "b": "7 days before the statutory meeting, to members and the Commission",
+              "c": "21 days before the statutory meeting, to members and the Commission",
+              "d": "28 days before the statutory meeting, to members and the Commission"
+            },
+            "answer": "c",
+            "explanation": "The report is sent 21 days before the meeting to the members and to the CAC."
+          },
+          {
+            "id": 3,
+            "context": "Crest Plc was incorporated this year as a public company. Its secretary is planning the first meetings of the company and must decide which meeting comes first, what the report must contain and how soon the first annual general meeting must be held.",
+            "question": "The statutory report must contain all these except",
+            "options": {
+              "a": "The total cash received by the company for the shares allotted",
+              "b": "The commission paid to a director on an issue of shares",
+              "c": "The names of the major customers with whom the company trades",
+              "d": "The particulars of the directors and the secretary of the company"
+            },
+            "answer": "c",
+            "explanation": "The contents include shares allotted, cash received, officers' details and commissions; customers are not listed."
+          },
+          {
+            "id": 4,
+            "context": "Crest Plc was incorporated this year as a public company. Its secretary is planning the first meetings of the company and must decide which meeting comes first, what the report must contain and how soon the first annual general meeting must be held.",
+            "question": "The first AGM must be held within",
+            "options": {
+              "a": "24 months of the incorporation of the company",
+              "b": "18 months of the incorporation of the company",
+              "c": "12 months of the incorporation of the company",
+              "d": "6 months of the incorporation of the company"
+            },
+            "answer": "b",
+            "explanation": "The first AGM is within 18 months of incorporation."
+          },
+          {
+            "id": 5,
+            "context": "Crest Plc was incorporated this year as a public company. Its secretary is planning the first meetings of the company and must decide which meeting comes first, what the report must contain and how soon the first annual general meeting must be held.",
+            "question": "Later AGMs must be held not more than how long after the previous one?",
+            "options": {
+              "a": "Not more than 15 months after the date of the previous AGM",
+              "b": "Not more than 12 months after the date of the previous AGM",
+              "c": "Not more than 24 months after the date of the previous AGM",
+              "d": "Not more than 18 months after the date of the previous AGM"
+            },
+            "answer": "a",
+            "explanation": "Not more than 15 months may pass between one AGM and the next."
+          },
+          {
+            "id": 6,
+            "context": "Ifeoma, Tolu and Bisi want to incorporate Greenfield Foods Limited as a private company limited by shares. Tolu is a 25-year-old graduate. Bisi is an undischarged bankrupt. Ifeoma wants to know how many members the company may have and what minimum capital it must have.",
+            "question": "The minimum number of members of a private company is",
+            "options": {
+              "a": "One member, since the Act permits a one-member private company",
+              "b": "Seven members, since the Act requires seven for every company",
+              "c": "Two members, since a company is an association of persons",
+              "d": "Fifty members, being the number the Act requires at incorporation"
+            },
+            "answer": "a",
+            "explanation": "A private company needs a minimum of 1 member (s.18)."
+          },
+          {
+            "id": 7,
+            "context": "Ifeoma, Tolu and Bisi want to incorporate Greenfield Foods Limited as a private company limited by shares. Tolu is a 25-year-old graduate. Bisi is an undischarged bankrupt. Ifeoma wants to know how many members the company may have and what minimum capital it must have.",
+            "question": "What is the maximum number of members of a private company, excluding employees?",
+            "options": {
+              "a": "200 members, counting employees who are also members of the company",
+              "b": "20 members, counting former employees who are also members",
+              "c": "100 members, counting employees who are also members of the company",
+              "d": "50 members, not counting employees and ex-employees who are members"
+            },
+            "answer": "d",
+            "explanation": "Private company membership is capped at 50, excluding employees and ex-employees who are members."
+          },
+          {
+            "id": 8,
+            "context": "Ifeoma, Tolu and Bisi want to incorporate Greenfield Foods Limited as a private company limited by shares. Tolu is a 25-year-old graduate. Bisi is an undischarged bankrupt. Ifeoma wants to know how many members the company may have and what minimum capital it must have.",
+            "question": "The following are disqualified from subscribing to the memorandum except",
+            "options": {
+              "a": "A body corporate that is in liquidation at the time of subscribing",
+              "b": "Bisi, who is an undischarged bankrupt and so cannot subscribe",
+              "c": "A person of unsound mind who is unable to manage his affairs",
+              "d": "A body corporate that is solvent and not in liquidation or receivership"
+            },
+            "answer": "d",
+            "explanation": "Under s.20 a minor (unless two qualified persons also subscribe), a person of unsound mind, an undischarged bankrupt, a disqualified director and a body corporate in liquidation cannot subscribe."
+          },
+          {
+            "id": 9,
+            "context": "Ifeoma, Tolu and Bisi want to incorporate Greenfield Foods Limited as a private company limited by shares. Tolu is a 25-year-old graduate. Bisi is an undischarged bankrupt. Ifeoma wants to know how many members the company may have and what minimum capital it must have.",
+            "question": "The minimum issued share capital of a private company is",
+            "options": {
+              "a": "₦10,000 allotted and issued to the subscribers at incorporation",
+              "b": "₦2,000,000 allotted and issued to the subscribers at incorporation",
+              "c": "₦500,000 allotted and issued to the subscribers at incorporation",
+              "d": "₦100,000 allotted and issued to the subscribers at incorporation"
+            },
+            "answer": "d",
+            "explanation": "Minimum issued share capital: private ₦100,000; public ₦2,000,000 (s.27(2)(a))."
+          },
+          {
+            "id": 10,
+            "context": "Ifeoma, Tolu and Bisi want to incorporate Greenfield Foods Limited as a private company limited by shares. Tolu is a 25-year-old graduate. Bisi is an undischarged bankrupt. Ifeoma wants to know how many members the company may have and what minimum capital it must have.",
+            "question": "At incorporation, at least what part of the share capital must be taken up by the members?",
+            "options": {
+              "a": "75% of the share capital, which must be paid up at once",
+              "b": "25% of the share capital, which the members must take up",
+              "c": "10% of the share capital, which the members must take up",
+              "d": "50% of the share capital, which the members must take up"
+            },
+            "answer": "b",
+            "explanation": "At least 25% of the share capital must be taken up (subscribed) by members at incorporation."
+          },
+          {
+            "id": 11,
+            "context": "Mr Bello is setting up a foreign-owned manufacturing company and will bring in capital from abroad. His lawyer explains the steps, the Certificate of Capital Importation, the Industrial Inspectorate requirements and the registration of a technology transfer agreement.",
+            "question": "The following are needed to set up a foreign-owned company except",
+            "options": {
+              "a": "A Certificate of Capital Importation for the foreign capital brought in",
+              "b": "Registration of the company with the Nigerian Investment Promotion Commission",
+              "c": "Approval of the National Assembly for the foreign ownership of the company",
+              "d": "Incorporation of the company with the Corporate Affairs Commission as usual"
+            },
+            "answer": "c",
+            "explanation": "The steps are CAC incorporation, NIPC registration, SEC where applicable, CCI, business permit and expatriate quota, and NOTAP registration; no National Assembly approval is needed."
+          },
+          {
+            "id": 12,
+            "context": "Mr Bello is setting up a foreign-owned manufacturing company and will bring in capital from abroad. His lawyer explains the steps, the Certificate of Capital Importation, the Industrial Inspectorate requirements and the registration of a technology transfer agreement.",
+            "question": "A Certificate of Capital Importation is issued within",
+            "options": {
+              "a": "14 days of the application made through an authorised dealer",
+              "b": "24 hours of the application made through an authorised dealer",
+              "c": "30 days of the application made through an authorised dealer",
+              "d": "7 days of the application made through an authorised dealer"
+            },
+            "answer": "b",
+            "explanation": "CCI is issued within 24 hours of application."
+          },
+          {
+            "id": 13,
+            "context": "Mr Bello is setting up a foreign-owned manufacturing company and will bring in capital from abroad. His lawyer explains the steps, the Certificate of Capital Importation, the Industrial Inspectorate requirements and the registration of a technology transfer agreement.",
+            "question": "The Industrial Inspectorate must be notified of new capital expenditure of not less than",
+            "options": {
+              "a": "N500,000 on new plant or machinery",
+              "b": "N25,000,000 on new plant or machinery",
+              "c": "N5,000,000 on new plant or machinery",
+              "d": "N100 million on new plant or machinery"
+            },
+            "answer": "c",
+            "explanation": "Section 3(1) of the Industrial Inspectorate Act requires notice for capital expenditure of not less than N5,000,000."
+          },
+          {
+            "id": 14,
+            "context": "Mr Bello is setting up a foreign-owned manufacturing company and will bring in capital from abroad. His lawyer explains the steps, the Certificate of Capital Importation, the Industrial Inspectorate requirements and the registration of a technology transfer agreement.",
+            "question": "A technology transfer agreement must be registered with NOTAP within",
+            "options": {
+              "a": "60 days of the execution of the agreement by the parties",
+              "b": "21 days of the execution of the agreement by the parties",
+              "c": "1 year of the execution of the agreement by the parties",
+              "d": "6 months of the execution of the agreement by the parties"
+            },
+            "answer": "a",
+            "explanation": "NOTAP registration is within 60 days of execution (s.5(2))."
+          },
+          {
+            "id": 15,
+            "context": "Mr Bello is setting up a foreign-owned manufacturing company and will bring in capital from abroad. His lawyer explains the steps, the Certificate of Capital Importation, the Industrial Inspectorate requirements and the registration of a technology transfer agreement.",
+            "question": "Failure to register a technology transfer agreement with NOTAP means",
+            "options": {
+              "a": "The company is wound up by order of the court at once",
+              "b": "The agreement is void and cannot be enforced by either party",
+              "c": "The parties are liable to be jailed for the default of registration",
+              "d": "No fees or royalties under it can be remitted out of Nigeria"
+            },
+            "answer": "d",
+            "explanation": "The effect is that no fees or royalties can be remitted (s.7); the agreement is not void."
+          },
+          {
+            "id": 16,
+            "context": "An engineer, Mr Obi, has developed a new type of water filter and a distinctive shape for its casing. He asks his lawyer which rights to claim, for how long and how.",
+            "question": "The following are not patentable",
+            "options": {
+              "a": "A new machine that is capable of industrial application and use",
+              "b": "Plant or animal varieties, which the Act expressly excludes from protection",
+              "c": "A new chemical process that is capable of industrial application",
+              "d": "A new industrial product that is capable of industrial application"
+            },
+            "answer": "b",
+            "explanation": "Plant or animal varieties and essentially biological processes are not patentable (s.1(4))."
+          },
+          {
+            "id": 17,
+            "context": "An engineer, Mr Obi, has developed a new type of water filter and a distinctive shape for its casing. He asks his lawyer which rights to claim, for how long and how.",
+            "question": "A patent lasts for",
+            "options": {
+              "a": "10 years from the date of the grant of the patent",
+              "b": "50 years from the date of the filing of the application",
+              "c": "The life of the inventor and 70 years after his death",
+              "d": "20 years from the date of the filing of the application"
+            },
+            "answer": "d",
+            "explanation": "Duration is 20 years from the date of filing, subject to annual fees."
+          },
+          {
+            "id": 18,
+            "context": "An engineer, Mr Obi, has developed a new type of water filter and a distinctive shape for its casing. He asks his lawyer which rights to claim, for how long and how.",
+            "question": "Patent rights arise",
+            "options": {
+              "a": "On the invention of the product, even if nothing is filed",
+              "b": "On the registration of the patent by the Registry of Patents",
+              "c": "On publication of the idea in a journal or other medium",
+              "d": "On the first sale of the invention to a member of the public"
+            },
+            "answer": "b",
+            "explanation": "Rights are created by registration; invention alone gives no monopoly."
+          },
+          {
+            "id": 19,
+            "context": "An engineer, Mr Obi, has developed a new type of water filter and a distinctive shape for its casing. He asks his lawyer which rights to claim, for how long and how.",
+            "question": "An industrial design is protected for",
+            "options": {
+              "a": "5 years, renewable for two further periods of 5 years each",
+              "b": "20 years from the date of filing, renewable on payment of fees",
+              "c": "The life of the designer and 70 years after his death",
+              "d": "7 years, renewable every 14 years on payment of the prescribed fees"
+            },
+            "answer": "a",
+            "explanation": "Design protection is 5 years, renewable twice, a maximum of 15 years."
+          },
+          {
+            "id": 20,
+            "context": "An engineer, Mr Obi, has developed a new type of water filter and a distinctive shape for its casing. He asks his lawyer which rights to claim, for how long and how.",
+            "question": "An industrial design protects",
+            "options": {
+              "a": "The visual appearance of an article made for sale",
+              "b": "The trade name under which the article is sold",
+              "c": "The manufacturing secrets used in making the article",
+              "d": "The technical function that the article performs"
+            },
+            "answer": "a",
+            "explanation": "Designs protect the visual appearance, not the function."
+          }
+        ]
+      },
+      {
+        "id": "criminal-litigation",
+        "name": "Criminal Litigation",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "In a trial for murder, the examination of witnesses is conducted by counsel on both sides. A senior judge supervises the process, and the registrar records the rules.",
+            "question": "Which of these is NOT true of examination-in-chief?",
+            "options": {
+              "a": "Open questions are recommended, and counsel should prefer them",
+              "b": "Leading questions are allowed on matters that are undisputed or introductory",
+              "c": "The memory of the witness may be refreshed with the leave of court",
+              "d": "Leading questions are generally allowed, as they save the court's time"
+            },
+            "answer": "d",
+            "explanation": "Leading questions are generally disallowed in chief."
+          },
+          {
+            "id": 2,
+            "context": "In a trial for murder, the examination of witnesses is conducted by counsel on both sides. A senior judge supervises the process, and the registrar records the rules.",
+            "question": "Which of these is NOT a purpose of cross-examination?",
+            "options": {
+              "a": "To contradict or weaken the evidence which the witness gave in chief",
+              "b": "To restate the evidence in chief in the witness's own words",
+              "c": "To elicit favourable facts from a witness called by the other side",
+              "d": "To test the credibility of the witness called by the other side"
+            },
+            "answer": "b",
+            "explanation": "Cross-examination contradicts, tests and extracts; it does not restate the chief."
+          },
+          {
+            "id": 3,
+            "context": "In a trial for murder, the examination of witnesses is conducted by counsel on both sides. A senior judge supervises the process, and the registrar records the rules.",
+            "question": "Which of these is NOT true of re-examination?",
+            "options": {
+              "a": "It is used to restate the evidence given by the witness in chief",
+              "b": "It is used to clear ambiguities that arose in the cross-examination",
+              "c": "It follows the cross-examination of the witness by the adverse party",
+              "d": "It is conducted by the party who called the witness to the stand"
+            },
+            "answer": "a",
+            "explanation": "Re-examination is to clear ambiguities from cross - not to restate the chief."
+          },
+          {
+            "id": 4,
+            "context": "In a trial for murder, the examination of witnesses is conducted by counsel on both sides. A senior judge supervises the process, and the registrar records the rules.",
+            "question": "A hostile witness is NOT",
+            "options": {
+              "a": "One who may be cross-examined by the party who called him",
+              "b": "One who bears hostile animus towards the party who called him",
+              "c": "One who merely testifies against the party who called him",
+              "d": "One who wilfully refuses to testify truthfully for the party calling him"
+            },
+            "answer": "c",
+            "explanation": "Esan v State; Yusuf v Obasanjo."
+          },
+          {
+            "id": 5,
+            "context": "In a trial for murder, the examination of witnesses is conducted by counsel on both sides. A senior judge supervises the process, and the registrar records the rules.",
+            "question": "A judge may do all of these with a witness except",
+            "options": {
+              "a": "Clarify an answer that is vague or that the judge could not follow",
+              "b": "Remain neutral between the parties throughout the examination of the witness",
+              "c": "Use questions sparingly, since he is not the one to prove the case",
+              "d": "Take over the role of counsel and gather the evidence himself"
+            },
+            "answer": "d",
+            "explanation": "The judge must not take over counsel's evidence-gathering role."
+          },
+          {
+            "id": 6,
+            "context": "Mr Dayo is held at a police station on suspicion of murder, while his brother is held for a minor fraud. Their lawyer asks about police bail and what to do if bail is refused.",
+            "question": "The police cannot grant bail for",
+            "options": {
+              "a": "A misdemeanour, which the police may release the suspect on bail for",
+              "b": "A capital offence, which is outside the bail powers of the police",
+              "c": "A bailable offence, which the police may release the suspect on bail for",
+              "d": "A minor offence, which the police may release the suspect on bail for"
+            },
+            "answer": "b",
+            "explanation": "Police cannot grant bail for a capital offence."
+          },
+          {
+            "id": 7,
+            "context": "Mr Dayo is held at a police station on suspicion of murder, while his brother is held for a minor fraud. Their lawyer asks about police bail and what to do if bail is refused.",
+            "question": "Police bail may be on all of these terms except",
+            "options": {
+              "a": "A surety or sureties, if the police require them for the bail",
+              "b": "A cash deposit with the police, which is not a permitted term",
+              "c": "A bond for a fixed sum, which the suspect signs at the station",
+              "d": "His own personal recognizance, based on his integrity and social standing"
+            },
+            "answer": "b",
+            "explanation": "Terms are recognizance, bond or sureties, never a money deposit."
+          },
+          {
+            "id": 8,
+            "context": "Mr Dayo is held at a police station on suspicion of murder, while his brother is held for a minor fraud. Their lawyer asks about police bail and what to do if bail is refused.",
+            "question": "Police bail lasts until",
+            "options": {
+              "a": "The appeal of the suspect has been heard and decided",
+              "b": "The judgment of the court in the trial of the suspect",
+              "c": "His arraignment, when it lapses, or until revoked for breach",
+              "d": "The sentence of the court is passed on the suspect"
+            },
+            "answer": "c",
+            "explanation": "It lasts until arraignment, when it lapses, or until revoked for breach."
+          },
+          {
+            "id": 9,
+            "context": "Mr Dayo is held at a police station on suspicion of murder, while his brother is held for a minor fraud. Their lawyer asks about police bail and what to do if bail is refused.",
+            "question": "If the police refuse bail, the suspect may",
+            "options": {
+              "a": "Wait indefinitely in the police cell until the police decide to charge him",
+              "b": "Appeal to the Supreme Court against the decision of the police",
+              "c": "Apply to a court for his release, or enforce his fundamental rights",
+              "d": "Petition the Senate to order the police to release him on bail"
+            },
+            "answer": "c",
+            "explanation": "He may apply in court for release, enforce his rights under FREP, or apply for habeas corpus."
+          },
+          {
+            "id": 10,
+            "context": "Mr Dayo is held at a police station on suspicion of murder, while his brother is held for a minor fraud. Their lawyer asks about police bail and what to do if bail is refused.",
+            "question": "An application to a Magistrate for release of a suspect is for",
+            "options": {
+              "a": "Any offence, however serious, that the suspect is held for",
+              "b": "Treason only, since that is the offence the police hold",
+              "c": "Capital offences only, since the police cannot grant bail",
+              "d": "Non-capital offences only, within the jurisdiction of the Magistrate"
+            },
+            "answer": "d",
+            "explanation": "A Magistrate application is for non-capital offences only."
+          },
+          {
+            "id": 11,
+            "context": "Mr Kola was arrested on Monday and held by the police for four days on suspicion of robbery. His lawyer says the police must either bail him or apply for a remand order, and cites a case on holding charges.",
+            "question": "Without producing a suspect in court, the police cannot detain him beyond",
+            "options": {
+              "a": "48 hours, except for capital or other serious offences, under the Constitution",
+              "b": "7 days, except for capital or other serious offences, under the Constitution",
+              "c": "30 days, except for capital or other serious offences, under the Constitution",
+              "d": "14 days, except for capital or other serious offences, under the Constitution"
+            },
+            "answer": "a",
+            "explanation": "Section 35(4)-(5) CFRN: not beyond 48 hours except for capital or other serious offences."
+          },
+          {
+            "id": 12,
+            "context": "Mr Kola was arrested on Monday and held by the police for four days on suspicion of robbery. His lawyer says the police must either bail him or apply for a remand order, and cites a case on holding charges.",
+            "question": "A remand application",
+            "options": {
+              "a": "It must be in writing, since oral applications are not permitted",
+              "b": "It may be made orally, since the police are present in court",
+              "c": "It is made to the Supreme Court, which has power over police custody",
+              "d": "It is made by the defendant, who asks to be kept in custody"
+            },
+            "answer": "a",
+            "explanation": "Oral remand applications are not permitted."
+          },
+          {
+            "id": 13,
+            "context": "Mr Kola was arrested on Monday and held by the police for four days on suspicion of robbery. His lawyer says the police must either bail him or apply for a remand order, and cites a case on holding charges.",
+            "question": "Under the ACJA a first remand order is for",
+            "options": {
+              "a": "7 days for the first remand order under the ACJA",
+              "b": "30 days, which the court may renew as often as it thinks fit",
+              "c": "21 days, which the court may renew as often as it thinks fit",
+              "d": "14 days, which the court may renew as often as it thinks fit"
+            },
+            "answer": "d",
+            "explanation": "Under the ACJA, 14 days initially (s.293(2))."
+          },
+          {
+            "id": 14,
+            "context": "Mr Kola was arrested on Monday and held by the police for four days on suspicion of robbery. His lawyer says the police must either bail him or apply for a remand order, and cites a case on holding charges.",
+            "question": "Under a remand order, the suspect is NOT taken to",
+            "options": {
+              "a": "A correctional centre, which is the usual place of remand",
+              "b": "The police station, where the suspect was first held",
+              "c": "Court custody, pending the hearing of the application",
+              "d": "A custodial facility, as provided by the Act in such cases"
+            },
+            "answer": "b",
+            "explanation": "He is taken to the correctional centre, not back to the police station."
+          },
+          {
+            "id": 15,
+            "context": "Mr Kola was arrested on Monday and held by the police for four days on suspicion of robbery. His lawyer says the police must either bail him or apply for a remand order, and cites a case on holding charges.",
+            "question": "The practice of holding charges was condemned as unconstitutional in",
+            "options": {
+              "a": "Ibori v FRN, a case on the trial of a former Governor",
+              "b": "Madukolu v Nkemdilim, a case on the jurisdiction of a court",
+              "c": "Aoko v Fagbemi, a case on offences not known to written law",
+              "d": "Lufadeju v Johnson, a case decided by the Supreme Court in 2007"
+            },
+            "answer": "d",
+            "explanation": "It was condemned in Lufadeju v Johnson (2007)."
+          },
+          {
+            "id": 16,
+            "context": "Mr Ola is charged with an offence he allegedly committed ten years ago. His counsel asks whether time has run out and cites several statutes that fix special limitation periods.",
+            "question": "Under the general rule, the time within which criminal proceedings may be commenced is",
+            "options": {
+              "a": "There is no time limit, unless a statute provides otherwise in a case",
+              "b": "6 months from the commission of the offence charged in the case",
+              "c": "10 years from the commission of the offence charged in the case",
+              "d": "2 years from the commission of the offence charged in the case"
+            },
+            "answer": "a",
+            "explanation": "There is no time limit unless a statute provides otherwise."
+          },
+          {
+            "id": 17,
+            "context": "Mr Ola is charged with an offence he allegedly committed ten years ago. His counsel asks whether time has run out and cites several statutes that fix special limitation periods.",
+            "question": "Proceedings for treason must be begun within",
+            "options": {
+              "a": "6 months from the commission of the offence of treason charged",
+              "b": "7 years from the commission of the offence of treason charged",
+              "c": "2 years from the commission of the offence of treason charged",
+              "d": "3 months from the commission of the offence of treason charged"
+            },
+            "answer": "c",
+            "explanation": "Treason and treasonable felony: 2 years (s.43 Criminal Code)."
+          },
+          {
+            "id": 18,
+            "context": "Mr Ola is charged with an offence he allegedly committed ten years ago. His counsel asks whether time has run out and cites several statutes that fix special limitation periods.",
+            "question": "Proceedings for sedition must be begun within",
+            "options": {
+              "a": "6 months from the commission of the offence of sedition charged",
+              "b": "7 years from the commission of the offence of sedition charged",
+              "c": "2 years from the commission of the offence of sedition charged",
+              "d": "2 months from the commission of the offence of sedition charged"
+            },
+            "answer": "a",
+            "explanation": "Sedition: 6 months (s.52(1) Criminal Code)."
+          },
+          {
+            "id": 19,
+            "context": "Mr Ola is charged with an offence he allegedly committed ten years ago. His counsel asks whether time has run out and cites several statutes that fix special limitation periods.",
+            "question": "Offences under the Nigerian Customs Service Act must be prosecuted within",
+            "options": {
+              "a": "10 years from the commission of the offence under that Act",
+              "b": "7 years from the commission of the offence under that Act",
+              "c": "6 months from the commission of the offence under that Act",
+              "d": "2 years from the commission of the offence under that Act"
+            },
+            "answer": "b",
+            "explanation": "Customs offences: 7 years."
+          },
+          {
+            "id": 20,
+            "context": "Mr Ola is charged with an offence he allegedly committed ten years ago. His counsel asks whether time has run out and cites several statutes that fix special limitation periods.",
+            "question": "Proceedings under ss.218 and 221 of the Criminal Code (sexual offences) must be begun within",
+            "options": {
+              "a": "6 months from the commission of the sexual offence charged",
+              "b": "7 years from the commission of the sexual offence charged",
+              "c": "2 months from the commission of the sexual offence charged",
+              "d": "2 years from the commission of the sexual offence charged"
+            },
+            "answer": "c",
+            "explanation": "Sexual offences under those sections: 2 months."
+          }
+        ]
+      },
+      {
+        "id": "professional-ethics",
+        "name": "Professional Ethics and Skills",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "A law firm hires new staff and sets goals using the CRAMS criteria. It plans, organises and controls its work. A manager asks about disciplinary steps for a staff misconduct.",
+            "question": "The disciplinary procedure begins with",
+            "options": {
+              "a": "A final written warning issued to the staff member",
+              "b": "A fine deducted from the salary of the staff member",
+              "c": "Dismissal from the employment of the firm at once",
+              "d": "A verbal warning given to the staff member"
+            },
+            "answer": "d",
+            "explanation": "Verbal → written → final written → dismissal for gross misconduct."
+          },
+          {
+            "id": 2,
+            "context": "A law firm hires new staff and sets goals using the CRAMS criteria. It plans, organises and controls its work. A manager asks about disciplinary steps for a staff misconduct.",
+            "question": "A mission statement sets out",
+            "options": {
+              "a": "The long-term aspirations of the firm over the years",
+              "b": "The short-term immediate goals of the firm",
+              "c": "The staff to be employed by the firm",
+              "d": "The fees to be charged by the firm"
+            },
+            "answer": "b",
+            "explanation": "A vision statement sets long-term aspirations."
+          },
+          {
+            "id": 3,
+            "context": "A law firm hires new staff and sets goals using the CRAMS criteria. It plans, organises and controls its work. A manager asks about disciplinary steps for a staff misconduct.",
+            "question": "Management functions do NOT include",
+            "options": {
+              "a": "Litigating on behalf of the clients of the firm",
+              "b": "Organising the work of the firm and its staff",
+              "c": "Evaluating the work of the firm and its staff",
+              "d": "Planning the work of the firm and its staff"
+            },
+            "answer": "a",
+            "explanation": "Planning, organising, co-ordinating, controlling, evaluating."
+          },
+          {
+            "id": 4,
+            "context": "A law firm hires new staff and sets goals using the CRAMS criteria. It plans, organises and controls its work. A manager asks about disciplinary steps for a staff misconduct.",
+            "question": "Law office records include all of these except",
+            "options": {
+              "a": "A closed file register kept by the firm",
+              "b": "A file-movement register kept by the firm",
+              "c": "A client's will kept by the firm for safe custody",
+              "d": "A staff register kept by the firm"
+            },
+            "answer": "c",
+            "explanation": "Registers."
+          },
+          {
+            "id": 5,
+            "context": "A law firm hires new staff and sets goals using the CRAMS criteria. It plans, organises and controls its work. A manager asks about disciplinary steps for a staff misconduct.",
+            "question": "A SAN applicant must have a standard office with at least how many full-time junior practitioners?",
+            "options": {
+              "a": "Two full-time junior practitioners in the office",
+              "b": "Ten full-time junior practitioners in the office",
+              "c": "Three full-time junior practitioners in the office",
+              "d": "Five full-time junior practitioners in the office"
+            },
+            "answer": "d",
+            "explanation": "Per the 2022/2023 Guidelines."
+          },
+          {
+            "id": 6,
+            "context": "An arbitral award has been made against a company, which wants to resist enforcement. The winning party asks the court to enforce it. The company says the award contains an error on its face.",
+            "question": "An award is enforced like",
+            "options": {
+              "a": "A police order carrying the force of law in the State",
+              "b": "A directive issued by the NBA to its members in practice",
+              "c": "A note written by the mediator after the mediation ends",
+              "d": "A judgment of the High Court, under section 57 of the AMA"
+            },
+            "answer": "d",
+            "explanation": "Section 57 AMA."
+          },
+          {
+            "id": 7,
+            "context": "An arbitral award has been made against a company, which wants to resist enforcement. The winning party asks the court to enforce it. The company says the award contains an error on its face.",
+            "question": "Enforcement is by",
+            "options": {
+              "a": "Motion on notice supported by an affidavit",
+              "b": "A petition filed in the registry of the court",
+              "c": "A writ of summons issued by the court",
+              "d": "An oral application made in open court"
+            },
+            "answer": "a",
+            "explanation": "With authenticated original or certified copy."
+          },
+          {
+            "id": 8,
+            "context": "An arbitral award has been made against a company, which wants to resist enforcement. The winning party asks the court to enforce it. The company says the award contains an error on its face.",
+            "question": "An award cannot be set aside merely for",
+            "options": {
+              "a": "Absence of notice to the party against whom it is made",
+              "b": "An error on the face of the award",
+              "c": "Corruption of the arbitrator who made the award",
+              "d": "Incapacity of a party to the arbitration agreement"
+            },
+            "answer": "b",
+            "explanation": "Section 55(2) AMA."
+          },
+          {
+            "id": 9,
+            "context": "An arbitral award has been made against a company, which wants to resist enforcement. The winning party asks the court to enforce it. The company says the award contains an error on its face.",
+            "question": "The time limit to challenge an award is",
+            "options": {
+              "a": "Six months from the date of the award",
+              "b": "Thirty days from the date of the award",
+              "c": "One year from the date of the award",
+              "d": "Three months from the date of the award"
+            },
+            "answer": "d",
+            "explanation": "Or 30 days if an additional award was requested."
+          },
+          {
+            "id": 10,
+            "context": "An arbitral award has been made against a company, which wants to resist enforcement. The winning party asks the court to enforce it. The company says the award contains an error on its face.",
+            "question": "Statutory grounds for setting aside an award include all of these except",
+            "options": {
+              "a": "The tribunal's decision is harsh on one of the parties",
+              "b": "The award is against the public policy of the country",
+              "c": "A party was under incapacity when the agreement was made",
+              "d": "The subject matter of the dispute is not arbitrable"
+            },
+            "answer": "a",
+            "explanation": "Sections 55 and 58 AMA."
+          },
+          {
+            "id": 11,
+            "context": "An originating application is sent to the Chairman of the Body of Benchers against a lawyer. The LPDC wants to know who may receive complaints, documents needed, the standard of proof and the sanctions.",
+            "question": "A complaint may be sent to all of these except",
+            "options": {
+              "a": "The Attorney-General of the Federation of Nigeria",
+              "b": "The Chief Registrar of the Supreme Court of Nigeria",
+              "c": "The Chief Justice of Nigeria as head of the judiciary",
+              "d": "The President of the Nigerian Bar Association"
+            },
+            "answer": "b",
+            "explanation": "LPDC Rules 2020."
+          },
+          {
+            "id": 12,
+            "context": "An originating application is sent to the Chairman of the Body of Benchers against a lawyer. The LPDC wants to know who may receive complaints, documents needed, the standard of proof and the sanctions.",
+            "question": "The documents accompanying the application are remembered as SAD, which does NOT include",
+            "options": {
+              "a": "A statement of the allegation against the lawyer",
+              "b": "An affidavit of the facts relied on in support",
+              "c": "A sworn declaration of the judge before whom he appeared",
+              "d": "The documents or exhibits relied on in support"
+            },
+            "answer": "c",
+            "explanation": "SAD: Statement, Affidavit, Documents."
+          },
+          {
+            "id": 13,
+            "context": "An originating application is sent to the Chairman of the Body of Benchers against a lawyer. The LPDC wants to know who may receive complaints, documents needed, the standard of proof and the sanctions.",
+            "question": "The recipient forwards the application to the LPDC within",
+            "options": {
+              "a": "Thirty days from its receipt of the application",
+              "b": "Fourteen days from its receipt of the application",
+              "c": "Sixty days from its receipt of the application",
+              "d": "Seven days from its receipt of the application"
+            },
+            "answer": "a",
+            "explanation": "LPDC Rules 2020."
+          },
+          {
+            "id": 14,
+            "context": "An originating application is sent to the Chairman of the Body of Benchers against a lawyer. The LPDC wants to know who may receive complaints, documents needed, the standard of proof and the sanctions.",
+            "question": "The standard of proof before the LPDC is",
+            "options": {
+              "a": "Beyond reasonable doubt, as in a trial on a criminal charge",
+              "b": "Prima facie proof, as at the stage of a preliminary ruling",
+              "c": "The balance of probabilities, since the proceedings are not criminal",
+              "d": "Absolute certainty, as in a trial on a capital charge"
+            },
+            "answer": "c",
+            "explanation": "LPDC proceedings are not criminal."
+          },
+          {
+            "id": 15,
+            "context": "An originating application is sent to the Chairman of the Body of Benchers against a lawyer. The LPDC wants to know who may receive complaints, documents needed, the standard of proof and the sanctions.",
+            "question": "The Evidence Act at LPDC hearings",
+            "options": {
+              "a": "Applies to counsel only, and not to the witnesses",
+              "b": "Applies strictly, as in a criminal trial in court",
+              "c": "Applies on a request made by either of the parties",
+              "d": "Does not apply to the hearing of the matter"
+            },
+            "answer": "d",
+            "explanation": "LPDC Rules."
+          },
+          {
+            "id": 16,
+            "context": "A lawyer collects ₦5 million damages for a client and pays it into his personal account to avoid transfer charges. His bank later sets off his overdraft against it. He is also accused of refusing a brief.",
+            "question": "A lawyer who collects money for a client must",
+            "options": {
+              "a": "Use it for his fees automatically, without telling the client",
+              "b": "Promptly report and account for it to the client",
+              "c": "Mix it with the money of the office for convenience",
+              "d": "Hold it as his own money until the client asks"
+            },
+            "answer": "b",
+            "explanation": "Rule 23(2) RPC."
+          },
+          {
+            "id": 17,
+            "context": "A lawyer collects ₦5 million damages for a client and pays it into his personal account to avoid transfer charges. His bank later sets off his overdraft against it. He is also accused of refusing a brief.",
+            "question": "A lawyer is required to maintain separate accounts. They include all of these except",
+            "options": {
+              "a": "A trust account kept for a particular trust",
+              "b": "A personal or office account kept by the lawyer",
+              "c": "A savings account kept for the profit of the lawyer",
+              "d": "A client account kept for the money of clients"
+            },
+            "answer": "c",
+            "explanation": "Three separate accounts: personal/office, client and trust."
+          },
+          {
+            "id": 18,
+            "context": "A lawyer collects ₦5 million damages for a client and pays it into his personal account to avoid transfer charges. His bank later sets off his overdraft against it. He is also accused of refusing a brief.",
+            "question": "A bank cannot set off a lawyer's personal debt against the client account unless",
+            "options": {
+              "a": "The debt arose in connection with that account",
+              "b": "The client agrees to the set-off against the account",
+              "c": "The lawyer agrees to the set-off against the account",
+              "d": "The debt of the lawyer is a large one"
+            },
+            "answer": "a",
+            "explanation": "Re a Solicitor (1977); s.20(1) LPA."
+          },
+          {
+            "id": 19,
+            "context": "A lawyer collects ₦5 million damages for a client and pays it into his personal account to avoid transfer charges. His bank later sets off his overdraft against it. He is also accused of refusing a brief.",
+            "question": "Under the cab-rank rule, a lawyer may refuse a brief for all of these except",
+            "options": {
+              "a": "He is likely to be a witness in the case",
+              "b": "A conflict of interest exists in the matter",
+              "c": "The client is unpopular with members of the public",
+              "d": "He is himself a party to the matter"
+            },
+            "answer": "c",
+            "explanation": "Rule 24: WRAP CUP special circumstances."
+          },
+          {
+            "id": 20,
+            "context": "A lawyer collects ₦5 million damages for a client and pays it into his personal account to avoid transfer charges. His bank later sets off his overdraft against it. He is also accused of refusing a brief.",
+            "question": "Fixing trial dates and applying for adjournment is within",
+            "options": {
+              "a": "The control of the registrar, as an officer of the court",
+              "b": "The control of the lawyer without further instruction from the client",
+              "c": "The control of the client, as the person who pays",
+              "d": "The control of the court only, and not of the lawyer"
+            },
+            "answer": "b",
+            "explanation": "Rule 24(4)-(6) RPC."
+          }
+        ]
+      }
+    ]
+  },
+  "cpc-7": {
+    "year": 9997,
+    "session": "CPC Test 7",
+    "examTitle": "Pre-Bar Style MCQ — Corporate, Criminal, Ethics (CPC) Test 7",
+    "totalQuestions": 60,
+    "courses": [
+      {
+        "id": "corporate-law-practice",
+        "name": "Corporate Law Practice",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "Nova Bank Plc and Apex Bank Plc plan to merge. Their lawyers must tell the boards which regulators have to approve the merger, how mergers are classified and when approval can be taken away.",
+            "question": "A merger involving public companies requires prior review and approval of",
+            "options": {
+              "a": "The Securities and Exchange Commission, by way of prior review and approval",
+              "b": "The Customs Service, by way of prior review and approval",
+              "c": "The Federal Inland Revenue Service, by way of prior review and approval",
+              "d": "The Nigerian Investment Promotion Commission, by way of prior review and approval"
+            },
+            "answer": "a",
+            "explanation": "Every merger, acquisition or takeover is subject to SEC prior review (and FCCPC review)."
+          },
+          {
+            "id": 2,
+            "context": "Nova Bank Plc and Apex Bank Plc plan to merge. Their lawyers must tell the boards which regulators have to approve the merger, how mergers are classified and when approval can be taken away.",
+            "question": "A banking merger also requires the prior consent of",
+            "options": {
+              "a": "The Chief Judge of the Federal High Court, by way of an order",
+              "b": "The Attorney-General of the Federation, by way of a written fiat",
+              "c": "The Governor of the Central Bank of Nigeria, under section 7 BOFIA",
+              "d": "The Registrar-General of the Corporate Affairs Commission, by way of approval"
+            },
+            "answer": "c",
+            "explanation": "Section 7 BOFIA requires the prior consent of the CBN Governor."
+          },
+          {
+            "id": 3,
+            "context": "Nova Bank Plc and Apex Bank Plc plan to merge. Their lawyers must tell the boards which regulators have to approve the merger, how mergers are classified and when approval can be taken away.",
+            "question": "Under the FCCPA the lecturer's classification of mergers is",
+            "options": {
+              "a": "Horizontal mergers only, as opposed to vertical and conglomerate mergers",
+              "b": "Vertical mergers only, as opposed to horizontal and conglomerate mergers",
+              "c": "Small mergers or large mergers only, as the regulations provide",
+              "d": "Small, intermediate and large mergers, as the regulations provide"
+            },
+            "answer": "c",
+            "explanation": "Under the FCCPA the mergers are only small (Reg 11) or large (Reg 12)."
+          },
+          {
+            "id": 4,
+            "context": "Nova Bank Plc and Apex Bank Plc plan to merge. Their lawyers must tell the boards which regulators have to approve the merger, how mergers are classified and when approval can be taken away.",
+            "question": "The FCCPC approves a merger if it is not likely to",
+            "options": {
+              "a": "Change the name of the company concerned",
+              "b": "Reduce the number of staff employed",
+              "c": "Substantially restrain competition in the market",
+              "d": "Increase the profits of the merging companies"
+            },
+            "answer": "c",
+            "explanation": "Approval is given if the transaction is not likely to substantially restrain competition or create a monopoly."
+          },
+          {
+            "id": 5,
+            "context": "Nova Bank Plc and Apex Bank Plc plan to merge. Their lawyers must tell the boards which regulators have to approve the merger, how mergers are classified and when approval can be taken away.",
+            "question": "The FCCPC may revoke a merger approval for all these reasons except",
+            "options": {
+              "a": "The giving of incorrect information to the Commission by a party",
+              "b": "The change of the name of the company after the approval was given",
+              "c": "Failure to implement the merger within 12 months of the approval",
+              "d": "The obtaining of the approval by deceit practised on the Commission"
+            },
+            "answer": "b",
+            "explanation": "Grounds are incorrect information, deceit, failure to implement within 12 months and breach of an obligation."
+          },
+          {
+            "id": 6,
+            "context": "Tobi and Wale registered the business name 'Evergreen Stores' in January 2025. In May 2026 Wale changed his residential address. In June 2026 they stopped trading altogether. Tobi's 17-year-old nephew is interested in joining the business as a partner.",
+            "question": "The partners must notify the CAC of the change in Wale's address within",
+            "options": {
+              "a": "28 days of the change, by notice in the prescribed form",
+              "b": "7 days of the change, by notice in the prescribed form",
+              "c": "3 months of the change, by notice in the prescribed form",
+              "d": "14 days of the change, by notice in the prescribed form"
+            },
+            "answer": "a",
+            "explanation": "Changes: notify CAC within 28 days (s.818), except age particulars."
+          },
+          {
+            "id": 7,
+            "context": "Tobi and Wale registered the business name 'Evergreen Stores' in January 2025. In May 2026 Wale changed his residential address. In June 2026 they stopped trading altogether. Tobi's 17-year-old nephew is interested in joining the business as a partner.",
+            "question": "The annual return of a registered business name is filed not later than",
+            "options": {
+              "a": "15 January in each year, except in the year of registration",
+              "b": "30 June in each year, except in the year of registration",
+              "c": "31 March in each year, except in the year of registration",
+              "d": "31 December in each year, except in the year of registration"
+            },
+            "answer": "b",
+            "explanation": "Annual return (s.822): not later than 30 June each year, except the calendar year of registration."
+          },
+          {
+            "id": 8,
+            "context": "Tobi and Wale registered the business name 'Evergreen Stores' in January 2025. In May 2026 Wale changed his residential address. In June 2026 they stopped trading altogether. Tobi's 17-year-old nephew is interested in joining the business as a partner.",
+            "question": "After ceasing to trade, the partners should notify the CAC within",
+            "options": {
+              "a": "6 months of the date on which the business ceased to trade",
+              "b": "28 days of the date on which the business ceased to trade",
+              "c": "3 months of the date on which the business ceased to trade",
+              "d": "1 year of the date on which the business ceased to trade"
+            },
+            "answer": "c",
+            "explanation": "Under s.819 partners notify CAC within 3 months of cessation."
+          },
+          {
+            "id": 9,
+            "context": "Tobi and Wale registered the business name 'Evergreen Stores' in January 2025. In May 2026 Wale changed his residential address. In June 2026 they stopped trading altogether. Tobi's 17-year-old nephew is interested in joining the business as a partner.",
+            "question": "Registration of a business name has the following consequences except",
+            "options": {
+              "a": "It gives the owners priority in the name even against later companies",
+              "b": "It requires the certificate to be shown at the principal place of business",
+              "c": "It raises a rebuttable presumption that the owners are partners in the firm",
+              "d": "It validates a name that the Act would otherwise have prohibited"
+            },
+            "answer": "d",
+            "explanation": "Registration does not validate a prohibited name; it gives priority and raises a rebuttable presumption of partnership; the certificate must be exhibited."
+          },
+          {
+            "id": 10,
+            "context": "Tobi and Wale registered the business name 'Evergreen Stores' in January 2025. In May 2026 Wale changed his residential address. In June 2026 they stopped trading altogether. Tobi's 17-year-old nephew is interested in joining the business as a partner.",
+            "question": "A person under 18 may be a partner in a registered business only if",
+            "options": {
+              "a": "At least two adults are also partners in the registered business",
+              "b": "A magistrate countersigns the registration of the business each year",
+              "c": "The Commission gives its special approval for each minor admitted",
+              "d": "The business is carried on otherwise than for the purpose of profit"
+            },
+            "answer": "a",
+            "explanation": "A minor may be a partner only with at least two adults (s.852(3)), and '(a minor)' is added after his name in the firm name."
+          },
+          {
+            "id": 11,
+            "context": "Mrs Dike wants to buy shares in Zenith Agro Ltd. Before she pays, the secretary explains when she will count as a member, who the law will not allow to be a member, and a few rules about the register of members and significant shareholders.",
+            "question": "A person other than a subscriber becomes a member when",
+            "options": {
+              "a": "He receives the share certificate issued to him by the company",
+              "b": "He is allotted the shares by a resolution of the directors",
+              "c": "He pays the full price for the shares to the company",
+              "d": "His name is entered in the register of members of the company"
+            },
+            "answer": "d",
+            "explanation": "Payment or possession of a certificate is not enough; entry in the register makes one a member."
+          },
+          {
+            "id": 12,
+            "context": "Mrs Dike wants to buy shares in Zenith Agro Ltd. Before she pays, the secretary explains when she will count as a member, who the law will not allow to be a member, and a few rules about the register of members and significant shareholders.",
+            "question": "The following cannot be members of a company except",
+            "options": {
+              "a": "A person under the age of 18 years",
+              "b": "A person of unsound mind who cannot manage his affairs",
+              "c": "A body corporate that is in liquidation at the time",
+              "d": "A bankrupt who has been discharged and so is free of the order"
+            },
+            "answer": "d",
+            "explanation": "The persons barred are minors, persons of unsound mind, undischarged bankrupts and corporate bodies in liquidation."
+          },
+          {
+            "id": 13,
+            "context": "Mrs Dike wants to buy shares in Zenith Agro Ltd. Before she pays, the secretary explains when she will count as a member, who the law will not allow to be a member, and a few rules about the register of members and significant shareholders.",
+            "question": "The register of members may be closed for not more than",
+            "options": {
+              "a": "90 days in a year, after notice in a daily newspaper",
+              "b": "60 days in a year, after notice in a daily newspaper",
+              "c": "7 days in a year, after notice in a daily newspaper",
+              "d": "30 days in a year, after notice in a daily newspaper"
+            },
+            "answer": "d",
+            "explanation": "Closing must be advertised in a daily newspaper and cannot exceed 30 days in a year."
+          },
+          {
+            "id": 14,
+            "context": "Mrs Dike wants to buy shares in Zenith Agro Ltd. Before she pays, the secretary explains when she will count as a member, who the law will not allow to be a member, and a few rules about the register of members and significant shareholders.",
+            "question": "A person with significant control holds at least",
+            "options": {
+              "a": "5% of the shares or voting rights, or the power to appoint most directors",
+              "b": "10% of the shares of the company, whether or not they carry votes",
+              "c": "25% of the shares of the company, whether or not they carry votes",
+              "d": "1% of the shares of the company, held directly or through a nominee"
+            },
+            "answer": "a",
+            "explanation": "A PSC holds at least 5% of shares or voting rights, or can appoint a majority of directors."
+          },
+          {
+            "id": 15,
+            "context": "Mrs Dike wants to buy shares in Zenith Agro Ltd. Before she pays, the secretary explains when she will count as a member, who the law will not allow to be a member, and a few rules about the register of members and significant shareholders.",
+            "question": "A substantial shareholder in a public company must notify the company within",
+            "options": {
+              "a": "7 days of his becoming aware that he holds 5% of the votes",
+              "b": "14 days of his becoming aware that he holds 5% of the votes",
+              "c": "21 days of his becoming aware that he holds 5% of the votes",
+              "d": "28 days of his becoming aware that he holds 5% of the votes"
+            },
+            "answer": "b",
+            "explanation": "A holder of 5% of voting rights notifies the company within 14 days."
+          },
+          {
+            "id": 16,
+            "context": "Mega Builders Plc intends to issue debentures to the public to fund a new estate. The board asks the secretary what the law requires before it can do so and who may act for the debenture holders.",
+            "question": "A debenture creates a relationship of",
+            "options": {
+              "a": "Creditor and debtor, since the debenture is a form of debt finance",
+              "b": "Trustee and beneficiary only, since the holders' money is held in trust",
+              "c": "Principal and agent, since the company acts for the holders",
+              "d": "Owner and member, since the holders own part of the company"
+            },
+            "answer": "a",
+            "explanation": "A debenture is temporary debt finance creating a creditor-debtor relationship (s.191)."
+          },
+          {
+            "id": 17,
+            "context": "Mega Builders Plc intends to issue debentures to the public to fund a new estate. The board asks the secretary what the law requires before it can do so and who may act for the debenture holders.",
+            "question": "Before issuing debentures to the public, the company must execute",
+            "options": {
+              "a": "A power of attorney in favour of the Corporate Affairs Commission",
+              "b": "A trust deed appointing a trustee for the benefit of the holders",
+              "c": "A deed of partnership between the company and the debenture holders",
+              "d": "A debenture bond lodged with the SEC before the public is invited"
+            },
+            "answer": "b",
+            "explanation": "Section 208(1) requires a trust deed with a trustee before any public issue."
+          },
+          {
+            "id": 18,
+            "context": "Mega Builders Plc intends to issue debentures to the public to fund a new estate. The board asks the secretary what the law requires before it can do so and who may act for the debenture holders.",
+            "question": "One debenture trust deed may cover",
+            "options": {
+              "a": "The debentures of any number of companies that are in the same group",
+              "b": "Every class of debentures that the company has issued or will issue",
+              "c": "Only one class of debentures, which is the class being issued",
+              "d": "Shares and debentures together, provided they carry the same rights"
+            },
+            "answer": "c",
+            "explanation": "One deed covers only one class of debentures (s.208(2))."
+          },
+          {
+            "id": 19,
+            "context": "Mega Builders Plc intends to issue debentures to the public to fund a new estate. The board asks the secretary what the law requires before it can do so and who may act for the debenture holders.",
+            "question": "The following cannot be a trustee for debenture holders except",
+            "options": {
+              "a": "An officer of the issuing company, who is so disqualified by the Act",
+              "b": "A corporation, which the Act does not disqualify from being a trustee",
+              "c": "A person under the age of 18 years, who is so disqualified",
+              "d": "An undischarged bankrupt, who is so disqualified by the Act"
+            },
+            "answer": "b",
+            "explanation": "A corporation is not disqualified; officers, minors, bankrupts and unsound persons are."
+          },
+          {
+            "id": 20,
+            "context": "Mega Builders Plc intends to issue debentures to the public to fund a new estate. The board asks the secretary what the law requires before it can do so and who may act for the debenture holders.",
+            "question": "A statement in a debenture certificate is",
+            "options": {
+              "a": "Evidence against the Corporate Affairs Commission only, and no one else",
+              "b": "Of no legal effect, since it is merely a receipt for the money",
+              "c": "Conclusive proof of the title of the holder named in the certificate",
+              "d": "Prima facie evidence of the title of the registered holder to the debenture"
+            },
+            "answer": "d",
+            "explanation": "Section 194(1) makes it prima facie evidence of the registered holder's title and the amount secured."
+          }
+        ]
+      },
+      {
+        "id": "criminal-litigation",
+        "name": "Criminal Litigation",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "During the trial of Musa and others, one accused chose to speak from the dock, a witness asked to affirm, and the judge stood down another witness. The defence asked about the layout of the courtroom and where the offence should be tried, since it began in one State and ended in another.",
+            "question": "An unsworn statement made by an accused from the dock is",
+            "options": {
+              "a": "A statement equal in weight to sworn evidence given in the witness box",
+              "b": "A statement not subject to cross-examination, which carries little weight",
+              "c": "A statement that is not admissible in evidence at the trial at all",
+              "d": "A statement that is subject to cross-examination by the prosecution"
+            },
+            "answer": "b",
+            "explanation": "It is admitted but unsworn, not cross-examined, and carries little weight."
+          },
+          {
+            "id": 2,
+            "context": "During the trial of Musa and others, one accused chose to speak from the dock, a witness asked to affirm, and the judge stood down another witness. The defence asked about the layout of the courtroom and where the offence should be tried, since it began in one State and ended in another.",
+            "question": "The following is true of the witness box except",
+            "options": {
+              "a": "A witness may affirm instead of swearing, if he objects to the oath",
+              "b": "The box lies between the Bar and the Bench in the courtroom",
+              "c": "The box holds several witnesses at once so as to save time",
+              "d": "The box holds one witness at a time, who gives his evidence there"
+            },
+            "answer": "c",
+            "explanation": "The witness box holds one witness at a time."
+          },
+          {
+            "id": 3,
+            "context": "During the trial of Musa and others, one accused chose to speak from the dock, a witness asked to affirm, and the judge stood down another witness. The defence asked about the layout of the courtroom and where the offence should be tried, since it began in one State and ended in another.",
+            "question": "A witness who is 'stood down' is",
+            "options": {
+              "a": "Discharged, which means that he is finished with the court entirely",
+              "b": "Held in contempt of court for leaving the witness box without leave",
+              "c": "Finished with the court entirely and may not be called back again",
+              "d": "Temporarily excused by the court and he may be recalled later"
+            },
+            "answer": "d",
+            "explanation": "Stood down means temporarily excused, whereas discharged means finished."
+          },
+          {
+            "id": 4,
+            "context": "During the trial of Musa and others, one accused chose to speak from the dock, a witness asked to affirm, and the judge stood down another witness. The defence asked about the layout of the courtroom and where the offence should be tried, since it began in one State and ended in another.",
+            "question": "An offence begun in one State and completed in another may be tried in",
+            "options": {
+              "a": "Only in the first State, where the offence was begun by the defendant",
+              "b": "In the High Court of either State, as both have jurisdiction",
+              "c": "Only in the Federal High Court, since two States are involved",
+              "d": "Only in the second State, where the offence was completed"
+            },
+            "answer": "b",
+            "explanation": "Both States' High Courts may assume jurisdiction (Njovens v State)."
+          },
+          {
+            "id": 5,
+            "context": "During the trial of Musa and others, one accused chose to speak from the dock, a witness asked to affirm, and the judge stood down another witness. The defence asked about the layout of the courtroom and where the offence should be tried, since it began in one State and ended in another.",
+            "question": "In a joint trial, the accused persons",
+            "options": {
+              "a": "Sit with their counsel in the well of the court throughout the trial",
+              "b": "Appear before the court one at a time, as each is called",
+              "c": "All enter the dock together, since they are tried at the same time",
+              "d": "Stand in the public gallery until each is called by the registrar"
+            },
+            "answer": "c",
+            "explanation": "In a joint trial all accused enter the dock."
+          },
+          {
+            "id": 6,
+            "context": "A woman was robbed at night by a masked man she did not know. The police arrest Mr Tola two days later and want an identification parade. His counsel asks about when a parade is needed and how it is conducted.",
+            "question": "An identification parade is unnecessary where the accused",
+            "options": {
+              "a": "Was seen by the victim in poor light at night",
+              "b": "Was arrested at the scene of the offence",
+              "c": "Was seen by the victim only for a brief moment",
+              "d": "Was not known to the victim before the offence"
+            },
+            "answer": "b",
+            "explanation": "A parade is needed where he was not arrested at the scene or the victim did not know him."
+          },
+          {
+            "id": 7,
+            "context": "A woman was robbed at night by a masked man she did not know. The police arrest Mr Tola two days later and want an identification parade. His counsel asks about when a parade is needed and how it is conducted.",
+            "question": "An identification parade is supervised by an officer of the rank of",
+            "options": {
+              "a": "A constable, who may conduct it without any other officer being present",
+              "b": "An inspector only, who may take part in the parade himself",
+              "c": "A corporal, who is assisted by two constables of the same station",
+              "d": "A Superintendent or above, who supervises without taking part in it"
+            },
+            "answer": "d",
+            "explanation": "A Superintendent or above supervises without participating."
+          },
+          {
+            "id": 8,
+            "context": "A woman was robbed at night by a masked man she did not know. The police arrest Mr Tola two days later and want an identification parade. His counsel asks about when a parade is needed and how it is conducted.",
+            "question": "For a parade with one suspect, the other persons required are at least",
+            "options": {
+              "a": "8 other persons, making a total of 9 persons in all",
+              "b": "12 other persons, making a total of 13 persons in all",
+              "c": "3 other persons, making a total of 4 persons in all",
+              "d": "5 other persons, making a total of 6 persons in all"
+            },
+            "answer": "a",
+            "explanation": "At least 8 others, a total of 9."
+          },
+          {
+            "id": 9,
+            "context": "A woman was robbed at night by a masked man she did not know. The police arrest Mr Tola two days later and want an identification parade. His counsel asks about when a parade is needed and how it is conducted.",
+            "question": "For a parade with two or more suspects, the other persons required are at least",
+            "options": {
+              "a": "20 other persons, making a total of 22 persons in all",
+              "b": "5 other persons, making a total of 7 persons in all",
+              "c": "8 other persons, making a total of 10 persons in all",
+              "d": "12 other persons, making a total of 14 persons in all"
+            },
+            "answer": "d",
+            "explanation": "At least 12 others (14 in total for two suspects)."
+          },
+          {
+            "id": 10,
+            "context": "A woman was robbed at night by a masked man she did not know. The police arrest Mr Tola two days later and want an identification parade. His counsel asks about when a parade is needed and how it is conducted.",
+            "question": "Seized exhibits are kept by",
+            "options": {
+              "a": "An exhibit keeper, who records them in an Exhibit Register",
+              "b": "The suspect, who is allowed to keep them until the trial begins",
+              "c": "The family of the prosecutor, who keeps them in a safe place",
+              "d": "The complainant, who is to produce them in court on the trial date"
+            },
+            "answer": "a",
+            "explanation": "Exhibits are labelled and recorded by an exhibit keeper in an Exhibit Register (s.10 ACJA)."
+          },
+          {
+            "id": 11,
+            "context": "The prosecution opposes bail for Mr Femi, who is charged with a felony. The judge goes through the factors for and against and the court's approach to the amount of the bond.",
+            "question": "The first and most important factor is",
+            "options": {
+              "a": "The availability of the defendant to stand his trial, if he is released",
+              "b": "The mood of the judge on the day the application is heard",
+              "c": "The wishes of the victim who made the complaint to the police",
+              "d": "The wealth of the defendant and his ability to meet the costs"
+            },
+            "answer": "a",
+            "explanation": "Availability to stand trial (risk of jumping bail) is the first and most important factor."
+          },
+          {
+            "id": 12,
+            "context": "The prosecution opposes bail for Mr Femi, who is charged with a felony. The judge goes through the factors for and against and the court's approach to the amount of the bond.",
+            "question": "Bail must NEVER be refused as",
+            "options": {
+              "a": "A form of punishment, since the defendant is presumed innocent",
+              "b": "A means of protecting the witnesses who are to testify for the State",
+              "c": "A safeguard against the loss or destruction of evidence in the case",
+              "d": "A guard against the flight of the defendant from the jurisdiction"
+            },
+            "answer": "a",
+            "explanation": "The defendant is presumed innocent, so bail must not be refused as punishment."
+          },
+          {
+            "id": 13,
+            "context": "The prosecution opposes bail for Mr Femi, who is charged with a felony. The judge goes through the factors for and against and the court's approach to the amount of the bond.",
+            "question": "A defendant granted bail is required to",
+            "options": {
+              "a": "Surrender his passport only, and nothing more, to the court registrar",
+              "b": "Deposit money with the court registrar in every case, as a condition",
+              "c": "Enter into recognizance in the sum fixed by the court at the hearing",
+              "d": "Pay a sum of money to the prosecutor as a condition of release"
+            },
+            "answer": "c",
+            "explanation": "There is no legal requirement to deposit money; recognizance suffices."
+          },
+          {
+            "id": 14,
+            "context": "The prosecution opposes bail for Mr Femi, who is charged with a felony. The judge goes through the factors for and against and the court's approach to the amount of the bond.",
+            "question": "The factors in refusing bail include all these except",
+            "options": {
+              "a": "Likelihood of interference with the witnesses who are to testify",
+              "b": "Prevalence of the offence in the area at the time in question",
+              "c": "The wealth of the defendant, which is not a ground for refusal",
+              "d": "The criminal antecedents of the defendant, including pending cases"
+            },
+            "answer": "c",
+            "explanation": "Factors include antecedents, nature of the offence, strength of evidence, prevalence and interference with witnesses; wealth is not listed."
+          },
+          {
+            "id": 15,
+            "context": "The prosecution opposes bail for Mr Femi, who is charged with a felony. The judge goes through the factors for and against and the court's approach to the amount of the bond.",
+            "question": "An affidavit on health grounds must show all of these except",
+            "options": {
+              "a": "That the illness of the defendant poses a risk to the other inmates",
+              "b": "That the facility where he is held lacks adequate treatment for it",
+              "c": "That the defendant comes from a rich family that can pay for it",
+              "d": "That a positive and cogent medical report supports the application"
+            },
+            "answer": "c",
+            "explanation": "It must show a cogent medical report, risk to other inmates and inadequate treatment at the facility."
+          },
+          {
+            "id": 16,
+            "context": "Mr Femi is sentenced to imprisonment, a fine and probation. He argues the fine was excessive. A Kano court also orders caning for a woman. Counsel asks the court to consider other sentence types.",
+            "question": "A fine, unlike restitution, is paid to",
+            "options": {
+              "a": "The registrar, who then pays it into the revenue of the State",
+              "b": "The State, since it is a punishment and not a compensation",
+              "c": "The victim, since it is a compensation for the loss he suffered",
+              "d": "The informant only, since he made the complaint to the police"
+            },
+            "answer": "b",
+            "explanation": "Restitution goes to the victim."
+          },
+          {
+            "id": 17,
+            "context": "Mr Femi is sentenced to imprisonment, a fine and probation. He argues the fine was excessive. A Kano court also orders caning for a woman. Counsel asks the court to consider other sentence types.",
+            "question": "The maximum probation period is",
+            "options": {
+              "a": "1 year, which may be renewed once by the court if it sees fit",
+              "b": "3 years, being the longest period the Act allows the court to fix",
+              "c": "5 years, being the longest period the Act allows the court to fix",
+              "d": "6 months, which may be renewed once by the court if it sees fit"
+            },
+            "answer": "b",
+            "explanation": "Section 454(2)(b) ACJA."
+          },
+          {
+            "id": 18,
+            "context": "Mr Femi is sentenced to imprisonment, a fine and probation. He argues the fine was excessive. A Kano court also orders caning for a woman. Counsel asks the court to consider other sentence types.",
+            "question": "Caning may lawfully be imposed on",
+            "options": {
+              "a": "A male under the age of 45 years, who is otherwise fit",
+              "b": "A convict who is under sentence of death at the time",
+              "c": "A male aged 45 years or above, whatever his state of health",
+              "d": "A female, whatever her age or the offence she committed"
+            },
+            "answer": "a",
+            "explanation": "Not on a female, a death-row convict, or a male 45+."
+          },
+          {
+            "id": 19,
+            "context": "Mr Femi is sentenced to imprisonment, a fine and probation. He argues the fine was excessive. A Kano court also orders caning for a woman. Counsel asks the court to consider other sentence types.",
+            "question": "Parole requires service of at least",
+            "options": {
+              "a": "Two-thirds of the sentence imposed on the convict by the court",
+              "b": "One year of the sentence imposed on the convict by the court",
+              "c": "Half of the sentence imposed on the convict by the court",
+              "d": "One-third of a sentence of 15 years or life imprisonment"
+            },
+            "answer": "d",
+            "explanation": "Section 468 ACJA."
+          },
+          {
+            "id": 20,
+            "context": "Mr Femi is sentenced to imprisonment, a fine and probation. He argues the fine was excessive. A Kano court also orders caning for a woman. Counsel asks the court to consider other sentence types.",
+            "question": "A suspended sentence is prohibited for all of these except",
+            "options": {
+              "a": "Offences carrying a punishment of more than 3 years' imprisonment",
+              "b": "Sexual offences, whatever the term of imprisonment prescribed for them",
+              "c": "Offences relating to arms or weapons, whatever the term prescribed",
+              "d": "Stealing, where the offence carries imprisonment for a term of 2 years"
+            },
+            "answer": "d",
+            "explanation": "Section 460(3) ACJA."
+          }
+        ]
+      },
+      {
+        "id": "professional-ethics",
+        "name": "Professional Ethics and Skills",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "A lawyer in Kano wants to charge below scale for a poor relative. He applies to the Remuneration Committee two days after instruction, but hears nothing.",
+            "question": "To charge below scale, a lawyer must apply within",
+            "options": {
+              "a": "Seven days from the date of instruction of the lawyer",
+              "b": "Thirty days from the date of instruction of the lawyer",
+              "c": "Two days from the date of instruction of the lawyer",
+              "d": "Fourteen days from the date of instruction of the lawyer"
+            },
+            "answer": "c",
+            "explanation": "Para 10 of the Order."
+          },
+          {
+            "id": 2,
+            "context": "A lawyer in Kano wants to charge below scale for a poor relative. He applies to the Remuneration Committee two days after instruction, but hears nothing.",
+            "question": "The Committee investigates the application within",
+            "options": {
+              "a": "Fourteen days from the receipt of the application",
+              "b": "Seven days from the receipt of the application",
+              "c": "Thirty days from the receipt of the application",
+              "d": "Two days from the receipt of the application"
+            },
+            "answer": "b",
+            "explanation": "And communicates its decision within 2 days."
+          },
+          {
+            "id": 3,
+            "context": "A lawyer in Kano wants to charge below scale for a poor relative. He applies to the Remuneration Committee two days after instruction, but hears nothing.",
+            "question": "If the Committee gives no decision in time, the application is",
+            "options": {
+              "a": "Deemed granted, under paragraph 10 of the Order",
+              "b": "Referred to the LPDC for its decision on the matter",
+              "c": "Deemed refused, under paragraph 10 of the Order",
+              "d": "Void for want of a decision from the Committee"
+            },
+            "answer": "a",
+            "explanation": "Para 10."
+          },
+          {
+            "id": 4,
+            "context": "A lawyer in Kano wants to charge below scale for a poor relative. He applies to the Remuneration Committee two days after instruction, but hears nothing.",
+            "question": "A lawyer charging no fee for a relative must file an affidavit within",
+            "options": {
+              "a": "Thirty days from the date of instruction of the lawyer",
+              "b": "Fourteen days from the date of instruction of the lawyer",
+              "c": "Two days from the date of instruction of the lawyer",
+              "d": "Seven days from the date of instruction of the lawyer"
+            },
+            "answer": "d",
+            "explanation": "Para 12."
+          },
+          {
+            "id": 5,
+            "context": "A lawyer in Kano wants to charge below scale for a poor relative. He applies to the Remuneration Committee two days after instruction, but hears nothing.",
+            "question": "The Remuneration Order 2023",
+            "options": {
+              "a": "Is made by the Nigerian Bar Association itself in council",
+              "b": "Revokes the 1991 Order, being made under section 15(3) LPA",
+              "c": "Preserves the 1991 Order alongside the new Order",
+              "d": "Is made by the Chief Justice of Nigeria alone"
+            },
+            "answer": "b",
+            "explanation": "Made under s.15(3) LPA."
+          },
+          {
+            "id": 6,
+            "context": "Mr Yusuf's firm keeps its books of account for the first time. The firm's accountant checks them against the Legal Practitioners' Accounts Rules and asks him to identify each statement about the accounts that is wrong.",
+            "question": "The three obligatory accounts include all of these except",
+            "options": {
+              "a": "A personal or office account kept by the lawyer",
+              "b": "A client account kept for the money of clients",
+              "c": "A trust account kept for a particular trust",
+              "d": "A fixed deposit account kept for the profit of the lawyer"
+            },
+            "answer": "d",
+            "explanation": "Three obligatory books of account."
+          },
+          {
+            "id": 7,
+            "context": "Mr Yusuf's firm keeps its books of account for the first time. The firm's accountant checks them against the Legal Practitioners' Accounts Rules and asks him to identify each statement about the accounts that is wrong.",
+            "question": "Money that must NOT be paid into the client account includes",
+            "options": {
+              "a": "Money for a client's purchase of property",
+              "b": "Fees for business done or to be done",
+              "c": "Money held for a client in the matter",
+              "d": "Money for the client's settlement of a claim"
+            },
+            "answer": "b",
+            "explanation": "Rule 9(2) LPAR."
+          },
+          {
+            "id": 8,
+            "context": "Mr Yusuf's firm keeps its books of account for the first time. The firm's accountant checks them against the Legal Practitioners' Accounts Rules and asks him to identify each statement about the accounts that is wrong.",
+            "question": "Which of these is NOT true of a withdrawal from the client account?",
+            "options": {
+              "a": "It is traceable to the account from which it is made",
+              "b": "It is by cheque in favour of the lawyer himself",
+              "c": "It may be made in cash from the account",
+              "d": "It may be by transfer to his non-client account"
+            },
+            "answer": "c",
+            "explanation": "Never cash, to preserve traceability."
+          },
+          {
+            "id": 9,
+            "context": "Mr Yusuf's firm keeps its books of account for the first time. The firm's accountant checks them against the Legal Practitioners' Accounts Rules and asks him to identify each statement about the accounts that is wrong.",
+            "question": "Which of these is NOT true of a trust account?",
+            "options": {
+              "a": "It is a separate account from the other accounts",
+              "b": "It may hold unrelated client money for other clients",
+              "c": "It is kept for a particular trust",
+              "d": "Its title must contain 'Trustee' or 'Executor'"
+            },
+            "answer": "b",
+            "explanation": "Kept solely for a particular trust."
+          },
+          {
+            "id": 10,
+            "context": "Mr Yusuf's firm keeps its books of account for the first time. The firm's accountant checks them against the Legal Practitioners' Accounts Rules and asks him to identify each statement about the accounts that is wrong.",
+            "question": "Failure to keep a client account makes a lawyer ineligible for",
+            "options": {
+              "a": "A practising licence for the year in which he practises",
+              "b": "Call to the Bar by the Body of Benchers",
+              "c": "Enrolment as a legal practitioner at the Supreme Court",
+              "d": "Conferment of the rank of Senior Advocate of Nigeria"
+            },
+            "answer": "d",
+            "explanation": "A requirement for conferment."
+          },
+          {
+            "id": 11,
+            "context": "A client pays ₦12 million cash into the law firm's account for the purchase of property for his company. The partner asks about reporting thresholds and privilege.",
+            "question": "A single transaction by a body corporate must be reported if above",
+            "options": {
+              "a": "₦5,000,000 in a single transaction by the body corporate",
+              "b": "₦20,000,000 in a single transaction by the body corporate",
+              "c": "₦1,000,000 in a single transaction by the body corporate",
+              "d": "₦10,000,000 in a single transaction by the body corporate"
+            },
+            "answer": "d",
+            "explanation": "Section 11 Money Laundering Act 2022."
+          },
+          {
+            "id": 12,
+            "context": "A client pays ₦12 million cash into the law firm's account for the purchase of property for his company. The partner asks about reporting thresholds and privilege.",
+            "question": "For an individual, the threshold is",
+            "options": {
+              "a": "₦5,000,000 in a single transaction by the individual",
+              "b": "₦1,000,000 in a single transaction by the individual",
+              "c": "₦10,000,000 in a single transaction by the individual",
+              "d": "₦2,000,000 in a single transaction by the individual"
+            },
+            "answer": "a",
+            "explanation": "Section 11 MLA 2022."
+          },
+          {
+            "id": 13,
+            "context": "A client pays ₦12 million cash into the law firm's account for the purchase of property for his company. The partner asks about reporting thresholds and privilege.",
+            "question": "The report is made to SCUML within",
+            "options": {
+              "a": "Fourteen days from the date of the transaction concerned",
+              "b": "Thirty days from the date of the transaction concerned",
+              "c": "Twenty-four hours from the date of the transaction concerned",
+              "d": "Seven days from the date of the transaction concerned"
+            },
+            "answer": "d",
+            "explanation": "Section 11 MLA 2022."
+          },
+          {
+            "id": 14,
+            "context": "A client pays ₦12 million cash into the law firm's account for the purchase of property for his company. The partner asks about reporting thresholds and privilege.",
+            "question": "Under s.11(4) MLA 2022, privilege does NOT apply to",
+            "options": {
+              "a": "The purchase or sale of property for a client",
+              "b": "Cross-examination of a witness in the course of a trial",
+              "c": "The preparation of a witness for the trial",
+              "d": "Advice on a criminal defence for the client"
+            },
+            "answer": "a",
+            "explanation": "Also sale of business; client money; account management; trusts and companies; unlawful acts."
+          },
+          {
+            "id": 15,
+            "context": "A client pays ₦12 million cash into the law firm's account for the purchase of property for his company. The partner asks about reporting thresholds and privilege.",
+            "question": "The Money Laundering Act 2022 lists legal practitioners as",
+            "options": {
+              "a": "Designated non-financial businesses and professions under the Act",
+              "b": "Financial institutions regulated by the Central Bank",
+              "c": "Regulators of the financial sector of the country",
+              "d": "Exempt persons who are outside the reach of the Act"
+            },
+            "answer": "a",
+            "explanation": "Section 30."
+          },
+          {
+            "id": 16,
+            "context": "A draftsman prepares an arbitration clause for an international supply contract and also considers online arbitration. The client asks about the components of a good clause.",
+            "question": "A well-drafted arbitration clause contains all of these except",
+            "options": {
+              "a": "A reference to arbitration of the disputes",
+              "b": "The seat of arbitration for the proceedings",
+              "c": "The names of the witnesses to be called",
+              "d": "The number of arbitrators to hear the dispute"
+            },
+            "answer": "c",
+            "explanation": "Also law, rules, language, appointing institution."
+          },
+          {
+            "id": 17,
+            "context": "A draftsman prepares an arbitration clause for an international supply contract and also considers online arbitration. The client asks about the components of a good clause.",
+            "question": "Absent agreement on the number of arbitrators, the AMA 2023 provides for",
+            "options": {
+              "a": "Two arbitrators, under section 6 of the AMA",
+              "b": "A sole arbitrator, under section 6 of the AMA",
+              "c": "Three arbitrators, under section 6 of the AMA",
+              "d": "Five arbitrators, under section 6 of the AMA"
+            },
+            "answer": "b",
+            "explanation": "Section 6 AMA."
+          },
+          {
+            "id": 18,
+            "context": "A draftsman prepares an arbitration clause for an international supply contract and also considers online arbitration. The client asks about the components of a good clause.",
+            "question": "The law governing the arbitral proceeding itself is the",
+            "options": {
+              "a": "Lex loci, being the law of the place of contract",
+              "b": "Lex fori, being the law of the forum",
+              "c": "Lex arbitri, being the law of the seat",
+              "d": "Lex causae, being the law applicable to the substance"
+            },
+            "answer": "c",
+            "explanation": "The law of the seat."
+          },
+          {
+            "id": 19,
+            "context": "A draftsman prepares an arbitration clause for an international supply contract and also considers online arbitration. The client asks about the components of a good clause.",
+            "question": "The law governing the substantive dispute is the",
+            "options": {
+              "a": "Lex arbitri, being the law of the seat",
+              "b": "Lex domicilii, being the law of the domicile",
+              "c": "Lex causae, being the law applicable to the substance",
+              "d": "Lex fori, being the law of the forum"
+            },
+            "answer": "c",
+            "explanation": "Applicable laws."
+          },
+          {
+            "id": 20,
+            "context": "A draftsman prepares an arbitration clause for an international supply contract and also considers online arbitration. The client asks about the components of a good clause.",
+            "question": "Where the AMA conflicts with a State arbitration law, the",
+            "options": {
+              "a": "The AMA prevails over the State arbitration law",
+              "b": "The court decides the point ad hoc in each case",
+              "c": "The State law prevails over the AMA",
+              "d": "Neither of them applies to the arbitration"
+            },
+            "answer": "a",
+            "explanation": "Compagnie Generale de Geophysique v Etuk."
+          }
+        ]
+      }
+    ]
+  },
+  "cpc-8": {
+    "year": 9997,
+    "session": "CPC Test 8",
+    "examTitle": "Pre-Bar Style MCQ — Corporate, Criminal, Ethics (CPC) Test 8",
+    "totalQuestions": 60,
+    "courses": [
+      {
+        "id": "corporate-law-practice",
+        "name": "Corporate Law Practice",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "The preference shareholders of Crown Textiles Ltd have not been paid dividends for three years. The company proposes to vary their rights, increase its capital and reduce it where capital is lost. A shareholder asks about the steps and the court's role.",
+            "question": "A variation of class rights needs the written consent of holders of",
+            "options": {
+              "a": "The written consent of all the members of the company concerned",
+              "b": "The written consent of three-fourths of the holders of the class",
+              "c": "The written consent of one-tenth of the holders of the class",
+              "d": "The written consent of one-half of the holders of the class"
+            },
+            "answer": "b",
+            "explanation": "Written consent of three-fourths of the class or a special resolution at a class meeting."
+          },
+          {
+            "id": 2,
+            "context": "The preference shareholders of Crown Textiles Ltd have not been paid dividends for three years. The company proposes to vary their rights, increase its capital and reduce it where capital is lost. A shareholder asks about the steps and the court's role.",
+            "question": "Holders of 15% who did not consent may apply to court to cancel within",
+            "options": {
+              "a": "7 days after the consent or resolution was given or passed",
+              "b": "21 days after the consent or resolution was given or passed",
+              "c": "30 days after the consent or resolution was given or passed",
+              "d": "14 days after the consent or resolution was given or passed"
+            },
+            "answer": "b",
+            "explanation": "They apply within 21 days."
+          },
+          {
+            "id": 3,
+            "context": "The preference shareholders of Crown Textiles Ltd have not been paid dividends for three years. The company proposes to vary their rights, increase its capital and reduce it where capital is lost. A shareholder asks about the steps and the court's role.",
+            "question": "An increase of share capital is by",
+            "options": {
+              "a": "Written notice of the increase given to the Commission by the secretary",
+              "b": "A special resolution passed by the members at a general meeting",
+              "c": "An order of the Federal High Court made on a petition by the company",
+              "d": "An ordinary resolution of the members passed at a general meeting"
+            },
+            "answer": "d",
+            "explanation": "It is by ordinary resolution of the general meeting (or board resolution since the BFA)."
+          },
+          {
+            "id": 4,
+            "context": "The preference shareholders of Crown Textiles Ltd have not been paid dividends for three years. The company proposes to vary their rights, increase its capital and reduce it where capital is lost. A shareholder asks about the steps and the court's role.",
+            "question": "A reduction of share capital needs all the following except",
+            "options": {
+              "a": "A special resolution passed by the members of the company",
+              "b": "Authority in the articles of association to reduce the capital",
+              "c": "An ordinary resolution passed by the members of the company",
+              "d": "Confirmation of the reduction by the Federal High Court"
+            },
+            "answer": "c",
+            "explanation": "A reduction needs authority in the articles, a special resolution and FHC confirmation."
+          },
+          {
+            "id": 5,
+            "context": "The preference shareholders of Crown Textiles Ltd have not been paid dividends for three years. The company proposes to vary their rights, increase its capital and reduce it where capital is lost. A shareholder asks about the steps and the court's role.",
+            "question": "Capital may be reduced by",
+            "options": {
+              "a": "Declaring a dividend out of the profits of the company for the year",
+              "b": "Selling the registered office and paying out the proceeds to members",
+              "c": "Cancelling paid-up capital that has been lost or is unrepresented by assets",
+              "d": "Issuing bonus shares to the members out of the reserves of the company"
+            },
+            "answer": "c",
+            "explanation": "One mode is cancelling paid-up capital lost or unrepresented by assets."
+          },
+          {
+            "id": 6,
+            "context": "Ada, a young songwriter, has just completed a new album and a mobile app. She asks her lawyer whether she must register anything to be protected, how long protection lasts and what is not protected.",
+            "question": "Copyright in a work arises",
+            "options": {
+              "a": "Automatically when the work is created, without any need for publication",
+              "b": "Only on payment of a fee to the Nigerian Copyright Commission",
+              "c": "Only on the publication of the work to the public at large",
+              "d": "Only on registration of the work with the Nigerian Copyright Commission"
+            },
+            "answer": "a",
+            "explanation": "Copyright arises automatically on creation, with no need for publication."
+          },
+          {
+            "id": 7,
+            "context": "Ada, a young songwriter, has just completed a new album and a mobile app. She asks her lawyer whether she must register anything to be protected, how long protection lasts and what is not protected.",
+            "question": "Copyright in a literary work lasts for",
+            "options": {
+              "a": "20 years from the date on which the application was filed",
+              "b": "The life of the author and 25 years after his death",
+              "c": "50 years from the date on which the work was created",
+              "d": "The life of the author and 70 years after his death"
+            },
+            "answer": "d",
+            "explanation": "Literary, artistic and musical works last for the author's life plus 70 years."
+          },
+          {
+            "id": 8,
+            "context": "Ada, a young songwriter, has just completed a new album and a mobile app. She asks her lawyer whether she must register anything to be protected, how long protection lasts and what is not protected.",
+            "question": "Copyright in films and sound recordings lasts for",
+            "options": {
+              "a": "70 years from the date on which the work was created",
+              "b": "The life of the maker and 70 years after his death",
+              "c": "20 years from the date on which the application was filed",
+              "d": "50 years from the date on which the work was first published"
+            },
+            "answer": "d",
+            "explanation": "Films, sound recordings and broadcasts last 50 years from first publication."
+          },
+          {
+            "id": 9,
+            "context": "Ada, a young songwriter, has just completed a new album and a mobile app. She asks her lawyer whether she must register anything to be protected, how long protection lasts and what is not protected.",
+            "question": "Copyright does not protect any of the following except",
+            "options": {
+              "a": "Ideas, which are not protected until they are expressed in a work",
+              "b": "Slogans and short phrases, which are too slight to be protected",
+              "c": "Methods and systems, which are not protected as literary works",
+              "d": "Computer programs and software, which are protected as literary works"
+            },
+            "answer": "d",
+            "explanation": "Computer programs and software are protected; ideas, slogans and methods are not."
+          },
+          {
+            "id": 10,
+            "context": "Ada, a young songwriter, has just completed a new album and a mobile app. She asks her lawyer whether she must register anything to be protected, how long protection lasts and what is not protected.",
+            "question": "Registration of copyright with the NCC is",
+            "options": {
+              "a": "Not required for protection, but advisable as evidence of ownership",
+              "b": "Required within 30 days of the creation of the work concerned",
+              "c": "Compulsory for every work, failing which no copyright subsists in it",
+              "d": "Required for films only, and not for other works under the Act"
+            },
+            "answer": "a",
+            "explanation": "Registration is not required for protection but gives prima facie evidence of ownership."
+          },
+          {
+            "id": 11,
+            "context": "Rainbow Plc wants to raise fresh funds from the public and from its own shareholders. Its issuing house explains the different methods of offer and who bears the risk in each.",
+            "question": "In an offer for sale the risk is borne by",
+            "options": {
+              "a": "The company, which bears the loss if the shares are not taken up",
+              "b": "The Securities and Exchange Commission, which regulates the offer",
+              "c": "The issuing house, which buys the whole issue and bears the risk",
+              "d": "The registrar, which handles the applications for the new shares"
+            },
+            "answer": "c",
+            "explanation": "The issuing house buys the whole issue, bears the risk and takes the profit."
+          },
+          {
+            "id": 12,
+            "context": "Rainbow Plc wants to raise fresh funds from the public and from its own shareholders. Its issuing house explains the different methods of offer and who bears the risk in each.",
+            "question": "A private placement may be made to not more than",
+            "options": {
+              "a": "200 subscribers, who must all be existing members",
+              "b": "100 subscribers, who must all be existing members",
+              "c": "50 subscribers, who are invited by the company directly",
+              "d": "10 subscribers, who must all be directors"
+            },
+            "answer": "c",
+            "explanation": "Rule 340 limits a private placement to not more than 50 subscribers."
+          },
+          {
+            "id": 13,
+            "context": "Rainbow Plc wants to raise fresh funds from the public and from its own shareholders. Its issuing house explains the different methods of offer and who bears the risk in each.",
+            "question": "A rights issue is offered to",
+            "options": {
+              "a": "Existing shareholders, in proportion to the shares they already hold",
+              "b": "Debenture holders only, in proportion to the debentures they hold",
+              "c": "The general public, who are invited to subscribe through a prospectus",
+              "d": "Employees only, in proportion to their length of service in the company"
+            },
+            "answer": "a",
+            "explanation": "A rights issue is only to existing shareholders in proportion to their holdings."
+          },
+          {
+            "id": 14,
+            "context": "Rainbow Plc wants to raise fresh funds from the public and from its own shareholders. Its issuing house explains the different methods of offer and who bears the risk in each.",
+            "question": "A bonus issue is made by",
+            "options": {
+              "a": "A tender in which the shares go to the highest bidder",
+              "b": "A sale of the shares to the public through an issuing house",
+              "c": "A placing of the shares with a few chosen institutions",
+              "d": "The capitalising of profits, with no fresh money raised by the company"
+            },
+            "answer": "d",
+            "explanation": "Profits are capitalised and shares go to existing members pro rata."
+          },
+          {
+            "id": 15,
+            "context": "Rainbow Plc wants to raise fresh funds from the public and from its own shareholders. Its issuing house explains the different methods of offer and who bears the risk in each.",
+            "question": "The forms of prospectus include all these except",
+            "options": {
+              "a": "A full prospectus issued to the public in the usual form",
+              "b": "An interim prospectus issued before the final terms are settled",
+              "c": "A statement in lieu of prospectus filed by the company",
+              "d": "An abridged prospectus issued with the application form for shares"
+            },
+            "answer": "b",
+            "explanation": "The forms are Full, Abridged, Deemed and Statement in lieu."
+          },
+          {
+            "id": 16,
+            "context": "Savannah Ltd intends to hold a general meeting next month. The secretary is preparing the notice and wants to be sure who must receive it, how it should be sent and how much time to allow, since the company has a few members abroad who will receive it by post.",
+            "question": "Notice of a general meeting is",
+            "options": {
+              "a": "28 days, whether the meeting is an annual or an extraordinary one",
+              "b": "21 days, whether the meeting is an annual or an extraordinary one",
+              "c": "7 days, whether the meeting is an annual or an extraordinary one",
+              "d": "14 days, whether the meeting is an annual or an extraordinary one"
+            },
+            "answer": "b",
+            "explanation": "Section 241(1) requires 21 days' notice for any general meeting."
+          },
+          {
+            "id": 17,
+            "context": "Savannah Ltd intends to hold a general meeting next month. The secretary is preparing the notice and wants to be sure who must receive it, how it should be sent and how much time to allow, since the company has a few members abroad who will receive it by post.",
+            "question": "A general meeting other than an AGM may be called on shorter notice if members holding at least what percentage agree?",
+            "options": {
+              "a": "Members holding at least 50% of the voting rights of the company",
+              "b": "Members holding all the voting rights of the company concerned",
+              "c": "Members holding at least 95% in nominal value or voting rights",
+              "d": "Members holding at least 75% in nominal value or voting rights"
+            },
+            "answer": "c",
+            "explanation": "For meetings other than an AGM, members holding at least 95% in nominal value or voting rights may agree to shorter notice."
+          },
+          {
+            "id": 18,
+            "context": "Savannah Ltd intends to hold a general meeting next month. The secretary is preparing the notice and wants to be sure who must receive it, how it should be sent and how much time to allow, since the company has a few members abroad who will receive it by post.",
+            "question": "To give 21 clear days by post, the notice should be posted at least",
+            "options": {
+              "a": "28 days before the meeting",
+              "b": "35 days before the meeting",
+              "c": "14 days before the meeting",
+              "d": "21 days before the meeting"
+            },
+            "answer": "a",
+            "explanation": "Post is deemed served after 7 days, so 28 days are needed."
+          },
+          {
+            "id": 19,
+            "context": "Savannah Ltd intends to hold a general meeting next month. The secretary is preparing the notice and wants to be sure who must receive it, how it should be sent and how much time to allow, since the company has a few members abroad who will receive it by post.",
+            "question": "Notice of a general meeting must be given to all the following except",
+            "options": {
+              "a": "Every director of the company, whether executive or non-executive",
+              "b": "The company's bankers, who hold the company's accounts and funds",
+              "c": "The secretary of the company, who prepares the notice itself",
+              "d": "The auditor of the company, who is entitled to attend the meeting"
+            },
+            "answer": "b",
+            "explanation": "Notice goes to members, directors, the auditor, the secretary and the CAC for public companies; bankers are not entitled."
+          },
+          {
+            "id": 20,
+            "context": "Savannah Ltd intends to hold a general meeting next month. The secretary is preparing the notice and wants to be sure who must receive it, how it should be sent and how much time to allow, since the company has a few members abroad who will receive it by post.",
+            "question": "A public company must also advertise notice in",
+            "options": {
+              "a": "Two daily newspapers, at least 21 days before the meeting",
+              "b": "Three newspapers of general circulation, at least 14 days before the meeting",
+              "c": "One weekly newspaper of general circulation, at least 7 days before the meeting",
+              "d": "The Gazette, at least 28 days before the meeting to be held"
+            },
+            "answer": "a",
+            "explanation": "Section 246 requires notice in at least two daily newspapers at least 21 days before the meeting."
+          }
+        ]
+      },
+      {
+        "id": "criminal-litigation",
+        "name": "Criminal Litigation",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "The police refuse to grant bail to Mr Dele, who is held for stealing. His lawyer lists the terms the police may set and the remedies on refusal, including a fundamental rights application and a habeas corpus application.",
+            "question": "The terms of police bail may include all these except",
+            "options": {
+              "a": "A surety or sureties, if the police require them",
+              "b": "A bond for a fixed sum, which the suspect signs",
+              "c": "His own recognizance, based on his social standing and integrity",
+              "d": "A cash deposit with the court, which is not a permitted term"
+            },
+            "answer": "d",
+            "explanation": "Police bail terms are self-recognizance, a bond and (optionally) sureties."
+          },
+          {
+            "id": 2,
+            "context": "The police refuse to grant bail to Mr Dele, who is held for stealing. His lawyer lists the terms the police may set and the remedies on refusal, including a fundamental rights application and a habeas corpus application.",
+            "question": "In a fundamental rights application, the respondent has how long to counter?",
+            "options": {
+              "a": "2 days after service of the application, with a counter-affidavit",
+              "b": "5 days after service of the application, with a counter-affidavit",
+              "c": "30 days after service of the application, with a counter-affidavit",
+              "d": "14 days after service of the application, with a counter-affidavit"
+            },
+            "answer": "b",
+            "explanation": "The respondent has 5 days to counter."
+          },
+          {
+            "id": 3,
+            "context": "The police refuse to grant bail to Mr Dele, who is held for stealing. His lawyer lists the terms the police may set and the remedies on refusal, including a fundamental rights application and a habeas corpus application.",
+            "question": "In habeas corpus, the response is due within",
+            "options": {
+              "a": "7 days after service, with a statement and verifying affidavit",
+              "b": "2 days after service, with a statement and verifying affidavit",
+              "c": "14 days after service, with a statement and verifying affidavit",
+              "d": "28 days after service, with a statement and verifying affidavit"
+            },
+            "answer": "b",
+            "explanation": "Response is due within 2 days with a statement and verifying affidavit."
+          },
+          {
+            "id": 4,
+            "context": "The police refuse to grant bail to Mr Dele, who is held for stealing. His lawyer lists the terms the police may set and the remedies on refusal, including a fundamental rights application and a habeas corpus application.",
+            "question": "An application to a Magistrate for release of a suspect is NOT available for",
+            "options": {
+              "a": "Minor offences, which the Magistrate has jurisdiction to try",
+              "b": "Stealing, which the Magistrate has jurisdiction to try",
+              "c": "Assault, which the Magistrate has jurisdiction to try",
+              "d": "Capital offences, which the Magistrate has no jurisdiction to try"
+            },
+            "answer": "d",
+            "explanation": "It is not available for capital offences."
+          },
+          {
+            "id": 5,
+            "context": "The police refuse to grant bail to Mr Dele, who is held for stealing. His lawyer lists the terms the police may set and the remedies on refusal, including a fundamental rights application and a habeas corpus application.",
+            "question": "A hearing date for a fundamental rights application must be fixed within",
+            "options": {
+              "a": "28 days after the filing of the application by the applicant",
+              "b": "7 days after the filing of the application by the applicant",
+              "c": "14 days after the filing of the application by the applicant",
+              "d": "3 days after the filing of the application by the applicant"
+            },
+            "answer": "b",
+            "explanation": "The court must fix the hearing date within 7 days (Order 4 r.1)."
+          },
+          {
+            "id": 6,
+            "context": "The prosecution in a fraud trial before the High Court calls all its witnesses and announces 'That's all for the Prosecution.' Defence counsel considers carefully what the defendant should do next.",
+            "question": "When the prosecution closes, the defendant has how many options?",
+            "options": {
+              "a": "Two options only, namely a no case submission or entering his defence",
+              "b": "Five options, which include a plea of guilty and an appeal",
+              "c": "Three options, namely a no case submission, resting or entering defence",
+              "d": "Four options, which include an application for a stay of proceedings"
+            },
+            "answer": "c",
+            "explanation": "No case submission; rest on prosecution's case; enter defence."
+          },
+          {
+            "id": 7,
+            "context": "The prosecution in a fraud trial before the High Court calls all its witnesses and announces 'That's all for the Prosecution.' Defence counsel considers carefully what the defendant should do next.",
+            "question": "The defendant's options do NOT include",
+            "options": {
+              "a": "Entering his defence and calling his own evidence in the case",
+              "b": "Making a no case submission to the court at that stage",
+              "c": "Pleading guilty at that stage of the trial as of right",
+              "d": "Resting his case on the evidence led by the prosecution"
+            },
+            "answer": "c",
+            "explanation": "The three options are the first three."
+          },
+          {
+            "id": 8,
+            "context": "The prosecution in a fraud trial before the High Court calls all its witnesses and announces 'That's all for the Prosecution.' Defence counsel considers carefully what the defendant should do next.",
+            "question": "A no case submission is made on the ground that",
+            "options": {
+              "a": "There is no legally admissible evidence linking him to the essential elements",
+              "b": "The judge is biased against him and ought to disqualify himself",
+              "c": "A witness for the prosecution is absent from the court",
+              "d": "The defendant is innocent of the offence charged against him"
+            },
+            "answer": "a",
+            "explanation": "Ibeziako v COP (1963)."
+          },
+          {
+            "id": 9,
+            "context": "The prosecution in a fraud trial before the High Court calls all its witnesses and announces 'That's all for the Prosecution.' Defence counsel considers carefully what the defendant should do next.",
+            "question": "A no case submission may be raised by",
+            "options": {
+              "a": "The court itself on its own motion, or the defence by counsel",
+              "b": "The registrar of the court on the instruction of the judge",
+              "c": "The prosecution only, since it is the prosecution that is to reply",
+              "d": "The victim of the offence, through his own counsel in court"
+            },
+            "answer": "a",
+            "explanation": "Section 357 ACJA (court); s.302 (defence)."
+          },
+          {
+            "id": 10,
+            "context": "The prosecution in a fraud trial before the High Court calls all its witnesses and announces 'That's all for the Prosecution.' Defence counsel considers carefully what the defendant should do next.",
+            "question": "The purposes of a no case submission include all of these except",
+            "options": {
+              "a": "To save the time of the court in the trial of the case",
+              "b": "To save the cost of a needless defence to the defendant",
+              "c": "To save the defendant from having to make a needless defence",
+              "d": "To allow the prosecution to re-open its case and call more witnesses"
+            },
+            "answer": "d",
+            "explanation": "Emedo v State (2002): three-fold purpose."
+          },
+          {
+            "id": 11,
+            "context": "The prosecution seeks to tender a confessional statement. The defendant objects that he was forced to sign it. In another case, he says he never made it. A police report and a WhatsApp printout are also offered.",
+            "question": "Where the defence says the confession was involuntary, the court holds",
+            "options": {
+              "a": "An adjournment sine die, until the defence is ready to proceed",
+              "b": "A retrial of the whole case before another judge of the court",
+              "c": "A trial-within-trial, in which evidence is taken on voluntariness only",
+              "d": "A stay of proceedings, until the police produce the maker of it"
+            },
+            "answer": "c",
+            "explanation": "Voir dire - evidence only on voluntariness."
+          },
+          {
+            "id": 12,
+            "context": "The prosecution seeks to tender a confessional statement. The defendant objects that he was forced to sign it. In another case, he says he never made it. A police report and a WhatsApp printout are also offered.",
+            "question": "Where the objection is that the defendant never made the statement",
+            "options": {
+              "a": "The statement is excluded, since the defendant denies having made it",
+              "b": "No voir dire is needed, since the dispute goes only to weight",
+              "c": "The case is dismissed, since the prosecution cannot prove the statement",
+              "d": "A voir dire is needed, in which evidence is taken on the denial"
+            },
+            "answer": "b",
+            "explanation": "It is admitted and goes to weight."
+          },
+          {
+            "id": 13,
+            "context": "The prosecution seeks to tender a confessional statement. The defendant objects that he was forced to sign it. In another case, he says he never made it. A police report and a WhatsApp printout are also offered.",
+            "question": "Computer-generated evidence can be tendered",
+            "options": {
+              "a": "By way of hearsay evidence given by a police officer on oath",
+              "b": "From the bar, by counsel for the party who relies on it",
+              "c": "By a section 84(4) certificate or by oral evidence of a witness",
+              "d": "By a letter from the maker of the computer to the court"
+            },
+            "answer": "c",
+            "explanation": "Kubor v Dickson; Dickson v Sylva."
+          },
+          {
+            "id": 14,
+            "context": "The prosecution seeks to tender a confessional statement. The defendant objects that he was forced to sign it. In another case, he says he never made it. A police report and a WhatsApp printout are also offered.",
+            "question": "Hearsay exceptions include all of these except",
+            "options": {
+              "a": "A dying declaration made by the victim of the offence charged",
+              "b": "A statement made in the course of business by a person",
+              "c": "A statement made to a journalist who was not called as a witness",
+              "d": "A statement made against the interest of the maker of it"
+            },
+            "answer": "c",
+            "explanation": "Sections 39-46, 83."
+          },
+          {
+            "id": 15,
+            "context": "The prosecution seeks to tender a confessional statement. The defendant objects that he was forced to sign it. In another case, he says he never made it. A police report and a WhatsApp printout are also offered.",
+            "question": "A statement tendered only to prove it was made, not that its contents are true, is",
+            "options": {
+              "a": "Not hearsay at all, since its contents are not relied on as true",
+              "b": "Inadmissible, since the maker of it has not been called as a witness",
+              "c": "Privileged, since it was made in the course of negotiations",
+              "d": "Hearsay, and admissible only if it falls within a statutory exception"
+            },
+            "answer": "a",
+            "explanation": "It is not hearsay at all."
+          },
+          {
+            "id": 16,
+            "context": "Police suspect that stolen goods are kept in Mrs Eze's shop. The inspector asks whether he needs a warrant, who can issue one, what it must contain and when it can be executed.",
+            "question": "A search of premises generally requires",
+            "options": {
+              "a": "A written complaint from the owner of the property alleged to be there",
+              "b": "Nothing at all, since the police may search any premises they suspect",
+              "c": "Only the order of the officer in charge of the police station",
+              "d": "A warrant, which is generally required before premises may be searched"
+            },
+            "answer": "d",
+            "explanation": "A warrant is generally required to search premises."
+          },
+          {
+            "id": 17,
+            "context": "Police suspect that stolen goods are kept in Mrs Eze's shop. The inspector asks whether he needs a warrant, who can issue one, what it must contain and when it can be executed.",
+            "question": "An officer executing a warrant of arrest may search the premises where the arrest is made",
+            "options": {
+              "a": "Only by night, to avoid the person escaping from the premises",
+              "b": "Only in the Northern States, where the Criminal Procedure Code applies",
+              "c": "Only if he has also obtained a separate warrant to search them",
+              "d": "Without a separate warrant, since none is needed for that purpose"
+            },
+            "answer": "d",
+            "explanation": "No separate warrant is needed (s.12(1) ACJA)."
+          },
+          {
+            "id": 18,
+            "context": "Police suspect that stolen goods are kept in Mrs Eze's shop. The inspector asks whether he needs a warrant, who can issue one, what it must contain and when it can be executed.",
+            "question": "A valid search warrant contains all the following except",
+            "options": {
+              "a": "The address of the premises that are to be searched",
+              "b": "The name of the occupier's lawyer, who is to be present",
+              "c": "The signature of the authority that issued the warrant",
+              "d": "The items sought and a direction to seize and bring them to court"
+            },
+            "answer": "b",
+            "explanation": "The AIDS contents are Address, Items sought, Directive to seize and bring to court, and Signature."
+          },
+          {
+            "id": 19,
+            "context": "Police suspect that stolen goods are kept in Mrs Eze's shop. The inspector asks whether he needs a warrant, who can issue one, what it must contain and when it can be executed.",
+            "question": "Under the Police Act 2020, a superior police officer",
+            "options": {
+              "a": "Can no longer issue a search warrant, which only a court may now issue",
+              "b": "May issue any kind of warrant, including a search warrant and an arrest warrant",
+              "c": "May issue only warrants of arrest, and not warrants to search premises",
+              "d": "May issue a search warrant where stolen goods are suspected to be on premises"
+            },
+            "answer": "a",
+            "explanation": "Section 48 abolished that power; only courts now issue search warrants."
+          },
+          {
+            "id": 20,
+            "context": "Police suspect that stolen goods are kept in Mrs Eze's shop. The inspector asks whether he needs a warrant, who can issue one, what it must contain and when it can be executed.",
+            "question": "Under the ACJA a search warrant is executable",
+            "options": {
+              "a": "At any time, since the Act does not restrict the hours of execution",
+              "b": "Only on weekdays, since the courts do not sit on weekends",
+              "c": "Only between 8am and 6pm, since the courts open at those hours",
+              "d": "Only between 5am and 8pm, since the police work in two shifts"
+            },
+            "answer": "a",
+            "explanation": "Under the ACJA a warrant is executable at any time (s.148)."
+          }
+        ]
+      },
+      {
+        "id": "professional-ethics",
+        "name": "Professional Ethics and Skills",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "A new lawyer needs funds and premises for a law office. She considers a loan, an overdraft, and a room in her home. She also decides the layout and how to classify the firm.",
+            "question": "A loan suits",
+            "options": {
+              "a": "Start-up capital needed to establish the new office",
+              "b": "The salaries of the staff of the office",
+              "c": "The recurrent expenses of running the office",
+              "d": "The working capital needed from day to day"
+            },
+            "answer": "a",
+            "explanation": "An overdraft suits working capital."
+          },
+          {
+            "id": 2,
+            "context": "A new lawyer needs funds and premises for a law office. She considers a loan, an overdraft, and a room in her home. She also decides the layout and how to classify the firm.",
+            "question": "An overdraft is repayable",
+            "options": {
+              "a": "Never, since it is a gift from the bank",
+              "b": "At maturity, as with a loan for a fixed term",
+              "c": "On demand by the bank at any time",
+              "d": "After five years from the date of the drawing"
+            },
+            "answer": "c",
+            "explanation": "Interest is only on the sum drawn."
+          },
+          {
+            "id": 3,
+            "context": "A new lawyer needs funds and premises for a law office. She considers a loan, an overdraft, and a room in her home. She also decides the layout and how to classify the firm.",
+            "question": "The factors in choosing premises (LCC-S) do NOT include",
+            "options": {
+              "a": "Capital available to the lawyer for the office",
+              "b": "Location of the office and its proximity to the court",
+              "c": "The colour of the walls of the premises",
+              "d": "Clientele of the firm and accessibility of the premises"
+            },
+            "answer": "c",
+            "explanation": "Location; Capital; Clientele; Serene environment."
+          },
+          {
+            "id": 4,
+            "context": "A new lawyer needs funds and premises for a law office. She considers a loan, an overdraft, and a room in her home. She also decides the layout and how to classify the firm.",
+            "question": "A medium law firm has how many lawyers?",
+            "options": {
+              "a": "Five to nine lawyers practising in the firm",
+              "b": "Ten and above lawyers practising in the firm",
+              "c": "Two to three lawyers practising in the firm",
+              "d": "One to four lawyers practising in the firm"
+            },
+            "answer": "a",
+            "explanation": "CLANS: small 1-4, medium 5-9, large 10+."
+          },
+          {
+            "id": 5,
+            "context": "A new lawyer needs funds and premises for a law office. She considers a loan, an overdraft, and a room in her home. She also decides the layout and how to classify the firm.",
+            "question": "Office in the home",
+            "options": {
+              "a": "Gives a business-like image to the clients",
+              "b": "Saves overhead but lacks a business-like image",
+              "c": "Is prohibited by the rules of professional conduct",
+              "d": "Is required by the rules for a new firm"
+            },
+            "answer": "b",
+            "explanation": "Types of premises."
+          },
+          {
+            "id": 6,
+            "context": "A draftsman wants to explain the elements of a legal sentence using: 'Where a person obtains a law degree (A), if he applies (B), the Council (C) may admit him (D).'",
+            "question": "The CaCoSA elements do NOT include",
+            "options": {
+              "a": "The subject of the sentence, who is to act",
+              "b": "The condition to be met before the action",
+              "c": "The case in which the rule applies",
+              "d": "The conclusion drawn from the facts of the case"
+            },
+            "answer": "d",
+            "explanation": "Case, Condition, Subject, Action."
+          },
+          {
+            "id": 7,
+            "context": "A draftsman wants to explain the elements of a legal sentence using: 'Where a person obtains a law degree (A), if he applies (B), the Council (C) may admit him (D).'",
+            "question": "The phrase 'if he applies' is a",
+            "options": {
+              "a": "The action to be taken by the subject",
+              "b": "The case in which the rule applies",
+              "c": "The condition to be satisfied before the action",
+              "d": "The subject of the legal sentence"
+            },
+            "answer": "c",
+            "explanation": "Condition to be satisfied before the action."
+          },
+          {
+            "id": 8,
+            "context": "A draftsman wants to explain the elements of a legal sentence using: 'Where a person obtains a law degree (A), if he applies (B), the Council (C) may admit him (D).'",
+            "question": "'Shall' means",
+            "options": {
+              "a": "Mandatory, as held in Maiwada v FBN Plc",
+              "b": "Ambiguous and open to different readings by the courts",
+              "c": "Discretionary and left to the choice of the person",
+              "d": "Optional and left to the choice of the person"
+            },
+            "answer": "a",
+            "explanation": "Maiwada v FBN Plc."
+          },
+          {
+            "id": 9,
+            "context": "A draftsman wants to explain the elements of a legal sentence using: 'Where a person obtains a law degree (A), if he applies (B), the Council (C) may admit him (D).'",
+            "question": "'May' is generally",
+            "options": {
+              "a": "Mandatory, so that the person must act",
+              "b": "Prohibitory only, so that the person must not act",
+              "c": "Ambiguous, so that the court must always interpret it",
+              "d": "Discretionary, as held in Auchi Polytechnic v Okuoghae"
+            },
+            "answer": "d",
+            "explanation": "Auchi Polytechnic v Okuoghae."
+          },
+          {
+            "id": 10,
+            "context": "A draftsman wants to explain the elements of a legal sentence using: 'Where a person obtains a law degree (A), if he applies (B), the Council (C) may admit him (D).'",
+            "question": "'Includes' makes a definition",
+            "options": {
+              "a": "Void for uncertainty in the meaning of the term",
+              "b": "Open and non-exhaustive, so that other items may be added",
+              "c": "Final, so that nothing else may be added to it",
+              "d": "Closed, so that the list given is exhaustive"
+            },
+            "answer": "b",
+            "explanation": "Never use 'means' and 'includes' together."
+          },
+          {
+            "id": 11,
+            "context": "A lawyer is accused of advertising and touting. The LPDC asks the lawyer's supervisor to explain what the RPC allows and what it prohibits. The supervisor goes through the RPC rules on publicity, visiting cards, media appearances, fees and interviews with the lawyer.",
+            "question": "Which of these is NOT true of touting?",
+            "options": {
+              "a": "It is lawful for a lawyer to engage a third party to secure briefs",
+              "b": "It involves a third party who secures briefs for the lawyer concerned",
+              "c": "It is prohibited for lawyers in the practice of the legal profession",
+              "d": "It is dealt with under Rule 4 of the Rules of Professional Conduct"
+            },
+            "answer": "a",
+            "explanation": "Touting is the engagement of a third party to secure briefs; it is prohibited by Rule 4."
+          },
+          {
+            "id": 12,
+            "context": "A lawyer is accused of advertising and touting. The LPDC asks the lawyer's supervisor to explain what the RPC allows and what it prohibits. The supervisor goes through the RPC rules on publicity, visiting cards, media appearances, fees and interviews with the lawyer.",
+            "question": "Visiting cards may NOT carry",
+            "options": {
+              "a": "The address of the lawyer printed on the card",
+              "b": "The photograph of the lawyer printed on the card",
+              "c": "The name of the lawyer printed on the card",
+              "d": "The qualifications and honours of the lawyer printed on the card"
+            },
+            "answer": "b",
+            "explanation": "Rule 40 RPC: name, address, qualifications and honours."
+          },
+          {
+            "id": 13,
+            "context": "A lawyer is accused of advertising and touting. The LPDC asks the lawyer's supervisor to explain what the RPC allows and what it prohibits. The supervisor goes through the RPC rules on publicity, visiting cards, media appearances, fees and interviews with the lawyer.",
+            "question": "On radio or television, a lawyer may NOT",
+            "options": {
+              "a": "Give public legal information to the people",
+              "b": "Explain a law to the people",
+              "c": "Discuss a bill before the legislature",
+              "d": "Solicit clients for himself or for his firm"
+            },
+            "answer": "d",
+            "explanation": "Rule 46(1) RPC."
+          },
+          {
+            "id": 14,
+            "context": "A lawyer is accused of advertising and touting. The LPDC asks the lawyer's supervisor to explain what the RPC allows and what it prohibits. The supervisor goes through the RPC rules on publicity, visiting cards, media appearances, fees and interviews with the lawyer.",
+            "question": "A contingent fee arrangement may NOT be made in",
+            "options": {
+              "a": "A land case before the courts of Nigeria",
+              "b": "A debt case before the courts of Nigeria",
+              "c": "A criminal case before the courts of Nigeria",
+              "d": "A civil case before the courts of Nigeria"
+            },
+            "answer": "c",
+            "explanation": "Rule 50 RPC: not for a criminal case."
+          },
+          {
+            "id": 15,
+            "context": "A lawyer is accused of advertising and touting. The LPDC asks the lawyer's supervisor to explain what the RPC allows and what it prohibits. The supervisor goes through the RPC rules on publicity, visiting cards, media appearances, fees and interviews with the lawyer.",
+            "question": "Which of these is NOT true of interviewing a client?",
+            "options": {
+              "a": "The general venue is the lawyer's office",
+              "b": "Open questions encourage the client to narrate",
+              "c": "Closed questions risk turning it into an interrogation",
+              "d": "Closed questions are best used throughout the interview"
+            },
+            "answer": "d",
+            "explanation": "Closed questions risk turning the interview into an interrogation."
+          },
+          {
+            "id": 16,
+            "context": "Chinedu, a Law School student, asks his lecturer about the nature of the Rules of Professional Conduct, who made them, and how many chapters and rules the 2023 edition contains.",
+            "question": "The Rules of Professional Conduct are made by",
+            "options": {
+              "a": "The Chief Justice of Nigeria, acting with the Attorney-General",
+              "b": "The Council of Legal Education, acting with the Body of Benchers",
+              "c": "The Body of Benchers, acting with the Chief Justice of Nigeria",
+              "d": "The General Council of the Bar, under section 12(4) LPA"
+            },
+            "answer": "d",
+            "explanation": "The Bar Council, under s.12(4) LPA."
+          },
+          {
+            "id": 17,
+            "context": "Chinedu, a Law School student, asks his lecturer about the nature of the Rules of Professional Conduct, who made them, and how many chapters and rules the 2023 edition contains.",
+            "question": "The RPC is",
+            "options": {
+              "a": "A provision of the Constitution of the Federation",
+              "b": "An Act of the National Assembly of the Federation",
+              "c": "Subsidiary legislation made under section 12(4) LPA",
+              "d": "A mere guide with no force of law"
+            },
+            "answer": "c",
+            "explanation": "It is subsidiary legislation made under s.12(4) LPA."
+          },
+          {
+            "id": 18,
+            "context": "Chinedu, a Law School student, asks his lecturer about the nature of the Rules of Professional Conduct, who made them, and how many chapters and rules the 2023 edition contains.",
+            "question": "The 2023 RPC added a chapter on",
+            "options": {
+              "a": "Pro bono work done by the lawyers",
+              "b": "Anti-money laundering and combating terrorism financing",
+              "c": "Court dress worn by lawyers in court",
+              "d": "Legal education and training of the lawyers"
+            },
+            "answer": "b",
+            "explanation": "Chapter 2, Rules 55-72."
+          },
+          {
+            "id": 19,
+            "context": "Chinedu, a Law School student, asks his lecturer about the nature of the Rules of Professional Conduct, who made them, and how many chapters and rules the 2023 edition contains.",
+            "question": "The first Rules were made in",
+            "options": {
+              "a": "The year 1967, by the General Council of the Bar",
+              "b": "The year 1979, by the General Council of the Bar",
+              "c": "The year 2023, by the General Council of the Bar",
+              "d": "The year 2007, by the General Council of the Bar"
+            },
+            "answer": "a",
+            "explanation": "25 December 1967, by the General Council of the Bar."
+          },
+          {
+            "id": 20,
+            "context": "Chinedu, a Law School student, asks his lecturer about the nature of the Rules of Professional Conduct, who made them, and how many chapters and rules the 2023 edition contains.",
+            "question": "The RPC 2023 contains",
+            "options": {
+              "a": "Two chapters and seventy rules in all",
+              "b": "Three chapters and seventy-eight rules in all",
+              "c": "Five chapters and ninety rules in all",
+              "d": "Four chapters and eighty rules in all"
+            },
+            "answer": "b",
+            "explanation": "3 chapters, 78 rules."
+          }
+        ]
+      }
+    ]
+  },
+  "cpc-9": {
+    "year": 9997,
+    "session": "CPC Test 9",
+    "examTitle": "Pre-Bar Style MCQ — Corporate, Criminal, Ethics (CPC) Test 9",
+    "totalQuestions": 60,
+    "courses": [
+      {
+        "id": "corporate-law-practice",
+        "name": "Corporate Law Practice",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "A software company asks its lawyer which courts and which government bodies deal with intellectual property disputes and registrations, and a food chain asks how its secret recipe can be protected.",
+            "question": "The court with exclusive jurisdiction in intellectual property matters is",
+            "options": {
+              "a": "The National Industrial Court, which hears labour and industrial disputes",
+              "b": "The High Court of the State where the owner of the right lives",
+              "c": "The Magistrate's Court within whose area the infringement occurred",
+              "d": "The Federal High Court, by virtue of section 251 of the Constitution"
+            },
+            "answer": "d",
+            "explanation": "Section 251 of the Constitution gives the Federal High Court exclusive jurisdiction."
+          },
+          {
+            "id": 2,
+            "context": "A software company asks its lawyer which courts and which government bodies deal with intellectual property disputes and registrations, and a food chain asks how its secret recipe can be protected.",
+            "question": "Technology-transfer agreements, including trademark licences, are registered with",
+            "options": {
+              "a": "The Nigerian Office for Technology Acquisition and Promotion, known as NOTAP",
+              "b": "The Corporate Affairs Commission, which registers companies and business names",
+              "c": "The Nigerian Copyright Commission, which administers the Copyright Act",
+              "d": "The National Information Technology Development Agency, known as NITDA"
+            },
+            "answer": "a",
+            "explanation": "NOTAP registers technology-transfer agreements."
+          },
+          {
+            "id": 3,
+            "context": "A software company asks its lawyer which courts and which government bodies deal with intellectual property disputes and registrations, and a food chain asks how its secret recipe can be protected.",
+            "question": "The body that administers the Trade Marks Act and the Patents and Designs Act is",
+            "options": {
+              "a": "The Securities and Exchange Commission, which regulates the capital market",
+              "b": "The Nigerian Industrial Property Office, which keeps the registers",
+              "c": "The Federal Competition and Consumer Protection Commission, known as FCCPC",
+              "d": "The Nigerian Copyright Commission, which administers the Copyright Act"
+            },
+            "answer": "b",
+            "explanation": "The Nigerian Industrial Property Office administers both Acts."
+          },
+          {
+            "id": 4,
+            "context": "A software company asks its lawyer which courts and which government bodies deal with intellectual property disputes and registrations, and a food chain asks how its secret recipe can be protected.",
+            "question": "International treaties on IP apply in Nigeria",
+            "options": {
+              "a": "Only in the Federal High Court, which alone may apply them",
+              "b": "Automatically on ratification, without any act of the National Assembly",
+              "c": "Only to foreigners who own the rights in Nigeria",
+              "d": "Only if they have been domesticated by an Act of the National Assembly"
+            },
+            "answer": "d",
+            "explanation": "Treaties are not directly applicable unless domesticated."
+          },
+          {
+            "id": 5,
+            "context": "A software company asks its lawyer which courts and which government bodies deal with intellectual property disputes and registrations, and a food chain asks how its secret recipe can be protected.",
+            "question": "A trade secret is protected",
+            "options": {
+              "a": "For the life of its owner and 70 years after his death",
+              "b": "For 7 years from the date on which it was created",
+              "c": "For as long as it stays secret and is not disclosed",
+              "d": "For 20 years from the date on which it was first used"
+            },
+            "answer": "c",
+            "explanation": "A trade secret has no expiry while secret and is lost on disclosure."
+          },
+          {
+            "id": 6,
+            "context": "Members of Rock of Ages Fellowship in Jos want to register as incorporated trustees. Three accountants want to form a limited liability partnership and two investors want a limited partnership with one of them as a limited partner. The fellowship's trustees include a man convicted of dishonesty four years ago.",
+            "question": "The following are correct about a limited liability partnership except",
+            "options": {
+              "a": "It must have at least two designated partners at all times",
+              "b": "It must have at least two partners at the time of registration",
+              "c": "Its name must end with the letters LLP after the firm name",
+              "d": "It has no legal personality separate from that of its partners"
+            },
+            "answer": "d",
+            "explanation": "An LLP is a body corporate with perpetual succession, separate from its partners; at least 2 partners and 2 designated partners; name ends 'LLP'."
+          },
+          {
+            "id": 7,
+            "context": "Members of Rock of Ages Fellowship in Jos want to register as incorporated trustees. Three accountants want to form a limited liability partnership and two investors want a limited partnership with one of them as a limited partner. The fellowship's trustees include a man convicted of dishonesty four years ago.",
+            "question": "In a limited partnership, a limited partner cannot",
+            "options": {
+              "a": "Share in the profits of the limited partnership with the general partners",
+              "b": "Take part in the management of the limited partnership's business",
+              "c": "Contribute capital to the limited partnership when it is formed",
+              "d": "Be a body corporate, since the Act allows companies to be limited partners"
+            },
+            "answer": "b",
+            "explanation": "A limited partner cannot take part in management (s.806)."
+          },
+          {
+            "id": 8,
+            "context": "Members of Rock of Ages Fellowship in Jos want to register as incorporated trustees. Three accountants want to form a limited liability partnership and two investors want a limited partnership with one of them as a limited partner. The fellowship's trustees include a man convicted of dishonesty four years ago.",
+            "question": "A person is disqualified from being a trustee if convicted of dishonesty within",
+            "options": {
+              "a": "2 years before the date of his proposed appointment",
+              "b": "5 years before the date of his proposed appointment",
+              "c": "10 years before the date of his proposed appointment",
+              "d": "1 year before the date of his proposed appointment"
+            },
+            "answer": "b",
+            "explanation": "Persons convicted of dishonesty within 5 years of the proposed appointment are disqualified (s.826)."
+          },
+          {
+            "id": 9,
+            "context": "Members of Rock of Ages Fellowship in Jos want to register as incorporated trustees. Three accountants want to form a limited liability partnership and two investors want a limited partnership with one of them as a limited partner. The fellowship's trustees include a man convicted of dishonesty four years ago.",
+            "question": "After the CAC publishes the application of the trustees, objections may be made within",
+            "options": {
+              "a": "21 days of the day after the application is published",
+              "b": "14 days of the day after the application is published",
+              "c": "28 days of the day after the application is published",
+              "d": "60 days of the day after the application is published"
+            },
+            "answer": "c",
+            "explanation": "The CAC publishes in 2 national dailies; 28 days for objections, counted from the day after publication."
+          },
+          {
+            "id": 10,
+            "context": "Members of Rock of Ages Fellowship in Jos want to register as incorporated trustees. Three accountants want to form a limited liability partnership and two investors want a limited partnership with one of them as a limited partner. The fellowship's trustees include a man convicted of dishonesty four years ago.",
+            "question": "On dissolution of incorporated trustees, the surplus goes to",
+            "options": {
+              "a": "To an institution with similar objects chosen by the members",
+              "b": "To the members, who share it in equal proportions among themselves",
+              "c": "To the Corporate Affairs Commission, which pays it into the revenue",
+              "d": "To the trustees, who hold it for their own use after dissolution"
+            },
+            "answer": "a",
+            "explanation": "Surplus goes to a similar-object institution chosen by members, never to members (s.850(4))."
+          },
+          {
+            "id": 11,
+            "context": "Delta Plc, a listed company, is reviewing its board against the codes of corporate governance. The chairman says the code lets him combine roles as he likes, and the secretary disagrees.",
+            "question": "Under the Nigerian Code of Corporate Governance 2018, the board should meet at least",
+            "options": {
+              "a": "Monthly, since the board must supervise the management closely",
+              "b": "Quarterly, that is at least four times in every year",
+              "c": "Once a year, at the meeting that approves the accounts",
+              "d": "Twice a year, once before and once after the audit"
+            },
+            "answer": "b",
+            "explanation": "The board meets at least quarterly, that is four times a year."
+          },
+          {
+            "id": 12,
+            "context": "Delta Plc, a listed company, is reviewing its board against the codes of corporate governance. The chairman says the code lets him combine roles as he likes, and the secretary disagrees.",
+            "question": "To be re-elected, a director must attend at least",
+            "options": {
+              "a": "Half of the board meetings held in the year concerned",
+              "b": "One-third of the board meetings held in the year concerned",
+              "c": "Two-thirds of the board meetings held in the year concerned",
+              "d": "All the board meetings held in the year concerned"
+            },
+            "answer": "c",
+            "explanation": "The code requires attendance of at least two-thirds of board meetings."
+          },
+          {
+            "id": 13,
+            "context": "Delta Plc, a listed company, is reviewing its board against the codes of corporate governance. The chairman says the code lets him combine roles as he likes, and the secretary disagrees.",
+            "question": "The SEC Code requires a board of at least",
+            "options": {
+              "a": "3 members, of whom one is independent",
+              "b": "7 members, of whom two are independent",
+              "c": "5 members, with not more than 2 family members",
+              "d": "9 members, of whom three are independent"
+            },
+            "answer": "c",
+            "explanation": "The SEC Code requires a board of at least 5, with not more than 2 family members."
+          },
+          {
+            "id": 14,
+            "context": "Delta Plc, a listed company, is reviewing its board against the codes of corporate governance. The chairman says the code lets him combine roles as he likes, and the secretary disagrees.",
+            "question": "Under the SEC Code, an audit firm may serve continuously for not more than",
+            "options": {
+              "a": "10 years continuously, after which it must rotate",
+              "b": "5 years continuously, after which it must rotate",
+              "c": "20 years continuously, after which it must rotate",
+              "d": "3 years continuously, after which it must rotate"
+            },
+            "answer": "a",
+            "explanation": "The audit firm may serve not more than 10 years continuously."
+          },
+          {
+            "id": 15,
+            "context": "Delta Plc, a listed company, is reviewing its board against the codes of corporate governance. The chairman says the code lets him combine roles as he likes, and the secretary disagrees.",
+            "question": "The following are true of the NCCG 2018 board structure except",
+            "options": {
+              "a": "The managing director may chair a committee of the board",
+              "b": "The chairman and the managing director are different persons",
+              "c": "The chairman of the board is a non-executive director",
+              "d": "Most of the members of the board are non-executive directors"
+            },
+            "answer": "a",
+            "explanation": "The MD, CEO or an ED should not chair a board committee."
+          },
+          {
+            "id": 16,
+            "context": "The State government wants to raise money by a bond issue, and a private company is asking about issuing corporate bonds as well. A lawyer is engaged to explain the nature of bonds and the conditions to be met.",
+            "question": "A bond is a debt security that is never longer than",
+            "options": {
+              "a": "10 years from the date of issue",
+              "b": "50 years from the date of issue",
+              "c": "5 years from the date of issue",
+              "d": "25 years from the date of issue"
+            },
+            "answer": "d",
+            "explanation": "A bond is a long-term debt security with a fixed life of not longer than 25 years."
+          },
+          {
+            "id": 17,
+            "context": "The State government wants to raise money by a bond issue, and a private company is asking about issuing corporate bonds as well. A lawyer is engaged to explain the nature of bonds and the conditions to be met.",
+            "question": "Interest on sovereign bonds is",
+            "options": {
+              "a": "Paid only at maturity, together with the capital sum",
+              "b": "Paid in shares of the issuing government's agencies",
+              "c": "Tax-free in the hands of the holder of the bond",
+              "d": "Taxed at 30% in the hands of the holder of the bond"
+            },
+            "answer": "c",
+            "explanation": "Sovereign bond interest is tax-free."
+          },
+          {
+            "id": 18,
+            "context": "The State government wants to raise money by a bond issue, and a private company is asking about issuing corporate bonds as well. A lawyer is engaged to explain the nature of bonds and the conditions to be met.",
+            "question": "The following may issue government bonds except",
+            "options": {
+              "a": "A State government, acting through its Ministry of Finance",
+              "b": "The Federal Capital Territory Administration, acting for the territory",
+              "c": "A local government, acting through its council and treasury",
+              "d": "A private limited company, acting through its board of directors"
+            },
+            "answer": "d",
+            "explanation": "Issuers are federal, state, FCT and local governments and agencies and wholly government-owned companies."
+          },
+          {
+            "id": 19,
+            "context": "The State government wants to raise money by a bond issue, and a private company is asking about issuing corporate bonds as well. A lawyer is engaged to explain the nature of bonds and the conditions to be met.",
+            "question": "A corporate bond registration statement includes signed audited accounts for",
+            "options": {
+              "a": "3 years, the latest not over 9 months old",
+              "b": "5 years, the latest not over 3 months old",
+              "c": "10 years, the latest not over 6 months old",
+              "d": "1 year only, not over 12 months old"
+            },
+            "answer": "a",
+            "explanation": "Signed audited accounts for 3 years, the latest not more than 9 months old, are filed."
+          },
+          {
+            "id": 20,
+            "context": "The State government wants to raise money by a bond issue, and a private company is asking about issuing corporate bonds as well. A lawyer is engaged to explain the nature of bonds and the conditions to be met.",
+            "question": "A special resolution is required to issue a bond that is",
+            "options": {
+              "a": "A bond issued in naira, which is the currency of the issuer",
+              "b": "A bond that is convertible or exceeds the limit the board may borrow",
+              "c": "A bond that is secured on assets of the company issuing it",
+              "d": "A bond that is issued to banks and other financial institutions only"
+            },
+            "answer": "b",
+            "explanation": "A special resolution is needed if the amount exceeds the board's limit or the bond is convertible."
+          }
+        ]
+      },
+      {
+        "id": "criminal-litigation",
+        "name": "Criminal Litigation",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "Chidi is charged in Lagos with an offence under a federal Act and his lawyer is checking which law of procedure governs, whether the offence is known to law, and which court-specific rules apply to his matter.",
+            "question": "The ACJA 2015 does not apply to",
+            "options": {
+              "a": "The High Court of the Federal Capital Territory, Abuja",
+              "b": "The Court Martial, which is governed by the Armed Forces Act",
+              "c": "The Federal High Court, which sits in every State of the Federation",
+              "d": "The National Industrial Court, which hears labour and industrial disputes"
+            },
+            "answer": "b",
+            "explanation": "Section 2(2) ACJA excludes the Court Martial."
+          },
+          {
+            "id": 2,
+            "context": "Chidi is charged in Lagos with an offence under a federal Act and his lawyer is checking which law of procedure governs, whether the offence is known to law, and which court-specific rules apply to his matter.",
+            "question": "The procedural law used in Law School for the South is",
+            "options": {
+              "a": "The Administration of Criminal Justice Law of Lagos State 2015",
+              "b": "The Penal Code, which is the substantive law of the Northern States",
+              "c": "The Criminal Procedure Act, which applies in Lagos State until it is repealed",
+              "d": "The Administration of Criminal Justice Law of Kano State 2019"
+            },
+            "answer": "a",
+            "explanation": "The ACJL Lagos 2015 is used for the South; the CPA ceased to apply in Lagos in 2007."
+          },
+          {
+            "id": 3,
+            "context": "Chidi is charged in Lagos with an offence under a federal Act and his lawyer is checking which law of procedure governs, whether the offence is known to law, and which court-specific rules apply to his matter.",
+            "question": "Under s.36(12) CFRN, no one may be convicted of",
+            "options": {
+              "a": "An offence under a federal Act, since it is not a State offence",
+              "b": "A minor offence, since the Constitution forbids trial of such offences",
+              "c": "An offence under a State Law, since it is not a federal offence",
+              "d": "An offence that is not defined in a written law, or its punishment"
+            },
+            "answer": "d",
+            "explanation": "A reference to crime must relate to an enactment (Aoko v Fagbemi)."
+          },
+          {
+            "id": 4,
+            "context": "Chidi is charged in Lagos with an offence under a federal Act and his lawyer is checking which law of procedure governs, whether the offence is known to law, and which court-specific rules apply to his matter.",
+            "question": "In Omoju v FRN the court affirmed that",
+            "options": {
+              "a": "Area Courts make offences, since they apply Islamic law and customary law",
+              "b": "There is no customary criminal law in Nigeria, only written criminal law",
+              "c": "Custom may create offences, provided it is not repugnant to natural justice",
+              "d": "Judges create offences by their decisions, which then bind the lower courts"
+            },
+            "answer": "b",
+            "explanation": "There is no customary criminal law in Nigeria."
+          },
+          {
+            "id": 5,
+            "context": "Chidi is charged in Lagos with an offence under a federal Act and his lawyer is checking which law of procedure governs, whether the offence is known to law, and which court-specific rules apply to his matter.",
+            "question": "The law governing the Court Martial is",
+            "options": {
+              "a": "The Evidence Act only, together with the Constitution of the Federal Republic",
+              "b": "The Armed Forces Act, together with the regulations made under it",
+              "c": "The Administration of Criminal Justice Act, applied with such changes as needed",
+              "d": "The Police Act, together with the regulations made under that Act"
+            },
+            "answer": "b",
+            "explanation": "The Court Martial is governed by the Armed Forces Act."
+          },
+          {
+            "id": 6,
+            "context": "A cashier is charged with stealing on five occasions in the same year and with attempted theft on another day. Counsel for the defence argues misjoinder of offences.",
+            "question": "As a general rule, a person accused of several offences must be",
+            "options": {
+              "a": "Charged only for the gravest of them, and the others are dropped",
+              "b": "Charged in one count, so that the court may deal with all at once",
+              "c": "Charged and tried separately for each offence, subject to the exceptions",
+              "d": "Tried only once, since the trial of one offence bars the others"
+            },
+            "answer": "c",
+            "explanation": "Several offences must be charged and tried separately; exceptions apply."
+          },
+          {
+            "id": 7,
+            "context": "A cashier is charged with stealing on five occasions in the same year and with attempted theft on another day. Counsel for the defence argues misjoinder of offences.",
+            "question": "Where several offences are committed within 12 months, the number that may be charged together is",
+            "options": {
+              "a": "Any five of them, selected by the prosecution out of the total",
+              "b": "Any two of them, selected by the prosecution out of the total",
+              "c": "All of them, whatever the number committed within the 12 months",
+              "d": "Any three of them, selected by the prosecution out of the total"
+            },
+            "answer": "d",
+            "explanation": "Within 12 months, any three may be selected and charged together."
+          },
+          {
+            "id": 8,
+            "context": "A cashier is charged with stealing on five occasions in the same year and with attempted theft on another day. Counsel for the defence argues misjoinder of offences.",
+            "question": "Offences connected as part of the same transaction may be",
+            "options": {
+              "a": "Charged in two counts only, one for each of the offences committed",
+              "b": "Charged only singly, each in a separate charge before a separate court",
+              "c": "All charged together in the same charge, as one transaction",
+              "d": "Tried by different courts, each of which has jurisdiction over one"
+            },
+            "answer": "c",
+            "explanation": "All may be charged together (s.209(c) ACJA)."
+          },
+          {
+            "id": 9,
+            "context": "A cashier is charged with stealing on five occasions in the same year and with attempted theft on another day. Counsel for the defence argues misjoinder of offences.",
+            "question": "Where it is doubtful which offence an act discloses, the offences may be charged",
+            "options": {
+              "a": "Tried in a separate trial from the one in which he is charged",
+              "b": "Charged in the same count, so that the court may choose one",
+              "c": "Charged in the alternative, for example stealing, misappropriation or breach of trust",
+              "d": "Charged only by the Attorney-General, who alone decides on such offences"
+            },
+            "answer": "c",
+            "explanation": "They may be charged in the alternative, e.g. stealing, misappropriation or breach of trust."
+          },
+          {
+            "id": 10,
+            "context": "A cashier is charged with stealing on five occasions in the same year and with attempted theft on another day. Counsel for the defence argues misjoinder of offences.",
+            "question": "An attempt and the full commission of the same offence may be",
+            "options": {
+              "a": "Charged only separately, since an attempt is a different offence in law",
+              "b": "Charged together, since the Act allows both to be charged at once",
+              "c": "Never charged together, since one excludes the other in law",
+              "d": "Charged only by the Attorney-General, who has power over such offences"
+            },
+            "answer": "b",
+            "explanation": "Section 210 ACJA allows both to be charged together."
+          },
+          {
+            "id": 11,
+            "context": "Mr Tunde is prosecuted for breaching a traditional taboo that no statute defines, and before another court is prosecuted under a law that defines the offence but prescribes no penalty. His counsel raises s.36(12) CFRN.",
+            "question": "A person may be tried only for an offence",
+            "options": {
+              "a": "Known to the judge who tries the case, from his own knowledge",
+              "b": "Known in custom, as practised by the people of the area",
+              "c": "Approved by the Attorney-General, in the exercise of his powers",
+              "d": "Defined and penalised in a written law, under section 36(12)"
+            },
+            "answer": "d",
+            "explanation": "Section 36(12) CFRN: nullum crimen sine lege."
+          },
+          {
+            "id": 12,
+            "context": "Mr Tunde is prosecuted for breaching a traditional taboo that no statute defines, and before another court is prosecuted under a law that defines the offence but prescribes no penalty. His counsel raises s.36(12) CFRN.",
+            "question": "A traditional taboo is triable only if",
+            "options": {
+              "a": "Codified in a written law, since a taboo is not triable otherwise",
+              "b": "Reported to the police, since a taboo is triable on a report",
+              "c": "Approved by the chief of the community, who is the custodian",
+              "d": "Notorious in the community, since a taboo is triable if it is well known"
+            },
+            "answer": "a",
+            "explanation": "A taboo is not triable unless codified."
+          },
+          {
+            "id": 13,
+            "context": "Mr Tunde is prosecuted for breaching a traditional taboo that no statute defines, and before another court is prosecuted under a law that defines the offence but prescribes no penalty. His counsel raises s.36(12) CFRN.",
+            "question": "The principle that no sanction exists without law is",
+            "options": {
+              "a": "Nulla poena sine lege, which means no punishment without a law",
+              "b": "Autrefois acquit, which means that the defendant was acquitted before",
+              "c": "Nemo judex in causa sua, which means no one is judge in his cause",
+              "d": "Nolle prosequi, which means that the Attorney-General discontinues the case"
+            },
+            "answer": "a",
+            "explanation": "Aoko v Fagbemi; AGF v Isong."
+          },
+          {
+            "id": 14,
+            "context": "Mr Tunde is prosecuted for breaching a traditional taboo that no statute defines, and before another court is prosecuted under a law that defines the offence but prescribes no penalty. His counsel raises s.36(12) CFRN.",
+            "question": "Written law for this purpose includes all of these except",
+            "options": {
+              "a": "A State Law enacted by the House of Assembly of a State",
+              "b": "An Act enacted by the National Assembly of the Federation",
+              "c": "Subsidiary legislation made under the authority of an Act or Law",
+              "d": "Unwritten custom, however old and well established in the community"
+            },
+            "answer": "d",
+            "explanation": "Acts, State Laws and subsidiary legislation count."
+          },
+          {
+            "id": 15,
+            "context": "Mr Tunde is prosecuted for breaching a traditional taboo that no statute defines, and before another court is prosecuted under a law that defines the offence but prescribes no penalty. His counsel raises s.36(12) CFRN.",
+            "question": "The right against retroactive legislation is in",
+            "options": {
+              "a": "Section 36(8) of the Constitution, which forbids retroactive criminal laws",
+              "b": "Section 36(12) of the Constitution, which requires a written law",
+              "c": "Section 42 of the Constitution, which forbids discrimination of any kind",
+              "d": "Section 35 of the Constitution, which protects personal liberty"
+            },
+            "answer": "a",
+            "explanation": "Section 36(8) CFRN."
+          },
+          {
+            "id": 16,
+            "context": "A convict wishes to appeal a conviction. Counsel for the respondent challenges the notice of appeal. The registrar lists what is correct and what is wrong.",
+            "question": "Which of these is NOT true of a notice of appeal?",
+            "options": {
+              "a": "Joint notices are competent, since several appellants may join in one",
+              "b": "Out of time without leave it is void, and cannot be saved",
+              "c": "Joint notices are incompetent, since each appellant must file his own",
+              "d": "It must follow Criminal Form 1 under the Court of Appeal Rules"
+            },
+            "answer": "a",
+            "explanation": "Joint notices incompetent - Ndifon v COP."
+          },
+          {
+            "id": 17,
+            "context": "A convict wishes to appeal a conviction. Counsel for the respondent challenges the notice of appeal. The registrar lists what is correct and what is wrong.",
+            "question": "Which of these is NOT true of a defective notice of appeal?",
+            "options": {
+              "a": "It nullifies the appeal, since there is then no valid notice",
+              "b": "It can be cured by amendment, since the court can allow one",
+              "c": "Non-compliance with the form alone is a mere irregularity",
+              "d": "A joint notice of appeal is incompetent and cannot be saved"
+            },
+            "answer": "b",
+            "explanation": "A defective notice nullifies the appeal and cannot be cured by amendment."
+          },
+          {
+            "id": 18,
+            "context": "A convict wishes to appeal a conviction. Counsel for the respondent challenges the notice of appeal. The registrar lists what is correct and what is wrong.",
+            "question": "All of these are prerogative writs except",
+            "options": {
+              "a": "Habeas corpus, which orders release from unlawful custody",
+              "b": "Certiorari, which quashes the proceedings of a lower court",
+              "c": "Mandamus, which compels the performance of a public duty",
+              "d": "Appeal, which is a statutory right and not a prerogative writ"
+            },
+            "answer": "d",
+            "explanation": "Habeas corpus, mandamus, certiorari and prohibition are the writs."
+          },
+          {
+            "id": 19,
+            "context": "A convict wishes to appeal a conviction. Counsel for the respondent challenges the notice of appeal. The registrar lists what is correct and what is wrong.",
+            "question": "Which of these is NOT a ground for a retrial on appeal?",
+            "options": {
+              "a": "The offence is not a trivial one, but a serious offence",
+              "b": "The evidence discloses a substantial case against the defendant",
+              "c": "The prosecution needs time to improve its case against him",
+              "d": "The error made by the trial court is not one that nullifies it"
+            },
+            "answer": "c",
+            "explanation": "No retrial merely to let the prosecution remedy its own inadequacies."
+          },
+          {
+            "id": 20,
+            "context": "A convict wishes to appeal a conviction. Counsel for the respondent challenges the notice of appeal. The registrar lists what is correct and what is wrong.",
+            "question": "Which of these is NOT true of bail pending appeal?",
+            "options": {
+              "a": "The presumption of innocence no longer applies to the convict",
+              "b": "Separate applications are made by each convict in a joint trial",
+              "c": "A fugitive is entitled to it if the conditions are met",
+              "d": "A fugitive is never entitled to bail pending appeal"
+            },
+            "answer": "c",
+            "explanation": "A fugitive is never entitled."
+          }
+        ]
+      },
+      {
+        "id": "professional-ethics",
+        "name": "Professional Ethics and Skills",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "A lawyer in Lagos is paid for a land litigation, a conveyance and a company incorporation. She wants to know which Scale and band apply and what the Order says about terms of engagement.",
+            "question": "Lagos and the FCT fall in",
+            "options": {
+              "a": "Band 4 of the State bands set out in the Order",
+              "b": "Band 1 of the State bands set out in the Order",
+              "c": "Band 2 of the State bands set out in the Order",
+              "d": "Band 3 of the State bands set out in the Order"
+            },
+            "answer": "d",
+            "explanation": "State bands."
+          },
+          {
+            "id": 2,
+            "context": "A lawyer in Lagos is paid for a land litigation, a conveyance and a company incorporation. She wants to know which Scale and band apply and what the Order says about terms of engagement.",
+            "question": "Scale 2 covers",
+            "options": {
+              "a": "Incorporation of companies and registration of business names",
+              "b": "Property transactions and conveyances for the clients",
+              "c": "Litigation and the conduct of cases in court",
+              "d": "Consultation and advice given to the client"
+            },
+            "answer": "a",
+            "explanation": "Para 1 of the Order."
+          },
+          {
+            "id": 3,
+            "context": "A lawyer in Lagos is paid for a land litigation, a conveyance and a company incorporation. She wants to know which Scale and band apply and what the Order says about terms of engagement.",
+            "question": "Scale 3 covers",
+            "options": {
+              "a": "Litigation and the conduct of cases in court",
+              "b": "Property transactions and conveyances for the clients",
+              "c": "Hourly rates for the work done by the lawyer",
+              "d": "Consultation and advice given to the client"
+            },
+            "answer": "a",
+            "explanation": "Para 1."
+          },
+          {
+            "id": 4,
+            "context": "A lawyer in Lagos is paid for a land litigation, a conveyance and a company incorporation. She wants to know which Scale and band apply and what the Order says about terms of engagement.",
+            "question": "Written terms of engagement must be issued within",
+            "options": {
+              "a": "Sixty days of instruction, under paragraph 7 of the Order",
+              "b": "Fourteen days of instruction, under paragraph 7 of the Order",
+              "c": "Thirty days of instruction, under paragraph 7 of the Order",
+              "d": "Seven days of instruction, under paragraph 7 of the Order"
+            },
+            "answer": "b",
+            "explanation": "Para 7 of the Order."
+          },
+          {
+            "id": 5,
+            "context": "A lawyer in Lagos is paid for a land litigation, a conveyance and a company incorporation. She wants to know which Scale and band apply and what the Order says about terms of engagement.",
+            "question": "Scale fees are",
+            "options": {
+              "a": "Freely negotiable between the lawyer and the client",
+              "b": "Optional, as the lawyer may charge less or more",
+              "c": "Fixed by the clients who engage the lawyer",
+              "d": "Not negotiable except as the Order itself permits"
+            },
+            "answer": "d",
+            "explanation": "Para 8."
+          },
+          {
+            "id": 6,
+            "context": "Two companies refer a dispute to arbitration under the Arbitration and Mediation Act 2023. A lawyer is asked to advise the parties on ADR and a trainee is quizzed on the Act. The trainee must say which of the statements about ADR processes put to him by the supervising lawyer is false.",
+            "question": "The disadvantages of ADR include all of these except",
+            "options": {
+              "a": "Limited appeal from the decision of the neutral",
+              "b": "No binding precedent is created by the outcome",
+              "c": "It is always faster than a trial in a court",
+              "d": "Enforcement problems may arise after the outcome"
+            },
+            "answer": "c",
+            "explanation": "Disadvantages."
+          },
+          {
+            "id": 7,
+            "context": "Two companies refer a dispute to arbitration under the Arbitration and Mediation Act 2023. A lawyer is asked to advise the parties on ADR and a trainee is quizzed on the Act. The trainee must say which of the statements about ADR processes put to him by the supervising lawyer is false.",
+            "question": "Which of these is NOT true of mediation?",
+            "options": {
+              "a": "It is governed by the Arbitration and Mediation Act 2023",
+              "b": "It is voluntary for the parties who take part",
+              "c": "Information is confidential unless the parties agree otherwise",
+              "d": "Information given in it is not confidential at all"
+            },
+            "answer": "d",
+            "explanation": "Section 76 AMA."
+          },
+          {
+            "id": 8,
+            "context": "Two companies refer a dispute to arbitration under the Arbitration and Mediation Act 2023. A lawyer is asked to advise the parties on ADR and a trainee is quizzed on the Act. The trainee must say which of the statements about ADR processes put to him by the supervising lawyer is false.",
+            "question": "Which of these is NOT true of a conciliator?",
+            "options": {
+              "a": "He decides the dispute and makes an award between the parties",
+              "b": "He proposes terms of settlement to the parties",
+              "c": "He does not decide the dispute between the parties",
+              "d": "He assists the parties to settle the dispute"
+            },
+            "answer": "a",
+            "explanation": "A conciliator does not decide."
+          },
+          {
+            "id": 9,
+            "context": "Two companies refer a dispute to arbitration under the Arbitration and Mediation Act 2023. A lawyer is asked to advise the parties on ADR and a trainee is quizzed on the Act. The trainee must say which of the statements about ADR processes put to him by the supervising lawyer is false.",
+            "question": "Which of these is NOT true of a Scott v Avery clause?",
+            "options": {
+              "a": "It is a clause in the contract between the parties",
+              "b": "It allows court action before an award is made",
+              "c": "It dates from a case decided in 1856",
+              "d": "It makes an award a condition precedent to court action"
+            },
+            "answer": "b",
+            "explanation": "Scott v Avery (1856)."
+          },
+          {
+            "id": 10,
+            "context": "Two companies refer a dispute to arbitration under the Arbitration and Mediation Act 2023. A lawyer is asked to advise the parties on ADR and a trainee is quizzed on the Act. The trainee must say which of the statements about ADR processes put to him by the supervising lawyer is false.",
+            "question": "Which of these IS arbitrable?",
+            "options": {
+              "a": "A divorce petition brought by one spouse against the other",
+              "b": "A change of status of a person under the law",
+              "c": "A criminal matter prosecuted by the State in court",
+              "d": "A commercial contract dispute between two companies"
+            },
+            "answer": "d",
+            "explanation": "A commercial contract dispute is arbitrable; divorce, change of status and criminal matters are non-arbitrable."
+          },
+          {
+            "id": 11,
+            "context": "A State Governor wishes to appoint new judges to the State High Court and a Customary Court of Appeal. A question arises as to who counts as a judicial officer and the qualifications required.",
+            "question": "Judicial officers for this purpose do NOT include",
+            "options": {
+              "a": "Judges of the High Court of a State",
+              "b": "Magistrates and Area or Customary Court judges",
+              "c": "Justices of the Supreme Court of Nigeria",
+              "d": "Judges of the National Industrial Court"
+            },
+            "answer": "b",
+            "explanation": "Section 318(1) CFRN; they are employed by the State Judicial Service Commission."
+          },
+          {
+            "id": 12,
+            "context": "A State Governor wishes to appoint new judges to the State High Court and a Customary Court of Appeal. A question arises as to who counts as a judicial officer and the qualifications required.",
+            "question": "The number of courts whose presiding officers are judicial officers is",
+            "options": {
+              "a": "Ten courts, as listed in section 6(5) of the Constitution",
+              "b": "Five courts, as listed in section 6(5) of the Constitution",
+              "c": "Seven courts, as listed in section 6(5) of the Constitution",
+              "d": "Twelve courts, as listed in section 6(5) of the Constitution"
+            },
+            "answer": "a",
+            "explanation": "Ten courts in total (s.6(5)(a)-(j) CFRN)."
+          },
+          {
+            "id": 13,
+            "context": "A State Governor wishes to appoint new judges to the State High Court and a Customary Court of Appeal. A question arises as to who counts as a judicial officer and the qualifications required.",
+            "question": "The minimum post-call standing for appointment to the Supreme Court is",
+            "options": {
+              "a": "Twelve years of standing at the Bar, under section 231(3)",
+              "b": "Ten years of standing at the Bar, under section 231(3)",
+              "c": "Twenty years of standing at the Bar, under section 231(3)",
+              "d": "Fifteen years of standing at the Bar, under section 231(3)"
+            },
+            "answer": "d",
+            "explanation": "Section 231(3) CFRN."
+          },
+          {
+            "id": 14,
+            "context": "A State Governor wishes to appoint new judges to the State High Court and a Customary Court of Appeal. A question arises as to who counts as a judicial officer and the qualifications required.",
+            "question": "The minimum post-call standing for the Court of Appeal is",
+            "options": {
+              "a": "Fifteen years of standing at the Bar, under section 238(3)",
+              "b": "Ten years of standing at the Bar, under section 238(3)",
+              "c": "Twelve years of standing at the Bar, under section 238(3)",
+              "d": "Eight years of standing at the Bar, under section 238(3)"
+            },
+            "answer": "c",
+            "explanation": "Section 238(3) CFRN."
+          },
+          {
+            "id": 15,
+            "context": "A State Governor wishes to appoint new judges to the State High Court and a Customary Court of Appeal. A question arises as to who counts as a judicial officer and the qualifications required.",
+            "question": "The minimum post-call standing for the Federal High Court is",
+            "options": {
+              "a": "Fifteen years of standing at the Bar, under section 250(3)",
+              "b": "Ten years of standing at the Bar, under section 250(3)",
+              "c": "Twelve years of standing at the Bar, under section 250(3)",
+              "d": "Five years of standing at the Bar, under section 250(3)"
+            },
+            "answer": "b",
+            "explanation": "Section 250(3) CFRN."
+          },
+          {
+            "id": 16,
+            "context": "A draftsman is asked to prepare a Bill to create a statutory commission. He begins with the long title and needs to decide the commencement, enacting formula and establishment clause.",
+            "question": "The long title states",
+            "options": {
+              "a": "The repeal of any earlier law on the subject",
+              "b": "The commencement of the Act, as to when it starts",
+              "c": "The scope or purpose of the legislation",
+              "d": "The penalties for the breach of the legislation"
+            },
+            "answer": "c",
+            "explanation": "Written in block capitals; comes first."
+          },
+          {
+            "id": 17,
+            "context": "A draftsman is asked to prepare a Bill to create a statutory commission. He begins with the long title and needs to decide the commencement, enacting formula and establishment clause.",
+            "question": "Where no commencement is stated, the Act takes effect on",
+            "options": {
+              "a": "The date of publication of the Act in the Gazette",
+              "b": "The date of passage of the Bill by the National Assembly",
+              "c": "The date of assent to the Bill by the President",
+              "d": "The first day of January of the year that follows"
+            },
+            "answer": "c",
+            "explanation": "Section 6 Interpretation Act."
+          },
+          {
+            "id": 18,
+            "context": "A draftsman is asked to prepare a Bill to create a statutory commission. He begins with the long title and needs to decide the commencement, enacting formula and establishment clause.",
+            "question": "The establishment clause for a new body begins",
+            "options": {
+              "a": "'Whereas', as in a preamble to the Act",
+              "b": "'Be it enacted', as in the enacting formula of the Act",
+              "c": "'There is hereby established', for a body that is new",
+              "d": "'There shall continue to be established', for a body that is new"
+            },
+            "answer": "c",
+            "explanation": "For a pre-existing body: 'shall continue to be established'."
+          },
+          {
+            "id": 19,
+            "context": "A draftsman is asked to prepare a Bill to create a statutory commission. He begins with the long title and needs to decide the commencement, enacting formula and establishment clause.",
+            "question": "A preamble begins with",
+            "options": {
+              "a": "The word 'Whereas' in the first recital of the preamble",
+              "b": "The word 'Notwithstanding' in the first recital of the preamble",
+              "c": "The word 'Enacted' in the first recital of the preamble",
+              "d": "The words 'Subject to' in the first recital of the preamble"
+            },
+            "answer": "a",
+            "explanation": "It is now rarely used."
+          },
+          {
+            "id": 20,
+            "context": "A draftsman is asked to prepare a Bill to create a statutory commission. He begins with the long title and needs to decide the commencement, enacting formula and establishment clause.",
+            "question": "A schedule becomes part of the Act if it is",
+            "options": {
+              "a": "Printed separately from the Act in the Gazette",
+              "b": "Incorporated by reference in a section of the Act",
+              "c": "Signed by the Speaker of the House of Representatives",
+              "d": "Published in the Gazette together with the Act"
+            },
+            "answer": "b",
+            "explanation": "AG v Lamplough."
+          }
+        ]
+      }
+    ]
+  },
+  "cpc-10": {
+    "year": 9997,
+    "session": "CPC Test 10",
+    "examTitle": "Pre-Bar Style MCQ — Corporate, Criminal, Ethics (CPC) Test 10",
+    "totalQuestions": 60,
+    "courses": [
+      {
+        "id": "corporate-law-practice",
+        "name": "Corporate Law Practice",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "Mr Salami bought shares in Gold Brewery Plc and paid the seller, but the company has not registered him and the seller's family now claims the shares. His lawyer advises on transfer, registration and what to do when the company refuses.",
+            "question": "Until the transfer is registered, the holder of the shares is",
+            "options": {
+              "a": "The transferor, who remains the holder until the transferee is registered",
+              "b": "The company, which holds the shares for the transferee in the meantime",
+              "c": "The Corporate Affairs Commission, which keeps the record of all transfers",
+              "d": "The transferee, who has paid for the shares and holds the transfer form"
+            },
+            "answer": "a",
+            "explanation": "The transferor remains holder until the transferee is registered (s.175(3))."
+          },
+          {
+            "id": 2,
+            "context": "Mr Salami bought shares in Gold Brewery Plc and paid the seller, but the company has not registered him and the seller's family now claims the shares. His lawyer advises on transfer, registration and what to do when the company refuses.",
+            "question": "A new certificate must be issued after a transfer is lodged within",
+            "options": {
+              "a": "3 months after the date on which the transfer is lodged",
+              "b": "6 months after the date on which the transfer is lodged",
+              "c": "1 month after the date on which the transfer is lodged",
+              "d": "14 days after the date on which the transfer is lodged"
+            },
+            "answer": "a",
+            "explanation": "Certificate timing under s.171(1): 3 months after transfer lodged."
+          },
+          {
+            "id": 3,
+            "context": "Mr Salami bought shares in Gold Brewery Plc and paid the seller, but the company has not registered him and the seller's family now claims the shares. His lawyer advises on transfer, registration and what to do when the company refuses.",
+            "question": "A company may refuse to register a transfer for all these reasons except",
+            "options": {
+              "a": "The company has a lien on the shares that are being transferred",
+              "b": "The fees payable on the transfer have not been paid to the company",
+              "c": "The transferee is a foreigner who is not resident in Nigeria",
+              "d": "The instrument of transfer covers more than one class of shares"
+            },
+            "answer": "c",
+            "explanation": "Grounds include partly paid shares, lien, unpaid fees, missing evidence and more than one class."
+          },
+          {
+            "id": 4,
+            "context": "Mr Salami bought shares in Gold Brewery Plc and paid the seller, but the company has not registered him and the seller's family now claims the shares. His lawyer advises on transfer, registration and what to do when the company refuses.",
+            "question": "If the company fails to register, the transferee serves notice and may apply to court after",
+            "options": {
+              "a": "30 days from the date on which the notice was served",
+              "b": "10 days from the date on which the notice was served",
+              "c": "3 days from the date on which the notice was served",
+              "d": "60 days from the date on which the notice was served"
+            },
+            "answer": "b",
+            "explanation": "Under s.171(5) he may apply to court after 10 days."
+          },
+          {
+            "id": 5,
+            "context": "Mr Salami bought shares in Gold Brewery Plc and paid the seller, but the company has not registered him and the seller's family now claims the shares. His lawyer advises on transfer, registration and what to do when the company refuses.",
+            "question": "In Binez Hotels v BPE the Supreme Court held that payment alone",
+            "options": {
+              "a": "Makes the buyer a director of the company that issued them",
+              "b": "Confers no title to the shares on the buyer without registration",
+              "c": "Cancels the sale and entitles the seller to the shares back",
+              "d": "Confers full title to the shares on the buyer from that moment"
+            },
+            "answer": "b",
+            "explanation": "Unexecuted transfer forms and payment alone confer no title to shares."
+          },
+          {
+            "id": 6,
+            "context": "The directors of Lagos Plastics Ltd are slow to call a meeting and some members, tired of waiting, requisition an extraordinary general meeting. The company secretary is asked what business an AGM can deal with and how the requisition works.",
+            "question": "The following are ordinary business at an AGM except",
+            "options": {
+              "a": "Alteration of the articles of association of the company",
+              "b": "Election of directors in place of those who retire by rotation",
+              "c": "Declaration of a dividend to the members of the company",
+              "d": "Appointment of the auditors and fixing of their remuneration"
+            },
+            "answer": "a",
+            "explanation": "Alteration of articles is special business; the ordinary items include dividend, accounts, directors, auditors and audit committee."
+          },
+          {
+            "id": 7,
+            "context": "The directors of Lagos Plastics Ltd are slow to call a meeting and some members, tired of waiting, requisition an extraordinary general meeting. The company secretary is asked what business an AGM can deal with and how the requisition works.",
+            "question": "All business at an EGM is",
+            "options": {
+              "a": "Ordinary business, which the members may deal with at that meeting",
+              "b": "Special business, since the Act treats nothing at it as ordinary",
+              "c": "Business of the auditors, who must be present to report on it",
+              "d": "Business of the Corporate Affairs Commission, which must be given notice"
+            },
+            "answer": "b",
+            "explanation": "There are no ordinary matters at an EGM; all its business is special."
+          },
+          {
+            "id": 8,
+            "context": "The directors of Lagos Plastics Ltd are slow to call a meeting and some members, tired of waiting, requisition an extraordinary general meeting. The company secretary is asked what business an AGM can deal with and how the requisition works.",
+            "question": "A requisition for an EGM may be made by members holding at least",
+            "options": {
+              "a": "Members holding one-half of the paid-up capital of the company",
+              "b": "Members holding one-fifth of the paid-up capital of the company",
+              "c": "Members holding one-twentieth of the shares issued by the company",
+              "d": "Members holding one-tenth of the paid-up capital carrying voting rights"
+            },
+            "answer": "d",
+            "explanation": "Requisitionists need at least one-tenth (10%) of the paid-up capital carrying voting rights."
+          },
+          {
+            "id": 9,
+            "context": "The directors of Lagos Plastics Ltd are slow to call a meeting and some members, tired of waiting, requisition an extraordinary general meeting. The company secretary is asked what business an AGM can deal with and how the requisition works.",
+            "question": "After the requisition is deposited, the directors must convene the meeting within",
+            "options": {
+              "a": "7 days after the date on which the requisition is deposited",
+              "b": "3 months after the date on which the requisition is deposited",
+              "c": "28 days after the date on which the requisition is deposited",
+              "d": "21 days after the date on which the requisition is deposited"
+            },
+            "answer": "d",
+            "explanation": "Directors must convene within 21 days of the deposit."
+          },
+          {
+            "id": 10,
+            "context": "The directors of Lagos Plastics Ltd are slow to call a meeting and some members, tired of waiting, requisition an extraordinary general meeting. The company secretary is asked what business an AGM can deal with and how the requisition works.",
+            "question": "If the directors fail, a meeting convened by the requisitionists must be held within",
+            "options": {
+              "a": "3 months of the date on which the requisition was deposited",
+              "b": "6 months of the date on which the requisition was deposited",
+              "c": "21 days of the date on which the requisition was deposited",
+              "d": "1 month of the date on which the requisition was deposited"
+            },
+            "answer": "a",
+            "explanation": "The meeting so convened must be held within 3 months of the deposit (s.239(4))."
+          },
+          {
+            "id": 11,
+            "context": "Mr Sule, a minority member of Bright Foods Ltd, is excluded from the board and receives no dividends while the majority pay themselves large fees. He wants to petition the court for oppression and asks who can petition and what the court can order.",
+            "question": "An oppression petition is commenced by",
+            "options": {
+              "a": "A writ of summons filed in the court by the aggrieved member",
+              "b": "An originating summons filed in the court by the aggrieved member",
+              "c": "A notice of appeal filed in the court by the aggrieved member",
+              "d": "A petition filed in the court by the aggrieved member"
+            },
+            "answer": "d",
+            "explanation": "Unlike derivative and direct actions, oppression is by petition."
+          },
+          {
+            "id": 12,
+            "context": "Mr Sule, a minority member of Bright Foods Ltd, is excluded from the board and receives no dividends while the majority pay themselves large fees. He wants to petition the court for oppression and asks who can petition and what the court can order.",
+            "question": "The following may present an oppression petition except",
+            "options": {
+              "a": "A registered owner of a security who is not a member",
+              "b": "A member of the company who complains of the conduct",
+              "c": "The Corporate Affairs Commission, on its own motion",
+              "d": "A creditor of the company who is affected by the conduct"
+            },
+            "answer": "a",
+            "explanation": "The categories are member, creditor, director or officer, CAC and any other proper person."
+          },
+          {
+            "id": 13,
+            "context": "Mr Sule, a minority member of Bright Foods Ltd, is excluded from the board and receives no dividends while the majority pay themselves large fees. He wants to petition the court for oppression and asks who can petition and what the court can order.",
+            "question": "The oppressive conduct must be",
+            "options": {
+              "a": "A single act that is complained of by the minority member",
+              "b": "An act that has been reported to the police by the member",
+              "c": "An act done with intent to harm the minority member",
+              "d": "Conduct that is continuing and not an isolated act of the majority"
+            },
+            "answer": "d",
+            "explanation": "It must be continuing conduct, and intention is not required."
+          },
+          {
+            "id": 14,
+            "context": "Mr Sule, a minority member of Bright Foods Ltd, is excluded from the board and receives no dividends while the majority pay themselves large fees. He wants to petition the court for oppression and asks who can petition and what the court can order.",
+            "question": "On an oppression petition the court may order all the following except",
+            "options": {
+              "a": "The purchase of the shares of a member by the company or others",
+              "b": "The winding up of the company on the ground of oppression",
+              "c": "The arrest of the directors responsible for the oppressive conduct",
+              "d": "The appointment of a receiver to manage the affairs of the company"
+            },
+            "answer": "c",
+            "explanation": "The listed orders include winding up, share purchase and receivers; arrest is not among them."
+          },
+          {
+            "id": 15,
+            "context": "Mr Sule, a minority member of Bright Foods Ltd, is excluded from the board and receives no dividends while the majority pay themselves large fees. He wants to petition the court for oppression and asks who can petition and what the court can order.",
+            "question": "An application for investigation of a company may be made by members holding at least",
+            "options": {
+              "a": "Members holding three-fourths of the shares issued by the company",
+              "b": "Members holding one-tenth of the class of shares that have been issued",
+              "c": "Members holding one-fifth of the shares issued by the company",
+              "d": "Members holding one-half of the shares issued by the company"
+            },
+            "answer": "b",
+            "explanation": "Members holding at least one-tenth of the class of shares may apply."
+          },
+          {
+            "id": 16,
+            "context": "Kunle and his friends want to incorporate a company that will be run by them. Their combined turnover is ₦90 million and their net assets are ₦50 million. All of them are Nigerians and together they will hold 60% of the equity. They also want to register a separate company limited by guarantee for a charity.",
+            "question": "The following are conditions for a company to be a small company except",
+            "options": {
+              "a": "No member of the company is an alien or a foreign body corporate",
+              "b": "The company is a private company and not a public company",
+              "c": "The company is a public company with a wide body of members",
+              "d": "The directors together hold at least 51% of the equity of the company"
+            },
+            "answer": "c",
+            "explanation": "A small company is private, with turnover not more than ₦120m, net assets not more than ₦60m, no alien or government member, and directors holding at least 51% of equity."
+          },
+          {
+            "id": 17,
+            "context": "Kunle and his friends want to incorporate a company that will be run by them. Their combined turnover is ₦90 million and their net assets are ₦50 million. All of them are Nigerians and together they will hold 60% of the equity. They also want to register a separate company limited by guarantee for a charity.",
+            "question": "The maximum turnover of a small company is",
+            "options": {
+              "a": "Not more than ₦60 million in the financial year concerned",
+              "b": "Not more than ₦500 million in the financial year concerned",
+              "c": "Not more than ₦200 million in the financial year concerned",
+              "d": "Not more than ₦120 million in the financial year concerned"
+            },
+            "answer": "d",
+            "explanation": "Turnover not more than ₦120m and net assets not more than ₦60m."
+          },
+          {
+            "id": 18,
+            "context": "Kunle and his friends want to incorporate a company that will be run by them. Their combined turnover is ₦90 million and their net assets are ₦50 million. All of them are Nigerians and together they will hold 60% of the equity. They also want to register a separate company limited by guarantee for a charity.",
+            "question": "The following are advantages of a small company except",
+            "options": {
+              "a": "It may file abridged accounts with the Corporate Affairs Commission",
+              "b": "It must appoint a company secretary, as every company must do",
+              "c": "It need not hold an annual general meeting of its members",
+              "d": "It need not have a second director, since one director is enough"
+            },
+            "answer": "b",
+            "explanation": "A small company needs no second director, no company secretary, files abridged accounts and is exempt from holding an AGM."
+          },
+          {
+            "id": 19,
+            "context": "Kunle and his friends want to incorporate a company that will be run by them. Their combined turnover is ₦90 million and their net assets are ₦50 million. All of them are Nigerians and together they will hold 60% of the equity. They also want to register a separate company limited by guarantee for a charity.",
+            "question": "Authority to register a company limited by guarantee is obtained from",
+            "options": {
+              "a": "The Registrar-General of the Corporate Affairs Commission acting alone",
+              "b": "The Minister of Trade, Industry and Investment acting in his discretion",
+              "c": "The Attorney-General of the Federation, whose authority must be obtained",
+              "d": "The Chief Judge of the Federal High Court, by an order"
+            },
+            "answer": "c",
+            "explanation": "A guarantee company needs the authority of the Attorney-General of the Federation."
+          },
+          {
+            "id": 20,
+            "context": "Kunle and his friends want to incorporate a company that will be run by them. Their combined turnover is ₦90 million and their net assets are ₦50 million. All of them are Nigerians and together they will hold 60% of the equity. They also want to register a separate company limited by guarantee for a charity.",
+            "question": "Which of the following is true of a company limited by guarantee?",
+            "options": {
+              "a": "It may invite the public to subscribe for its shares or debentures",
+              "b": "The liability of its members is unlimited as to the company's debts",
+              "c": "Its profits are not distributed to its members by way of dividend",
+              "d": "It must have a share capital divided into shares of fixed value"
+            },
+            "answer": "c",
+            "explanation": "A guarantee company's profits are not distributed; guarantee amount not less than ₦100,000."
+          }
+        ]
+      },
+      {
+        "id": "criminal-litigation",
+        "name": "Criminal Litigation",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "Mr Dare appears for arraignment on a charge with three counts. The registrar reads the charge and the court records a single plea. The judge notes defects in the process.",
+            "question": "Which of these is NOT true of arraignment?",
+            "options": {
+              "a": "The plea is recorded as nearly as possible in the defendant's own words",
+              "b": "The defendant is sworn in the dock before the plea is taken",
+              "c": "The charge is read and explained to the defendant in the dock",
+              "d": "The defendant stands in the dock without fetters during the arraignment"
+            },
+            "answer": "b",
+            "explanation": "The defendant enters the dock but is never sworn into it."
+          },
+          {
+            "id": 2,
+            "context": "Mr Dare appears for arraignment on a charge with three counts. The registrar reads the charge and the court records a single plea. The judge notes defects in the process.",
+            "question": "Which of these is NOT true of plea-taking?",
+            "options": {
+              "a": "A recorded block plea for several defendants together is a nullity in law",
+              "b": "A plea is taken separately on each count of the charge",
+              "c": "Each defendant in a joint trial pleads to the charge individually",
+              "d": "Counsel may plead on behalf of the defendant who is present in court"
+            },
+            "answer": "d",
+            "explanation": "Counsel cannot plead for the defendant (R v Pepple)."
+          },
+          {
+            "id": 3,
+            "context": "Mr Dare appears for arraignment on a charge with three counts. The registrar reads the charge and the court records a single plea. The judge notes defects in the process.",
+            "question": "Who may read the charge at arraignment?",
+            "options": {
+              "a": "The Registrar or another officer of the court, and no one else",
+              "b": "The prosecuting counsel appearing for the State in the matter",
+              "c": "The orderly attached to the court on that sitting day",
+              "d": "The defence counsel appearing for the defendant in the case"
+            },
+            "answer": "a",
+            "explanation": "Only the Registrar or another court officer may read it; not counsel, the orderly or the policeman."
+          },
+          {
+            "id": 4,
+            "context": "Mr Dare appears for arraignment on a charge with three counts. The registrar reads the charge and the court records a single plea. The judge notes defects in the process.",
+            "question": "An exception to the rule of instant plea is",
+            "options": {
+              "a": "A request by the prosecutor for more time to prepare the case",
+              "b": "A request by the defendant for time to think about his plea",
+              "c": "Absence of proper service of the charge on the defendant",
+              "d": "The absence of defence counsel from the court on that day"
+            },
+            "answer": "c",
+            "explanation": "Absence of proper service and preliminary objections are exceptions."
+          },
+          {
+            "id": 5,
+            "context": "Mr Dare appears for arraignment on a charge with three counts. The registrar reads the charge and the court records a single plea. The judge notes defects in the process.",
+            "question": "Which of these is NOT true of a plea of guilty?",
+            "options": {
+              "a": "It is recorded in the defendant's own words by the court",
+              "b": "It must be made by the defendant personally and not by counsel",
+              "c": "It must be unequivocal, clear and free of any qualification",
+              "d": "It may be withdrawn after conviction if the defendant changes his mind"
+            },
+            "answer": "d",
+            "explanation": "Once convicted, a guilty plea cannot be withdrawn."
+          },
+          {
+            "id": 6,
+            "context": "A student is asked to describe the courts in which criminal matters begin, which ones hear appeals only, and when courts sit. He is also told that a judge once sat on a public holiday to hear a bail matter.",
+            "question": "The following are original criminal courts except",
+            "options": {
+              "a": "The Court Martial, which is not a court of general original jurisdiction",
+              "b": "The Magistrate Court, which tries criminal cases at first instance",
+              "c": "The Area Court, which tries criminal cases at first instance",
+              "d": "The High Court, which tries criminal cases at first instance"
+            },
+            "answer": "a",
+            "explanation": "Courts of general original jurisdiction include Customary, Area, Sharia, Magistrate and High Courts."
+          },
+          {
+            "id": 7,
+            "context": "A student is asked to describe the courts in which criminal matters begin, which ones hear appeals only, and when courts sit. He is also told that a judge once sat on a public holiday to hear a bail matter.",
+            "question": "The courts that hear criminal matters on appeal only are",
+            "options": {
+              "a": "The Area Court and the Customary Court of the State concerned",
+              "b": "The Court of Appeal and the Supreme Court of Nigeria",
+              "c": "The High Court and the Magistrate Court of the State concerned",
+              "d": "The Court Martial and the Juvenile Court of the State concerned"
+            },
+            "answer": "b",
+            "explanation": "Appellate courts on appeal only: Court of Appeal and Supreme Court."
+          },
+          {
+            "id": 8,
+            "context": "A student is asked to describe the courts in which criminal matters begin, which ones hear appeals only, and when courts sit. He is also told that a judge once sat on a public holiday to hear a bail matter.",
+            "question": "Juridical days are",
+            "options": {
+              "a": "Every day of the week, including Sundays and public holidays",
+              "b": "Monday to Friday only, excluding Saturdays and public holidays",
+              "c": "Tuesday to Sunday only, excluding Mondays and public holidays",
+              "d": "Monday to Saturday, excluding Sundays and public holidays"
+            },
+            "answer": "d",
+            "explanation": "Juridical days are Monday to Saturday; Sundays and public holidays are non-juridical."
+          },
+          {
+            "id": 9,
+            "context": "A student is asked to describe the courts in which criminal matters begin, which ones hear appeals only, and when courts sit. He is also told that a judge once sat on a public holiday to hear a bail matter.",
+            "question": "A trial held on a non-juridical day is generally",
+            "options": {
+              "a": "Valid in every case, since the parties were present in court",
+              "b": "Voidable at the instance of the prosecution alone, and no one else",
+              "c": "Null and void as a general rule, as held in Balogun v Odumosu",
+              "d": "Valid if the presiding judge approves the sitting beforehand in writing"
+            },
+            "answer": "c",
+            "explanation": "As a rule, proceedings on a non-juridical day are null and void (Balogun v Odumosu)."
+          },
+          {
+            "id": 10,
+            "context": "A student is asked to describe the courts in which criminal matters begin, which ones hear appeals only, and when courts sit. He is also told that a judge once sat on a public holiday to hear a bail matter.",
+            "question": "In Lagos Magistrate Courts, on a given Saturday at least one court in every district must sit for",
+            "options": {
+              "a": "Appeals from the lower courts of the district concerned",
+              "b": "Remand and bail matters, and other non-custodial matters of that kind",
+              "c": "Full trials of all offences, including the capital offences",
+              "d": "Land cases and other civil matters brought before the court"
+            },
+            "answer": "b",
+            "explanation": "Under s.40(2) MCL Lagos the court sits for remand, bail and other non-custodial matters."
+          },
+          {
+            "id": 11,
+            "context": "Mr Udo reports to the police that his friend owes him N500,000. The police invite the friend for interview and detain him until he agrees to pay. His lawyer explains the limits and nature of police investigation.",
+            "question": "Police powers of investigation may NOT be used for",
+            "options": {
+              "a": "Debt collection, or the recovery of a civil debt between two persons",
+              "b": "Interviewing witnesses who may know something about the offence",
+              "c": "Arresting offenders who are suspected of committing the offence",
+              "d": "Detecting crime and finding the persons who committed it"
+            },
+            "answer": "a",
+            "explanation": "Investigation powers may not be used for debt collection (s.32(2) Police Act; s.8(2) ACJA)."
+          },
+          {
+            "id": 12,
+            "context": "Mr Udo reports to the police that his friend owes him N500,000. The police invite the friend for interview and detain him until he agrees to pay. His lawyer explains the limits and nature of police investigation.",
+            "question": "At the investigation stage an arrested person is called a",
+            "options": {
+              "a": "Accused convict, until he is arraigned before the trial court",
+              "b": "Suspect, since he becomes a defendant only on arraignment",
+              "c": "Respondent, as the person against whom an application is made",
+              "d": "Defendant, from the moment he is arrested by the police"
+            },
+            "answer": "b",
+            "explanation": "He becomes a defendant only on arraignment."
+          },
+          {
+            "id": 13,
+            "context": "Mr Udo reports to the police that his friend owes him N500,000. The police invite the friend for interview and detain him until he agrees to pay. His lawyer explains the limits and nature of police investigation.",
+            "question": "The only court that can issue a subpoena is",
+            "options": {
+              "a": "The Customary Court, in any criminal matter that is before it",
+              "b": "The Magistrate Court, in any criminal matter that is before it",
+              "c": "The High Court, which alone among these courts can issue a subpoena",
+              "d": "The Area Court, in any criminal matter that is before it"
+            },
+            "answer": "c",
+            "explanation": "A witness summons may come from a Magistrate or High Court, but only the High Court can issue a subpoena."
+          },
+          {
+            "id": 14,
+            "context": "Mr Udo reports to the police that his friend owes him N500,000. The police invite the friend for interview and detain him until he agrees to pay. His lawyer explains the limits and nature of police investigation.",
+            "question": "Investigation of an offence is",
+            "options": {
+              "a": "Free of charge to the complainant who reported the offence",
+              "b": "Paid for by the suspect who is under investigation",
+              "c": "Paid for by the court before which the case will be tried",
+              "d": "Paid for by the complainant who reported the offence"
+            },
+            "answer": "a",
+            "explanation": "Investigation is free of charge to the complainant or victim."
+          },
+          {
+            "id": 15,
+            "context": "Mr Udo reports to the police that his friend owes him N500,000. The police invite the friend for interview and detain him until he agrees to pay. His lawyer explains the limits and nature of police investigation.",
+            "question": "A crime-based investigation is",
+            "options": {
+              "a": "Proactive, since it starts from a suspect who is under watch",
+              "b": "Carried out by the courts before the trial of the defendant",
+              "c": "Carried out by the witnesses who saw the offence committed",
+              "d": "Reactive, since it starts from an offence that has been reported"
+            },
+            "answer": "d",
+            "explanation": "Crime-based investigation is reactive; target-based is proactive."
+          },
+          {
+            "id": 16,
+            "context": "Mr Lanre does not understand English and was charged without any interpretation. He was convicted of manslaughter when charged with murder, and his counsel withdrew in his absence on one of the trial days.",
+            "question": "The defendant must be informed of the charge",
+            "options": {
+              "a": "In English only, which is the language of the court",
+              "b": "In writing only, handed over to him by the registrar",
+              "c": "In a language he understands and in detail, and promptly",
+              "d": "Only on the day of arraignment before the trial court"
+            },
+            "answer": "c",
+            "explanation": "Section 36(6)(a) CFRN: promptly, in a language he understands, and in detail."
+          },
+          {
+            "id": 17,
+            "context": "Mr Lanre does not understand English and was charged without any interpretation. He was convicted of manslaughter when charged with murder, and his counsel withdrew in his absence on one of the trial days.",
+            "question": "A defendant may be convicted of a lesser offence on the same facts",
+            "options": {
+              "a": "Only after a fresh charge for the lesser offence is filed",
+              "b": "Only with the written consent of the defendant himself",
+              "c": "Never, since the charge must be proved exactly as it was laid",
+              "d": "Without a fresh charge, as notice of the graver offence includes the lesser"
+            },
+            "answer": "d",
+            "explanation": "Notice of the graver offence is deemed to include the lesser (s.230 ACJA)."
+          },
+          {
+            "id": 18,
+            "context": "Mr Lanre does not understand English and was charged without any interpretation. He was convicted of manslaughter when charged with murder, and his counsel withdrew in his absence on one of the trial days.",
+            "question": "The following are examples of a graver and lesser offence except",
+            "options": {
+              "a": "Stealing as the graver offence and murder as the lesser offence",
+              "b": "Rape as the graver offence and indecent assault as the lesser",
+              "c": "Murder as the graver offence and manslaughter as the lesser",
+              "d": "Rape as the graver offence and attempted rape as the lesser"
+            },
+            "answer": "a",
+            "explanation": "Examples: murder-manslaughter and rape-attempted rape/indecent assault."
+          },
+          {
+            "id": 19,
+            "context": "Mr Lanre does not understand English and was charged without any interpretation. He was convicted of manslaughter when charged with murder, and his counsel withdrew in his absence on one of the trial days.",
+            "question": "Where counsel withdraws in the client's absence, the client must be",
+            "options": {
+              "a": "Detained by the court until the counsel returns to the case",
+              "b": "Put on notice of the withdrawal, so that a fair hearing is secured",
+              "c": "Fined by the court for failing to appear with his own counsel",
+              "d": "Convicted by the court in his absence on the evidence already led"
+            },
+            "answer": "b",
+            "explanation": "Otherwise fair hearing is denied - Udofia v State."
+          },
+          {
+            "id": 20,
+            "context": "Mr Lanre does not understand English and was charged without any interpretation. He was convicted of manslaughter when charged with murder, and his counsel withdrew in his absence on one of the trial days.",
+            "question": "Failure to provide an interpreter where needed",
+            "options": {
+              "a": "Cured by the verdict of the court on the merits of the case",
+              "b": "The ground on which the State is entitled to costs on appeal",
+              "c": "A vitiating defect in the trial, as held in Okoro v The State",
+              "d": "Of no effect on the validity of the trial of the defendant"
+            },
+            "answer": "c",
+            "explanation": "Okoro v The State."
+          }
+        ]
+      },
+      {
+        "id": "professional-ethics",
+        "name": "Professional Ethics and Skills",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "Parties to a commercial dispute opt for mediation under the Arbitration and Mediation Act 2023. The mediator holds joint and separate meetings online and proposes to disclose the discussions to the press.",
+            "question": "A mediator",
+            "options": {
+              "a": "May impose a decision on the parties to the dispute",
+              "b": "Awards damages to the party who is injured",
+              "c": "Cannot impose a decision on the parties to the dispute",
+              "d": "Is a judge appointed by the court for the mediation"
+            },
+            "answer": "c",
+            "explanation": "Section 73(6) AMA 2023."
+          },
+          {
+            "id": 2,
+            "context": "Parties to a commercial dispute opt for mediation under the Arbitration and Mediation Act 2023. The mediator holds joint and separate meetings online and proposes to disclose the discussions to the press.",
+            "question": "Mediation information is confidential unless",
+            "options": {
+              "a": "The mediator wishes to disclose it to other persons",
+              "b": "The press asks for the disclosure of the information",
+              "c": "A party is bored with the course of the mediation",
+              "d": "The parties agree to the disclosure of the information"
+            },
+            "answer": "d",
+            "explanation": "Section 76 AMA."
+          },
+          {
+            "id": 3,
+            "context": "Parties to a commercial dispute opt for mediation under the Arbitration and Mediation Act 2023. The mediator holds joint and separate meetings online and proposes to disclose the discussions to the press.",
+            "question": "Disclosure of mediation information is permitted in all of these cases except",
+            "options": {
+              "a": "To publicise the dispute among the members of the public",
+              "b": "To prevent or reveal a crime in the course of the mediation",
+              "c": "Where it is required by law to be disclosed",
+              "d": "Where it is necessary to enforce the settlement"
+            },
+            "answer": "a",
+            "explanation": "Section 76 AMA."
+          },
+          {
+            "id": 4,
+            "context": "Parties to a commercial dispute opt for mediation under the Arbitration and Mediation Act 2023. The mediator holds joint and separate meetings online and proposes to disclose the discussions to the press.",
+            "question": "A signed mediated settlement agreement is enforceable as",
+            "options": {
+              "a": "A lease between the parties for a term of years",
+              "b": "A crime punishable by the court on application",
+              "c": "A will made by the parties to the mediation",
+              "d": "A contract, or a consent judgment if the matter was in court"
+            },
+            "answer": "d",
+            "explanation": "Section 86 AMA."
+          },
+          {
+            "id": 5,
+            "context": "Parties to a commercial dispute opt for mediation under the Arbitration and Mediation Act 2023. The mediator holds joint and separate meetings online and proposes to disclose the discussions to the press.",
+            "question": "The Act that principally governs mediation in Nigeria is",
+            "options": {
+              "a": "The Companies and Allied Matters Act 2020",
+              "b": "The Arbitration and Mediation Act 2023",
+              "c": "The Evidence Act which governs proof in the courts",
+              "d": "The Arbitration and Conciliation Act 2004"
+            },
+            "answer": "b",
+            "explanation": "Section 67 AMA; it repealed the 2004 Act."
+          },
+          {
+            "id": 6,
+            "context": "A contract says a payment is due 'within' 30 days from 1 June, another says 'not later than' 15 July, another 'on' 3 August. The client asks how each date is counted.",
+            "question": "'On' a date includes",
+            "options": {
+              "a": "The prior date, but not the date mentioned",
+              "b": "The date mentioned in the document itself",
+              "c": "The next date, but not the date mentioned",
+              "d": "Neither the date mentioned nor the date before it"
+            },
+            "answer": "b",
+            "explanation": "Date mentioned is included."
+          },
+          {
+            "id": 7,
+            "context": "A contract says a payment is due 'within' 30 days from 1 June, another says 'not later than' 15 July, another 'on' 3 August. The client asks how each date is counted.",
+            "question": "'From' a date",
+            "options": {
+              "a": "Includes both the date and the next date",
+              "b": "Includes the next date but not the date mentioned",
+              "c": "Includes the date mentioned in the document",
+              "d": "Excludes the date mentioned in the document"
+            },
+            "answer": "d",
+            "explanation": "Date mentioned excluded."
+          },
+          {
+            "id": 8,
+            "context": "A contract says a payment is due 'within' 30 days from 1 June, another says 'not later than' 15 July, another 'on' 3 August. The client asks how each date is counted.",
+            "question": "Which of these EXCLUDES the date mentioned?",
+            "options": {
+              "a": "'Within', as in 'pay within 30 days from 1 June'",
+              "b": "'By', as in 'pay by 15 July'",
+              "c": "'On', as in 'pay on 3 August'",
+              "d": "'Not later than', as in 'pay not later than 15 July'"
+            },
+            "answer": "a",
+            "explanation": "'Within', 'after', 'before', 'from' exclude the date; 'on', 'by', 'not later than' include it."
+          },
+          {
+            "id": 9,
+            "context": "A contract says a payment is due 'within' 30 days from 1 June, another says 'not later than' 15 July, another 'on' 3 August. The client asks how each date is counted.",
+            "question": "'Till' or 'until' is",
+            "options": {
+              "a": "Ambiguous, and should be clarified by the drafter",
+              "b": "Not used at all in legal drafting",
+              "c": "Always exclusive of the date mentioned",
+              "d": "Always inclusive of the date mentioned"
+            },
+            "answer": "a",
+            "explanation": "Use 'till and including' or 'till but excluding'."
+          },
+          {
+            "id": 10,
+            "context": "A contract says a payment is due 'within' 30 days from 1 June, another says 'not later than' 15 July, another 'on' 3 August. The client asks how each date is counted.",
+            "question": "In the Interpretation Act, 'month' means",
+            "options": {
+              "a": "A calendar month, under the Interpretation Act 1964",
+              "b": "Twenty-eight days, under the Interpretation Act 1964",
+              "c": "A lunar month, under the Interpretation Act 1964",
+              "d": "Thirty days, under the Interpretation Act 1964"
+            },
+            "answer": "a",
+            "explanation": "Section 18 Interpretation Act 1964."
+          },
+          {
+            "id": 11,
+            "context": "A lawyer appears on a television programme to give legal information, then is invited by the producer to answer individual viewers' questions for pay. He also drives to an accident scene to hand cards to victims.",
+            "question": "On radio or television, a lawyer may",
+            "options": {
+              "a": "Advertise his success in cases he has handled",
+              "b": "Give public legal information to the people",
+              "c": "Advise on individual enquiries for employment",
+              "d": "Solicit viewers as his clients for his firm"
+            },
+            "answer": "b",
+            "explanation": "Rule 46(1) RPC."
+          },
+          {
+            "id": 12,
+            "context": "A lawyer appears on a television programme to give legal information, then is invited by the producer to answer individual viewers' questions for pay. He also drives to an accident scene to hand cards to victims.",
+            "question": "A lawyer shall not do all of these under Rule 47 except",
+            "options": {
+              "a": "Engage an agent to follow up on accidents",
+              "b": "Seek out the victims of accidents",
+              "c": "Advise a close relation without being consulted",
+              "d": "Search registries for defects in order to get employment"
+            },
+            "answer": "c",
+            "explanation": "Rule 47(1)-(2)."
+          },
+          {
+            "id": 13,
+            "context": "A lawyer appears on a television programme to give legal information, then is invited by the producer to answer individual viewers' questions for pay. He also drives to an accident scene to hand cards to victims.",
+            "question": "Champerty is",
+            "options": {
+              "a": "A retainer paid to the lawyer in advance for his services",
+              "b": "Lawful in Nigeria if the fee is reasonable and in writing",
+              "c": "Illegal in Nigeria, being financing a suit for a share of proceeds",
+              "d": "A contingent fee permitted under Rule 50 of the RPC"
+            },
+            "answer": "c",
+            "explanation": "A lawyer financing a suit in return for a share of the proceeds."
+          },
+          {
+            "id": 14,
+            "context": "A lawyer appears on a television programme to give legal information, then is invited by the producer to answer individual viewers' questions for pay. He also drives to an accident scene to hand cards to victims.",
+            "question": "A contingent fee arrangement is governed by",
+            "options": {
+              "a": "Rule 47 of the Rules of Professional Conduct 2023",
+              "b": "Rule 39 of the Rules of Professional Conduct 2023",
+              "c": "Rule 50 of the Rules of Professional Conduct 2023",
+              "d": "Rule 25 of the Rules of Professional Conduct 2023"
+            },
+            "answer": "c",
+            "explanation": "Reasonable, not for a criminal case, with the client advised of its effect."
+          },
+          {
+            "id": 15,
+            "context": "A lawyer appears on a television programme to give legal information, then is invited by the producer to answer individual viewers' questions for pay. He also drives to an accident scene to hand cards to victims.",
+            "question": "A contingent fee is not allowed in",
+            "options": {
+              "a": "A land case before the courts of Nigeria",
+              "b": "A contract case before the courts of Nigeria",
+              "c": "A civil case before the courts of Nigeria",
+              "d": "A criminal case before the courts of Nigeria"
+            },
+            "answer": "d",
+            "explanation": "Rule 50."
+          },
+          {
+            "id": 16,
+            "context": "Chief Okon is a senior member of the Bar. His juniors test each other on the rank of SAN, the LPDC and the unauthorised practice of law, so that each junior must say which statement put to him is wrong.",
+            "question": "Which of these is NOT true of the rank of SAN?",
+            "options": {
+              "a": "A SAN enjoys special privileges at the Bar",
+              "b": "It is conferred by the National Judicial Council",
+              "c": "It is conferred by the Legal Practitioners' Privileges Committee",
+              "d": "It is provided for under section 5(3) of the LPA"
+            },
+            "answer": "b",
+            "explanation": "The rank of SAN is conferred by the Legal Practitioners' Privileges Committee."
+          },
+          {
+            "id": 17,
+            "context": "Chief Okon is a senior member of the Bar. His juniors test each other on the rank of SAN, the LPDC and the unauthorised practice of law, so that each junior must say which statement put to him is wrong.",
+            "question": "A non-lawyer may lawfully prepare all of these except",
+            "options": {
+              "a": "A probate application prepared for a fee",
+              "b": "An instrument to which he is himself a party",
+              "c": "A statutory declaration of compliance on incorporation",
+              "d": "A Will prepared for a fee"
+            },
+            "answer": "a",
+            "explanation": "Section 22(4) LPA excludes Wills and instruments to which he is a party; probate documents are within the exclusive rights; the statutory declaration is now allowed by s.40(3) CAMA."
+          },
+          {
+            "id": 18,
+            "context": "Chief Okon is a senior member of the Bar. His juniors test each other on the rank of SAN, the LPDC and the unauthorised practice of law, so that each junior must say which statement put to him is wrong.",
+            "question": "Which of these is NOT true of a SAN?",
+            "options": {
+              "a": "He is bound by the Rules governing Senior Advocates of Nigeria",
+              "b": "He may appear alone in a civil matter in a superior court",
+              "c": "He may appear alone in criminal matters before the courts",
+              "d": "He needs a junior in civil matters before a superior court"
+            },
+            "answer": "b",
+            "explanation": "Section 5(8) LPA - a SAN needs a junior or another SAN in civil matters; criminal matters are excepted."
+          },
+          {
+            "id": 19,
+            "context": "Chief Okon is a senior member of the Bar. His juniors test each other on the rank of SAN, the LPDC and the unauthorised practice of law, so that each junior must say which statement put to him is wrong.",
+            "question": "A retired Justice of the Court of Appeal may thereafter",
+            "options": {
+              "a": "Appear as an advocate in the High Court",
+              "b": "Appear as an advocate before a tribunal",
+              "c": "Sign court processes as counsel in a case",
+              "d": "Practise as a solicitor, but never as an advocate"
+            },
+            "answer": "d",
+            "explanation": "Section 292(2) CFRN; Rule 6 RPC: he may never again appear as an advocate, but may still practise as a solicitor."
+          },
+          {
+            "id": 20,
+            "context": "Chief Okon is a senior member of the Bar. His juniors test each other on the rank of SAN, the LPDC and the unauthorised practice of law, so that each junior must say which statement put to him is wrong.",
+            "question": "The persons entitled to practise by warrant come",
+            "options": {
+              "a": "After the Attorney-General in the order of precedence",
+              "b": "Before SANs in the order of precedence",
+              "c": "Last in the order of precedence, under section 2(2)",
+              "d": "First in the order of precedence, under section 2(2)"
+            },
+            "answer": "c",
+            "explanation": "Section 2(2) LPA - the last in order."
+          }
+        ]
+      }
+    ]
+  },
+  "cpc-11": {
+    "year": 9997,
+    "session": "CPC Test 11",
+    "examTitle": "Pre-Bar Style MCQ — Corporate, Criminal, Ethics (CPC) Test 11",
+    "totalQuestions": 60,
+    "courses": [
+      {
+        "id": "corporate-law-practice",
+        "name": "Corporate Law Practice",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "Alpha Brewers Ltd, a private company with a full board, has lost two directors through death and resignation. The company secretary is checking how many directors the law requires, who can be appointed, and how a director may be removed.",
+            "question": "The minimum number of directors of a private company that is not small is",
+            "options": {
+              "a": "At least 3 directors, since the company is not a small company",
+              "b": "At least 5 directors, since the company is not a small company",
+              "c": "At least 2 directors, since the company is not a small company",
+              "d": "At least 1 director, since the company is not a small company"
+            },
+            "answer": "c",
+            "explanation": "A company must have at least 2 directors; only a small company may have 1."
+          },
+          {
+            "id": 2,
+            "context": "Alpha Brewers Ltd, a private company with a full board, has lost two directors through death and resignation. The company secretary is checking how many directors the law requires, who can be appointed, and how a director may be removed.",
+            "question": "The following are disqualified from being directors except",
+            "options": {
+              "a": "A person who is under the age of 18 years",
+              "b": "A company acting on its own, and not through a representative",
+              "c": "A person who is aged 25 years and of sound mind",
+              "d": "A person who is of unsound mind and cannot manage his affairs"
+            },
+            "answer": "c",
+            "explanation": "Disqualified persons include those under 18, of unsound mind and a company (except through a representative)."
+          },
+          {
+            "id": 3,
+            "context": "Alpha Brewers Ltd, a private company with a full board, has lost two directors through death and resignation. The company secretary is checking how many directors the law requires, who can be appointed, and how a director may be removed.",
+            "question": "Where the articles require a share qualification, a director must obtain the shares within",
+            "options": {
+              "a": "28 days after his appointment, failing which the office is vacated",
+              "b": "14 days after his appointment, failing which the office is vacated",
+              "c": "6 months after his appointment, failing which the office is vacated",
+              "d": "2 months after his appointment, failing which the office is vacated"
+            },
+            "answer": "d",
+            "explanation": "A director has 2 months to obtain the qualification shares or the office is vacated."
+          },
+          {
+            "id": 4,
+            "context": "Alpha Brewers Ltd, a private company with a full board, has lost two directors through death and resignation. The company secretary is checking how many directors the law requires, who can be appointed, and how a director may be removed.",
+            "question": "A director may be removed by",
+            "options": {
+              "a": "The board of directors alone, by a resolution passed at a board meeting",
+              "b": "An ordinary resolution of the members passed on special notice",
+              "c": "The articles of association alone, without any resolution of the members",
+              "d": "The company secretary, on the instruction of the chairman of the board"
+            },
+            "answer": "b",
+            "explanation": "Removal under s.288 is by ordinary resolution with special notice of 28 days; the board cannot remove."
+          },
+          {
+            "id": 5,
+            "context": "Alpha Brewers Ltd, a private company with a full board, has lost two directors through death and resignation. The company secretary is checking how many directors the law requires, who can be appointed, and how a director may be removed.",
+            "question": "The following directors do not retire by rotation except",
+            "options": {
+              "a": "A shadow director, who acts without being formally appointed",
+              "b": "A life director, who holds office for life under the articles",
+              "c": "An executive director, who is employed in the management of the company",
+              "d": "A non-executive director, who has no executive duties in the company"
+            },
+            "answer": "d",
+            "explanation": "Life, Executive and Shadow directors do not retire by rotation."
+          },
+          {
+            "id": 6,
+            "context": "A floating charge holder wants to put Metro Foods Ltd into administration to save the business. The company's directors prefer to appoint an administrator themselves. A lawyer explains the objectives, the routes and the effects.",
+            "question": "An administrator is",
+            "options": {
+              "a": "A servant of the members who appointed him to the office",
+              "b": "An agent of the person who appointed him and of no other person",
+              "c": "A director of the company with full powers over its business",
+              "d": "An officer of the court and an agent of the company"
+            },
+            "answer": "d",
+            "explanation": "The administrator is an officer of the court (s.446) and agent of the company."
+          },
+          {
+            "id": 7,
+            "context": "A floating charge holder wants to put Metro Foods Ltd into administration to save the business. The company's directors prefer to appoint an administrator themselves. A lawyer explains the objectives, the routes and the effects.",
+            "question": "The first objective of administration is to",
+            "options": {
+              "a": "Pay the directors the arrears of fees and salaries owed to them",
+              "b": "Realise the assets of the company for the benefit of secured creditors",
+              "c": "Wind up the company and distribute its assets among the members",
+              "d": "Rescue the company as a going concern, if that can be done"
+            },
+            "answer": "d",
+            "explanation": "The objectives in order: rescue as a going concern, a better result for creditors, then realising property."
+          },
+          {
+            "id": 8,
+            "context": "A floating charge holder wants to put Metro Foods Ltd into administration to save the business. The company's directors prefer to appoint an administrator themselves. A lawyer explains the objectives, the routes and the effects.",
+            "question": "An administrator may be appointed by all the following except",
+            "options": {
+              "a": "The company secretary alone, acting on the instruction of the chairman",
+              "b": "The court, on the application of a person entitled to apply",
+              "c": "A qualifying floating charge holder, by notice in the prescribed form",
+              "d": "The company or its directors, by a resolution passed for the purpose"
+            },
+            "answer": "a",
+            "explanation": "The three routes are court order, floating charge holder and company or directors."
+          },
+          {
+            "id": 9,
+            "context": "A floating charge holder wants to put Metro Foods Ltd into administration to save the business. The company's directors prefer to appoint an administrator themselves. A lawyer explains the objectives, the routes and the effects.",
+            "question": "Administration ends automatically after",
+            "options": {
+              "a": "2 years from the date on which the administration began",
+              "b": "1 year from the date on which the administration began",
+              "c": "90 days from the date on which the administration began",
+              "d": "6 months from the date on which the administration began"
+            },
+            "answer": "b",
+            "explanation": "It ends automatically after 1 year (s.513), extendable."
+          },
+          {
+            "id": 10,
+            "context": "A floating charge holder wants to put Metro Foods Ltd into administration to save the business. The company's directors prefer to appoint an administrator themselves. A lawyer explains the objectives, the routes and the effects.",
+            "question": "The initial creditors' meeting is held within",
+            "options": {
+              "a": "30 days of the company entering into administration",
+              "b": "14 days of the company entering into administration",
+              "c": "42 days of the company entering into administration",
+              "d": "3 months of the company entering into administration"
+            },
+            "answer": "c",
+            "explanation": "The initial creditors' meeting is within 42 days; proposals go out within 30 days."
+          },
+          {
+            "id": 11,
+            "context": "Delta Industries Limited wants to alter its articles, change its object clause and reduce its share capital. Mr Yusuf, a dissenting member, holds 20% of the nominal value of the issued shares and opposes the change of object. The company also wants to increase its capital from ₦5 million to ₦10 million.",
+            "question": "An alteration of the articles requires a special resolution, and a copy must be delivered to the CAC within",
+            "options": {
+              "a": "28 days of the passing of the resolution to alter them",
+              "b": "15 days of the passing of the resolution to alter them",
+              "c": "30 days of the passing of the resolution to alter them",
+              "d": "7 days of the passing of the resolution to alter them"
+            },
+            "answer": "b",
+            "explanation": "Articles (s.53): special resolution; deliver within 15 days of the resolution."
+          },
+          {
+            "id": 12,
+            "context": "Delta Industries Limited wants to alter its articles, change its object clause and reduce its share capital. Mr Yusuf, a dissenting member, holds 20% of the nominal value of the issued shares and opposes the change of object. The company also wants to increase its capital from ₦5 million to ₦10 million.",
+            "question": "After the special resolution altering the object clause, the company must wait for objections for",
+            "options": {
+              "a": "21 days, during which any member may object to the court",
+              "b": "28 days, during which any member may object to the court",
+              "c": "7 days, during which any member may object to the court",
+              "d": "14 days, during which any member may object to the court"
+            },
+            "answer": "b",
+            "explanation": "After the resolution allow 28 days for objection (s.51)."
+          },
+          {
+            "id": 13,
+            "context": "Delta Industries Limited wants to alter its articles, change its object clause and reduce its share capital. Mr Yusuf, a dissenting member, holds 20% of the nominal value of the issued shares and opposes the change of object. The company also wants to increase its capital from ₦5 million to ₦10 million.",
+            "question": "What minimum holding of dissenting members may apply to court to cancel the alteration of the object clause?",
+            "options": {
+              "a": "15% in nominal value of the issued share capital of the company",
+              "b": "25% in nominal value of the issued share capital of the company",
+              "c": "10% in nominal value of the issued share capital of the company",
+              "d": "5% in nominal value of the issued share capital of the company"
+            },
+            "answer": "a",
+            "explanation": "Dissenting members/holders of 15% in nominal value may apply to court within 28 days."
+          },
+          {
+            "id": 14,
+            "context": "Delta Industries Limited wants to alter its articles, change its object clause and reduce its share capital. Mr Yusuf, a dissenting member, holds 20% of the nominal value of the issued shares and opposes the change of object. The company also wants to increase its capital from ₦5 million to ₦10 million.",
+            "question": "What proportion of an increase of share capital must be paid up within 6 months for it to take effect?",
+            "options": {
+              "a": "10% of the increase, paid up within 6 months of the notice",
+              "b": "50% of the increase, paid up within 6 months of the notice",
+              "c": "25% of the increase, paid up within 6 months of the notice",
+              "d": "75% of the increase, paid up within 6 months of the notice"
+            },
+            "answer": "c",
+            "explanation": "25% paid up within 6 months of notice and directors' statutory declaration, or the increase does not take effect."
+          },
+          {
+            "id": 15,
+            "context": "Delta Industries Limited wants to alter its articles, change its object clause and reduce its share capital. Mr Yusuf, a dissenting member, holds 20% of the nominal value of the issued shares and opposes the change of object. The company also wants to increase its capital from ₦5 million to ₦10 million.",
+            "question": "A reduction of share capital requires all the following except",
+            "options": {
+              "a": "A resolution of the board of directors passed without the members",
+              "b": "Authority in the articles of association for the reduction of capital",
+              "c": "A special resolution of the members passed at a general meeting",
+              "d": "Confirmation of the reduction by the Federal High Court on petition"
+            },
+            "answer": "a",
+            "explanation": "Reduction needs a special resolution, articles authorising it, and court confirmation; all three are cumulative."
+          },
+          {
+            "id": 16,
+            "context": "Titan Holdings makes an offer to buy all the shares of Silver Plc and has already received acceptances from most holders. A few dissenters remain. Counsel explains the rules on takeover offers under CAMA.",
+            "question": "A takeover offer under s.712 requires the offeror to acquire at least",
+            "options": {
+              "a": "Not less than 90% of the shares or of the class of shares concerned",
+              "b": "Not less than 50% of the shares or of the class of shares concerned",
+              "c": "Not less than 100% of the shares or of the class of shares concerned",
+              "d": "Not less than 75% of the shares or of the class of shares concerned"
+            },
+            "answer": "a",
+            "explanation": "The threshold is at least 90% of the shares or class."
+          },
+          {
+            "id": 17,
+            "context": "Titan Holdings makes an offer to buy all the shares of Silver Plc and has already received acceptances from most holders. A few dissenters remain. Counsel explains the rules on takeover offers under CAMA.",
+            "question": "The 90% must be acquired within",
+            "options": {
+              "a": "6 months of the date on which the offer was made",
+              "b": "14 days of the date on which the offer was made",
+              "c": "1 year of the date on which the offer was made",
+              "d": "4 months of the date on which the offer was made"
+            },
+            "answer": "d",
+            "explanation": "The offer stays open 4 months."
+          },
+          {
+            "id": 18,
+            "context": "Titan Holdings makes an offer to buy all the shares of Silver Plc and has already received acceptances from most holders. A few dissenters remain. Counsel explains the rules on takeover offers under CAMA.",
+            "question": "A dissenting shareholder may require the offeror to buy his shares by notice within",
+            "options": {
+              "a": "3 months of the giving of the notice to him by the offeror",
+              "b": "1 year of the giving of the notice to him by the offeror",
+              "c": "14 days of the giving of the notice to him by the offeror",
+              "d": "6 months of the giving of the notice to him by the offeror"
+            },
+            "answer": "a",
+            "explanation": "Section 713(3) gives him 3 months from the giving of notice."
+          },
+          {
+            "id": 19,
+            "context": "Titan Holdings makes an offer to buy all the shares of Silver Plc and has already received acceptances from most holders. A few dissenters remain. Counsel explains the rules on takeover offers under CAMA.",
+            "question": "After the transfer, the transferee gives notice to the dissenting holders within",
+            "options": {
+              "a": "6 months of the transfer of the shares to the offeror",
+              "b": "7 days of the transfer of the shares to the offeror",
+              "c": "1 month of the transfer of the shares to the offeror",
+              "d": "3 months of the transfer of the shares to the offeror"
+            },
+            "answer": "c",
+            "explanation": "Within 1 month of the transfer the transferee gives notice."
+          },
+          {
+            "id": 20,
+            "context": "Titan Holdings makes an offer to buy all the shares of Silver Plc and has already received acceptances from most holders. A few dissenters remain. Counsel explains the rules on takeover offers under CAMA.",
+            "question": "Sections 712 and 713 CAMA deal with",
+            "options": {
+              "a": "The winding up of companies by the court or by their members",
+              "b": "Takeover offers under CAMA, and not takeover bids under the ISA",
+              "c": "Takeover bids under the ISA, and not takeover offers under CAMA",
+              "d": "Mergers between companies sanctioned by the court on a petition"
+            },
+            "answer": "b",
+            "explanation": "They are CAMA takeover offers and are not the ISA takeover bids."
+          }
+        ]
+      },
+      {
+        "id": "criminal-litigation",
+        "name": "Criminal Litigation",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "Mr Salisu is being tried at the High Court for obtaining money by false pretences. Before the trial starts, his counsel lists the elements of the constitutional right to fair hearing for a pupil, who must say which of the statements put to him is wrong.",
+            "question": "Which of these is NOT true of the right to fair hearing?",
+            "options": {
+              "a": "It may be waived by the parties to the case if they so agree",
+              "b": "It may be raised for the first time on appeal",
+              "c": "It applies to every court and tribunal exercising judicial powers",
+              "d": "The crux of it is the procedure adopted, not the decision reached"
+            },
+            "answer": "a",
+            "explanation": "The right to fair hearing cannot be waived by the parties."
+          },
+          {
+            "id": 2,
+            "context": "Mr Salisu is being tried at the High Court for obtaining money by false pretences. Before the trial starts, his counsel lists the elements of the constitutional right to fair hearing for a pupil, who must say which of the statements put to him is wrong.",
+            "question": "Which of these is NOT an essential element of fair hearing?",
+            "options": {
+              "a": "Independent adjudication of the case by an impartial court",
+              "b": "Trial of the defendant within a reasonable time",
+              "c": "A hearing held in the judge's chambers away from the public",
+              "d": "A court established by law with jurisdiction over the case"
+            },
+            "answer": "c",
+            "explanation": "A judge's chambers can never qualify as a public place."
+          },
+          {
+            "id": 3,
+            "context": "Mr Salisu is being tried at the High Court for obtaining money by false pretences. Before the trial starts, his counsel lists the elements of the constitutional right to fair hearing for a pupil, who must say which of the statements put to him is wrong.",
+            "question": "All of these are exceptions to a trial in public except",
+            "options": {
+              "a": "The preference of the judge to sit in his chambers for the trial",
+              "b": "A witness who is under 18 years in a case touching on decency",
+              "c": "The interest of public safety, public order or public morality",
+              "d": "Express exclusion of the public from the court by a statute"
+            },
+            "answer": "a",
+            "explanation": "Five statutory exceptions are listed; the judge's preference is not one."
+          },
+          {
+            "id": 4,
+            "context": "Mr Salisu is being tried at the High Court for obtaining money by false pretences. Before the trial starts, his counsel lists the elements of the constitutional right to fair hearing for a pupil, who must say which of the statements put to him is wrong.",
+            "question": "Which of these is NOT true of the legal burden of proof in a criminal case?",
+            "options": {
+              "a": "It rests on the prosecution throughout the trial of the case",
+              "b": "It shifts to the defendant after the prosecution closes its case",
+              "c": "It must be discharged beyond reasonable doubt by the prosecution",
+              "d": "It never shifts to the defendant at any stage of the trial"
+            },
+            "answer": "b",
+            "explanation": "The legal burden never shifts."
+          },
+          {
+            "id": 5,
+            "context": "Mr Salisu is being tried at the High Court for obtaining money by false pretences. Before the trial starts, his counsel lists the elements of the constitutional right to fair hearing for a pupil, who must say which of the statements put to him is wrong.",
+            "question": "The following are true of the right to counsel except",
+            "options": {
+              "a": "Legal aid is provided to an indigent defendant in a capital case",
+              "b": "The defendant may waive it if he so wishes in court",
+              "c": "It is mandatory in capital offences, whatever the defendant wants",
+              "d": "It is a right guaranteed to every defendant by the Constitution"
+            },
+            "answer": "b",
+            "explanation": "The right cannot be waived."
+          },
+          {
+            "id": 6,
+            "context": "A defendant wants the court to throw out a charge against him as defective. His counsel asks his chambers when the objection must be raised, in what manner, and on what grounds it can succeed.",
+            "question": "An objection to a defective charge should be raised",
+            "options": {
+              "a": "At the commencement of the trial, before the defendant pleads",
+              "b": "During sentencing, after the conviction of the defendant",
+              "c": "After judgment, once the court has delivered its decision",
+              "d": "On appeal only, and not at any earlier stage of the case"
+            },
+            "answer": "a",
+            "explanation": "It must be raised at the commencement of trial before plea."
+          },
+          {
+            "id": 7,
+            "context": "A defendant wants the court to throw out a charge against him as defective. His counsel asks his chambers when the objection must be raised, in what manner, and on what grounds it can succeed.",
+            "question": "In a High Court the routes to challenge a charge are",
+            "options": {
+              "a": "An oral objection made by counsel from the bar in open court",
+              "b": "A motion on notice or a preliminary objection filed in the court",
+              "c": "A complaint made to the police by the defendant against the charge",
+              "d": "A letter written to the judge by the defendant about the charge"
+            },
+            "answer": "b",
+            "explanation": "These two are the only routes in a High Court, being a court of record."
+          },
+          {
+            "id": 8,
+            "context": "A defendant wants the court to throw out a charge against him as defective. His counsel asks his chambers when the objection must be raised, in what manner, and on what grounds it can succeed.",
+            "question": "In a Magistrate Court the objection may be made",
+            "options": {
+              "a": "Only on appeal to the High Court of the State concerned",
+              "b": "Only by the Attorney-General on behalf of the State concerned",
+              "c": "Orally, since it is a court of summary jurisdiction",
+              "d": "Only in writing, by way of a motion on notice to the court"
+            },
+            "answer": "c",
+            "explanation": "A Magistrate Court is a court of summary jurisdiction, so oral objection is allowed."
+          },
+          {
+            "id": 9,
+            "context": "A defendant wants the court to throw out a charge against him as defective. His counsel asks his chambers when the objection must be raised, in what manner, and on what grounds it can succeed.",
+            "question": "The grounds of objection to a charge include all of these except",
+            "options": {
+              "a": "The defendant was already acquitted of the same offence earlier",
+              "b": "A rule on the drafting of a charge was violated",
+              "c": "The offence charged is not known to the law of Nigeria",
+              "d": "The defendant is a person of poor character in his community"
+            },
+            "answer": "d",
+            "explanation": "Grounds include an unknown offence, missing fiat, drafting breach, autrefois, immunity and no link in the proof of evidence."
+          },
+          {
+            "id": 10,
+            "context": "A defendant wants the court to throw out a charge against him as defective. His counsel asks his chambers when the objection must be raised, in what manner, and on what grounds it can succeed.",
+            "question": "Where a defective charge misled the defendant, on appeal the conviction is",
+            "options": {
+              "a": "Affirmed by the appeal court, since the defect is a mere technicality",
+              "b": "Set aside, though a retrial may follow if the evidence is overwhelming",
+              "c": "Left unchanged, since the defendant could have objected to it earlier",
+              "d": "Increased by the appeal court, since the charge was defective"
+            },
+            "answer": "b",
+            "explanation": "Where the defect misled him, the conviction is set aside (retrial possible if evidence overwhelming)."
+          },
+          {
+            "id": 11,
+            "context": "The Court of Appeal allows a ground of appeal but is invited to order a retrial. The Supreme Court is asked to receive additional evidence. The convict dies during the appeal.",
+            "question": "Additional evidence on appeal is",
+            "options": {
+              "a": "Generally not admissible on appeal, as stated in Esoh v COP",
+              "b": "Required in every appeal before the appeal court gives its decision",
+              "c": "Always admissible on appeal if either party asks the court for it",
+              "d": "Admissible on a request made by the respondent to the appeal"
+            },
+            "answer": "a",
+            "explanation": "Esoh v COP (1958)."
+          },
+          {
+            "id": 12,
+            "context": "The Court of Appeal allows a ground of appeal but is invited to order a retrial. The Supreme Court is asked to receive additional evidence. The convict dies during the appeal.",
+            "question": "Conditions for a retrial include all of these except",
+            "options": {
+              "a": "The evidence discloses a substantial case against the defendant",
+              "b": "The offence charged is not a trivial offence",
+              "c": "The prosecution needs time to improve its case against him",
+              "d": "Refusal of a retrial would cause a greater miscarriage of justice"
+            },
+            "answer": "c",
+            "explanation": "No retrial merely to let the prosecution remedy its own inadequacies - Okafor v State."
+          },
+          {
+            "id": 13,
+            "context": "The Court of Appeal allows a ground of appeal but is invited to order a retrial. The Supreme Court is asked to receive additional evidence. The convict dies during the appeal.",
+            "question": "On the death of the convict, the appeal",
+            "options": {
+              "a": "Continues in the name of the personal representative of the convict",
+              "b": "Is dismissed by the appeal court for want of a proper party",
+              "c": "Is retried before another panel of the appeal court",
+              "d": "Abates on his death, as held in Ajilore v State"
+            },
+            "answer": "d",
+            "explanation": "Ajilore v State (1993)."
+          },
+          {
+            "id": 14,
+            "context": "The Court of Appeal allows a ground of appeal but is invited to order a retrial. The Supreme Court is asked to receive additional evidence. The convict dies during the appeal.",
+            "question": "An appeal against a fine, on the convict's death,",
+            "options": {
+              "a": "Survives the death of the convict, as held in R v Rowe",
+              "b": "Abates automatically on the death of the convict, like other appeals",
+              "c": "Is dismissed by the court on the death of the convict",
+              "d": "Is stayed until the estate of the convict has paid the fine"
+            },
+            "answer": "a",
+            "explanation": "R v Rowe (1955)."
+          },
+          {
+            "id": 15,
+            "context": "The Court of Appeal allows a ground of appeal but is invited to order a retrial. The Supreme Court is asked to receive additional evidence. The convict dies during the appeal.",
+            "question": "The Supreme Court ordinarily sits with how many Justices?",
+            "options": {
+              "a": "Three Justices of the Supreme Court sitting as a panel",
+              "b": "Nine Justices of the Supreme Court sitting as a panel",
+              "c": "Seven Justices of the Supreme Court sitting as a full court",
+              "d": "Five Justices of the Supreme Court sitting as a panel"
+            },
+            "answer": "d",
+            "explanation": "Full Court = 7, s.234 CFRN."
+          },
+          {
+            "id": 16,
+            "context": "Mr Adewale is charged with murder, burglary and defilement. His counsel scrutinises the particulars of each count and the way the sections of law are cited.",
+            "question": "In the 'N-ADPOPS' checklist, the letter D stands for",
+            "options": {
+              "a": "Defendant's description, including his age and his occupation",
+              "b": "Date of the offence charged against the defendant",
+              "c": "Document on which the charge against the defendant is based",
+              "d": "Dock in which the defendant is to stand at the trial"
+            },
+            "answer": "b",
+            "explanation": "N-ADPOPS: Name, Address, Date, Place, Offence, Person, Section."
+          },
+          {
+            "id": 17,
+            "context": "Mr Adewale is charged with murder, burglary and defilement. His counsel scrutinises the particulars of each count and the way the sections of law are cited.",
+            "question": "If the exact date of the offence is uncertain, the charge should say",
+            "options": {
+              "a": "Not later than the date of the report made to the police",
+              "b": "Sometime during the year in which the offence occurred",
+              "c": "On or about the date it is believed to have occurred",
+              "d": "On a date unknown to the prosecution and to the court"
+            },
+            "answer": "c",
+            "explanation": "Use 'on or about' and never improvise a date."
+          },
+          {
+            "id": 18,
+            "context": "Mr Adewale is charged with murder, burglary and defilement. His counsel scrutinises the particulars of each count and the way the sections of law are cited.",
+            "question": "A charge of murder must name the victim and state",
+            "options": {
+              "a": "The time of death of the victim of the offence",
+              "b": "The age of the victim of the offence at the time",
+              "c": "The nature of the employment of the victim of the offence",
+              "d": "The weapon or method used, for example shooting him with a gun"
+            },
+            "answer": "d",
+            "explanation": "Murder: name the victim and weapon or method, e.g. shooting him with a gun."
+          },
+          {
+            "id": 19,
+            "context": "Mr Adewale is charged with murder, burglary and defilement. His counsel scrutinises the particulars of each count and the way the sections of law are cited.",
+            "question": "In a charge of burglary, the count must state whether it was",
+            "options": {
+              "a": "Committed by an armed or an unarmed burglar",
+              "b": "Committed by one person or by two persons",
+              "c": "Committed by day or by night",
+              "d": "Committed in a dwelling house or in a shop"
+            },
+            "answer": "c",
+            "explanation": "Housebreaking or burglary: state day or night."
+          },
+          {
+            "id": 20,
+            "context": "Mr Adewale is charged with murder, burglary and defilement. His counsel scrutinises the particulars of each count and the way the sections of law are cited.",
+            "question": "A charge (as opposed to an information) introduces the section with",
+            "options": {
+              "a": "\"Contrary to\", which is the usual way of introducing the section",
+              "b": "\"As provided in\", which is the usual way of introducing the section",
+              "c": "\"In breach of\", which is the usual way of introducing the section",
+              "d": "\"Punishable under\", which is the way a charge introduces the section"
+            },
+            "answer": "d",
+            "explanation": "A charge uses 'punishable under section [X]' only; an information uses 'contrary to'."
+          }
+        ]
+      },
+      {
+        "id": "professional-ethics",
+        "name": "Professional Ethics and Skills",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "Counsel's practising fees are unpaid for the year, and he nonetheless appears in court. The registrar queries his right of audience. Separately, a retired Justice of the Court of Appeal seeks to appear for a client.",
+            "question": "Practising fees are payable before",
+            "options": {
+              "a": "31 January each year",
+              "b": "30 June each year",
+              "c": "31 March each year",
+              "d": "31 December each year"
+            },
+            "answer": "c",
+            "explanation": "Section 8(2) LPA; Rule 9 RPC."
+          },
+          {
+            "id": 2,
+            "context": "Counsel's practising fees are unpaid for the year, and he nonetheless appears in court. The registrar queries his right of audience. Separately, a retired Justice of the Court of Appeal seeks to appear for a client.",
+            "question": "Practising fees are paid to",
+            "options": {
+              "a": "The NBA branch of the place where he practises",
+              "b": "The Legal Practitioners Disciplinary Committee of the Bar",
+              "c": "The Registrar of the Supreme Court of Nigeria",
+              "d": "The Bar Council, which is the General Council of the Bar"
+            },
+            "answer": "c",
+            "explanation": "Nine-tenths is remitted to the NBA, one-tenth retained by the court."
+          },
+          {
+            "id": 3,
+            "context": "Counsel's practising fees are unpaid for the year, and he nonetheless appears in court. The registrar queries his right of audience. Separately, a retired Justice of the Court of Appeal seeks to appear for a client.",
+            "question": "A retired Justice of the Court of Appeal may NOT",
+            "options": {
+              "a": "Represent himself in person in a court",
+              "b": "Use the title Justice after his retirement",
+              "c": "Practise as a solicitor after his retirement",
+              "d": "Appear as an advocate before any court"
+            },
+            "answer": "d",
+            "explanation": "Section 292(2) CFRN; Rule 6 RPC; Atake v Afejuku."
+          },
+          {
+            "id": 4,
+            "context": "Counsel's practising fees are unpaid for the year, and he nonetheless appears in court. The registrar queries his right of audience. Separately, a retired Justice of the Court of Appeal seeks to appear for a client.",
+            "question": "The restriction on retired judicial officers excludes",
+            "options": {
+              "a": "Judges of the National Industrial Court",
+              "b": "Judges of the High Court of a State",
+              "c": "Justices of the Supreme Court of Nigeria",
+              "d": "Magistrates and Area or Customary Court judges"
+            },
+            "answer": "d",
+            "explanation": "Section 318(1) CFRN definition excludes them."
+          },
+          {
+            "id": 5,
+            "context": "Counsel's practising fees are unpaid for the year, and he nonetheless appears in court. The registrar queries his right of audience. Separately, a retired Justice of the Court of Appeal seeks to appear for a client.",
+            "question": "A lawyer must hold a valid annual practising certificate issued by",
+            "options": {
+              "a": "The Body of Benchers, through its Secretary",
+              "b": "The Nigerian Bar Association, under Rule 12 of the RPC",
+              "c": "The Council of Legal Education, through its Director-General",
+              "d": "The Supreme Court of Nigeria, through its Registrar"
+            },
+            "answer": "b",
+            "explanation": "Rule 12 RPC."
+          },
+          {
+            "id": 6,
+            "context": "Students attending the Call-to-Bar dinner are briefed on dress, seating and conduct. One student wears a bow tie, another arrives late after the Benchers have entered, and a third takes photographs.",
+            "question": "The man's dress at the dinner includes",
+            "options": {
+              "a": "A brown suit worn with a white shirt and a tie",
+              "b": "A bow tie worn with a white shirt and a dark suit",
+              "c": "A dark suit, white shirt and black tie, not a bow tie",
+              "d": "A coloured shirt worn with a black tie and a dark suit"
+            },
+            "answer": "c",
+            "explanation": "Black tie, not a bow tie."
+          },
+          {
+            "id": 7,
+            "context": "Students attending the Call-to-Bar dinner are briefed on dress, seating and conduct. One student wears a bow tie, another arrives late after the Benchers have entered, and a third takes photographs.",
+            "question": "Students must be seated quietly by",
+            "options": {
+              "a": "Half past three in the afternoon at the latest",
+              "b": "Half past four in the afternoon at the latest",
+              "c": "Six o'clock in the evening at the latest",
+              "d": "Five o'clock in the evening at the latest"
+            },
+            "answer": "b",
+            "explanation": "By 4.30 p.m. at the latest."
+          },
+          {
+            "id": 8,
+            "context": "Students attending the Call-to-Bar dinner are briefed on dress, seating and conduct. One student wears a bow tie, another arrives late after the Benchers have entered, and a third takes photographs.",
+            "question": "After the Benchers' entry, no other person may enter, and breach attracts",
+            "options": {
+              "a": "A severe penalty, since it is a strict-liability rule",
+              "b": "A warning only to the student concerned",
+              "c": "No penalty at all to the student concerned",
+              "d": "A small fine payable to the Nigerian Law School"
+            },
+            "answer": "a",
+            "explanation": "A strict-liability rule."
+          },
+          {
+            "id": 9,
+            "context": "Students attending the Call-to-Bar dinner are briefed on dress, seating and conduct. One student wears a bow tie, another arrives late after the Benchers have entered, and a third takes photographs.",
+            "question": "During dinner, all of these are forbidden except",
+            "options": {
+              "a": "Photography within the hall during the dinner",
+              "b": "Moving about the hall without representation",
+              "c": "Reaching across the table for the condiments",
+              "d": "Whispering to a colleague to pass the condiments"
+            },
+            "answer": "d",
+            "explanation": "Low-tone conversation only; whisper to pass items."
+          },
+          {
+            "id": 10,
+            "context": "Students attending the Call-to-Bar dinner are briefed on dress, seating and conduct. One student wears a bow tie, another arrives late after the Benchers have entered, and a third takes photographs.",
+            "question": "A breach of the dress code means the student",
+            "options": {
+              "a": "Disallowed from keeping that dining term and ineligible for Call",
+              "b": "Warned and allowed to keep the dining term",
+              "c": "Delayed by a week and then called to the Bar",
+              "d": "Fined and allowed to be called with the others"
+            },
+            "answer": "a",
+            "explanation": "Even though he passed the exams."
+          },
+          {
+            "id": 11,
+            "context": "A lawyer sends a bill after a brief. The client refuses to pay and the lawyer's partner explains the rules on fees and recovery to the trainee. The partner asks the trainee to spot which statement on fees, remuneration and recovery of charges is wrong.",
+            "question": "A contingent fee must NOT be",
+            "options": {
+              "a": "Contrary to public policy in any respect",
+              "b": "In writing between the lawyer and the client",
+              "c": "Reasonable in the circumstances of the case",
+              "d": "Explained to the client before it is signed"
+            },
+            "answer": "a",
+            "explanation": "Also not vitiated by fraud, mistake or undue influence."
+          },
+          {
+            "id": 12,
+            "context": "A lawyer sends a bill after a brief. The client refuses to pay and the lawyer's partner explains the rules on fees and recovery to the trainee. The partner asks the trainee to spot which statement on fees, remuneration and recovery of charges is wrong.",
+            "question": "Which of these is NOT true of a percentage fee?",
+            "options": {
+              "a": "It is not subject to taxation by the court",
+              "b": "It must be reasonable in the circumstances",
+              "c": "It was considered in FRN v Ndoma-Egba",
+              "d": "It is subject to taxation by the court"
+            },
+            "answer": "a",
+            "explanation": "FRN v Ndoma-Egba."
+          },
+          {
+            "id": 13,
+            "context": "A lawyer sends a bill after a brief. The client refuses to pay and the lawyer's partner explains the rules on fees and recovery to the trainee. The partner asks the trainee to spot which statement on fees, remuneration and recovery of charges is wrong.",
+            "question": "A lawyer may NOT",
+            "options": {
+              "a": "Issue written terms of engagement to the client",
+              "b": "Receive adequate remuneration for his services",
+              "c": "Issue a bill of charges to the client",
+              "d": "Accept gifts from an opposing party without the client's consent"
+            },
+            "answer": "d",
+            "explanation": "Rule 54 RPC."
+          },
+          {
+            "id": 14,
+            "context": "A lawyer sends a bill after a brief. The client refuses to pay and the lawyer's partner explains the rules on fees and recovery to the trainee. The partner asks the trainee to spot which statement on fees, remuneration and recovery of charges is wrong.",
+            "question": "Which of these is NOT true of the Remuneration Order 2023?",
+            "options": {
+              "a": "It sets State bands for the fees",
+              "b": "It preserves the 1991 Order alongside the new one",
+              "c": "It revokes the 1991 Order which it replaces",
+              "d": "It was made under section 15(3) of the LPA"
+            },
+            "answer": "b",
+            "explanation": "Made under s.15(3) LPA; it revokes the 1991 Order."
+          },
+          {
+            "id": 15,
+            "context": "A lawyer sends a bill after a brief. The client refuses to pay and the lawyer's partner explains the rules on fees and recovery to the trainee. The partner asks the trainee to spot which statement on fees, remuneration and recovery of charges is wrong.",
+            "question": "Which of these is NOT true of fee recovery?",
+            "options": {
+              "a": "It is provided for under section 19(1) of the LPA",
+              "b": "It starts by originating summons in the Magistrate Court",
+              "c": "A bill of charges is signed by the lawyer or a partner",
+              "d": "It starts by writ of summons in the High Court"
+            },
+            "answer": "b",
+            "explanation": "Section 19(1) LPA."
+          },
+          {
+            "id": 16,
+            "context": "Two Lagos-based companies include an arbitration clause in their contract. One later argues the contract is void for illegality and that the arbitration clause falls with it. A court is asked to stay a suit.",
+            "question": "The arbitration agreement must be",
+            "options": {
+              "a": "In writing, as required by section 2 of the AMA",
+              "b": "Registered at the court before it takes effect",
+              "c": "Oral, provided that witnesses are present",
+              "d": "Notarised by a notary public before it takes effect"
+            },
+            "answer": "a",
+            "explanation": "Section 2 AMA."
+          },
+          {
+            "id": 17,
+            "context": "Two Lagos-based companies include an arbitration clause in their contract. One later argues the contract is void for illegality and that the arbitration clause falls with it. A court is asked to stay a suit.",
+            "question": "The doctrine of separability means the arbitration clause",
+            "options": {
+              "a": "Is void along with the contract of which it is part",
+              "b": "Survives even if the rest of the contract is void",
+              "c": "Falls with the contract of which it is a part",
+              "d": "Is secondary to the contract of which it is a part"
+            },
+            "answer": "b",
+            "explanation": "Section 14(2) AMA; BCC Tropical v Yobe."
+          },
+          {
+            "id": 18,
+            "context": "Two Lagos-based companies include an arbitration clause in their contract. One later argues the contract is void for illegality and that the arbitration clause falls with it. A court is asked to stay a suit.",
+            "question": "Kompetenz-kompetenz means a tribunal may",
+            "options": {
+              "a": "Appoint judges to the court that hears appeals",
+              "b": "Rule on the jurisdiction of the court in the dispute",
+              "c": "Rule on its own jurisdiction in the dispute",
+              "d": "Enforce awards made by other tribunals"
+            },
+            "answer": "c",
+            "explanation": "Section 14(1) AMA."
+          },
+          {
+            "id": 19,
+            "context": "Two Lagos-based companies include an arbitration clause in their contract. One later argues the contract is void for illegality and that the arbitration clause falls with it. A court is asked to stay a suit.",
+            "question": "A Scott v Avery clause requires",
+            "options": {
+              "a": "Mediation first before any other step is taken",
+              "b": "An appeal to the court from the tribunal",
+              "c": "An award before any court proceedings may be brought",
+              "d": "Court proceedings before the arbitration may begin"
+            },
+            "answer": "c",
+            "explanation": "Scott v Avery (1856)."
+          },
+          {
+            "id": 20,
+            "context": "Two Lagos-based companies include an arbitration clause in their contract. One later argues the contract is void for illegality and that the arbitration clause falls with it. A court is asked to stay a suit.",
+            "question": "An Atlantic Shipping clause bars a claim if",
+            "options": {
+              "a": "The award is late by a period fixed by the court",
+              "b": "Costs are unpaid by the party who makes the claim",
+              "c": "A party dies before the award is made",
+              "d": "An arbitrator is not appointed within a specified time"
+            },
+            "answer": "d",
+            "explanation": "Atlantic Shipping v Louis Dreyfus."
+          }
+        ]
+      }
+    ]
+  },
+  "cpc-12": {
+    "year": 9997,
+    "session": "CPC Test 12",
+    "examTitle": "Pre-Bar Style MCQ — Corporate, Criminal, Ethics (CPC) Test 12",
+    "totalQuestions": 60,
+    "courses": [
+      {
+        "id": "corporate-law-practice",
+        "name": "Corporate Law Practice",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "Tiny Tots Ltd is a private company run by the three directors who hold most of the shares. The company secretary wonders if it qualifies as a small company and what that would mean for audit and meetings.",
+            "question": "A company qualifies as a small company only if all these are true except",
+            "options": {
+              "a": "It may have a foreign member, provided he holds fewer shares than the directors",
+              "b": "It has no government member or nominee of a government in it",
+              "c": "It is a private company and not a public company",
+              "d": "Its directors together hold at least 51% of the equity of the company"
+            },
+            "answer": "a",
+            "explanation": "A small company must be private, have no alien or government/nominee member and directors holding at least 51%."
+          },
+          {
+            "id": 2,
+            "context": "Tiny Tots Ltd is a private company run by the three directors who hold most of the shares. The company secretary wonders if it qualifies as a small company and what that would mean for audit and meetings.",
+            "question": "A small company is exempt from all the following except",
+            "options": {
+              "a": "An audit of its accounts by an independent auditor each year",
+              "b": "The keeping of accounting records, which it must still do",
+              "c": "Delivering its profit and loss account to the Commission each year",
+              "d": "The holding of an annual general meeting of its members"
+            },
+            "answer": "b",
+            "explanation": "Small companies are exempt from audit and AGM, but they still keep records."
+          },
+          {
+            "id": 3,
+            "context": "Tiny Tots Ltd is a private company run by the three directors who hold most of the shares. The company secretary wonders if it qualifies as a small company and what that would mean for audit and meetings.",
+            "question": "The audit exemption never applies to",
+            "options": {
+              "a": "Banks and insurance companies, and others that the Commission excludes by notice",
+              "b": "Private companies that qualify by turnover and net assets as small companies",
+              "c": "Family businesses in which the directors hold most of the equity",
+              "d": "Single-member companies that qualify by turnover and net assets"
+            },
+            "answer": "a",
+            "explanation": "It does not apply to banks, insurance companies or others the CAC excludes."
+          },
+          {
+            "id": 4,
+            "context": "Tiny Tots Ltd is a private company run by the three directors who hold most of the shares. The company secretary wonders if it qualifies as a small company and what that would mean for audit and meetings.",
+            "question": "A small company proves its status to the CAC by",
+            "options": {
+              "a": "A notice of its qualification published in the Gazette each year",
+              "b": "A certificate of qualification filed with the Commission by the company",
+              "c": "A letter from its auditors confirming its turnover and net assets",
+              "d": "An order of the court declaring that it is a small company"
+            },
+            "answer": "b",
+            "explanation": "A small company files a CAC certificate of qualification (s.423(2))."
+          },
+          {
+            "id": 5,
+            "context": "Tiny Tots Ltd is a private company run by the three directors who hold most of the shares. The company secretary wonders if it qualifies as a small company and what that would mean for audit and meetings.",
+            "question": "Eligibility for the audit exemption is considered",
+            "options": {
+              "a": "Once in every 5 years, when the company's status is reviewed",
+              "b": "In every financial year, when the company's accounts are prepared",
+              "c": "Only on the conversion of the company from one status to another",
+              "d": "Once only, at the incorporation of the company by the Commission"
+            },
+            "answer": "b",
+            "explanation": "Exemption from audit is considered every financial year."
+          },
+          {
+            "id": 6,
+            "context": "Mr Yakubu has just been appointed secretary of Kano Cement Plc and is checking with the chairman who may lawfully hold that office, whether the CAC must be told, how a secretary may be removed and what his duties are.",
+            "question": "Every company must have a company secretary except",
+            "options": {
+              "a": "A company limited by guarantee, which has no share capital to protect",
+              "b": "A private company, which has few members and a small board",
+              "c": "A public company, which has many members and is listed",
+              "d": "A small company, which the Act expressly exempts from the requirement"
+            },
+            "answer": "d",
+            "explanation": "Under s.330 every company except a small company must have a secretary."
+          },
+          {
+            "id": 7,
+            "context": "Mr Yakubu has just been appointed secretary of Kano Cement Plc and is checking with the chairman who may lawfully hold that office, whether the CAC must be told, how a secretary may be removed and what his duties are.",
+            "question": "A public company secretary may be any of the following except",
+            "options": {
+              "a": "A member of a professional accountancy body recognised in Nigeria",
+              "b": "A legal practitioner who is entitled to practise in Nigeria",
+              "c": "A person who holds a degree in business administration only",
+              "d": "A member of the Institute of Chartered Secretaries and Administrators"
+            },
+            "answer": "c",
+            "explanation": "Qualifying persons for a public company are ICSAN members, legal practitioners, accountants and experienced secretaries."
+          },
+          {
+            "id": 8,
+            "context": "Mr Yakubu has just been appointed secretary of Kano Cement Plc and is checking with the chairman who may lawfully hold that office, whether the CAC must be told, how a secretary may be removed and what his duties are.",
+            "question": "The CAC must be notified of the appointment of a secretary within",
+            "options": {
+              "a": "21 days of the date on which he is appointed",
+              "b": "7 days of the date on which he is appointed",
+              "c": "30 days of the date on which he is appointed",
+              "d": "14 days of the date on which he is appointed"
+            },
+            "answer": "d",
+            "explanation": "Notification to the CAC is within 14 days."
+          },
+          {
+            "id": 9,
+            "context": "Mr Yakubu has just been appointed secretary of Kano Cement Plc and is checking with the chairman who may lawfully hold that office, whether the CAC must be told, how a secretary may be removed and what his duties are.",
+            "question": "A public company secretary threatened with removal is given",
+            "options": {
+              "a": "14 days to leave the company's premises and hand over its records",
+              "b": "24 hours to resign, failing which he is removed without more",
+              "c": "7 working days to defend himself against the grounds or to resign",
+              "d": "No time at all, since the board may remove him at once"
+            },
+            "answer": "c",
+            "explanation": "Written notice with grounds is given and he has 7 working days to defend or resign."
+          },
+          {
+            "id": 10,
+            "context": "Mr Yakubu has just been appointed secretary of Kano Cement Plc and is checking with the chairman who may lawfully hold that office, whether the CAC must be told, how a secretary may be removed and what his duties are.",
+            "question": "The duties of a company secretary include all of these except",
+            "options": {
+              "a": "Running the day-to-day business of the company on behalf of the board",
+              "b": "Attending meetings of the company and providing secretarial services to them",
+              "c": "Keeping the registers and other statutory books of the company",
+              "d": "Making the returns required of the company to the Commission"
+            },
+            "answer": "a",
+            "explanation": "Duties under s.335 are attending meetings, keeping registers and making returns; running the business is for management."
+          },
+          {
+            "id": 11,
+            "context": "The members of Evergreen Ltd, a solvent company, decide to end the business. They ask whether the winding up will be by members or creditors, what the directors must do and when the company is finally dissolved.",
+            "question": "Notice of a resolution to wind up voluntarily is advertised within",
+            "options": {
+              "a": "28 days of the passing of the resolution to wind up",
+              "b": "3 months of the passing of the resolution to wind up",
+              "c": "14 days of the passing of the resolution to wind up",
+              "d": "7 days of the passing of the resolution to wind up"
+            },
+            "answer": "c",
+            "explanation": "Within 14 days the company gives notice in the Gazette or two dailies and notifies the CAC."
+          },
+          {
+            "id": 12,
+            "context": "The members of Evergreen Ltd, a solvent company, decide to end the business. They ask whether the winding up will be by members or creditors, what the directors must do and when the company is finally dissolved.",
+            "question": "The directors' declaration of solvency states that the company can pay its debts within a period not exceeding",
+            "options": {
+              "a": "Within 24 months of the commencement of the winding up",
+              "b": "Within 6 months of the commencement of the winding up",
+              "c": "Within 3 months of the commencement of the winding up",
+              "d": "Within 12 months of the commencement of the winding up"
+            },
+            "answer": "d",
+            "explanation": "The period must not exceed 12 months from commencement of the winding up."
+          },
+          {
+            "id": 13,
+            "context": "The members of Evergreen Ltd, a solvent company, decide to end the business. They ask whether the winding up will be by members or creditors, what the directors must do and when the company is finally dissolved.",
+            "question": "A winding up with a declaration of solvency is a",
+            "options": {
+              "a": "A creditors' voluntary winding up, since the creditors are in control",
+              "b": "A members' voluntary winding up, since the company is solvent",
+              "c": "A compulsory winding up ordered by the court on a petition",
+              "d": "A winding up under the supervision of the court on a petition"
+            },
+            "answer": "b",
+            "explanation": "With a declaration it is a members' voluntary winding up; without it, a creditors' voluntary winding up."
+          },
+          {
+            "id": 14,
+            "context": "The members of Evergreen Ltd, a solvent company, decide to end the business. They ask whether the winding up will be by members or creditors, what the directors must do and when the company is finally dissolved.",
+            "question": "If the creditors and the company nominate different liquidators, a director may apply to court to have the company's nominee appointed within",
+            "options": {
+              "a": "3 months of the date on which the nominees were named",
+              "b": "28 days of the date on which the nominees were named",
+              "c": "14 days of the date on which the nominees were named",
+              "d": "7 days of the date on which the nominees were named"
+            },
+            "answer": "d",
+            "explanation": "The creditors' nominee prevails, but within 7 days an application may seek the company's nominee."
+          },
+          {
+            "id": 15,
+            "context": "The members of Evergreen Ltd, a solvent company, decide to end the business. They ask whether the winding up will be by members or creditors, what the directors must do and when the company is finally dissolved.",
+            "question": "After registration of the final accounts, the company is deemed dissolved after",
+            "options": {
+              "a": "Within 12 months after the final accounts have been registered",
+              "b": "Within 7 days after the final accounts have been registered",
+              "c": "Within 3 months after the final accounts have been registered",
+              "d": "Within 14 days after the final accounts have been registered"
+            },
+            "answer": "c",
+            "explanation": "The company is deemed dissolved 3 months after registration of the accounts and returns."
+          },
+          {
+            "id": 16,
+            "context": "A group of friends sets up a pooled investment fund that promises very high monthly returns and pays old investors from new deposits. A lawyer is asked whether it is lawful and what the rules on collective investment schemes and bonds require.",
+            "question": "A collective investment scheme must be registered with",
+            "options": {
+              "a": "The Federal Inland Revenue Service, which collects the company's taxes",
+              "b": "The Central Bank of Nigeria, which regulates the banks",
+              "c": "The Nigerian Exchange, which lists the companies' securities",
+              "d": "The Securities and Exchange Commission, under the Investments and Securities Act"
+            },
+            "answer": "d",
+            "explanation": "No one may establish or operate a CIS unless registered with the SEC (s.160 ISA)."
+          },
+          {
+            "id": 17,
+            "context": "A group of friends sets up a pooled investment fund that promises very high monthly returns and pays old investors from new deposits. A lawyer is asked whether it is lawful and what the rules on collective investment schemes and bonds require.",
+            "question": "The following are types of collective investment scheme except",
+            "options": {
+              "a": "A real estate investment trust that invests in property for its holders",
+              "b": "An investment trust that holds the shares of other companies",
+              "c": "A general partnership at will formed by friends to pool their funds",
+              "d": "A unit trust whose holders own units in a pooled fund"
+            },
+            "answer": "c",
+            "explanation": "Types include unit trusts, REITs, investment trusts and community savings schemes."
+          },
+          {
+            "id": 18,
+            "context": "A group of friends sets up a pooled investment fund that promises very high monthly returns and pays old investors from new deposits. A lawyer is asked whether it is lawful and what the rules on collective investment schemes and bonds require.",
+            "question": "The trustee of a unit trust must be",
+            "options": {
+              "a": "A body corporate that is a bank or an insurance company",
+              "b": "The fund manager who operates the scheme and invests its money",
+              "c": "A stockbroker registered with the Commission and the Exchange",
+              "d": "Any individual of good character approved by the Commission"
+            },
+            "answer": "a",
+            "explanation": "The trustee is a body corporate that is a bank or insurance company."
+          },
+          {
+            "id": 19,
+            "context": "A group of friends sets up a pooled investment fund that promises very high monthly returns and pays old investors from new deposits. A lawyer is asked whether it is lawful and what the rules on collective investment schemes and bonds require.",
+            "question": "The penalty for a Ponzi scheme includes",
+            "options": {
+              "a": "A fine of N1,000 and nothing more, since it is a minor offence",
+              "b": "A fine of N20 million, imprisonment for 10 years, or both",
+              "c": "A warning only, given by the Commission to the promoters",
+              "d": "The loss of the promoters' licence only, with no fine or prison"
+            },
+            "answer": "b",
+            "explanation": "Prohibited schemes attract N20 million, 10 years or both (s.196(3) ISA)."
+          },
+          {
+            "id": 20,
+            "context": "A group of friends sets up a pooled investment fund that promises very high monthly returns and pays old investors from new deposits. A lawyer is asked whether it is lawful and what the rules on collective investment schemes and bonds require.",
+            "question": "Every bond issue requires",
+            "options": {
+              "a": "A sinking fund, set up to ensure that the bond is repaid",
+              "b": "A pledge of land belonging to the issuer to secure the holders",
+              "c": "A court order authorising the issue of the bond to the public",
+              "d": "A foreign guarantor who undertakes to pay if the issuer defaults"
+            },
+            "answer": "a",
+            "explanation": "A sinking fund is required for every bond issue."
+          }
+        ]
+      },
+      {
+        "id": "criminal-litigation",
+        "name": "Criminal Litigation",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "A trial for armed robbery involves an accomplice, a child witness and a government pathologist. The registrar asks the judge to rule on what evidence needs corroboration.",
+            "question": "Which of these is NOT true of an accomplice's evidence?",
+            "options": {
+              "a": "It requires corroboration as a rule of law before a conviction",
+              "b": "It cannot corroborate the evidence of another accomplice",
+              "c": "It requires a mandatory judicial warning from the trial judge",
+              "d": "It can ground a conviction even where it is uncorroborated"
+            },
+            "answer": "a",
+            "explanation": "Uncorroborated evidence suffices but requires a mandatory judicial warning."
+          },
+          {
+            "id": 2,
+            "context": "A trial for armed robbery involves an accomplice, a child witness and a government pathologist. The registrar asks the judge to rule on what evidence needs corroboration.",
+            "question": "For the prosecution, a spouse is competent in all of these cases except",
+            "options": {
+              "a": "Offences against the property of a third party, not the spouse",
+              "b": "Offences against the property of the spouse of the defendant",
+              "c": "Sexual offences committed against any person in the matter",
+              "d": "Violence committed against the spouse of the defendant"
+            },
+            "answer": "a",
+            "explanation": "Section 182(1) lists three categories."
+          },
+          {
+            "id": 3,
+            "context": "A trial for armed robbery involves an accomplice, a child witness and a government pathologist. The registrar asks the judge to rule on what evidence needs corroboration.",
+            "question": "Which of these is NOT true of a child under 14?",
+            "options": {
+              "a": "His competence depends on his intellectual capacity as the court finds",
+              "b": "His unsworn evidence needs corroboration before it can be acted on",
+              "c": "He must pass an intelligence test before he can testify",
+              "d": "He is sworn by default, in the same way as an adult witness"
+            },
+            "answer": "d",
+            "explanation": "A child is not sworn or affirmed by default."
+          },
+          {
+            "id": 4,
+            "context": "A trial for armed robbery involves an accomplice, a child witness and a government pathologist. The registrar asks the judge to rule on what evidence needs corroboration.",
+            "question": "Which of these is NOT admissible without calling the maker?",
+            "options": {
+              "a": "A report made by a government pathologist on the cause of death",
+              "b": "A certificate issued by a government expert on a matter",
+              "c": "An autopsy report prepared by a government pathologist",
+              "d": "A police constable's note of a statement by a witness who was not called"
+            },
+            "answer": "d",
+            "explanation": "Reports by government experts are admissible without calling the expert; extra-judicial statements of uncalled witnesses are not."
+          },
+          {
+            "id": 5,
+            "context": "A trial for armed robbery involves an accomplice, a child witness and a government pathologist. The registrar asks the judge to rule on what evidence needs corroboration.",
+            "question": "Bad character evidence is admissible in all of these cases except",
+            "options": {
+              "a": "Bad character is itself a fact in issue in the case",
+              "b": "The defendant has given evidence of his own good character",
+              "c": "The witness dislikes the defendant and wishes to harm him",
+              "d": "A previous conviction of the defendant has been made relevant"
+            },
+            "answer": "c",
+            "explanation": "Bad character is generally inadmissible except in listed cases."
+          },
+          {
+            "id": 6,
+            "context": "A young State prosecutor asks his senior colleague how proceedings are begun in each court, and whether the consent or leave of the court is still needed before an information is filed.",
+            "question": "Proceedings in the Federal High Court begin by",
+            "options": {
+              "a": "A First Information Report only, as in the Magistrate Court",
+              "b": "A charge, as provided by section 33 of the Federal High Court Act",
+              "c": "An information only, filed by the Attorney-General of the Federation",
+              "d": "A complaint only, made to the court by the complainant"
+            },
+            "answer": "b",
+            "explanation": "Section 33 FHC Act provides for a charge, displacing the general s.109 ACJA."
+          },
+          {
+            "id": 7,
+            "context": "A young State prosecutor asks his senior colleague how proceedings are begun in each court, and whether the consent or leave of the court is still needed before an information is filed.",
+            "question": "Under the ACJA, a Magistrate Court proceeding may be begun by all of these except",
+            "options": {
+              "a": "A complaint made to the court by the complainant",
+              "b": "An information filed by the Attorney-General of the Federation",
+              "c": "A charge sheet filed on the arrest of the defendant",
+              "d": "A First Information Report made to the police"
+            },
+            "answer": "b",
+            "explanation": "The Magistrate modes are charge sheet on arrest, FIR and complaint."
+          },
+          {
+            "id": 8,
+            "context": "A young State prosecutor asks his senior colleague how proceedings are begun in each court, and whether the consent or leave of the court is still needed before an information is filed.",
+            "question": "In the High Court of Lagos, the Attorney-General begins proceedings by",
+            "options": {
+              "a": "A writ of summons issued by the registrar of the court",
+              "b": "A summons issued by the judge on application by him",
+              "c": "A complaint filed in the registry of the High Court",
+              "d": "An information, as provided by section 77 of the Lagos Law"
+            },
+            "answer": "d",
+            "explanation": "Section 77(1)(b)(i) ACJL Lagos: AG's information."
+          },
+          {
+            "id": 9,
+            "context": "A young State prosecutor asks his senior colleague how proceedings are begun in each court, and whether the consent or leave of the court is still needed before an information is filed.",
+            "question": "Before filing an information, the leave of court is",
+            "options": {
+              "a": "No longer required in any State of the Federation",
+              "b": "Required for capital offences only, and not for others",
+              "c": "Required in the Northern States only, and not elsewhere",
+              "d": "Still required in every State of the Federation"
+            },
+            "answer": "a",
+            "explanation": "Consent or leave of court is no longer required in any State."
+          },
+          {
+            "id": 10,
+            "context": "A young State prosecutor asks his senior colleague how proceedings are begun in each court, and whether the consent or leave of the court is still needed before an information is filed.",
+            "question": "Where a Practice Direction conflicts with the Rules of Court,",
+            "options": {
+              "a": "Both are void, since each is inconsistent with the other",
+              "b": "The Rules of Court prevail over the Practice Direction",
+              "c": "The judge chooses which of them is to apply to the case",
+              "d": "The Practice Direction prevails over the Rules of Court"
+            },
+            "answer": "b",
+            "explanation": "The Rules of Court prevail."
+          },
+          {
+            "id": 11,
+            "context": "Mr Zubairu, convicted of robbery, applies for bail pending appeal. The respondent says he was a fugitive during trial. The court weighs his health and sentence.",
+            "question": "After conviction, the presumption of innocence",
+            "options": {
+              "a": "Applies in capital cases only, and not in other cases",
+              "b": "Applies at the stage of bail pending appeal only",
+              "c": "No longer applies, as held in Nwaoboshi v FRN",
+              "d": "Still applies until the appeal is finally determined by the court"
+            },
+            "answer": "c",
+            "explanation": "Nwaoboshi v FRN (2023)."
+          },
+          {
+            "id": 12,
+            "context": "Mr Zubairu, convicted of robbery, applies for bail pending appeal. The respondent says he was a fugitive during trial. The court weighs his health and sentence.",
+            "question": "A fugitive is",
+            "options": {
+              "a": "Entitled to it if the conditions for bail are met",
+              "b": "Entitled to it if he is ill and the report supports it",
+              "c": "Never entitled to bail pending appeal, as held in Nwaoboshi v FRN",
+              "d": "Entitled to it if the offence is his first offence"
+            },
+            "answer": "c",
+            "explanation": "Nwaoboshi v FRN."
+          },
+          {
+            "id": 13,
+            "context": "Mr Zubairu, convicted of robbery, applies for bail pending appeal. The respondent says he was a fugitive during trial. The court weighs his health and sentence.",
+            "question": "The factors for bail pending appeal include all of these except",
+            "options": {
+              "a": "The wealth of the convict and his ability to pay the sureties",
+              "b": "The length of the sentence imposed on the convict",
+              "c": "Whether the convict is a first-time offender or not",
+              "d": "The ill health of the convict, supported by a medical report"
+            },
+            "answer": "a",
+            "explanation": "Nature of appeal; health; contestable conviction; sentence; first offender; clean bail record."
+          },
+          {
+            "id": 14,
+            "context": "Mr Zubairu, convicted of robbery, applies for bail pending appeal. The respondent says he was a fugitive during trial. The court weighs his health and sentence.",
+            "question": "In a joint trial, bail pending appeal is applied for",
+            "options": {
+              "a": "Jointly by all the convicts, in a single application to the court",
+              "b": "By the first convict only, on behalf of all the others",
+              "c": "Separately by each convict, in his own application to the court",
+              "d": "By the Attorney-General on behalf of all the convicts"
+            },
+            "answer": "c",
+            "explanation": "Separate application each."
+          },
+          {
+            "id": 15,
+            "context": "Mr Zubairu, convicted of robbery, applies for bail pending appeal. The respondent says he was a fugitive during trial. The court weighs his health and sentence.",
+            "question": "Bail pending appeal lasts until",
+            "options": {
+              "a": "The conclusion of the appeal, unless it ends earlier by jumping bail",
+              "b": "Arraignment of the convict before the appeal court",
+              "c": "Judgment of the trial court on the charge against him",
+              "d": "Sentencing of the convict by the trial court for the offence"
+            },
+            "answer": "a",
+            "explanation": "Appeal bail runs to conclusion; ends on jumping bail or surety discharge."
+          },
+          {
+            "id": 16,
+            "context": "After the charge against Mrs Eze was amended mid-trial, the judge went straight on with the witness without reading the new charge. Her counsel objects that the post-amendment steps were not followed.",
+            "question": "The first step after amendment is to",
+            "options": {
+              "a": "Adjourn the trial to a later date to allow time to prepare",
+              "b": "Recall the witnesses who have already testified in the case",
+              "c": "Take the plea of the defendant to the new charge",
+              "d": "Read and explain the new charge to the defendant"
+            },
+            "answer": "d",
+            "explanation": "The new charge is read and explained to the defendant first."
+          },
+          {
+            "id": 17,
+            "context": "After the charge against Mrs Eze was amended mid-trial, the judge went straight on with the witness without reading the new charge. Her counsel objects that the post-amendment steps were not followed.",
+            "question": "After the charge is explained, the defendant",
+            "options": {
+              "a": "Acquits the defendant of the offence in the original charge",
+              "b": "Enters a fresh plea to the new charge",
+              "c": "Discharges the defendant from the charge, whatever the new charge",
+              "d": "Convicts the defendant on the new charge without more"
+            },
+            "answer": "b",
+            "explanation": "The defendant enters a fresh plea."
+          },
+          {
+            "id": 18,
+            "context": "After the charge against Mrs Eze was amended mid-trial, the judge went straight on with the witness without reading the new charge. Her counsel objects that the post-amendment steps were not followed.",
+            "question": "Failure to read and explain the amended charge before plea renders the trial",
+            "options": {
+              "a": "Voidable by the prosecution at its option within a reasonable time",
+              "b": "Valid, since the defect is a mere technicality of procedure",
+              "c": "A nullity, as held in Ayodele v State",
+              "d": "Subject to costs against the prosecution only, and nothing more"
+            },
+            "answer": "c",
+            "explanation": "Per Ayodele v State, it renders the trial a nullity."
+          },
+          {
+            "id": 19,
+            "context": "After the charge against Mrs Eze was amended mid-trial, the judge went straight on with the witness without reading the new charge. Her counsel objects that the post-amendment steps were not followed.",
+            "question": "After amendment, witnesses may be recalled",
+            "options": {
+              "a": "Only by the defence, and not by the prosecution",
+              "b": "Only on the new charge, with full rights of examination",
+              "c": "On any charge, whether old or new, as the court directs",
+              "d": "Never, since the evidence already given stands as it is"
+            },
+            "answer": "b",
+            "explanation": "Call or recall of witnesses is limited to the new charge, with full rights of examination."
+          },
+          {
+            "id": 20,
+            "context": "After the charge against Mrs Eze was amended mid-trial, the judge went straight on with the witness without reading the new charge. Her counsel objects that the post-amendment steps were not followed.",
+            "question": "The post-amendment steps include all these except",
+            "options": {
+              "a": "A note of the amendment endorsed on the new charge",
+              "b": "Reading of the new charge to the defendant",
+              "c": "A fresh plea by the defendant to the new charge",
+              "d": "Acquittal of the defendant on the amended charge"
+            },
+            "answer": "d",
+            "explanation": "The five steps are reading, plea, adjournment if prejudice, recall of witnesses and endorsement of a note."
+          }
+        ]
+      },
+      {
+        "id": "professional-ethics",
+        "name": "Professional Ethics and Skills",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "A letter from a law firm is signed 'Mensah & Co'. It is marked 'Subject to contract' in one paragraph and 'Without prejudice' in another. The client wants to know the effect of each.",
+            "question": "A letter should NOT be signed",
+            "options": {
+              "a": "With 'PP' when the signer acts on another's behalf",
+              "b": "With 'for' when the signer acts on another's behalf",
+              "c": "In the firm's name alone, without the name of the writer",
+              "d": "By the writer, above his typed name on the letter"
+            },
+            "answer": "c",
+            "explanation": "SCC (Nig) Ltd v Ekenma."
+          },
+          {
+            "id": 2,
+            "context": "A letter from a law firm is signed 'Mensah & Co'. It is marked 'Subject to contract' in one paragraph and 'Without prejudice' in another. The client wants to know the effect of each.",
+            "question": "'Subject to contract' means the parties",
+            "options": {
+              "a": "Are bound at once by the terms of the letter",
+              "b": "Are not bound until a formal contract is executed",
+              "c": "Are bound only after payment has been made",
+              "d": "Are bound orally, whatever the terms of the letter"
+            },
+            "answer": "b",
+            "explanation": "Tejumola & Sons v UBA."
+          },
+          {
+            "id": 3,
+            "context": "A letter from a law firm is signed 'Mensah & Co'. It is marked 'Subject to contract' in one paragraph and 'Without prejudice' in another. The client wants to know the effect of each.",
+            "question": "A statement 'without prejudice' made in settlement negotiations is",
+            "options": {
+              "a": "Inadmissible in evidence, under sections 26 and 196 of the Evidence Act",
+              "b": "Admissible in criminal cases only, and not in civil ones",
+              "c": "Admissible always, whatever the purpose of the statement",
+              "d": "Admissible if it is signed by the party who made it"
+            },
+            "answer": "a",
+            "explanation": "Sections 26 and 196 Evidence Act."
+          },
+          {
+            "id": 4,
+            "context": "A letter from a law firm is signed 'Mensah & Co'. It is marked 'Subject to contract' in one paragraph and 'Without prejudice' in another. The client wants to know the effect of each.",
+            "question": "'BC' on a letter means",
+            "options": {
+              "a": "Business copy, sent to the business partner of the writer",
+              "b": "Bar copy, sent to the Bar Association",
+              "c": "Blind copy, sent without the knowledge of the addressee",
+              "d": "Bold copy, sent in bold type to the addressee"
+            },
+            "answer": "c",
+            "explanation": "The recipient is unaware."
+          },
+          {
+            "id": 5,
+            "context": "A letter from a law firm is signed 'Mensah & Co'. It is marked 'Subject to contract' in one paragraph and 'Without prejudice' in another. The client wants to know the effect of each.",
+            "question": "A letter marked 'Personal' is sent to",
+            "options": {
+              "a": "The court, in the course of a pending case",
+              "b": "The press, for publication in its pages",
+              "c": "The person named, not in an official capacity",
+              "d": "The firm, in its official capacity as a firm"
+            },
+            "answer": "c",
+            "explanation": "Letter parts."
+          },
+          {
+            "id": 6,
+            "context": "A mediated agreement is signed at the Lagos Multi-Door Court House. One party asks whether it is a judgment of the High Court. The ADR Judge has not yet endorsed it.",
+            "question": "An LMDC agreement becomes a consent judgment only after",
+            "options": {
+              "a": "Filing of the agreement at the Corporate Affairs Commission",
+              "b": "Endorsement of the agreement by the ADR Judge",
+              "c": "Signing of the agreement by the parties only",
+              "d": "Registration of the agreement with the police"
+            },
+            "answer": "b",
+            "explanation": "Rule 19 LMDC Rules."
+          },
+          {
+            "id": 7,
+            "context": "A mediated agreement is signed at the Lagos Multi-Door Court House. One party asks whether it is a judgment of the High Court. The ADR Judge has not yet endorsed it.",
+            "question": "An agreement merely signed by the parties but not endorsed is enforceable as",
+            "options": {
+              "a": "An ordinary contract between the parties who signed it",
+              "b": "A statute enacted by the legislature of the State",
+              "c": "A judgment of the High Court of the State",
+              "d": "A criminal order made by the court of the State"
+            },
+            "answer": "a",
+            "explanation": "Not endorsed."
+          },
+          {
+            "id": 8,
+            "context": "A mediated agreement is signed at the Lagos Multi-Door Court House. One party asks whether it is a judgment of the High Court. The ADR Judge has not yet endorsed it.",
+            "question": "The LMDC was established in",
+            "options": {
+              "a": "The year 2007, in Lagos State",
+              "b": "The year 1999, in Lagos State",
+              "c": "The year 2012, in Lagos State",
+              "d": "The year 2002, in Lagos State"
+            },
+            "answer": "d",
+            "explanation": "The Lagos MDC Law came in 2007."
+          },
+          {
+            "id": 9,
+            "context": "A mediated agreement is signed at the Lagos Multi-Door Court House. One party asks whether it is a judgment of the High Court. The ADR Judge has not yet endorsed it.",
+            "question": "Cases come to the LMDC as walk-ins, court referrals or",
+            "options": {
+              "a": "Orders issued by the Attorney-General of the State",
+              "b": "Direct interventions by the centre in a dispute",
+              "c": "Directions given by the President of the Federation",
+              "d": "Reports made by the police to the centre"
+            },
+            "answer": "b",
+            "explanation": "Case entry routes."
+          },
+          {
+            "id": 10,
+            "context": "A mediated agreement is signed at the Lagos Multi-Door Court House. One party asks whether it is a judgment of the High Court. The ADR Judge has not yet endorsed it.",
+            "question": "MDCs are attached to the High Court in all of these except",
+            "options": {
+              "a": "The Abuja Multi-Door Court House attached to the High Court",
+              "b": "The Lagos Multi-Door Court House attached to the High Court",
+              "c": "The Kano Multi-Door Court House attached to the High Court",
+              "d": "The Port Harcourt Multi-Door Court House attached to the High Court"
+            },
+            "answer": "d",
+            "explanation": "Kano, Abuja and Lagos are named."
+          },
+          {
+            "id": 11,
+            "context": "Barrister Uche is retained to defend a company in a contract suit. He discovers that his client has forged a document it intends to tender, and the client insists on tendering it.",
+            "question": "Where a client insists on illegality, the lawyer must",
+            "options": {
+              "a": "Continue with the case and advise the client",
+              "b": "Tender the document himself in the proceedings",
+              "c": "Withdraw from the case, under Rule 15(1)-(2)",
+              "d": "Report the client to the police at once"
+            },
+            "answer": "c",
+            "explanation": "Rule 15(1)-(2) RPC."
+          },
+          {
+            "id": 12,
+            "context": "Barrister Uche is retained to defend a company in a contract suit. He discovers that his client has forged a document it intends to tender, and the client insists on tendering it.",
+            "question": "A lawyer's first duty is to",
+            "options": {
+              "a": "The Nigerian Bar Association, as his professional body",
+              "b": "His colleagues, as members of the same profession",
+              "c": "The court, which supersedes his duty to the client",
+              "d": "The client, who has engaged him for the case"
+            },
+            "answer": "c",
+            "explanation": "It supersedes duty to the client."
+          },
+          {
+            "id": 13,
+            "context": "Barrister Uche is retained to defend a company in a contract suit. He discovers that his client has forged a document it intends to tender, and the client insists on tendering it.",
+            "question": "Under Rule 15(3), a lawyer shall NOT",
+            "options": {
+              "a": "Cross-examine a witness called by the other side",
+              "b": "Use or create false evidence in the proceedings",
+              "c": "Inform the client of the ADR options open to him",
+              "d": "Advise the client on the law applicable to the case"
+            },
+            "answer": "b",
+            "explanation": "Rule 15(3)(d) requires him to inform the client of ADR options; false evidence is prohibited."
+          },
+          {
+            "id": 14,
+            "context": "Barrister Uche is retained to defend a company in a contract suit. He discovers that his client has forged a document it intends to tender, and the client insists on tendering it.",
+            "question": "On learning that a client has perpetrated a fraud, the lawyer must first",
+            "options": {
+              "a": "Call on the client to rectify the fraud",
+              "b": "Warn the victim of the fraud",
+              "c": "Withdraw silently from the case without saying why",
+              "d": "Report the client to the court"
+            },
+            "answer": "a",
+            "explanation": "Rule 15(4) RPC."
+          },
+          {
+            "id": 15,
+            "context": "Barrister Uche is retained to defend a company in a contract suit. He discovers that his client has forged a document it intends to tender, and the client insists on tendering it.",
+            "question": "Instructions given to perpetrate a fraud are",
+            "options": {
+              "a": "Not privileged, as held in Myers v Elman",
+              "b": "Privileged in civil matters only, and not in criminal matters",
+              "c": "Privileged if given orally and not in writing",
+              "d": "Privileged, whatever the purpose of the instructions"
+            },
+            "answer": "a",
+            "explanation": "Myers v Elman; Goodenough v Spencer."
+          },
+          {
+            "id": 16,
+            "context": "Barrister Kemi is asked by a new client to form a company and act as its secretary, and later to handle the sale of a property for ₦80 million paid partly in cash. The client avoids meeting her.",
+            "question": "The objectives of the AML rules include all of these except",
+            "options": {
+              "a": "Self-regulation of the profession by the Bar",
+              "b": "Adherence to the rule of law by lawyers",
+              "c": "Protection of the confidentiality of client information",
+              "d": "Increasing the legal fees charged by lawyers"
+            },
+            "answer": "d",
+            "explanation": "Rule 55(1)/56(1) RPC."
+          },
+          {
+            "id": 17,
+            "context": "Barrister Kemi is asked by a new client to form a company and act as its secretary, and later to handle the sale of a property for ₦80 million paid partly in cash. The client avoids meeting her.",
+            "question": "The AML duties apply to specified transactions, including",
+            "options": {
+              "a": "Writing a will for a client of the firm",
+              "b": "Preparing a witness for trial in a case",
+              "c": "Filing a defence in a suit in court",
+              "d": "Forming legal entities for a client of the firm"
+            },
+            "answer": "d",
+            "explanation": "Rule 57(1) RPC."
+          },
+          {
+            "id": 18,
+            "context": "Barrister Kemi is asked by a new client to form a company and act as its secretary, and later to handle the sale of a property for ₦80 million paid partly in cash. The client avoids meeting her.",
+            "question": "Failure to comply with Chapter 2 is",
+            "options": {
+              "a": "A contempt of court punishable by the judge",
+              "b": "A pardonable lapse by the lawyer concerned",
+              "c": "A civil wrong only, and not an offence",
+              "d": "A professional offence for which the lawyer may be punished"
+            },
+            "answer": "d",
+            "explanation": "Rule 57(1) RPC."
+          },
+          {
+            "id": 19,
+            "context": "Barrister Kemi is asked by a new client to form a company and act as its secretary, and later to handle the sale of a property for ₦80 million paid partly in cash. The client avoids meeting her.",
+            "question": "Potential red flags include all of these except",
+            "options": {
+              "a": "Cash-intensive business with no apparent reason",
+              "b": "A client who meets face-to-face regularly",
+              "c": "Avoiding face-to-face meetings with the lawyer",
+              "d": "Use of intermediaries to hide beneficial ownership"
+            },
+            "answer": "b",
+            "explanation": "Rule 69 CDD red flags."
+          },
+          {
+            "id": 20,
+            "context": "Barrister Kemi is asked by a new client to form a company and act as its secretary, and later to handle the sale of a property for ₦80 million paid partly in cash. The client avoids meeting her.",
+            "question": "For CDD, the client",
+            "options": {
+              "a": "Need not be physically present when the checks are made",
+              "b": "Must pay in cash before the checks are made",
+              "c": "Must be a company before the checks are made",
+              "d": "Must be present in person when the checks are made"
+            },
+            "answer": "a",
+            "explanation": "Due diligence can be done by questions, calls, social media."
+          }
+        ]
+      }
+    ]
+  }
 
 };
 

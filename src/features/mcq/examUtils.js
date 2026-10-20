@@ -1,11 +1,21 @@
-// Practice sessions (practice-1..practice-N) and Snap Test sessions
-// (snap-test-*) each share a synthetic numeric "year" so they group into
-// their own bucket in the exam-session list — it isn't a real year, so it
-// must never be appended to the displayed label. "Practice 1", not
-// "Practice 1 9999"; "Snap Test (Lagos Campus)", not "... 9998".
+// Practice sessions (practice-1..practice-N), Snap Test sessions
+// (snap-test-*) and CPC sessions (cpc-*) each share a synthetic numeric
+// "year" so they group into their own bucket in the exam-session list — it
+// isn't a real year, so it must never be appended to the displayed label.
+// "Practice 1", not "Practice 1 9999"; "Snap Test (Lagos Campus)", not
+// "... 9998"; "CPC Test 1", not "... 9997".
 export const PRACTICE_YEAR = 9999;
 export const SNAP_TEST_YEAR = 9998;
-export const isSyntheticYear = (year) => year === PRACTICE_YEAR || year === SNAP_TEST_YEAR;
+export const CPC_YEAR = 9997;
+export const isSyntheticYear = (year) =>
+  year === PRACTICE_YEAR || year === SNAP_TEST_YEAR || year === CPC_YEAR;
+
+// CPC (cpc-*) sessions are visible only to this account, everywhere they
+// could surface — the past-questions session list, quiz access, and the
+// leaderboard. Not a security boundary (client-side only); just keeps the
+// in-progress CPC content from appearing for other users.
+export const CPC_VISIBLE_TO_EMAIL = "musahabeebefy12@gmail.com";
+export const isCpcSession = (year) => year === CPC_YEAR;
 
 // Single source of truth for rendering a session's label. Accepts either
 // { session, year } or the quiz_attempts shape { session, year } directly.
@@ -17,7 +27,7 @@ export function formatExamSessionLabel(session) {
 export function getCompleteExamSessions(mcqQuestions) {
   return Object.entries(mcqQuestions)
     .flatMap(([sessionId, session]) => {
-      if (!session?.courses || session.courses.length !== 5) return [];
+      if (!session?.courses || session.courses.length === 0) return [];
 
       return [
         {

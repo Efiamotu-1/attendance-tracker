@@ -5,12 +5,15 @@ import mcqQuestions from "../data/mcqQuestions";
 import revisedMcqQuestion from "../data/revisedMcqQuestion";
 import topicQuizzes from "../data/topicQuizzes";
 import { useQuizAttempts } from "../features/mcq/useQuizAttempts";
+import { useCurrentUserEmail } from "../features/authentication/useCurrentUserEmail";
 import {
   getCompleteExamSessions,
-  getCompleteExamYears,
   formatExamSessionLabel,
   PRACTICE_YEAR,
   SNAP_TEST_YEAR,
+  CPC_YEAR,
+  isCpcSession,
+  CPC_VISIBLE_TO_EMAIL,
 } from "../features/mcq/examUtils";
 import {
   HiOutlineDocumentArrowDown,
@@ -32,7 +35,13 @@ import {
 const isPracticeYear = (year) => year === PRACTICE_YEAR;
 const isSnapTestYear = (year) => year === SNAP_TEST_YEAR;
 const getExamYearLabel = (year) =>
-  isPracticeYear(year) ? "Practice Questions" : isSnapTestYear(year) ? "Snap Tests" : year;
+  isPracticeYear(year)
+    ? "Practice Questions"
+    : isSnapTestYear(year)
+    ? "Snap Tests"
+    : year === CPC_YEAR
+    ? "CPC Tests"
+    : year;
 
 // Downloadable files
 const downloadableFiles = [
@@ -158,6 +167,7 @@ function McqPastQuestions() {
   const { isDarkMode } = useTheme();
   const navigate = useNavigate();
   const { attempts: allAttempts } = useQuizAttempts();
+  const currentUserEmail = useCurrentUserEmail();
 
   // Helper to get best score for a specific quiz
   const getQuizStats = (sessionId, courseId) => {
@@ -282,8 +292,18 @@ function McqPastQuestions() {
     (sum, q) => sum + q.questionsCount,
     0
   );
-  const examSessions = useMemo(() => getCompleteExamSessions(revisedMcqQuestion), []);
-  const examYears = useMemo(() => getCompleteExamYears(revisedMcqQuestion), []);
+  const allExamSessions = useMemo(() => getCompleteExamSessions(revisedMcqQuestion), []);
+  const examSessions = useMemo(
+    () =>
+      allExamSessions.filter(
+        (session) => !isCpcSession(session.year) || currentUserEmail === CPC_VISIBLE_TO_EMAIL
+      ),
+    [allExamSessions, currentUserEmail]
+  );
+  const examYears = useMemo(
+    () => [...new Set(examSessions.map((session) => session.year))].sort((a, b) => b - a),
+    [examSessions]
+  );
   const examSessionsByYear = useMemo(() => {
     return examSessions.reduce((acc, session) => {
       if (!acc[session.year]) acc[session.year] = [];

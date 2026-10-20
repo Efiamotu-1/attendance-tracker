@@ -6,7 +6,8 @@ import {
   useExamLeaderboardSessions,
 } from "../features/mcq/useExamLeaderboard";
 import Spinner from "../ui/Spinner";
-import { formatExamSessionLabel } from "../features/mcq/examUtils";
+import { formatExamSessionLabel, CPC_VISIBLE_TO_EMAIL } from "../features/mcq/examUtils";
+import { useCurrentUserEmail } from "../features/authentication/useCurrentUserEmail";
 import {
   HiOutlineArrowLeft,
   HiOutlineTrophy,
@@ -17,25 +18,34 @@ import { GiCrown } from "react-icons/gi";
 // Practice sessions (practice-1..practice-8) are study drills, not real exam
 // sittings — keep them out of the competitive leaderboard entirely.
 const isPracticeSession = (sessionId) => sessionId?.startsWith("practice-");
+// CPC sessions (cpc-1..cpc-12) are visible on the leaderboard only to the
+// account named in CPC_VISIBLE_TO_EMAIL — everyone else never sees them,
+// in the session tabs or in ranked entries.
+const isCpcSession = (sessionId) => sessionId?.startsWith("cpc-");
 
 function McqLeaderboard() {
   const { isDarkMode } = useTheme();
   const navigate = useNavigate();
   const [selectedLeaderboardSession, setSelectedLeaderboardSession] = useState(null);
+  const currentUserEmail = useCurrentUserEmail();
+  const canSeeCpc = currentUserEmail === CPC_VISIBLE_TO_EMAIL;
   const { sessions: rawLeaderboardSessions } = useExamLeaderboardSessions();
   // Over-fetch from the RPC (its LIMIT is applied server-side before we can
-  // filter out practice sessions), then filter and trim to 10 here so
-  // removing practice entries never leaves fewer than 10 real results.
+  // filter out practice/CPC sessions), then filter and trim to 10 here so
+  // removing those entries never leaves fewer than 10 real results.
   const { isLoading: leaderboardLoading, leaderboard: rawLeaderboard } = useExamLeaderboard(
     50,
     selectedLeaderboardSession
   );
 
   const leaderboardSessions = rawLeaderboardSessions?.filter(
-    (s) => !isPracticeSession(s.session_id)
+    (s) => !isPracticeSession(s.session_id) && (canSeeCpc || !isCpcSession(s.session_id))
   );
   const leaderboard = rawLeaderboard
-    ?.filter((entry) => !isPracticeSession(entry.session_id))
+    ?.filter(
+      (entry) =>
+        !isPracticeSession(entry.session_id) && (canSeeCpc || !isCpcSession(entry.session_id))
+    )
     .slice(0, 10)
     // Re-derive rank after filtering — the RPC's original rank can have
     // gaps once practice-session entries are removed (it was already
