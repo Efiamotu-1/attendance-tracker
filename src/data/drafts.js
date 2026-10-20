@@ -697,7 +697,7 @@ const drafts = {
           { t: "line", text: "THIS DEED WITNESSES AS FOLLOWS:" },
           {
             t: "para",
-            text: "In consideration of the rent and lessee's covenant reserved and contained, the lessor demises to the lessee ALL THAT property at No 44, Dosunmu Street, Illaje, Lagos Nigeria (in this agreement referred to as the demised premises situated at No 44 Dosunmu Street, Illaje, Lagos, Nigeria) for the term of 5 years commencing from May 29th 2025 to May 28th 2030 and paying the yearly rent of N5,000,000 and the sum of N10,000,000 representing the rent for 2 years having been paid before execution of these, the receipt of which the lessee hereby acknowledges.",
+            text: "In consideration of the rent and lessee's covenant reserved and contained, the lessor demises to the lessee ALL THAT property situate at No 44, Dosunmu Street, Illaje, Lagos Nigeria (in this agreement referred to as the demised premises situate at No 44 Dosunmu Street, Illaje, Lagos, Nigeria) for the term of 5 years commencing from May 29th 2025 to May 28th 2030 and paying the yearly rent of N5,000,000 and the sum of N10,000,000 representing the rent for 2 years having been paid before execution of these, the receipt of which the lessee hereby acknowledges.",
           },
           { t: "heading", align: "center", lines: ["MISCELLANEOUS PART"] },
           { t: "line", text: "The Lessor covenants as follows:" },
@@ -729,7 +729,7 @@ const drafts = {
         red: false,
         category: "Deeds",
         scenario:
-          "Draft a Deed of Assignment between Mr Bolu Daniels of 13 Alimi Street, Ipaja, Lagos (Assignor) and Mr John Bosco of 12, Lafenwa Close, Ogun State (Assignee), in consideration of N100,000,000 paid by the Assignee to the Assignor, assigning all that parcel of land situated at Queens Road, Lekki, covered by Certificate of Occupancy No. 49/51/2010A, more particularly described in the survey plan attached to the schedule, to hold unto the Assignee as holder of a statutory right of occupancy for the term unexpired on the certificate. Includes an undertaking for safe custody of title documents and an acknowledgement clause.",
+          "Draft a Deed of Assignment between Mr Bolu Daniels of 13 Alimi Street, Ipaja, Lagos (Assignor) and Mr John Bosco of 12, Lafenwa Close, Ogun State (Assignee), in consideration of N100,000,000 paid by the Assignee to the Assignor, assigning all that parcel of land situated at Queens Road, Lekki, covered by Certificate of Occupancy No. 49/51/2010A, more particularly described in the survey plan attached to the schedule, to hold unto the Assignee as holder of a statutory right of occupancy for the term unexpired on the certificate of occupancy subject to the Land Use Act. Includes an undertaking for safe custody of title documents and an acknowledgement clause.",
         keyPoints: [
           "Commencement: 'THIS DEED OF ASSIGNMENT (is) made this ___ day of ___'",
           "Parties clause naming the Assignor (one part) and Assignee (other part)",
@@ -737,8 +737,8 @@ const drafts = {
           "Testatum: 'THIS DEED WITNESSES AS FOLLOWS'",
           "Consideration clause stating the sum paid, and the Receipt clause acknowledging it",
           "Covenant of title: 'THE ASSIGNOR AS BENEFICIAL OWNER hereby assigns'",
-          "Parcel clause: 'ALL THAT PARCEL situated at [location] covered by a Certificate of Occupancy No. [___] and more particularly described in the survey plan prepared by a licensed surveyor attached to the schedule, with all rights, easements and things appurtenant to it'",
-          "Habendum: 'TO HOLD UNTO the assignee as holder of a statutory right of occupancy for the term unexpired on the certificate'",
+          "Parcel clause: 'ALL THAT PARCEL situate at [location] covered by a Certificate of Occupancy No. [___] and more particularly described in the survey plan prepared by a licensed surveyor attached to the schedule, with all rights, easements and things appurtenant to it'",
+          "Habendum: 'TO HOLD UNTO the assignee as holder of a statutory right of occupancy for the term unexpired on the certificate of occupancy subject to the Land Use Act'",
           "Undertaking for safe custody of title documents",
           "Acknowledgement clause recording the assignee's right to production of the documents for inspection",
           "Note: a Miscellaneous Part does not need to be in the draft, it sometimes depends on the scenario",
@@ -771,11 +771,11 @@ const drafts = {
           },
           {
             t: "para",
-            text: "THE ASSIGNOR AS BENEFICIAL OWNER hereby assigns ALL THAT PARCEL situated at Queens Road Lekki covered by a Certificate of Occupancy No. 49/51/2010A and more particularly described in the survey plan prepared by a licensed surveyor attached to the schedule, with all rights, easements and things appurtenant to it.",
+            text: "THE ASSIGNOR AS BENEFICIAL OWNER hereby assigns ALL THAT PARCEL situate at Queens Road Lekki covered by a Certificate of Occupancy No. 49/51/2010A and more particularly described in the survey plan prepared by a licensed surveyor attached to the schedule, with all rights, easements and things appurtenant to it.",
           },
           {
             t: "para",
-            text: "TO HOLD UNTO the assignee as holder of a statutory right of occupancy for the term unexpired on the certificate.",
+            text: "TO HOLD UNTO the assignee as holder of a statutory right of occupancy for the term unexpired on the certificate of occupancy subject to the Land Use Act.",
           },
           { t: "line", text: "UNDERTAKING FOR SAFE CUSTODY" },
           {
@@ -820,8 +820,8 @@ const drafts = {
         keyPoints: [
           "Commencement: 'BY THIS POWER OF ATTORNEY made this ___ day of ___, I [Donor] appoints [Donee] my true and lawful attorney in my name and on my behalf to do all or any of the following acts'",
           "Appointment clause naming the Donor and Donee with their addresses",
-          "Numbered list of specific acts the attorney is empowered to do (e.g. to sell, to buy)",
-          "Power clause: 'AND TO DO ALL THINGS necessary or incidental to any of the above powers as I may lawfully do'",
+          "Power clause: the numbered list of specific acts the attorney is empowered to do (e.g. to sell, to buy)",
+          "Omnibus clause: 'AND TO DO ALL THINGS necessary or incidental to any of the above powers as I may lawfully do'",
           "Irrevocability clause: 'And I declare that this power of attorney shall be irrevocable for a period of ___ months' (only where the power is to be irrevocable)",
           "Testimonium: 'IN WITNESS OF WHICH, I, the donor have executed this power of attorney in the manner below the day and year first above written'",
           "Execution clause: 'SIGNED, SEALED AND DELIVERED by the within named Donor', signature line, name",
