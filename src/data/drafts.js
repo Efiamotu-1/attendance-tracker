@@ -734,7 +734,7 @@ const drafts = {
           "Commencement: 'THIS DEED OF ASSIGNMENT (is) made this ___ day of ___'",
           "Parties clause naming the Assignor (one part) and Assignee (other part)",
           "Recital ('WHEREAS')",
-          "Testatum: 'NOW THIS DEED WITNESSES AS FOLLOWS'",
+          "Testatum: 'THIS DEED WITNESSES AS FOLLOWS'",
           "Consideration clause stating the sum paid, and the Receipt clause acknowledging it",
           "Covenant of title: 'THE ASSIGNOR AS BENEFICIAL OWNER hereby assigns'",
           "Parcel clause: 'ALL THAT PARCEL situated at [location] covered by a Certificate of Occupancy No. [___] and more particularly described in the survey plan prepared by a licensed surveyor attached to the schedule, with all rights, easements and things appurtenant to it'",
@@ -764,7 +764,7 @@ const drafts = {
           { t: "line", text: "WHEREAS:" },
           { t: "numbered", items: ["________.", "________."] },
           { t: "heading", align: "center", lines: ["OPERATING PART"] },
-          { t: "line", text: "NOW THIS DEED WITNESSES AS FOLLOWS:" },
+          { t: "line", text: "THIS DEED WITNESSES AS FOLLOWS:" },
           {
             t: "para",
             text: "In Consideration of the sum of N100,000,000 (one hundred million naira) paid by the assignee to the assignor (the receipt of which the assignor acknowledges).",
