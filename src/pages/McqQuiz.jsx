@@ -208,25 +208,33 @@ function McqQuiz() {
     let incorrect = 0;
     let unanswered = 0;
     let bonusCount = 0;
+    const byCourse = {};
 
     questions.forEach((q) => {
       const questionKey = q.questionKey ?? `${q.id}`;
+      const courseBucket = isExamMode
+        ? (byCourse[q.courseId] ??= { courseId: q.courseId, courseName: q.courseName, correct: 0, total: 0 })
+        : null;
+      if (courseBucket) courseBucket.total++;
 
       if (q.answer === "bonus") {
         bonusCount++;
         correct++;
+        if (courseBucket) courseBucket.correct++;
       } else if (!selectedAnswers[questionKey]) {
         unanswered++;
       } else if (selectedAnswers[questionKey] === q.answer) {
         correct++;
+        if (courseBucket) courseBucket.correct++;
       } else {
         incorrect++;
       }
     });
 
     const percentage = Math.round((correct / totalQuestions) * 100);
-    return { correct, incorrect, unanswered, bonusCount, percentage };
-  }, [questions, selectedAnswers, totalQuestions]);
+    const courseBreakdown = isExamMode ? Object.values(byCourse) : [];
+    return { correct, incorrect, unanswered, bonusCount, percentage, courseBreakdown };
+  }, [questions, selectedAnswers, totalQuestions, isExamMode]);
 
   const handleFinishQuiz = useCallback(() => {
     clearInterval(timerRef.current);
@@ -1187,6 +1195,47 @@ function McqQuiz() {
               </div>
             )}
           </div>
+
+          {/* Per-course breakdown — exam-styled mode only, since that's the
+              only mode where several courses are answered in one sitting. */}
+          {results.courseBreakdown.length > 0 && (
+            <div className="mb-6 sm:mb-8 text-left">
+              <h3
+                className={`text-xs sm:text-sm font-semibold mb-2.5 sm:mb-3 flex items-center gap-2 ${
+                  isDarkMode ? "text-dark-300" : "text-gray-600"
+                }`}
+              >
+                <HiOutlineChartBar className="w-4 h-4" />
+                Score by Course
+              </h3>
+              <div className="space-y-1.5 sm:space-y-2">
+                {results.courseBreakdown.map((c) => {
+                  const pct = c.total > 0 ? Math.round((c.correct / c.total) * 100) : 0;
+                  const pctColor =
+                    pct >= 75 ? "text-green-500" : pct >= 50 ? "text-yellow-500" : "text-red-500";
+                  return (
+                    <div
+                      key={c.courseId}
+                      className={`flex items-center justify-between gap-3 rounded-xl border px-3 py-2.5 ${
+                        isDarkMode ? "border-dark-700 bg-dark-700/30" : "border-gray-200 bg-gray-50"
+                      }`}
+                    >
+                      <span
+                        className={`text-xs sm:text-sm font-medium truncate ${
+                          isDarkMode ? "text-dark-200" : "text-gray-700"
+                        }`}
+                      >
+                        {c.courseName}
+                      </span>
+                      <span className={`text-xs sm:text-sm font-bold flex-shrink-0 ${pctColor}`}>
+                        {c.correct}/{c.total} ({pct}%)
+                      </span>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          )}
 
           {/* Previous Attempts History */}
           {previousAttempts.length > 1 && (
