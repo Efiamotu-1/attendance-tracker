@@ -6,6 +6,7 @@ import revisedMcqQuestion from "../data/revisedMcqQuestion";
 import topicQuizzes from "../data/topicQuizzes";
 import { useSaveQuizAttempt } from "../features/mcq/useSaveQuizAttempt";
 import { useQuizAttempts } from "../features/mcq/useQuizAttempts";
+import { useCurrentUserId } from "../features/authentication/useCurrentUserId";
 import { useCreateQuestionReport } from "../features/feedback/useCreateQuestionReport";
 import QuizTimerSettings from "../features/mcq/QuizTimerSettings";
 import QuestionReportModal from "../features/feedback/QuestionReportModal";
@@ -26,12 +27,22 @@ import {
   HiOutlineQueueList,
 } from "react-icons/hi2";
 
+// Per-user, per-session retake blocks. Keyed by user_id (not email — more
+// stable, and matches what quiz_attempts/user_feedback key on), value is
+// the set of exam sessionIds blocked for that user.
+const BLOCKED_RETAKES = {
+  "2ea72f1b-4958-43f3-b4ba-81b87369d4db": ["2020-january"],
+};
+
 function McqQuiz() {
   const { sessionId, courseId, courseSlug, topicId } = useParams();
   const navigate = useNavigate();
   const { isDarkMode } = useTheme();
+  const currentUserId = useCurrentUserId();
   const isTopicMode = !!(courseSlug && topicId);
   const isExamMode = !isTopicMode && !courseId;
+  const isBlockedRetake =
+    isExamMode && !!currentUserId && (BLOCKED_RETAKES[currentUserId] ?? []).includes(sessionId);
 
   // Key used to persist/restore the last-submitted result for this exact quiz
   const resultStorageKey = `mcq-last-result:${
@@ -313,6 +324,22 @@ function McqQuiz() {
         <p className={`text-sm ${isDarkMode ? "text-dark-400" : "text-gray-500"}`}>
           The quiz you&apos;re looking for doesn&apos;t exist.
         </p>
+        <button
+          onClick={() => navigate("/mcq-past-questions")}
+          className="mt-4 px-6 py-2.5 bg-primary-500 text-white rounded-xl font-medium hover:bg-primary-600 active:bg-primary-700 transition-colors"
+        >
+          Back to MCQ
+        </button>
+      </div>
+    );
+  }
+
+  if (isBlockedRetake) {
+    return (
+      <div className="px-4 sm:px-6 py-8 max-w-3xl mx-auto text-center">
+        <h1 className="text-xl sm:text-2xl font-bold text-red-500 mb-4">
+          Kindly take a different quiz
+        </h1>
         <button
           onClick={() => navigate("/mcq-past-questions")}
           className="mt-4 px-6 py-2.5 bg-primary-500 text-white rounded-xl font-medium hover:bg-primary-600 active:bg-primary-700 transition-colors"
