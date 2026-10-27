@@ -16,9 +16,59 @@ import {
   HiOutlineSparkles,
   HiOutlineFlag,
   HiOutlineFolderOpen,
+  HiOutlineMagnifyingGlass,
 } from "react-icons/hi2";
 
 const courseEntries = Object.entries(flashcards); // [[courseId, {courseName, decks}], ...]
+
+// Flat index of every card across every deck/course, built once at module
+// load (the data is static), so global search has no per-keystroke cost
+// beyond filtering this array.
+const allCardsIndex = courseEntries.flatMap(([courseId, course]) =>
+  course.decks.flatMap((deck, deckIdx) =>
+    deck.cards.map((card, cardIdx) => ({
+      courseId,
+      courseName: course.courseName,
+      deck,
+      deckIdx,
+      cardIdx,
+      card,
+      // Pre-lowercased haystack for fast, case-insensitive matching.
+      haystack: [card.category, card.question, ...(card.answer || []), card.source]
+        .filter(Boolean)
+        .join(" \n ")
+        .toLowerCase(),
+    }))
+  )
+);
+
+function searchCards(query) {
+  const q = query.trim().toLowerCase();
+  if (!q) return [];
+  return allCardsIndex.filter((entry) => entry.haystack.includes(q)).slice(0, 40);
+}
+
+// Wraps the first match of `query` in the given text with a <mark>-style
+// highlight, for showing why a result matched.
+function Highlight({ text, query, isDarkMode }) {
+  if (!query.trim()) return <>{text}</>;
+  const idx = text.toLowerCase().indexOf(query.trim().toLowerCase());
+  if (idx === -1) return <>{text}</>;
+  const end = idx + query.trim().length;
+  return (
+    <>
+      {text.slice(0, idx)}
+      <mark
+        className={`rounded px-0.5 ${
+          isDarkMode ? "bg-primary-500/30 text-primary-200" : "bg-primary-200 text-primary-900"
+        }`}
+      >
+        {text.slice(idx, end)}
+      </mark>
+      {text.slice(end)}
+    </>
+  );
+}
 
 function shuffleArray(arr) {
   const copy = [...arr];
@@ -29,12 +79,16 @@ function shuffleArray(arr) {
   return copy;
 }
 
-function DeckPlayer({ deck, courseName, isDarkMode, onBack }) {
+function DeckPlayer({ deck, courseName, isDarkMode, onBack, startCardIdx }) {
   const categories = useMemo(
     () => ["All", ...new Set(deck.cards.map((c) => c.category))],
     [deck]
   );
-  const [filter, setFilter] = useState("All");
+  // Jumping in from search lands on the matched card's own category filter,
+  // so the card is actually reachable in the pool (not filtered out).
+  const [filter, setFilter] = useState(
+    startCardIdx != null ? deck.cards[startCardIdx]?.category ?? "All" : "All"
+  );
   const [order, setOrder] = useState([]);
   const [index, setIndex] = useState(0);
   const [shown, setShown] = useState(false);
@@ -55,7 +109,8 @@ function DeckPlayer({ deck, courseName, isDarkMode, onBack }) {
   useEffect(() => {
     const pool = missedOnly ? basePool.filter((idx) => results[idx] === "miss") : basePool;
     setOrder(pool);
-    setIndex(0);
+    const landingIdx = startCardIdx != null ? pool.indexOf(startCardIdx) : -1;
+    setIndex(landingIdx !== -1 ? landingIdx : 0);
     setShown(false);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [filter, missedOnly, deck]);
@@ -477,15 +532,30 @@ function McqFlashcards() {
   const navigate = useNavigate();
   const [activeCourseId, setActiveCourseId] = useState(courseEntries[0]?.[0] ?? null);
   const [activeDeck, setActiveDeck] = useState(null); // deck object
+  const [activeDeckCourseName, setActiveDeckCourseName] = useState(null);
+  const [startCardIdx, setStartCardIdx] = useState(null);
+  const [searchQuery, setSearchQuery] = useState("");
+
+  const searchResults = useMemo(() => searchCards(searchQuery), [searchQuery]);
+
+  const openResult = (result) => {
+    setActiveCourseId(result.courseId);
+    setActiveDeckCourseName(result.courseName);
+    setStartCardIdx(result.cardIdx);
+    setActiveDeck(result.deck);
+  };
 
   if (activeDeck) {
-    const deckCourse = courseEntries.find(([id]) => id === activeCourseId)?.[1];
     return (
       <DeckPlayer
         deck={activeDeck}
-        courseName={deckCourse?.courseName}
+        courseName={activeDeckCourseName}
         isDarkMode={isDarkMode}
-        onBack={() => setActiveDeck(null)}
+        startCardIdx={startCardIdx}
+        onBack={() => {
+          setActiveDeck(null);
+          setStartCardIdx(null);
+        }}
       />
     );
   }
@@ -537,6 +607,107 @@ function McqFlashcards() {
         </p>
       </div>
 
+      {/* Global search — searches every card's question, answer, category
+          and source across every deck and every course at once, live as
+          the user types, so they don't have to guess which week/course a
+          recall lives under. */}
+      <div className="relative mb-4 sm:mb-5">
+        <HiOutlineMagnifyingGlass
+          className={`absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 sm:w-5 sm:h-5 ${
+            isDarkMode ? "text-dark-500" : "text-gray-400"
+          }`}
+        />
+        <input
+          type="text"
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          placeholder="Search every course & week — e.g. 'Madukolu v Nkemdilim' or 'subject matter jurisdiction'"
+          className={`w-full pl-10 sm:pl-11 pr-9 py-2.5 sm:py-3 rounded-xl text-sm border outline-none transition-colors focus:ring-2 focus:ring-primary-500/30 ${
+            isDarkMode
+              ? "bg-dark-800/60 border-dark-700 text-white placeholder:text-dark-500"
+              : "bg-white border-gray-200 text-gray-900 placeholder:text-gray-400"
+          }`}
+        />
+        {searchQuery && (
+          <button
+            onClick={() => setSearchQuery("")}
+            className={`absolute right-3 top-1/2 -translate-y-1/2 ${
+              isDarkMode ? "text-dark-500 hover:text-dark-300" : "text-gray-400 hover:text-gray-600"
+            }`}
+          >
+            <HiOutlineXMark className="w-4 h-4" />
+          </button>
+        )}
+      </div>
+
+      {searchQuery.trim() ? (
+        <div className="mb-5 sm:mb-6">
+          <p className={`text-xs font-semibold mb-2 ${isDarkMode ? "text-dark-400" : "text-gray-500"}`}>
+            {searchResults.length === 0
+              ? "No matches"
+              : `${searchResults.length} match${searchResults.length === 1 ? "" : "es"} across all courses`}
+          </p>
+          {searchResults.length === 0 ? (
+            <div
+              className={`rounded-2xl border p-6 text-center text-sm ${
+                isDarkMode ? "bg-dark-800/50 border-dark-700 text-dark-400" : "bg-white border-gray-200 text-gray-500"
+              }`}
+            >
+              Try a shorter phrase, a case name, or a keyword from the principle.
+            </div>
+          ) : (
+            <div className="space-y-2">
+              {searchResults.map((result, i) => {
+                const q = searchQuery;
+                const matchedAnswer = (result.card.answer || []).find((a) =>
+                  a.toLowerCase().includes(q.trim().toLowerCase())
+                );
+                const questionMatches = result.card.question.toLowerCase().includes(q.trim().toLowerCase());
+                return (
+                  <button
+                    key={`${result.deck.id}-${result.cardIdx}-${i}`}
+                    onClick={() => openResult(result)}
+                    className={`w-full text-left rounded-2xl border p-3.5 sm:p-4 transition-all hover:scale-[1.005] active:scale-[0.995] ${
+                      isDarkMode
+                        ? "bg-dark-800/50 border-dark-700 hover:border-primary-500/50"
+                        : "bg-white border-gray-200 hover:border-primary-300 shadow-sm"
+                    }`}
+                  >
+                    <div className="flex flex-wrap items-center gap-1.5 mb-1.5">
+                      <span className="px-2 py-0.5 rounded-full text-[10px] font-semibold bg-primary-500/15 text-primary-500">
+                        {result.courseName}
+                      </span>
+                      <span
+                        className={`px-2 py-0.5 rounded-full text-[10px] font-semibold ${
+                          isDarkMode ? "bg-dark-700 text-dark-300" : "bg-gray-100 text-gray-600"
+                        }`}
+                      >
+                        {result.deck.title}
+                      </span>
+                      <span
+                        className={`text-[10px] font-medium ${isDarkMode ? "text-dark-500" : "text-gray-400"}`}
+                      >
+                        {result.card.category}
+                      </span>
+                    </div>
+                    <p
+                      className={`text-sm font-semibold leading-snug ${isDarkMode ? "text-white" : "text-gray-900"}`}
+                    >
+                      <Highlight text={result.card.question} query={q} isDarkMode={isDarkMode} />
+                    </p>
+                    {!questionMatches && matchedAnswer && (
+                      <p className={`text-xs mt-1 leading-relaxed ${isDarkMode ? "text-dark-300" : "text-gray-600"}`}>
+                        <Highlight text={matchedAnswer} query={q} isDarkMode={isDarkMode} />
+                      </p>
+                    )}
+                  </button>
+                );
+              })}
+            </div>
+          )}
+        </div>
+      ) : (
+        <>
       {/* Course tabs */}
       <div className="flex gap-1.5 overflow-x-auto pb-0.5 -mx-0.5 px-0.5 mb-4 sm:mb-5">
         {courseEntries.map(([id, course]) => {
@@ -594,7 +765,10 @@ function McqFlashcards() {
           {activeCourse.decks.map((deck) => (
             <button
               key={deck.id}
-              onClick={() => setActiveDeck(deck)}
+              onClick={() => {
+                setActiveDeckCourseName(activeCourse.courseName);
+                setActiveDeck(deck);
+              }}
               className={`w-full flex items-center justify-between gap-3 rounded-2xl border p-4 text-left transition-all hover:scale-[1.01] active:scale-[0.99] ${
                 isDarkMode
                   ? "bg-dark-800/50 border-dark-700 hover:border-primary-500/50"
@@ -620,6 +794,8 @@ function McqFlashcards() {
             </button>
           ))}
         </div>
+      )}
+        </>
       )}
     </div>
   );
