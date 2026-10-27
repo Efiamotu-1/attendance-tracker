@@ -12,6 +12,7 @@ import {
   PRACTICE_YEAR,
   SNAP_TEST_YEAR,
   CPC_YEAR,
+  PRE_BAR_YEAR,
   isCpcSession,
   CPC_VISIBLE_TO_EMAIL,
 } from "../features/mcq/examUtils";
@@ -37,6 +38,8 @@ const isSnapTestYear = (year) => year === SNAP_TEST_YEAR;
 const getExamYearLabel = (year) =>
   isPracticeYear(year)
     ? "Practice Questions"
+    : year === PRE_BAR_YEAR
+    ? "Pre-Bar"
     : isSnapTestYear(year)
     ? "Snap Tests"
     : year === CPC_YEAR

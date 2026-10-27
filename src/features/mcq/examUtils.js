@@ -1,14 +1,21 @@
-// Practice sessions (practice-1..practice-N), Snap Test sessions
-// (snap-test-*) and CPC sessions (cpc-*) each share a synthetic numeric
-// "year" so they group into their own bucket in the exam-session list — it
-// isn't a real year, so it must never be appended to the displayed label.
-// "Practice 1", not "Practice 1 9999"; "Snap Test (Lagos Campus)", not
-// "... 9998"; "CPC Test 1", not "... 9997".
+// Practice sessions (practice-1..practice-N), Pre-Bar sessions (pre-bar-*),
+// Snap Test sessions (snap-test-*) and CPC sessions (cpc-*) each share a
+// synthetic numeric "year" so they group into their own bucket in the
+// exam-session list — it isn't a real year, so it must never be appended
+// to the displayed label. "Practice 1", not "Practice 1 9999"; "Pre-Bar",
+// not "... 9998"; "Snap Test (Lagos Campus)", not "... 9997"; "CPC Test 1",
+// not "... 9996". The exam-session tab list sorts by this number
+// descending, so the numbers below are chosen to land the tabs in the
+// order Practice, Pre-Bar, Snap Tests, CPC, then real years. The real
+// sitting date for a Pre-Bar session lives in its `session`/`examTitle`
+// text instead (same pattern Snap Test uses), so a later Pre-Bar sitting
+// (e.g. 2025) gets its own session key without needing its own bucket.
 export const PRACTICE_YEAR = 9999;
-export const SNAP_TEST_YEAR = 9998;
-export const CPC_YEAR = 9997;
+export const PRE_BAR_YEAR = 9998;
+export const SNAP_TEST_YEAR = 9997;
+export const CPC_YEAR = 9996;
 export const isSyntheticYear = (year) =>
-  year === PRACTICE_YEAR || year === SNAP_TEST_YEAR || year === CPC_YEAR;
+  year === PRACTICE_YEAR || year === PRE_BAR_YEAR || year === SNAP_TEST_YEAR || year === CPC_YEAR;
 
 // CPC (cpc-*) sessions are visible only to this account, everywhere they
 // could surface — the past-questions session list, quiz access, and the

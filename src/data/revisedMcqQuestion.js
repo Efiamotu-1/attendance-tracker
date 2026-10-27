@@ -18805,7 +18805,7 @@ const revisedMcqQuestion = {
   },
 
   "snap-test-lagos-campus": {
-  "year": 9998,
+  "year": 9997,
   "session": "Snap Test (Lagos Campus)",
   "examTitle": "Nigerian Law School, Lagos Campus — Snap Test",
   "totalQuestions": 100,
@@ -20149,7 +20149,7 @@ const revisedMcqQuestion = {
 },
 
   "snap-test-lagos-campus-oct2026": {
-  "year": 9998,
+  "year": 9997,
   "session": "Snap Test (Lagos Campus) — 16 Oct 2026",
   "examTitle": "Nigerian Law School, Lagos Campus — Snap Test, 16 October 2026",
   "totalQuestions": 100,
@@ -21394,7 +21394,7 @@ const revisedMcqQuestion = {
 
 
   "snap-test-abuja-campus-may2026": {
-  "year": 9998,
+  "year": 9997,
   "session": "Snap Test (Abuja Campus) — 14 May 2026",
   "examTitle": "Nigerian Law School, Abuja Campus — Snap Test 2, May 2026",
   "totalQuestions": 100,
@@ -22738,7 +22738,7 @@ const revisedMcqQuestion = {
 },
 
   "cpc-1": {
-    "year": 9997,
+    "year": 9996,
     "session": "CPC Test 1",
     "examTitle": "Pre-Bar Style MCQ — Corporate, Criminal, Ethics (CPC) Test 1",
     "totalQuestions": 60,
@@ -23547,7 +23547,7 @@ const revisedMcqQuestion = {
     ]
   },
   "cpc-2": {
-    "year": 9997,
+    "year": 9996,
     "session": "CPC Test 2",
     "examTitle": "Pre-Bar Style MCQ — Corporate, Criminal, Ethics (CPC) Test 2",
     "totalQuestions": 60,
@@ -24356,7 +24356,7 @@ const revisedMcqQuestion = {
     ]
   },
   "cpc-3": {
-    "year": 9997,
+    "year": 9996,
     "session": "CPC Test 3",
     "examTitle": "Pre-Bar Style MCQ — Corporate, Criminal, Ethics (CPC) Test 3",
     "totalQuestions": 60,
@@ -25165,7 +25165,7 @@ const revisedMcqQuestion = {
     ]
   },
   "cpc-4": {
-    "year": 9997,
+    "year": 9996,
     "session": "CPC Test 4",
     "examTitle": "Pre-Bar Style MCQ — Corporate, Criminal, Ethics (CPC) Test 4",
     "totalQuestions": 60,
@@ -25974,7 +25974,7 @@ const revisedMcqQuestion = {
     ]
   },
   "cpc-5": {
-    "year": 9997,
+    "year": 9996,
     "session": "CPC Test 5",
     "examTitle": "Pre-Bar Style MCQ — Corporate, Criminal, Ethics (CPC) Test 5",
     "totalQuestions": 60,
@@ -26783,7 +26783,7 @@ const revisedMcqQuestion = {
     ]
   },
   "cpc-6": {
-    "year": 9997,
+    "year": 9996,
     "session": "CPC Test 6",
     "examTitle": "Pre-Bar Style MCQ — Corporate, Criminal, Ethics (CPC) Test 6",
     "totalQuestions": 60,
@@ -27592,7 +27592,7 @@ const revisedMcqQuestion = {
     ]
   },
   "cpc-7": {
-    "year": 9997,
+    "year": 9996,
     "session": "CPC Test 7",
     "examTitle": "Pre-Bar Style MCQ — Corporate, Criminal, Ethics (CPC) Test 7",
     "totalQuestions": 60,
@@ -28401,7 +28401,7 @@ const revisedMcqQuestion = {
     ]
   },
   "cpc-8": {
-    "year": 9997,
+    "year": 9996,
     "session": "CPC Test 8",
     "examTitle": "Pre-Bar Style MCQ — Corporate, Criminal, Ethics (CPC) Test 8",
     "totalQuestions": 60,
@@ -29210,7 +29210,7 @@ const revisedMcqQuestion = {
     ]
   },
   "cpc-9": {
-    "year": 9997,
+    "year": 9996,
     "session": "CPC Test 9",
     "examTitle": "Pre-Bar Style MCQ — Corporate, Criminal, Ethics (CPC) Test 9",
     "totalQuestions": 60,
@@ -30019,7 +30019,7 @@ const revisedMcqQuestion = {
     ]
   },
   "cpc-10": {
-    "year": 9997,
+    "year": 9996,
     "session": "CPC Test 10",
     "examTitle": "Pre-Bar Style MCQ — Corporate, Criminal, Ethics (CPC) Test 10",
     "totalQuestions": 60,
@@ -30828,7 +30828,7 @@ const revisedMcqQuestion = {
     ]
   },
   "cpc-11": {
-    "year": 9997,
+    "year": 9996,
     "session": "CPC Test 11",
     "examTitle": "Pre-Bar Style MCQ — Corporate, Criminal, Ethics (CPC) Test 11",
     "totalQuestions": 60,
@@ -31637,7 +31637,7 @@ const revisedMcqQuestion = {
     ]
   },
   "cpc-12": {
-    "year": 9997,
+    "year": 9996,
     "session": "CPC Test 12",
     "examTitle": "Pre-Bar Style MCQ — Corporate, Criminal, Ethics (CPC) Test 12",
     "totalQuestions": 60,
@@ -32440,6 +32440,1350 @@ const revisedMcqQuestion = {
             },
             "answer": "a",
             "explanation": "Due diligence can be done by questions, calls, social media."
+          }
+        ]
+      }
+    ]
+  },
+
+  "pre-bar-2026": {
+    "year": 9998,
+    "session": "Pre-Bar — 19 October 2026",
+    "examTitle": "Nigerian Law School — Bar Part II (Pre-Bar) Examination, 19 October 2026",
+    "totalQuestions": 100,
+    "courses": [
+      {
+        "id": "civil-litigation",
+        "name": "Civil Litigation",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "Mr. Kael Viremont was driving his Toyota Corolla along Airport Road, Lagos when he was suddenly involved in a collision with a Mercedes-Benz C240 belonging to Mr. Darius Veltrano. Immediately after the accident, Mr. Veltrano approached Mr. Viremont, apologized, and assured him that his insurer, Luminex Shield Insurance Ltd, would handle and pay for the repair of his vehicle. Relying on this assurance, Mr. Viremont proceeded to repair his vehicle at his own expense. However, three (3) months after the promise, neither Mr. Veltrano nor Luminex Shield Insurance Ltd has taken any step to reimburse him. Aggrieved, Mr. Viremont has instructed you to institute an action against Mr. Veltrano to recover ₦11,000,000 being the cost of repairs. Answer the following questions.",
+            "question": "The bailiff of the court in the above scenario can only serve the writ of summons within",
+            "options": {
+              "a": "Monday to Saturday between the hours of 6 O’clock am and 6 O’clock pm",
+              "b": "Monday to Sunday between the hours of 6 O’clock am and 6 O’clock pm",
+              "c": "Monday to Saturday at any time of the day",
+              "d": "Monday to Sunday at any time of the day"
+            },
+            "answer": "a",
+            "explanation": "Service is effected between 6am and 6pm on any day except Sundays and public holidays (Order 5 Rule 9). That is Monday to Saturday, 6am to 6pm. Service on a Sunday or public holiday needs the leave of the court."
+          },
+          {
+            "id": 2,
+            "context": "Mr. Kael Viremont was driving his Toyota Corolla along Airport Road, Lagos when he was suddenly involved in a collision with a Mercedes-Benz C240 belonging to Mr. Darius Veltrano. Immediately after the accident, Mr. Veltrano approached Mr. Viremont, apologized, and assured him that his insurer, Luminex Shield Insurance Ltd, would handle and pay for the repair of his vehicle. Relying on this assurance, Mr. Viremont proceeded to repair his vehicle at his own expense. However, three (3) months after the promise, neither Mr. Veltrano nor Luminex Shield Insurance Ltd has taken any step to reimburse him. Aggrieved, Mr. Viremont has instructed you to institute an action against Mr. Veltrano to recover ₦11,000,000 being the cost of repairs. Answer the following questions.",
+            "question": "Assuming an action was commenced against Mr. Veltrano and the writ of summons as well as its accompanying processes were served on him, he is expected to:",
+            "options": {
+              "a": "File his Statement of Defence within 42 days",
+              "b": "File his Statement of Defence within 21 days",
+              "c": "File his Statement of Defence within 7 days",
+              "d": "File his Statement of Defence within 14 days"
+            },
+            "answer": "a",
+            "explanation": "The accident and the defendant are in Lagos, so the Lagos High Court (Civil Procedure) Rules apply. A defendant in Lagos files his defence within 42 days of service of the originating process (21 days in Abuja)."
+          },
+          {
+            "id": 3,
+            "context": "Mr. Kael Viremont was driving his Toyota Corolla along Airport Road, Lagos when he was suddenly involved in a collision with a Mercedes-Benz C240 belonging to Mr. Darius Veltrano. Immediately after the accident, Mr. Veltrano approached Mr. Viremont, apologized, and assured him that his insurer, Luminex Shield Insurance Ltd, would handle and pay for the repair of his vehicle. Relying on this assurance, Mr. Viremont proceeded to repair his vehicle at his own expense. However, three (3) months after the promise, neither Mr. Veltrano nor Luminex Shield Insurance Ltd has taken any step to reimburse him. Aggrieved, Mr. Viremont has instructed you to institute an action against Mr. Veltrano to recover ₦11,000,000 being the cost of repairs. Answer the following questions.",
+            "question": "Assuming Mr. Veltrano fails to file his Statement of Defence, Mr. Viremont can apply for",
+            "options": {
+              "a": "Summary judgment",
+              "b": "Default judgment",
+              "c": "Final judgment",
+              "d": "a and b above"
+            },
+            "answer": "b",
+            "explanation": "Failure to file a defence within the time allowed entitles the claimant to apply by motion on notice for judgment in default of defence (default judgment: Order 12 R 1 and Order 22 Lagos). Summary judgment (Order 13 Lagos) is a different procedure, brought at the commencement of the action where the claimant says the defendant has no defence, and it is not the remedy for failure to file a defence. A default judgment is not on the merits and can be set aside by the same court."
+          },
+          {
+            "id": 4,
+            "context": "Mr. Kael Viremont was driving his Toyota Corolla along Airport Road, Lagos when he was suddenly involved in a collision with a Mercedes-Benz C240 belonging to Mr. Darius Veltrano. Immediately after the accident, Mr. Veltrano approached Mr. Viremont, apologized, and assured him that his insurer, Luminex Shield Insurance Ltd, would handle and pay for the repair of his vehicle. Relying on this assurance, Mr. Viremont proceeded to repair his vehicle at his own expense. However, three (3) months after the promise, neither Mr. Veltrano nor Luminex Shield Insurance Ltd has taken any step to reimburse him. Aggrieved, Mr. Viremont has instructed you to institute an action against Mr. Veltrano to recover ₦11,000,000 being the cost of repairs. Answer the following questions.",
+            "question": "One of the following is a mode Mr. Veltrano can adopt to join Luminex Shield Insurance Ltd to bear the cost of damages claimed by Mr. Viremont:",
+            "options": {
+              "a": "Third party proceedings",
+              "b": "Interpleader Summons",
+              "c": "Mareva injunction",
+              "d": "Anton Piller injunction"
+            },
+            "answer": "a",
+            "explanation": "Mr Veltrano wants his insurer to bear the damages, which is a claim for indemnity. Third party proceedings are the procedure for that: a defendant brings in a person who will bear the eventual liability, by motion ex parte for leave to issue and serve a third party notice. Interpleader is for a stakeholder holding property claimed by two persons. Mareva and Anton Piller are injunctions."
+          },
+          {
+            "id": 5,
+            "context": "Mr. Kael Viremont was driving his Toyota Corolla along Airport Road, Lagos when he was suddenly involved in a collision with a Mercedes-Benz C240 belonging to Mr. Darius Veltrano. Immediately after the accident, Mr. Veltrano approached Mr. Viremont, apologized, and assured him that his insurer, Luminex Shield Insurance Ltd, would handle and pay for the repair of his vehicle. Relying on this assurance, Mr. Viremont proceeded to repair his vehicle at his own expense. However, three (3) months after the promise, neither Mr. Veltrano nor Luminex Shield Insurance Ltd has taken any step to reimburse him. Aggrieved, Mr. Viremont has instructed you to institute an action against Mr. Veltrano to recover ₦11,000,000 being the cost of repairs. Answer the following questions.",
+            "question": "On the day fixed for Case Management Conference, all the following issues can be taken except .......:",
+            "options": {
+              "a": "Joinder of parties",
+              "b": "Consolidation of suits",
+              "c": "Service of pleadings",
+              "d": "Interrogatories"
+            },
+            "answer": "c",
+            "explanation": "The agenda of the Case Management Conference covers formulation and settlement of issues, amendments and further particulars, admissions, control of discovery and interrogatories, settlement of exhibits, joinder, consolidation and other interlocutory matters, and ADR referral (Order 27 Lagos). The CMC is applied for after pleadings have closed, so service of pleadings is not a CMC matter."
+          },
+          {
+            "id": 6,
+            "context": "In a bid to increase internally generated revenue, the Kaduna State House of Assembly enacted a Law requiring all aircraft operating at Kaduna International Airport to pay a parking levy of ₦2,000,000. The National Assembly of Nigeria has challenged the Law, contending that aviation matters fall within the Exclusive Legislative List and that the enactment is therefore unconstitutional. Consequently, it has commenced an action against the Kaduna State House of Assembly and the Governor of Kaduna State. The Governor, who firmly maintains that he is not a proper party to the suit, has applied to the Court for an order striking out the case in its entirety. Now answer the following questions:",
+            "question": "The court with jurisdiction to entertain the matter above is",
+            "options": {
+              "a": "Federal High Court",
+              "b": "Kaduna State High Court",
+              "c": "Supreme Court",
+              "d": "High Court of the FCT"
+            },
+            "answer": "c",
+            "explanation": "This is a dispute between the National Assembly and a State House of Assembly. The Supreme Court has exclusive original jurisdiction under s.232 CFRN and the Supreme Court (Additional Original Jurisdiction) Act 2002 (NASS v State House of Assembly). The National Assembly must act by resolution of both houses; if only one house sues, the Federal High Court is the appropriate court."
+          },
+          {
+            "id": 7,
+            "context": "In a bid to increase internally generated revenue, the Kaduna State House of Assembly enacted a Law requiring all aircraft operating at Kaduna International Airport to pay a parking levy of ₦2,000,000. The National Assembly of Nigeria has challenged the Law, contending that aviation matters fall within the Exclusive Legislative List and that the enactment is therefore unconstitutional. Consequently, it has commenced an action against the Kaduna State House of Assembly and the Governor of Kaduna State. The Governor, who firmly maintains that he is not a proper party to the suit, has applied to the Court for an order striking out the case in its entirety. Now answer the following questions:",
+            "question": "The court identified in question 6 will be duly constituted by:",
+            "options": {
+              "a": "5 Judges",
+              "b": "7 Judges",
+              "c": "5 Justices",
+              "d": "7 Justices"
+            },
+            "answer": "d",
+            "explanation": "Under s.234 CFRN the Supreme Court is duly constituted by not less than 5 Justices, but when sitting to exercise its original jurisdiction under s.232 it is constituted by 7 Justices. The Supreme Court has Justices, not Judges."
+          },
+          {
+            "id": 8,
+            "context": "In a bid to increase internally generated revenue, the Kaduna State House of Assembly enacted a Law requiring all aircraft operating at Kaduna International Airport to pay a parking levy of ₦2,000,000. The National Assembly of Nigeria has challenged the Law, contending that aviation matters fall within the Exclusive Legislative List and that the enactment is therefore unconstitutional. Consequently, it has commenced an action against the Kaduna State House of Assembly and the Governor of Kaduna State. The Governor, who firmly maintains that he is not a proper party to the suit, has applied to the Court for an order striking out the case in its entirety. Now answer the following questions:",
+            "question": "The proper parties in the above suit are",
+            "options": {
+              "a": "National Assembly v. Speaker, Kaduna State House of Assembly",
+              "b": "National Assembly v. House of Assembly, Kaduna State",
+              "c": "Attorney-General of the Federation v. Attorney-General of Kaduna State",
+              "d": "Senate President v. Speaker, Kaduna State House of Assembly"
+            },
+            "answer": "a",
+            "explanation": "In suits by or against the National Assembly or a State House of Assembly, the nominal parties are the National Assembly and the Speaker of the State House of Assembly (s.3 Supreme Court (Additional Original Jurisdiction) Act). The AG-versus-AG pairing applies to disputes between the Federation and a State, not to this one."
+          },
+          {
+            "id": 9,
+            "context": "In a bid to increase internally generated revenue, the Kaduna State House of Assembly enacted a Law requiring all aircraft operating at Kaduna International Airport to pay a parking levy of ₦2,000,000. The National Assembly of Nigeria has challenged the Law, contending that aviation matters fall within the Exclusive Legislative List and that the enactment is therefore unconstitutional. Consequently, it has commenced an action against the Kaduna State House of Assembly and the Governor of Kaduna State. The Governor, who firmly maintains that he is not a proper party to the suit, has applied to the Court for an order striking out the case in its entirety. Now answer the following questions:",
+            "question": "The application to be brought by the Kaduna State Governor will be in the form of:",
+            "options": {
+              "a": "Motion Exparte for Misjoinder",
+              "b": "Motion exparte for Non-joinder",
+              "c": "Motion on notice for Misjoinder",
+              "d": "Motion on notice for Non-joinder"
+            },
+            "answer": "c",
+            "explanation": "The Governor claims he was improperly joined (misjoinder). An application to strike out the name of a party wrongly joined is made by motion on notice, supported by affidavit and written address (Order 15 R 16(2) and R 17 Lagos; Order 13 R 18-19 Abuja). It is not ex parte, since the other side must be heard. Misjoinder is not fatal to the action, and only the Governor's name is struck out."
+          },
+          {
+            "id": 10,
+            "context": "In a bid to increase internally generated revenue, the Kaduna State House of Assembly enacted a Law requiring all aircraft operating at Kaduna International Airport to pay a parking levy of ₦2,000,000. The National Assembly of Nigeria has challenged the Law, contending that aviation matters fall within the Exclusive Legislative List and that the enactment is therefore unconstitutional. Consequently, it has commenced an action against the Kaduna State House of Assembly and the Governor of Kaduna State. The Governor, who firmly maintains that he is not a proper party to the suit, has applied to the Court for an order striking out the case in its entirety. Now answer the following questions:",
+            "question": "Assuming the suit is filed before the Federal High Court, it will most likely be:",
+            "options": {
+              "a": "Dismissed",
+              "b": "Struck out",
+              "c": "Granted",
+              "d": "Non-suited"
+            },
+            "answer": "b",
+            "explanation": "If the suit is filed in a court without jurisdiction (the Federal High Court here, since the Supreme Court has exclusive original jurisdiction), the court will strike it out, not dismiss it, because it has no power to decide the merits. Instituting a matter in the wrong court leads to it being struck out (Madukolu v Nkemdilim)."
+          },
+          {
+            "id": 11,
+            "context": "A Bye-Election was conducted in Kogi State on the 6th day of July, 2025 and results declared the same day. Liberal Convention (LP) governorship candidate, Dr Kazzim Momoh was declared validly elected and returned having scored 950,000 votes. Professor Idi Ganaku who contested under the platform of National Peoples’ Party (NPP) intends to challenge the validity of the elections alleging that it was characterised by irregularities, vote buying and thuggery. Answer the following questions",
+            "question": "Which of the following dates is the last date on which the petitioner can validly bring his petition?",
+            "options": {
+              "a": "27th July, 2025",
+              "b": "28th July, 2025",
+              "c": "26th July, 2025",
+              "d": "6th July, 2025"
+            },
+            "answer": "a",
+            "explanation": "A petition must be filed within 21 days after the declaration of the result (s.285(5) CFRN). The declaration date (6 July 2025) is excluded, so day 1 is 7 July and day 21 is 27 July 2025. The constitutional period runs continuously and cannot be extended, and Sundays and public holidays are not excluded from the count (Yusuf v Obasanjo). 27 July 2025 is therefore the last valid date. 28 July is out of time, and 26 July and 6 July are earlier dates, not the last date."
+          },
+          {
+            "id": 12,
+            "context": "A Bye-Election was conducted in Kogi State on the 6th day of July, 2025 and results declared the same day. Liberal Convention (LP) governorship candidate, Dr Kazzim Momoh was declared validly elected and returned having scored 950,000 votes. Professor Idi Ganaku who contested under the platform of National Peoples’ Party (NPP) intends to challenge the validity of the elections alleging that it was characterised by irregularities, vote buying and thuggery. Answer the following questions",
+            "question": "The following may be respondents to the petition, except;",
+            "options": {
+              "a": "INEC",
+              "b": "Dr Kazzim Momoh",
+              "c": "Liberal Convention",
+              "d": "INEC Chairman"
+            },
+            "answer": "d",
+            "explanation": "Respondents are the winner, his political party and INEC (INEC defends for its officers, so the officers need not be joined). The INEC Chairman is not a respondent (s.133 Electoral Act 2022; Buhari v Yusuf)."
+          },
+          {
+            "id": 13,
+            "context": "A Bye-Election was conducted in Kogi State on the 6th day of July, 2025 and results declared the same day. Liberal Convention (LP) governorship candidate, Dr Kazzim Momoh was declared validly elected and returned having scored 950,000 votes. Professor Idi Ganaku who contested under the platform of National Peoples’ Party (NPP) intends to challenge the validity of the elections alleging that it was characterised by irregularities, vote buying and thuggery. Answer the following questions",
+            "question": "The petition can properly be brought under this ground;",
+            "options": {
+              "a": "The person whose election is being challenged was not duly elected by majority of votes cast in the election.",
+              "b": "The person whose election is being challenged was not qualified to contest at the time of the election.",
+              "c": "The election was invalid by reason of corrupt practices or non-conformity with the provisions of the Electoral Act.",
+              "d": "At the time of the election, the candidate who was later declared winner had his name on the register of more than one political party."
+            },
+            "answer": "c",
+            "explanation": "The grounds for a petition are in s.134 Electoral Act 2022: the respondent was not qualified to contest, the election was invalid by reason of corrupt practices or non-compliance with the Electoral Act, or the respondent was not duly elected by a majority of lawful votes cast. The facts (irregularities, vote buying and thuggery) fit corrupt practices and non-compliance. Option (a) leaves out the word lawful, and (b) and (d) do not fit the facts."
+          },
+          {
+            "id": 14,
+            "context": "A Bye-Election was conducted in Kogi State on the 6th day of July, 2025 and results declared the same day. Liberal Convention (LP) governorship candidate, Dr Kazzim Momoh was declared validly elected and returned having scored 950,000 votes. Professor Idi Ganaku who contested under the platform of National Peoples’ Party (NPP) intends to challenge the validity of the elections alleging that it was characterised by irregularities, vote buying and thuggery. Answer the following questions",
+            "question": "Assuming the outcome of the petition at the Tribunal was not satisfactory to the petitioner, in which of the following courts will he file his appeal;",
+            "options": {
+              "a": "The Supreme Court of Nigeria.",
+              "b": "The Federal High Court Lokoja Division.",
+              "c": "The Court of Appeal.",
+              "d": "Elections Appeals Tribunal"
+            },
+            "answer": "c",
+            "explanation": "A governorship election petition goes to the Governorship Election Tribunal; appeal from it lies to the Court of Appeal as of right (s.246(1)(c) CFRN). The Federal High Court and the Supreme Court are not the first appellate court here."
+          },
+          {
+            "id": 15,
+            "context": "A Bye-Election was conducted in Kogi State on the 6th day of July, 2025 and results declared the same day. Liberal Convention (LP) governorship candidate, Dr Kazzim Momoh was declared validly elected and returned having scored 950,000 votes. Professor Idi Ganaku who contested under the platform of National Peoples’ Party (NPP) intends to challenge the validity of the elections alleging that it was characterised by irregularities, vote buying and thuggery. Answer the following questions",
+            "question": "Which of the following is true of the outcome of the appeal from the court you identified in 14 above?",
+            "options": {
+              "a": "Finality of determination",
+              "b": "Appealable to the higher court",
+              "c": "An order of re-trial by the court of first instance.",
+              "d": "None of the above."
+            },
+            "answer": "b",
+            "explanation": "The Court of Appeal's decision in a governorship petition appeal is appealable as of right to the Supreme Court (s.233(2)(e)(iv) CFRN). Only governorship petitions have this second appeal. For National and State Assembly petitions the Court of Appeal is final (s.246(3))."
+          },
+          {
+            "id": 16,
+            "context": "Prof. Tony Akpara made frantic efforts to sell his published academic work but to no avail. He later discovered that Delight Publishers Ltd has mass-produced his book and is selling same at an abysmal price in Lagos State. He filed an action in court to assert his right and claim for damages. While the matter was ongoing in court, Delight Publishers Ltd started moving their heavy-duty production machines from Lagos to Onitsha, Anambra State. Answer the following questions.",
+            "question": "Which of the following courts has the jurisdiction to entertain the action of Prof Tony Akpara?",
+            "options": {
+              "a": "Federal High Court",
+              "b": "High Court of Lagos State",
+              "c": "National Industrial Court",
+              "d": "Any of the above courts has jurisdiction"
+            },
+            "answer": "a",
+            "explanation": "Copyright is an intellectual property matter within the exclusive jurisdiction of the Federal High Court (s.251(1)(f) CFRN; s.103 Copyright Act 2022). A State High Court has no jurisdiction here."
+          },
+          {
+            "id": 17,
+            "context": "Prof. Tony Akpara made frantic efforts to sell his published academic work but to no avail. He later discovered that Delight Publishers Ltd has mass-produced his book and is selling same at an abysmal price in Lagos State. He filed an action in court to assert his right and claim for damages. While the matter was ongoing in court, Delight Publishers Ltd started moving their heavy-duty production machines from Lagos to Onitsha, Anambra State. Answer the following questions.",
+            "question": "Which of the following orders would Prof. Tony Akpara seek to enable him move in and confiscate the materials?",
+            "options": {
+              "a": "Mareva injunction",
+              "b": "Anton Piller injunction",
+              "c": "Interpleader Order",
+              "d": "Third Party Notice"
+            },
+            "answer": "b",
+            "explanation": "He wants to enter Delight Publishers' premises and seize the materials, which is an Anton Piller order. It is an ex parte, in camera order permitting search, seizure, detention and preservation of infringing materials (Anton Piller KG v Manufacturing Processes; s.38 Copyright Act 2022; Ferodo v Unibro). Mareva freezes assets, not materials."
+          },
+          {
+            "id": 18,
+            "context": "Prof. Tony Akpara made frantic efforts to sell his published academic work but to no avail. He later discovered that Delight Publishers Ltd has mass-produced his book and is selling same at an abysmal price in Lagos State. He filed an action in court to assert his right and claim for damages. While the matter was ongoing in court, Delight Publishers Ltd started moving their heavy-duty production machines from Lagos to Onitsha, Anambra State. Answer the following questions.",
+            "question": "To enable him achieve the desired goal in (17) above, what is the nature of the application to be made?",
+            "options": {
+              "a": "Motion on Notice",
+              "b": "Summons on Notice",
+              "c": "Motion exparte",
+              "d": "Each of the above can serve"
+            },
+            "answer": "c",
+            "explanation": "An Anton Piller order is sought by motion ex parte supported by affidavit and written address (MEP + A + WA), because notice would let the defendant destroy the evidence."
+          },
+          {
+            "id": 19,
+            "context": "Prof. Tony Akpara made frantic efforts to sell his published academic work but to no avail. He later discovered that Delight Publishers Ltd has mass-produced his book and is selling same at an abysmal price in Lagos State. He filed an action in court to assert his right and claim for damages. While the matter was ongoing in court, Delight Publishers Ltd started moving their heavy-duty production machines from Lagos to Onitsha, Anambra State. Answer the following questions.",
+            "question": "Assuming at the close of evidence in the above scenario the solicitors to the claimant and defendant were arguing before the Judge on the procedure of filing final written address. Which of these represents the correct procedure?",
+            "options": {
+              "a": "The Claimant Counsel file first within 15 days from the close of evidence",
+              "b": "The Counsel who first called witnesses within 21 days from the close of evidence",
+              "c": "The Defence Counsel file first within 21 days from close of evidence",
+              "d": "None of the above"
+            },
+            "answer": "d",
+            "explanation": "The action is a copyright claim, which falls within the exclusive jurisdiction of the Federal High Court, so the Federal High Court (Civil Procedure) Rules govern the filing of final written addresses, not the Lagos High Court Rules. The periods and order of filing under those rules do not match any of the options given. Options (a), (b) and (c) are therefore wrong, and the answer is none of the above."
+          },
+          {
+            "id": 20,
+            "context": "Prof. Tony Akpara made frantic efforts to sell his published academic work but to no avail. He later discovered that Delight Publishers Ltd has mass-produced his book and is selling same at an abysmal price in Lagos State. He filed an action in court to assert his right and claim for damages. While the matter was ongoing in court, Delight Publishers Ltd started moving their heavy-duty production machines from Lagos to Onitsha, Anambra State. Answer the following questions.",
+            "question": "Assuming the action filed by Prof Tony Akpara proceeded into hearing and final addresses were adopted, all of the following shall qualify the judgment as valid except one",
+            "options": {
+              "a": "It must be in writing",
+              "b": "It must be delivered in open court",
+              "c": "It must be delivered within ninety days from adoption of written addresses",
+              "d": "It must be delivered within three months from adoption of written addresses"
+            },
+            "answer": "d",
+            "explanation": "A valid judgment must be in writing, delivered in open court, and delivered within 90 days of final addresses (s.294(1) CFRN). It is 90 days, not 3 months, so (d) is the exception. Options (a), (b) and (c) are all valid requirements."
+          }
+        ]
+      },
+      {
+        "id": "corporate-law-practice",
+        "name": "Corporate Law Practice",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "Kacey Nig Ltd made significant profits in the last financial year which made the company pay out the largest dividend to its members since its incorporation. The financial forecast of the next five years indicates that Kacey Nig Ltd would make profits of not less than 3 billion naira and the directors have agreed to declare dividend to its ordinary shareholders and cumulative preferential shareholders: Answer the following questions:",
+            "question": "The financial statement of Kacey Nig Ltd must contain all but one of the following:",
+            "options": {
+              "a": "Auditor’s report",
+              "b": "Value-added statement for the year",
+              "c": "Five-year financial summary",
+              "d": "Notes on the account"
+            },
+            "answer": "b",
+            "explanation": "Kacey Nig Ltd is a private company (Ltd). Under s.377(2) CAMA the financial statements include the balance sheet, profit and loss account, notes on the accounts, the auditors' report, the directors' report and the five-year financial summary. A private company need not include the statement of accounting policies, the statement of source and application of funds, changes in equity or the value-added statement (s.377(3)). So the value-added statement is the exception."
+          },
+          {
+            "id": 2,
+            "context": "Kacey Nig Ltd made significant profits in the last financial year which made the company pay out the largest dividend to its members since its incorporation. The financial forecast of the next five years indicates that Kacey Nig Ltd would make profits of not less than 3 billion naira and the directors have agreed to declare dividend to its ordinary shareholders and cumulative preferential shareholders: Answer the following questions:",
+            "question": "Only one of the following persons is entitled to receive the financial statements of the company :",
+            "options": {
+              "a": "Every director",
+              "b": "Auditor",
+              "c": "Corporate Governance Consultant",
+              "d": "Every Holder of the Company’s Debenture"
+            },
+            "answer": "d",
+            "explanation": "Financial statements must be sent at least 21 days before the AGM to every member, every holder of the company's debentures (whether or not entitled to notice), and any other persons entitled to receive notice of general meetings (s.387). Every debenture holder is named expressly, while a corporate governance consultant is not."
+          },
+          {
+            "id": 3,
+            "context": "Kacey Nig Ltd made significant profits in the last financial year which made the company pay out the largest dividend to its members since its incorporation. The financial forecast of the next five years indicates that Kacey Nig Ltd would make profits of not less than 3 billion naira and the directors have agreed to declare dividend to its ordinary shareholders and cumulative preferential shareholders: Answer the following questions:",
+            "question": "Which of the following is correct about the Company?",
+            "options": {
+              "a": "It can have more than 50 members",
+              "b": "It cannot appoint an over aged director without special notice",
+              "c": "A member cannot sell his shares without first offering it to existing members",
+              "d": "It cannot hold general meeting electronically"
+            },
+            "answer": "c",
+            "explanation": "Kacey Nig Ltd is a private company. A private company must restrict the transfer of its shares in its articles, and the right of pre-emption (first offer to existing members) applies if the articles so provide (s.22(2) and s.142 CAMA as amended by BFA). A private company is limited to 50 members. It can appoint an over-age director (70 and above) without special notice (special notice is for public companies only). Electronic meetings are allowed for both public and private companies (s.11 BFA)."
+          },
+          {
+            "id": 4,
+            "context": "Kacey Nig Ltd made significant profits in the last financial year which made the company pay out the largest dividend to its members since its incorporation. The financial forecast of the next five years indicates that Kacey Nig Ltd would make profits of not less than 3 billion naira and the directors have agreed to declare dividend to its ordinary shareholders and cumulative preferential shareholders: Answer the following questions:",
+            "question": "Kacey Nig Ltd is required to pay dividend to its cumulative preference shareholders every year except:",
+            "options": {
+              "a": "The years where profits were declared",
+              "b": "The years where profits were not declared",
+              "c": "The year of the incorporation of the company",
+              "d": "The year of the holding of the first Extra-ordinary General Meeting of the company"
+            },
+            "answer": "b",
+            "explanation": "Cumulative preference shareholders keep their right to the fixed dividend even if profits are not declared in a year: the unpaid dividend accumulates and is paid in a later year when profits are available. So the year where profits were not declared is the exception, because no dividend is paid that year, and the arrears carry forward."
+          },
+          {
+            "id": 5,
+            "context": "Kacey Nig Ltd made significant profits in the last financial year which made the company pay out the largest dividend to its members since its incorporation. The financial forecast of the next five years indicates that Kacey Nig Ltd would make profits of not less than 3 billion naira and the directors have agreed to declare dividend to its ordinary shareholders and cumulative preferential shareholders: Answer the following questions:",
+            "question": "Proposed Dividend of the company is found in one of the documents below-:",
+            "options": {
+              "a": "Profit and Loss Account",
+              "b": "Balance Sheet",
+              "c": "Directors’ Report",
+              "d": "Auditors’ Report"
+            },
+            "answer": "c",
+            "explanation": "The directors' report must state the amount (if any) they recommend should be paid as dividend and the amount they propose to carry to reserves (s.385(1)(b) CAMA)."
+          },
+          {
+            "id": 6,
+            "context": "Mosaic Nigeria PLC has just concluded its AGM wherein it was resolved that Mrs Roberts Jacita and Mr Liam Rosenoir would be appointed as Non-Executive directors of the company. The decision was made by Poll. In the course of the meeting, some members who opposed the appointment of Mr Liam Rosenoir’s because he is 75 years old staged a walk out thereby diminishing the quorum of the meeting. Answer the following questions:",
+            "question": "What step will the chairman take in the light of the walk out staged by the members:",
+            "options": {
+              "a": "The Chairman must continue with the meeting because quorum is only required at the commencement",
+              "b": "The Chairman must adjourn the meeting because quorum is required throughout the meeting",
+              "c": "The Chairman has a discretion to continue with or adjourn the meeting depending on the reason for the withdrawal",
+              "d": "The Chairman can go ahead and take a decision to bind the company"
+            },
+            "answer": "c",
+            "explanation": "If members walk out and quorum is lost, the chairman's direction depends on whether the withdrawal was for sufficient or insufficient reason (s.256 CAMA). For insufficient reason, the meeting continues and its decisions bind the company. For sufficient reason, the meeting is adjourned for a week."
+          },
+          {
+            "id": 7,
+            "context": "Mosaic Nigeria PLC has just concluded its AGM wherein it was resolved that Mrs Roberts Jacita and Mr Liam Rosenoir would be appointed as Non-Executive directors of the company. The decision was made by Poll. In the course of the meeting, some members who opposed the appointment of Mr Liam Rosenoir’s because he is 75 years old staged a walk out thereby diminishing the quorum of the meeting. Answer the following questions:",
+            "question": "The length of notice required to be given to the company to propose a resolution for the appointment of Mr Liam Rosenoir’s is ________:",
+            "options": {
+              "a": "21 days",
+              "b": "15 days",
+              "c": "30 days",
+              "d": "28 days"
+            },
+            "answer": "d",
+            "explanation": "Mr Rosenoir is 75 and Mosaic Nigeria PLC is public, so appointing him needs special notice, which is 28 days (not the 21 days' ordinary notice of meeting). (special notice of 28 days of the resolution)."
+          },
+          {
+            "id": 8,
+            "context": "Mosaic Nigeria PLC has just concluded its AGM wherein it was resolved that Mrs Roberts Jacita and Mr Liam Rosenoir would be appointed as Non-Executive directors of the company. The decision was made by Poll. In the course of the meeting, some members who opposed the appointment of Mr Liam Rosenoir’s because he is 75 years old staged a walk out thereby diminishing the quorum of the meeting. Answer the following questions:",
+            "question": "A shorter notice of the AGM of Mosaic Nigeria PLC can be given to the members if so agreed by:",
+            "options": {
+              "a": "Resolution passed by 95% of the members",
+              "b": "Resolution passed by 75% of the members",
+              "c": "Unanimous Resolution",
+              "d": "Ordinary Resolution"
+            },
+            "answer": "c",
+            "explanation": "A shorter notice of an AGM is valid only if all the members entitled to attend and vote agree, which means unanimous agreement (s.241(2)(a)). A shorter notice for any other meeting needs a majority holding at least 95% of the nominal value of shares."
+          },
+          {
+            "id": 9,
+            "context": "Mosaic Nigeria PLC has just concluded its AGM wherein it was resolved that Mrs Roberts Jacita and Mr Liam Rosenoir would be appointed as Non-Executive directors of the company. The decision was made by Poll. In the course of the meeting, some members who opposed the appointment of Mr Liam Rosenoir’s because he is 75 years old staged a walk out thereby diminishing the quorum of the meeting. Answer the following questions:",
+            "question": "An instrument appointing a proxy shall be deposited to the registered office of Mosaic Nigeria PLC where poll is demanded at least __________ before the time of the poll:",
+            "options": {
+              "a": "48 hours",
+              "b": "24 hours",
+              "c": "36 hours",
+              "d": "12 hours"
+            },
+            "answer": "b",
+            "explanation": "An instrument appointing a proxy must be deposited at the registered office of the company not less than 48 hours before the time of the meeting. Where a poll is demanded, an instrument deposited for the poll must be deposited not less than 24 hours before the time appointed for the poll (s.254 CAMA). The question asks about the poll, so the answer is 24 hours. 36 hours and 12 hours have no basis in the Act."
+          },
+          {
+            "id": 10,
+            "context": "Mosaic Nigeria PLC has just concluded its AGM wherein it was resolved that Mrs Roberts Jacita and Mr Liam Rosenoir would be appointed as Non-Executive directors of the company. The decision was made by Poll. In the course of the meeting, some members who opposed the appointment of Mr Liam Rosenoir’s because he is 75 years old staged a walk out thereby diminishing the quorum of the meeting. Answer the following questions:",
+            "question": "All but one are the Ordinary Businesses that will be transacted at the AGM of Mosaic Nigeria PLC:",
+            "options": {
+              "a": "Declaration of dividend",
+              "b": "Presentation of Accounting Records",
+              "c": "Presentation of auditors and directors report",
+              "d": "Election of directors in place of those retiring"
+            },
+            "answer": "b",
+            "explanation": "Ordinary business of an AGM (s.238 CAMA) is: declaration of dividend, presentation of financial statements, directors' and auditors' reports, election of directors in place of retiring ones, appointment and remuneration of auditors, appointment of audit committee members and disclosure of managers' remuneration. The presentation of accounting records is not on the list. It is the financial statements that are presented."
+          },
+          {
+            "id": 11,
+            "context": "Innovative Logistics Nig. Ltd needs to expand its fleet and upgrade its tracking software. On April 2, 2026, the board of directors approved two major transactions: I. Raising N20 million from B-Bank by creating a charge over the company’s whole undertaking and assets, including its cash, debt, and stock-in-trade. II. Allotting 500,000 ordinary shares to Chief Okafor Nnmadu, who provided three specialized delivery trucks to the company instead of cash. The Company Secretary is now preparing the necessary filings for the Corporate Affairs Commission (CAC). Now use the above scenario to answer questions 1-5",
+            "question": "The charge created over the assets of the company is legally classified as:",
+            "options": {
+              "a": "Fixed Charge",
+              "b": "Floating Charge",
+              "c": "Fixed and Floating Charge",
+              "d": "Equitable Charge"
+            },
+            "answer": "c",
+            "explanation": "The charge is over the whole undertaking and assets of the company, which includes fixed assets such as the fleet and circulating assets such as cash, debts and stock-in-trade. A charge over the whole undertaking is therefore a fixed and floating charge: fixed over the specific assets (the fleet and equipment) and floating over the circulating assets, which the company can deal with in the ordinary course of business until crystallisation (CAMA, charges over company property). It is not purely fixed, purely floating or an equitable charge alone."
+          },
+          {
+            "id": 12,
+            "context": "Innovative Logistics Nig. Ltd needs to expand its fleet and upgrade its tracking software. On April 2, 2026, the board of directors approved two major transactions: I. Raising N20 million from B-Bank by creating a charge over the company’s whole undertaking and assets, including its cash, debt, and stock-in-trade. II. Allotting 500,000 ordinary shares to Chief Okafor Nnmadu, who provided three specialized delivery trucks to the company instead of cash. The Company Secretary is now preparing the necessary filings for the Corporate Affairs Commission (CAC). Now use the above scenario to answer questions 1-5",
+            "question": "One of the following documents is not required for the Return of Allotment of the Shares allotted to Nnumadu",
+            "options": {
+              "a": "Valuation Report",
+              "b": "Title Documents of the Trucks",
+              "c": "Instrument of Transfer",
+              "d": "CAC Form for Return of Allotment"
+            },
+            "answer": "a",
+            "explanation": "Innovative Logistics Nig. Ltd is a private company. A valuation report is required for an allotment of shares for a non-cash consideration only in the case of a public company, so the valuation report is the document not required here. The return of allotment (Form CAC 5) is filed with the agreement for the allotment and the documents supporting the non-cash consideration, such as the title documents of the trucks and the instrument transferring them to the company (CAMA)."
+          },
+          {
+            "id": 13,
+            "context": "Innovative Logistics Nig. Ltd needs to expand its fleet and upgrade its tracking software. On April 2, 2026, the board of directors approved two major transactions: I. Raising N20 million from B-Bank by creating a charge over the company’s whole undertaking and assets, including its cash, debt, and stock-in-trade. II. Allotting 500,000 ordinary shares to Chief Okafor Nnmadu, who provided three specialized delivery trucks to the company instead of cash. The Company Secretary is now preparing the necessary filings for the Corporate Affairs Commission (CAC). Now use the above scenario to answer questions 1-5",
+            "question": "One of the following is Correct, if the company fails to register the charge within the stipulated timeframe.",
+            "options": {
+              "a": "The debt is discharged.",
+              "b": "The charge remains valid, but the company must pay a fine.",
+              "c": "The debt becomes immediately payable.",
+              "d": "The charge is voidable against the liquidator or any creditor,"
+            },
+            "answer": "c",
+            "explanation": "If a charge is not registered at the CAC within 90 days (s.222(1)), it is void against the liquidator and any creditor, the debenture becomes unsecured, and the debt becomes immediately due and payable (Capital Finance Co Ltd v Stokes). The debt is not discharged. The charge is void, not 'voidable' as option (d) wrongly puts it, and it is not merely a fine."
+          },
+          {
+            "id": 14,
+            "context": "Innovative Logistics Nig. Ltd needs to expand its fleet and upgrade its tracking software. On April 2, 2026, the board of directors approved two major transactions: I. Raising N20 million from B-Bank by creating a charge over the company’s whole undertaking and assets, including its cash, debt, and stock-in-trade. II. Allotting 500,000 ordinary shares to Chief Okafor Nnmadu, who provided three specialized delivery trucks to the company instead of cash. The Company Secretary is now preparing the necessary filings for the Corporate Affairs Commission (CAC). Now use the above scenario to answer questions 1-5",
+            "question": "The deadline for filing the Return of Allotment for the shares issued to Chief Okafor",
+            "options": {
+              "a": "Within 15 days of the passing of the Ordinary Resolution",
+              "b": "Within 15 days of the passing of the Special Resolution",
+              "c": "Within One Month of the Allotment",
+              "d": "Within 90 days of the Allotment"
+            },
+            "answer": "bonus",
+            "explanation": "(Best guess: a) None of the options is exactly right. Under s.154(1) CAMA 2020 as amended by the BFA 2023, the return of allotment must be delivered to the Commission within 15 days of the allotment (the former one month was cut to 15 days). One month in option (c) is the old period, and 90 days in option (d) is wrong. Options (a) and (b) give the right 15-day period but tie it to a resolution rather than to the allotment. My best guess is (a), because an allotment is ordinarily authorised by an ordinary resolution."
+          },
+          {
+            "id": 15,
+            "context": "Innovative Logistics Nig. Ltd needs to expand its fleet and upgrade its tracking software. On April 2, 2026, the board of directors approved two major transactions: I. Raising N20 million from B-Bank by creating a charge over the company’s whole undertaking and assets, including its cash, debt, and stock-in-trade. II. Allotting 500,000 ordinary shares to Chief Okafor Nnmadu, who provided three specialized delivery trucks to the company instead of cash. The Company Secretary is now preparing the necessary filings for the Corporate Affairs Commission (CAC). Now use the above scenario to answer questions 1-5",
+            "question": "The Power of the B Bank in the Transaction does NOT include the following",
+            "options": {
+              "a": "Power of Sale of the assets of the company",
+              "b": "Power to appoint a Receiver/Manager",
+              "c": "Power to Foreclosure",
+              "d": "Power to Purchase the assets of the company"
+            },
+            "answer": "d",
+            "explanation": "A debenture holder secured by a charge has the powers of sale, appointment of a receiver or manager, and foreclosure (s.233 CAMA). A chargee has no power to purchase the charged assets itself."
+          },
+          {
+            "id": 16,
+            "context": "Hull Nigeria Limited was incorporated in 1st of November 2023 to carry out the business of animal husbandry. However, they intend to expand the scope of their business by altering its business to include making of leather bags by sourcing their materials from the Northern part of the country. They also intend to convert to public to enable members of the public.",
+            "question": "Before the company re-register as a public company it must keep and maintain all but one of the following statutory books :",
+            "options": {
+              "a": "Register of debenture holders",
+              "b": "Financial Statements",
+              "c": "Accounting Records",
+              "d": "Minutes Books"
+            },
+            "answer": "b",
+            "explanation": "The statutory books are the register of members, index of members, register of charges, register of debenture holders, minutes book, register of directors and secretaries, and accounting records. Financial statements are prepared yearly from the accounting records and are not a statutory book."
+          },
+          {
+            "id": 17,
+            "context": "Hull Nigeria Limited was incorporated in 1st of November 2023 to carry out the business of animal husbandry. However, they intend to expand the scope of their business by altering its business to include making of leather bags by sourcing their materials from the Northern part of the country. They also intend to convert to public to enable members of the public.",
+            "question": "By the status of the company before re-registration the following meetings are likely meetings for the company to hold except:",
+            "options": {
+              "a": "Statutory Meeting",
+              "b": "First Board Meeting",
+              "c": "Annual General Meeting",
+              "d": "Extraordinary General Meeting"
+            },
+            "answer": "a",
+            "explanation": "A statutory meeting is required only of a public company, within six months of incorporation. Hull Nigeria Limited is a private company until re-registration, so it holds the first board meeting, the AGM and any EGM but not a statutory meeting."
+          },
+          {
+            "id": 18,
+            "context": "Hull Nigeria Limited was incorporated in 1st of November 2023 to carry out the business of animal husbandry. However, they intend to expand the scope of their business by altering its business to include making of leather bags by sourcing their materials from the Northern part of the country. They also intend to convert to public to enable members of the public.",
+            "question": "One of the following is NOT a consequence of Re-Registering the Company:",
+            "options": {
+              "a": "The company may appoint a company secretary",
+              "b": "The company may increase its issued share capital",
+              "c": "The company must issue new shares",
+              "d": "The company may invite members of the public to subscribe for its shares."
+            },
+            "answer": "c",
+            "explanation": "Re-registration as a public company (ss.56-62, Form CAC 4) lets the company increase its share capital, appoint a company secretary with the qualifications public companies require and invite the public to subscribe. It does not oblige the company to issue new shares."
+          },
+          {
+            "id": 19,
+            "context": "Hull Nigeria Limited was incorporated in 1st of November 2023 to carry out the business of animal husbandry. However, they intend to expand the scope of their business by altering its business to include making of leather bags by sourcing their materials from the Northern part of the country. They also intend to convert to public to enable members of the public.",
+            "question": "All but one is how the Public can participate in the Equity of the company:",
+            "options": {
+              "a": "Rights issue",
+              "b": "Hybrid issue",
+              "c": "Debenture Stock",
+              "d": "Private Placement"
+            },
+            "answer": "c",
+            "explanation": "The public can take part in a company's equity by rights issue, hybrid offer, private placement, IPO, offer for sale and similar offers. Debenture stock is a loan (debt) and not equity."
+          },
+          {
+            "id": 20,
+            "context": "Hull Nigeria Limited was incorporated in 1st of November 2023 to carry out the business of animal husbandry. However, they intend to expand the scope of their business by altering its business to include making of leather bags by sourcing their materials from the Northern part of the country. They also intend to convert to public to enable members of the public.",
+            "question": "If the company is making an Offer for Subscription to the Public, one of the following Regulatory bodies may NOT be involved-:",
+            "options": {
+              "a": "Nigerian Exchange",
+              "b": "Central Securities Clearing System",
+              "c": "Corporate Affairs Commission",
+              "d": "Federal High Court"
+            },
+            "answer": "d",
+            "explanation": "An offer of shares to the public involves the SEC (approval and registration of the prospectus), the CAC (registration of the prospectus), the Nigerian Exchange (listing) and the CSCS (clearing and settlement). The Federal High Court is not part of the process."
+          }
+        ]
+      },
+      {
+        "id": "criminal-litigation",
+        "name": "Criminal Litigation",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "Tamuno Preye and Okonkwo Ali are notorious armed robbers that operate and terrorize residents of Rumuola and Rumokuta axis in Port Harcourt, Rivers State. They have been on the watchlist of the men of the Nigerian Police Force for 5 years. On the 4th day of May 2023, the duo, while armed with guns and knives snatched an IPhone 17 pro belonging to Mr David Alaba and escaped into a nearby forest at Rumuola. Acting on information, the police arrested the suspects at Casablanca joint along Sani Abacha Road later that evening, recovered the Iphone 17 pro and other incriminating evidence, and took them into custody. They have now been arraigned at the High Court of Rivers State sitting in Port Harcourt. Answer the following questions:",
+            "question": "What is the proper mode to charge the suspects at the High Court of Rivers State?",
+            "options": {
+              "a": "By way of charge",
+              "b": "By way of information",
+              "c": "By first information complaint",
+              "d": "By way of complaint"
+            },
+            "answer": "b",
+            "explanation": "Rivers State is in the South, and the High Court in the South is invoked by way of information (signed by the Attorney-General or a law officer), not a charge. A charge is used in the Magistrate Court and at the Federal High Court."
+          },
+          {
+            "id": 2,
+            "context": "Tamuno Preye and Okonkwo Ali are notorious armed robbers that operate and terrorize residents of Rumuola and Rumokuta axis in Port Harcourt, Rivers State. They have been on the watchlist of the men of the Nigerian Police Force for 5 years. On the 4th day of May 2023, the duo, while armed with guns and knives snatched an IPhone 17 pro belonging to Mr David Alaba and escaped into a nearby forest at Rumuola. Acting on information, the police arrested the suspects at Casablanca joint along Sani Abacha Road later that evening, recovered the Iphone 17 pro and other incriminating evidence, and took them into custody. They have now been arraigned at the High Court of Rivers State sitting in Port Harcourt. Answer the following questions:",
+            "question": "Who is responsible at the police station for keeping the materials recovered from the suspects?",
+            "options": {
+              "a": "The Divisional Police Officer",
+              "b": "The Station Officer",
+              "c": "The Investigation Police officer",
+              "d": "The Exhibit keeper."
+            },
+            "answer": "d",
+            "explanation": "Items recovered from suspects are handed to the exhibit keeper, who marks, numbers and registers them in the exhibit register and keeps them in the exhibit room; the exhibit is tendered in court through the exhibit keeper."
+          },
+          {
+            "id": 3,
+            "context": "Tamuno Preye and Okonkwo Ali are notorious armed robbers that operate and terrorize residents of Rumuola and Rumokuta axis in Port Harcourt, Rivers State. They have been on the watchlist of the men of the Nigerian Police Force for 5 years. On the 4th day of May 2023, the duo, while armed with guns and knives snatched an IPhone 17 pro belonging to Mr David Alaba and escaped into a nearby forest at Rumuola. Acting on information, the police arrested the suspects at Casablanca joint along Sani Abacha Road later that evening, recovered the Iphone 17 pro and other incriminating evidence, and took them into custody. They have now been arraigned at the High Court of Rivers State sitting in Port Harcourt. Answer the following questions:",
+            "question": "Assuming Mr David Alaba is requested to identify each of the suspects that snatched his iphone 17 pro in separate identification parades, how many persons will be assembled with the suspect at the parade?",
+            "options": {
+              "a": "12",
+              "b": "9",
+              "c": "8",
+              "d": "14"
+            },
+            "answer": "b",
+            "explanation": "At an identification parade the suspect is placed among not less than 8 other persons of similar age, height, general appearance and station in life, so 9 persons are assembled when the suspect is included. Where two or more suspects are to be identified, the numbers rise, but here Mr Alaba identifies each suspect in a separate parade. So 8 persons plus the suspect, which is 9, is the answer."
+          },
+          {
+            "id": 4,
+            "context": "Tamuno Preye and Okonkwo Ali are notorious armed robbers that operate and terrorize residents of Rumuola and Rumokuta axis in Port Harcourt, Rivers State. They have been on the watchlist of the men of the Nigerian Police Force for 5 years. On the 4th day of May 2023, the duo, while armed with guns and knives snatched an IPhone 17 pro belonging to Mr David Alaba and escaped into a nearby forest at Rumuola. Acting on information, the police arrested the suspects at Casablanca joint along Sani Abacha Road later that evening, recovered the Iphone 17 pro and other incriminating evidence, and took them into custody. They have now been arraigned at the High Court of Rivers State sitting in Port Harcourt. Answer the following questions:",
+            "question": "Assuming Tamuno Preye made a confessional statement at the police station, his statement would bind:",
+            "options": {
+              "a": "Tamuno Preye alone",
+              "b": "Tamuno Preye and Okonkwo Ali",
+              "c": "Okonkwo Ali alone",
+              "d": "None of the above."
+            },
+            "answer": "a",
+            "explanation": "A confessional statement binds only its maker. It is admissible against the maker but not against a co- accused. So Tamuno Preye's statement binds him alone."
+          },
+          {
+            "id": 5,
+            "context": "Tamuno Preye and Okonkwo Ali are notorious armed robbers that operate and terrorize residents of Rumuola and Rumokuta axis in Port Harcourt, Rivers State. They have been on the watchlist of the men of the Nigerian Police Force for 5 years. On the 4th day of May 2023, the duo, while armed with guns and knives snatched an IPhone 17 pro belonging to Mr David Alaba and escaped into a nearby forest at Rumuola. Acting on information, the police arrested the suspects at Casablanca joint along Sani Abacha Road later that evening, recovered the Iphone 17 pro and other incriminating evidence, and took them into custody. They have now been arraigned at the High Court of Rivers State sitting in Port Harcourt. Answer the following questions:",
+            "question": "Assuming the bail application made by the counsel to the defendants was refused by the trial judge, another application for bail in the above matter will be made to;",
+            "options": {
+              "a": "The Court of Appeal",
+              "b": "Another High court judge",
+              "c": "The Chief Registrar",
+              "d": "The Chief judge of Rivers State"
+            },
+            "answer": "a",
+            "explanation": "Once a court has refused bail, a fresh application goes to a higher court and not to another court of the same coordinate jurisdiction (The State v Uwa). From the High Court, that is the Court of Appeal."
+          },
+          {
+            "id": 6,
+            "context": "Egbe Olofu was arraigned upon a five-count charge of stealing 5 laptops from the shop of Abu Itodo. One of the charges mistakenly put the value of the laptop at five hundred thousand naira whereas the actual value was one million five hundred thousand naira. The same charge put the address of Abu Itodo as No. 5 Odu Street, Wuye, Abuja while the actual address was No. 50 Udo Street. The court dismissed the defence no case submission upon the closure of the prosecution’s case. The court held in the final judgment that the prosecution proved all counts and convicted the defendant. Defence counsel intends to appeal to set aside the judgment. Answer the following questions:",
+            "question": "The charges against the defendant would likely have been proved by any except one of the underlisted means:",
+            "options": {
+              "a": "Strong suspicion of guilt.",
+              "b": "Circumstantial evidence",
+              "c": "Direct evidence",
+              "d": "Confession"
+            },
+            "answer": "a",
+            "explanation": "A defendant's guilt may be proved by direct evidence, circumstantial evidence, or a confession. Suspicion, however strong, does not amount to proof beyond reasonable doubt."
+          },
+          {
+            "id": 7,
+            "context": "Egbe Olofu was arraigned upon a five-count charge of stealing 5 laptops from the shop of Abu Itodo. One of the charges mistakenly put the value of the laptop at five hundred thousand naira whereas the actual value was one million five hundred thousand naira. The same charge put the address of Abu Itodo as No. 5 Odu Street, Wuye, Abuja while the actual address was No. 50 Udo Street. The court dismissed the defence no case submission upon the closure of the prosecution’s case. The court held in the final judgment that the prosecution proved all counts and convicted the defendant. Defence counsel intends to appeal to set aside the judgment. Answer the following questions:",
+            "question": "It would not have been mandatory to prove guilt for:",
+            "options": {
+              "a": "Failure of the defendant to testify in his defence.",
+              "b": "Court to be convinced of doubt of complicity of defendant.",
+              "c": "Failure of prosecution to call all witnesses that they had announced they would call.",
+              "d": "Failure of the prosecution to call eye witnesses."
+            },
+            "answer": "b",
+            "explanation": "This follows the lecturer's answer. The prosecution need not call every witness named in its proof of evidence or every eye witness, and no fixed number of witnesses is needed to prove a case (s.200 Evidence Act), but the court must be satisfied of guilt beyond reasonable doubt, and I could not build a fuller reason for (b) from the rules, so check this one with your lecturer."
+          },
+          {
+            "id": 8,
+            "context": "Egbe Olofu was arraigned upon a five-count charge of stealing 5 laptops from the shop of Abu Itodo. One of the charges mistakenly put the value of the laptop at five hundred thousand naira whereas the actual value was one million five hundred thousand naira. The same charge put the address of Abu Itodo as No. 5 Odu Street, Wuye, Abuja while the actual address was No. 50 Udo Street. The court dismissed the defence no case submission upon the closure of the prosecution’s case. The court held in the final judgment that the prosecution proved all counts and convicted the defendant. Defence counsel intends to appeal to set aside the judgment. Answer the following questions:",
+            "question": "The Court probably dismissed the no case submission because it was convinced:",
+            "options": {
+              "a": "That he is guilty.",
+              "b": "The prosecution proved the guilt of the defendant beyond reasonable doubt.",
+              "c": "The prosecution proved the guilt of the defendant beyond shadow of doubt.",
+              "d": "Existence of prima facie case."
+            },
+            "answer": "d",
+            "explanation": "On a no case submission the court asks only whether the prosecution has made out a prima facie case requiring the defendant to answer. It does not decide guilt or proof beyond reasonable doubt at that stage. Overruling it does not mean the defendant is guilty."
+          },
+          {
+            "id": 9,
+            "context": "Egbe Olofu was arraigned upon a five-count charge of stealing 5 laptops from the shop of Abu Itodo. One of the charges mistakenly put the value of the laptop at five hundred thousand naira whereas the actual value was one million five hundred thousand naira. The same charge put the address of Abu Itodo as No. 5 Odu Street, Wuye, Abuja while the actual address was No. 50 Udo Street. The court dismissed the defence no case submission upon the closure of the prosecution’s case. The court held in the final judgment that the prosecution proved all counts and convicted the defendant. Defence counsel intends to appeal to set aside the judgment. Answer the following questions:",
+            "question": "The judgment in Egbe Olofu’s may be set aside for:",
+            "options": {
+              "a": "Error in stating the offence and particulars of the charge.",
+              "b": "Mistake in the details of the offence.",
+              "c": "Wrongly dismissing objection raised to the mistakes in the charge.",
+              "d": "None of the above."
+            },
+            "answer": "a",
+            "explanation": "A defect in a charge does not by itself set aside a conviction, but an error in stating the offence and the particulars of the charge goes to the foundation of the charge and can lead the judgment to be set aside where it misled the defendant (s.220 ACJA; s.158 ACJL Lagos; Ogbomor v State; Duru v Police). The wrong value and the wrong house number are minor details, and wrongly dismissing the objection on them is not what sets the judgment aside, so (b) and (c) do not apply, and (d) is wrong because (a) is a ground."
+          },
+          {
+            "id": 10,
+            "context": "Egbe Olofu was arraigned upon a five-count charge of stealing 5 laptops from the shop of Abu Itodo. One of the charges mistakenly put the value of the laptop at five hundred thousand naira whereas the actual value was one million five hundred thousand naira. The same charge put the address of Abu Itodo as No. 5 Odu Street, Wuye, Abuja while the actual address was No. 50 Udo Street. The court dismissed the defence no case submission upon the closure of the prosecution’s case. The court held in the final judgment that the prosecution proved all counts and convicted the defendant. Defence counsel intends to appeal to set aside the judgment. Answer the following questions:",
+            "question": "The address of Abu Itodo, the victim, would have been material to:",
+            "options": {
+              "a": "Subject-matter jurisdiction of the court.",
+              "b": "Territorial jurisdiction",
+              "c": "Feature in the case that affects jurisdiction.",
+              "d": "Condition precedent to assumption of jurisdiction."
+            },
+            "answer": "b",
+            "explanation": "Criminal trials are territorial, so jurisdiction depends on where the offence was committed. The victim's shop address is where the stealing took place, so the address could only be material to territorial jurisdiction (the court's area), not to subject-matter jurisdiction. Here the mistake did not move the offence outside Abuja, so it did not matter."
+          },
+          {
+            "id": 11,
+            "context": "Sergeant Dagbo Okokomaiko and Warrant Officer Kenneth Dumebi of the Nigerian Army were deployed for military operations in Sabo, Kano State. Sometime in January 2021, it was alleged that they had been extorting money from members of the local community and had unlawfully killed the village chief. Following these allegations, their Commanding Officer constituted a Special Court-Martial in March, 2026 to try them for the alleged offences. Answer the following questions:",
+            "question": "One of the following would be correct in the trial of Sergeant Dagbo Okokomaiko and Warrant Officer Kenneth Dumebi in this case:",
+            "options": {
+              "a": "They cannot be tried by a civil court for any of the offences",
+              "b": "They no longer have the right to elect which of the courts to try them",
+              "c": "They can still be tried either by the Civil Court and the Court Martial",
+              "d": "None of the above"
+            },
+            "answer": "b",
+            "explanation": "The alleged offences were in January 2021 and the Special Court-Martial was constituted in March 2026, over five years later. A trial of a person subject to service law must be commenced within 3 years of the offence (s.169(1) AFA), except for mutiny, failure to suppress mutiny and desertion, or with the consent of the Attorney-General of the Federation. Time has run, so the Court-Martial route is closed and the accused persons no longer have the right to elect which court tries them (b). Option (a) is wrong because civil courts can try civil offences, and (c) is wrong because they can no longer be tried by both."
+          },
+          {
+            "id": 12,
+            "context": "Sergeant Dagbo Okokomaiko and Warrant Officer Kenneth Dumebi of the Nigerian Army were deployed for military operations in Sabo, Kano State. Sometime in January 2021, it was alleged that they had been extorting money from members of the local community and had unlawfully killed the village chief. Following these allegations, their Commanding Officer constituted a Special Court-Martial in March, 2026 to try them for the alleged offences. Answer the following questions:",
+            "question": "The proper composition of the Court-martial in this case would be:",
+            "options": {
+              "a": "The President, 2 members, a liaison officer, and a judge advocate.",
+              "b": "The President, at least 2 members, a waiting member, a liaison officer, and a judge advocate. ",
+              "c": "The President, at least 4 members, a waiting member, a liaison officer, and a judge advocate.",
+              "d": "The President, at least 4 members, a waiting member, and a judge advocate."
+            },
+            "answer": "b",
+            "explanation": "The question describes a Special Court-Martial. It consists of a President, not less than two members, a waiting member, a liaison officer and a judge advocate (s.129 AFA). A General Court-Martial requires at least four members. The waiting member, liaison officer and judge advocate are adjuncts and are not counted."
+          },
+          {
+            "id": 13,
+            "context": "Sergeant Dagbo Okokomaiko and Warrant Officer Kenneth Dumebi of the Nigerian Army were deployed for military operations in Sabo, Kano State. Sometime in January 2021, it was alleged that they had been extorting money from members of the local community and had unlawfully killed the village chief. Following these allegations, their Commanding Officer constituted a Special Court-Martial in March, 2026 to try them for the alleged offences. Answer the following questions:",
+            "question": "Assuming the defendants in this case were tried by the Court Martial and sentenced to 10 years imprisonment, any appeal by them must be filed within ... days of the judgment.",
+            "options": {
+              "a": "10 days",
+              "b": "21 days",
+              "c": "40 days",
+              "d": "90 days"
+            },
+            "answer": "c",
+            "explanation": "An appeal from the General Court-Martial to the Court of Appeal must be filed within 40 days of the promulgation of the findings (s.184(1) AFA). A sentence of death has a 10-day period, but 10 years imprisonment does not fall in that category, so 40 days applies."
+          },
+          {
+            "id": 14,
+            "context": "Sergeant Dagbo Okokomaiko and Warrant Officer Kenneth Dumebi of the Nigerian Army were deployed for military operations in Sabo, Kano State. Sometime in January 2021, it was alleged that they had been extorting money from members of the local community and had unlawfully killed the village chief. Following these allegations, their Commanding Officer constituted a Special Court-Martial in March, 2026 to try them for the alleged offences. Answer the following questions:",
+            "question": "Assuming they were tried by a Civil Court and sentenced to death, any appeal by them must be filed within ... days of the judgment.",
+            "options": {
+              "a": "10 days",
+              "b": "21 days",
+              "c": "40 days",
+              "d": "90 days"
+            },
+            "answer": "d",
+            "explanation": "Appeals from the High Court to the Court of Appeal in criminal matters are filed within 90 days (3 months) of the judgment (s.24 Court of Appeal Act)."
+          },
+          {
+            "id": 15,
+            "context": "Sergeant Dagbo Okokomaiko and Warrant Officer Kenneth Dumebi of the Nigerian Army were deployed for military operations in Sabo, Kano State. Sometime in January 2021, it was alleged that they had been extorting money from members of the local community and had unlawfully killed the village chief. Following these allegations, their Commanding Officer constituted a Special Court-Martial in March, 2026 to try them for the alleged offences. Answer the following questions:",
+            "question": "Which of the following would not be true of the judge advocate at the Court Martial in this case?",
+            "options": {
+              "a": "He must be a lawyer",
+              "b": "He must be a military officer",
+              "c": "He must be duly authorized to prosecute the case by the Attorney General of the Federation",
+              "d": "He is not regarded as a member of the Court Martial"
+            },
+            "answer": "c",
+            "explanation": "The judge advocate must be a commissioned officer and a legal practitioner of at least 3 years' post- call, he advises the court on law and procedure, he has no vote and is not a member of the court-martial (Nigerian Army v Dodo). He does not prosecute and needs no authorisation from the Attorney-General of the Federation."
+          },
+          {
+            "id": 16,
+            "context": "Chuka Umaru and Dapo Udenyi were arrested on May 10, 2025 for the offence of jointly stealing a Toyota Prado car from a parking lot in Ikeja, Lagos on the 1st of January, 2025 and transported it to Ondo State. Kunle Kuku, a painter in Akure, Ondo State, changed the colour and sold it six months later to Jolayemi Adum, a car dealer in Shagamu, Ogun State for ₦9 million. The four were eventually arraigned in July 2025 before a Magistrate Court in Shagamu, Ogun State. The prosecution opened and closed its case on the 4th August 2025. Now answer the following questions:",
+            "question": "The appropriate court with jurisdiction over the offences would be::",
+            "options": {
+              "a": "A Magistrate Court in Lagos State only.",
+              "b": "A Magistrate Court in Lagos, Ondo or Ogun State.",
+              "c": "A Magistrate Court in Ondo State State only",
+              "d": "The Federal High Court in Ogun State."
+            },
+            "answer": "b",
+            "explanation": "Where the ingredients of an offence occur in several states, any court with subject-matter jurisdiction in a place where the series of acts was committed may try the case, even a state merely entered into (Njovens v State; Okoro v AG Western Nigeria). The car was stolen in Lagos, recoloured in Ondo and sold in Ogun, so a Magistrate Court in any of those three states has jurisdiction."
+          },
+          {
+            "id": 17,
+            "context": "Chuka Umaru and Dapo Udenyi were arrested on May 10, 2025 for the offence of jointly stealing a Toyota Prado car from a parking lot in Ikeja, Lagos on the 1st of January, 2025 and transported it to Ondo State. Kunle Kuku, a painter in Akure, Ondo State, changed the colour and sold it six months later to Jolayemi Adum, a car dealer in Shagamu, Ogun State for ₦9 million. The four were eventually arraigned in July 2025 before a Magistrate Court in Shagamu, Ogun State. The prosecution opened and closed its case on the 4th August 2025. Now answer the following questions:",
+            "question": "During the arraignment of the defendants at the Magistrate Court in Shagamu, Ogun State, it would be true to say that:",
+            "options": {
+              "a": "The body of the charge sheet will have one paragraph",
+              "b": "The complainant will be the Federal Republic of Nigeria",
+              "c": "The charge sheet will be signed by a law officer.",
+              "d": "The charge sheet will be signed by a magistrate with a directive for them to be tried at the High Court"
+            },
+            "answer": "a",
+            "explanation": "Ogun State is a Southern state, so the charge before a Magistrate Court in Shagamu is drafted as a charge sheet, not an information. The body of a Magistrate Court (South) charge sheet is one paragraph for each count, setting out the particulars (accused, date, place, offence, person against whom it was committed, section). This differs from the Magistrate Court (North), where the charge runs to three paragraphs, and from a High Court (South) information, which has a Statement of Offence and Particulars of Offence. (b) is wrong because the complainant in a police-prosecuted charge in a Magistrate Court (South) is the Commissioner of Police, and the Federal Republic of Nigeria applies only to federal offences prosecuted for the Attorney-General of the Federation or a special prosecutor. (c) is wrong because the charge sheet is signed by a police officer, not by a law officer, and law officers sign at the High Court level. (d) is wrong because a magistrate does not sign the charge sheet, and a directive to try at the High Court is not part of a Magistrate Court (South) charge."
+          },
+          {
+            "id": 18,
+            "context": "Chuka Umaru and Dapo Udenyi were arrested on May 10, 2025 for the offence of jointly stealing a Toyota Prado car from a parking lot in Ikeja, Lagos on the 1st of January, 2025 and transported it to Ondo State. Kunle Kuku, a painter in Akure, Ondo State, changed the colour and sold it six months later to Jolayemi Adum, a car dealer in Shagamu, Ogun State for ₦9 million. The four were eventually arraigned in July 2025 before a Magistrate Court in Shagamu, Ogun State. The prosecution opened and closed its case on the 4th August 2025. Now answer the following questions:",
+            "question": "Which of the following will be correct in respect of the charge(s) to be drafted in this case?",
+            "options": {
+              "a": "Two charge sheets will be drafted, one for stealing by Chuka and Dapo and another for Kuku and Jolayemi for receiving stolen property.",
+              "b": "Only one charge sheet will be drafted and the four of them will be jointly charged in two counts, one for stealing and another for receiving stolen property.",
+              "c": "The four defendants will be charged under different counts in the same charge sheet",
+              "d": "None of the above."
+            },
+            "answer": "d",
+            "explanation": "This follows the lecturer's answer. Options (a), (b) and (c) each misstate how the charge is drafted in this case, so none of the options is correct. I could not build a fuller reason for (d) from the rules, so check this one with your lecturer."
+          },
+          {
+            "id": 19,
+            "context": "Chuka Umaru and Dapo Udenyi were arrested on May 10, 2025 for the offence of jointly stealing a Toyota Prado car from a parking lot in Ikeja, Lagos on the 1st of January, 2025 and transported it to Ondo State. Kunle Kuku, a painter in Akure, Ondo State, changed the colour and sold it six months later to Jolayemi Adum, a car dealer in Shagamu, Ogun State for ₦9 million. The four were eventually arraigned in July 2025 before a Magistrate Court in Shagamu, Ogun State. The prosecution opened and closed its case on the 4th August 2025. Now answer the following questions:",
+            "question": "The charges in respect of this case must be filed within",
+            "options": {
+              "a": "3 months of commission of the offence",
+              "b": "1 year of commission of the offence",
+              "c": "3 years of commission of the offence",
+              "d": "None of the above"
+            },
+            "answer": "d",
+            "explanation": "As a general rule there is no time limit within which to commence criminal proceedings. The exceptions (treason 2 years, sedition 6 months, CEMA offences 7 years, certain sexual offences) do not include stealing or receiving a car."
+          },
+          {
+            "id": 20,
+            "context": "Chuka Umaru and Dapo Udenyi were arrested on May 10, 2025 for the offence of jointly stealing a Toyota Prado car from a parking lot in Ikeja, Lagos on the 1st of January, 2025 and transported it to Ondo State. Kunle Kuku, a painter in Akure, Ondo State, changed the colour and sold it six months later to Jolayemi Adum, a car dealer in Shagamu, Ogun State for ₦9 million. The four were eventually arraigned in July 2025 before a Magistrate Court in Shagamu, Ogun State. The prosecution opened and closed its case on the 4th August 2025. Now answer the following questions:",
+            "question": "Which of the following is not an option open to the any of the defendants in this case after the close of prosecution’s case.",
+            "options": {
+              "a": "They may make a no case submission",
+              "b": "They may open their defence",
+              "c": "They may rest their case on that of the prosecution",
+              "d": "They may go on appeal"
+            },
+            "answer": "d",
+            "explanation": "After the prosecution closes its case, the defendant may make a no case submission, open his defence, or rest his case on that of the prosecution. An appeal lies only after judgment, so going on appeal is not an option at that stage."
+          }
+        ]
+      },
+      {
+        "id": "professional-ethics",
+        "name": "Professional Ethics and Skills",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "Obobo Boroboro was called to the Bar in 2014. Immediately, after his call to the Bar he joined the law firm of Tanata, Monaca, Yoboyo & Co based in the Federal Capital Territory, Abuja where he has been practicing law for the past 11 years. Obobo Boroboro recently expressed the intention of becoming a judge of the High Court of the Federal Capital Territory, Abuja. Obobo Boroboro was appointed a notary public in 2023. A public notice for expression of interest for appointment of judges of the High Court of the Federal Capital Territory, Abuja has been published. Use the above scenario to answer Questions 1-5:",
+            "question": "Which of the under listed bodies called Obobo Boroboro to the Bar",
+            "options": {
+              "a": "General Council of the Bar.",
+              "b": "Legal Practitioners Privileges Committee",
+              "c": "Council of Legal Education.",
+              "d": "The Body of Benchers"
+            },
+            "answer": "d",
+            "explanation": "A person is called to the Nigerian Bar by the Body of Benchers after passing the Bar Finals at the Nigerian Law School. The Council of Legal Education conducts the training and examination, and the LPPC and General Council of the Bar have other roles."
+          },
+          {
+            "id": 2,
+            "context": "Obobo Boroboro was called to the Bar in 2014. Immediately, after his call to the Bar he joined the law firm of Tanata, Monaca, Yoboyo & Co based in the Federal Capital Territory, Abuja where he has been practicing law for the past 11 years. Obobo Boroboro recently expressed the intention of becoming a judge of the High Court of the Federal Capital Territory, Abuja. Obobo Boroboro was appointed a notary public in 2023. A public notice for expression of interest for appointment of judges of the High Court of the Federal Capital Territory, Abuja has been published. Use the above scenario to answer Questions 1-5:",
+            "question": "Which of the under listed bodies published the notice for the appointment of judges of the High Court of the Federal Capital, Abuja",
+            "options": {
+              "a": "National Judicial Council",
+              "b": "Federal Judicial Service Commission",
+              "c": "Judicial Service Committee of the Federal Capital Territory, Abuja",
+              "d": "Federal Capital Territory Judicial Service Commission"
+            },
+            "answer": "c",
+            "explanation": "Under the Revised NJC Guidelines and Procedural Rules for the Appointment of Judicial Officers 2014, the call for expression of interest by public notice is made by the body that advises the NJC. For the High Court of the FCT that is the Judicial Service Committee of the FCT (the FJSC does this for federal courts and the SJSC for State courts)."
+          },
+          {
+            "id": 3,
+            "context": "Obobo Boroboro was called to the Bar in 2014. Immediately, after his call to the Bar he joined the law firm of Tanata, Monaca, Yoboyo & Co based in the Federal Capital Territory, Abuja where he has been practicing law for the past 11 years. Obobo Boroboro recently expressed the intention of becoming a judge of the High Court of the Federal Capital Territory, Abuja. Obobo Boroboro was appointed a notary public in 2023. A public notice for expression of interest for appointment of judges of the High Court of the Federal Capital Territory, Abuja has been published. Use the above scenario to answer Questions 1-5:",
+            "question": "The authority that has the power to recommend Obobo Boroboro for appointment as a judge of the High Court of the Federal Capital Territory, Abuja is",
+            "options": {
+              "a": "Judicial Service Committee of the Federal Capital Territory, Abuja",
+              "b": "Federal Capital Territory, Judicial Service Commission",
+              "c": "The National Judicial Council",
+              "d": "Chief Judge of the High Court of the Federal Capital Territory, Abuja"
+            },
+            "answer": "c",
+            "explanation": "Judges of the High Court of the FCT are appointed by the President on the recommendation of the National Judicial Council. The Judicial Service Committee of the FCT only nominates and advises the NJC, and the Chief Judge only calls for nominations."
+          },
+          {
+            "id": 4,
+            "context": "Obobo Boroboro was called to the Bar in 2014. Immediately, after his call to the Bar he joined the law firm of Tanata, Monaca, Yoboyo & Co based in the Federal Capital Territory, Abuja where he has been practicing law for the past 11 years. Obobo Boroboro recently expressed the intention of becoming a judge of the High Court of the Federal Capital Territory, Abuja. Obobo Boroboro was appointed a notary public in 2023. A public notice for expression of interest for appointment of judges of the High Court of the Federal Capital Territory, Abuja has been published. Use the above scenario to answer Questions 1-5:",
+            "question": "Which of the under listed best describes the type of law firm Obobo Boroboro is practicing with",
+            "options": {
+              "a": "Sole proprietorship",
+              "b": "Sole Practitionership",
+              "c": "Partnership",
+              "d": "Associateship"
+            },
+            "answer": "c",
+            "explanation": "A firm operating as 'Tanata, Monaca, Yoboyo & Co' with several named principals is a partnership. A sole practitionership or sole proprietorship has one owner, and an associateship involves independent practices sharing facilities."
+          },
+          {
+            "id": 5,
+            "context": "Obobo Boroboro was called to the Bar in 2014. Immediately, after his call to the Bar he joined the law firm of Tanata, Monaca, Yoboyo & Co based in the Federal Capital Territory, Abuja where he has been practicing law for the past 11 years. Obobo Boroboro recently expressed the intention of becoming a judge of the High Court of the Federal Capital Territory, Abuja. Obobo Boroboro was appointed a notary public in 2023. A public notice for expression of interest for appointment of judges of the High Court of the Federal Capital Territory, Abuja has been published. Use the above scenario to answer Questions 1-5:",
+            "question": "The authority that appointed Obobo Boroboro as a notary public is",
+            "options": {
+              "a": "The Attorney General of the Federation",
+              "b": "Body of Benchers",
+              "c": "The Chief Justice of Nigeria",
+              "d": "National Judicial Council"
+            },
+            "answer": "c",
+            "explanation": "A notary public is appointed by the Chief Justice of Nigeria under the Notaries Public Act, and only legal practitioners may be appointed."
+          },
+          {
+            "id": 6,
+            "context": "Alhaji Palmgrove, SAN was at the High Court of Edo State, Benin Judicial Division, before the Honourable, the Chief Judge of the State. His matter was for mention. He applied that his matter be called out of turn. The application was refused. The Judge wanted to deliver a judgment first before his matter will be called. Alhaji Palmgrove hissed and accused the Judge of being bereft of simple respect for elders and for wasting his time. He then said: “These days, all manners of people find their way to the Bench”. This was unacceptable to the Honourable Chief Judge. Use the above scenario to answer Questions 6-10:",
+            "question": "Alhaji Palmgrove’s conduct can best be described as –",
+            "options": {
+              "a": "Criminal contempt",
+              "b": "Civil contempt",
+              "c": "Civil contempt in facie curie",
+              "d": "Contempt ex facie curie"
+            },
+            "answer": "a",
+            "explanation": "Insulting the judge in open court and interrupting his proceedings is criminal contempt committed in the face of the court (in facie curiae). Civil contempt is disobedience of court orders and is always ex facie, so it does not fit."
+          },
+          {
+            "id": 7,
+            "context": "Alhaji Palmgrove, SAN was at the High Court of Edo State, Benin Judicial Division, before the Honourable, the Chief Judge of the State. His matter was for mention. He applied that his matter be called out of turn. The application was refused. The Judge wanted to deliver a judgment first before his matter will be called. Alhaji Palmgrove hissed and accused the Judge of being bereft of simple respect for elders and for wasting his time. He then said: “These days, all manners of people find their way to the Bench”. This was unacceptable to the Honourable Chief Judge. Use the above scenario to answer Questions 6-10:",
+            "question": "Which of the following options is open to the Honourable Chief Judge:",
+            "options": {
+              "a": "Take judicial notice of Alhaji Palmgrove’s action and sentence him.",
+              "b": "Order Alhaji Palmgrove to enter the witness box and be sentenced immediately.",
+              "c": "Order for pleadings",
+              "d": "Order Alhaji Palmgrove to proceed to the dock and show cause why he not be punished."
+            },
+            "answer": "d",
+            "explanation": "For contempt in the face of the court the judge may try the contemnor summarily, where the facts are notorious and incontestable. He should put the contemnor in the dock (not the witness box) and ask him to show cause why he should not be convicted and punished, in line with fair hearing (Deduwa v State; Dibia v Ezeigwe)."
+          },
+          {
+            "id": 8,
+            "context": "Alhaji Palmgrove, SAN was at the High Court of Edo State, Benin Judicial Division, before the Honourable, the Chief Judge of the State. His matter was for mention. He applied that his matter be called out of turn. The application was refused. The Judge wanted to deliver a judgment first before his matter will be called. Alhaji Palmgrove hissed and accused the Judge of being bereft of simple respect for elders and for wasting his time. He then said: “These days, all manners of people find their way to the Bench”. This was unacceptable to the Honourable Chief Judge. Use the above scenario to answer Questions 6-10:",
+            "question": "If convicted, the court may impose a maximum of ..... months’ imprisonment on Alhaji Palmgrove.",
+            "options": {
+              "a": "4",
+              "b": "6",
+              "c": "3",
+              "d": "1"
+            },
+            "answer": "c",
+            "explanation": "Edo State is in the South, where the Criminal Code applies, and s.133 Criminal Code carries a maximum of 3 months' imprisonment for contempt. The Penal Code (6 months) applies in the North."
+          },
+          {
+            "id": 9,
+            "context": "Alhaji Palmgrove, SAN was at the High Court of Edo State, Benin Judicial Division, before the Honourable, the Chief Judge of the State. His matter was for mention. He applied that his matter be called out of turn. The application was refused. The Judge wanted to deliver a judgment first before his matter will be called. Alhaji Palmgrove hissed and accused the Judge of being bereft of simple respect for elders and for wasting his time. He then said: “These days, all manners of people find their way to the Bench”. This was unacceptable to the Honourable Chief Judge. Use the above scenario to answer Questions 6-10:",
+            "question": "If Alhaji Palmgrove may show remorse and tender a genuine apology to the court, however, he may also be –",
+            "options": {
+              "a": "Ordered to enter a bond to be of good behaviour",
+              "b": "Cautioned and discharged",
+              "c": "Ordered to pay a fine in lieu of imprisonment",
+              "d": "All of the above."
+            },
+            "answer": "b",
+            "explanation": "A genuine apology can lead to pardon, and the response that follows remorse of this kind is a caution and discharge (Agbegende v Ilorin Native Authority). A bond to be of good behaviour (Awobokun v Adeyemi) and a fine are punishments the court imposes where the contemnor is not simply discharged, so they are not what the apology produces. Option (d) is wrong for the same reason."
+          },
+          {
+            "id": 10,
+            "context": "Alhaji Palmgrove, SAN was at the High Court of Edo State, Benin Judicial Division, before the Honourable, the Chief Judge of the State. His matter was for mention. He applied that his matter be called out of turn. The application was refused. The Judge wanted to deliver a judgment first before his matter will be called. Alhaji Palmgrove hissed and accused the Judge of being bereft of simple respect for elders and for wasting his time. He then said: “These days, all manners of people find their way to the Bench”. This was unacceptable to the Honourable Chief Judge. Use the above scenario to answer Questions 6-10:",
+            "question": "Assuming there was a plea of leniency by some members of the Bar present in the Court on that day on behalf of Alhaji Palmgrove, the plea would most likely be in their capacity as:",
+            "options": {
+              "a": "Amicus curiae",
+              "b": "Committee of friends of Alhaji Palmgrove",
+              "c": "Concerned learned friends of the profession",
+              "d": "All the above."
+            },
+            "answer": "a",
+            "explanation": "Lawyers who plead for leniency on behalf of the contemnor act as friends of the court (amicus curiae). They are not counsel in the matter, and they do not represent an independent party, so they are not a committee of friends of the contemnor or concerned friends of the profession."
+          },
+          {
+            "id": 11,
+            "context": "Jiji Agadagidi Esq., a first-generation lawyer has severally applied to be elevated to the rank of Senior Advocate of Nigeria without success. His major problem is getting his books of account correct. During the last inspection, the team also complained that his law office was congested and not befitting for the rank of Senior Advocate of Nigeria. Mr. Jiji Agadagidi has a lot of closed files bound together and kept in one corner of the reception for want of space. Embarrassed by the above observation, Mr. Jiji Agadagidi is desperately looking for a bigger office space and ways to dispose the closed files. Due to the huge capital needed to finance a bigger law office, Mr. Jiji Agadagidi wants to settle for a sole proprietorship. Use the above scenario to answer Questions 11-15",
+            "question": "Which of the following books of account or records contains entries relating to the incomes and expenditures of Mr. Jiji Agadagidi?",
+            "options": {
+              "a": "Ledger",
+              "b": "Cash book",
+              "c": "Record of bill of costs",
+              "d": "Notices"
+            },
+            "answer": "b",
+            "explanation": "The cash book records the day-to-day income and expenditure of the legal practitioner. The ledger classifies the transactions entered in the cash book, and the bill-of-costs record deals with fees."
+          },
+          {
+            "id": 12,
+            "context": "Jiji Agadagidi Esq., a first-generation lawyer has severally applied to be elevated to the rank of Senior Advocate of Nigeria without success. His major problem is getting his books of account correct. During the last inspection, the team also complained that his law office was congested and not befitting for the rank of Senior Advocate of Nigeria. Mr. Jiji Agadagidi has a lot of closed files bound together and kept in one corner of the reception for want of space. Embarrassed by the above observation, Mr. Jiji Agadagidi is desperately looking for a bigger office space and ways to dispose the closed files. Due to the huge capital needed to finance a bigger law office, Mr. Jiji Agadagidi wants to settle for a sole proprietorship. Use the above scenario to answer Questions 11-15",
+            "question": "One of the following does not describe the sort of premises that Mr. Jiji Agadagidi may use for his law office:",
+            "options": {
+              "a": "Office in a plaza.",
+              "b": "Office in the home.",
+              "c": "Existing building.",
+              "d": "Purpose built office."
+            },
+            "answer": "a",
+            "explanation": "The three types of premises for a law office are purpose-built office accommodation, an existing building (converted), and an office in the home. An office in a plaza is not a separate type."
+          },
+          {
+            "id": 13,
+            "context": "Jiji Agadagidi Esq., a first-generation lawyer has severally applied to be elevated to the rank of Senior Advocate of Nigeria without success. His major problem is getting his books of account correct. During the last inspection, the team also complained that his law office was congested and not befitting for the rank of Senior Advocate of Nigeria. Mr. Jiji Agadagidi has a lot of closed files bound together and kept in one corner of the reception for want of space. Embarrassed by the above observation, Mr. Jiji Agadagidi is desperately looking for a bigger office space and ways to dispose the closed files. Due to the huge capital needed to finance a bigger law office, Mr. Jiji Agadagidi wants to settle for a sole proprietorship. Use the above scenario to answer Questions 11-15",
+            "question": "On the closed files in Jiji Agadagidi’s office, the first step Jiji must take before determining whether to retain or destroy the files is to:",
+            "options": {
+              "a": "Give the Clients notices",
+              "b": "Archive the files",
+              "c": "Remove important documents",
+              "d": "Notify the NBA"
+            },
+            "answer": "a",
+            "explanation": "A closed file is the client's property. It should be returned to him, and where he fails to collect it after reasonable notice it may be destroyed (by shredding or burning), though original and important documents are not destroyed. So notice to the client comes first before deciding to retain or destroy."
+          },
+          {
+            "id": 14,
+            "context": "Jiji Agadagidi Esq., a first-generation lawyer has severally applied to be elevated to the rank of Senior Advocate of Nigeria without success. His major problem is getting his books of account correct. During the last inspection, the team also complained that his law office was congested and not befitting for the rank of Senior Advocate of Nigeria. Mr. Jiji Agadagidi has a lot of closed files bound together and kept in one corner of the reception for want of space. Embarrassed by the above observation, Mr. Jiji Agadagidi is desperately looking for a bigger office space and ways to dispose the closed files. Due to the huge capital needed to finance a bigger law office, Mr. Jiji Agadagidi wants to settle for a sole proprietorship. Use the above scenario to answer Questions 11-15",
+            "question": "Being a sole proprietor implies that that Mr. Jiji Agadagidi will be:",
+            "options": {
+              "a": "Practicing alone with support staff",
+              "b": "Practicing with other fee earners",
+              "c": "Practicing with Associates",
+              "d": "Sharing his profit with non-fee earners"
+            },
+            "answer": "b",
+            "explanation": "A sole proprietorship is a law firm with one legal practitioner as owner who employs other legal practitioners (fee earners) as employees and also support staff. A sole practitionership is the one that involves working alone with support staff only. Option (c), associates, describes a different unit of practice."
+          },
+          {
+            "id": 15,
+            "context": "Jiji Agadagidi Esq., a first-generation lawyer has severally applied to be elevated to the rank of Senior Advocate of Nigeria without success. His major problem is getting his books of account correct. During the last inspection, the team also complained that his law office was congested and not befitting for the rank of Senior Advocate of Nigeria. Mr. Jiji Agadagidi has a lot of closed files bound together and kept in one corner of the reception for want of space. Embarrassed by the above observation, Mr. Jiji Agadagidi is desperately looking for a bigger office space and ways to dispose the closed files. Due to the huge capital needed to finance a bigger law office, Mr. Jiji Agadagidi wants to settle for a sole proprietorship. Use the above scenario to answer Questions 11-15",
+            "question": "Which of the following regulatory bodies will determine whether Mr. Jiji Agadagidi is qualified for the rank of Senior Advocate of Nigeria?",
+            "options": {
+              "a": "Legal Practitioners Remuneration Committee",
+              "b": "General Council of the Bar",
+              "c": "Legal Practitioners Privileges Committee.",
+              "d": "Legal Practitioners Disciplinary Committee."
+            },
+            "answer": "c",
+            "explanation": "The Legal Practitioners Privileges Committee (LPPC) confers the rank of Senior Advocate of Nigeria and determines whether an applicant qualifies (s.5 Legal Practitioners Act). The call for applications and the interview of the shortlist is done by the Committee, not the General Council of the Bar or the Disciplinary Committee."
+          },
+          {
+            "id": 16,
+            "context": "The Attorney General of the Federation engaged the law firm of Leads Legal Practitioners as consultants in the drafting of a bill. To this end, the law firm had a meeting with the honourable, the Attorney General of the Federation to discuss the brief. At the meeting, Sanada Usula, a legal practitioner in Leads Legal Practitioner was told to take down the Minutes of Meeting. Being patriotic, Sanada Usula also engages in seeking employment from wealthy clients for the law office. Use the above scenario to answer Questions 16-20",
+            "question": "In the Minutes of Meeting taken by Sanada Usula “in attendance” implies that:",
+            "options": {
+              "a": "Employees and partners of the firm were present.",
+              "b": "Invited persons other than employees and partners of the firm were present.",
+              "c": "Partners and employees of the firm were absent with apologies.",
+              "d": "All of the above."
+            },
+            "answer": "b",
+            "explanation": "In the minutes of a meeting, 'Present' lists the members present, and 'In attendance' lists persons who are not members but attended the meeting. For the firm, 'in attendance' therefore means invited persons other than the partners and employees."
+          },
+          {
+            "id": 17,
+            "context": "The Attorney General of the Federation engaged the law firm of Leads Legal Practitioners as consultants in the drafting of a bill. To this end, the law firm had a meeting with the honourable, the Attorney General of the Federation to discuss the brief. At the meeting, Sanada Usula, a legal practitioner in Leads Legal Practitioner was told to take down the Minutes of Meeting. Being patriotic, Sanada Usula also engages in seeking employment from wealthy clients for the law office. Use the above scenario to answer Questions 16-20",
+            "question": "In the Minutes of Meeting taken by Sanada Usula, the following constitute parts of the Minutes of Meeting except:",
+            "options": {
+              "a": "Heading and names of employees’ present.",
+              "b": "Heading and matters arising.",
+              "c": "Adoption of agenda and reports.",
+              "d": "Resolution and refreshment."
+            },
+            "answer": "d",
+            "explanation": "The contents of minutes are: heading, attendance, apologies and absentees, opening remarks, adoption of the agenda and the last minutes, matters arising, discussions, reports, resolutions, any other business, closing and signature. Refreshment is not part of the minutes."
+          },
+          {
+            "id": 18,
+            "context": "The Attorney General of the Federation engaged the law firm of Leads Legal Practitioners as consultants in the drafting of a bill. To this end, the law firm had a meeting with the honourable, the Attorney General of the Federation to discuss the brief. At the meeting, Sanada Usula, a legal practitioner in Leads Legal Practitioner was told to take down the Minutes of Meeting. Being patriotic, Sanada Usula also engages in seeking employment from wealthy clients for the law office. Use the above scenario to answer Questions 16-20",
+            "question": "What part of the proposed bill to be drafted by Leads Legal Practitioners will broadly captures the main themes of the legislation?",
+            "options": {
+              "a": "The Short title.",
+              "b": "The Preamble.",
+              "c": "The Long title.",
+              "d": "The Commencement date."
+            },
+            "answer": "c",
+            "explanation": "The long title states the scope and essence of the bill ('A Bill for an Act to... and for connected matters'). The short title is only a citation, and the preamble gives the reasons or background."
+          },
+          {
+            "id": 19,
+            "context": "The Attorney General of the Federation engaged the law firm of Leads Legal Practitioners as consultants in the drafting of a bill. To this end, the law firm had a meeting with the honourable, the Attorney General of the Federation to discuss the brief. At the meeting, Sanada Usula, a legal practitioner in Leads Legal Practitioner was told to take down the Minutes of Meeting. Being patriotic, Sanada Usula also engages in seeking employment from wealthy clients for the law office. Use the above scenario to answer Questions 16-20",
+            "question": "All of the following are the stages Leads Legal Practitioners may undergo in drafting the proposed bill except:",
+            "options": {
+              "a": "Taking and understanding instructions.",
+              "b": "Designing the draft.",
+              "c": "Composition of the draft.",
+              "d": "Execution of the draft."
+            },
+            "answer": "d",
+            "explanation": "The stages of legislative drafting are: taking and understanding instructions, analysis of instructions, design, composition and scrutiny. Execution is not a stage of drafting a bill."
+          },
+          {
+            "id": 20,
+            "context": "The Attorney General of the Federation engaged the law firm of Leads Legal Practitioners as consultants in the drafting of a bill. To this end, the law firm had a meeting with the honourable, the Attorney General of the Federation to discuss the brief. At the meeting, Sanada Usula, a legal practitioner in Leads Legal Practitioner was told to take down the Minutes of Meeting. Being patriotic, Sanada Usula also engages in seeking employment from wealthy clients for the law office. Use the above scenario to answer Questions 16-20",
+            "question": "The conduct of Sanada Usula in seeking for employment from wealthy clients for the law firm amounts to:",
+            "options": {
+              "a": "Advertisement",
+              "b": "Soliciting",
+              "c": "Marketing.",
+              "d": "Propaganda."
+            },
+            "answer": "b",
+            "explanation": "Soliciting is directly or indirectly seeking professional employment from a client, and it is prohibited by Rule 39(3) RPC 2023. Advertisement is allowed in a limited form."
+          }
+        ]
+      },
+      {
+        "id": "property-law-practice",
+        "name": "Property Law Practice",
+        "questionsCount": 20,
+        "questions": [
+          {
+            "id": 1,
+            "context": "Engr Kajola recently exchanged a contract of sale of land with Ogene who paid a deposit of ₦10 million to Miss Bems, solicitor to Engr Kajola. Ogene was then granted permission to occupy the property pending when they will go on to completion in six months’ time. Answer the following questions",
+            "question": "After the exchange of contract, the purchaser acquires one of the following interests in the property",
+            "options": {
+              "a": "Legal interest",
+              "b": "Legal and equitable interests",
+              "c": "Equitable interest",
+              "d": "Unexpired term of the vendor."
+            },
+            "answer": "c",
+            "explanation": "On exchange of contracts the purchaser acquires an equitable interest in the land (the vendor holds the legal estate as trustee for him), which can be enforced by specific performance. The legal interest passes only on completion by the conveyance (Universal Vulcanizing v Ighoyivwi; Osagie v Oyeyinka)."
+          },
+          {
+            "id": 2,
+            "context": "Engr Kajola recently exchanged a contract of sale of land with Ogene who paid a deposit of ₦10 million to Miss Bems, solicitor to Engr Kajola. Ogene was then granted permission to occupy the property pending when they will go on to completion in six months’ time. Answer the following questions",
+            "question": "Miss Bems can only act as an interpleader between Engr Kajola and Ogene where she receives the deposit as",
+            "options": {
+              "a": "A Skateholder",
+              "b": "A stakeholder.",
+              "c": "A trustee.",
+              "d": "An Agent"
+            },
+            "answer": "b",
+            "explanation": "Where a solicitor receives the deposit as a stakeholder, he holds it as trustee for both parties and, if he cannot tell who is entitled, he may interplead and apply to the court. He is bound to pay it only to the party who becomes entitled (Rockeagle v Alsop). The option spelled 'Skateholder' is a mis-typed 'stakeholder' and (b) is the correct spelling."
+          },
+          {
+            "id": 3,
+            "context": "Engr Kajola recently exchanged a contract of sale of land with Ogene who paid a deposit of ₦10 million to Miss Bems, solicitor to Engr Kajola. Ogene was then granted permission to occupy the property pending when they will go on to completion in six months’ time. Answer the following questions",
+            "question": "To best protect Engr Kajola’s interest in the property, Ogene should be allowed to occupy the property after the exchange of contract, as a",
+            "options": {
+              "a": "Licensee",
+              "b": "Tenant",
+              "c": "Landlord",
+              "d": "Lessee"
+            },
+            "answer": "a",
+            "explanation": "To protect the vendor, a purchaser let into possession before completion should enter as a licensee (or tenant at will), so that he can be removed at any time. A tenant would gain a leasehold interest and security of tenure."
+          },
+          {
+            "id": 4,
+            "context": "Engr Kajola recently exchanged a contract of sale of land with Ogene who paid a deposit of ₦10 million to Miss Bems, solicitor to Engr Kajola. Ogene was then granted permission to occupy the property pending when they will go on to completion in six months’ time. Answer the following questions",
+            "question": "Ogene’s failure to go on to completion within the six months stipulated has all but one of the following consequences",
+            "options": {
+              "a": "Ogene may be compelled to complete the transaction",
+              "b": "Ogene will be required to secure the Governor’s consent",
+              "c": "Ogene may lose the ₦10 million paid",
+              "d": "He may pay interest on the balance of the purchase sum."
+            },
+            "answer": "b",
+            "explanation": "If the purchaser defaults, the vendor may compel completion by specific performance, forfeit the deposit, or claim interest on the balance of the purchase price. The Governor's consent is a condition for a valid completion and is not a consequence of failure to complete."
+          },
+          {
+            "id": 5,
+            "context": "On 12 March 2026, Mrs. Hushe Mati concluded negotiation to purchase a house at No. 105 Wapa Road, Ogun State at ₦ 6,000,000.00 from Chief Kakudi. She paid the sum of ₦ 600,000.00 as deposit to Chief Kakudi’s solicitor Balogun, who gave her a Deed of Assignment dated 26 April 2006 and registered as 48/48/06 at the Lands Registry, Abeokuta, Ogun State. Answer the following questions",
+            "question": "One of the following will enable Balogun pay the money to the party entitled at the end of the transaction",
+            "options": {
+              "a": "If he acts as Chief Kakudi ’s agent",
+              "b": "If he acts as a Stakeholder",
+              "c": "If he acts as Mrs. Hushe Mati s’ agent",
+              "d": "If he acts as Beneficial owner"
+            },
+            "answer": "b",
+            "explanation": "The vendor's solicitor may receive the deposit as agent of the vendor or as a stakeholder. Only as a stakeholder will he hold it for both parties and pay it to whichever of them becomes entitled at the end of the transaction (Rockeagle v Alsop). As agent he must pay the vendor."
+          },
+          {
+            "id": 6,
+            "context": "On 12 March 2026, Mrs. Hushe Mati concluded negotiation to purchase a house at No. 105 Wapa Road, Ogun State at ₦ 6,000,000.00 from Chief Kakudi. She paid the sum of ₦ 600,000.00 as deposit to Chief Kakudi’s solicitor Balogun, who gave her a Deed of Assignment dated 26 April 2006 and registered as 48/48/06 at the Lands Registry, Abeokuta, Ogun State. Answer the following questions",
+            "question": "At what stage of the transaction would Chief Kakudi be required to deduce title?",
+            "options": {
+              "a": "Before the contract",
+              "b": "During completion",
+              "c": "After the contract",
+              "d": "After completion"
+            },
+            "answer": "c",
+            "explanation": "After the exchange of contracts, the vendor must deduce title (by abstract or epitome of title) to show he has a good root of title, and the purchaser then investigates it. This is the post-contract stage and before completion."
+          },
+          {
+            "id": 7,
+            "context": "On 12 March 2026, Mrs. Hushe Mati concluded negotiation to purchase a house at No. 105 Wapa Road, Ogun State at ₦ 6,000,000.00 from Chief Kakudi. She paid the sum of ₦ 600,000.00 as deposit to Chief Kakudi’s solicitor Balogun, who gave her a Deed of Assignment dated 26 April 2006 and registered as 48/48/06 at the Lands Registry, Abeokuta, Ogun State. Answer the following questions",
+            "question": "If Chief Kakudi conveyed as beneficial owner, all except one of the following covenants would be implied",
+            "options": {
+              "a": "That Mrs. Hushe Mati will have quiet enjoyment",
+              "b": "That Chief Kakudi has a right to convey",
+              "c": "That Chief Kakudi will continue to pay the rates and taxes",
+              "d": "That the property is free from encumbrances."
+            },
+            "answer": "c",
+            "explanation": "A vendor who conveys as beneficial owner is taken to covenant that he has the right to convey, that the purchaser will have quiet enjoyment, that the property is free from encumbrances (except those disclosed) and for further assurance/indemnity (s.7 Conveyancing Act 1881; s.100 PCL 1959). A covenant that the vendor will continue to pay rates and taxes is not implied."
+          },
+          {
+            "id": 8,
+            "context": "On 12 March 2026, Mrs. Hushe Mati concluded negotiation to purchase a house at No. 105 Wapa Road, Ogun State at ₦ 6,000,000.00 from Chief Kakudi. She paid the sum of ₦ 600,000.00 as deposit to Chief Kakudi’s solicitor Balogun, who gave her a Deed of Assignment dated 26 April 2006 and registered as 48/48/06 at the Lands Registry, Abeokuta, Ogun State. Answer the following questions",
+            "question": "All except one of the following documents will pass as a good root of title in favour of Mrs Hushe Mati:",
+            "options": {
+              "a": "A certificate of title",
+              "b": "A deed of gift",
+              "c": "A deed of assignment",
+              "d": "An assent"
+            },
+            "answer": "a",
+            "explanation": "A good root of title is a document that stands on its own and conveys both legal and equitable interest: a registered deed of assignment, a deed of gift, an assent by personal representatives, a vesting order and a C of O on a state grant. A certificate of title is not in that list. A lease, licence, power of attorney and equitable mortgage are bad roots."
+          },
+          {
+            "id": 9,
+            "context": "On 12 March 2026, Mrs. Hushe Mati concluded negotiation to purchase a house at No. 105 Wapa Road, Ogun State at ₦ 6,000,000.00 from Chief Kakudi. She paid the sum of ₦ 600,000.00 as deposit to Chief Kakudi’s solicitor Balogun, who gave her a Deed of Assignment dated 26 April 2006 and registered as 48/48/06 at the Lands Registry, Abeokuta, Ogun State. Answer the following questions",
+            "question": "The sum of ₦ 600,000.00 paid by Mrs. Hushe Mati as deposit will have one of the following functions",
+            "options": {
+              "a": "Serves as a commitment on the part of Mrs. Hushe Mati",
+              "b": "Serves as a penalty paid by Mrs Hushe Mati",
+              "c": "Serves as a premium paid by Mrs. Hushe Mati",
+              "d": "All of the above"
+            },
+            "answer": "a",
+            "explanation": "A deposit is a commitment (security) by the purchaser that he will complete the transaction, and is usually about 10%. It is forfeited if the purchaser defaults. It is not meant as a penalty, since an excessive amount may be treated as a penalty, and it is not a premium."
+          },
+          {
+            "id": 10,
+            "context": "Miss Emen Kalabari who lived at No 2 Bungu Street, Rumuola, Lagos, in her will made on 2nd June 2025, nominated only her best friend Mrs Brown Lemia to liaise with her bank Citi Trust Plc and ensure the payment of her debtors, sell off her shares and give the proceeds to her mother. Miss Kalabari died 2nd December 2025. When the news of her death got to Mrs Lemia, she lost consciousness and died on 4th December 2025. Before her death Mrs Lemia in her own will appointed Mr Kemiko Aloba the sole executor of her will. Mr Kemiko obtained probate of the will of Mrs Lemia but all attempt by him to contact Citi bank on behalf of Miss Kalabari were resisted by miss Kalabari’s siblings. The six of her siblings thereafter applied for letters of administration to manage their late sister’s estate. Answer the following questions",
+            "question": "Mrs Brown Lemia can best be described as one of the following in the will of Miss Emen Kalabari?",
+            "options": {
+              "a": "Trustee",
+              "b": "Executrix",
+              "c": "Executor de son tort",
+              "d": "None of the above"
+            },
+            "answer": "b",
+            "explanation": "Mrs Lemia was nominated in Miss Kalabari's will to handle part of her affairs (liaise with the bank, collect debts, sell shares and pay over the proceeds). A person named in a will to administer the estate is an executor, and a female one is an executrix. Her role was limited to part of the estate, so she is a limited executrix (Executrix). She is not a trustee, and she did not intermeddle as an executor de son tort."
+          },
+          {
+            "id": 11,
+            "context": "Miss Emen Kalabari who lived at No 2 Bungu Street, Rumuola, Lagos, in her will made on 2nd June 2025, nominated only her best friend Mrs Brown Lemia to liaise with her bank Citi Trust Plc and ensure the payment of her debtors, sell off her shares and give the proceeds to her mother. Miss Kalabari died 2nd December 2025. When the news of her death got to Mrs Lemia, she lost consciousness and died on 4th December 2025. Before her death Mrs Lemia in her own will appointed Mr Kemiko Aloba the sole executor of her will. Mr Kemiko obtained probate of the will of Mrs Lemia but all attempt by him to contact Citi bank on behalf of Miss Kalabari were resisted by miss Kalabari’s siblings. The six of her siblings thereafter applied for letters of administration to manage their late sister’s estate. Answer the following questions",
+            "question": "Mr Kemiko Aloba can be qualified to execute the will of Miss Emen Kalabari only in one of the following cases  BONUS",
+            "options": {
+              "a": "If he was authorised to do so in the will of Mrs Brown Lemia",
+              "b": "If he had obtained probate of the will of Kemiko Aloba",
+              "c": "If he was a relative of Miss Emen Kalabari",
+              "d": "A & C above"
+            },
+            "answer": "bonus",
+            "explanation": "(Best guess: c) This is not directly covered in the course materials, so this answer is reasoned from the rules. Mrs Lemia died before obtaining probate of Miss Kalabari's will, so the chain of representation is broken (it is broken where the last executor fails to obtain probate) and Mr Kemiko, as her executor, does not step into Miss Kalabari's shoes. He could then act only by taking out letters of administration with the will annexed, and as a relative (next of kin) of the testatrix he could apply for the grant. The will of Mrs Lemia cannot authorise him over another person's estate."
+          },
+          {
+            "id": 12,
+            "context": "Miss Emen Kalabari who lived at No 2 Bungu Street, Rumuola, Lagos, in her will made on 2nd June 2025, nominated only her best friend Mrs Brown Lemia to liaise with her bank Citi Trust Plc and ensure the payment of her debtors, sell off her shares and give the proceeds to her mother. Miss Kalabari died 2nd December 2025. When the news of her death got to Mrs Lemia, she lost consciousness and died on 4th December 2025. Before her death Mrs Lemia in her own will appointed Mr Kemiko Aloba the sole executor of her will. Mr Kemiko obtained probate of the will of Mrs Lemia but all attempt by him to contact Citi bank on behalf of Miss Kalabari were resisted by miss Kalabari’s siblings. The six of her siblings thereafter applied for letters of administration to manage their late sister’s estate. Answer the following questions",
+            "question": "Assuming that Mr Kemiko Aloba died on 2 December 2025 one of the following would be the effect on the will of Miss Kalabari  BONUS",
+            "options": {
+              "a": "An alternate executor will be appointed by her family to execute the will",
+              "b": "There will be application for letters of administration with will annexed by her personal representatives",
+              "c": "A & D",
+              "d": "There will be break in the chain of representation"
+            },
+            "answer": "bonus",
+            "explanation": "(Best guess: b) This is not settled by a direct rule, so this answer is reasoned from general principle. If the executor dies before taking out probate, there is a break in the chain of representation, and the testatrix's personal representatives (next of kin or beneficiaries) apply for letters of administration with the will annexed. The family cannot simply appoint an executor, and option (d) describes the cause rather than the effect on the will. My best guess is (b)."
+          },
+          {
+            "id": 13,
+            "context": "Miss Emen Kalabari who lived at No 2 Bungu Street, Rumuola, Lagos, in her will made on 2nd June 2025, nominated only her best friend Mrs Brown Lemia to liaise with her bank Citi Trust Plc and ensure the payment of her debtors, sell off her shares and give the proceeds to her mother. Miss Kalabari died 2nd December 2025. When the news of her death got to Mrs Lemia, she lost consciousness and died on 4th December 2025. Before her death Mrs Lemia in her own will appointed Mr Kemiko Aloba the sole executor of her will. Mr Kemiko obtained probate of the will of Mrs Lemia but all attempt by him to contact Citi bank on behalf of Miss Kalabari were resisted by miss Kalabari’s siblings. The six of her siblings thereafter applied for letters of administration to manage their late sister’s estate. Answer the following questions",
+            "question": "Assuming Miss Kalabari married Chuka a month after making her will, one of the following would be correct about the will",
+            "options": {
+              "a": "The will will need the approval of the court before it may be enforceable",
+              "b": "The will would be revoked irrespective of the type of marriage they conducted",
+              "c": "The will would be revoked only if they contracted statutory marriage",
+              "d": "The will be deemed to be revived by Miss Kalabari"
+            },
+            "answer": "c",
+            "explanation": "A will is revoked by a subsequent marriage under the Marriage Act (s.18 Wills Act; s.11 Wills Law of Lagos). A marriage under native law and custom (including Islamic law) does not revoke a will (Jadesimi v Okotie-Eboh; Re Gay). So the will is revoked only if the marriage was a statutory marriage."
+          },
+          {
+            "id": 14,
+            "context": "Miss Emen Kalabari who lived at No 2 Bungu Street, Rumuola, Lagos, in her will made on 2nd June 2025, nominated only her best friend Mrs Brown Lemia to liaise with her bank Citi Trust Plc and ensure the payment of her debtors, sell off her shares and give the proceeds to her mother. Miss Kalabari died 2nd December 2025. When the news of her death got to Mrs Lemia, she lost consciousness and died on 4th December 2025. Before her death Mrs Lemia in her own will appointed Mr Kemiko Aloba the sole executor of her will. Mr Kemiko obtained probate of the will of Mrs Lemia but all attempt by him to contact Citi bank on behalf of Miss Kalabari were resisted by miss Kalabari’s siblings. The six of her siblings thereafter applied for letters of administration to manage their late sister’s estate. Answer the following questions",
+            "question": "Assuming Miss Kalabari married Chuka at the Abuja Marriage Registry one month after making the will, one of the following would be the fate of the will",
+            "options": {
+              "a": "The will would not be revoked if made in contemplation of marriage to Emenze but she ended up marrying Chuka",
+              "b": "The will would not be revoked if made in contemplation of marriage to Chuka and they both eventually married each other",
+              "c": "The will not fail if made for the benefit of her unborn children",
+              "d": "The will will not fail if made for the purpose of charity."
+            },
+            "answer": "b",
+            "explanation": "The Abuja Marriage Registry marriage is a statutory marriage, which revokes an earlier will, except where the will was made in contemplation of that particular marriage and the testator married the person named in the will (Re Langston; s.11 Wills Law). Marrying someone other than the person contemplated (Emenze) revokes it, and gifts to unborn children or charity are not an exception (the exceptions are listed in the notes)."
+          },
+          {
+            "id": 15,
+            "context": "Miss Emen Kalabari who lived at No 2 Bungu Street, Rumuola, Lagos, in her will made on 2nd June 2025, nominated only her best friend Mrs Brown Lemia to liaise with her bank Citi Trust Plc and ensure the payment of her debtors, sell off her shares and give the proceeds to her mother. Miss Kalabari died 2nd December 2025. When the news of her death got to Mrs Lemia, she lost consciousness and died on 4th December 2025. Before her death Mrs Lemia in her own will appointed Mr Kemiko Aloba the sole executor of her will. Mr Kemiko obtained probate of the will of Mrs Lemia but all attempt by him to contact Citi bank on behalf of Miss Kalabari were resisted by miss Kalabari’s siblings. The six of her siblings thereafter applied for letters of administration to manage their late sister’s estate. Answer the following questions",
+            "question": "Miss Kalabari may execute her will in all but one of the following ways:",
+            "options": {
+              "a": "By signing it personally in the joint presence of two witnesses",
+              "b": "By signing it in the absence of the witness and thereafter acknowledging her signature in the joint presence of two witnesses",
+              "c": "By signing it in the presence of one witness and later acknowledging her signature in the presence of the second witness",
+              "d": "By procuring another person to sign on her behalf in her presence and in the joint presence of two witnesses Mr. Amos Dadds died on January 10, 2026, leaving behind an estate in Lagos. He executed a Will in 2023, which was witnessed by his personal driver, Eliyya, and his cook, Sunday. In the Will, he bequeathed a duplex in Ikeja to Eliyya, and appointed his best friend, Dr. Alabi, and his first son, Samson Dadds, as Executors. Dr. Alabi, however, predeceased Mr. Amos Dadds Answer the following questions"
+            },
+            "answer": "c",
+            "explanation": "A will must be signed by the testator, or by another person in his presence and by his direction, in the presence of two witnesses present at the same time, or the testator acknowledges his signature before them at the same time (s.9 Wills Act). Acknowledging a signature before one witness and then later before the second does not satisfy the rule, because both witnesses must be present together."
+          },
+          {
+            "id": 16,
+            "context": "Miss Emen Kalabari who lived at No 2 Bungu Street, Rumuola, Lagos, in her will made on 2nd June 2025, nominated only her best friend Mrs Brown Lemia to liaise with her bank Citi Trust Plc and ensure the payment of her debtors, sell off her shares and give the proceeds to her mother. Miss Kalabari died 2nd December 2025. When the news of her death got to Mrs Lemia, she lost consciousness and died on 4th December 2025. Before her death Mrs Lemia in her own will appointed Mr Kemiko Aloba the sole executor of her will. Mr Kemiko obtained probate of the will of Mrs Lemia but all attempt by him to contact Citi bank on behalf of Miss Kalabari were resisted by miss Kalabari’s siblings. The six of her siblings thereafter applied for letters of administration to manage their late sister’s estate. Answer the following questions",
+            "question": "Which of the following is correct under the Wills Law of Lagos with regards to the validity of the gift to Eliyya?",
+            "options": {
+              "a": "The entire Will is invalid because a beneficiary witnessed it.",
+              "b": "The Will is valid, but the gift to Eliyya fails.",
+              "c": "The gift is valid because Eliyya is a loyal employee.",
+              "d": "The gift is valid only if Samson consents to it in writing."
+            },
+            "answer": "b",
+            "explanation": "Under the Wills Law of Lagos (s.8), a beneficiary who witnesses the will (or whose spouse does) loses his gift, but the will remains valid. The exception, where there are at least two other witnesses, does not apply as only Sunday witnessed the will besides Eliyya."
+          },
+          {
+            "id": 17,
+            "context": "Miss Emen Kalabari who lived at No 2 Bungu Street, Rumuola, Lagos, in her will made on 2nd June 2025, nominated only her best friend Mrs Brown Lemia to liaise with her bank Citi Trust Plc and ensure the payment of her debtors, sell off her shares and give the proceeds to her mother. Miss Kalabari died 2nd December 2025. When the news of her death got to Mrs Lemia, she lost consciousness and died on 4th December 2025. Before her death Mrs Lemia in her own will appointed Mr Kemiko Aloba the sole executor of her will. Mr Kemiko obtained probate of the will of Mrs Lemia but all attempt by him to contact Citi bank on behalf of Miss Kalabari were resisted by miss Kalabari’s siblings. The six of her siblings thereafter applied for letters of administration to manage their late sister’s estate. Answer the following questions",
+            "question": "What is the implication of Dr Alabi death on the will of Mr Amos Dadds?",
+            "options": {
+              "a": "The gift to Dr. Alabi lapses, and Samson must apply for Letters of Administration with Will Annexed.",
+              "b": "Samaon can act as the sole surviving executor.",
+              "c": "The court must appoint a replacement for Dr. Alabi before probate can be granted.",
+              "d": "The Will becomes intestate because the executors must be at least two."
+            },
+            "answer": "b",
+            "explanation": "Where two executors are named and one dies before the testator, the surviving executor can take probate and act alone. The will does not become intestate, and letters of administration with will annexed are needed only where no executor can act. The option names 'Samaon', a misspelling of Samson."
+          },
+          {
+            "id": 18,
+            "context": "Miss Emen Kalabari who lived at No 2 Bungu Street, Rumuola, Lagos, in her will made on 2nd June 2025, nominated only her best friend Mrs Brown Lemia to liaise with her bank Citi Trust Plc and ensure the payment of her debtors, sell off her shares and give the proceeds to her mother. Miss Kalabari died 2nd December 2025. When the news of her death got to Mrs Lemia, she lost consciousness and died on 4th December 2025. Before her death Mrs Lemia in her own will appointed Mr Kemiko Aloba the sole executor of her will. Mr Kemiko obtained probate of the will of Mrs Lemia but all attempt by him to contact Citi bank on behalf of Miss Kalabari were resisted by miss Kalabari’s siblings. The six of her siblings thereafter applied for letters of administration to manage their late sister’s estate. Answer the following questions",
+            "question": "If Samson Desires to prove the Will in Common Form, which of the following is a primary characteristic of the process?",
+            "options": {
+              "a": "It is conducted in open court with all caveats removed.",
+              "b": "It is used only when the Will is being contested by disgruntled heirs.",
+              "c": "It is an ex-parte application handled by the Probate Registrar.",
+              "d": "It requires the testimony of at least three expert handwriting analysts."
+            },
+            "answer": "c",
+            "explanation": "Probate in common form is the non-contentious grant, made on an ex parte application to the Probate Registrar, with no hearing in open court. Probate in solemn form is the one used where the will is contested, conducted in open court after caveats are cleared."
+          },
+          {
+            "id": 19,
+            "context": "Miss Emen Kalabari who lived at No 2 Bungu Street, Rumuola, Lagos, in her will made on 2nd June 2025, nominated only her best friend Mrs Brown Lemia to liaise with her bank Citi Trust Plc and ensure the payment of her debtors, sell off her shares and give the proceeds to her mother. Miss Kalabari died 2nd December 2025. When the news of her death got to Mrs Lemia, she lost consciousness and died on 4th December 2025. Before her death Mrs Lemia in her own will appointed Mr Kemiko Aloba the sole executor of her will. Mr Kemiko obtained probate of the will of Mrs Lemia but all attempt by him to contact Citi bank on behalf of Miss Kalabari were resisted by miss Kalabari’s siblings. The six of her siblings thereafter applied for letters of administration to manage their late sister’s estate. Answer the following questions",
+            "question": "Assuming Mr. Amos Dadds had married a new wife under the Marriage Act in 2024 (after the Will was written). What is the effect on the 2023 Will?",
+            "options": {
+              "a": "The Will remains valid in its entirety.",
+              "b": "Only the gifts to his children remain valid.",
+              "c": "The Will is revoked by operation of law.",
+              "d": "The Will is suspended until the new wife endorses it."
+            },
+            "answer": "c",
+            "explanation": "A subsequent statutory marriage under the Marriage Act revokes a will by operation of law (s.18 Wills Act; s.11 Wills Law of Lagos), whatever the testator's intention. None of the exceptions applies on these facts."
+          },
+          {
+            "id": 20,
+            "context": "Miss Emen Kalabari who lived at No 2 Bungu Street, Rumuola, Lagos, in her will made on 2nd June 2025, nominated only her best friend Mrs Brown Lemia to liaise with her bank Citi Trust Plc and ensure the payment of her debtors, sell off her shares and give the proceeds to her mother. Miss Kalabari died 2nd December 2025. When the news of her death got to Mrs Lemia, she lost consciousness and died on 4th December 2025. Before her death Mrs Lemia in her own will appointed Mr Kemiko Aloba the sole executor of her will. Mr Kemiko obtained probate of the will of Mrs Lemia but all attempt by him to contact Citi bank on behalf of Miss Kalabari were resisted by miss Kalabari’s siblings. The six of her siblings thereafter applied for letters of administration to manage their late sister’s estate. Answer the following questions",
+            "question": "To formally vest the legal title of the Ikeja duplex in a beneficiary after probate is granted, what document must Samson execute?",
+            "options": {
+              "a": "Deed of Assignment.",
+              "b": "A Vesting Order.",
+              "c": "An Assent.",
+              "d": "A Power of Attorney."
+            },
+            "answer": "c",
+            "explanation": "After probate, the executor vests the legal title in a beneficiary by an assent. A deed of assignment is used by a vendor, and a vesting order is a court order."
           }
         ]
       }
