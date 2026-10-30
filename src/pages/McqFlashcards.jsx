@@ -17,6 +17,7 @@ import {
   HiOutlineFlag,
   HiOutlineFolderOpen,
   HiOutlineMagnifyingGlass,
+  HiOutlineQuestionMarkCircle,
 } from "react-icons/hi2";
 
 const courseEntries = Object.entries(flashcards); // [[courseId, {courseName, decks}], ...]
@@ -33,6 +34,9 @@ const allCardsIndex = courseEntries.flatMap(([courseId, course]) =>
       deckIdx,
       cardIdx,
       card,
+      // Stable per-card identity (survives re-sorting/filtering), used by
+      // Random Card mode to track how many distinct cards have been seen.
+      seenKey: `${deck.id}-${cardIdx}`,
       // Pre-lowercased haystack for fast, case-insensitive matching.
       haystack: [card.category, card.question, ...(card.answer || []), card.source]
         .filter(Boolean)
@@ -42,10 +46,33 @@ const allCardsIndex = courseEntries.flatMap(([courseId, course]) =>
   )
 );
 
+// Total card count per course, for the Random Card progress counter's
+// denominator when scoped to a single course.
+const cardCountByCourse = Object.fromEntries(
+  courseEntries.map(([courseId, course]) => [
+    courseId,
+    course.decks.reduce((sum, deck) => sum + deck.cards.length, 0),
+  ])
+);
+
 function searchCards(query) {
   const q = query.trim().toLowerCase();
   if (!q) return [];
   return allCardsIndex.filter((entry) => entry.haystack.includes(q)).slice(0, 40);
+}
+
+// Picks a random card, either from the entire index (every course, every
+// week) or, when courseId is given, scoped to just that course's cards
+// (still spanning every week/deck within it). Avoids immediately repeating
+// the same card twice in a row where possible.
+function pickRandomCard(excludeIndex, courseId) {
+  const pool = courseId ? allCardsIndex.filter((e) => e.courseId === courseId) : allCardsIndex;
+  if (pool.length <= 1) return pool[0] ?? null;
+  let next;
+  do {
+    next = pool[Math.floor(Math.random() * pool.length)];
+  } while (excludeIndex != null && next === excludeIndex);
+  return next;
 }
 
 // Wraps the first match of `query` in the given text with a <mark>-style
@@ -527,6 +554,285 @@ function DeckPlayer({ deck, courseName, isDarkMode, onBack, startCardIdx }) {
   );
 }
 
+// Standalone mode: one random card drawn from every course and every week,
+// reveal it, answer it, then draw another random one — repeat indefinitely.
+// Unlike DeckPlayer, there is no deck/category scoping and no got/miss
+// tracking; it's a pure shuffle-and-recall loop across the whole bank.
+// Progress ("X of N seen") persists in localStorage per scope (global, or
+// per course), so leaving and returning to Random Card keeps the count —
+// it resets only if the user explicitly resets it.
+const seenStorageKey = (courseId) => `mcq-random-card-seen:${courseId ?? "all"}`;
+
+function loadSeenSet(courseId) {
+  try {
+    const raw = localStorage.getItem(seenStorageKey(courseId));
+    return raw ? new Set(JSON.parse(raw)) : new Set();
+  } catch {
+    return new Set();
+  }
+}
+
+function saveSeenSet(courseId, set) {
+  try {
+    localStorage.setItem(seenStorageKey(courseId), JSON.stringify([...set]));
+  } catch {
+    // localStorage unavailable — progress just won't persist across visits
+  }
+}
+
+function RandomCardMode({ isDarkMode, onBack, courseId, courseName: scopedCourseName }) {
+  const [entry, setEntry] = useState(() => pickRandomCard(null, courseId));
+  const [shown, setShown] = useState(false);
+  const [typedAnswer, setTypedAnswer] = useState("");
+  const [reportModalOpen, setReportModalOpen] = useState(false);
+  const { submitQuestionReport, isSubmitting } = useCreateQuestionReport();
+  const [seenSet, setSeenSet] = useState(() => {
+    const s = loadSeenSet(courseId);
+    if (entry) s.add(entry.seenKey);
+    return s;
+  });
+  const totalForScope = courseId ? cardCountByCourse[courseId] : allCardsIndex.length;
+
+  useEffect(() => {
+    saveSeenSet(courseId, seenSet);
+  }, [seenSet, courseId]);
+
+  const resetProgress = () => {
+    const fresh = new Set();
+    if (entry) fresh.add(entry.seenKey);
+    setSeenSet(fresh);
+  };
+
+  const drawAnother = () => {
+    setEntry((prev) => {
+      const next = pickRandomCard(prev, courseId);
+      if (next) setSeenSet((s) => new Set(s).add(next.seenKey));
+      return next;
+    });
+    setShown(false);
+    setTypedAnswer("");
+  };
+
+  const handleSubmitReport = (reportData) => {
+    submitQuestionReport(reportData, {
+      onSuccess: () => setReportModalOpen(false),
+    });
+  };
+
+  useEffect(() => {
+    const onKeyDown = (e) => {
+      const tag = e.target?.tagName;
+      if (tag === "TEXTAREA" || tag === "INPUT" || e.target?.isContentEditable) return;
+      if (e.code === "Space") {
+        e.preventDefault();
+        if (!shown) setShown(true);
+      } else if (e.key === "ArrowRight" || e.key === "Enter") {
+        drawAnother();
+      }
+    };
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [shown, entry]);
+
+  if (!entry) {
+    return (
+      <div className="px-3 sm:px-6 py-5 sm:py-6 max-w-3xl mx-auto text-center">
+        <p className={isDarkMode ? "text-dark-300" : "text-gray-600"}>
+          No flashcards available{scopedCourseName ? ` for ${scopedCourseName}` : ""}.
+        </p>
+        <button onClick={onBack} className="mt-4 text-primary-500 font-semibold">
+          Back to decks
+        </button>
+      </div>
+    );
+  }
+
+  const { card, courseName, deck } = entry;
+
+  return (
+    <div className="px-3 sm:px-6 py-5 sm:py-6 max-w-3xl mx-auto">
+      <button
+        onClick={onBack}
+        className={`flex items-center gap-2 mb-4 text-sm font-medium transition-colors ${
+          isDarkMode ? "text-dark-400 hover:text-white" : "text-gray-500 hover:text-gray-900"
+        }`}
+      >
+        <HiOutlineArrowLeft className="w-4 h-4" />
+        Back to decks
+      </button>
+
+      <h1 className={`text-xl sm:text-2xl font-bold mb-1 ${isDarkMode ? "text-white" : "text-gray-900"}`}>
+        Random Card{scopedCourseName ? ` — ${scopedCourseName}` : ""}
+      </h1>
+      <p className={`text-xs sm:text-sm mb-2 ${isDarkMode ? "text-dark-400" : "text-gray-500"}`}>
+        {scopedCourseName
+          ? `One random card from any week in ${scopedCourseName}. Try to answer out loud or on paper before revealing.`
+          : "One random card from any course, any week. Try to answer out loud or on paper before revealing."}
+      </p>
+
+      {/* Progress counter — how many distinct cards drawn so far in this
+          scope, out of the total available. Persists across visits via
+          localStorage; "Reset" starts the count over. */}
+      <div className="flex items-center justify-between gap-2 mb-4">
+        <span className={`text-xs sm:text-sm font-semibold ${isDarkMode ? "text-primary-400" : "text-primary-600"}`}>
+          {seenSet.size} of {totalForScope} seen
+        </span>
+        <button
+          onClick={resetProgress}
+          className={`text-[11px] sm:text-xs font-medium transition-colors ${
+            isDarkMode ? "text-dark-500 hover:text-dark-300" : "text-gray-400 hover:text-gray-600"
+          }`}
+        >
+          Reset count
+        </button>
+      </div>
+
+      <div
+        className={`relative overflow-hidden rounded-2xl border p-5 sm:p-7 min-h-[280px] flex flex-col shadow-xl ${
+          isDarkMode ? "bg-dark-800/70 border-dark-700 shadow-black/20" : "bg-white border-gray-200 shadow-gray-200/60"
+        }`}
+      >
+        <div className={`absolute -top-10 -right-10 w-40 h-40 rounded-full blur-3xl pointer-events-none bg-primary-500/10`} />
+        <div className="relative flex flex-wrap items-center gap-1.5 mb-4">
+          <span className="px-2.5 py-1 rounded-full text-[11px] sm:text-xs font-semibold bg-primary-500/15 text-primary-500">
+            {courseName}
+          </span>
+          <span
+            className={`px-2.5 py-1 rounded-full text-[11px] sm:text-xs font-semibold ${
+              isDarkMode ? "bg-dark-700 text-dark-300" : "bg-gray-100 text-gray-600"
+            }`}
+          >
+            {deck.title}
+          </span>
+          <span className={`text-[11px] sm:text-xs font-medium ${isDarkMode ? "text-dark-500" : "text-gray-400"}`}>
+            {card.category}
+          </span>
+        </div>
+        <p className={`relative text-base sm:text-xl font-semibold leading-relaxed ${isDarkMode ? "text-white" : "text-gray-900"}`}>
+          {card.question}
+        </p>
+
+        {shown ? (
+          <div
+            className={`relative mt-5 pt-4 border-t border-dashed animate-fade-in ${
+              isDarkMode ? "border-dark-600" : "border-gray-300"
+            }`}
+          >
+            {typedAnswer.trim() && (
+              <div className={`mb-3.5 rounded-xl border p-3 ${isDarkMode ? "bg-dark-900/60 border-dark-600" : "bg-gray-50 border-gray-200"}`}>
+                <p className={`text-[10px] font-semibold uppercase tracking-wide mb-1 ${isDarkMode ? "text-dark-500" : "text-gray-400"}`}>
+                  Your answer
+                </p>
+                <p className={`text-sm whitespace-pre-wrap leading-relaxed ${isDarkMode ? "text-dark-300" : "text-gray-600"}`}>
+                  {typedAnswer}
+                </p>
+              </div>
+            )}
+            <ul className="space-y-1.5">
+              {card.answer.map((point, i) => (
+                <li key={i} className="flex gap-2 text-sm leading-relaxed">
+                  <span className={`mt-1.5 w-1 h-1 rounded-full flex-shrink-0 ${isDarkMode ? "bg-primary-400" : "bg-primary-500"}`} />
+                  <span className={isDarkMode ? "text-dark-200" : "text-gray-700"}>{point}</span>
+                </li>
+              ))}
+            </ul>
+            <div className="flex items-center justify-between gap-2 mt-3.5 flex-wrap">
+              {card.source ? (
+                <p className={`text-[11px] ${isDarkMode ? "text-dark-500" : "text-gray-400"}`}>
+                  Source: {card.source}
+                </p>
+              ) : (
+                <span />
+              )}
+              <button
+                onClick={() => setReportModalOpen(true)}
+                className={`flex items-center gap-1 text-[11px] font-medium transition-colors flex-shrink-0 ${
+                  isDarkMode ? "text-dark-500 hover:text-red-400" : "text-gray-400 hover:text-red-500"
+                }`}
+              >
+                <HiOutlineFlag className="w-3.5 h-3.5" />
+                Report this card
+              </button>
+            </div>
+            {deck.preClassUrl && card.source?.toLowerCase().includes("pre-class") && (
+              <a
+                href={deck.preClassUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`mt-2 inline-flex items-center gap-1.5 text-[11px] font-semibold transition-colors ${
+                  isDarkMode ? "text-primary-400 hover:text-primary-300" : "text-primary-600 hover:text-primary-700"
+                }`}
+              >
+                <HiOutlineFolderOpen className="w-3.5 h-3.5" />
+                View pre-class material
+              </a>
+            )}
+          </div>
+        ) : (
+          <div className="relative mt-5 flex-1 flex flex-col">
+            <label className={`text-[11px] font-semibold uppercase tracking-wide mb-1.5 ${isDarkMode ? "text-dark-500" : "text-gray-400"}`}>
+              Type your answer (optional)
+            </label>
+            <textarea
+              value={typedAnswer}
+              onChange={(e) => setTypedAnswer(e.target.value)}
+              placeholder="Jot down what you recall, then reveal to check yourself..."
+              rows={3}
+              className={`w-full px-3 py-2.5 rounded-xl border text-sm transition-colors outline-none resize-none focus:ring-2 focus:ring-primary-500/30 ${
+                isDarkMode
+                  ? "bg-dark-900/50 border-dark-600 text-white placeholder:text-dark-500"
+                  : "bg-gray-50 border-gray-200 text-gray-900 placeholder:text-gray-400"
+              }`}
+            />
+            <p className={`mt-auto pt-3 text-center text-xs italic ${isDarkMode ? "text-dark-500" : "text-gray-400"}`}>
+              Recall your answer first, then reveal — we'll show it next to the real answer so you can self-mark.
+            </p>
+          </div>
+        )}
+      </div>
+
+      <div className="flex gap-2.5 mt-3.5">
+        {shown ? (
+          <button
+            onClick={drawAnother}
+            className="flex-1 py-3 rounded-xl text-sm font-semibold bg-primary-500 hover:bg-primary-600 text-white transition-colors flex items-center justify-center gap-1.5 shadow-lg shadow-primary-500/20"
+          >
+            <HiOutlineArrowPath className="w-4 h-4" />
+            Next random card
+          </button>
+        ) : (
+          <button
+            onClick={() => setShown(true)}
+            className="flex-1 py-3 rounded-xl text-sm font-semibold bg-primary-500 hover:bg-primary-600 text-white transition-colors shadow-lg shadow-primary-500/20"
+          >
+            Show answer
+          </button>
+        )}
+      </div>
+
+      <QuestionReportModal
+        isDarkMode={isDarkMode}
+        isOpen={reportModalOpen}
+        onClose={() => setReportModalOpen(false)}
+        onSubmit={handleSubmitReport}
+        isSubmitting={isSubmitting}
+        answerFormat="text"
+        question={{
+          id: `${deck.id}-${entry.cardIdx}`,
+          questionNumber: null,
+          question: card.question,
+        }}
+        quizContext={{
+          quizType: "flashcard",
+          examSession: deck.title,
+          courseName,
+        }}
+      />
+    </div>
+  );
+}
+
 function McqFlashcards() {
   const { isDarkMode } = useTheme();
   const navigate = useNavigate();
@@ -535,6 +841,7 @@ function McqFlashcards() {
   const [activeDeckCourseName, setActiveDeckCourseName] = useState(null);
   const [startCardIdx, setStartCardIdx] = useState(null);
   const [searchQuery, setSearchQuery] = useState("");
+  const [randomMode, setRandomMode] = useState(false);
 
   const searchResults = useMemo(() => searchCards(searchQuery), [searchQuery]);
 
@@ -544,6 +851,21 @@ function McqFlashcards() {
     setStartCardIdx(result.cardIdx);
     setActiveDeck(result.deck);
   };
+
+  if (randomMode) {
+    // randomMode is either `true` (global, every course) or a courseId
+    // string (scoped to just that course, every week within it).
+    const scopedCourseId = typeof randomMode === "string" ? randomMode : null;
+    const scopedCourseName = scopedCourseId ? flashcards[scopedCourseId]?.courseName : null;
+    return (
+      <RandomCardMode
+        isDarkMode={isDarkMode}
+        onBack={() => setRandomMode(false)}
+        courseId={scopedCourseId}
+        courseName={scopedCourseName}
+      />
+    );
+  }
 
   if (activeDeck) {
     return (
@@ -575,16 +897,25 @@ function McqFlashcards() {
           <HiOutlineArrowLeft className="w-4 h-4" />
           Back to Dashboard
         </button>
-        <div className="flex items-center gap-2.5 sm:gap-3">
-          <div className="p-1.5 sm:p-2 bg-amber-500/20 rounded-xl">
-            <HiOutlineBolt className="w-6 h-6 sm:w-7 sm:h-7 text-amber-500" />
+        <div className="flex items-start sm:items-center justify-between gap-3 flex-wrap">
+          <div className="flex items-center gap-2.5 sm:gap-3">
+            <div className="p-1.5 sm:p-2 bg-amber-500/20 rounded-xl">
+              <HiOutlineBolt className="w-6 h-6 sm:w-7 sm:h-7 text-amber-500" />
+            </div>
+            <div>
+              <h1 className="text-xl sm:text-2xl font-bold text-primary-500">Flashcards</h1>
+              <p className={`text-xs sm:text-sm ${isDarkMode ? "text-dark-400" : "text-gray-500"}`}>
+                Active recall decks — try to answer before revealing, then mark what you still need to review
+              </p>
+            </div>
           </div>
-          <div>
-            <h1 className="text-xl sm:text-2xl font-bold text-primary-500">Flashcards</h1>
-            <p className={`text-xs sm:text-sm ${isDarkMode ? "text-dark-400" : "text-gray-500"}`}>
-              Active recall decks — try to answer before revealing, then mark what you still need to review
-            </p>
-          </div>
+          <button
+            onClick={() => setRandomMode(true)}
+            className="flex items-center gap-1.5 px-3.5 py-2.5 rounded-xl text-xs sm:text-sm font-semibold bg-primary-500 hover:bg-primary-600 text-white transition-colors shadow-lg shadow-primary-500/20 flex-shrink-0"
+          >
+            <HiOutlineQuestionMarkCircle className="w-4 h-4" />
+            Random Card
+          </button>
         </div>
       </div>
 
@@ -742,6 +1073,22 @@ function McqFlashcards() {
           );
         })}
       </div>
+
+      {/* Course-scoped random card — pulls from any week within just this
+          course, unlike the header's Random Card which spans every course. */}
+      {activeCourse && activeCourse.decks.length > 0 && (
+        <button
+          onClick={() => setRandomMode(activeCourseId)}
+          className={`w-full flex items-center justify-center gap-2 mb-4 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold border transition-colors ${
+            isDarkMode
+              ? "bg-dark-800/60 border-dark-700 text-dark-200 hover:border-primary-500/50"
+              : "bg-white border-gray-200 text-gray-700 hover:border-primary-300"
+          }`}
+        >
+          <HiOutlineQuestionMarkCircle className="w-4 h-4 text-primary-500" />
+          Random Card — {activeCourse.courseName} only
+        </button>
+      )}
 
       {/* Deck list for active course */}
       {!activeCourse || activeCourse.decks.length === 0 ? (
